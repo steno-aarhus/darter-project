@@ -1,14 +1,13 @@
 ---
-title: "Danish Diabetes Academy Postdoctoral Fellowship"
+title: "The metabolic consequences of adverse early life conditions and subsequent risk for adult type 2 diabetes"
+author:
+    - Luke w. Johnston
 bibliography: "resources/refs.bib"
 csl: "resources/vancouver.csl"
 fontsize: 12pt
 papersize: a4
 geometry: margin=2cm
 output: 
-    pdf_document: default
-    odt_document:
-        reference_odt: resources/template.odt
     html_document:
         self_contained: true
         theme: journal
@@ -18,18 +17,77 @@ output:
             smooth_scroll: false
 ---
 
-# 0. Title page
+<!-- OUTLINE -->
 
-**Project title**: 
+# Background and rationale
 
-The metabolic consequences of adverse early life conditions and subsequent risk
-for adult type 2 diabetes
+## Main research question
 
-**Applicant**: 
+## Objectives
 
-Luke W. Johnston
+## Hypotheses
 
-\newpage\newpage
+# Research design and methods
+
+## Variables
+
+- Explanatory variables
+
+- Outcome variables
+
+- Confounding variables
+
+## Inclusion and exclusion criteria
+
+## Data sources
+
+- Include diagram of different data sources, variables, sample sizes, etc
+
+### Registries
+
+#### Assessment of variables
+
+#### Complete list of actual variables used
+
+### Cohorts
+
+#### Complete list of actual variables used
+
+#### Assessment of variables
+
+## Data storage and security
+
+## Ethical review
+
+## Data processing and analysis
+
+### Pre-analysis processing
+
+- Data cleaning steps
+- Plan to publish code for processing
+
+### Data linkage steps
+
+### Loss to follow-up
+
+# Discussion
+
+## Limitations
+
+## Potential sources of bias
+
+### Measurement biases and errors
+
+- How to test assumptions about a variable
+
+### Misclassification bias
+
+### Unmeasured confounding
+
+### Missing data
+
+### Changing eligibility
+
 
 # 1. Abstract
 
