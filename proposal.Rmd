@@ -39,6 +39,16 @@ output:
 
 ## Inclusion and exclusion criteria
 
+TODO: Insert Lexis diagram
+
+Those born between 1920 and 1965 could hypothetically be included in the diabetes
+register for those older than 30 at the time the register was created. This would
+represent the "closed cohort".
+
+Those born between 1965 and 1990 could potentially be included in the diabetes
+register since its creation and assuming minimum age for T2D is 30 or older.
+This cohort and those from the "closed cohort" would both make up the "open cohort".
+
 ## Data sources
 
 - Include diagram of different data sources, variables, sample sizes, etc
