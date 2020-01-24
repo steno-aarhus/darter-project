@@ -11,6 +11,7 @@ digraph {
         rank = same;
         migration [label = "Immigration \n (e.g. esp. as refugee)"]
         area_deprivation [label = "Neighbourhood area \n deprivation"]
+        social_housing [label = "Lived in \n social housing"]
     }
 
     {
