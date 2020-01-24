@@ -19,87 +19,7 @@ output:
 
 <!-- OUTLINE -->
 
-# Background and rationale
-
-## Main research question
-
-## Objectives
-
-## Hypotheses
-
-# Research design and methods
-
-## Variables
-
-- Explanatory variables
-
-- Outcome variables
-
-- Confounding variables
-
-## Inclusion and exclusion criteria
-
-TODO: Insert Lexis diagram
-
-Those born between 1920 and 1965 could hypothetically be included in the diabetes
-register for those older than 30 at the time the register was created. This would
-represent the "closed cohort".
-
-Those born between 1965 and 1990 could potentially be included in the diabetes
-register since its creation and assuming minimum age for T2D is 30 or older.
-This cohort and those from the "closed cohort" would both make up the "open cohort".
-
-## Data sources
-
-- Include diagram of different data sources, variables, sample sizes, etc
-
-### Registries
-
-#### Assessment of variables
-
-#### Complete list of actual variables used
-
-### Cohorts
-
-#### Complete list of actual variables used
-
-#### Assessment of variables
-
-## Data storage and security
-
-## Ethical review
-
-## Data processing and analysis
-
-### Pre-analysis processing
-
-- Data cleaning steps
-- Plan to publish code for processing
-
-### Data linkage steps
-
-### Loss to follow-up
-
-# Discussion
-
-## Limitations
-
-## Potential sources of bias
-
-### Measurement biases and errors
-
-- How to test assumptions about a variable
-
-### Misclassification bias
-
-### Unmeasured confounding
-
-### Missing data
-
-### Changing eligibility
-
-
-# 1. Abstract
+# Abstract
 
 Early life adversity is known to influence the risk for adult cardiometabolic
 diseases such as type 2 diabetes (T2D); however, how metabolic processes mediate
@@ -123,26 +43,7 @@ insight into how more effective public health strategies could be created for
 T2D prevention and how more precise clinical decisions could be made for T2D
 management in those exposed to early life adversity.
 
-\newpage\newpage
-
-# 2. Research plan
-
-## Specific aims
-
-The overarching goal for my project is to better quantify and understand the
-impact that early life conditions have on adult metabolic capacity and the risk
-for incident T2D in adulthood. There are three primary objectives (O):
-
-1. O1 is to investigate how specific early life conditions affect the risk of
-T2D in adulthood at the level of an entire country (Denmark).
-2. O2 is to identify the mediating pathways that adult metabolic capacity may
-have between exposure to adversity in early life and risk for incident T2D.
-3. O3 is to extend and generalise the statistical algorithm NetCoupler
-(currently in development at: https://github.com/ClemensWittenbecher/NetCoupler)
-that estimates direct and mediating pathways in high dimensional metabolic data
-(e.g. metabolomics); this technique is required to complete O2.
-
-## Background and significance of the project to the research area
+# Background and rationale
 
 Early life adversity is known to influence the risk for chronic cardiometabolic
 diseases such as type 2 diabetes (T2D) in later adulthood. Early life, typically
@@ -199,7 +100,26 @@ the potential to fully exploit these complex, high-dimensional datasets.
 knitr::include_graphics("resources/fig-overview-bio.png", dpi = "retina")
 ```
 
-## Research design and methods
+## Main research question
+
+The overarching goal for my project is to better quantify and understand the
+impact that early life conditions have on adult metabolic capacity and the risk
+for incident T2D in adulthood. There are three primary objectives (O):
+
+## Objectives
+
+1. O1 is to investigate how specific early life conditions affect the risk of
+T2D in adulthood at the level of an entire country (Denmark).
+2. O2 is to identify the mediating pathways that adult metabolic capacity may
+have between exposure to adversity in early life and risk for incident T2D.
+3. O3 is to extend and generalise the statistical algorithm NetCoupler
+(currently in development at: https://github.com/ClemensWittenbecher/NetCoupler)
+that estimates direct and mediating pathways in high dimensional metabolic data
+(e.g. metabolomics); this technique is required to complete O2.
+
+## Hypotheses
+
+# Research design and methods
 
 O1 will answer: a) how individual components of early life conditions compare in
 their contributions to T2D risk, b) how subtler forms of adversity (e.g.
@@ -221,7 +141,8 @@ Environment and Health (BERTHA), coordinated by Professor Clive Sabel at Aarhus
 University, was recently initiated. BERTHA aims to build an infrastructure and
 support network for working with, using, and linking the register databases to
 other data sources to study a wide variety of exposures and their influence on
-health. I will be collaborating with BERTHA researchers and the center to assist
+health. I 
+will be collaborating with BERTHA researchers and the center to assist
 me with O1 and O2.
 
 To analyse the register data for O1, I will use a technique known as Lexis
@@ -252,25 +173,6 @@ Witte is on the steering committee). The cohorts contain metabolomics data, a
 spectrum of fatty acids, inflammatory markers, and standard metabolic variables
 (e.g. lipoproteins and triacylglycerides).
 
-```{r registers_cohorts_table, results='asis', echo=FALSE}
-measures <- tibble::tribble(
-    ~Dataset, ~Variables, ~`Sample size`,
-    "National Diabetes Register, National Patient Register, Register of Causes of Death", "Disease and T2D diagnoses, death of participant, death of parent during childhood", "Entire Danish population, data on T2D from 1995",
-    "", "", "",
-    "Civil Registration, Population's Education Register, Income Statistics Register, Building and Housing Register", "Parental ID, early life/parental socioeconomic data (education, occupation, income), adult socioeconomic data", "Entire Danish population with fairly complete data from 1960s",
-    "", "", "",
-    "DCH-NG and original DCH, ADDITION-DK, EPIC-InterAct for Denmark", "Metabolic profile, lipidomics, metabolomics, and other detailed phenotyping", "~1500 to 55000"
-)
-
-pander::pandoc.table(measures,
-  justify = "left",
-  style = "rmarkdown",
-  missing = "",
-  split.tables = Inf,
-  caption = "Examples of variables contained within registers and cohorts that will be used in this project [@Thygesen2011a;@Carstensen2011a;@Pedersen2011a;@Lauritzen2000a;@Consortium2011a;@Tjoenneland2007a]."
-)
-```
-
 The specific steps for O2 are to: 1) link the cohort metabolic data to the
 registers; 2) extract and characterise the early life adversity variables; 3)
 extract and characterise the disease incidence data; and, 4) use the NetCoupler
@@ -300,6 +202,79 @@ T2D [@Wittenbecher2017a]. It iterates through multiple possible DAGs to find
 whether a set of pathways in a metabolomics network are most likely to have a
 causal link with disease incidence.
 
+## Variables
+
+- Explanatory variables
+
+- Outcome variables
+
+- Confounding variables
+
+## Inclusion and exclusion criteria
+
+TODO: Insert Lexis diagram
+
+Those born between 1920 and 1965 could hypothetically be included in the diabetes
+register for those older than 30 at the time the register was created. This would
+represent the "closed cohort".
+
+Those born between 1965 and 1990 could potentially be included in the diabetes
+register since its creation and assuming minimum age for T2D is 30 or older.
+This cohort and those from the "closed cohort" would both make up the "open cohort".
+
+## Data sources
+
+- Include diagram of different data sources, variables, sample sizes, etc
+
+### Registries
+
+```{r registers_cohorts_table, results='asis', echo=FALSE}
+measures <- tibble::tribble(
+    ~Dataset, ~Variables, ~`Sample size`,
+    "National Diabetes Register, National Patient Register, Register of Causes of Death", "Disease and T2D diagnoses, death of participant, death of parent during childhood", "Entire Danish population, data on T2D from 1995",
+    "", "", "",
+    "Civil Registration, Population's Education Register, Income Statistics Register, Building and Housing Register", "Parental ID, early life/parental socioeconomic data (education, occupation, income), adult socioeconomic data", "Entire Danish population with fairly complete data from 1960s",
+    "", "", "",
+    "DCH-NG and original DCH, ADDITION-DK, EPIC-InterAct for Denmark", "Metabolic profile, lipidomics, metabolomics, and other detailed phenotyping", "~1500 to 55000"
+)
+
+pander::pandoc.table(measures,
+  justify = "left",
+  style = "rmarkdown",
+  missing = "",
+  split.tables = Inf,
+  caption = "Examples of variables contained within registers and cohorts that will be used in this project [@Thygesen2011a;@Carstensen2011a;@Pedersen2011a;@Lauritzen2000a;@Consortium2011a;@Tjoenneland2007a]."
+)
+```
+
+
+#### Assessment of variables
+
+#### Complete list of actual variables used
+
+### Cohorts
+
+#### Complete list of actual variables used
+
+#### Assessment of variables
+
+## Data storage and security
+
+## Ethical review
+
+## Data processing and analysis
+
+### Pre-analysis processing
+
+- Data cleaning steps
+- Plan to publish code for processing
+
+### Data linkage steps
+
+### Loss to follow-up
+
+# Discussion
+
 This approach is necessary for a few reasons. First, quantifying the
 contributions of individual variables in high-dimensional data that includes
 exposures and outcomes requires a method that considers the inherent
@@ -309,25 +284,23 @@ association between metabolic variables, early life factors, and T2D from the
 graph is vital to appropriately infer biological links, and to ultimately reach
 an inference about the causal structure behind observed associations.
 
-Therefore, O3 is to develop, extend, and refine NetCoupler into a usable
-software package, completed under an open and reproducible scientific framework.
-This O3 can be found online (https://github.com/ClemensWittenbecher/NetCoupler),
-where development will publicly occur. This project builds on the idea that
-developing methodological tools (O3) is most likely to succeed in direct
-conjunction with its application to a specific research question (O2).
+## Limitations
 
-To make the algorithm usable for other research purposes, we plan on
-generalising the algorithm and bundling it as an R (a statistical programming
-language) software package. Once generalised, we will validate it against
-simulated data and then convert it into reusable software. As O2 will contain a
-large sample size and very high dimensional data, I will monitor and optimise
-the computational performance of NetCoupler. I intend on having multiple
-research visits to DIfE in Potsdam during the project, totalling 3-5 months, to
-work intensively and closely with Dr Wittenbecher on NetCoupler. In-person
-visits tend to be much more efficient and productive, especially when
-encountering and solving problems. The visits will also greatly expand my
-research network and introduce me to a top research institute and top European
-chronic disease epidemiologists.
+## Potential sources of bias
+
+### Measurement biases and errors
+
+- How to test assumptions about a variable
+
+### Misclassification bias
+
+### Unmeasured confounding
+
+### Missing data
+
+### Changing eligibility
+
+# Conclusion
 
 The rise of the digital era and of big data has presented a number of
 challenges and opportunities to modern epidemiology. While big data offers
@@ -344,4 +317,4 @@ long-chain, saturated fatty acids) or more (or less) of specific metabolites
 in metabolism could be used as targets for individual level prevention or
 management in those exposed to adversity in early life.
 
-## Literature cited
+## References
