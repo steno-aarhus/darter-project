@@ -33,8 +33,20 @@ text_description <- function(text, x, y) {
     geom_text(aes(x = x, y = y, label = text), hjust = "left")
 }
 
-arrow_line <- function(start, end) {
-
+horizontal_arrow <- function(y, xstart, xend) {
+    geom_segment(
+        aes(
+            x = xstart,
+            xend = xend,
+            y = y,
+            yend = y
+        ),
+        arrow = grid::arrow(
+            angle = 25,
+            length = grid::unit(0.20, "cm"),
+            type = "closed"
+        )
+    )
 }
 
 ggplot() +
@@ -43,6 +55,7 @@ ggplot() +
     vertical_lines(1995) +
     # Available parental CPR data
     vertical_lines(1960) +
+    horizontal_arrow(80, 1960, 1965) +
     # Minimum age of diabetes diagnosis
     horizontal_lines(30) +
     # Early childhood phase age
