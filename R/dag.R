@@ -1,23 +1,33 @@
 
 library(magrittr)
 
-grviz_to_svg <- function(gv_file) {
-    svg_file <- stringr::str_replace(gv_file, "\\.gv$", ".svg")
+grviz_to_svg <- function(gv_file, .save = FALSE) {
     svg_output <- DiagrammeR::grViz(gv_file) %>%
         DiagrammeRsvg::export_svg() %>%
         charToRaw()
 
-    rsvg::rsvg_svg(svg_output, file = svg_file)
-    svg_output
+    svg_file <- fs::path_ext_set(gv_file, "svg") %>%
+        fs::path_file()
+
+    if (.save) {
+        rsvg::rsvg_svg(svg_output,
+                       file = here::here("images", svg_file))
+        return(invisible())
+    }
+    return(svg_output)
 }
-grviz_to_png <- function(gv_file, height) {
-    png_file <- stringr::str_replace(gv_file, "\\.gv$", ".png")
+
+grviz_to_png <- function(gv_file, height, width) {
     png_output <- grviz_to_svg(gv_file)
 
+    png_file <- fs::path_ext_set(gv_file, "png") %>%
+        fs::path_file()
     png_output %>%
-        rsvg::rsvg_png(png_file, height = height)
+        rsvg::rsvg_png(here::here("images", png_file),
+                       height = height, width = width)
+
+    return(invisible())
 }
 
-grviz_to_png("_includes/fig-overview-bio.gv", height = 400)
-grviz_to_png("_includes/fig-overview-wp.gv", height = 300)
-
+grviz_to_png(here::here("R/dag.gv"), height = 600, width = 1200)
+grviz_to_svg(here::here("R/dag.gv"), .save = TRUE)
