@@ -1,25 +1,27 @@
----
+--- 
 title: "The metabolic consequences of adverse early life conditions and subsequent risk for adult type 2 diabetes"
 author:
     - Luke w. Johnston
-bibliography: "resources/refs.bib"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [resources/refs.bib, resources/packages.bib]
+biblio-style: apalike
 csl: "resources/vancouver.csl"
-fontsize: 12pt
-papersize: a4
-geometry: margin=2cm
-output: 
-    html_document:
-        self_contained: true
-        theme: journal
-        toc: true
-        toc_float:
-            collapsed: false
-            smooth_scroll: false
+link-citations: yes
+description: "Protocol for the MELD Project"
 ---
 
-<!-- OUTLINE -->
+```{r, include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), here::here('resources/packages.bib'))
+```
 
-# Abstract
+# Study Protocol
+
+## Abstract
 
 Early life adversity is known to influence the risk for adult cardiometabolic
 diseases such as type 2 diabetes (T2D); however, how metabolic processes mediate
@@ -43,7 +45,7 @@ insight into how more effective public health strategies could be created for
 T2D prevention and how more precise clinical decisions could be made for T2D
 management in those exposed to early life adversity.
 
-# Background and rationale
+## Background and rationale
 
 Early life adversity is known to influence the risk for chronic cardiometabolic
 diseases such as type 2 diabetes (T2D) in later adulthood. Early life, typically
@@ -97,16 +99,16 @@ epidemiology [@Pearl2010b;@Richmond2014a;@laBastide-vanGemert2014a], and pathway
 the potential to fully exploit these complex, high-dimensional datasets.
 
 ```{r fig_overview_bio, fig.cap="Some possible, hypothetical pathways underlying early life factors and T2D.", fig.align='center', out.width='60%', echo=FALSE}
-knitr::include_graphics("resources/fig-overview-bio.png", dpi = "retina")
+knitr::include_graphics("images/dag.png", dpi = "retina")
 ```
 
-## Main research question
+### Main research question
 
 The overarching goal for my project is to better quantify and understand the
 impact that early life conditions have on adult metabolic capacity and the risk
 for incident T2D in adulthood. There are three primary objectives (O):
 
-## Objectives
+### Objectives
 
 1. O1 is to investigate how specific early life conditions affect the risk of
 T2D in adulthood at the level of an entire country (Denmark).
@@ -117,9 +119,9 @@ have between exposure to adversity in early life and risk for incident T2D.
 that estimates direct and mediating pathways in high dimensional metabolic data
 (e.g. metabolomics); this technique is required to complete O2.
 
-## Hypotheses
+### Hypotheses
 
-# Research design and methods
+## Research design and methods
 
 O1 will answer: a) how individual components of early life conditions compare in
 their contributions to T2D risk, b) how subtler forms of adversity (e.g.
@@ -202,7 +204,7 @@ T2D [@Wittenbecher2017a]. It iterates through multiple possible DAGs to find
 whether a set of pathways in a metabolomics network are most likely to have a
 causal link with disease incidence.
 
-## Variables
+### Variables
 
 - Explanatory variables
 
@@ -210,7 +212,7 @@ causal link with disease incidence.
 
 - Confounding variables
 
-## Inclusion and exclusion criteria
+### Inclusion and exclusion criteria
 
 TODO: Insert Lexis diagram
 
@@ -222,11 +224,11 @@ Those born between 1965 and 1990 could potentially be included in the diabetes
 register since its creation and assuming minimum age for T2D is 30 or older.
 This cohort and those from the "closed cohort" would both make up the "open cohort".
 
-## Data sources
+### Data sources
 
 - Include diagram of different data sources, variables, sample sizes, etc
 
-### Registries
+#### Registries
 
 ```{r registers_cohorts_table, results='asis', echo=FALSE}
 measures <- tibble::tribble(
@@ -248,32 +250,32 @@ pander::pandoc.table(measures,
 ```
 
 
-#### Assessment of variables
+##### Assessment of variables
 
-#### Complete list of actual variables used
+##### Complete list of actual variables used
 
-### Cohorts
+#### Cohorts
 
-#### Complete list of actual variables used
+##### Complete list of actual variables used
 
-#### Assessment of variables
+##### Assessment of variables
 
-## Data storage and security
+### Data storage and security
 
-## Ethical review
+### Ethical review
 
-## Data processing and analysis
+### Data processing and analysis
 
-### Pre-analysis processing
+#### Pre-analysis processing
 
 - Data cleaning steps
 - Plan to publish code for processing
 
-### Data linkage steps
+#### Data linkage steps
 
-### Loss to follow-up
+#### Loss to follow-up
 
-# Discussion
+## Discussion
 
 This approach is necessary for a few reasons. First, quantifying the
 contributions of individual variables in high-dimensional data that includes
@@ -284,23 +286,23 @@ association between metabolic variables, early life factors, and T2D from the
 graph is vital to appropriately infer biological links, and to ultimately reach
 an inference about the causal structure behind observed associations.
 
-## Limitations
+### Limitations
 
-## Potential sources of bias
+### Potential sources of bias
 
-### Measurement biases and errors
+#### Measurement biases and errors
 
 - How to test assumptions about a variable
 
-### Misclassification bias
+#### Misclassification bias
 
-### Unmeasured confounding
+#### Unmeasured confounding
 
-### Missing data
+#### Missing data
 
-### Changing eligibility
+#### Changing eligibility
 
-# Conclusion
+## Conclusion
 
 The rise of the digital era and of big data has presented a number of
 challenges and opportunities to modern epidemiology. While big data offers

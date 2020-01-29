@@ -1,0 +1,9 @@
+book_filename: "meld-protocol"
+delete_merged_file: true
+output_dir: "public"
+language:
+  label:
+    fig: "Figure "
+    tab: "Table "
+  ui:
+    chapter_name: ""
