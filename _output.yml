@@ -1,9 +1,11 @@
 bookdown::gitbook:
-  css: resources/style.css
-  config:
-    sharing: false
-    toc:
-      before: |
-        <li><a href="./">MELD Project Protocol</a></li>
-      after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    number_sections: false
+    css: resources/style.css
+    config:
+        sharing: false
+        toc:
+            collapse: false
+            before: |
+                <li><a href="./">MELD Project Protocol</a></li>
+            after: |
+                <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
