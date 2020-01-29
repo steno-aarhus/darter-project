@@ -1,7 +1,7 @@
 --- 
-title: "The metabolic consequences of adverse early life conditions and subsequent risk for adult type 2 diabetes"
+title: "MELD Project Protocol: The *M*etabolic consequences of adverse *E*arly *L*ife conditions and subsequent risk for adult type 2 *D*iabetes"
 author:
-    - Luke w. Johnston
+    - Luke W. Johnston
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
