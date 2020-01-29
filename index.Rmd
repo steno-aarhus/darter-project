@@ -213,16 +213,30 @@ T2D [@Wittenbecher2017a]. It iterates through multiple possible DAGs to find
 whether a set of pathways in a metabolomics network are most likely to have a
 causal link with disease incidence.
 
-### Variables
+### General variables
 
-- Explanatory variables
+```{r dag, fig.cap="Some possible, hypothetical pathways underlying early life factors and T2D.", fig.align='center', out.width='80%'}
+knitr::include_graphics("images/dag.png", dpi = "retina")
+```
 
-- Outcome variables
+- Exposure variables: Parental socio-economic variables from individual's
+approximate conception to ~7 years of age
 
-- Confounding variables
+- Outcome variables: Age at T2D status (incidence of T2D)
+
+- Metabolic variables (for pathway analyses): Standard metabolic variables; -omic variables
+
+- Confounding variables: We'll take various approaches to identifying confounding variables...
+
+TODO: Complete confounding
+
+The more exact list of variables used is described in {{Data Source}} section.
 
 ### Inclusion and exclusion criteria
 
+```{r lexis-diagram, fig.cap="Some possible, hypothetical pathways underlying early life factors and T2D.", fig.align='center', out.width='80%'}
+knitr::include_graphics("images/lexis-diagram.pdf", dpi = "retina")
+```
 TODO: Insert Lexis diagram
 
 Those born between 1920 and 1965 could hypothetically be included in the diabetes
