@@ -99,26 +99,34 @@ epidemiology [@Pearl2010b;@Richmond2014a;@laBastide-vanGemert2014a], and pathway
 (mediation) analysis techniques are methods that, with some adjustments, have
 the potential to fully exploit these complex, high-dimensional datasets.
 
-```{r fig_overview_bio, fig.cap="Some possible, hypothetical pathways underlying early life factors and T2D.", fig.align='center', out.width='60%', echo=FALSE}
-knitr::include_graphics("images/dag.png", dpi = "retina")
-```
+### Main research questions
 
-### Main research question
+The **overarching aim** of the MELD project is to better quantify and understand the
+impact that various early life conditions have on adult metabolic capacity and the
+subsequent risk for incident T2D in adulthood. 
 
-The overarching goal for my project is to better quantify and understand the
-impact that early life conditions have on adult metabolic capacity and the risk
-for incident T2D in adulthood. There are three primary objectives (O):
+From a public and preventative health perspective, 
+the main research questions would be:
+
+1. Are some metabolic characteristics affected more by early life conditions than others?
+1. Knowing the above and knowing an adult individual's history during early life, 
+could we intervene and target specific metabolic characteristics to lower the risk
+for T2DM? {{DISCUSS}}
+1. Do some early life conditions affect an adult individual's metabolic status and
+risk for disease more than other conditions?
 
 ### Objectives
 
-1. O1 is to investigate how specific early life conditions affect the risk of
+Based on the research questions, the MELD project seeks to address these objectives:
+
+1. To investigate how individual early life conditions affect the risk of
 T2D in adulthood at the level of an entire country (Denmark).
-2. O2 is to identify the mediating pathways that adult metabolic capacity may
+1. To rank the contributions that various early life conditions have on risk
+for T2D within all of Denmark.
+1. To examine any potential mediating pathways that adult metabolic capacity may
 have between exposure to adversity in early life and risk for incident T2D.
-3. O3 is to extend and generalise the statistical algorithm NetCoupler
-(currently in development at: https://github.com/ClemensWittenbecher/NetCoupler)
-that estimates direct and mediating pathways in high dimensional metabolic data
-(e.g. metabolomics); this technique is required to complete O2.
+1. To estimate the magnitude of these mediating pathways and rank the contributions
+these pathways have between early life adversity and risk for T2D.
 
 ### Hypotheses
 
