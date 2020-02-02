@@ -11,4 +11,6 @@ LazyData: true
 URL: https://lwjohnst.gitlab.io/meld-protocol
 Encoding: UTF-8
 Imports: 
-    bookdown
+    bookdown,
+    here
+
