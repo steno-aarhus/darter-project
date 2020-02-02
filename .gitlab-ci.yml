@@ -3,7 +3,7 @@ image: rocker/tidyverse
 pages:
     script:
       - R -e "remotes::install_deps(dependencies = TRUE)"
-      - R -e "bookdown::render_book()"
+      - R -e "bookdown::render_book('index.Rmd')"
     artifacts:
         paths:
             - public
