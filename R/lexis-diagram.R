@@ -121,3 +121,10 @@ ggsave(
     width = 10,
     height = 6
 )
+
+ggsave(
+    here::here("images/lexis-diagram.svg"),
+    lexis_diagram,
+    width = 10,
+    height = 6
+)
