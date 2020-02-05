@@ -1,7 +1,9 @@
 --- 
-title: "MELD Project Protocol: The *M*etabolic consequences of adverse *E*arly *L*ife conditions and subsequent risk for adult type 2 *D*iabetes"
+title: "*M*etabolic consequences of *E*arly *L*ife adversity and subsequent risk for type 2 *D*iabetes (MELD)"
+subtitle: "MELD Project Protocol"
 author:
     - Luke W. Johnston
+    - Daniel Witte
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
