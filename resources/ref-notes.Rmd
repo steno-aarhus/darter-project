@@ -1,0 +1,300 @@
+
+# From articles about registries
+
+## Use of Medical Databases in Clinical Epidemiology
+
+From: https://pdfs.semanticscholar.org/e124/32c0f8416e0875d8b12a1e342be218574da6.pdf
+
+- Civil Registration System (CRS) started in 1968
+
+- CRS:
+    - Those born in or who work or live in Denmark
+    - Since April 2nd, 1968 (May 1, 1972 in Greenland)
+    - Variables include:
+        - Address, marital status, place of birth, kinship,
+        incapacity (?), profession, death
+
+- LABKA:
+    - Regional for the most part
+    - Not designed for research purposes, but for clinical
+    - Updated irregularly
+    - Completeness not well known
+    - Considered complete between Jan 1, 1995 to Dec 31, 2006 (from Aarhus)
+    and Jan 1, 1997 to March 31, 2005 for North Jutland
+    - Variables include: CPR number, IUPAC-code, result, unit, ordering and
+    completed date
+    - Might be able to get, not sure
+
+- Danish National Registry of Patients:
+    - Recorded admissions to hospitals since 1977
+    - For emergency rooms and outpatient clinics, since 1995
+    - Variables include: dates of admission/discharge, diagnosis code (based on 
+    either ICD-8 until 1993 and ICD-10 from 1994 onwards)
+
+- Danish Medical Birth Registry:
+    - Child born at home or in a hospital in Denmark
+    - Since 1973
+    - Variables include: CPR of mother and of newborn, sex, date of birth,
+    twin/singleton, birth weight, length, gestational age, number of previous
+    still births, live births, age at delivery, marital status, smoking during 
+    pregnancy (from 1991), and citizenship
+    
+- Danish Registry of Causes of Death:
+    - Since 1970 in Denmark and 1983 in Faroe Islands and Greenland
+    - Variables are: date of death, place of death, chain of one to four events
+    leading to death, other diseases that may have contributed, manner of death
+    - Validity of data before 2007 is unknown
+    
+- Conscription Registry:
+    - Males who reached 18 years
+    - From 2006
+    - Variables include: date of birth, date of evaluation, years of education,
+    occupation, height, weight
+    
+- Integrated Database for Labour Market Research (IDA):
+    - Since 1980
+    - Variables: Age, sex, family and marital relations, education, employment,
+    unemployment, income
+
+- Danish National Birth Cohort (DNBC):
+    - Information on period from conception to early childhood
+    - Women coming to general practitioner for first pregnancy visit
+    - n=~100,000
+    - Since 1996
+    - Variables: (For mothers) Age at conception, previous diseases, 
+    occupation, use of medication, occupation, duration of breastfeeding;
+    (for children) apparent disease at 6 and 18 months
+
+### DANLIFE article
+
+doi:10.1136/bmjopen-2018-027217
+
+- DANLIFE is accessible through DST?
+- From 1980 to 2015 (but will continue being updated)
+    - All children born in this time
+- Characteristics of those in DANLIFE:
+    - n=~2.2 million
+    - mean followup=16.8 years
+    - males = 51.3%
+    - End max age is about 36.
+- Registers used:
+    - Civil Registration System
+    - Medical Birth Registry
+    - Integrated Database for Labour Market Research
+    - Register of Support for Children and Adolescents
+    - Income Statistics Register
+    - Population Education Register
+    - National Prescription Registry
+    - Psychiatric Central Research Register
+    - National Patient Register
+- Variables include: Sex, date of birth, date of death, familial links,
+emigration, nationality, birth-related info, parental unemployment,
+foster care, family poverty, parental education, parental alcohol and 
+drug abuse, familial psychiatric illness, familial somatic illness
+- Exposure period is from 0 to 18 years of age.
+- Adversity variables are: foster care, parental and/or sibling psychiatric
+and/or somatic illness, parental and/or sibling death, parental alcohol 
+and/or drug abuse, parental separation, parental unemployment, poverty
+    - NOTE: poverty is defined as below 50% of median family income for three
+    consecutive years.
+- Considered covariates: sex, age at any given time, birth order,
+birth weight, parental age at any given time, ethnicity (of child 
+and parents), parental education at time of birth
+
+### Danish Civil Registration System (CRS) (by Schmidt)
+
+doi:10.1007/s10654-014-9930-3
+
+- Danish Health system has three layers:
+    - state (federal government) that deals with laws, guidelines, and financing
+    - regions that deal with delivering primary and secondary care
+    - municipalities that deal with school health, child dental care, home nursing,
+    public health, prevention, and rehab
+
+- Started 1968
+- Variables:
+    - CPR number, migration and vital status (alive or dead), address,
+    date and place of birth, citizenship, CPR numbers of parents and children, 
+    sibling, civil status (married, etc).
+
+- To access, need:
+    - project approval from Data Protection Agency and maybe from National Committee on Health Research Ethics
+    - project protocol
+    - description of requested data
+
+### Registers for Public Health: Introduction
+
+doi:10.1177/1403494811409654
+
+- Look into European Centre for Register-Based Health-Related Population
+Research Public Health, Major Diseases and Welfare (ECREPH), University
+of Southern Denmark (www.ecreph.org)
+
+### Danish Medical Birth Register (MBR)
+
+doi:10.1007/s10654-018-0356-1
+
+- Established in 1973 but underwent major changes in construction and content
+in 1997
+    - After 1997, entry was electronic and the data entered through the
+    National Patient Registry and then fed into the MBR.
+- The Danish Health Data Authority administers the MBR
+- Unlike the CVR, parents in the MBR are assumed to be the biological parents
+    - In CVR they are the legal parents
+- Main variables:
+    - Mother, father, infant ID, date of birth, place of birth.
+    - Maternal: Age, Height, Weight, Smoking
+    - Pregnancy variables: ...(?)
+    - Infant: Gestational age, congenital malformations, death within 12 months,
+    short term characteristics (?)
+- Between 1998-2004 and then in 2009, a lot of variables were added.
+    - Including maternal weight, height starting in 2003 (same with smoking)
+- For validity of medical coding, the more detailed the coding or medical procedure
+done, the less valid the information is.
+    - But basic information (non-medical procedures or diseases/complications)
+    are of high validity.
+- Data errors and problems are fixed throughout time, so most up-to-date version
+of MBR is considered the most valid.
+- The Danish Health Data Authority does not do data cleaning after entry,
+so individual researchers are responsible for that. Any errors found by researchers
+are not corrected in the register.
+- Can access the data through either the DST or the DHDA.
+    - The copy at DST is usually updated once per year
+    - Data is made available at DHDA with as little as 1-2 months delay.
+
+- NOTE: Table 1 is very useful, it has the danish names with the translation.
+
+### Danish registers on personal labour market affiliation
+
+doi:10.1177/1403494811408483
+
+- Register-based Labour Force Statistics (RAS Statistics):
+    - From 1981
+    - Annual employment attachment of persons
+    - Variables: SES, occupational classification, industrial classification code
+- Employment Classification Module (AKM):
+    - From 1976
+    - Variables: SES, occupational classification, industrial classification code
+- Integrated Database for Labour Market Research (IDA):
+    - From 1981
+    - Variables: Work experience and employment, occupational code for each employment,
+    family and household, education, unemployment, income
+- Labour Force Survey:
+    - From 1984
+    - E.g. variables: Working situation, working hours, SES
+- Occupation usually defined based on "most important source of income"
+
+### Danish education registers
+
+doi: 10.1177/1403494810394715
+
+- Registers for education:
+    - Student Register (SR)
+    - Academic Acheivement Register (AAR)
+    - Population's Education Register (PER), most widely used.
+    - Adult Education and Continuing Training Register (AR)
+- Variables found in most of them:
+    - Enrolment and completion dates, length of education (usually in months)
+- Variables in SR and AAR:
+    - Has individual level grades either average (since 1978) or subject-specific (since 1997)
+- Variables SR2 and PER:
+    - Has a digit code to indicate education completed
+    - PERs has a code that can be translated to international code
+    - DST recommends PER for general uses
+- Generally from 1970s
+- High validity and coverage.
+
+### The Danish National Patient Registry
+
+doi:10.2147/CLEP.S91125
+
+- From 1978
+- Variables:
+    - Individual's residence
+    - Hospital/region
+    - Times specifications
+    - Primary diagnosis
+    - Secondary diagnosis
+    - Complications
+- There is a browser for looking through codes
+    - https://www.medinfo.dk/sks/brows.php
+- Diagnoses using ICD-8 until 1993, then ICD-10 afterward
+- Given the administrative context of the register, validity may be a limitation
+    - Maybe has between 60-80% of positive predictive value, better for recent years.
+
+- NOTE: This is a useful image: https://www.dovepress.com/cr_data/article_fulltext/s91000/91125/img/fig3.jpg
+
+## Clinical Epidemiology special issue: Clinical Databases in Denmark
+
+From: https://www.dovepress.com/clinical-epidemiology-archive43-collection3#
+
+### Danish Adult Diabetes Registry 
+
+https://doi.org/10.2147/CLEP.S99518
+
+- All diabetes outpatient clinics since 2004,
+from GPs from 2006
+- >80% of those with T2D are taken care of by GPs
+- Variables included: Age, sex, year of diabetes diagnosis, HbA1c, blood
+pressure, lipids, urinary albumin-creatinine ratio, estimated glomerular
+filtration rate, BMI, smoking status, glucose-/blood
+pressure-/lipid-lowering treatment, insulin pump treatment, date of last eye
+exam, date of last foot exam.
+- Completeness of data is estimated to be up to 95% based on Danish National 
+Patient Register
+- Uncertainty with data security has stopped delivery of data since Sept. 2014.
+
+### Danish Registry of Childhood and Adolescent Diabetes
+
+https://doi.org/10.2147/CLEP.S99469
+
+- All children diagnosed with diabetes before 15 years since 1996,
+including all children followed up by a pediatric department
+- Since 2015, every child up to 18 admitted to pediatric center are included.
+- Initially only T1D were included, and then after 2006,
+all diabetes were included.
+- Variables: region, ethnicity, sex, age of diabetes
+and maybe HbA1c, blood pressure, albuminuria, retinopathy, neuropathy
+
+## From NCRR
+
+https://econ.au.dk/the-national-centre-for-register-based-research/danish-registers/
+
+### The Family Relations Database
+
+https://econ.au.dk/the-national-centre-for-register-based-research/danish-registers/the-family-relations-database/
+
+- Linked with data from several other registers (Medical Birth Registry, the
+Psychiatric Central Research Register, the National Patient Register, the In
+Vitro Fertilization Register, the Cancer Register, and theRegister ofCauses of
+Death.)
+- Danish Health Data Authority (DHDA) manages this register
+- Parental links (mother, father) to all persons born in Denmark from 1960 are
+considered 100% correct.
+
+## From DST
+
+### Danish System for Access to Micro Data
+
+https://www.dst.dk/ext/645846915/0/forskning/Access-to-micro-data-at-Statistics-Denmark_2014--pdf
+
+- CPR number first came about 1968
+- In order to link non-DST data sources, need to get approval from 
+Danish Data Protection Agency
+- Check out:
+    - the Integrated Database for Labour Market Research
+    - Fertility Database
+        - All references between child, mother, father from 1973
+        - All mother-child reference from 1960
+- Inside the research server environment at DST, 
+if I want to send files to my own computer, I can store it in a special
+file/location and it will be emailed to me.
+    - These emails are tracked and checked, so be very careful.
+
+- Only data required for the specific project will be given.
+    - Application should document a reasonable relationship between 
+    requested data and project description
+
+## Danish National Birth Cohort
+
+- Started from 1996
