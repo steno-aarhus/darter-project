@@ -65,7 +65,7 @@ From: https://pdfs.semanticscholar.org/e124/32c0f8416e0875d8b12a1e342be218574da6
     occupation, use of medication, occupation, duration of breastfeeding;
     (for children) apparent disease at 6 and 18 months
 
-### DANLIFE article
+## DANLIFE article
 
 doi:10.1136/bmjopen-2018-027217
 
@@ -101,7 +101,7 @@ and/or drug abuse, parental separation, parental unemployment, poverty
 birth weight, parental age at any given time, ethnicity (of child 
 and parents), parental education at time of birth
 
-### Danish Civil Registration System (CRS) (by Schmidt)
+## Danish Civil Registration System (CRS) (by Schmidt)
 
 doi:10.1007/s10654-014-9930-3
 
@@ -122,7 +122,15 @@ doi:10.1007/s10654-014-9930-3
     - project protocol
     - description of requested data
 
-### Registers for Public Health: Introduction
+## Danish Civil Registration System (CRS) (by Pedersen)
+
+doi:10.1177/1403494810387965
+
+- For civil status variable, spouse ID is also included
+
+- Pretty similar to one above.
+
+## Registers for Public Health: Introduction
 
 doi:10.1177/1403494811409654
 
@@ -130,7 +138,7 @@ doi:10.1177/1403494811409654
 Research Public Health, Major Diseases and Welfare (ECREPH), University
 of Southern Denmark (www.ecreph.org)
 
-### Danish Medical Birth Register (MBR)
+## Danish Medical Birth Register (MBR)
 
 doi:10.1007/s10654-018-0356-1
 
@@ -164,7 +172,7 @@ are not corrected in the register.
 
 - NOTE: Table 1 is very useful, it has the danish names with the translation.
 
-### Danish registers on personal labour market affiliation
+## Danish registers on personal labour market affiliation
 
 doi:10.1177/1403494811408483
 
@@ -184,7 +192,7 @@ doi:10.1177/1403494811408483
     - E.g. variables: Working situation, working hours, SES
 - Occupation usually defined based on "most important source of income"
 
-### Danish education registers
+## Danish education registers
 
 doi: 10.1177/1403494810394715
 
@@ -204,7 +212,7 @@ doi: 10.1177/1403494810394715
 - Generally from 1970s
 - High validity and coverage.
 
-### The Danish National Patient Registry
+## The Danish National Patient Registry
 
 doi:10.2147/CLEP.S91125
 
@@ -224,11 +232,67 @@ doi:10.2147/CLEP.S91125
 
 - NOTE: This is a useful image: https://www.dovepress.com/cr_data/article_fulltext/s91000/91125/img/fig3.jpg
 
-## Clinical Epidemiology special issue: Clinical Databases in Denmark
+## Intro to health registers (Thygesen)
+
+doi:10.1177/1403494811399956
+
+- Has a nice Table 1 and 2
+    - Useful health registers:
+        - Register of Cause of Death
+        - National Patient Register
+        - National Health Service Register
+        - National Prescription Register
+        - National Diabetes Register
+    - Useful population registers:
+        - Student Register
+        - Population's Education Register
+        - Integrated Database for Labour Market Research
+        - Income Statistics Register
+        - Building and Housing Register
+- Health data at datatilsynet.dk?        
+
+## National Diabetes Register (Carstensen)
+
+doi:10.1177/1403494811404278
+
+- Established in 2006 based on CRS, Patient Register, National Health Services
+Register, and Prescription Register
+- Inclusion:
+    - From NPR: Diagnosis as defined by ICD-10: DE10–14, DH36.0, DO24(excluding
+    DO24.4), and ICD-8 (prior to 1994):249, 250
+    - From NHSR: Any of chiropody (as diabetes patient), five blood glucose
+    measurements in 1 year, two blood glucose measurements per year in 5
+    consecutive years
+    - From Prescription: Purchase of oral anti-diabetic drugs (except for
+    metformin alone for women, since that is also for PCOS), or prescribed insulin
+- Date of inclusion into NDR:
+    - NPR: earliest date of diagnosis
+    - Chiro: Earliest date
+    - 5-glucose: Date of fifth measurement in one year
+    - 2-glucose: Date of second measurement in one year, given last 4 years also
+    had 2 measures/year
+    - Drug: Date of second purchase
+    - Insulin: Date of second purchase
+- Variables include:
+    - CPR, sex, date of birth, date of death, date of inclusion, and six dates above
+- Not possible to distinguish between type 1 and 2
+- PPV based on the inclusion criterion range from 86-97%
+
+## Danish registers on income and transfer payments
+
+doi:10.1177/1403494811405098
+
+- Income Statistics Register contains up to 160 variables
+    - e.g. wages, entrepeneurial income, taxes, capital income,
+    home ownership, SES, age, sex, family
+- Contains info on benefits during sick leave or from pregnancy/parental leave
+- Register of Social Pension contains data on anyone receiving disability pensions
+
+# Clinical Epidemiology special issue: Clinical Databases in Denmark
 
 From: https://www.dovepress.com/clinical-epidemiology-archive43-collection3#
 
-### Danish Adult Diabetes Registry 
+## Danish Adult Diabetes Registry 
 
 https://doi.org/10.2147/CLEP.S99518
 
@@ -244,7 +308,7 @@ exam, date of last foot exam.
 Patient Register
 - Uncertainty with data security has stopped delivery of data since Sept. 2014.
 
-### Danish Registry of Childhood and Adolescent Diabetes
+## Danish Registry of Childhood and Adolescent Diabetes
 
 https://doi.org/10.2147/CLEP.S99469
 
@@ -256,11 +320,11 @@ all diabetes were included.
 - Variables: region, ethnicity, sex, age of diabetes
 and maybe HbA1c, blood pressure, albuminuria, retinopathy, neuropathy
 
-## From NCRR
+# From NCRR
 
 https://econ.au.dk/the-national-centre-for-register-based-research/danish-registers/
 
-### The Family Relations Database
+## The Family Relations Database
 
 https://econ.au.dk/the-national-centre-for-register-based-research/danish-registers/the-family-relations-database/
 
@@ -272,9 +336,9 @@ Death.)
 - Parental links (mother, father) to all persons born in Denmark from 1960 are
 considered 100% correct.
 
-## From DST
+# From DST
 
-### Danish System for Access to Micro Data
+## Danish System for Access to Micro Data
 
 https://www.dst.dk/ext/645846915/0/forskning/Access-to-micro-data-at-Statistics-Denmark_2014--pdf
 
@@ -294,6 +358,8 @@ file/location and it will be emailed to me.
 - Only data required for the specific project will be given.
     - Application should document a reasonable relationship between 
     requested data and project description
+
+# Other cohorts
 
 ## Danish National Birth Cohort
 
