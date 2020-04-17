@@ -1,0 +1,25 @@
+# Project description for DST application
+
+## Authorised institution
+
+Steno Diabetes Center Aarhus
+
+## Project title
+Write the project title
+
+## Project description
+Write a short description of the project including the objectives of the pro-
+ject.
+
+## Population
+Define the population(s)
+
+## Variables included
+List the registers and if possibly the variables you want to access
+Please also include information on external data or own survey data if such
+data is part of the project. In such cases please include approval from the
+Danish Protection Agency.
+
+## Authorised scientists
+Name, Institution, E-mail and Cell phone number of the scientists, whom
+will be working with the data.
