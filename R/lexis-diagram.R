@@ -128,3 +128,48 @@ ggsave(
     width = 10,
     height = 6
 )
+
+ggplot() +
+    coord_cartesian(xlim = c(1950, 2020), ylim = c(0, 70), expand = FALSE) +
+    # Diabetes register starts
+    vertical_lines(1995) +
+
+    # Available parental CPR data
+    vertical_lines(1968) +
+
+    # Minimum age of diabetes diagnosis
+    horizontal_lines(30) +
+
+    # Early childhood phase age
+    horizontal_lines(7) +
+
+    # Current youngest possible person for inclusion in diabetes register
+    diagonal_lines(-2020 + 30) +
+
+    # Oldest possible person based on CPR data
+    diagonal_lines(-1968) +
+
+    # Earliest age of T2D diagnosis
+    # text_description("Earlis", x = 1960, y = 32) +
+
+    # Early childhood phase
+    text_description("Early childhood", x = 1961, y = 3.5) +
+    vertical_arrow(1960, 0, 7, "both") +
+
+    # Study period
+    text_description("Study period", x = 2007.5, y = 4.5, alignment = "middle") +
+    horizontal_arrow(2.5, 1995, 2020, "both") +
+
+    # Prevalent cases
+    text_description("Prevalent cases", x = 1994, y = 60, alignment = "right") +
+    horizontal_arrow(58, 1995, 1980) +
+
+    # Incident cases
+    text_description("Incident cases", x = 1996, y = 60) +
+    horizontal_arrow(58, 1995, 2010) +
+
+    # Plot visuals and themes
+    labs(x = "Calender Year", y = "Age") +
+    scale_x_continuous(breaks = seq(from = 1950, to = 2020, by = 10)) +
+    scale_y_continuous(breaks = seq(from = 0, to = 70, by = 10)) +
+    theme_classic()
