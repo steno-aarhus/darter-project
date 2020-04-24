@@ -2,24 +2,37 @@
 
 ## Authorised institution
 
-Steno Diabetes Center Aarhus
+Steno Diabetes Center Aarhus  
+Hedeager 3, 2. sal  
+8200 Aarhus  
+Denmark  
 
 ## Project title
-Write the project title
+
+MELD project: Metabolic consequences of early life adversity and subsequent risk for type 2 diabetes
 
 ## Project description
+
 Write a short description of the project including the objectives of the pro-
 ject.
 
 ## Population
+
+Anyone born after (1968) as well as information on their parents at time of birth
+(and until 7 years of age).
+
 Define the population(s)
 
 ## Variables included
+
 List the registers and if possibly the variables you want to access
 Please also include information on external data or own survey data if such
 data is part of the project. In such cases please include approval from the
 Danish Protection Agency.
 
 ## Authorised scientists
-Name, Institution, E-mail and Cell phone number of the scientists, whom
-will be working with the data.
+
+| Name | Institution | E-mail | Cell phone number |
+|:-----|:------------|:-------|:------------------|
+| Luke W. Johnston | Steno Diabetes Center Aarhus | lwjohnst@ph.au.dk | +4529664675 |
+| Daniel Witte | Steno Diabetes Center Aarhus | daniel.witte@ph.au.dk | |
