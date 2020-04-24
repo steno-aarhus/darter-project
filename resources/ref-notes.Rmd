@@ -211,6 +211,7 @@ doi: 10.1177/1403494810394715
     - DST recommends PER for general uses
 - Generally from 1970s
 - High validity and coverage.
+- PER = Registret over befolkningens uddannelse (BU)
 
 ## The Danish National Patient Registry
 
@@ -282,6 +283,7 @@ Register, and Prescription Register
 
 doi:10.1177/1403494811405098
 
+- Danish: Indkomstregistret
 - Income Statistics Register contains up to 160 variables
     - e.g. wages, entrepeneurial income, taxes, capital income,
     home ownership, SES, age, sex, family
@@ -358,6 +360,93 @@ file/location and it will be emailed to me.
 - Only data required for the specific project will be given.
     - Application should document a reasonable relationship between 
     requested data and project description
+
+# From Danish Health Data
+
+https://www.danishhealthdata.com/find-health-data
+
+Application process:
+
+- Applying for it need a project description and an extension description must
+be attached, containing information about which registries, variables,
+population and period that are applied for.
+- Use Scientific Services (Danish: Forskerservice) as application portal
+- Initial case processing
+- Preliminary approval of the permissions
+- Bidding
+- Acceptance of data access
+- Programming
+- Data access via the Research Machine (Danish: Forskermaskinen)
+
+## Medical Birth Register
+
+https://www.danishhealthdata.com/find-health-data/Det-Medicinske-foedselsregister
+
+In Danish: Det Medicinske fødselsregister (MFR)
+
+- Data on all live and dead births since 1973
+- Before 1996, registry was based on paper certificates
+    - Afterward based on data from National Patient Register and CPR register
+    (plus paper reports on home births)
+- Variables:
+    - Birth weight, Child's CPR No., Child's gender, Child's head measurement at
+    birth, Civil status of parents, Complications, Father's CPR No., Home birth,
+    Intervention pre/post birth, Labour - duration, Live/dead birth,
+    Malformations, Mother's CPR No., Multiple birth, Municipality of residence,
+    Pregnancy - length, Smoking
+    
+## The Central Person Registry
+
+https://www.danishhealthdata.com/find-health-data/CPR-registeret
+
+- Since 1968
+- Connects all other registers
+- Variables:
+    - Address data, Birth registration place, Citizenship, Civil status, CPR
+    No., First name(s), Guardianship data, National church - details,
+    Relationship
+    
+## Cause of death
+
+https://www.danishhealthdata.com/find-health-data/Doedaarsagsregisteret
+
+In Danish and abbreviation: Dødsårsagsregisteret (DAR)
+
+- Since 1970
+- Variables since 2002 differ
+- Since Jan 2007, mandatory to submit electronic death certificate
+- Variables: (in the csv file)
+
+## National Patient Register
+
+https://www.danishhealthdata.com/find-health-data/Landspatientregisteret
+
+Danish: Landspatientregistret (LPR)
+
+- Since 1976
+
+## Conscription Registry
+
+https://www.danishhealthdata.com/find-health-data/Sessionsregisteret
+
+Danish: Sessionsregisteret (SER)
+
+- Controlled by National Danish Archives
+- From 1987
+- Authorities submit data to Archives every 5 years. Last was 2015
+- The population includes all drafted conscripts, meaning all Danish males
+living or residing in Denmark who are required to attend a call-up session in
+the year they reach 18
+
+## Danish Psychiatric Central Research Register
+
+https://www.danishhealthdata.com/find-health-data/Det-Psykiatriske-Centrale-Forskningsregister
+
+Danish: Det Psykiatriske Centrale Forskningsregister (PCR)
+
+- Since 1969 for psychiatric admissions
+- Since 1995 for data on outpatient contacts and accident and emergency visits
+- Since 1995 has been part of NPR
 
 # Other cohorts
 
