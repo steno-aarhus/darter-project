@@ -223,16 +223,68 @@ causal link with disease incidence.
 knitr::include_graphics("images/dag.png", dpi = "retina")
 ```
 
-- Exposure variables: Parental socio-economic variables from individual's
-approximate conception to ~7 years of age
+- Exposure time period:
+    - Conception until ~7 years of age
+
+- Specific exposure variables during individual's exposure time period: 
+    - Parental socio-economic
+        - Household income
+        - Educational attainment
+        - Parental unemployment
+        - Household poverty
+        - Social housing
+    - Parental health:
+        - Death
+        - Severe illness (how to define that further?)
+        - Severe psychiatric illness
+        - Alcohol and drug abuse
+    - Maternal:
+        - Smoking during pregnancy and breastfeeding
+        - Breastfeeding
+    - Parental conditions
+        - Divorce
+        - Separation
+        - Single parent
+        - Spousal abuse or injuries
+        - Number of times moved
+    - Emigration
+    - Neighbourhood-level:
+        - General income/poverty
+        - General crime/safety (possible?)
+    - Individual:
+        - Severe illness or injury
+        - Foster care
+    - Sibling:
+        - Psychiatric illness
+        - Severe illness
+
+- Potential exposure indicators:
+    - Birthweight
+    - Birth length
+    - Height at each year
+    - Leg length
+    - Weight at each year
+
+- Other variables:
+    - Year of birth
+    - Month of birth
+    - Birth order
+    - Number of siblings
+    - Parental age
+    - Ethnicity
+    - Sex
+    - Medical data from pregnancy, at birth, and in first years
+    - Date of birth
+
+- Outcome variable:
+    - Age at diabetes diagnosis 
+    - Diabetes status at any given time
 
 - Outcome variables: Age at T2D status (incidence of T2D)
 
-- Metabolic variables (for pathway analyses): Standard metabolic variables; -omic variables
-
-- Confounding variables: We'll take various approaches to identifying confounding variables...
-
-TODO: Complete confounding
+- Metabolic variables: 
+    - Standard metabolic variables
+    - omic variables
 
 The more exact list of variables used is described in {{Data Source}} section.
 
