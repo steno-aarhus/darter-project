@@ -257,6 +257,22 @@ This cohort and those from the "closed cohort" would both make up the "open coho
 
 #### Registries
 
+- Civil Registration System
+- Medical Birth Registry
+- National Patient Register
+- Conscription Registry
+- Psychiatric Central Research Register
+- Danish Registry of Causes of Death
+- Population Education Register
+- Income Statistics Register
+
+- Register of Support for Children and Adolescents
+- National Prescription Registry
+- LABKA
+- Integrated Database for Labour Market Research
+
+- Building and Housing register? for the social housing etc?
+
 ```{r registers_cohorts_table, results='asis', echo=FALSE}
 measures <- tibble::tribble(
     ~Dataset, ~Variables, ~`Sample size`,
