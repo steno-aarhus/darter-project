@@ -1,38 +1,128 @@
+---
+output: odt_document
+---
+
 # Project description for DST application
 
-## Authorised institution
+## Autoriseret institution / Authorised institution
 
 Steno Diabetes Center Aarhus  
 Hedeager 3, 2. sal  
 8200 Aarhus  
 Denmark  
 
-## Project title
+## Projekttitel / Project title
 
 MELD project: Metabolic consequences of early life adversity and subsequent risk for type 2 diabetes
 
-## Project description
+## Projektbeskrivelse / Project description
 
-Write a short description of the project including the objectives of the pro-
-ject.
+Early life adversity is known to influence the risk for adult cardiometabolic
+diseases such as type 2 diabetes (T2D); however, how metabolic processes mediate
+this link is not well understood. Much of what we know about how early life
+influences later risk for chronic disease comes from
 
-## Population
+With the availability of long-term longitudinal data from the registers,Given the 
+metabolism and to T2D risk. My aims are to 1) understand how specific early life
+conditions affect T2D risk, 2) identify the metabolic pathways that mediate
+between early life adversity and adult T2D risk, and 3) to develop a recent
+causal pathway algorithm (NetCoupler) capable of performing mediation and causal
+structure analysis on detailed metabolic data into a reusable
+software package. To achieve these aims, I will a) use Denmark's unique national
+registers linked with multiple cohorts, b) deploy and apply NetCoupler, and c)
+collaborate with national and international groups. The software will provide a
+tool for researchers working in similar areas, while the results will give
+insight into how more effective public health strategies could be created for
+T2D prevention and how more precise clinical decisions could be made for T2D
+management in those exposed to early life adversity.
 
-Anyone born after (1968) as well as information on their parents at time of birth
-(and until 7 years of age).
+**Objectives:**
 
-Define the population(s)
+1. To investigate how individual early life conditions affect the risk of
+T2D in adulthood.
+1. To rank the contributions that various early life conditions have on risk
+for T2D.
+1. To examine any potential mediating pathways that adult metabolic capacity may
+have between exposure to adversity in early life and risk for incident T2D.
+1. To estimate the magnitude of these mediating pathways and rank the contributions
+these pathways have between early life adversity and risk for T2D.
 
-## Variables included
+See Appendix 1 for a more complete project description (in English).
 
-List the registers and if possibly the variables you want to access
-Please also include information on external data or own survey data if such
-data is part of the project. In such cases please include approval from the
-Danish Protection Agency.
+## Population / Population
 
-## Authorised scientists
+Anyone born after (1968?) until the present time as well as information on their
+parents 1 year before an individual's birth and until 7 years of age. Since we
+are t
 
-| Name | Institution | E-mail | Cell phone number |
-|:-----|:------------|:-------|:------------------|
-| Luke W. Johnston | Steno Diabetes Center Aarhus | lwjohnst@ph.au.dk | +4529664675 |
-| Daniel Witte | Steno Diabetes Center Aarhus | daniel.witte@ph.au.dk | |
+(Justify why here. Maybe give an estimate to population number?)
+
+## Variabelindhold / Variables included
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(gt)
+variable_list <- read_csv(here::here("data/registries-general-variables.csv"))
+authorized_researchers <-
+    read_csv(
+        here::here("data/authorized-researchers.csv"),
+        col_types = cols(.default = col_character())
+    )
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.kable.NA = "")
+```
+
+Registers requested are:
+
+```{r register-list, results="asis"}
+variable_list %>% 
+    glue::glue_data("- {register_english} / {register_danish} ({register_abbreviation})") %>% 
+    unique() %>%
+    str_remove(" \\(NA\\)") %>% 
+    sort() %>% 
+    cat(sep = "\n")
+```
+
+Exact variables requested from each register are listed in the section below
+along with the justification for requesting them.
+
+<!-- Please also include information on external data or own survey data if such -->
+<!-- data is part of the project. In such cases please include approval from the -->
+<!-- Danish Protection Agency. -->
+
+## Data som ikke kommer fra Danmarks Statistik / Data that doesn't come from DST
+
+List cohorts:
+
+## Projekts slutdato / Project's end date
+
+Date of deletion of data: Access to data is requested until December 2023.
+
+## Autoriserede forskere / Authorised scientists
+
+```{r}
+knitr::kable(authorized_researchers)
+```
+
+# List of registers and variables, with explanations
+
+```{r justification-table, echo=FALSE}
+variable_list %>% 
+    dplyr::filter(use_in_study == "yes") %>% 
+    group_by(register_english) %>% 
+    mutate(Register = ifelse(row_number() == 1, register_english, "")) %>% 
+    ungroup() %>% 
+    select(Register, Variable = variable_english, Explanation = explanation) %>% 
+    knitr::kable(caption = "Explanation for requested selected variables and registers.")
+    # gt() %>% 
+    # tab_style(
+    #     style = cell_text(weight = "bold"),
+    #     locations = cells_row_groups()
+    # ) %>% 
+    # tab_style(
+    #     style = cell_text(weight = "bold"),
+    #     locations = cells_column_labels(everything())
+    # ) %>% 
+    # tab_header("Explanation for requested selected variables and registers.") %>% 
+    # cols_label(variable_english = "Variable in English", explanation = "Explanation")
+```
