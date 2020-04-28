@@ -132,6 +132,12 @@ have between exposure to adversity in early life and risk for incident T2D.
 1. To estimate the magnitude of these mediating pathways and rank the contributions
 these pathways have between early life adversity and risk for T2D.
 
+Given the limitations of the study and available data, our secondary aims are to:
+
+1. Produce methodological processes for managing and analyzing data of this type
+and size.
+1. 
+
 ### Hypotheses
 
 ## Research design and methods
@@ -294,6 +300,8 @@ The more exact list of variables used is described in {{Data Source}} section.
 knitr::include_graphics("images/lexis-diagram.pdf", dpi = "retina")
 ```
 TODO: Insert Lexis diagram
+
+TODO: Update this
 
 Those born between 1920 and 1965 could hypothetically be included in the diabetes
 register for those older than 30 at the time the register was created. This would
