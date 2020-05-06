@@ -1,81 +1,130 @@
-register_english,register_danish,register_abbreviation,register_data_table,variable_english,variable_danish,variable_name_in_dataset,start_year,end_year,explanation,comment,administrating_organization,use_in_study
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,CPR No.,CPR No.,k_cpr,1970,2001,To link to other registries and data sources.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Cause of death,Dødsårsager,c_dod1,1970,2001,,,sundhedsdatastyrelsen,maybe
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Date of death,Dødsdato,d_dodsdto,1970,2001,To determine whether the parents died during an individual's early life and childhood.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,City of death,Dødskommune,c_dodskom,1970,2001,An approximate indicator for potentially higher trauma experienced from parental death if death occurred close to child's residence.,Does this mean where the death took place? Not sure,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Gender,Køn,c_sex,1970,2001,To link with father or mother.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Age at time of death,Alder på dødstidspunktet,v_alder,1970,2001,To validate with other data from other registries and sources.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Municipality of residence,Bopælskommune,c_bopkom,1970,2001,To validate with other data for place of residence.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Additional causes of death,,,1970,2001,,,,no
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,CPR No.,CPR No.,k_cpr,2002,,To link to other registries and data sources.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Cause of death,Dødsårsager,,2002,,,,sundhedsdatastyrelsen,maybe
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Date of death,Dødsdato,,2002,,To determine whether the parents died during an individual's early life and childhood.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Location of death,Dødssted,c_dodssted,2002,,An approximate indicator for potentially higher trauma experienced from parental death if it occurred near to the child's residence.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Gender,Køn,,2002,,To link with father or mother.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Age at time of death,Alder på dødstidspunktet,,2002,,To validate with other data from other registries and sources.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Municipality of residence,Bopælskommune,,2002,,To validate with other data for place of residence.,,sundhedsdatastyrelsen,yes
-Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Additional causes of death,,,2002,,,,,no
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Birth weight,,,1973,,Is an indicator of growth conditions during pregnancy.,This might not be available for the times I need it though.,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Child's CPR No.,,,,,To link with individual's CPR from other registries.,,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Child's gender,,,,,To validate against with other data sources.,,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Child's head measurement at birth,,,,,To use as an indicator of overall health of the baby.,This might not be available for the time I need it though.,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Civil status of parents,,,,,To validate against other data sources and to use as an indicator for parental conditions.,,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Complications,,,,,"Only need a general overview of whether there were complications or not, to use as an indicator of conditions experienced in early life.",,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Father's CPR No.,,,,,To link to father's data from other sources.,,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Home birth,,,,,,,,maybe
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Intervention pre/post birth,,,,,,,,maybe
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Labour - duration,,,,,,,,maybe
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Live/dead birth,,,,,,,,no
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Malformations,,,,,,,,no
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Mother's CPR No.,,,,,To link mother to other data sources.,,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Multiple birth,,,,,As an indicator of birth order and experience of mother with birth and pregnancy.,,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Municipality of residence,,,,,To link with location of birth and to link to other data sources.,,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Pregnancy - length,,,,,As an indicator of premature birth.,,,yes
-Medical Birth Register,Det Medicinske fødselsregister,MFR,,Smoking,,,,,As an indicator of exposure to adverse intrauterine conditions.,,,yes
-National Patient Register,Landspatientregistret,LPR,,Admission/discharge,,,1968,,,What does this mean?,,maybe
-National Patient Register,Landspatientregistret,LPR,,Admission date,,,,,To link time with diagnosis. Doesn't need to be precise date.,What does this mean date?,,yes
-National Patient Register,Landspatientregistret,LPR,,Birth data,,,,,,Need this to validate with other data sources?,,maybe
-National Patient Register,Landspatientregistret,LPR,,Cancelled procedure,,,,,,,,no
-National Patient Register,Landspatientregistret,LPR,,CPR No.,,,,,To link with other data sources.,,,yes
-National Patient Register,Landspatientregistret,LPR,,Diagnosis,,,,,"Need general diagnoses for parents, siblings', or individual's physical or mental illness during the individual's early life and childhood.",,,yes
-National Patient Register,Landspatientregistret,LPR,,Municipality of residence,,,,,To link with and validate against other data sources.,,,maybe
-National Patient Register,Landspatientregistret,LPR,,Operation - data,,,,,,,,no
-National Patient Register,Landspatientregistret,LPR,,Outpatient visit,,,,,,,,maybe
-National Patient Register,Landspatientregistret,LPR,,Treating hospital /department,,,,,,,,maybe
-National Patient Register,Landspatientregistret,LPR,,Treatment,,,,,,,,maybe
-Conscription Registry,Sessionsregisteret,,,Business,,,1987,,,,,no
-Conscription Registry,Sessionsregisteret,,,CPR No.,,,,,To link with other registers and data sources.,,,yes
-Conscription Registry,Sessionsregisteret,,,Diagnosis,,,,,,Meaning what in this context?,,maybe
-Conscription Registry,Sessionsregisteret,,,Educational level,,,,,,Not sure this is necessary considering I could link with the education register,,maybe
-Conscription Registry,Sessionsregisteret,,,Eye colour,,,,,,,,no
-Conscription Registry,Sessionsregisteret,,,First name(s),,,,,,,,no
-Conscription Registry,Sessionsregisteret,,,Gender,,,,,To validate against other data sources.,,,maybe
-Conscription Registry,Sessionsregisteret,,,Height,,,,,To use as an indicator of final attained growth in height.,,,yes
-Conscription Registry,Sessionsregisteret,,,Municipality of residence,,,,,To validate against other data sources.,,,maybe
-Conscription Registry,Sessionsregisteret,,,Score - Børge Prien's intelligence test,,,,,,,,no
-Conscription Registry,Sessionsregisteret,,,Weight,,,,,To use as an indicator of general health in weight and for general growth trajectory.,,,yes
-Central Person Registry,CPR-registeret,CPR,,Address data,,,1968,,Need general location of residence during an individual's first 7 years of life to use as an indicator of neighbourhood conditions.,,,yes
-Central Person Registry,CPR-registeret,CPR,,Birth registration place,,,,,Related to the address information. Need only a general location.,,,yes
-Central Person Registry,CPR-registeret,CPR,,Citizenship,,,,,,,,no
-Central Person Registry,CPR-registeret,CPR,,Civil status,,,,,To link to parents condition and status during an individuals early life and childhood.,,,yes
-Central Person Registry,CPR-registeret,CPR,,CPR No.,,,,,To link to other registries and data sources.,,,yes
-Central Person Registry,CPR-registeret,CPR,,First name(s),,,,,,,,no
-Central Person Registry,CPR-registeret,CPR,,Guardianship data,,,,,,Meaning...?,,maybe
-Central Person Registry,CPR-registeret,CPR,,National church - details,,,,,,,,no
-Central Person Registry,CPR-registeret,CPR,,Relationship,,,,,,Meaning...?,,maybe
-Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Admission date,,,1969,1995,To link time with diagnosis. Doesn't need to be precise date.,,,yes
-Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Admission/discharge,,,,,,What does this mean?,,maybe
-Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,CPR No.,,,,,To link with other data sources and registers.,,,yes
-Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Diagnoses,,,,,"Need general diagnoses for parents, siblings', or individual's physical or mental illness during the individual's early life and childhood.",,,yes
-Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Discharge date,,,,,,,,maybe
-Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Hospital,,,,,,,,maybe
-Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Patient type,,,,,,Meaning...?,,maybe
-Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Referral method,,,,,,,,no
-Income Statistics Register,Indkomstregistret,,,CPR No.,,,1987,,To link to other data sources and registers.,,,yes
-Income Statistics Register,Indkomstregistret,,,Equivalent disposable income,,,,,To determine parental income during an individual's early life (fetal and childhood) as a measure of socioeconomic condition.,,,yes
-Income Statistics Register,Indkomstregistret,,,Total personal income excl. calculated rental value of own dwelling,Personindkomst i alt ekskl. beregnet lejeværdi af egen bolig,PERINDKIALT_13,,,To determine parental income during an individual's early life (fetal and childhood) as a measure of socioeconomic condition.,,,yes
-Population Education Register,Registret over befolkningens uddannelse,,,CPR No.,,,1981,,,,,yes
-Population Education Register,Registret over befolkningens uddannelse,,,Highest completed education,Højest fuldførte uddannelse,,1981,,To determine parental education during an individual's early life (fetal and childhood) as a measure of socioeconomic condition.,,,yes
-Population Education Register,Registret over befolkningens uddannelse,,,Split code for on-going education,Forspaltekode på igangværende uddannelse,,,,To determine parental education during an individual's early life (fetal and childhood) as a measure of socioeconomic condition.,,,yes
-Population Education Register,Registret over befolkningens uddannelse,,,Split code for maximum completed education,Forspaltekode til højst fuldførte uddannelse,,,,To determine parental education during an individual's early life (fetal and childhood) as a measure of socioeconomic condition.,,,yes
-Integrated Labor Market Research Database,Integrerede Database for Arbejdsmarkeds-forskning,,,,,,,,,,,
+register_english,register_danish,register_abbreviation,register_data_table,variable_english,variable_danish,variable_name_in_dataset,start_year,end_year,explanation,comment,administrating_organization,use_in_study,resource_link
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,CPR No.,CPR No.,k_cpr,1970,2001,To link to other registries and data sources.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Cause of death,Dødsårsager,c_dod1,1970,2001,,,sundhedsdatastyrelsen,maybe,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Date of death,Dødsdato,d_dodsdto,1970,2001,To determine whether the parents died during an individual's early life and childhood.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,City of death,Dødskommune,c_dodskom,1970,2001,An approximate indicator for potentially higher trauma experienced from parental death if death occurred close to child's residence.,Does this mean where the death took place? Not sure,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Gender,Køn,c_sex,1970,2001,To link with father or mother.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Age at time of death,Alder på dødstidspunktet,v_alder,1970,2001,To validate with other data from other registries and sources.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Municipality of residence,Bopælskommune,c_bopkom,1970,2001,To validate with other data for place of residence.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_1,Additional causes of death,,,1970,2001,,,,no,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,CPR No.,CPR No.,k_cpr,2002,,To link to other registries and data sources.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Cause of death,Dødsårsager,,2002,,,,sundhedsdatastyrelsen,maybe,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Date of death,Dødsdato,,2002,,To determine whether the parents died during an individual's early life and childhood.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Location of death,Dødssted,c_dodssted,2002,,An approximate indicator for potentially higher trauma experienced from parental death if it occurred near to the child's residence.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Gender,Køn,,2002,,To link with father or mother.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Age at time of death,Alder på dødstidspunktet,,2002,,To validate with other data from other registries and sources.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Municipality of residence,Bopælskommune,,2002,,To validate with other data for place of residence.,,sundhedsdatastyrelsen,yes,
+Cause of death registry,Dødsårsagsregisteret,DAR,t_dodsaarsag_2,Additional causes of death,,,2002,,,,,no,
+National Patient Register,Landspatientregistret,LPR,,Admission/discharge,,,1968,,,What does this mean?,,maybe,
+National Patient Register,Landspatientregistret,LPR,,Admission date,,,,,To link time with diagnosis. Doesn't need to be precise date.,What does this mean date?,,yes,
+National Patient Register,Landspatientregistret,LPR,,Birth data,,,,,,Need this to validate with other data sources?,,maybe,
+National Patient Register,Landspatientregistret,LPR,,Cancelled procedure,,,,,,,,no,
+National Patient Register,Landspatientregistret,LPR,,CPR No.,,,,,To link with other data sources.,,,yes,
+National Patient Register,Landspatientregistret,LPR,,Diagnosis,,,,,"Need general diagnoses for parents, siblings', or individual's physical or mental illness during the individual's early life and childhood.",,,yes,
+National Patient Register,Landspatientregistret,LPR,,Municipality of residence,,,,,To link with and validate against other data sources.,,,maybe,
+National Patient Register,Landspatientregistret,LPR,,Operation - data,,,,,,,,no,
+National Patient Register,Landspatientregistret,LPR,,Outpatient visit,,,,,,,,maybe,
+National Patient Register,Landspatientregistret,LPR,,Treating hospital /department,,,,,,,,maybe,
+National Patient Register,Landspatientregistret,LPR,,Treatment,,,,,,,,maybe,
+Conscription Registry,Sessionsregisteret,,,Business,,,1987,,,,,no,
+Conscription Registry,Sessionsregisteret,,,CPR No.,,,,,To link with other registers and data sources.,,,yes,
+Conscription Registry,Sessionsregisteret,,,Diagnosis,,,,,,Meaning what in this context?,,maybe,
+Conscription Registry,Sessionsregisteret,,,Educational level,,,,,,Not sure this is necessary considering I could link with the education register,,maybe,
+Conscription Registry,Sessionsregisteret,,,Eye colour,,,,,,,,no,
+Conscription Registry,Sessionsregisteret,,,First name(s),,,,,,,,no,
+Conscription Registry,Sessionsregisteret,,,Gender,,,,,To validate against other data sources.,,,maybe,
+Conscription Registry,Sessionsregisteret,,,Height,,,,,To use as an indicator of final attained growth in height.,,,yes,
+Conscription Registry,Sessionsregisteret,,,Municipality of residence,,,,,To validate against other data sources.,,,maybe,
+Conscription Registry,Sessionsregisteret,,,Score - Børge Prien's intelligence test,,,,,,,,no,
+Conscription Registry,Sessionsregisteret,,,Weight,,,,,To use as an indicator of general health in weight and for general growth trajectory.,,,yes,
+Central Person Registry,CPR-registeret,CPR,,Address data,,,1968,,Need general location of residence during an individual's first 7 years of life to use as an indicator of neighbourhood conditions.,,,yes,
+Central Person Registry,CPR-registeret,CPR,,Birth registration place,,,,,Related to the address information. Need only a general location.,,,yes,
+Central Person Registry,CPR-registeret,CPR,,Citizenship,,,,,,,,no,
+Central Person Registry,CPR-registeret,CPR,,Civil status,,,,,To link to parents condition and status during an individuals early life and childhood.,,,yes,
+Central Person Registry,CPR-registeret,CPR,,CPR No.,,,,,To link to other registries and data sources.,,,yes,
+Central Person Registry,CPR-registeret,CPR,,First name(s),,,,,,,,no,
+Central Person Registry,CPR-registeret,CPR,,Guardianship data,,,,,,Meaning...?,,maybe,
+Central Person Registry,CPR-registeret,CPR,,National church - details,,,,,,,,no,
+Central Person Registry,CPR-registeret,CPR,,Relationship,,,,,,Meaning...?,,maybe,
+Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Admission date,,,1969,1995,To link time with diagnosis. Doesn't need to be precise date.,,,yes,
+Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Admission/discharge,,,,,,What does this mean?,,maybe,
+Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,CPR No.,,,,,To link with other data sources and registers.,,,yes,
+Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Diagnoses,,,,,"Need general diagnoses for parents, siblings', or individual's physical or mental illness during the individual's early life and childhood.",,,yes,
+Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Discharge date,,,,,,,,maybe,
+Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Hospital,,,,,,,,maybe,
+Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Patient type,,,,,,Meaning...?,,maybe,
+Danish Psychiatric Central Research Register,Det Psykiatriske Centrale Forskningsregister,PCR/PSYCK,,Referral method,,,,,,,,no,
+Income Statistics Register,Indkomstregistret,,,CPR No.,,,1987,,To link to other data sources and registers.,,,yes,
+Income Statistics Register,Indkomstregistret,,,Equivalent disposable income,,,,,To determine parental income during an individual's early life (fetal and childhood) as a measure of socioeconomic condition.,,,yes,
+Income Statistics Register,Indkomstregistret,,,Total personal income excl. calculated rental value of own dwelling,Personindkomst i alt ekskl. beregnet lejeværdi af egen bolig,PERINDKIALT_13,,,To determine parental income during an individual's early life (fetal and childhood) as a measure of socioeconomic condition.,,,yes,
+Population Education Register,Registret over befolkningens uddannelse,,,CPR No.,,,1981,,,,,yes,
+Population Education Register,Registret over befolkningens uddannelse,,,Highest completed education,Højest fuldførte uddannelse,,1981,,To determine parental education during an individual's early life (fetal and childhood) as a measure of socioeconomic condition.,,,yes,
+Population Education Register,Registret over befolkningens uddannelse,,,Split code for on-going education,Forspaltekode på igangværende uddannelse,,,,To determine parental education during an individual's early life (fetal and childhood) as a measure of socioeconomic condition.,,,yes,
+Population Education Register,Registret over befolkningens uddannelse,,,Split code for maximum completed education,Forspaltekode til højst fuldførte uddannelse,,,,To determine parental education during an individual's early life (fetal and childhood) as a measure of socioeconomic condition.,,,yes,
+Integrated Labor Market Research Database,Integrerede Database for Arbejdsmarkeds-forskning,IDA,,CPR No.,,,,,,,,yes,
+Register of Support for Children and Adolescents,,,,CPR No.,,,,,,,,yes,
+National Prescription Registry,,,,CPR No.,,,,,,,,yes,
+LABKA,,,,CPR No.,,,,,,,,yes,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,Child's CPR No.,Barns cpr-nummer,cpr_barn,1997,,To link with individual's CPR from other registries.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,Mother's CPR No.,Mors cpr-nummer,cpr_moder,1997,,To link mother to other data sources.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,Father's CPR No.,Fars cpr-nummer,cpr_fader,1997,,To link to father's data from other sources.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Faderens alder,Alder_fader,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Moderens alder,Alder_moder,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Barnets alder ved død,Alderveddoed_dage_barn,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,"Apgar score efter 5 min (talværdi mellem 0-10, missing og 99=uoplyst)",Apgarscore_efter5minutter,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,Number of live births from previous births,Nummer levendefødt ved flerfoldsfødsel,Barnslevendenr_flerfoldfoedsel,1997,,As an indicator of birth order and experience of mother with birth and pregnancy.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Nummer ved flerfoldsfødsel,Barnsnummer_flerfoldsfoedsel,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Moderens BMI,Bmi_moder,2003,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,Municipality of residence,Moderens bopælskommune,Bopaelskommune_moder,1997,,To link with location of birth and to link to other data sources.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Dato for barnets død,Doedsdato_barn,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Dato for moderens død,Doedsdato_moder,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,"Barnets nummer ved flerfoldsfødsel, fødselsrækkefølge for flerfoldsbørn",Flerfoldsfoedsel_beregnet,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Barnets fødested - Skskode,Foedested,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Barnets fødselsdato,Foedselsdato,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Fødselsår,Foedselsaar,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Gestationsalder i dage,Gestationsalder_dage,1997,,As an indicator of premature birth.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Moderens højde (CM),Hoejde_moder,2003,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,Child's head circumference,Barnets hovedomfang,Hovedomfang,1997,,To use as an indicator of overall health of the baby.,This might not be available for the time I need it though.,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,Child's sex,Barnets køn,Koen_barn,1997,,To validate against with other data sources.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Barnets længde (CM),Laengde_barn,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Levendefødt/dødfødtoplysning,Levende_eller_doedfoedt,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,Smoking information of mother,Rygeroplysning,Rygerstatus_moder,1997,,As an indicator of exposure to adverse intrauterine conditions.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Beregnet antal sengedage for barnets indlæggelse i forbindelse med fødslen,Sengedage_beregnet_barn,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Beregnet antal sengedage for morens indlæggelse i forbindelse med fødslen,Sengedage_beregnet_moder,1997,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,Birth weight (gram),Barnets vægt (gram),Vaegt_barn,1997,,Is an indicator of growth conditions during pregnancy.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,,,Moderens vægt (gram),Vaegt_moder,2003,,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Moderens CPR nummer,v_mcpr,1973,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Barnets CPR nummer,k_bcpr,1973,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Faderens CPR nummer,v_fcpr,1991,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Moderens bopælskommune,c_bopkom,1973,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Fødselskommune,c_fodekom,1978,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Moderens bopælsamt,c_bopamt,1991,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Fødselsamt,c_fodeamt,1978,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Barnets længde i cm.,v_langde,1973,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Fuldbyrdet,c_fuldb,1973,1977,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,Birth weight (gram),Barnets vægt i gram,v_vagt,1973,1996,Is an indicator of growth conditions during pregnancy.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Antal børn i fødslen udover dette,v_antal,1973,1977,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,Civil status of parents,Moderens civilstand ved fødsel,c_civstd,1973,1996,To validate against other data sources and to use as an indicator for parental conditions.,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Antal misdannelser hos barnet,v_misant,1973,1977,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Faderens alder (på fødselstidspunkt),v_falder,1973,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Moderens alder (på fødselstidspunkt),v_malder,1973,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Antal tidligere graviditeter,v_grav,1973,1990,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Antal tidligere levendefødte,v_tidllev,1973,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Svangerskabslængde i uger,v_svlangde,1978,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Indikation af Apgar score måling,c_apgar,1978,1990,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Apgar efter 1 minut,v_apgar1,1978,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Apgar efter 5 minutter,v_apgar5,1978,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Fødselsforløb,c_fodsforl,1978,1990,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Indgreb under fødslen,c_indgrund,1978,1990,"Only need a general overview of whether there were complications or not, to use as an indicator of conditions experienced in early life.??",,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Misdannelsestilkendegivelse,c_misdan,1978,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Barnets placering i flerfoldsfødsel,c_plac,1978,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Tidligere dødfødte,v_tidldod,1978,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Tidligere spontane aborter,v_pabort,1978,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Tidligere provokerede aborter,v_sabort,1978,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,FødselsGyldig dato (DDMMYYYY),d_foddto,1991,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,TerminsGyldig dato (DDMMYYYY),d_termin,1991,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Sikker på menstruationsberegning,b_smsikker,1991,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Ryger,b_ryger,1991,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Risikoadfærd før fødsel,b_risiko,1991,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Normal fødsel,b_normal,1991,1996,,,Sundhedsstyrelsen,,
+Medical Birth Register,Det Medicinske fødselsregister,MFR,t_lfoed,,Spontan fødsel,b_partus,1991,1996,,,Sundhedsstyrelsen,,
