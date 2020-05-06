@@ -1,5 +1,5 @@
 ---
-output: odt_document
+output: word_document
 ---
 
 # Project description for DST application
@@ -20,48 +20,34 @@ MELD project: Metabolic consequences of early life adversity and subsequent risk
 Early life adversity is known to influence the risk for adult cardiometabolic
 diseases such as type 2 diabetes (T2D); however, how metabolic processes mediate
 this link is not well understood. Much of what we know about how early life
-influences later risk for chronic disease comes from
+metabolically influences later risk for chronic disease comes from non-human 
+animal research. With the availability of long-term longitudinal data from the
+registers, linked to cohort datasets with metabolic data, we aim to:
 
-With the availability of long-term longitudinal data from the registers,Given the 
-metabolism and to T2D risk. My aims are to 1) understand how specific early life
-conditions affect T2D risk, 2) identify the metabolic pathways that mediate
-between early life adversity and adult T2D risk, and 3) to develop a recent
-causal pathway algorithm (NetCoupler) capable of performing mediation and causal
-structure analysis on detailed metabolic data into a reusable
-software package. To achieve these aims, I will a) use Denmark's unique national
-registers linked with multiple cohorts, b) deploy and apply NetCoupler, and c)
-collaborate with national and international groups. The software will provide a
-tool for researchers working in similar areas, while the results will give
-insight into how more effective public health strategies could be created for
-T2D prevention and how more precise clinical decisions could be made for T2D
-management in those exposed to early life adversity.
-
-**Objectives:**
-
-1. To investigate how individual early life conditions affect the risk of
-T2D in adulthood.
-1. To rank the contributions that various early life conditions have on risk
-for T2D.
-1. To examine any potential mediating pathways that adult metabolic capacity may
-have between exposure to adversity in early life and risk for incident T2D.
-1. To estimate the magnitude of these mediating pathways and rank the contributions
-these pathways have between early life adversity and risk for T2D.
+1. Investigate how and to what degree individual early life conditions may
+contribute to the risk of T2D in adulthood.
+1. Examine potential mediating pathways that adult metabolic capacity may
+have between exposure to adversity in early life and risk for incident T2D,
+along with the estimated magnitude of the pathways.
 
 See Appendix 1 for a more complete project description (in English).
 
+TODO: Revise DDA project description and add as appendix item
+
 ## Population / Population
 
-Anyone born after (1968?) until the present time as well as information on their
-parents 1 year before an individual's birth and until 7 years of age. Since we
-are t
+The exposure time period of interest is from conception until about 7 years of age.
+So the population of interest would be all individuals born after (1968?) until
+the present time that have data on their parents 1 year before the
+individual's birth and until 7 years of age.
 
-(Justify why here. Maybe give an estimate to population number?)
+TODO: Justify why here. Maybe give an estimate to population number?
 
 ## Variabelindhold / Variables included
 
 ```{r setup, include=FALSE}
 library(tidyverse)
-library(gt)
+# library(gt)
 variable_list <- read_csv(here::here("data/registries-general-variables.csv"))
 authorized_researchers <-
     read_csv(
@@ -79,9 +65,66 @@ variable_list %>%
     glue::glue_data("- {register_english} / {register_danish} ({register_abbreviation})") %>% 
     unique() %>%
     str_remove(" \\(NA\\)") %>% 
+    str_remove(" \\/ NA") %>% 
     sort() %>% 
     cat(sep = "\n")
 ```
+
+General variables requested are:
+
+- Specific exposure variables during individual's exposure time period: 
+    - Parental socio-economic
+        - Household income
+        - Educational attainment
+        - Parental unemployment
+        - Household poverty
+        - Social housing
+    - Parental health:
+        - Death
+        - Severe illness (how to define that further?)
+        - Severe psychiatric illness
+        - Alcohol and drug abuse
+    - Maternal:
+        - Smoking during pregnancy and breastfeeding
+        - Breastfeeding
+    - Parental conditions
+        - Divorce
+        - Separation
+        - Single parent
+        - Spousal abuse or injuries
+        - Number of times moved
+    - Emigration
+    - Neighbourhood-level:
+        - General income/poverty
+        - General crime/safety (possible?)
+    - Individual:
+        - Severe illness or injury
+        - Foster care
+    - Sibling:
+        - Psychiatric illness
+        - Severe illness
+
+- Potential exposure indicators:
+    - Birthweight
+    - Birth length
+    - Height from multiple periods in life
+    - Leg length (from cohorts)
+    - Weight from multiple periods in life
+
+- Other variables:
+    - Year of birth
+    - Month of birth
+    - Birth order
+    - Number of siblings
+    - Parental age
+    - Ethnicity
+    - Sex
+    - Medical data from pregnancy, at birth, and in first years
+    - Date of birth
+
+- Outcome variable:
+    - Age at diabetes diagnosis 
+    - Diabetes status at any given time
 
 Exact variables requested from each register are listed in the section below
 along with the justification for requesting them.
