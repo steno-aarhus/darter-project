@@ -1,10 +1,25 @@
-library("magrittr")
+library(dplyr)
+library(tidyr)
+
+# Taken and modified from https://lazappi.id.au/post/2016-06-13-gantt-charts-in-r/
+# Columns should be something like:
+# task name, priority (like "crit"),  status (like "active" or "done"), label, start, end
 
 # Take a data.frame containing tasks and build a Mermaid string
-tasks2string <- function(tasks) {
+tasks_to_string <- function(tasks_df) {
 
-    tasks.list <- split(tasks,
-                        factor(tasks$Section, levels = unique(tasks$Section)))
+    tasks_list <- tasks_df %>%
+        dplyr::group_split(LinkedDeliverable) %>%
+        tidyr::unite(col = "task_string_prep",
+                     task_name, priority,
+                     sep = ": ") %>%
+        tidyr::unite(col = "task_item_string",
+                     task_item_string_prep, status, task_label, start_date, end_date,
+                     sep = ", ") %>%
+        dplyr::pull(task_item_string) %>%
+        paste(collapse = "\n") %>%
+        stringr::str_remove_all(" ,", "")
+
 
     strings <- sapply(names(tasks.list),
                       function(section) {

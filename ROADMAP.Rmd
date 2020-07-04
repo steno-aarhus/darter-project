@@ -12,7 +12,7 @@ targeted to optimally and practically reduce population-level incidence of type
 2 diabetes;
 4. Identify what metabolic pathways could be targeted to manage or mitigate
 risk for type 2 diabetes in those who have been exposed to early life adversity;
-5. Document and describe the exact steps taken for processing, analysing,
+5. Document and describe the exact steps taken for processing, analyzing,
 interpreting, and visualizing this type of data as a resource for future
 studies, given that few other countries have the necessary infrastructure and
 data like Denmark has to answer and thus replicate the above objectives.
@@ -49,17 +49,57 @@ least.
 
 ## Deliverables
 
-1. Archived Git repository and submitted report on:
+1. DST data request application
+2. Archived Git repository and submitted report on study protocol
+3. Archived Git repository and submitted report on objective 5
+41. Archived Git repository and submitted report on:
     a. Objective 1 on major familial and personal events
     b. Objective 1 on chronic familial and personal conditions
     c. Objective 2 and 4 on major familial and personal events
     d. Objective 2 and 4 on chronic familial and personal conditions
-2. Archived Git repository and submitted report on objective 3
-3. Archived Git repository and submitted report on objective 5
-4. Archived Git repository and submitted report on study protocol
-5. DST data request application
+52. Archived Git repository and submitted report on objective 3
 
 ## Milestones
 
 ## Timeline
+
+```{r}
+library(readr)
+library(dplyr)
+source(here::here("R/gantt.R"))
+tasks_d1 <- read_csv(here::here("resources/tasks.csv"),
+         col_types = cols_only(
+             deliverable = "c",
+             task_name = "c",
+             priority = "c",
+             status = "c",
+             task_label = "c",
+             start_date = "c",
+             end_date = "c"
+         )) %>% 
+    filter(deliverable == "D1")
+
+    tasks_list <- tasks_d1 %>%
+        dplyr::group_split(deliverable) %>%
+        purrr::map_chr(
+            ~ tidyr::unite(., col = "task_string_prep",
+                             task_name, priority,
+                             sep = ": ") 
+        )
+            %>%
+                tidyr::unite(
+                    col = "task_item_string",
+                    task_item_string_prep,
+                    status,
+                    task_label,
+                    start_date,
+                    end_date,
+                    sep = ", "
+                ) %>%
+                dplyr::pull(task_item_string) %>%
+                paste(collapse = "\n") %>%
+                stringr::str_remove_all(" ,", "")
+        )
+
+```
 
