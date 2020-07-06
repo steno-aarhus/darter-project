@@ -1,4 +1,6 @@
-# Objectives
+# Roadmap: Submitting the data request and the protocol
+
+## Objectives
 
 The objectives are to:
 
@@ -12,7 +14,7 @@ targeted to optimally and practically reduce population-level incidence of type
 2 diabetes;
 4. Identify what metabolic pathways could be targeted to manage or mitigate
 risk for type 2 diabetes in those who have been exposed to early life adversity;
-5. Document and describe the exact steps taken for processing, analysing,
+5. Document and describe the exact steps taken for processing, analyzing,
 interpreting, and visualizing this type of data as a resource for future
 studies, given that few other countries have the necessary infrastructure and
 data like Denmark has to answer and thus replicate the above objectives.
@@ -45,21 +47,60 @@ research objectives (1-4) will be completed within the next 2.5 years, in the
 order of which exposures have the most accessible and available data to the
 least.
 
-# Action plan
+## Action plan
 
-## Deliverables
+### Deliverables
 
-1. Archived Git repository and submitted report on:
+1. DST data request application
+2. Archived Git repository and submitted report on study protocol
+3. Archived Git repository and submitted report on objective 5
+4. Archived Git repository and submitted report on:
     a. Objective 1 on major familial and personal events
     b. Objective 1 on chronic familial and personal conditions
     c. Objective 2 and 4 on major familial and personal events
     d. Objective 2 and 4 on chronic familial and personal conditions
-2. Archived Git repository and submitted report on objective 3
-3. Archived Git repository and submitted report on objective 5
-4. Archived Git repository and submitted report on study protocol
-5. DST data request application
+5. Archived Git repository and submitted report on objective 3
 
-## Milestones
+### Milestones
 
-## Timeline
+```{r setup, eval=FALSE}
+library(readr)
+library(dplyr)
+library(gt)
+library(fontawesome)
+source(here::here("R/gantt.R"))
+conflicted::conflict_prefer("filter", "dplyr", quiet = TRUE)
+tasks <- read_csv(here::here("resources/tasks.csv"),
+         col_types = cols_only(
+             deliverable = "c",
+             task_name = "c",
+             priority = "c",
+             status = "c",
+             task_label = "c",
+             start_date = "c",
+             end_date = "c",
+             is_milestone = "l"
+         )) %>% 
+    filter(deliverable %in% c("D1"))
+```
+
+```{r tab-milestones, eval=FALSE}
+# empty_box <- as.character(fa("square", fill = "black"))
+# checked_box <- as.character(fa("check-square", fill = "green"))
+tasks %>% 
+    filter(is_milestone) %>% 
+    select(deliverable, status, task_name) %>% 
+    # mutate(status = if_else(status == "" | is.na(status), empty_box, checked_box)) %>% 
+    rename(Task = task_name, Status = status) %>% 
+    gt(rowname_col = "row", groupname_col = "deliverable") %>%
+    fmt_missing(columns = everything(), missing_text = "") %>% 
+    tab_header(title = "Project milestones")
+```
+
+
+### Timeline
+
+```{r fig-gantt-chart, eval=FALSE}
+create_gantt_chart(tasks)
+```
 
