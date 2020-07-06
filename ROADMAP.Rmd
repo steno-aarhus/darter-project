@@ -63,7 +63,7 @@ least.
 
 ### Milestones
 
-```{r setup}
+```{r setup, eval=FALSE}
 library(readr)
 library(dplyr)
 library(gt)
@@ -84,7 +84,7 @@ tasks <- read_csv(here::here("resources/tasks.csv"),
     filter(deliverable %in% c("D1"))
 ```
 
-```{r tab-milestones}
+```{r tab-milestones, eval=FALSE}
 # empty_box <- as.character(fa("square", fill = "black"))
 # checked_box <- as.character(fa("check-square", fill = "green"))
 tasks %>% 
@@ -100,7 +100,7 @@ tasks %>%
 
 ### Timeline
 
-```{r fig-gantt-chart}
+```{r fig-gantt-chart, eval=FALSE}
 create_gantt_chart(tasks)
 ```
 
