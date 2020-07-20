@@ -63,7 +63,7 @@ least.
 
 ### Milestones
 
-```{r setup, eval=FALSE}
+```{r setup}
 library(readr)
 library(dplyr)
 library(gt)
@@ -80,27 +80,29 @@ tasks <- read_csv(here::here("resources/tasks.csv"),
              start_date = "c",
              end_date = "c",
              is_milestone = "l"
-         )) %>% 
-    filter(deliverable %in% c("D1"))
+         )) 
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
-```{r tab-milestones, eval=FALSE}
-# empty_box <- as.character(fa("square", fill = "black"))
-# checked_box <- as.character(fa("check-square", fill = "green"))
+```{r tab-milestones}
+# empty_box <- '<i class="far fa-square"></i>'
+# checked_box <- '<i class="far fa-check-square"></i>'
 tasks %>% 
     filter(is_milestone) %>% 
     select(deliverable, status, task_name) %>% 
-    # mutate(status = if_else(status == "" | is.na(status), empty_box, checked_box)) %>% 
+    # mutate(status = if_else(status %in% c("") | is.na(status),
+    #                         empty_box, checked_box)) %>%
     rename(Task = task_name, Status = status) %>% 
     gt(rowname_col = "row", groupname_col = "deliverable") %>%
     fmt_missing(columns = everything(), missing_text = "") %>% 
     tab_header(title = "Project milestones")
 ```
 
-
 ### Timeline
 
-```{r fig-gantt-chart, eval=FALSE}
-create_gantt_chart(tasks)
+```{r fig-gantt-chart, fig.height=10, fig.width=8}
+tasks %>% 
+    filter(deliverable %in% c("D1", "D2")) %>% 
+    create_gantt_chart()
 ```
 

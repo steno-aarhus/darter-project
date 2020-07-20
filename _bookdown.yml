@@ -9,3 +9,4 @@ language:
     chapter_name: ""
 rmd_files:
     - "index.Rmd"
+    - "ROADMAP.Rmd"
