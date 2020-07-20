@@ -1,4 +1,4 @@
-# Roadmap
+# Roadmap: Submitting the data request and the protocol
 
 ## Objectives
 
@@ -54,22 +54,23 @@ least.
 1. DST data request application
 2. Archived Git repository and submitted report on study protocol
 3. Archived Git repository and submitted report on objective 5
-41. Archived Git repository and submitted report on:
+4. Archived Git repository and submitted report on:
     a. Objective 1 on major familial and personal events
     b. Objective 1 on chronic familial and personal conditions
     c. Objective 2 and 4 on major familial and personal events
     d. Objective 2 and 4 on chronic familial and personal conditions
-52. Archived Git repository and submitted report on objective 3
+5. Archived Git repository and submitted report on objective 3
 
 ### Milestones
 
-### Timeline
-
-```{r gantt-chart, echo=FALSE, fig.width=9}
+```{r setup, eval=FALSE}
 library(readr)
 library(dplyr)
+library(gt)
+library(fontawesome)
 source(here::here("R/gantt.R"))
-tasks_d1 <- read_csv(here::here("resources/tasks.csv"),
+conflicted::conflict_prefer("filter", "dplyr", quiet = TRUE)
+tasks <- read_csv(here::here("resources/tasks.csv"),
          col_types = cols_only(
              deliverable = "c",
              task_name = "c",
@@ -77,14 +78,28 @@ tasks_d1 <- read_csv(here::here("resources/tasks.csv"),
              status = "c",
              task_label = "c",
              start_date = "c",
-             end_date = "c"
+             end_date = "c",
+             is_milestone = "l"
          )) %>% 
-    filter(deliverable == "D1")
-
-build_gantt(tasks_d1, "deliverable")
+    filter(deliverable %in% c("D1"))
 ```
 
-```mermaid
+```{r tab-milestones, eval=FALSE}
+# empty_box <- as.character(fa("square", fill = "black"))
+# checked_box <- as.character(fa("check-square", fill = "green"))
+tasks %>% 
+    filter(is_milestone) %>% 
+    select(deliverable, status, task_name) %>% 
+    # mutate(status = if_else(status == "" | is.na(status), empty_box, checked_box)) %>% 
+    rename(Task = task_name, Status = status) %>% 
+    gt(rowname_col = "row", groupname_col = "deliverable") %>%
+    fmt_missing(columns = everything(), missing_text = "") %>% 
+    tab_header(title = "Project milestones")
+```
 
+### Timeline
+
+```{r fig-gantt-chart, eval=FALSE}
+create_gantt_chart(tasks)
 ```
 

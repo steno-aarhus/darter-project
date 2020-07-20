@@ -38,16 +38,16 @@ D2,cohort_describe,Include description or documentation of cohorts in protocol,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
-D1,submit_dst,Submit to DST,after dpa_approval review_draft,1w,TRUE,,2020-09-15,,crit
-D1,dpa_approval,Submit application to Data Protection Agency for approval,after review_draft,4w,TRUE,,,,crit
-D1,review_draft,Circulate draft DST application for review and revise,after sds_variables dst_variables time_periods cohort_variables,1.5m,TRUE,,,,
-D1,sds_variables,List variables with justification from registers owned or documented by Sundhedsdatastyrelsen,2020-08-01,2w,,,,,
-D1,dst_variables,List variables with justification from registers owned or documented by DST,after sds_variables,2.5w,,,,,
-D1,time_periods,List specific time periods needed for variables,2020-08-01,3w,,,,,
-D1,cohort_variables,List variables with justification from cohorts,after cohort_permission,2w,,,,,
-D1,cohort_permission,Contact cohort owners for permission to use data,after cohort_id,4w,,,,,crit
-D1,cohort_id,Identify cohorts to include in project,2020-07-25,2w,,,,,
-D1,contact_dst,Contact DST for initial discussion of project,2020-08-01,5w,,,,,crit
+D1,cohort_id,Identify cohorts to include,2020-07-25,2w,,,,,
+D1,contact_dst,Initial discussion with DST,2020-08-01,5w,TRUE,,,,crit
+D1,cohort_permission,Request permission to use cohort data,after cohort_id,4w,TRUE,,,,crit
+D1,time_periods,Time periods for variable restriction,2020-08-01,2w,,,,,
+D1,sds_variables,List and justify SDS register variables,2020-08-01,2w,,,,active,
+D1,dst_variables,List and justify DST register variables,after sds_variables,2w,,,,,
+D1,cohort_variables,Variables and justification for cohorts,after cohort_permission,2w,,,,,
+D1,review_draft,Send draft for review and revision,after cohort_variables,4w,TRUE,,,,
+D1,dpa_approval,Submit application to DPA for approval,after review_draft,4w,TRUE,,,,crit
+D1,submit_dst,Submit to DST,after dpa_approval,1w,TRUE,,2020-09-15,,crit
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
