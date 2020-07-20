@@ -11,6 +11,7 @@ tasks_to_string <- function(tasks_df) {
     task_list <- tasks_df %>%
         dplyr::arrange(deliverable) %>%
         dplyr::group_split(deliverable) %>%
+        # dplyr::group_split(.data[[section_col]]) %>%
         purrr::map_chr(
             ~ glue::glue_data(
                 .,
@@ -41,7 +42,7 @@ create_gantt_chart <- function(tasks_df, title = "Gantt Chart") {
     gantt$x$config <- list(ganttConfig = list(
         # Make sure the axis labels are formatted correctly
         axisFormatter = list(list(
-            "%b", # New data format
+            "%W", # New data format
             htmlwidgets::JS('function(d){ return d}') # Select dates to format
         ))
     ))
