@@ -3,86 +3,51 @@ library(tidyr)
 
 # Taken and modified from https://lazappi.id.au/post/2016-06-13-gantt-charts-in-r/
 # Columns should be something like:
-# task name, priority (like "crit"),  status (like "active" or "done"), label, start, end
+# task_name, priority (like "crit"),  status (like "active" or "done"), task_label, start_date, end_date
 
 # Take a data.frame containing tasks and build a Mermaid string
-tasks_to_string <- function(tasks_df) {
-
-    tasks_list <- tasks_df %>%
-        dplyr::group_split(LinkedDeliverable) %>%
-        tidyr::unite(col = "task_string_prep",
-                     task_name, priority,
-                     sep = ": ") %>%
-        tidyr::unite(col = "task_item_string",
-                     task_item_string_prep, status, task_label, start_date, end_date,
-                     sep = ", ") %>%
-        dplyr::pull(task_item_string) %>%
-        paste(collapse = "\n") %>%
-        stringr::str_remove_all(" ,", "")
-
-
-    strings <- sapply(names(tasks.list),
-                      function(section) {
-                          tasks.list[[section]] %>%
-                              dplyr::select(-Section) %>%
-                              tidyr::unite(Part1, Task, Priority,
-                                           sep = ": ") %>%
-                              tidyr::unite(String, Part1, Status, Name, Start,
-                                           End, sep = ", ") %>%
-                              magrittr::use_series("String") %>%
-                              paste(collapse = "\n") %>%
-                              gsub(" ,", "", .) # Remove empty columns
-                      }
-    )
-
-    string <- ""
-
-    for(section in names(strings)) {
-        string <- paste0(string, "\n",
-                         "section ", section, "\n",
-                         strings[section],
-                         "\n")
+tasks_to_string <- function(tasks_df, section_col = NULL) {
+    if (is.null(section_col)) {
+        tasks_df %>%
+            glue::glue_data("  {task_name}: {priority}, {status}, {task_label}, {start_date}, {end_date}") %>%
+            as.character() %>%
+            stringr::str_remove_all("( |NA),") %>%
+            stringr::str_c(collapse = "\n")
+    } else {
+        tasks_df %>%
+            dplyr::group_split(.data[[section_col]]) %>%
+            purrr::map_chr(~ {
+                tasks <-
+                    glue::glue_data(
+                        .,
+                        "  {task_name}: {priority}, {status}, {task_label}, {start_date}, {end_date}"
+                    ) %>%
+                    as.character() %>%
+                    stringr::str_remove_all("( |NA),") %>%
+                    stringr::str_c(collapse = "\n")
+                stringr::str_c("\n  section ", unique(.[[section_col]]), "\n", tasks)
+            })
     }
-
-    return(string)
 }
 
 # Produce a Gantt chart from data.frame of tasks
 # Adds the Mermaid header to the tasks string
-buildGantt <- function(tasks) {
+build_gantt <- function(tasks_df, section_col = NULL) {
+    gantt_string <- paste0("gantt", "\n",
+                           "  dateformat YYYY-MM-DD", "\n",
+                           "  title Timeline",
+                           "\n\n",
+                           tasks_to_string(tasks_df, section_col))
 
-    gantt.string <- paste0("gantt", "\n",
-                           "dateformat YYYY-MM-DD", "\n",
-                           "title My Gantt Chart",
-                           "\n")
-
-    gantt.string <- paste0(gantt.string, tasks2string(tasks))
-
-    gantt <- DiagrammeR::mermaid(gantt.string)
+    gantt <- DiagrammeR::mermaid(gantt_string)
 
     gantt$x$config = list(ganttConfig = list(
         # Make sure the axis labels are formatted correctly
         axisFormatter = list(list(
-            "%m-%y", # New data format
+            "%W", # New data format
             htmlwidgets::JS('function(d){ return d}') # Select dates to format
         ))
     ))
 
     return(gantt)
-}
-
-# Read a file and return a Gantt chart
-buildGanttFromFile <- function(tasks.file, format = c("csv", "xlsx")) {
-
-    format <- match.arg(format)
-
-    switch(format,
-           csv = {
-               tasks <- read.csv(tasks.file, stringsAsFactors = FALSE)
-           },
-           xlsx = {
-               tasks <- gdata::read.xls(tasks.file)
-           })
-
-    return(buildGantt(tasks))
 }
