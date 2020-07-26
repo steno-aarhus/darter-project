@@ -5,15 +5,14 @@ library(tibble)
 library(purrr)
 library(stringr)
 library(glue)
+library(tidyr)
 library(dplyr)
-
-# TODO: Use maybe Yandex for translation?
+conflicted::conflict_prefer("filter", "dplyr")
 
 # Functions ---------------------------------------------------------------
 
-generic_scraping <- function(.bow_object, .node_class) {
-    object_list <- .bow_object %>%
-        scrape() %>%
+generic_tidy_scrape <- function(.scraped_object, .node_class) {
+    object_list <- .scraped_object %>%
         html_node(.node_class) %>%
         html_nodes("a")
 
@@ -23,57 +22,113 @@ generic_scraping <- function(.bow_object, .node_class) {
             str_remove("list-(register|table|variable)-"),
         Names = object_list %>%
             html_text()
-        # TODO: Add table description here? Or later when I have all rid, tid, and vid?
     )
 }
 
-scrape_registers <- function(.bow_object) {
-    generic_scraping(.bow_object = .bow_object,
-                     .node_class = "#list-tab-registers")
+tidy_scraped_registers <- function(.scraped_object) {
+    generic_tidy_scrape(.scraped_object = .scraped_object,
+                        .node_class = "#list-tab-registers")
 }
 
-scrape_register_tables <- function(.bow_object) {
-    generic_scraping(.bow_object = .bow_object,
-                     .node_class = "#list-tab-tables")
+tidy_scraped_register_tables <- function(.scraped_object) {
+    generic_tidy_scrape(.scraped_object = .scraped_object,
+                        .node_class = "#list-tab-tables")
 }
 
-scrape_register_variables <- function(.bow_object) {
-    generic_scraping(.bow_object = .bow_object,
-                     .node_class = "#list-tab-variables",
-                     .id = "vid")
+tidy_scraped_register_variables <- function(.scraped_object) {
+    generic_tidy_scrape(.scraped_object = .scraped_object,
+                        .node_class = "#list-tab-variables")
 }
+
+tidy_scraped_descriptions <- function(.scraped_object) {
+    divs_from_page <- .scraped_object %>%
+        html_nodes("div")
+
+    divs_to_keep <- divs_from_page %>%
+        html_attrs() %>%
+        map(~is_empty(unname(.)))
+
+    divs_from_page %>%
+        html_text() %>%
+        keep(unlist(divs_to_keep)) %>%
+        .[-2] %>%
+        str_trim() %>%
+        str_remove_all("\\n|\\r") %>%
+        # Use double colon to differentiate from colons used in sentences.
+        str_replace(":", "::") %>%
+        str_replace(
+            "(Kort om registeret|Lovgivning og anmeldelse|Tabellens indhold|Variablebeskrivelse)",
+            "\\1::"
+        )
+}
+
+scrape_and_tidy <- function(.url_extensions, .tidy_fn) {
+    .url_extensions %>%
+        map( ~ nod(esundhed, glue("{esundhed_api_path}{.}"))) %>%
+        map(scrape) %>%
+        set_names(.url_extensions) %>%
+        map_dfr(.tidy_fn, .id = "url_extension")
+
+}
+
 stop("To prevent accidental sourcing.")
 
 # Scraping ----------------------------------------------------------------
 
-esundhed <- bow("https://www.esundhed.dk/api/sitecore/documentation/documentation")
-scraped_register_info <- esundhed %>%
-    scrape_registers()
+esundhed_api_path <- "api/sitecore/documentation/documentation"
+esundhed <- bow("https://www.esundhed.dk")
+scraped_register_numbers <- esundhed %>%
+    nod(esundhed_api_path) %>%
+    scrape() %>%
+    tidy_scraped_registers()
 
-kept_registers <- scraped_register_info %>%
-    filter(Numbers %in% c(5, 9, 12, 17, 18, 19))
+kept_registers <- scraped_register_numbers %>%
+    filter(Numbers %in% c(5, 9, 12, 17, 18, 19)) %>%
+    mutate(url_extension = glue("?rid={Numbers}")) %>%
+    rename(register_id = Numbers, register_name = Names)
 
-scraped_tables_info <- kept_registers %>%
-    pmap_dfr(function(ID, Numbers, Names) {
-        new_url <- glue("{esundhed$url}?rid={Numbers}")
-        register_id <- Numbers
-        register_name <- Names
-        table_page <- bow(new_url)
-        table_page %>%
-            scrape_register_tables() %>%
-            mutate(register_id = register_id,
-                   register_name = register_name)
-    }) %>%
-    rename(table_id = Numbers, table_name = Names)
+scraped_table_numbers <- kept_registers %>%
+    pull(url_extension) %>%
+    scrape_and_tidy(tidy_scraped_register_tables) %>%
+    rename(table_id = Numbers, table_name = Names) %>%
+    mutate(url_extension = glue("{url_extension}&tid={table_id}"))
 
-scraped_tables_info %>%
-    pmap(function(ID, Numbers, Names) {
-        url_extension <- glue("?{ID}={Numbers}")
-        register_name <- Names
-        table_page <- nod(esundhed, url_extension)
-        table_page %>%
-            scrape_register_tables() %>%
-            mutate(register_id = url_extension,
-                   register_name = register_name)
-    })
+scraped_variable_numbers <- scraped_table_numbers %>%
+    pull(url_extension) %>%
+    scrape_and_tidy(tidy_scraped_register_variables) %>%
+    rename(variable_id = Numbers, variable_name = Names) %>%
+    mutate(url_extension = glue("{url_extension}&vid={variable_id}"))
+
+tidied_scraped_descriptions <- scraped_variable_numbers %>%
+    pull(url_extension) %>%
+    scrape_and_tidy(tidy_scraped_descriptions)
+
+saveRDS(tidied_scraped_descriptions, here::here("data/sds-variable-descriptions.Rds"))
+
+# %>%
+#     separate(,
+#              into = c("description_name", "description_text"),
+#              sep = "::") %>%
+#     mutate(across(everything(), str_trim))
+
+
+
+full_variable_list <- scraped_variable_numbers %>%
+    mutate(url_extension = url_extension %>%
+               str_remove("&vid=.*$") %>%
+               str_remove_all("[?&]") %>%
+               str_remove_all("[rt]id") %>%
+               str_remove("^=")) %>%
+    separate(url_extension,
+             into = c("register_id", "table_id"),
+             sep = "=") %>%
+    full_join(select(kept_registers, -url_extension), by = "register_id") %>%
+    full_join(select(scraped_table_numbers, -url_extension), by = "table_id")
+
+saveRDS(full_variable_list, here::here("data/sds-variables.Rds"))
+
+# Translate via https://translate.google.dk/#view=home&op=docs&sl=da&tl=en
+
+# From DST
+
 
