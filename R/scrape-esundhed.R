@@ -7,6 +7,7 @@ library(stringr)
 library(glue)
 library(tidyr)
 library(dplyr)
+library(snakecase)
 conflicted::conflict_prefer("filter", "dplyr")
 
 # Functions ---------------------------------------------------------------
@@ -48,6 +49,7 @@ tidy_scraped_descriptions <- function(.scraped_object) {
         html_attrs() %>%
         map(~is_empty(unname(.)))
 
+    # TODO: How to add data about table vs variable period
     divs_from_page %>%
         html_text() %>%
         keep(unlist(divs_to_keep)) %>%
@@ -55,6 +57,7 @@ tidy_scraped_descriptions <- function(.scraped_object) {
         str_trim() %>%
         str_remove_all("\\n|\\r") %>%
         # Use double colon to differentiate from colons used in sentences.
+        # TODO: Fix this here, this should maybe be put after the code below
         str_replace(":", "::") %>%
         str_replace(
             "(Kort om registeret|Lovgivning og anmeldelse|Tabellens indhold|Variablebeskrivelse)",
@@ -67,6 +70,7 @@ scrape_and_tidy <- function(.url_extensions, .tidy_fn) {
         map( ~ nod(esundhed, glue("{esundhed_api_path}{.}"))) %>%
         map(scrape) %>%
         set_names(.url_extensions) %>%
+        # TODO: This converts to wide, rather than by row... needs to be fixed
         map_dfr(.tidy_fn, .id = "url_extension")
 
 }
@@ -99,17 +103,31 @@ scraped_variable_numbers <- scraped_table_numbers %>%
     rename(variable_id = Numbers, variable_name = Names) %>%
     mutate(url_extension = glue("{url_extension}&vid={variable_id}"))
 
+# saveRDS(scraped_variable_numbers, here::here("data/scraped-variables.Rds"))
+
 tidied_scraped_descriptions <- scraped_variable_numbers %>%
     pull(url_extension) %>%
+    # TODO: Fix so it isn't converted into wide format.
     scrape_and_tidy(tidy_scraped_descriptions)
 
 saveRDS(tidied_scraped_descriptions, here::here("data/sds-variable-descriptions.Rds"))
 
-# %>%
-#     separate(,
-#              into = c("description_name", "description_text"),
-#              sep = "::") %>%
-#     mutate(across(everything(), str_trim))
+
+tidied_scraped_descriptions <- readRDS(here::here("data/sds-variable-descriptions.Rds"))
+
+tidied_descriptions_2 <- tidied_scraped_descriptions %>%
+    pivot_longer(cols = everything(),
+                 names_to = "id",
+                 values_to = "variable_description") %>%
+    mutate(variable_description = variable_description %>%
+               str_replace_all("  +", " ") %>%
+               str_replace_all(":: ?", ": ") %>%
+               str_replace(": ", "::") %>%
+               str_remove_all("\t")) %>%
+    separate(variable_description,
+             into = c("description_title", "description_text"),
+             sep = "::") %>%
+    mutate(across(everything(), str_trim))
 
 
 
@@ -126,6 +144,22 @@ full_variable_list <- scraped_variable_numbers %>%
     full_join(select(scraped_table_numbers, -url_extension), by = "table_id")
 
 saveRDS(full_variable_list, here::here("data/sds-variables.Rds"))
+full_variable_list <- readRDS(here::here("data/sds-variables.Rds"))
+
+tidied_variable_list <- full_variable_list %>%
+    mutate(id = glue("?rid={register_id}&tid={table_id}&vid={variable_id}") %>%
+               as.character())
+
+tidied_descriptions_2 %>%
+    mutate(description_title = description_title %>%
+               str_replace_all("æ", "ae") %>%
+               to_snake_case()) %>%
+    filter(description_text != "") %>%
+    full_join(tidied_variable_list) %>%
+    pivot_wider(names_from = description_title,
+                values_from = description_text) %>%
+    View()
+
 
 # Translate via https://translate.google.dk/#view=home&op=docs&sl=da&tl=en
 
