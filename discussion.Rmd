@@ -1,0 +1,43 @@
+# Discussion {#discussion}
+
+This approach is necessary for a few reasons. First, quantifying the
+contributions of individual variables in high-dimensional data that includes
+exposures and outcomes requires a method that considers the inherent
+interdependence of metabolic variables. Second, using a graph-based approach
+will find and quantify mediating associations. Third, the direction of
+association between metabolic variables, early life factors, and T2D from the
+graph is vital to appropriately infer biological links, and to ultimately reach
+an inference about the causal structure behind observed associations.
+
+## Limitations
+
+## Potential sources of bias
+
+### Measurement biases and errors
+
+- How to test assumptions about a variable
+
+### Misclassification bias
+
+### Unmeasured confounding
+
+### Missing data
+
+### Changing eligibility
+
+## Conclusion
+
+The rise of the digital era and of big data has presented a number of
+challenges and opportunities to modern epidemiology. While big data offers
+valuable datasets for use in health research, the expertise and tools for
+analysing this data are still limited. The innovative analytical tool from this
+project will fully exploit complex datasets for further etiological research,
+which I will bundle and disseminate as an R software package. I will use this
+analytic tool for the present project and for my future research.
+My project's results will provide etiological insight into how
+exposure to adversity in early life modifies adult metabolic capacity, which may
+subsequently reveal pecific metabolic patterns (e.g. more circulating
+long-chain, saturated fatty acids) or more (or less) of specific metabolites
+(e.g. less n-3 fatty acids) that contribute to T2D risk. These changes
+in metabolism could be used as targets for individual level prevention or
+management in those exposed to adversity in early life.
