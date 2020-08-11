@@ -1,10 +1,9 @@
-# Roadmap: Submitting the data request and the protocol
+# Project roadmap
 
 ## Objectives
 
 ```{r, child="objectives.Rmd"}
 ```
-
 
 ## Action plan
 
@@ -22,7 +21,7 @@
 
 ### Milestones
 
-```{r setup}
+```{r setup, include=FALSE}
 library(readr)
 library(dplyr)
 library(gt)
