@@ -201,14 +201,11 @@ measures <- tibble::tribble(
     "DCH-NG and original DCH, ADDITION-DK, EPIC-InterAct for Denmark", "Metabolic profile, lipidomics, metabolomics, and other detailed phenotyping", "~1500 to 55000"
 )
 
-pander::pandoc.table(measures,
-  justify = "left",
-  style = "rmarkdown",
-  missing = "",
-  split.tables = Inf,
-  caption = "Examples of variables contained within registers and cohorts that will be used in this project [@Thygesen2011a;@Carstensen2011a;@Pedersen2011a;@Lauritzen2000a;@Consortium2011a;@Tjoenneland2007a]."
-)
 ```
+
+Examples of variables contained within registers and cohorts that will be used
+in this project
+[@Thygesen2011a;@Carstensen2011a;@Pedersen2011a;@Lauritzen2000a;@Consortium2011a;@Tjoenneland2007a].
 
 
 #### Assessment of variables
@@ -216,6 +213,12 @@ pander::pandoc.table(measures,
 #### Complete list of actual variables used
 
 ### Cohorts
+
+- Inter99?
+- DCH-NG
+- DCH
+- ADDITION-DK
+- EPIC-InterAct DK?
 
 #### Complete list of actual variables used
 
