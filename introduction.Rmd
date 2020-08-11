@@ -50,3 +50,8 @@ fully implemented. Causal reasoning, an area of active development in
 epidemiology [@Pearl2010b;@Richmond2014a;@laBastide-vanGemert2014a], and pathway
 (mediation) analysis techniques are methods that, with some adjustments, have
 the potential to fully exploit these complex, high-dimensional datasets.
+
+## Objectives {#objectives}
+
+```{r, child="objectives.Rmd"}
+```

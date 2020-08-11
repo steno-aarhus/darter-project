@@ -1,4 +1,3 @@
-# Objectives {#objectives}
 
 The overarching goal of the MELD project is to better quantify and understand the
 impact that various early life conditions have on adult metabolic capacity and the
