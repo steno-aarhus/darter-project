@@ -9,4 +9,8 @@ language:
     chapter_name: ""
 rmd_files:
     - "index.Rmd"
+    - "introduction.Rmd"
+    - "design.Rmd"
+    - "discussion.Rmd"
     - "ROADMAP.Rmd"
+    - "references.Rmd"
