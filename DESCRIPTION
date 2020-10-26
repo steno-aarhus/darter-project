@@ -17,3 +17,6 @@ Imports:
     pander,
     gt,
     DiagrammeR
+Suggests: 
+    V8,
+    DiagrammeRsvg
