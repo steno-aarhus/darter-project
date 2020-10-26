@@ -60,6 +60,103 @@ options(knitr.kable.NA = "")
 
 Registers requested are:
 
+Personoplysninger
+
+- BEF
+- FAIN
+- VNDS
+- FAIK
+- IND
+- AKM
+- UDDA
+- FAM
+- HUST
+- FAHU
+- IEPE
+- VNDS
+- IDA
+- RAS
+- PUOB 
+- INDH
+- INDK
+- IEPE
+
+Sygesikring
+
+- SYSI
+- SSSY
+- SYST
+- SHSS
+- SSNV
+
+Landspatientregistret indlæggelser (administrative oplysninger)
+
+- LPR_ADM
+
+LPRBES (ambulant besøg)
+
+- LPR_BES
+
+LPRDIAG (diagnose)
+
+- LPR_DIAG
+
+Operation
+
+- LPR_OPR
+- LPR_SKSOP
+- LPR_SKSUBE
+
+Privathospitals indlæggelser (administrative oplysninger)
+
+- PRIV_ADM
+
+PRIVDIAG (Privathospital diagnose)
+
+- PRIV_DIAG
+
+PRIVSKSUBE (Privathospital undersøgelser og behandlinger)
+
+- PRIV_SKSUBE
+
+PRIVSKSOPR (Privathospital operation)
+
+- PRIV_SKSOPR
+
+Landspatientregistret uafsluttet indlæggelser (administrative oplysninger)
+
+- UAF_ADM
+- UAF_BES
+- UAF_DIAG
+
+Uafsluttet operation
+
+- UAF_OPR
+- UAF_SKSOPR
+
+Døde i Danmark
+
+- DOD
+- DODSAASG
+
+Fra Sundhedsdatastyrelsen
+
+Lægemiddelstatistikregisteret (LMSREG)
+
+- LMDB
+
+Landspatientregistret-Psykiatri
+
+- LPR_PSYK
+
+LABKA
+
+Geografi, miljø og energi:
+
+- BYSTRB
+
+
+
 ```{r register-list, results="asis"}
 variable_list %>% 
     glue::glue_data("- {register_english} / {register_danish} ({register_abbreviation})") %>% 
