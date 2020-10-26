@@ -6,33 +6,34 @@ output: word_document
 
 ## Autoriseret institution / Authorised institution
 
-Steno Diabetes Center Aarhus  
+Steno Diabetes Center Aarhus (inst. nr. 574)  
 Hedeager 3, 2. sal  
 8200 Aarhus  
 Denmark  
 
 ## Projekttitel / Project title
 
-MELD project: Metabolic consequences of early life adversity and subsequent risk for type 2 diabetes
+MELD project: Metabolic consequences of early life adversity and subsequent risk
+for type 2 diabetes
 
 ## Projektbeskrivelse / Project description
 
-Early life adversity is known to influence the risk for adult cardiometabolic
-diseases such as type 2 diabetes (T2D); however, how metabolic processes mediate
-this link is not well understood. Much of what we know about how early life
-metabolically influences later risk for chronic disease comes from non-human 
-animal research. With the availability of long-term longitudinal data from the
-registers, linked to cohort datasets with metabolic data, we aim to:
+This project aims to investigate the link between early life
+conditions, later adult metabolic capacity, and risk for adult cardiometabolic
+diseases such as type 2 diabetes. We know from previous studies that early
+life conditions, which include family environment, family connections,
+parental socioeconomic position, maternal health and behaviours, and chronic or
+acute illnesses in the family, has a strong influence on risk for diseases
+such as diabetes however we don't know how that links with general metabolic 
+capacity.
 
-1. Investigate how and to what degree individual early life conditions may
-contribute to the risk of T2D in adulthood.
-1. Examine potential mediating pathways that adult metabolic capacity may
-have between exposure to adversity in early life and risk for incident T2D,
-along with the estimated magnitude of the pathways.
+We want to link register-based data such as diagnosis of disease and early life 
+conditions with cohort-based data that includes high dimensional metabolic data.
+There are few resources and available long-term data on early life conditions in
+humans outside of Denmark and other Scandinavian registers. This makes the
+Danish registers ideal for investigating this area of human health.
 
-See Appendix 1 for a more complete project description (in English).
 
-TODO: Revise DDA project description and add as appendix item
 
 ## Population / Population
 
