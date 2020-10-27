@@ -1,5 +1,6 @@
 
 library(rvest)
+# TODO: Since esundhed uses an API, don't need to use polite.
 library(polite)
 library(tibble)
 library(purrr)
@@ -162,7 +163,3 @@ tidied_descriptions_2 %>%
 
 
 # Translate via https://translate.google.dk/#view=home&op=docs&sl=da&tl=en
-
-# From DST
-
-
