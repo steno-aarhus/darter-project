@@ -48,6 +48,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 tasks %>% 
     filter(is_milestone) %>% 
     select(deliverable, status, task_name) %>% 
+    arrange(deliverable) %>% 
     # mutate(status = if_else(status %in% c("") | is.na(status),
     #                         empty_box, checked_box)) %>%
     rename(Task = task_name, Status = status) %>% 

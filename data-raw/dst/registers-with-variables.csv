@@ -1,0 +1,1799 @@
+register_id,variable_name,description_dk,start_year,end_year,variable_times_url,variable_hkd_url
+AKM,ALDER_ULT_INK,"Personens alder på referenecetidspunktet, 31. 12. det pågældende år",1991,2018,NA,NA
+AKM,ANT_ANSAT_ARBSTED,Antal ansatte for væsentligste arbejdssted ( optælling af ansatte sker for hver arbejdessted under SENR (AKM),2006,2013,NA,NA
+AKM,ANT_ANSAT_ARBSTED_13,Antal ansatte for væsentligste arbejdssted ( optælling af ansatte sker for hver arbejdessted under SENR (AKM),2010,2018,NA,NA
+AKM,ANT_ANSAT_SENR,Antal ansatte for væsentligste beskæftigelse (AKM),1976,2005,NA,NA
+AKM,ATPSUM2,Beskæftigelsesmål baseret på ATP- indbetalinger (AKM),1976,2010,NA,NA
+AKM,BESKST,Beskæftigelsesstatus 1980 til 2001 (Indkomst/AKM),1976,2001,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/BESKST,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/BESKST
+AKM,BESKST02,Beskæftigelsesstatus fra 2002 (Indkomst/AKM),2002,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/BESKST02,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/BESKST02
+AKM,BESKST13,Kode for personens væsentligste indkomst-kilde (INDKOMST/AKM),1991,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/BESKST13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/BESKST13
+AKM,BRANCHE_77,Dansk branchekode 1977 til 1993 (AKM),1980,1999,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/BRANCHE-77,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/BRANCHE-77
+AKM,BRCHI,Branchekode for indehaver,1976,2002,NA,NA
+AKM,BRCHL,Branchekode for lønmodtager,1976,1999,NA,NA
+AKM,CPRTJEK,CPR-tjek,1991,2018,NA,NA
+AKM,CPRTYPE,CPR-type,1991,2018,NA,NA
+AKM,DISCO08_ALLE_INDK,"Fagklassifikation for beskæftigelsesforhold, fra 2010 (AKM)",2010,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/DISCO08-ALLE-INDK,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/DISCO08-ALLE-INDK
+AKM,DISCO08_ALLE_INDK_13,Fagkode for væsentligste beskæftigelse i året- fra 2010 (AKM),2010,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/DISCO08-ALLE-INDK-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/DISCO08-ALLE-INDK-13
+AKM,DISCO08_LOEN_INDK,Fagkode for væsentligste lønmodtagerbeskæftigelse i året. (AKM),2010,2018,NA,NA
+AKM,DISCO08_SEL_INDK,Fagkode for arbejde i selvstændig virksomhed (AKM),2010,2018,NA,NA
+AKM,DISCOALLE_INDK,"Fagklassifikation for beskæftigelsesforhold, fra 1991 TIL 2009 (AKM)",1993,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/DISCOALLE-INDK,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/DISCOALLE-INDK
+AKM,DISCOLOEN_INDK,Fagkode for væsentligste lønmodtagerbeskæftigelse i året. (AKM),1991,2009,NA,NA
+AKM,DISCOSEL_INDK,Fagkode for arbejde i selvstændig virksomhed (AKM),1991,2009,NA,NA
+AKM,DISCOTYP,Kilde til lønmodtager DISCO-koden (AKM),1991,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/DISCOTYP,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/DISCOTYP
+AKM,DISCO_ALLE_INDK_13,"Fagklassifikation for beskæftigelsesforhold, fra 1991 TIL 2009 (AKM)",1991,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/DISCO-ALLE-INDK-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/DISCO-ALLE-INDK-13
+AKM,FUNK_TIMEANT,Personens samlede antal arbejdstimer i året.,2008,2018,NA,NA
+AKM,NACE,"Branche for væsentligste beskæftigelse, fra 1992 til 2007 (AKM)",1992,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/NACE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/NACE
+AKM,NACEA,Branchegruppering for arbejdssted (1993 til 2007) (AKM),1992,2007,NA,NA
+AKM,NACEA_DB07,Branchegruppering for arbejdssted ( fra 2007) (AKM),2007,2018,NA,NA
+AKM,NACEI,Branchekode for selvstændige og medarbejdende ægtefællers virksomhed(1993 til 2007) (AKM),1993,2007,NA,NA
+AKM,NACEI_DB07,Branchegruppering for indehaver (Selvstændig eller medhjælpende ægtefælle) (fra 2007) (AKM),2007,2018,NA,NA
+AKM,NACE_13,"Branche for væsentligste beskæftigelse, fra 1993 til 2007 (AKM)",1993,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/NACE-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/NACE-13
+AKM,NACE_DB07,"Branche for væsentligste beskæftigelse, fra 2008-2013 (AKM)",2007,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/NACE-DB07,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/NACE-DB07
+AKM,NACE_DB07_13,"Branche for væsentligste beskæftigelse, fra 2007(AKM)",2007,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/NACE-DB07-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/NACE-DB07-13
+AKM,NYSTGR,Stillingsgruppering 1980 til 1995 (AKM),1980,1999,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/NYSTGR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/NYSTGR
+AKM,OMFANG,Omfang af skattepligt,1991,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/OMFANG,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/OMFANG
+AKM,PNR,Personnummer,1976,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+AKM,SENR,SENR,1985,2002,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/SENR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Loenoplysninger-fra-det-centrale-oplysningsseddelregister/SENR
+AKM,SENRI,SE-nummer for den virksomhed som personen ejer,1985,2002,NA,NA
+AKM,SENRL,SE-nummer for lønmodtager,1985,1998,NA,NA
+AKM,SOCIO,Socioøkonomisk klassifikation fra 1994 til 2001 (AKM),1994,2001,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/SOCIO,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/SOCIO
+AKM,SOCIO02,Socioøkonomisk klassifikation fra 2002 (AKM),2002,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/SOCIO02,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/SOCIO02
+AKM,SOCIO13,Socioøkonomisk klassifikation version 2013 (AKM),1991,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/SOCIO13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/SOCIO13
+AKM,SOCIO_GL,Socioøkonomisk klassifikation fra 1976 til 1990,1976,1990,NA,NA
+AKM,TYP,Stillingstype,1980,1999,NA,NA
+AKM,VERSION,Moduldata version,1991,2018,NA,NA
+AKM,VIRKF,Virksomhedskode angiver hvilken form for ejerskab der er på den arbejdsplads personen får størst erhrvsindkomst fra (AKM),2001,2013,NA,NA
+AKM,VIRKFA,Virksomhedskode angiver hvilken form for ejerskab der er på den arbejdsplads personen får størstklønindkomst/arbejdstimer (AKM),2001,2018,NA,NA
+AKM,VIRKF_13,Virksomhedskode angiver hvilken form for ejerskab der er på den arbejdsplads personen får størst erhrvsindkomst fra (AKM),2001,2018,NA,NA
+AKM,ALDER_ULT_INK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/ALDER-ULT-INK,NA
+AKM,ANT_ANSAT_ARBSTED,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/ANT-ANSAT-ARBSTED,NA
+AKM,ANT_ANSAT_ARBSTED_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/ANT-ANSAT-ARBSTED-13,NA
+AKM,ANT_ANSAT_SENR,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/ANT-ANSAT-SENR,NA
+AKM,ATPSUM2,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/ATPSUM2,NA
+AKM,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+AKM,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+AKM,DISCO08_LOEN_INDK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/DISCO08-LOEN-INDK,NA
+AKM,DISCO08_SEL_INDK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/DISCO08-SEL-INDK,NA
+AKM,DISCOLOEN_INDK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/DISCOLOEN-INDK,NA
+AKM,DISCOSEL_INDK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/DISCOSEL-INDK,NA
+AKM,FUNK_TIMEANT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/FUNK-TIMEANT,NA
+AKM,NACEA,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/NACEA,NA
+AKM,NACEA_DB07,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/NACEA-DB07,NA
+AKM,NACEI,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/NACEI,NA
+AKM,NACEI_DB07,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/NACEI-DB07,NA
+AKM,TYP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/TYP,NA
+AKM,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+AKM,VIRKF,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/VIRKF,NA
+AKM,VIRKFA,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/VIRKFA,NA
+AKM,VIRKF_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/VIRKF-13,NA
+BEF,ADRESSE_ID,Bopælsadresse_id,198512,202003,NA,NA
+BEF,AEGTE_ID,Ægtefælle ID,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/AEGTE-ID,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/AEGTE-ID
+BEF,ALDER,Alder pr. 1. januar.,198512,202003,NA,NA
+BEF,ANTBOERNF,Antal børn i familien,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/ANTBOERNF,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/ANTBOERNF
+BEF,ANTBOERNH,Antal børn i husstanden,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/ANTBOERNH,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Husstande/ANTBOERNH
+BEF,ANTEFAM,Antal E-familier i husstanden,198512,202003,NA,NA
+BEF,ANTPERSF,Antal personer i familien,198512,202003,NA,NA
+BEF,ANTPERSH,Antal personer i husstanden,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/ANTPERSH,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Husstande/ANTPERSH
+BEF,BETALINGSKOM,Betalingskommune,198512,202003,NA,NA
+BEF,BOP_VFRA,Dato for tilflytning/indvandring,198512,202003,NA,NA
+BEF,CIVST,Civilstand,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/civst,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/CIVST
+BEF,CIV_VFRA,Civilstandsdato,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/civ-vfra,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/CIV-VFRA
+BEF,CPRTJEK,CPR-tjek,198512,202003,NA,NA
+BEF,CPRTYPE,CPR-type,198512,202003,NA,NA
+BEF,E_FAELLE_ID,E_fælle,198512,202003,NA,NA
+BEF,FAMILIE_ID,Familiens identificerende nummer.,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/familie-id,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/FAMILIE-ID
+BEF,FAMILIE_TYPE,Familietype,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/forebyggelsesregistret/familie-type,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/FAMILIE-TYPE
+BEF,FAM_KOEN,Køn for hovedpersonen i familien,198512,202003,NA,NA
+BEF,FAR_ID,Faderens Person Id,198512,202003,NA,NA
+BEF,FKIRK,Tilhørsforhold til folkekirken.,200412,202003,NA,NA
+BEF,FM_MARK,Forældremarkering,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/FM-MARK,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/FMMARK
+BEF,FOEDREG_KODE,Kode for personens fødselsregistreringssted.,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/foedreg-kode,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/FOEDREG-KODE
+BEF,FOED_DAG,Fødselsdato,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/foed-dag,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/FOED-DAG
+BEF,FOERSTE_INDVANDRING,Første indvandringsdato,200412,202003,NA,NA
+BEF,HUSTYPE,Husstandstype,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/hustype,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Husstande/HUSTYPE
+BEF,IE_TYPE,"Indvandrere, efterkommere , personer med dansk oprindelse",198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/ie-type,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Udlaendinge/IE-TYPE
+BEF,KOEN,Køn,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/forebyggelsesregistret/koen,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOEN
+BEF,KOM,Ingen label,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/KOM,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOM
+BEF,MOR_ID,Moderens Person Id,198512,202003,NA,NA
+BEF,OPHOLDMD_DK,Opholdstid i måneder,198512,202003,NA,NA
+BEF,OPR_LAND,Oprindelsesland,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/opr-land,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Udlaendinge/OPR-LAND
+BEF,PLADS,Familiestatus,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/forebyggelsesregistret/plads,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/PLADS
+BEF,PNR,Personnummer,198512,202003,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+BEF,REFERENCETID,Referencetidspunkt eller -periode,198512,202003,NA,NA
+BEF,REG,Region,198512,202003,NA,NA
+BEF,SENESTE_INDVANDRING,Seneste indvandringsdato,200412,202003,NA,NA
+BEF,STATSB,Statsborgerskab,198512,202003,NA,NA
+BEF,VAN_VTIL,Indvandringsdato,198512,200312,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/VAN-VTIL,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Indvandringer-til-Danmark/VAN-VTIL
+BEF,VERSION,Moduldata version,200412,202003,NA,NA
+BEF,ADRESSE_ID,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/ADRESSE-ID,NA
+BEF,ALDER,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/alder,NA
+BEF,ANTEFAM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/ANTEFAM,NA
+BEF,ANTPERSF,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/ANTPERSF,NA
+BEF,BOP_VFRA,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/bop-vfra,NA
+BEF,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+BEF,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+BEF,E_FAELLE_ID,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/E-FAELLE-ID,NA
+BEF,FAM_KOEN,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/FAM-KOEN,NA
+BEF,FAR_ID,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/far-id,NA
+BEF,FOERSTE_INDVANDRING,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/FOERSTE-INDVANDRING,NA
+BEF,MOR_ID,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/MOR-ID,NA
+BEF,OPHOLDMD_DK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/OPHOLDMD-DK,NA
+BEF,REFERENCETID,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/REFERENCETID,NA
+BEF,REG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/fragt-og-krydstogtskibes-anloeb-af-stoerre-danske-havne/reg,NA
+BEF,SENESTE_INDVANDRING,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/SENESTE-INDVANDRING,NA
+BEF,STATSB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/statsb,NA
+BEF,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+BYSTRB,BEBOELSE,Beboelse,2014,2020,NA,NA
+BYSTRB,DSTKODE,Danmarks Statistik's løbenr. for et byområde,2006,2020,NA,NA
+BYSTRB,DSTNAVN,DSt's stednavnsangivelse for et byområde (bebyggelse=/> 200 indbyggere),2006,2020,NA,NA
+BYSTRB,FOLKETAL,Antal personer boende på adressen,2006,2020,NA,NA
+BYSTRB,HUSSTANDE,Antal husstande boende på adressen,2007,2020,NA,NA
+BYSTRB,KOM,Kommune,2006,2020,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/KOM,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOM
+BYSTRB,KOORDTYPE,Metode til hvordan koordinaterne er fundet,2006,2014,NA,NA
+BYSTRB,OPGIKOM,Opgangsadresse i kommunen,2006,2020,NA,NA
+BYSTRB,POSTNR,Postnummer,2006,2020,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/Grupperings-tabeller/POSTNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/POSTNR
+BYSTRB,SOGNENR,Sognekode,2007,2020,NA,NA
+BYSTRB,STORHED,Bystørrelse,2006,2020,NA,NA
+BYSTRB,OPGIKOM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/OPGIKOM,NA
+BYSTRB,STORHED,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/Byopgoerelsen/STORHED,NA
+DOD,ALDER_HAEND,Alder på hændelsestidspunkt,2019,2019,NA,NA
+DOD,CPRTJEK,CPR-tjek,2019,2019,NA,NA
+DOD,CPRTYPE,CPR-type,2019,2019,NA,NA
+DOD,DODDATO,Dato for dødsfald,2019,2019,NA,NA
+DOD,PNR,Personnummer,2019,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+DOD,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+DOD,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+DODSAASG,AAR,Ingen label,2018,2018,NA,NA
+DODSAASG,CPRTJEK,CPR-tjek,2018,2018,NA,NA
+DODSAASG,CPRTYPE,CPR-type,2018,2018,NA,NA
+DODSAASG,C_BOPAMTF07,C_BOPAMTF07,2018,2018,NA,NA
+DODSAASG,C_BOPKOM,C_BOPKOM,2018,2018,NA,NA
+DODSAASG,C_BOPKOMF07,C_BOPKOMF07,2018,2018,NA,NA
+DODSAASG,C_DODKOM,C_DODKOM,2018,2018,NA,NA
+DODSAASG,C_DODREGION,C_DODREGION,2018,2018,NA,NA
+DODSAASG,C_DODSMAADE,Dødsmåde,2018,2018,NA,NA
+DODSAASG,C_DODSSTED,Dødssted,2018,2018,NA,NA
+DODSAASG,C_DODTILGRUNDL_ACME,Tilgrundliggende dødsårsag ifølge ACME,2018,2018,NA,NA
+DODSAASG,C_DOD_1A,C_DOD_1A,2018,2018,NA,NA
+DODSAASG,C_DOD_1B,C_DOD_1B,2018,2018,NA,NA
+DODSAASG,C_DOD_1C,C_DOD_1C,2018,2018,NA,NA
+DODSAASG,C_DOD_1D,C_DOD_1D,2018,2018,NA,NA
+DODSAASG,C_DOD_21,C_DOD_21,2018,2018,NA,NA
+DODSAASG,C_DOD_22,C_DOD_22,2018,2018,NA,NA
+DODSAASG,C_DOD_23,C_DOD_23,2018,2018,NA,NA
+DODSAASG,C_DOD_24,C_DOD_24,2018,2018,NA,NA
+DODSAASG,C_DOD_25,C_DOD_25,2018,2018,NA,NA
+DODSAASG,C_DOD_26,C_DOD_26,2018,2018,NA,NA
+DODSAASG,C_DOD_27,C_DOD_27,2018,2018,NA,NA
+DODSAASG,C_DOD_28,C_DOD_28,2018,2018,NA,NA
+DODSAASG,C_FINDESTED,Findested,2018,2018,NA,NA
+DODSAASG,C_HAENDELSESSTED,C_HAENDELSESSTED,2018,2018,NA,NA
+DODSAASG,C_LAEGEFUNKTION,C_LAEGEFUNKTION,2018,2018,NA,NA
+DODSAASG,C_LISTE14,"Diagnosegruppe, 14-listen",2018,2018,NA,NA
+DODSAASG,C_LISTE49,"Diagnosegruppe, 49-listen",2018,2018,NA,NA
+DODSAASG,C_LISTEA,C_LISTEA,2018,2018,NA,NA
+DODSAASG,C_LISTEB,C_LISTEB,2018,2018,NA,NA
+DODSAASG,C_OBDUKTION,C_OBDUKTION,2018,2018,NA,NA
+DODSAASG,C_OPERATION,C_OPERATION,2018,2018,NA,NA
+DODSAASG,C_PRAECIS_DODSSTED,C_PRAECIS_DODSSTED,2018,2018,NA,NA
+DODSAASG,C_PRAECIS_FINDESTED,C_PRAECIS_FINDESTED,2018,2018,NA,NA
+DODSAASG,C_REGION,C_REGION,2018,2018,NA,NA
+DODSAASG,C_SEX,C_SEX,2018,2018,NA,NA
+DODSAASG,D_DODSDATO,D_DODSDATO,2018,2018,NA,NA
+DODSAASG,D_FINDEDATO,D_FINDEDATO,2018,2018,NA,NA
+DODSAASG,D_STATDATO,D_STATDATO,2018,2018,NA,NA
+DODSAASG,PNR,Personnummer,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+DODSAASG,V_ALDER,V_ALDER,2018,2018,NA,NA
+DODSAASG,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+DODSAASG,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+FAHU,ALDALDPH,Alder for ældste person i husstanden,1980,2007,NA,NA
+FAHU,ALDYNGPH,Alder for yngste person i husstanden,1980,2007,NA,NA
+FAHU,ANTBRNH,Antal børn i husstanden,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/ANTBRNH,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Husstande/ANTBRNH
+FAHU,ANTCFAM,Antal C-familier,1980,2007,NA,NA
+FAHU,ANTH00,Antal 0-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH01,Antal 1-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH02,Antal 2-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH03,Antal 3-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH04,Antal 4-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH05,Antal 5-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH06,Antal 6-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH07,Antal 7-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH08,Antal 8-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH09,Antal 9-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH10,Antal 10-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH11,Antal 11-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH12,Antal 12-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH13,Antal 13-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH14,Antal 14-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH15,Antal 15-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH16,Antal 16-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH17,Antal 17-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH1819,Antal 18-19-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH2029,Antal 20-29-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH3039,Antal 30-39-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH4049,Antal 40-49-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH5059,Antal 50-59-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH6069,Antal 60-69-årige personer i husstanden,1980,2007,NA,NA
+FAHU,ANTH70,Antal 70-og derover-årige personer i hus,1980,2007,NA,NA
+FAHU,ANTPERH,Antal personer i husstanden,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/ANTPERH,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Husstande/ANTPERH
+FAHU,ANTVOKSH,Antal voksne personer i husstanden,1980,2007,NA,NA
+FAHU,BOPIKOM,"Adressen (vej, husnummer, husbogstav, etage, side/dørnummer)",1980,2007,NA,NA
+FAHU,D_ANT_FAM,Antal D-familier i husstanden,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/D-ANT-FAM,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/D-ANT-FAM
+FAHU,FHART,Fælleshusstandsart,2003,2006,NA,NA
+FAHU,HUSTYPE,Husstandstype,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/hustype,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Husstande/HUSTYPE
+FAHU,KOM,Kommune,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/KOM,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOM
+FAHU,KONALDH,KØN på ældste person i husstanden,1980,2007,NA,NA
+FAHU,BOPIKOM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/BOPIKOM,NA
+FAIK,FAMAEKVIVADISP,Ækvivaleret disponibel indkomst for familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famaekvivadisp,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMAEKVIVADISP
+FAIK,FAMAEKVIVADISP_13,Ækvivaleret disponibel indkomst for familien,1987,2018,NA,NA
+FAIK,FAMAEKVIVAINDKNETTO,Ækvivaleret samlet indkomst med nettorenter for familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famaekvivaindknetto,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMAEKVIVAINDKNETTO
+FAIK,FAMAKTIEINDK,Aktieindkomster,1990,2009,NA,NA
+FAIK,FAMANDENPENSION,Andre pensionsudbetalinger til familien,1987,2018,NA,NA
+FAIK,FAMANDOVERFORSEL,Andre overførsler til familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famandoverforsel,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMANDOVERFORSEL
+FAIK,FAMANTALFSKATTEPLIGTIGE,Antal fuldt skattepligtige voksne i familien,1987,2018,NA,NA
+FAIK,FAMARBEJDSLOESP,Arbejdsløshedsdagpenge og uddannelsesgodtgørelse for familien,1987,2018,NA,NA
+FAIK,FAMARBMABIDRAG,Arbejdsmarkedsbidrag mv,1987,2018,NA,NA
+FAIK,FAMBOERNETILSKUD,Børnetilskud og familieydelser til familien,1987,2018,NA,NA
+FAIK,FAMBOLIGFORM,Familiens boligform,2000,2018,NA,NA
+FAIK,FAMBOLIGSTOETTE,Boligstøtte udbetalt til familien,1987,2018,NA,NA
+FAIK,FAMBOLIGTYPE,Familiens boligtype,2000,2018,NA,NA
+FAIK,FAMBRUTTOINDK,Bruttoindkomst for familien,1990,2009,NA,NA
+FAIK,FAMDAGPENGE_KONTANT_13,Familiens samlede dagpenge og kontanthjælp,1987,2018,NA,NA
+FAIK,FAMDISPONIBEL,Diponibel indkomst for familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famdisponibel,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMDISPONIBEL
+FAIK,FAMDISPONIBEL_13,Disponibel indkomst,1987,2018,NA,NA
+FAIK,FAMEFTERLOEN,Efterløn,1987,2018,NA,NA
+FAIK,FAMEJDSKAT_EJERBOLIG,Ejendomsskat for boligejere,2010,2018,NA,NA
+FAIK,FAMEJDSKAT_LEJERBOLIG,Ejendomsskat for lejere,2010,2018,NA,NA
+FAIK,FAMEJENDOMSVURDERING,Kontant ejendomsværdi,1987,2018,NA,NA
+FAIK,FAMERHVERVSINDK,Erhversindkomst for familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famerhvervsindk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMERHVERVSINDK
+FAIK,FAMERHVERVSINDK_13,"Erhvervsindkomst, løn og nettooverskud af selvstændig virksomhed inkl. visse honorarer",1987,2018,NA,NA
+FAIK,FAMFOLKEFORTID_13,Folke- og førtidspension i familien,1987,2018,NA,NA
+FAIK,FAMFORMREST_NY05,"Familiens nettorestformue ultimo året, ekskl. Pensionsformuer",1987,2018,NA,NA
+FAIK,FAMFORMUEAKTIVER,Familiens samlede aktiver,1987,2018,NA,NA
+FAIK,FAMFORMUEINDK,Formueindkomst i alt for familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famformueindk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMFORMUEINDK
+FAIK,FAMFORMUEINDK_BRUTTO,Formueindkomst. brutto i familien,1987,2018,NA,NA
+FAIK,FAMFRADRAGIALT,Samlet beregnet fradrag for familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famfradragialt,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMFRADRAGIALT
+FAIK,FAMFRYNSEGODER,Skattmæssig værdi af frynsegoderne i familien,1993,2009,NA,NA
+FAIK,FAMGAELDIALT,Familiens passiver,1987,2018,NA,NA
+FAIK,FAMGRON_CHECK,Grøn check,2010,2018,NA,NA
+FAIK,FAMHOEJSTUDDA,Højeste uddannelse for de voksne i familien,2000,2018,NA,NA
+FAIK,FAMHONNY,AMB. pligtige honorarer,1987,2018,NA,NA
+FAIK,FAMILIE_ID,Familiens identificerende nummer.,1987,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/familie-id,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/FAMILIE-ID
+FAIK,FAMINDKOMSTIALT,Familieindkomst i alt før skat,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famindkomstialt,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMINDKOMSTIALT
+FAIK,FAMINDKOMSTIALT_13,"Indkomst i alt, før skatter mv.",1987,2018,NA,NA
+FAIK,FAMKONTANTHJAELP,Kontanthjælp for familien,1990,2009,NA,NA
+FAIK,FAMKONTANTHJAELP_13,Kontant hjælp i familien,1987,2018,NA,NA
+FAIK,FAMLEJEVAERDI,beregnet lejeværdi af egen bolig for familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famlejevaerdi,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMLEJEVAERDI
+FAIK,FAMLEJEV_EGEN_BOLIG,Beregnet lejeværdi af egen bolig,1987,2018,NA,NA
+FAIK,FAMLOENMV,Lønindkomst i alt i familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famloenmv,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMLOENMV
+FAIK,FAMLOENMV_13,Lønindkomst i alt i familien,1987,2018,NA,NA
+FAIK,FAMMIDLERTIDYD,Midlertidige overførselsindkomster,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/fammidlertidyd,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMMIDLERTIDYD
+FAIK,FAMOEVRIGFORMUE,Anden formueindkomst for familien,1990,2009,NA,NA
+FAIK,FAMOEVRIGFORMUE_13,Øvrige formueindkomster i familien (aktieindkomst mv.),1987,2018,NA,NA
+FAIK,FAMOFFPENS_EFTLON_13,Offentlige pensioner i familien,1987,2018,NA,NA
+FAIK,FAMOFF_OVERFORSEL_13,Familiens offentlige overførsler,1987,2018,NA,NA
+FAIK,FAMORLOVSYDELSE,Orlovsydelser udbetalt til familien,1994,2009,NA,NA
+FAIK,FAMOVERFOERINDK,Familiens samlede overførselsindkomster,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famoverfoerindk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMOVERFOERINDK
+FAIK,FAMOVERGANGYD,Familiens samledeoOvergangsydelse,1994,2006,NA,NA
+FAIK,FAMOVRIG_DAGPENGE_AKAS_13,Øvrige dagpenge fra A-kasser,1987,2018,NA,NA
+FAIK,FAMOVRIG_KONTANTHJALP_13,"Familiens samlede Aktiverings-, ledigheds- og revalideringsydelse",1987,2018,NA,NA
+FAIK,FAMOVRIG_OVERFORSEL_13,Øvrige overførselsindkomster i familien,1987,2018,NA,NA
+FAIK,FAMPENSIONATP,Pensionsudbetaling fra ATP for familien,1987,2018,NA,NA
+FAIK,FAMPENSIONIALT,Pensioner i alt for familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/fampensionialt,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMPENSIONIALT
+FAIK,FAMPENSOFFENTLIG,Folke- og førtidspension for familien,1990,2009,NA,NA
+FAIK,FAMPENSTJENESTE,Tjenestemandspension for familien,1987,2018,NA,NA
+FAIK,FAMPRIVAT_PENSION_13,Private pensioner i familien,1987,2018,NA,NA
+FAIK,FAMRENTEINDK,Samlede renteindtægter fra Danmark for familien,1990,2009,NA,NA
+FAIK,FAMRENTEINDK_13,Familiens samlede skattepligtige renteindtægter fra Danmark undtagen renteindtægt i selvstændig virksomhed,1987,2018,NA,NA
+FAIK,FAMRENTEUDGIFTER,Samlede fradragsberettigede renteudgifter for familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famrenteudgifter,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMRENTEUDGIFTER
+FAIK,FAMRENTEUDGIFTER_13,"Renteudgifter, ekskl. renteudgifter fra udlandet og ekskl. renteudgifter i selvstændig virksomhed",1987,2018,NA,NA
+FAIK,FAMRESTBISTANDSYD,Andre ydelser fra kommuuner og A-kasser udbetalt til familien,1990,2009,NA,NA
+FAIK,FAMRESTINDK,Diverse indkomster som ikke direkte kan klassificeres i hovedgrupperne,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famrestindk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMRESTINDK
+FAIK,FAMRESTINDK_13,Anden personlig indkomst i familien,1987,2018,NA,NA
+FAIK,FAMSAMLETINDK,Samlet indkomst for familien,1990,2009,NA,NA
+FAIK,FAMSKATFRIYD,Skattefrie indkomster i familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famskatfriyd,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMSKATFRIYD
+FAIK,FAMSKATMVIALT,Skat og arbejdsmarkedsbidrag betalt af familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famskatmvialt,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMSKATMVIALT
+FAIK,FAMSKATMVIALT_13,"Skat, arbejdsmarkedsbidrag og særlig pension i alt. ekskl. kirkeskat",1987,2018,NA,NA
+FAIK,FAMSKATPLIGTINDK,Skattepligtig indkomst for familien,1987,2018,NA,NA
+FAIK,FAMSKATTOT,Samlet indkomstskat betalt af familien,1990,2009,NA,NA
+FAIK,FAMSKATTOT_13,Samlet personlig slutskat for en skatteyder inkl. udenlandsk betalt skat. Ekskl. kirkeskat,1987,2018,NA,NA
+FAIK,FAMSOCIOGRUP,Familiens socioøkonomiske gruppe,1994,2009,NA,NA
+FAIK,FAMSOCIOGRUP_13,Familiens socioøkonomiske gruppe Def13,1993,2018,NA,NA
+FAIK,FAMSU,Stipendier fra Statens Uddannelsesstøtte - SU udbetalt til familien,1987,2018,NA,NA
+FAIK,FAMSUMINDKNETTORENT,Samlet indkomst med nettorenter for familien,1990,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famsumindknettorent,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familieindkomst/FAMSUMINDKNETTORENT
+FAIK,FAMSYG_BARSEL_13,Familiens syge- og barselsdagpenge ekskl. refusion til arbejdsgiver.,1987,2018,NA,NA
+FAIK,FAMTRANSPORTFRADRAG,Samlet befordringsfradrag i familien,1990,2009,NA,NA
+FAIK,FAMTYPE,familietype,1987,2018,NA,NA
+FAIK,FAMUNDERHBIDRAG,Underholdsbidrag betalt af familien,1987,2018,NA,NA
+FAIK,FAMVIRKORDIND,Familiens samlede beløb indsat i virksomhedsordningerne netto (speciel ordning for selvstændige og kunstnere),1987,2018,NA,NA
+FAIK,FAMVIRKOVERSKUD,nettooverskud af selvstændig virksomhed for familien,1990,2009,NA,NA
+FAIK,FAMVIRKOVERSKUD_13,Familiens samlede overskud af selvstændig virksomhed efter virksomhedens renteudgifter,1987,2018,NA,NA
+FAIK,VERSION,Version,1987,2018,NA,NA
+FAIK,FAMAEKVIVADISP_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famaekvivadisp-13,NA
+FAIK,FAMAKTIEINDK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famaktieindk,NA
+FAIK,FAMANDENPENSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famandenpension,NA
+FAIK,FAMANTALFSKATTEPLIGTIGE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famantalfskattepligtige,NA
+FAIK,FAMARBEJDSLOESP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famarbejdsloesp,NA
+FAIK,FAMARBMABIDRAG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famarbmabidrag,NA
+FAIK,FAMBOERNETILSKUD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famboernetilskud,NA
+FAIK,FAMBOLIGFORM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famboligform,NA
+FAIK,FAMBOLIGSTOETTE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famboligstoette,NA
+FAIK,FAMBOLIGTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famboligtype,NA
+FAIK,FAMBRUTTOINDK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/fambruttoindk,NA
+FAIK,FAMDAGPENGE_KONTANT_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famdagpenge-kontant-13,NA
+FAIK,FAMDISPONIBEL_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famdisponibel-13,NA
+FAIK,FAMEFTERLOEN,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famefterloen,NA
+FAIK,FAMEJDSKAT_EJERBOLIG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famejdskat-ejerbolig,NA
+FAIK,FAMEJDSKAT_LEJERBOLIG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famejdskat-lejerbolig,NA
+FAIK,FAMEJENDOMSVURDERING,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famejendomsvurdering,NA
+FAIK,FAMERHVERVSINDK_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famerhvervsindk-13,NA
+FAIK,FAMFOLKEFORTID_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famfolkefortid-13,NA
+FAIK,FAMFORMREST_NY05,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famformrest-ny05,NA
+FAIK,FAMFORMUEAKTIVER,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famformueaktiver,NA
+FAIK,FAMFORMUEINDK_BRUTTO,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famformueindk-brutto,NA
+FAIK,FAMFRYNSEGODER,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famfrynsegoder,NA
+FAIK,FAMGAELDIALT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famgaeldialt,NA
+FAIK,FAMGRON_CHECK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famgron-check,NA
+FAIK,FAMHOEJSTUDDA,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famhoejstudda,NA
+FAIK,FAMHONNY,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famhonny,NA
+FAIK,FAMINDKOMSTIALT_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famindkomstialt-13,NA
+FAIK,FAMKONTANTHJAELP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famkontanthjaelp,NA
+FAIK,FAMKONTANTHJAELP_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famkontanthjaelp-13,NA
+FAIK,FAMLEJEV_EGEN_BOLIG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famlejev-egen-bolig,NA
+FAIK,FAMLOENMV_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famloenmv-13,NA
+FAIK,FAMOEVRIGFORMUE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famoevrigformue,NA
+FAIK,FAMOEVRIGFORMUE_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famoevrigformue-13,NA
+FAIK,FAMOFFPENS_EFTLON_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famoffpens-eftlon-13,NA
+FAIK,FAMOFF_OVERFORSEL_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famoff-overforsel-13,NA
+FAIK,FAMORLOVSYDELSE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famorlovsydelse,NA
+FAIK,FAMOVERGANGYD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famovergangyd,NA
+FAIK,FAMOVRIG_DAGPENGE_AKAS_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famovrig-dagpenge-akas-13,NA
+FAIK,FAMOVRIG_KONTANTHJALP_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famovrig-kontanthjalp-13,NA
+FAIK,FAMOVRIG_OVERFORSEL_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famovrig-overforsel-13,NA
+FAIK,FAMPENSIONATP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/fampensionatp,NA
+FAIK,FAMPENSOFFENTLIG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/fampensoffentlig,NA
+FAIK,FAMPENSTJENESTE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/fampenstjeneste,NA
+FAIK,FAMPRIVAT_PENSION_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famprivat-pension-13,NA
+FAIK,FAMRENTEINDK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famrenteindk,NA
+FAIK,FAMRENTEINDK_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famrenteindk-13,NA
+FAIK,FAMRENTEUDGIFTER_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famrenteudgifter-13,NA
+FAIK,FAMRESTBISTANDSYD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famrestbistandsyd,NA
+FAIK,FAMRESTINDK_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famrestindk-13,NA
+FAIK,FAMSAMLETINDK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famsamletindk,NA
+FAIK,FAMSKATMVIALT_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famskatmvialt-13,NA
+FAIK,FAMSKATPLIGTINDK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famskatpligtindk,NA
+FAIK,FAMSKATTOT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famskattot,NA
+FAIK,FAMSKATTOT_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famskattot-13,NA
+FAIK,FAMSOCIOGRUP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famsociogrup,NA
+FAIK,FAMSOCIOGRUP_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Familieindkomst/FAMSOCIOGRUP-13,NA
+FAIK,FAMSU,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famsu,NA
+FAIK,FAMSYG_BARSEL_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famsyg-barsel-13,NA
+FAIK,FAMTRANSPORTFRADRAG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famtransportfradrag,NA
+FAIK,FAMUNDERHBIDRAG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famunderhbidrag,NA
+FAIK,FAMVIRKORDIND,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famvirkordind,NA
+FAIK,FAMVIRKOVERSKUD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famvirkoverskud,NA
+FAIK,FAMVIRKOVERSKUD_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/familieindkomst/famvirkoverskud-13,NA
+FAIK,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+FAIN,ADRDATO,Tilflytningsdato til adressen,1980,2007,NA,NA
+FAIN,AEGTEFAELLE_ID,Ægtefælle Person Id,1980,2007,NA,NA
+FAIN,ALDER,Alder pr. 1. januar.,1980,2007,NA,NA
+FAIN,A_FAMILIE_ID,A-familie Id,1980,2007,NA,NA
+FAIN,A_STATUS,A-familie status,1980,2007,NA,NA
+FAIN,A_TYPE,A-familietype,1980,2007,NA,NA
+FAIN,BOPIKOM,"Adressen (vej, husnummer, husbogstav, etage, side/dørnummer)",1980,2007,NA,NA
+FAIN,CIVDATO,Civilstandsdato,1980,2007,NA,NA
+FAIN,CIVST,Civilstand,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/civst,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/CIVST
+FAIN,C_FAELLE_ID,Partnerens Id,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/C-FAELLE-ID,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/C-FAELLE-ID
+FAIN,C_FAMILIE_ID,-familie_Id,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/C-FAMILIE-ID,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/C-FAMILIE-ID
+FAIN,C_STATUS,C-familiestatus,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/C-STATUS,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/C-STATUS
+FAIN,C_TYPE,C-familie type,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/C-TYPE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/C-TYPE
+FAIN,D_ANT_FAM,Antal D-familier i husstanden,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/D-ANT-FAM,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/D-ANT-FAM
+FAIN,D_FAMILIE_ID,D-familie Id,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/D-FAMILIE-ID,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/D-FAMILIE-ID
+FAIN,D_TYPE,D-familietype,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/D-TYPE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Familier/D-TYPE
+FAIN,FAR_ID,Faderens Person Id,1980,2007,NA,NA
+FAIN,FHART,Fælleshusstandsart,1980,2007,NA,NA
+FAIN,FMMARK,Forældremarkering,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/FMMARK,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/FMMARK
+FAIN,FODREG,Kode for fødselsregistreringssted,1980,2007,NA,NA
+FAIN,H_TYPE,Husstandstype,1980,2007,NA,NA
+FAIN,INDVDATO,Indvandringsdato,1980,2007,NA,NA
+FAIN,KOEN,Køn,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/forebyggelsesregistret/koen,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOEN
+FAIN,KOM,Kommunekode,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/KOM,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOM
+FAIN,MOR_ID,Moderens Person Id,1980,2007,NA,NA
+FAIN,PNR,Personnummer,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+FAIN,STATSB,Statsborgerskab,1980,2007,NA,NA
+FAIN,ALDER,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/alder,NA
+FAIN,BOPIKOM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/BOPIKOM,NA
+FAIN,FAR_ID,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/far-id,NA
+FAIN,H_TYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/H-TYPE,NA
+FAIN,MOR_ID,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/MOR-ID,NA
+FAIN,STATSB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/statsb,NA
+IEPE,CPRTJEK,CPR-tjek,2019,2019,NA,NA
+IEPE,CPRTYPE,CPR-type,2019,2019,NA,NA
+IEPE,GENERATION,Kategorisering af 2. og 3. generationsindvandrere (efter DS. definitio,2019,2019,NA,NA
+IEPE,IE_TYPE,"Indvandrere, efterkommere , personer med dansk oprindelse",2019,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/ie-type,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Udlaendinge/IE-TYPE
+IEPE,OPR_LAND,Oprindelsesland,2019,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/opr-land,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Udlaendinge/OPR-LAND
+IEPE,PNR,PNR,2019,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+IEPE,VERDEL1,VERDEL1,2019,2019,NA,NA
+IEPE,VEST_EJ,VEST_EJ,2019,2019,NA,NA
+IEPE,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+IEPE,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+IEPE,CPRTJEK,CPR-tjek,2019,2019,NA,NA
+IEPE,CPRTYPE,CPR-type,2019,2019,NA,NA
+IEPE,GENERATION,Kategorisering af 2. og 3. generationsindvandrere (efter DS. definitio,2019,2019,NA,NA
+IEPE,IE_TYPE,"Indvandrere, efterkommere , personer med dansk oprindelse",2019,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/ie-type,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Udlaendinge/IE-TYPE
+IEPE,OPR_LAND,Oprindelsesland,2019,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/opr-land,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Udlaendinge/OPR-LAND
+IEPE,PNR,PNR,2019,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+IEPE,VERDEL1,VERDEL1,2019,2019,NA,NA
+IEPE,VEST_EJ,VEST_EJ,2019,2019,NA,NA
+IEPE,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+IEPE,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+IND,ADAGP,Syge- og barselsdagpenge udbetalt af kommunerne ekskl. udbetaling til selvstændige,1980,2018,NA,NA
+IND,ADAGPAGN,Arbejdsgiverbetalt sygedagpenge,2002,2018,NA,NA
+IND,AEKVIVADISP_13,Ækvivaleret disponibel indkomst,1987,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/aekvivadisp-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/AEKVIVADISP-13
+IND,AFHFORM,Gevinst og tab ved afhændelse af formuegoder samt anden ikke specielt klassificeret kapitalindkomst. Variablen er ekskl. aktieindkomster samt kapitalindkomst i selvstændig virksomhed.,1983,2018,NA,NA
+IND,AINDK94,Løn mm. (arbejdsmarkedsbidragspligtig indkomst hvoraf der betales foreløbig skat før udbetaling),1994,2018,NA,NA
+IND,AKAPSKL,"Anden kapitalindkomst i virksomhed end renteindtægter, excl. kapitalindkomst fra udlandet",2002,2018,NA,NA
+IND,AKIHUBS,Aktieudbytte af danske aktier hvor der er indeholdet udbyttetskat.,1997,2018,NA,NA
+IND,AKIIHUBS,"Gevinst/tab på danske aktier og investeringsforeningsbeviser samt udbytte/udlodning, hvor der ikke er indeholdt udbytteskat",1997,2018,NA,NA
+IND,AKTIEINDK,Udbytte samt gevinst/tab på aktier og visse aktiebaserede investeringsforeningsbeviser,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/aktieindk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/AKTIEINDK
+IND,AKTIUDL,Udbytte af udenlandske aktier samt visse gevinster og tab på udenlandske aktier,1995,2018,NA,NA
+IND,AKTKOEB,"Aktieoptionsaflønning, skattepligtig",2002,2018,NA,NA
+IND,ALDER_ULT_INK,"Personens alder på referenecetidspunktet, 31. 12. det pågældende år",1980,2018,NA,NA
+IND,AMTSSK,Amtsskat,1980,2006,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/amtssk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/AMTSSK
+IND,ANDAKAS,Anden understøttelse fra arbejdsløshedskasser,1994,2018,NA,NA
+IND,ANDBISTANDYD,Andre ydelser fra kommuner og a-kasser,1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/andbistandyd,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ANDBISTANDYD
+IND,ANDFRAD,Fradrag i personlig indkomst,2002,2018,NA,NA
+IND,ANDOVERFORSEL,"Andre overførsler består af SU, boligstøtte og børnetilskud.",1984,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/andoverforsel,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ANDOVERFORSEL
+IND,ANKAPPER,"Andre kapitalindkomster end renteindtægter, excl. kapitalindkomster i virksomhed og visse udenlandske indkomster",2002,2018,NA,NA
+IND,ANPERIND,Anden personlig indkomst,1997,2018,NA,NA
+IND,ANUDLAK,Gevinster og tab på udenlandske aktier som ikke er omfattet af en skattemæssig lempelse,1997,2018,NA,NA
+IND,ARBBIDMVALM,Arbejdsmarkedsbidrag og særlig pension af erhvervsindkomst,1994,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/arbbidmvalm,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ARBBIDMVALM
+IND,ARBFORS,"Arbejdsløshedsforsikring, faglige kontingenter, efterløns- og fleksydelsesbidrag (Rubrik52)",1984,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/arbfors,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ARBFORS
+IND,ARBLHU,Arbejdsløshedsdagpenge,1980,2018,NA,NA
+IND,ARBLHUMV,Arbejdsløshedsdagpenge og uddannelsesgodtgørelse,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/arblhumv,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ARBLHUMV
+IND,ASKPLI,Anden arbejdsmarkedsbidragsfri a-skattepligtig indkomst,2002,2018,NA,NA
+IND,ATPABES,"Indbetalinger til ATP på A-satsen i forbindelse med et ansættelsesforhold, både arbejdstager og arbejdsgivers bidrag (AKM)",1997,2018,NA,NA
+IND,ATPBBES,ATP-bidrag på B-satsen i forbindelse med et ansættelsesforhold (AKM),1997,2018,NA,NA
+IND,ATPCBES,ATP-bidrag på C-satsen i forbindelse med et ansættelsesforhold (AKM),1997,2018,NA,NA
+IND,ATPDBES,ATP-bidrag på D-satsen i forbindelse med et ansættelsesforhold( fra 2009) (AKM),2006,2018,NA,NA
+IND,ATPEBES,ATP-bidrag på E-satsen i forbindelse med et ansættelsesforhold(fra 2010) (AKM),2010,2018,NA,NA
+IND,ATPFBES,ATP-bidrag på F-satsen i forbindelse med et ansættelsesforhold(fra 2011) (AKM),2011,2018,NA,NA
+IND,ATPSAML,Samlet ATP-bidrag i året,1997,2018,NA,NA
+IND,BANKAKT,Indestående i pengeinstitut pr. 31. 12,1995,2018,NA,NA
+IND,BANKGAELD,Gæld til pengeinstitutter mv. pr. 31. 12,1987,2018,NA,NA
+IND,BARNEP,Dagpenge udbetalt af a-kasse ved orlov til børnepasning,1994,2013,NA,NA
+IND,BDAGP,Syge- og barselsdagpenge udbetalt af kommunerne til selvstændige,1980,2018,NA,NA
+IND,BEFORDR,Det selvangivne beløb vedr. befordring (fradrag i skattepligtig indkomst),1984,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/befordr,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/BEFORDR
+IND,BESKST,Beskæftigelsesstatus 1980 til 2001 (Indkomst/AKM),1980,2001,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/BESKST,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/BESKST
+IND,BESKST02,Beskæftigelsesstatus fra 2002 (Indkomst/AKM),2002,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/BESKST02,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/BESKST02
+IND,BESKST13,Kode for personens væsentligste indkomst-kilde (INDKOMST/AKM),1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/BESKST13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/BESKST13
+IND,BOSBOERN,Boligstøtte og børnetilskud,2002,2018,NA,NA
+IND,BRUTTO,Skattepligtig bruttoindkomst før fradrag i kr. ( 1980 -2013),1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/forebyggelsesregistret/brutto,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/BRUTTO
+IND,BUNSKA,Beregnet bundskat til staten,1994,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/bunska,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/BUNSKA
+IND,CORFRYNS,Skattemæssig værdi af frynsegoder i forbindelse med beskæftigelse,1993,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/corfryns,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/CORFRYNS
+IND,CORLOEN,Kontant løn fra indberetninger til skats oplysningsseddelregister/e-indkomstregister,2002,2018,NA,NA
+IND,CPRTJEK,CPR-tjek,1980,2018,NA,NA
+IND,CPRTYPE,CPR-type,1980,2018,NA,NA
+IND,DAGPENGE_KONTANT_13,Dagpenge og kontanthjælp mv. ialt,1980,2018,NA,NA
+IND,DAKTIE,Udbytte samt gevinst/tab på danske aktier og visse aktiebaserede investeringsforeningsbeviser,2002,2018,NA,NA
+IND,DELPENS,Delpension,1988,2005,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/delpens,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/DELPENS
+IND,DISPON_13,Indkomst efter skat og renter tillagt beregnet lejeværdi af egen bolig.,1980,2018,NA,NA
+IND,DISPON_NY,"Indkomst efter skat og renter (samlet indkomst fratrukket renteudgifter, skat m.m.)",1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/dispon-ny,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/DISPON-NY
+IND,DSPSUM,Særligt pensionsbidrag,1998,2008,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/dspsum,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/DSPSUM
+IND,EFTLEVHJ,Efterlevelseshjælp,2000,2018,NA,NA
+IND,EFTLOEN,Efterløn ( fra 2009 ink.l fleksydelse),1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/eftloen,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/EFTLOEN
+IND,EJD_SKAT_EJER_BOLIG,Ejendomsskat(grundskyld) for boligejere,2010,2018,NA,NA
+IND,EJD_SKAT_LEJER_BOLIG,Ejendomsskat(grundskyld) for lejere,2010,2018,NA,NA
+IND,EJENDOMSVURDERING,Kontant ejendomsværdi af ejendomme i Danmark ejet pr. 31. 12,1994,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ejendomsvurdering,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/EJENDOMSVURDERING
+IND,EJVSKAT,Ejendomsværdiskat,2000,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ejvskat,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/EJVSKAT
+IND,ERHVERVSINDK,"Erhvervsindkomst, løn og nettooverskud af selvstændig virksomhed inkl. visse honorarer",1994,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/erhvervsindk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ERHVERVSINDK
+IND,ERHVERVSINDK_13,"Erhvervsindkomst, løn og nettooverskud af selvstændig virksomhed inkl. visse honorarer",1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/erhvervsindk-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ERHVERVSINDK-13
+IND,ERHVERVSINDK_GL,"Erhvervsindkomst, løn og nettooverskud af selvstændig virksomhed",1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/erhvervsindk-gl,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ERHVERVSINDK-GL
+IND,ETABHUI,Indskud på etableringskonto,1984,2018,NA,NA
+IND,FAGFKDB,Fagforeningskontingent i kr.- det beløb der kan fratrækkes på selvangivelsen,1993,2018,NA,NA
+IND,FERIE_DAGPENGE,Dagpenge udbetalt af a_kasse til medlemmer på ferie,2009,2018,NA,NA
+IND,FLEXLON_TILSKUD,Tilskud til flexløn,2013,2018,NA,NA
+IND,FLEXYD,Fleksydelse,2010,2018,NA,NA
+IND,FOLKEFORTID_13,Folke- og førtidspension mv.,1980,2018,NA,NA
+IND,FORM,"Skattemæssigt beregnet værdi af nettoformuen ultimo året, ekskl. pensionsformuer",1980,1997,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/form,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/FORM
+IND,FORMREST_NY05,"Nettorestformue ultimo året, ekskl. pensionsformuer",1997,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/formrest-ny05,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/FORMREST-NY05
+IND,FORMUEINDK_BRUTTO,"Renteindtægter og realiserede tab/gevinster på værdipapirer, ekskl. indkomst fra selvstændig virksomhed samt ekskl. beregnet lejeværdi af egen bolig",1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/formueindk-brutto,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/FORMUEINDK-BRUTTO
+IND,FORMUEINDK_NY,Samlede formueindkomster inkl. beregnet lejeværdi af egen bolig,1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/formueindk-ny,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/FORMUEINDK-NY
+IND,FOSFUFRD,Pensionsbidrag privattegnet ordning med løbende udbetaling/ ratepension ( fradragsberttiget del),1980,2018,NA,NA
+IND,FRADRAG,Samlet beregnet fradrag i skattepligtig indkomst,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/fradrag,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/FRADRAG
+IND,FRADRAGBES,Beskæftigelsesfradrag,2007,2018,NA,NA
+IND,FRDUDL,Skattemæssige fradrag for lempelsesberettigede indkomster fra udlandet,2002,2018,NA,NA
+IND,FRIOFBEF,Markering for frikort til offentlig befordring,1996,2018,NA,NA
+IND,GAELD_TIL_OFF,Gæld til skat,2013,2018,NA,NA
+IND,GEVAFKAP,"Genvundne afskrivninger, kapitalindkomst. Fortjeneste/tab ved ophør af visse skibsprojekter, fortjeneste ved ophør af anden anpartsvirksomhed",1996,2018,NA,NA
+IND,GRON_CHECK,"Grøn check, kompensation for grønne afgifter",2010,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/gron-check,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/GRON-CHECK
+IND,HAEDGAVS,"Hædersgaver m.v. hvoraf arbejdsmarkedsbidrag ikke skal betales, og hvor der ikke er indeholdt foreløbig skat",1996,2018,NA,NA
+IND,HONNY,"Honoraraflønning, arbejdsmarkedsbidragspligtig",1994,2018,NA,NA
+IND,INDBEEFT,Indbetaling til efterløn (efterlønsbidrag),1999,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/indbeeft,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/INDBEEFT
+IND,INDESTPI,"Indestående i pengeinstitutter mv., kursværdi af obligationer og pantebreve i depot pr. 31. december",1983,2018,NA,NA
+IND,INDSKIB,"Nettoindkomst ved skibsanparter, inkl. vindmøller omfattet af anpartsreglerne",1986,2018,NA,NA
+IND,INTGRAYD,Integrationsydelse til flygtninge-kontanthjælp til udlændinge,1999,2018,NA,NA
+IND,INVUDL,"Udlodning fra investeringsforening, hvor der er indeholdt udbytteskat",1991,2018,NA,NA
+IND,JUBJUB,Jubilæumsgratiale og fratrædelsesgodtgørelse ekskl. pension,2002,2018,NA,NA
+IND,KAPINDKP,Skattemæssig kapitalindkomst beregnet af Skat,1987,2018,NA,NA
+IND,KAPITIALT,Samlet kapitalindkomst ekskl. aktieindkomster,2002,2018,NA,NA
+IND,KAPITPRIV,Samlet kapitalindkomst ekskl. aktieindkomster og ekskl. kapitalindkomst fra virksomhed,2002,2018,NA,NA
+IND,KAPITVIRK,Samlet kapitalindkomst fra virksomhed,2002,2018,NA,NA
+IND,KAPPENS,Skattemæssigt fradrag i personlig indkomst vedr. privattegnet kapitalpension og kapitalforsikring,1987,2013,NA,NA
+IND,KAPVAERS,Reservefondsudlodninger fra kreditforeninger samt kapitalværdistigninger af pensionsordninger af typen kapitalforsikring,1993,2018,NA,NA
+IND,KHFLYGT,Aktiveringsydelse- kontanthjælpsmodtagere,1994,2018,NA,NA
+IND,KISKAT,Kirkeskat for medlemmer af folkekirken,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kiskat,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/KISKAT
+IND,KMSKAT,Kommuneskat,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kmskat,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/KMSKAT
+IND,KOEJD,Kontant værdi af ejendomme i Danmark ejet pr. 31. 12,1983,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/koejd,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/KOEJD
+IND,KOM_RES_FORLOB,"Kommunalt ressource forløb, ressourceforløbsydelse",2013,2018,NA,NA
+IND,KONTANTHJ_13,Kontanthjælp (underhold/forsørgelse),1994,2018,NA,NA
+IND,KONTHJ,Skattepligtig kontanthjælp (underhold/forsørgelse),1994,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/konthj,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/KONTHJ
+IND,KONTSKFRI,Skattetfri kontanthjælp,2002,2018,NA,NA
+IND,KONT_GL,Kontanthjælpsydelser 1980 - 1993,1980,1993,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kont-gl,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/KONT-GL
+IND,KORSTOETT,Boligsikring og boligydelse,1984,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/korstoett,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/KORSTOETT
+IND,KORYDIAL,Udbetalte børnetilskud og familieydelser efter opregning til hele kalenderåret,1984,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/korydial,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/KORYDIAL
+IND,KURSAKT,Kursværdi af danske aktier og investeringsforeningsbeviser i depot pr. 31. december,1984,2018,NA,NA
+IND,KURSUSG,Godtgørelse for kursus og kørsel i forbindelse med arbejdsmarkedsuddannelse og enkeltfag,1994,2018,NA,NA
+IND,LEDIGHEDSYDELSE,Ydelse udbetalt til ledige personer visiteret til flexjob samt enkelte andre ydelser.,2005,2018,NA,NA
+IND,LEJEV_EGEN_BOLIG,Beregnet lejeværdi af egen bolig,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/lejev-egen-bolig,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/LEJEV-EGEN-BOLIG
+IND,LEJINDT,Den skattepligtige nettolejeindtægt ved udleje af helårsbolig en del af året samt sommerhus- og værelsesudlejning.,1993,2018,NA,NA
+IND,LIGNFRDP,Ligningsmæssige fradrag,1987,2018,NA,NA
+IND,LOENMIO,Øvrige lønmodtagerudgifter,1984,2018,NA,NA
+IND,LOENMV,Lønindkomst i alt,1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/loenmv,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/LOENMV
+IND,LOENMV_13,Lønindkomst i alt,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/loenmv-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/LOENMV-13
+IND,LOENSKPL,"Skattepligtig lønindkomst inkl. værdi af frynsegoder, og inkl. skattepligtig løn fra udlandet.",2002,2018,NA,NA
+IND,MLLSKA,Beregnet mellemskat til staten,1994,2009,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/mllska,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/MLLSKA
+IND,NETOVSKUD,"Nettooverskud af selvstændig virksomhed inkl. visse honorarer, før kapitalindtægter og udgifter",1994,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/netovskud,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/NETOVSKUD
+IND,NETOVSKUD_13,Nettooverskud af selvstændig virksomhed efter kapitalindtægter og udgifter,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/netovskud-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/NETOVSKUD-13
+IND,NETOVSKUD_GL,"Nettooverskud af selvstændig virksomhed, før kapitalindtægter og udgifter",1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/netovskud-gl,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/NETOVSKUD-GL
+IND,NYSTGR,Stillingsgruppering 1980 til 1995 (AKM),1980,1995,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/NYSTGR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/NYSTGR
+IND,OBLAKT,Kursværdi af obligationer i depot (aktiver) pr. 31. 12,1995,2018,NA,NA
+IND,OBLGAELD,Kursværdi af obligationsgæld pr. 31. 12,1995,2018,NA,NA
+IND,OFFPENS,Folke- og førtidspension,1980,2018,NA,NA
+IND,OFFPENS_EFTERLON_13,"førtids- og folkepenion, varmehjælp, efterløn og fleksydelse.",1980,2018,NA,NA
+IND,OFF_OVERFORSEL_13,Offentlige overførsler,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/off-overforsel-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/OFF-OVERFORSEL-13
+IND,OMFANG,Omfang af skattepligt,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/OMFANG,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/OMFANG
+IND,OMFSKPL,Kode der angiver skattepligtens omfang,1980,2001,NA,NA
+IND,OVERFORSINDK,"Overførselsindkomster inkl. udbetalinger fra pensionskasser, ratepension mv.",1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/overforsindk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/OVERFORSINDK
+IND,OVERG,Overgangsydelse,1994,2006,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/overg,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/OVERG
+IND,OVRIG_DAGPENGE_AKAS_13,"Alle udbetalinger fra A-kasser bortset fra efterløn/overgangsydelse, arbejdsløshedsunderstøttelse og dagpenge under kursus/uddannelse",1980,2018,NA,NA
+IND,OVRIG_KONTANTHJALP_13,"Aktiverings, ledighed- og revalideringsydelse mv.",1983,2018,NA,NA
+IND,OVRIG_OVERFORSEL_13,"Andre overførsler. SU, boligstøtte, grøn check og børnetilskud.",1983,2018,NA,NA
+IND,OVSKEJD,Beregnet lejeværdi af egen bolig (beregnet af SKAT),1980,1999,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ovskejd,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/OVSKEJD
+IND,OVSKEJD02_NY,Beregnet lejeværdi af egen bolig,1984,2006,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ovskejd02-ny,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/OVSKEJD02-NY
+IND,OVSKEJD07,Beregnet lejeværdi af egen bolig,2007,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ovskejd07,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/OVSKEJD07
+IND,PANTAKT,Kursværdi af pantebreve i depot (aktiver) pr. 31. 12.,1995,2018,NA,NA
+IND,PANTGAELD,Pantebrevsgæld pr. 31. 12,1987,2018,NA,NA
+IND,PASBOERN,"Andre ydelser fra kommuner end kontanthjælp, aktivering, revalidering, introduktionsydelse og efterlevelseshjælp",1994,2004,NA,NA
+IND,PENBPA,Arbejdsmarkedsbidragspligtige pensionsudbetalinger,1994,2018,NA,NA
+IND,PENBPB,Pensionsudbetalinger fra tidligere arbejdsgivere ikke arbejdsmarkedsbidragspligtig,1994,2018,NA,NA
+IND,PENSBLB2,Pension udbetalt af forsikringsselskab eller pengeinstitut,1990,2018,NA,NA
+IND,PENSBLB7,Pension fra pensionskasse,1991,2018,NA,NA
+IND,PERINDKIALT,Personindkomst i alt ekskl. beregnet lejeværdi af egen bolig og før fradrag af renteudgifter,1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/perindkialt,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/PERINDKIALT
+IND,PERINDKIALT_13,Personindkomst i alt ekskl. beregnet lejeværdi af egen bolig og før fradrag af renteudgifter,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/perindkialt-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/PERINDKIALT-13
+IND,PERINDKP,Skattemæssig personlig indkomst beregnet af Skat,1987,2018,NA,NA
+IND,PEROEVRIGFORMUE,"Aktieindkomst, overskud/underskud af skibsanparter, lejeindtægt sommerhus mv.",1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/peroevrigformue,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/PEROEVRIGFORMUE
+IND,PEROEVRIGFORMUE_13,"Aktieindkomst, overskud/underskud af skibsanparter, lejeindtægt sommerhus mv. ekskl.formueindkomsti virksomhed",1980,2018,NA,NA
+IND,PERSAMLINKNETRENT_NY,Samlede indkomster inkl. beregnet lejeværdi fratrukket fradragsberettige renteudgifter ved skatteligningen,1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/persamlinknetrent-ny,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/PERSAMLINKNETRENT-NY
+IND,PERSONINDK,"Personindkomst i alt uden formueindkomst, og før fradrag af arbejdsmarkedsbidrag og særlig pensionsbidrag.",1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/personindk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/PERSONINDK
+IND,PFRDKM,"Personfradrag til kommune, amt/sundhedsbidrag og kirke, som skatteyderen er berettiget til",1983,2018,NA,NA
+IND,PFRDST,"Personfradrag, staten yder skatteyderen ved beregning af statsskat",1980,2018,NA,NA
+IND,PNR,Personnummer,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+IND,PRE_SOCIO,Socioøkonomisk klassifikation (Indkomst/AKM),1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/pre-socio,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/PRE-SOCIO
+IND,PRIVAT_PENSION_13,Udbetalte private pensioner.,1991,2018,NA,NA
+IND,QAKTIE,Værdi af aktieoptionsaflønnning,2002,2018,NA,NA
+IND,QAKTIVF,Samlede aktiver ultimo året ekskl. pensionsformuer,1980,2005,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qaktivf,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QAKTIVF
+IND,QAKTIVF_NY05,"Aktiver ultimo året, ekskl. pensionsformuer",1995,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qaktivf-ny05,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QAKTIVF-NY05
+IND,QAKTSKA,"Skat af de aktieindkomster,der indberettes til skat.",1994,2018,NA,NA
+IND,QANDEN,Honorarer hvoraf der ikke skal betales arbejdsmarkedsbidrag og foreløbig skat (A-skat) men er skattepligtigt,2002,2018,NA,NA
+IND,QANDPENS,Udbetalinger fra arbejdsmarkedspensioner( ekskl.tjenestemandspensioner) og private pensioner,1991,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qandpens,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QANDPENS
+IND,QARBLOS,Udbetalinger fra arbejdsløshedskasser af arbejdsløshedsdagpenge og lign.,2002,2018,NA,NA
+IND,QBISTYD,"Kontanthjælps-, aktiverings-, revaliderings, integrations-, og ledighedsydelse",1994,2018,NA,NA
+IND,QBISTYD2,"Skattepligtig kontanthjælps-, aktiverings- og revalideringsydelser",1994,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qbistyd2,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QBISTYD2
+IND,QEFTLON,"Efterløn, overgangsydelse og(fra2008 flexydelse)",1980,2018,NA,NA
+IND,QHVIRKSK,Foreløbig betalt skat af beløb hævet i virksomhedsordningerne,1988,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qhvirksk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QHVIRKSK
+IND,QIVARK,Ydelse udbetalt af a-kasser til iværksættere,1988,2001,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qivark,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QIVARK
+IND,QMIDYD,"Midlertidige overførselsindkomster (kontanthjælpsydelser, dagpenge inkl. orlovsydelser)",1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qmidyd,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QMIDYD
+IND,QORLOV,Dagpengevedorlovtil børnepasning og sabbat,2002,2003,NA,NA
+IND,QORLOV2,"Dagpenge udbetalt af a-kasse ved orlov til børnepasning, uddannelse og sabbat",1994,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qorlov2,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QORLOV2
+IND,QPASSIV,Skattemæssigt beregnet værdi af passiver ultimo året,1980,1996,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qpassiv,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QPASSIV
+IND,QPASSIVN,Passiver ultimo året,1995,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qpassivn,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QPASSIVN
+IND,QPENSIALT,Alle pensionsindkomster,1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qpensialt,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QPENSIALT
+IND,QPENSNY,"Folke- og førtidspension, delpension samt skattefrie tillæg til førtidspensionister.",1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qpensny,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QPENSNY
+IND,QPENSPRI,Udbetalinger fra arbejdsmarkedspensioner(ekskl.tjenestemandspension) og private pensioner fra Danmark,1991,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qpenspri,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QPENSPRI
+IND,QRENTIND,Samlede skattepligtige renteindtægter fra Danmark undtagen renteindtægt i selvstændig virksomhed,1980,2018,NA,NA
+IND,QRENTUD2,Samlede fradragsberettigede renteudgifter inkl. virksomhedsrenter,1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qrentud2,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QRENTUD2
+IND,QSAR,En række engangsindtægter samt fortjeneste ved salg af ejendom under visse forudsætninger,1980,1995,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qsar,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QSAR
+IND,QSKATFRI,"Skattefri løn fra politi og retsvæsen Grønland, DANIDA m. fl.",1994,2018,NA,NA
+IND,QSPLINDK,Skattepligtig indkomst,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qsplindk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QSPLINDK
+IND,QTILPENS,"Udbetalte pensioner fra ATP (ATP, særlig og midlertidig pension)",1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qtilpens,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QTILPENS
+IND,QTJPENS,Tjenestemandspension inkl. pension til efterladte ægtefæller og børn.,1991,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qtjpens,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/QTJPENS
+IND,QUDDYDL,Uddannelsesgodtgørelse til ledige,1988,2018,NA,NA
+IND,QUDINK,Anden personlig indkomst fra udlandet end løn,2002,2018,NA,NA
+IND,RENTBANK,"Renteindtægt af obligationer, pantebreve i depot samt indestående i pengeinstitutter i Danmark, ekskl. renteindtægt i selstændig virksomhed",1980,2018,NA,NA
+IND,RENTEINDK,Samlede skattepligtige renteindtægter fra Danmark-fra 2010 ekskl. renteindtægt af pantebreve uden for depot),1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/renteindk,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/RENTEINDK
+IND,RENTPBED,"Renteindtægter af pantebreve der ikke er i depot inkl. renter af solgte og indfriede pantebreve, ekskl. renteindtægter fra udlandet og ekskl. renteindtægter i selvstændig virksomhed",1993,2009,NA,NA
+IND,RENTUDGPR,"Renteudgifter, ekskl. renteudgifter fra udlandet og ekskl. renteudgifter i selvstændig virksomhed",1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rentudgpr,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/RENTUDGPR
+IND,RENTUDIO,"Øvrige rentudgifter, ekskl. lempelsesberettigede renteudgifter til udlandet og renteudgift i selvstændig virksomhed",1984,2018,NA,NA
+IND,RENTUPRI,"Renteudgift vedrørende prioritetsgæld, ekskl. renteudgifter til udlandet, ekskl. renteudgifter i selvstændig virksomhed",1984,2018,NA,NA
+IND,RENTVIRK,"Renteindtægter, der vedrører virksomhed (inkl. nettorenteindtægter fra udlandet,) samt indkomstskattepligtige kursgevinster i virksomhed.",2002,2018,NA,NA
+IND,RESUINK,Restindkomst inkl. børnebidrag,1994,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/resuink,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/RESUINK
+IND,RESUINK_13,Restindkomst inkl. børnebidrag,1980,2018,NA,NA
+IND,RESUINK_GL,Restindkomst inkl. honoraraflønning og børnebidrag,1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/resuink-gl,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/RESUINK-GL
+IND,REVAL,Revalideringsydelse,1994,2018,NA,NA
+IND,RNTIOVIR,Renteindtægter fra Danmark i virksomhed,1987,2018,NA,NA
+IND,RNTUDIOV,Renteudgifter i virksomhed,1987,2018,NA,NA
+IND,RNTUDSTU,Renteudgifter af studielån fra Økonomistyrelsen/fra SU-styrelsen,1988,2018,NA,NA
+IND,RNT_UDG_OFF_GAELD,Renteudgifter af gæld til det offentlige,2013,2018,NA,NA
+IND,RUDGBANK,"Renteudgifter til pengeinstitutter inkl. pantebreve i depot, (ekskl. renteudgifter til studielån, boligstøttelån, renteudgifter til udlandet og renteudgifter i selvstændig virksomhed)",1987,2018,NA,NA
+IND,SAMLINK_NY,"Samlet indkomst inkl. beregnet lejeværdi før fradrag af renteudgifter, og før fradrag af arbejdsmarkedsbidrag og særlig pensionsbidrag.",1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/samlink-ny,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/SAMLINK-NY
+IND,SAMSKAT,"Kode der angiver, om en person er sambeskattet med en anden person",1980,2018,NA,NA
+IND,SFRIFOND,Skattefri uddelinger fra fonde og foreninger mv.,1995,2018,NA,NA
+IND,SKATFRIYD,Skattefrie indkomster,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/skatfriyd,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/SKATFRIYD
+IND,SKATMVIALT_13,"Skat, arbejdsmarkedsbidrag og særlig pension i alt. ekskl. kirkeskat",1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/skatmvialt-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/SKATMVIALT-13
+IND,SKATMVIALT_NY,"Skat, arbejdsmarkedsbidrag og særlig pension i alt",1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/skatmvialt-ny,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/SKATMVIALT-NY
+IND,SKATTOT_13,Samlet personlig slutskat for en skatteyder inkl. udenlandsk betalt skat ekskl. kirkeskat,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/skattot-13,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/SKATTOT-13
+IND,SKATTOT_NY,Samlet personlig slutskat for en skatteyder inkl. udenlandsk betalt skat,1980,2013,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/skattot-ny,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/SKATTOT-NY
+IND,SKPLDGAN,Antal skattepligtige dage i året,1980,2001,NA,NA
+IND,SLUSKAT,Samlet slutskat for en skatteyder,1980,2018,NA,NA
+IND,SLUTBID,Samlet arbejdsmarkedsbidrag,1994,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/slutbid,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/SLUTBID
+IND,SLUT_LIGNET,Markering for slutligning,2014,2018,NA,NA
+IND,SOEMAND,"Lønindkomst fra ansættelse som sømand, registreret i Skats Slutligningsregister som sømandsindkomst",1994,2018,NA,NA
+IND,ST12PCT,12 pct. skat til staten,1987,1993,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/st12pct,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ST12PCT
+IND,ST22PCT,22 pct. skat til staten,1987,1993,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/st22pct,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ST22PCT
+IND,ST6PCT,6 pct. skat til staten,1987,1993,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/st6pct,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/ST6PCT
+IND,STIP,Stipendier fra Statens Uddannelsesstøtte - SU,1983,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/stip,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/STIP
+IND,STSKAT,Statsskatten,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/stskat,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/STSKAT
+IND,SUNDHEDSBIDRAG,Sundhedsbidrag,2007,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/sundhedsbidrag,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/SUNDHEDSBIDRAG
+IND,SYG_BARSEL_13,Udbetalte sygedagpenge fra kommuner,1980,2018,NA,NA
+IND,TBKONT,Tilbagebetalt kontanthjælp og øvrige fradrag,2002,2018,NA,NA
+IND,TBKONTHJ,Tilbagebetalt kontanthjælp,1997,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/tbkonthj,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/TBKONTHJ
+IND,TILBTOT,Skattefrit tillæg til førtidspensionister,1984,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/tilbtot,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/TILBTOT
+IND,TOPSKA,Beregnet topskat til staten,1994,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/topska,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/TOPSKA
+IND,UDDAN,Dagpenge udbetalt af a-kasse ved orlov under uddannelse,1994,2003,NA,NA
+IND,UDD_YD,Uddannelsesydelse/ledighedsydelse/arbejdsmarkedsydelse til ledige der opbruger deres dagpengeret,2013,2018,NA,NA
+IND,UDKAINVR,Nettorenter i udenlandsk virksomhed,1987,2018,NA,NA
+IND,UDLAKT,Udenlandske aktiver,2002,2018,NA,NA
+IND,UDLFAKF,"Udenlandsk kapitalindkomst, såfremt denne er omfattet af en skattemæssig lempelsesregel",1986,2018,NA,NA
+IND,UDLIN2KA,Udenlandsk kapitalindkomst der er i følge en dobbeltbeskatningsoverenskomst er omfattet af reglerne om gammel exemption (skattefri),1987,2018,NA,NA
+IND,UDLOEN,"Løn for arbejde i udlandet, del der kan skelnes fra anden udenlandsk pers. indk.",2002,2018,NA,NA
+IND,UDLPENS,Pensioner fra udlandet,1998,2018,NA,NA
+IND,UDLSKAT,Udenlandsk betalt skat af indkomster i udlandet,2002,2018,NA,NA
+IND,UDPRIGAEL,"Gæld til realkreditinstitutter, pengeinstitutter mv. i udlandet",1997,2018,NA,NA
+IND,ULAKTIE,Udbytter fra udenlandske aktier samt gevinst og tab på udenlandske aktier mm.,2002,2018,NA,NA
+IND,UNDERHOL,Betalt underholdsbidrag (fradrag i skattepligtig indkomst),1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/underhol,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/UNDERHOL
+IND,UNHINDK,Modtaget underholdsbidrag og børnebidrag,1997,2018,NA,NA
+IND,VARMEHJALP,Varmehjælp til folkepensionister,2002,2018,NA,NA
+IND,VERSION,Version,2004,2018,NA,NA
+IND,VIRKKOD,"Kode til angivelse af, om skatteberegning foretages inden for eller uden for virksomhedsordningen",1987,2018,NA,NA
+IND,VIRKORDIND,Beløb indsat i virksomhedsordningerne netto (speciel ordning for selvstændige og kunstnere),1987,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/virkordind,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personindkomster/VIRKORDIND
+IND,VIRKSK,Foreløbig skat af beløb overført til virksomhedsordningen og konjunkturudligningsordningen og kunstnerordningen,1987,2018,NA,NA
+IND,VIRKSOMHEDS_PRAKTIK,Dagpenge til personer i virksomhedspraktik,2009,2018,NA,NA
+IND,ADAGP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/adagp,NA
+IND,ADAGPAGN,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/adagpagn,NA
+IND,AFHFORM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/afhform,NA
+IND,AINDK94,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/aindk94,NA
+IND,AKAPSKL,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/akapskl,NA
+IND,AKIHUBS,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/akihubs,NA
+IND,AKIIHUBS,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/akiihubs,NA
+IND,AKTIUDL,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/aktiudl,NA
+IND,AKTKOEB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/aktkoeb,NA
+IND,ALDER_ULT_INK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/ALDER-ULT-INK,NA
+IND,ANDAKAS,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/andakas,NA
+IND,ANDFRAD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/andfrad,NA
+IND,ANKAPPER,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ankapper,NA
+IND,ANPERIND,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/anperind,NA
+IND,ANUDLAK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/anudlak,NA
+IND,ARBLHU,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/arblhu,NA
+IND,ASKPLI,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/askpli,NA
+IND,ATPABES,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/atpabes,NA
+IND,ATPBBES,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/atpbbes,NA
+IND,ATPCBES,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/atpcbes,NA
+IND,ATPDBES,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/atpdbes,NA
+IND,ATPEBES,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/atpebes,NA
+IND,ATPSAML,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/atpsaml,NA
+IND,BANKAKT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/bankakt,NA
+IND,BANKGAELD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/bankgaeld,NA
+IND,BARNEP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/barnep,NA
+IND,BDAGP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/bdagp,NA
+IND,BOSBOERN,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/bosboern,NA
+IND,CORLOEN,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/corloen,NA
+IND,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+IND,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+IND,DAGPENGE_KONTANT_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/dagpenge-kontant-13,NA
+IND,DAKTIE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/daktie,NA
+IND,DISPON_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/dispon-13,NA
+IND,EFTLEVHJ,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/eftlevhj,NA
+IND,EJD_SKAT_EJER_BOLIG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ejd-skat-ejer-bolig,NA
+IND,EJD_SKAT_LEJER_BOLIG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ejd-skat-lejer-bolig,NA
+IND,ETABHUI,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/etabhui,NA
+IND,FAGFKDB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/fagfkdb,NA
+IND,FERIE_DAGPENGE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ferie-dagpenge,NA
+IND,FLEXLON_TILSKUD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/flexlon-tilskud,NA
+IND,FLEXYD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/flexyd,NA
+IND,FOLKEFORTID_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/folkefortid-13,NA
+IND,FOSFUFRD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/fosfufrd,NA
+IND,FRADRAGBES,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/fradragbes,NA
+IND,FRDUDL,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/frdudl,NA
+IND,FRIOFBEF,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/friofbef,NA
+IND,GAELD_TIL_OFF,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/gaeld-til-off,NA
+IND,GEVAFKAP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/gevafkap,NA
+IND,HAEDGAVS,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/haedgavs,NA
+IND,HONNY,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/honny,NA
+IND,INDESTPI,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/indestpi,NA
+IND,INDSKIB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/indskib,NA
+IND,INTGRAYD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/intgrayd,NA
+IND,INVUDL,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/invudl,NA
+IND,JUBJUB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/jubjub,NA
+IND,KAPINDKP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kapindkp,NA
+IND,KAPITIALT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kapitialt,NA
+IND,KAPITPRIV,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kapitpriv,NA
+IND,KAPITVIRK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kapitvirk,NA
+IND,KAPPENS,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kappens,NA
+IND,KAPVAERS,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kapvaers,NA
+IND,KHFLYGT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/khflygt,NA
+IND,KOM_RES_FORLOB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kom-res-forlob,NA
+IND,KONTANTHJ_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kontanthj-13,NA
+IND,KONTSKFRI,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kontskfri,NA
+IND,KURSAKT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kursakt,NA
+IND,KURSUSG,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/kursusg,NA
+IND,LEDIGHEDSYDELSE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ledighedsydelse,NA
+IND,LEJINDT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/lejindt,NA
+IND,LIGNFRDP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/lignfrdp,NA
+IND,LOENMIO,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/loenmio,NA
+IND,LOENSKPL,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/loenskpl,NA
+IND,OBLAKT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/oblakt,NA
+IND,OBLGAELD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/oblgaeld,NA
+IND,OFFPENS,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/offpens,NA
+IND,OFFPENS_EFTERLON_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/offpens-efterlon-13,NA
+IND,OVRIG_DAGPENGE_AKAS_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ovrig-dagpenge-akas-13,NA
+IND,OVRIG_KONTANTHJALP_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ovrig-kontanthjalp-13,NA
+IND,OVRIG_OVERFORSEL_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ovrig-overforsel-13,NA
+IND,PANTAKT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/pantakt,NA
+IND,PANTGAELD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/pantgaeld,NA
+IND,PASBOERN,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/pasboern,NA
+IND,PENBPA,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/penbpa,NA
+IND,PENBPB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/penbpb,NA
+IND,PENSBLB2,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/pensblb2,NA
+IND,PENSBLB7,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/pensblb7,NA
+IND,PERINDKP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/perindkp,NA
+IND,PEROEVRIGFORMUE_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/peroevrigformue-13,NA
+IND,PFRDKM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/pfrdkm,NA
+IND,PFRDST,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/pfrdst,NA
+IND,PRIVAT_PENSION_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/privat-pension-13,NA
+IND,QAKTIE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qaktie,NA
+IND,QAKTSKA,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qaktska,NA
+IND,QANDEN,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qanden,NA
+IND,QARBLOS,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qarblos,NA
+IND,QBISTYD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qbistyd,NA
+IND,QEFTLON,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qeftlon,NA
+IND,QRENTIND,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qrentind,NA
+IND,QSKATFRI,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qskatfri,NA
+IND,QUDDYDL,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/quddydl,NA
+IND,QUDINK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/qudink,NA
+IND,RENTBANK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rentbank,NA
+IND,RENTPBED,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rentpbed,NA
+IND,RENTUDIO,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rentudio,NA
+IND,RENTUPRI,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rentupri,NA
+IND,RENTVIRK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rentvirk,NA
+IND,RESUINK_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/resuink-13,NA
+IND,REVAL,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/reval,NA
+IND,RNTIOVIR,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rntiovir,NA
+IND,RNTUDIOV,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rntudiov,NA
+IND,RNTUDSTU,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rntudstu,NA
+IND,RNT_UDG_OFF_GAELD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rnt-udg-off-gaeld,NA
+IND,RUDGBANK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/rudgbank,NA
+IND,SAMSKAT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/samskat,NA
+IND,SFRIFOND,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/sfrifond,NA
+IND,SLUSKAT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/SLUSKAT,NA
+IND,SOEMAND,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/soemand,NA
+IND,SYG_BARSEL_13,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/syg-barsel-13,NA
+IND,TBKONT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/tbkont,NA
+IND,UDDAN,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/uddan,NA
+IND,UDD_YD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/udd-yd,NA
+IND,UDKAINVR,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/udkainvr,NA
+IND,UDLAKT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/udlakt,NA
+IND,UDLFAKF,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/udlfakf,NA
+IND,UDLIN2KA,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/udlin2ka,NA
+IND,UDLOEN,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/udloen,NA
+IND,UDLPENS,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/udlpens,NA
+IND,UDLSKAT,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/udlskat,NA
+IND,UDPRIGAEL,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/udprigael,NA
+IND,ULAKTIE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/ulaktie,NA
+IND,UNHINDK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/unhindk,NA
+IND,VARMEHJALP,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/varmehjalp,NA
+IND,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+IND,VIRKKOD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/virkkod,NA
+IND,VIRKSK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/virksk,NA
+IND,VIRKSOMHEDS_PRAKTIK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/personindkomst/virksomheds-praktik,NA
+LMDB,ABC,ABC-kode,1995,2019,NA,NA
+LMDB,AIP,"Registerpris (""Apotekets indkøbspris"") (s)",1995,2019,NA,NA
+LMDB,ALDR,Alder på udleveringstidspunkt,1995,2019,NA,NA
+LMDB,APK,Antal pakninger,1995,2019,NA,NA
+LMDB,AREF,Andre refusionsordninger,1995,2019,NA,NA
+LMDB,ATC,ATC-kode detaljeret (s),1995,2019,NA,NA
+LMDB,ATC1,ATC-niveau 1 (s),1995,2019,NA,NA
+LMDB,ATC2,ATC-niveau 2 (s),1995,2019,NA,NA
+LMDB,ATC3,ATC-niveau 3 (s),1995,2019,NA,NA
+LMDB,ATC4,ATC-niveau 4 (s),1995,2019,NA,NA
+LMDB,AUP,"Registerpris (""Apotekets udsalgspris"") (s)",1995,2019,NA,NA
+LMDB,BALD,Barns alder,1995,2019,NA,NA
+LMDB,CPRTJEK,CPR-tjek,1995,2019,NA,NA
+LMDB,CPRTYPE,CPR-type,1995,2019,NA,NA
+LMDB,CPR_KOM,CPR-bopælskommune på ekspeditionsdatoen,1995,2019,NA,NA
+LMDB,CPR_REG,CPR-bopælsregion på ekspeditionsdatoen,1995,2019,NA,NA
+LMDB,DOSFORM,Lægemiddelform (s),1995,2019,NA,NA
+LMDB,DOSO,Doseringskode,1995,2019,NA,NA
+LMDB,EJS,Fravalg af substitution,1995,2019,NA,NA
+LMDB,EKSD,Ekspeditionsdato,1995,2019,NA,NA
+LMDB,EKSP,Ekspeditionspris,1995,2019,NA,NA
+LMDB,EKST,Ekspeditionstype,1995,2019,NA,NA
+LMDB,ETID,Ekspeditionstidspunkt,1995,2019,NA,NA
+LMDB,IBGP,Indberettet beregningsgrundlagspris,1995,2019,NA,NA
+LMDB,IBNR,Indberetternummer,1995,2019,NA,NA
+LMDB,INDO,Indikationskode,1995,2019,NA,NA
+LMDB,ITYPE,Indberettertype,1995,2019,NA,NA
+LMDB,KOM,Kommunekode,1995,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/KOM,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOM
+LMDB,KORR,Korrektionskode,1995,2019,NA,NA
+LMDB,NAME,Lægemidlets navn (Store bogstaver) (s),1995,2019,NA,NA
+LMDB,OVNR,Ordineret varenummer,1995,2019,NA,NA
+LMDB,PACKSIZE,Numerisk pakningsstørrelse (s),1995,2019,NA,NA
+LMDB,PACKTEXT,PACKTEXT,1995,2019,NA,NA
+LMDB,PATT,Patienttype,1995,2019,NA,NA
+LMDB,PKSUBGR,Pakningssubstitutionsgruppe,1995,2019,NA,NA
+LMDB,PNR12,CPR-nummer,1995,2019,NA,NA
+LMDB,PPRS,Udleveringsbestemmelse,1995,2019,NA,NA
+LMDB,PTP,Patientbetaling,1995,2019,NA,NA
+LMDB,RAMT,Amtskommunekode,1995,2019,NA,NA
+LMDB,RECA,Autorisationskode for receptudsteder,1995,2019,NA,NA
+LMDB,RECU,Receptudsteder,1995,2019,NA,NA
+LMDB,RGL1,1. Kommuneregelnummer,1995,2019,NA,NA
+LMDB,RGL2,2. kommuneregelnummer,1995,2019,NA,NA
+LMDB,RGLA,Amtskommunalt reglnummer,1995,2019,NA,NA
+LMDB,RIMB,Tilskudskode,1995,2019,NA,NA
+LMDB,RINR,Reiterationsnummer,1995,2019,NA,NA
+LMDB,SEKTOR,Sektor,1995,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Loenstatistik/SEKTOR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Loenstatistik-for-den-private--statslige-og-kommunale-sektor/SEKTOR
+LMDB,STRENG,"Styrke, klartekst (s)",1995,2019,NA,NA
+LMDB,STRNUM,"Styrke, numerisk (s)",1995,2019,NA,NA
+LMDB,STRUNIT,Enhed til numerisk styrke (s),1995,2019,NA,NA
+LMDB,TAKD,Takstdato,1995,2019,NA,NA
+LMDB,TARD,Takseringsdato,1995,2019,NA,NA
+LMDB,TILPRIS,Tilskudspris pr. pakning,1995,2019,NA,NA
+LMDB,TSK1,1. Kommunale tilskud,1995,2019,NA,NA
+LMDB,TSK2,2. Kommunale tilskud,1995,2019,NA,NA
+LMDB,TSK3,Andre tilskud,1995,2019,NA,NA
+LMDB,TSKA,Amtskommunalt tilskud,1995,2019,NA,NA
+LMDB,UDLV,Udleveringssted,1995,2019,NA,NA
+LMDB,VNR,Varenummer (s),1995,2019,NA,NA
+LMDB,VOLTYPECODE,Ingen label,1995,2019,NA,NA
+LMDB,VOLTYPETXT,Ingen label,1995,2019,NA,NA
+LMDB,VOLUME,Volume,1995,2019,NA,NA
+LMDB,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+LMDB,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+LPR_ADM,CPRTJEK,CPR-tjek,1977,2018,NA,NA
+LPR_ADM,CPRTYPE,CPR-type,1977,2018,NA,NA
+LPR_ADM,C_ADIAG,Aktionsdiagnose,1977,2018,NA,NA
+LPR_ADM,C_AFD,Afdelingskode,1977,2018,NA,NA
+LPR_ADM,C_AMT,Amt,2005,2018,NA,NA
+LPR_ADM,C_ANDENBEH,Ingen label,1977,1986,NA,NA
+LPR_ADM,C_BLOK,Inddeling af speciale i blokke,1994,2018,NA,NA
+LPR_ADM,C_BOPAMT,AMT,1977,2004,NA,NA
+LPR_ADM,C_EAKT,"Ulykkeskode, aktivitet",1987,2003,NA,NA
+LPR_ADM,C_EMEK,Ingen label,1987,2003,NA,NA
+LPR_ADM,C_EMODPART,"Ulykkeskode, modpart",1994,2003,NA,NA
+LPR_ADM,C_EPART,"Ulykkeskode, egenpart",1994,2003,NA,NA
+LPR_ADM,C_ESTED,"Ulykkeskode, sted",1987,2003,NA,NA
+LPR_ADM,C_ETRAF,"Ulykkeskode, trafikal",1987,2003,NA,NA
+LPR_ADM,C_HAFD,Henvisende afdeling,2004,2018,NA,NA
+LPR_ADM,C_HENM,Henvisningsmåde,1987,2018,NA,NA
+LPR_ADM,C_HSGH,Henvisende sygehus,2004,2018,NA,NA
+LPR_ADM,C_INDFORM,Ingen label,1977,1986,NA,NA
+LPR_ADM,C_INDFRA,Ingen label,1977,1986,NA,NA
+LPR_ADM,C_INDM,Indlæggelsesmåde,1977,2018,NA,NA
+LPR_ADM,C_KOM,Kommune,1977,2018,NA,NA
+LPR_ADM,C_KONTAARS,Kontaktårsag,1987,2018,NA,NA
+LPR_ADM,C_NYAFD,Ingen label,2005,2018,NA,NA
+LPR_ADM,C_PATTYPE,Patienttype,1977,2018,NA,NA
+LPR_ADM,C_SENSTAT,Ingen label,1977,1986,NA,NA
+LPR_ADM,C_SEX,Køn,1977,2018,NA,NA
+LPR_ADM,C_SGH,Sygehus,1977,2018,NA,NA
+LPR_ADM,C_SGHAMT,Sygehusamt,1977,2018,NA,NA
+LPR_ADM,C_SPEC,Specialekode,1977,2018,NA,NA
+LPR_ADM,C_UDM,Udskrivningsmåde,1987,2018,NA,NA
+LPR_ADM,C_UDTIL,Ingen label,1977,1986,NA,NA
+LPR_ADM,C_ULYKKE,Ingen label,1977,1986,NA,NA
+LPR_ADM,D_EBHDTO,Data for endelig behandling (Variabel udgået efter 31.12.2003),1996,2018,NA,NA
+LPR_ADM,D_FUSDTO,Dato for forundersøgelse (Variabel udgået efter 31.12.2003),1996,2018,NA,NA
+LPR_ADM,D_HENDTO,Henvisningsdato,1977,2018,NA,NA
+LPR_ADM,D_INDDTO,Indlæggelsesdato,1977,2018,NA,NA
+LPR_ADM,D_OPDATDTO,Intern dato for opdatering af kontakten,2005,2018,NA,NA
+LPR_ADM,D_UDDTO,Udskrivningsdato,1977,2018,NA,NA
+LPR_ADM,K_AFD,Afdelingskode,2005,2018,NA,NA
+LPR_ADM,LEVERANCEDATO,Ingen label,1977,2018,NA,NA
+LPR_ADM,PNR,Personnummer,1977,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+LPR_ADM,RECNUM,LPR-identnummer,1977,2018,NA,NA
+LPR_ADM,VERSION,Ingen label,1977,2018,NA,NA
+LPR_ADM,V_ALDDG,Alder i dage ved kontaktens start,2001,2018,NA,NA
+LPR_ADM,V_ALDER,Alder i år ved kontaktens start,1977,2018,NA,NA
+LPR_ADM,V_ALDMDR,Alder i måneder ved kontaktens start,2001,2018,NA,NA
+LPR_ADM,V_BEHDAGE,Behandlingsdage (Variabel udgået efter 31.12.2001),1977,2018,NA,NA
+LPR_ADM,V_INDMINUT,Indlæggelsminut,1994,2018,NA,NA
+LPR_ADM,V_INDTIME,Indlæggelsestidspunkt,1977,2018,NA,NA
+LPR_ADM,V_SENGDAGE,Sengedage,1994,2018,NA,NA
+LPR_ADM,V_UDTIME,Udskrivningstime,1994,2018,NA,NA
+LPR_ADM,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+LPR_ADM,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+LPR_ADM,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+LPR_ADM,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+LPR_BES,D_AMBDTO,Dato for ambulantbesøg,1994,2018,NA,NA
+LPR_BES,LEVERANCEDATO,Ingen label,1994,2018,NA,NA
+LPR_BES,RECNUM,LPR-identnummer,1994,2018,NA,NA
+LPR_BES,VERSION,Ingen label,1994,2018,NA,NA
+LPR_BES,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+LPR_BES,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+LPR_DIAG,C_DIAG,Diagnosekode,1977,2018,NA,NA
+LPR_DIAG,C_DIAGMOD,Diagnosemodifikation,1977,1994,NA,NA
+LPR_DIAG,C_DIAGTYPE,Diagnosetype,1977,2018,NA,NA
+LPR_DIAG,C_TILDIAG,Tillægsdiagnose,1995,2018,NA,NA
+LPR_DIAG,LEVERANCEDATO,Ingen label,1977,2018,NA,NA
+LPR_DIAG,RECNUM,LPR-identnummer,1977,2018,NA,NA
+LPR_DIAG,VERSION,Ingen label,1977,2018,NA,NA
+LPR_DIAG,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+LPR_DIAG,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+LPR_OPR,C_KOMB,Kombination,1977,2017,NA,NA
+LPR_OPR,C_OAFD,Operationsafdeling,1977,2017,NA,NA
+LPR_OPR,C_OPR,Operationskode,1977,2017,NA,NA
+LPR_OPR,C_OSGH,Operationssygehus,1977,2017,NA,NA
+LPR_OPR,LEVERANCEDATO,Ingen label,1977,2017,NA,NA
+LPR_OPR,RECNUM,LPR-identnummer,1977,2017,NA,NA
+LPR_OPR,VERSION,Ingen label,1977,2017,NA,NA
+LPR_OPR,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+LPR_OPR,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+LPR_SKSUBE,C_OAFD,Procedurende afdeling (undersøgelse & behandling),1999,2018,NA,NA
+LPR_SKSUBE,C_OPR,Procedurekodenummer (undersøgelse & behandling),1999,2018,NA,NA
+LPR_SKSUBE,C_OPRART,Procedureart (undersøgelse & behandling),1999,2018,NA,NA
+LPR_SKSUBE,C_OSGH,Procedurende sygehus (undersøgelse & behandling),1999,2018,NA,NA
+LPR_SKSUBE,C_TILOPR,Tillægskode (undersøgelse & behandling),1999,2018,NA,NA
+LPR_SKSUBE,D_ODTO,Proceduredato (undersøgelse & behandling),1999,2018,NA,NA
+LPR_SKSUBE,LEVERANCEDATO,Ingen label,1999,2018,NA,NA
+LPR_SKSUBE,RECNUM,LPR-identnummer,1999,2018,NA,NA
+LPR_SKSUBE,VERSION,Ingen label,1999,2018,NA,NA
+LPR_SKSUBE,V_OMINUT,Procedureminut (undersøgelse & behandling),1999,2018,NA,NA
+LPR_SKSUBE,V_OTIME,Proceduretime (undersøgelse & behandling),1999,2018,NA,NA
+LPR_SKSUBE,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+LPR_SKSUBE,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+PRIV_ADM,CPRTJEK,CPR-tjek,2002,2018,NA,NA
+PRIV_ADM,CPRTYPE,CPR-type,2002,2018,NA,NA
+PRIV_ADM,C_ADIAG,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_AFD,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_BOPAMT,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_HAFD,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_HENM,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_HSGH,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_INDM,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_KOM,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_KONTAARS,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_PATTYPE,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_SEX,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_SGH,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_SGHAMT,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_SPEC,Ingen label,2002,2018,NA,NA
+PRIV_ADM,C_UDM,Ingen label,2002,2018,NA,NA
+PRIV_ADM,D_HENDTO,Ingen label,2002,2018,NA,NA
+PRIV_ADM,D_INDDTO,Ingen label,2002,2018,NA,NA
+PRIV_ADM,D_UDDTO,Ingen label,2002,2018,NA,NA
+PRIV_ADM,LEVERANCEDATO,Ingen label,2002,2018,NA,NA
+PRIV_ADM,PNR,Personnummer,2002,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+PRIV_ADM,RECNUM,LPR-identnummer,2002,2018,NA,NA
+PRIV_ADM,SKEMAOPDAT,Ingen label,2002,2018,NA,NA
+PRIV_ADM,SKEMAOPRET,Ingen label,2002,2018,NA,NA
+PRIV_ADM,VERSION,Ingen label,2002,2018,NA,NA
+PRIV_ADM,V_ALDER,Ingen label,2002,2018,NA,NA
+PRIV_ADM,V_BEHDAGE,Ingen label,2002,2018,NA,NA
+PRIV_ADM,V_SENGDAGE,Ingen label,2002,2018,NA,NA
+PRIV_ADM,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+PRIV_ADM,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+PRIV_ADM,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+PRIV_ADM,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+PRIV_DIAG,C_DIAG,Ingen label,2002,2018,NA,NA
+PRIV_DIAG,C_DIAGTYPE,Ingen label,2002,2018,NA,NA
+PRIV_DIAG,C_TILDIAG,Ingen label,2002,2018,NA,NA
+PRIV_DIAG,INDBERETNINGSDATO,Ingen label,2002,2018,NA,NA
+PRIV_DIAG,LEVERANCEDATO,Ingen label,2002,2018,NA,NA
+PRIV_DIAG,RECNUM,Ingen label,2002,2018,NA,NA
+PRIV_DIAG,VERSION,Ingen label,2002,2018,NA,NA
+PRIV_DIAG,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+PRIV_DIAG,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+PRIV_SKSOPR,C_OAFD,Ingen label,2002,2018,NA,NA
+PRIV_SKSOPR,C_OPR,Ingen label,2002,2018,NA,NA
+PRIV_SKSOPR,C_OPRART,Ingen label,2002,2018,NA,NA
+PRIV_SKSOPR,C_OSGH,Ingen label,2002,2018,NA,NA
+PRIV_SKSOPR,C_TILOPR,Ingen label,2002,2018,NA,NA
+PRIV_SKSOPR,D_ODTO,Ingen label,2002,2018,NA,NA
+PRIV_SKSOPR,INDBERETNINGSDATO,Ingen label,2002,2018,NA,NA
+PRIV_SKSOPR,LEVERANCEDATO,Ingen label,2002,2018,NA,NA
+PRIV_SKSOPR,RECNUM,Ingen label,2002,2018,NA,NA
+PRIV_SKSOPR,VERSION,Ingen label,2002,2018,NA,NA
+PRIV_SKSOPR,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+PRIV_SKSOPR,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+PRIV_SKSUBE,C_OAFD,Ingen label,2002,2018,NA,NA
+PRIV_SKSUBE,C_OPR,Ingen label,2002,2018,NA,NA
+PRIV_SKSUBE,C_OPRART,Ingen label,2002,2018,NA,NA
+PRIV_SKSUBE,C_OSGH,Ingen label,2002,2018,NA,NA
+PRIV_SKSUBE,C_TILOPR,Ingen label,2002,2018,NA,NA
+PRIV_SKSUBE,D_ODTO,Ingen label,2002,2018,NA,NA
+PRIV_SKSUBE,INDBERETNINGSDATO,Ingen label,2002,2018,NA,NA
+PRIV_SKSUBE,LEVERANCEDATO,Ingen label,2002,2018,NA,NA
+PRIV_SKSUBE,RECNUM,Ingen label,2002,2018,NA,NA
+PRIV_SKSUBE,VERSION,Ingen label,2002,2018,NA,NA
+PRIV_SKSUBE,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+PRIV_SKSUBE,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+RAS,ADRKVAL,Adressen for arbejdsstedet kvalitet,1980,1989,NA,NA
+RAS,AFSTAND,Pendlingsafstand mellem bopæl og arbejdssted,2008,2018,NA,NA
+RAS,AKASSE_RAS,A-kasse,1985,2007,NA,NA
+RAS,AKOM07,Arbejdsstedskommune,2006,2006,NA,NA
+RAS,ALDER_AMR,Alder ultimo måneden,2008,2018,NA,NA
+RAS,ALDER_RAS,Alder på sidste arbejdsdag i november.,1980,2007,NA,NA
+RAS,ANS2911K,Ansat ansat ultimo november,2006,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/ANS2911K,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigelsesoplysninger-fra-det-centrale-oplysningsseddelregister/ANS2911K
+RAS,ANSFRA,Ansat fra dato i det aktuelle år.,2006,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/ANSFRA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigelsesoplysninger-fra-det-centrale-oplysningsseddelregister/ANSFRA
+RAS,ANSTIL,Ansat til dato i det aktuelle år.,2006,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/ANSTIL,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigelsesoplysninger-fra-det-centrale-oplysningsseddelregister/ANSTIL
+RAS,ARBGNR,Arbejdsgivernummer,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/ARBGNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/IDA-arbejdssteder/ARBGNR
+RAS,ARBGNR9,Arbejdsgivernummer med sektor,1985,2007,NA,NA
+RAS,ARBNR,Arbejdsstedsnummer,1995,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/ARBNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigelsesoplysninger-fra-det-centrale-oplysningsseddelregister/ARBNR
+RAS,ARBRANCE,Årets branche (AKM),1980,1989,NA,NA
+RAS,ARBSTIL,Arbejdsstilling,1980,1993,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/ARBSTIL,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Befolkningens-tilknytning-til-arbejdsmarkedet--RAS-/ARBSTIL
+RAS,ARBSTOPL,Metode til arbejdsstedsplacering,2006,2007,NA,NA
+RAS,ARB_BEL_KOM_KODE,Arbejdsstedskommune,1980,2018,NA,NA
+RAS,ARB_DST_ADGANGSADRESSE,Arbejdsstedsadressen ultimo november,1980,2018,NA,NA
+RAS,ARB_DST_ADGANGSADRESSE_ID,Ingen label,2016,2018,NA,NA
+RAS,ARB_DST_ENHEDSADRESSE,Arbejdsstedsadressen ultimo november,2008,2018,NA,NA
+RAS,ARB_DST_ENHEDSADRESSE_ID,Ingen label,2016,2018,NA,NA
+RAS,ARB_HOVED_BRA_DB07,Branchekode,2000,2018,NA,NA
+RAS,ARB_SEKTORKODE,Sektorkode for arbejdsstedet,2008,2018,NA,NA
+RAS,ARDSEJER,Åprets ejerkode (AKM),1980,1989,NA,NA
+RAS,ARSOCIO,Årets socio (AKM),1980,1989,NA,NA
+RAS,ATP_BELOEB,ATP-beløb i året,1990,2018,NA,NA
+RAS,ATP_BIDRAG_SATS_KODE,Sats for ATP-beløbet,1996,2018,NA,NA
+RAS,BOPAEL_ADGANGSADRESSE,Bopælsadressen ultimo november,1980,2018,NA,NA
+RAS,BOPAEL_ADRESSE_ID,Ingen label,2016,2018,NA,NA
+RAS,BOPAEL_ENHEDSADRESSE,Bopælsadressen ultimo november,1980,2018,NA,NA
+RAS,BOPAEL_KOM_KODE,Kommunekode for bopælen,1980,2018,NA,NA
+RAS,BRANCHE_77,Dansk branchekode 1977 til 1993 (AKM),1980,1992,https://www.dst.dk/da/Statistik/dokumentation/Times/Personindkomst/BRANCHE-77,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Personers-tilknytning-til-arbejdsmarkedet-set-over-hele-aaret--AKM-/BRANCHE-77
+RAS,BRANCHE_KODE,Branchekode for arbejdesstedet,1992,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/BRANCHE-KODE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigede-personer--RAS-/BRANCHE-KODE
+RAS,BREDT_LOENBELOEB,Bredt lønbeløb,2008,2018,NA,NA
+RAS,BREDT_LOENBELOEB_EBS,Bredt lønbeløb i erhvervsbeskæfigelsen,2008,2018,NA,NA
+RAS,CPRTJEK,CPR-tjek,2008,2018,NA,NA
+RAS,CPRTYPE,CPR-type,2008,2018,NA,NA
+RAS,CVRNR,CVR-nummer,2008,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/CVRNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Firmastatistik/CVRNR
+RAS,DISCO_KODE,Disco kode for lønmodtagere,2008,2018,NA,NA
+RAS,DISCO_MATCHPRIO_KODE,Kode der angiver kvaliteten af discokoden,2008,2018,NA,NA
+RAS,DISCO_RAS_KODE,Arbejdsfunktion for lønmodtagere,1994,2007,NA,NA
+RAS,DSEJER,Primære ejerkode,1980,1989,NA,NA
+RAS,DSKOD,Arbejdsstedskode,1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/DSKOD,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigelsesoplysninger-fra-det-centrale-oplysningsseddelregister/DSKOD
+RAS,EJANSNOV,Ej ansat ultimo november,2006,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/EJANSNOV,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigelsesoplysninger-fra-det-centrale-oplysningsseddelregister/EJANSNOV
+RAS,FIKTIV_ARB_KODE,Fiktivt arbejdssted,2008,2018,NA,NA
+RAS,FORANST_RAS,Arbejdsmarkedspolitisk foranstaltning,1994,2007,NA,NA
+RAS,FORSKAT_RAS,Forsikringskategori i akassen,1980,2007,NA,NA
+RAS,FRAVAER_BESK_KODE,Midlertidigt fraværende fra beskæftigelse,2008,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/FRAVAER-BESK-KODE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigede-personer--RAS-/FRAVAER-BESK-KODE
+RAS,FUNKTION_KODE,Funktionskode,1994,2007,NA,NA
+RAS,GRADAT1,Årsledighed,1980,2005,NA,NA
+RAS,GRADAT2,Årsledighed næste år,1990,2005,NA,NA
+RAS,HELARKOD,Helårskode,2006,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/HELARKOD,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigelsesoplysninger-fra-det-centrale-oplysningsseddelregister/HELARKOD
+RAS,HELTID_32_KODE,Heltid eller deltidsbeskæftiget,2008,2018,NA,NA
+RAS,HELTID_DELTID_KODE,heltid eller deltid (arbejdsomfang/potentielt arbejdsomfang),1980,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/RAS/Statens-arkiver-2007/HELTID-DELTID-KODE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigede-personer--RAS-/HELTID-DELTID-KODE
+RAS,IE_TYPE,"Indvandrere, efterkommere , personer med dansk oprindelse",2008,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/ie-type,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Udlaendinge/IE-TYPE
+RAS,I_BEFOLKNINGEN_KODE,I befolkningen på referencetidspunktet,2008,2018,NA,NA
+RAS,JUR_BAGATEL_AAR,Over/under bagatelgrænsen,2008,2018,NA,NA
+RAS,KOEN,Køn,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/forebyggelsesregistret/koen,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOEN
+RAS,LOENBLB,Arbejdsmarkedsbidragspligtig løn,1990,2007,NA,NA
+RAS,LOENTIMER,Løntimer,2008,2018,NA,NA
+RAS,NOVPRIO,Novemberprioritering,1990,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/NOVPRIO,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Befolkningens-tilknytning-til-arbejdsmarkedet--RAS-/NOVPRIO
+RAS,NOV_TILSTAND_GRAD,Tilstandsgrad i november,2008,2018,NA,NA
+RAS,NYARB,Ny arbejdsstilling,1994,1995,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/NYARB,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Befolkningens-tilknytning-til-arbejdsmarkedet--RAS-/NYARB
+RAS,NYSTIL,Ny stillingskode,1980,1989,NA,NA
+RAS,OK_NR,Økonomisk enheds-nummer,2008,2018,NA,NA
+RAS,OPR_LAND,Oprindelsesland,2008,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/opr-land,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Udlaendinge/OPR-LAND
+RAS,ORLOV_BESK_RAS,Orlov fra beskæftigelse,1994,2007,NA,NA
+RAS,PARBOPL,Primær arbejds oplysning,1980,1989,NA,NA
+RAS,PENSMARK,Pensionsmarkering,1980,1989,NA,NA
+RAS,PNR,Personnummer,1980,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+RAS,PRIMAER_STATUS_KODE,Kode for primær tilknytning til arbejdsmarkedet,2008,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/PRIMAER-STATUS-KODE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Befolkningens-tilknytning-til-arbejdsmarkedet--RAS-/PRIMAER-STATUS-KODE
+RAS,RASDSEJER3,DSejer3,1990,2003,NA,NA
+RAS,SAADRKOD,SEKUNDÆR ARBEJDSSTEDSADRESSE,1980,1989,NA,NA
+RAS,SADRKVAL,SEKUNDÆR ARBEJDSSTEDSADRESSE KVALITET,1980,1989,NA,NA
+RAS,SAKOM,SEKUNDÆR ARBEJDSSTEDSKOMMUNE,1980,1989,NA,NA
+RAS,SARBGNR9,SEKUNDÆR ARBEJDSGIVERNUMMER,1980,1989,NA,NA
+RAS,SARBSTIL,SEKUNDÆR ARBEJDSTILLING,1980,1989,NA,NA
+RAS,SAROPL,SEKUNDÆR ARBEJDS OPLYSNINGER,1980,1989,NA,NA
+RAS,SBRKVAL,SEKUNDÆR BRANCHE KVALITET,1980,1989,NA,NA
+RAS,SDSEJER,SEKUNDÆR EJERKODE,1980,1989,NA,NA
+RAS,SDSKOD,SEKUNDÆR ARBEJDSSTEDSKODE,1980,1989,NA,NA
+RAS,SENR,SENR,2006,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/SENR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Loenoplysninger-fra-det-centrale-oplysningsseddelregister/SENR
+RAS,SFORMAL,SEKUNDÆR FORMÅL,1980,1989,NA,NA
+RAS,SISIC,SEKUNDÆR BRANCHE (ISIC),1980,1989,NA,NA
+RAS,SKIFT,PRIMÆRE SKIFT,1980,1989,NA,NA
+RAS,SKPLINDK,Skattepligtig indkomst,1980,1989,NA,NA
+RAS,SMALT_LOENBELOEB,Smalt lønbeløb,2008,2018,NA,NA
+RAS,SOCSTIL_KODE,Socioøkonomisk status,1996,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/SOCSTIL-KODE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Befolkningens-tilknytning-til-arbejdsmarkedet--RAS-/SOCSTIL-KODE
+RAS,SOC_STATUS_KODE,Socioøkonomisk status,2008,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/SOC-STATUS-KODE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Befolkningens-tilknytning-til-arbejdsmarkedet--RAS-/SOC-STATUS-KODE
+RAS,SOMF,SEKUNDÆR OMF,1980,1989,NA,NA
+RAS,STOETTE_BESK,Støttet beskæftigelse,1994,2007,NA,NA
+RAS,STOETTE_BESK_KODE,Støttet beskæftigelse,2008,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/STOETTE-BESK-KODE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Beskaeftigede-personer--RAS-/STOETTE-BESK-KODE
+RAS,TILSTAND_GRAD_AAR_AMR,Tilstandsgrad i året,2008,2018,NA,NA
+RAS,TILSTAND_GRAD_AAR_EX_FRAVAER,Tilstandsgrad i året for lønmodtagerjob hvor fravær er ekskluderet,2008,2015,NA,NA
+RAS,TILSTAND_KODE_AMR,Tilstandskode i AMR,2008,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/TILSTAND-KODE-AMR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Befolkningens-tilknytning-til-arbejdsmarkedet--RAS-/TILSTAND-KODE-AMR
+RAS,VERSION,Moduldata version,2008,2018,NA,NA
+RAS,AFSTAND,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/AFSTAND,NA
+RAS,ALDER_AMR,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/ALDER-AMR,NA
+RAS,ARB_BEL_KOM_KODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/ARB-BEL-KOM-KODE,NA
+RAS,ARB_HOVED_BRA_DB07,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/ARB-HOVED-BRA-DB07,NA
+RAS,ARB_SEKTORKODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/ARB-SEKTORKODE,NA
+RAS,ATP_BELOEB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/ATP-BELOEB,NA
+RAS,ATP_BIDRAG_SATS_KODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/ATP-BIDRAG-SATS-KODE,NA
+RAS,BOPAEL_KOM_KODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/BOPAEL-KOM-KODE,NA
+RAS,BREDT_LOENBELOEB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/BREDT-LOENBELOEB,NA
+RAS,BREDT_LOENBELOEB_EBS,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/BREDT-LOENBELOEB-EBS,NA
+RAS,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+RAS,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+RAS,DISCO_KODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/DISCO-KODE,NA
+RAS,DISCO_MATCHPRIO_KODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/DISCO-MATCHPRIO-KODE,NA
+RAS,DISCO_RAS_KODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/DISCO-RAS-KODE,NA
+RAS,FIKTIV_ARB_KODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/FIKTIV-ARB-KODE,NA
+RAS,FUNKTION_KODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/FUNKTION-KODE,NA
+RAS,HELTID_32_KODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/HELTID-32-KODE,NA
+RAS,I_BEFOLKNINGEN_KODE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/I-BEFOLKNINGEN-KODE,NA
+RAS,JUR_BAGATEL_AAR,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/JUR-BAGATEL-AAR,NA
+RAS,LOENBLB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/LOENBLB,NA
+RAS,NOV_TILSTAND_GRAD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/NOV-TILSTAND-GRAD,NA
+RAS,OK_NR,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/OK-NR,NA
+RAS,SMALT_LOENBELOEB,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/SMALT-LOENBELOEB,NA
+RAS,STOETTE_BESK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/STOETTE-BESK,NA
+RAS,TILSTAND_GRAD_AAR_AMR,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/TILSTAND-GRAD-AAR-AMR,NA
+RAS,TILSTAND_GRAD_AAR_EX_FRAVAER,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Arbejdsmarked/TILSTAND-GRAD-AAR-EX-FRAVAER,NA
+RAS,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+SHSS,BELE,Beløb efterløn,1984,2007,NA,NA
+SHSS,BEL_AF,Udbetalt beløb ved aktivering,1995,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-AF
+SHSS,BEL_AK,Kontanthjælp under aktivering,2006,2007,NA,NA
+SHSS,BEL_AK1,Årlig udbetaling til aktivering af unge under 25 år,1994,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-AK1
+SHSS,BEL_AK2,Årligt udbetalt kontanthjælp til aktiverede under 25 år.,1994,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-AK2
+SHSS,BEL_AK3,Årlig udbetaling til aktivering af personer over 25 år (kommunal aktivering),1994,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-AK3
+SHSS,BEL_AK4,Årlig udbetaling til igangsætningsydelse (kommunal aktivering),1994,2000,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-AK4
+SHSS,BEL_AK5,Årlig udbetaling til aktivering af flygtninge (kommunal aktivering),1994,2000,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-AK5
+SHSS,BEL_ALD,Årligt udbetalt beløb på folkepension.,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-ALD
+SHSS,BEL_ARB,Årligt udbetalte arbejdsløshedsdagpenge,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-ARB
+SHSS,BEL_BAR,Årligt udbetalte fødsels-/barselsdagpenge,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-BAR
+SHSS,BEL_F,Årligt udbetalt beløb på førtidspension.,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-F
+SHSS,BEL_K194,Årligt udbetalt hjælp til underhold til forsørgere.,1994,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-K194
+SHSS,BEL_K294,Årligt udbetalt hjælp til underhold til ikke-forsørgere.,1994,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-K294
+SHSS,BEL_K394,Årligt udbetalt hjælp til underhold til flygtninge,1994,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-K394
+SHSS,BEL_K494,Årlig udbetalt beløb vedr. supplerende ydelser alene,1994,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-K494
+SHSS,BEL_K598,Årligt udbetalt beløb vedr. kontanthjælpspension,1998,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-K598
+SHSS,BEL_K699,Årligt udbetalt beløb vedr. introduktionsydelse,1999,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-K699
+SHSS,BEL_KON1,Årligt udbetalt beløb vedr. underhold indtil 9 mdr.,1984,1993,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-KON1
+SHSS,BEL_KON2,Årligt udbetalt beløb vedr. underhold efter 9 mdr.,1984,1993,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-KON2
+SHSS,BEL_KON3,Årligt udbetalt beløb vedr. anden kontanthjælp,1984,1993,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-KON3
+SHSS,BEL_LYD,Årligt udbetalt ledighedsydelse,2001,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-LYD
+SHSS,BEL_ORL,Årligt udbetalt beløb på orlovsydelse,1995,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-ORL
+SHSS,BEL_REV_FLY,Beløb uddannelse (Flygtninge),1999,2007,NA,NA
+SHSS,BEL_REV_IF,Beløb uddannelse (Ikke flygtninge),1984,2007,NA,NA
+SHSS,BEL_SYG,Årligt udbetalt beløb på sygedagpenge,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-SYG
+SHSS,BEL_T,Årlig udbetaling af tjenestemandspension.,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-T
+SHSS,BEL_UFR,Årligt udbetalt beløb ved forrevalidering,1999,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-UFR
+SHSS,PNR,Personnummer,1984,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+SHSS,SL_ART_AF,Slutydelse for AF-aktivering.,1995,2007,NA,NA
+SHSS,SL_ART_AF_A,Slutydelse for anden af-aktivering,2002,2007,NA,NA
+SHSS,SL_ART_AF_B,Slutydelse for AF-beskæftigelse,1995,2007,NA,NA
+SHSS,SL_ART_AF_F,Slutydelse for AF-forsøg,1995,2007,NA,NA
+SHSS,SL_ART_AF_U,Slutydelse for AF-uddannelse,1995,2007,NA,NA
+SHSS,SL_ART_AKT,Slutydelse på aktivering,1994,2007,NA,NA
+SHSS,SL_ART_ARB,Slutydelse på arbejdsløshedsdagpenge,1984,2007,NA,NA
+SHSS,SL_ART_BAR,Slutydelse på barselsdagpenge,2001,2007,NA,NA
+SHSS,SL_ART_FEL,Slutydelse i fællesreg.,1984,2007,NA,NA
+SHSS,SL_ART_FEL_X,Slutydelse i fællesreg. excl. tjenest.,2001,2007,NA,NA
+SHSS,SL_ART_KON,Slutydelse på Hjælp til underhold,1984,2007,NA,NA
+SHSS,SL_ART_LYD,Slutart for ledighedsydelse,2001,2007,NA,NA
+SHSS,SL_ART_ORL,Slutydelse for orlov,1995,2007,NA,NA
+SHSS,SL_ART_REV,Slutydelse på Uddannelse/Revalidering,1999,2007,NA,NA
+SHSS,SL_ART_SYG,Slutydelse på sygedagpenge,1984,2007,NA,NA
+SHSS,SL_ART_V,Slutydelse på pensioner,1984,2007,NA,NA
+SHSS,SL_ART_VX,Slutyd på pens excl. Tjenestemandspension,2001,2007,NA,NA
+SHSS,SL_MD_FEL,Slutmåned i fællesreg.,1984,2007,NA,NA
+SHSS,SL_MD_FEL_X,Slutmåned i fællesreg. excl. tjenest.,2001,2007,NA,NA
+SHSS,SL_MRKM,Slutmarkering midlertig hjælp,1984,2007,NA,NA
+SHSS,STAT_FOER,Status før foranstaltning,1995,2006,NA,NA
+SHSS,STAT_FOER_AFA,Status før foranstaltning AF-akt.,1995,2006,NA,NA
+SHSS,ST_ART_AF,Startydelse for AF-aktivering.,1995,2007,NA,NA
+SHSS,ST_ART_AF_A,Startydelse for anden af-aktivering,2002,2007,NA,NA
+SHSS,ST_ART_AF_B,Startydelse for AF-beskæftigelse,1995,2007,NA,NA
+SHSS,ST_ART_AF_F,Startydelse for AF-forsøg,1995,2007,NA,NA
+SHSS,ST_ART_AF_U,Startydelse for AF-uddannelse,1995,2007,NA,NA
+SHSS,ST_ART_AKT,Startydelse på aktivering,1994,2007,NA,NA
+SHSS,ST_ART_ARB,Startydelse på arbejdsløshedsdagp.,1984,2007,NA,NA
+SHSS,ST_ART_BAR,Startydelse på barselsdagpenge,2001,2007,NA,NA
+SHSS,ST_ART_FEL,Startydelse i fællesreg.,1984,2007,NA,NA
+SHSS,ST_ART_FEL_X,Startydelse i fællesreg. excl. tjenest.,2001,2007,NA,NA
+SHSS,ST_ART_KON,Startydelse på Hjælp til underhold,1984,2007,NA,NA
+SHSS,ST_ART_LYD,Startart for ledighedsydelse,2001,2007,NA,NA
+SHSS,ST_ART_ORL,Startydelse for orlov,1995,2007,NA,NA
+SHSS,ST_ART_REV,Startydelse på Uddannelse/Revalidering,1999,2007,NA,NA
+SHSS,ST_ART_SYG,Startydelse på sygedagpenge,1984,2007,NA,NA
+SHSS,ST_ART_V,Startydelse på pensioner,1984,2007,NA,NA
+SHSS,ST_ART_VX,Startyd på pens excl. Tjenestemandspens,2001,2007,NA,NA
+SHSS,ST_MD_FEL,Startmåned i fællesreg.,1984,2007,NA,NA
+SHSS,ST_MD_FEL_X,Startmåned i fællesreg. excl. tjenest.,2001,2007,NA,NA
+SHSS,ST_MRKM,Startmarkering midlertidig hjælp,1984,2007,NA,NA
+SHSS,TDOMYD,Dominerende ydelse året før,1991,2007,NA,NA
+SHSS,VARMMA1,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA10,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA11,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA12,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA2,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA3,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA4,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA5,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA6,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA7,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA8,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMA9,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAF1,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF10,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF11,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF12,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF2,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF3,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF4,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF5,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF6,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF7,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF8,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAF9,Md.fordelt varighed AF-aktivering. Brutto.,1995,2007,NA,NA
+SHSS,VARMMAFA1,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA10,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA11,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA12,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA2,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA3,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA4,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA5,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA6,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA7,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA8,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFA9,Månedsfordelt varighed anden af-aktiv,2002,2007,NA,NA
+SHSS,VARMMAFB1,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB10,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB11,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB12,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB2,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB3,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB4,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB5,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB6,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB7,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB8,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFB9,Månedsfordelt varighed AF-beskæftig.,1995,2007,NA,NA
+SHSS,VARMMAFF1,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF10,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF11,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF12,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF2,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF3,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF4,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF5,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF6,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF7,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF8,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFF9,Månedsfordelt varighed AF-forsøg,1995,2007,NA,NA
+SHSS,VARMMAFU1,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU10,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU11,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU12,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU2,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU3,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU4,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU5,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU6,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU7,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU8,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAFU9,Månedsfordelt varighed AF-uddannelse,1995,2007,NA,NA
+SHSS,VARMMAK1,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK10,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK11,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK12,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK2,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK3,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK4,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK5,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK6,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK7,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK8,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAK9,Månedsfordelt varighed aktivering,1994,2007,NA,NA
+SHSS,VARMMAN1,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN10,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN11,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN12,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN2,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN3,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN4,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN5,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN6,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN7,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN8,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMAN9,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,1984,2007,NA,NA
+SHSS,VARMMF1,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF10,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF11,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF12,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF2,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF3,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF4,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF5,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF6,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF7,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF8,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMF9,Månedsfordelt varighed underhold,1984,2007,NA,NA
+SHSS,VARMMK1,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK10,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK11,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK12,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK2,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK3,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK4,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK5,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK6,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK7,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK8,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMMK9,Md.fordelt varigh kont.hj. (Underhold+rev),1984,2007,NA,NA
+SHSS,VARMML1,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML10,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML11,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML12,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML2,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML3,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML4,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML5,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML6,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML7,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML8,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMML9,Månedsfordelt varighedf ledighedssydelse,2006,2007,NA,NA
+SHSS,VARMMLYD1,Månedsfordelt varighedf ledighedssydelse MD: 1,2001,2005,NA,NA
+SHSS,VARMMLYD10,Månedsfordelt varighedf ledighedssydelse MD: 10,2001,2005,NA,NA
+SHSS,VARMMLYD11,Månedsfordelt varighedf ledighedssydelse MD: 11,2001,2005,NA,NA
+SHSS,VARMMLYD12,Månedsfordelt varighedf ledighedssydelse MD: 12,2001,2005,NA,NA
+SHSS,VARMMLYD2,Månedsfordelt varighedf ledighedssydelse MD: 2,2001,2005,NA,NA
+SHSS,VARMMLYD3,Månedsfordelt varighedf ledighedssydelse MD: 3,2001,2005,NA,NA
+SHSS,VARMMLYD4,Månedsfordelt varighedf ledighedssydelse MD: 4,2001,2005,NA,NA
+SHSS,VARMMLYD5,Månedsfordelt varighedf ledighedssydelse MD: 5,2001,2005,NA,NA
+SHSS,VARMMLYD6,Månedsfordelt varighedf ledighedssydelse MD: 6,2001,2005,NA,NA
+SHSS,VARMMLYD7,Månedsfordelt varighedf ledighedssydelse MD: 7,2001,2005,NA,NA
+SHSS,VARMMLYD8,Månedsfordelt varighedf ledighedssydelse MD: 8,2001,2005,NA,NA
+SHSS,VARMMLYD9,Månedsfordelt varighedf ledighedssydelse MD: 9,2001,2005,NA,NA
+SHSS,VARMMO1,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO10,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO11,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO12,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO2,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO3,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO4,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO5,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO6,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO7,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO8,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMO9,Månedsfordelt varighed orlov,1995,2007,NA,NA
+SHSS,VARMMS1,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS10,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS11,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS12,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS2,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS3,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS4,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS5,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS6,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS7,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS8,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMS9,Md.fordelt varighed syge-/barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF1,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF10,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF11,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF12,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF2,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF3,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF4,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF5,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF6,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF7,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF8,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSF9,Månedsfordelt varighed barselsdagpenge,1984,2007,NA,NA
+SHSS,VARMMSS1,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS10,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS11,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS12,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS2,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS3,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS4,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS5,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS6,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS7,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS8,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMSS9,Månedsfordelt varighed sygedagpenge,1984,2007,NA,NA
+SHSS,VARMMU1,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU10,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU11,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU12,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU2,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU3,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU4,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU5,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU6,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU7,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU8,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMU9,Månedfordelt varighed uddannelse,1984,2007,NA,NA
+SHSS,VARMMV1,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV10,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV11,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV12,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV2,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV3,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV4,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV5,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV6,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV7,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV8,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMV9,Månedsfordelt varighed for alle pensioner,1984,2007,NA,NA
+SHSS,VARMMVA1,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA10,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA11,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA12,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA2,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA3,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA4,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA5,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA6,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA7,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA8,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVA9,Månedsfordelt varighed alderspension,1984,2007,NA,NA
+SHSS,VARMMVE1,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE10,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE11,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE12,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE2,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE3,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE4,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE5,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE6,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE7,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE8,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVE9,Månedsfordelt varighed for efterløn,1984,2007,NA,NA
+SHSS,VARMMVF1,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF10,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF11,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF12,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF2,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF3,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF4,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF5,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF6,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF7,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF8,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVF9,Månedsfordelt varighed førtidspension,1984,2007,NA,NA
+SHSS,VARMMVT1,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT10,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT11,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT12,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT2,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT3,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT4,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT5,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT6,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT7,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT8,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVT9,Månedsfordelt varighed tjenestemandspension,1984,2007,NA,NA
+SHSS,VARMMVX1,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX10,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX11,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX12,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX2,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX3,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX4,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX5,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX6,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX7,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX8,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VARMMVX9,MM.f. var. f alle p-typer excl. tjenestemand,2001,2007,NA,NA
+SHSS,VAR_AF_1,Årsvar. Virksomhedspraktik (nyt indhold 2004),1995,2007,NA,NA
+SHSS,VAR_AF_2,Årsvar. etableringsydelse,1995,2007,NA,NA
+SHSS,VAR_AF_3,Årsvar. udd. m. voksenudd.støtte,1995,2007,NA,NA
+SHSS,VAR_AF_4,Årsvar. ordinær udd. m. godtgørelse,1995,2007,NA,NA
+SHSS,VAR_AF_5,Årsvar. særligt tilret. udd.forløb,1995,2007,NA,NA
+SHSS,VAR_AF_6,Årsvar. forsøg,1995,2007,NA,NA
+SHSS,VAR_AF_7,Årsvar. vejledning og anden AF-aktivering,2001,2007,NA,NA
+SHSS,VAR_AF_8,Årsvarighed ved anden AF-aktivering,2002,2003,NA,NA
+SHSS,VAR_AK1,Årsvarighed af aktivering af unge under 25 år,1994,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-AK1
+SHSS,VAR_AK2,Årsvarighed af kontanthjælp til aktiverede over 25 år,1994,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-AK2
+SHSS,VAR_AK3,Årsvarighed af aktivering af personer over 25 år,1994,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-AK3
+SHSS,VAR_AK4,Årsvarighed af igangsætningsydelse,1994,2000,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-AK4
+SHSS,VAR_AK5,Årsvarighed af aktivering af flygtninge,1994,2000,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-AK5
+SHSS,VAR_AKT,Årsvarighed af aktivering (kommunal aktivering),2006,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-AKT
+SHSS,VAR_ALD,Årsvarighed af folkepension,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-ALD
+SHSS,VAR_ALM,Årsvarighed ved alm. arbejdsløshedsdagp.,1984,2007,NA,NA
+SHSS,VAR_ARB,Årsvarighed af arbejdsløshedsdagpenge,1984,2006,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-ARB
+SHSS,VAR_BAR,Årsvarighed med fødsels-/barselsdagpenge,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-BAR
+SHSS,VAR_E,Årsvarighed af efterløn/overgangsydelse,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-E
+SHSS,VAR_F,Årsvarighed af førtidspension,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-F
+SHSS,VAR_FER,Årsvarighed på feriedagpenge,1984,2007,NA,NA
+SHSS,VAR_K194,Årsvarighed af underhold (forsørgere),1994,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-K194
+SHSS,VAR_K294,Årsvarighed af underhold (ikke-forsørgere),1994,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-K294
+SHSS,VAR_K394,Årsvarighed af underhold til flygtninge,1994,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-K394
+SHSS,VAR_K494,Årsvarighed af supplerende ydelser alene,1994,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-K494
+SHSS,VAR_K598,Årsvarighed af kontanthjælpspension,1998,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-K598
+SHSS,VAR_K699,Årsvarighed af introduktionsydelse,1999,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-K699
+SHSS,VAR_KIS,Årsvarighed i KIS (ikke-forsikrede ledige med kontanthjælpsudbetaling),1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-KIS
+SHSS,VAR_KON1,Årsvarighed af underhold indtil 9 mdr.,1984,1993,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-KON1
+SHSS,VAR_KON2,Årsvarighed af underhold efter 9 mdr.,1984,1993,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-KON2
+SHSS,VAR_KON3,Årsvarighed af anden kontanthjælp,1984,1993,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-KON3
+SHSS,VAR_LYD,Årsvarighed af ledighedsydelse,2001,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-LYD
+SHSS,VAR_ORL_BP,Varighed af børnepasningsorlov,1995,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-ORL-BP
+SHSS,VAR_ORL_SAB,Årsvarighed af sabbatorlov,1995,2001,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-ORL-SAB
+SHSS,VAR_ORL_UDD,Varighed af uddannelsesorlov,1995,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-ORL-UDD
+SHSS,VAR_REV_FLY,Årsvar. ved udd./revalidering (Flygtninge),1999,2007,NA,NA
+SHSS,VAR_REV_IF,Årsvar. ved udd./rev. (Ikke flygtninge),1984,2007,NA,NA
+SHSS,VAR_SYG,Årsvarighed på sygedagpenge,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-SYG
+SHSS,VAR_T,Varighed af tjenestemandspension.,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-T
+SHSS,VAR_UFR,Årsvarighed af forrevalidering,1999,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-UFR
+SHSS,VAR_VEJR,Årsvarighed ved vejrlig,1984,2006,NA,NA
+SSNV,BEL_AF,Udbetalt beløb ved aktivering,1995,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-AF
+SSNV,BEL_AK2,Årligt udbetalt kontanthjælp til aktiverede under 25 år.,1994,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-AK2
+SSNV,BEL_AKT,Årligt udbetalt aktiveringsydelse (kommunal aktivering),1994,2007,NA,NA
+SSNV,BEL_ALD,Årligt udbetalt beløb på folkepension.,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-ALD
+SSNV,BEL_ARB,Årligt udbetalt arbejdsløshedsdagpenge,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-ARB
+SSNV,BEL_BAR,Årligt udbetalte fødsels-/barselsdagpenge,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-BAR
+SSNV,BEL_E,Årligt udbetalt beløb på efterløn/overgangsydelse,1984,2007,NA,NA
+SSNV,BEL_F,Årligt udbetalt beløb på førtidspension.,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-F
+SSNV,BEL_KON,Årlig udbetalt underholdsydelse,1984,2007,NA,NA
+SSNV,BEL_LYD,Årligt udbetalt ledighedsydelse,2001,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-LYD
+SSNV,BEL_ORL,Årligt udbetalt beløb på orlovsydelse,1995,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-ORL
+SSNV,BEL_SYG,Årligt udbetalt beløb på sygedagpenge,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-SYG
+SSNV,BEL_T,Årlig udbetaling af tjenestemandspension.,1984,1994,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/BEL-T
+SSNV,BEL_UDA,Årligt udbetalt beløb ved uddannelse/revalidering (alle),1984,2007,NA,NA
+SSNV,DOMYD,Dominerende ydelse,1984,2007,NA,NA
+SSNV,KFLAG,Kontanthjælpsmarkering,1984,1998,NA,NA
+SSNV,NETTOK,Nettovar. kontanthjælp(Underhold+rev),1984,2007,NA,NA
+SSNV,NETTO_AK,Årsvarighed af kommunal aktivering.,1994,2007,NA,NA
+SSNV,NETTO_M,Årsvarighed af midlertidige ydelser,1984,2007,NA,NA
+SSNV,NETTO_VAR,Årsvarighed af indkomsterstattende ydelser,1984,2007,NA,NA
+SSNV,PNR,PERSONENS CPR-NR,1984,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+SSNV,SLSART,Slutydelse på dagpenge,1984,2000,NA,NA
+SSNV,SL_ART_AF,Slutydelse for AF-aktivering.,1995,2007,NA,NA
+SSNV,SL_ART_AKT,Slutydelse på aktivering,1994,2007,NA,NA
+SSNV,SL_ART_ARB,Slutydelse på arbejdsløshedsdagpenge,1984,2007,NA,NA
+SSNV,SL_ART_BAR,Slutydelse på barselsdagpenge,2001,2007,NA,NA
+SSNV,SL_ART_FEL,Slutydelse i fællesreg.,1984,2000,NA,NA
+SSNV,SL_ART_FEL_X,Slutydelse i fællesreg. excl. tjenest.,1995,2007,NA,NA
+SSNV,SL_ART_KON,Slutydelse på Hjælp til underhold,1984,2007,NA,NA
+SSNV,SL_ART_LYD,Slutart for ledighedsydelse,2001,2007,NA,NA
+SSNV,SL_ART_ORL,Slutydelse for orlov,1995,2007,NA,NA
+SSNV,SL_ART_REV,Slutydelse på Uddannelse/Revalidering,1999,2007,NA,NA
+SSNV,SL_ART_SYG,Slutydelse på sygedagpenge,2001,2007,NA,NA
+SSNV,SL_ART_V,SLUTYDELSE - PENSIONER,1984,1994,NA,NA
+SSNV,SL_ART_VX,Slutyd på pens excl. Tjenestemandspension,1995,2007,NA,NA
+SSNV,SL_MD_FEL,Slutmåned i fællesreg.,1984,2000,NA,NA
+SSNV,SL_MD_FEL_X,Slutmåned i fællesreg. excl. tjenest.,2001,2007,NA,NA
+SSNV,SL_MRKM,Slutmarkering midlertig hjælp,1984,2007,NA,NA
+SSNV,STSART,Startydelse på dagpenge,1984,2000,NA,NA
+SSNV,ST_ART_AF,Startydelse for AF-aktivering.,1995,2007,NA,NA
+SSNV,ST_ART_AKT,Startydelse på aktivering,1994,2007,NA,NA
+SSNV,ST_ART_ARB,Startydelse på arbejdsløshedsdagp.,1984,2007,NA,NA
+SSNV,ST_ART_BAR,Startydelse på barselsdagpenge,2001,2007,NA,NA
+SSNV,ST_ART_FEL,Startydelse i fællesreg.,1984,2000,NA,NA
+SSNV,ST_ART_FEL_X,Startydelse i fællesreg. excl. tjenest.,1995,2007,NA,NA
+SSNV,ST_ART_KON,Startydelse på Hjælp til underhold,1984,2007,NA,NA
+SSNV,ST_ART_LYD,Startart for ledighedsydelse,2001,2007,NA,NA
+SSNV,ST_ART_ORL,Startydelse for orlov,1995,2007,NA,NA
+SSNV,ST_ART_REV,Startydelse på Uddannelse/Revalidering,1999,2007,NA,NA
+SSNV,ST_ART_SYG,Startydelse på sygedagpenge,2001,2007,NA,NA
+SSNV,ST_ART_V,STARTYDELSE - PENSIONER,1984,1994,NA,NA
+SSNV,ST_ART_VX,Startyd på pens excl. Tjenestemandspens,1995,2007,NA,NA
+SSNV,ST_MD_FEL,Startmåned i fællesreg.,1984,2000,NA,NA
+SSNV,ST_MD_FEL_X,Startmåned i fællesreg. excl. tjenest.,2001,2007,NA,NA
+SSNV,ST_MRKM,Startmarkering midlertidig hjælp,1984,2007,NA,NA
+SSNV,TDOMYD,Dominerende ydelse året før,1991,2007,NA,NA
+SSNV,TDOMYD94,Dominerende ydelse året før,1994,1994,NA,NA
+SSNV,TDOMYD96,Dominerende ydelse året før,1995,2005,NA,NA
+SSNV,VARLED,Årsvarighed på arbejdsløshedsdagpenge,1984,2007,NA,NA
+SSNV,VAR_AF_B,Årsvarighed af AF-aktivering (beskæftigelse),1995,2007,NA,NA
+SSNV,VAR_AF_F,Årsvarighed ved AF-aktivering (forsøg),1995,2001,NA,NA
+SSNV,VAR_AF_FA,Årsvarighed af AF-aktivering (anden AF-aktivering),2002,2007,NA,NA
+SSNV,VAR_AF_U,Årsvarighed af AF-aktivering (uddannelse),1995,2007,NA,NA
+SSNV,VAR_AK2,Årsvarighed af kontanthjælp til aktiverede over 25 år,1994,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-AK2
+SSNV,VAR_AKT,Årsvarighed af aktivering (kommunal aktivering),1994,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-AKT
+SSNV,VAR_ALD,Årsvarighed af folkepension,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-ALD
+SSNV,VAR_BAR,Årsvarighed med fødsels-/barselsdagpenge,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-BAR
+SSNV,VAR_E,Årsvarighed af efterløn/overgangsydelse,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-E
+SSNV,VAR_F,Årsvarighed af førtidspension,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-F
+SSNV,VAR_KIS,Årsvarighed i KIS (ikke-forsikrede ledige med kontanthjælpsudbetaling),1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-KIS
+SSNV,VAR_KON,Årsvarighed af hjælp til underhold,1984,2007,NA,NA
+SSNV,VAR_LYD,Årsvarighed af ledighedsydelse,2001,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-LYD
+SSNV,VAR_ORL_BP,Varighed af børnepasningsorlov,1995,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-ORL-BP
+SSNV,VAR_ORL_SAB,Årsvarighed af sabbatorlov,1995,1999,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-ORL-SAB
+SSNV,VAR_ORL_UDD,Varighed af uddannelsesorlov,1995,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-ORL-UDD
+SSNV,VAR_SYG,Årsvarighed på sygedagpenge,1984,2007,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-SYG
+SSNV,VAR_T,Varighed af tjenestemandspension.,1984,1994,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sammenhaengende-socialstatistik/VAR-T
+SSNV,VAR_UDA,Årsvarighed af uddannelse/revalidering (alle),1984,2007,NA,NA
+SSSY,AFRPER,Afregningsperiode,2005,2019,NA,NA
+SSSY,ALDERIMP,Alder ultimo inkl. imputerede,2005,2019,NA,NA
+SSSY,BARNMAK,Barnemarkering,2005,2019,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/BARNMAK
+SSSY,BRUHON,Bruttohonorar til læge mv.,2005,2019,NA,NA
+SSSY,CPRTJEK,CPR-tjek,2005,2019,NA,NA
+SSSY,CPRTYPE,CPR-type,2005,2019,NA,NA
+SSSY,HONUGE,Honoraruge,2005,2019,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/HONUGE
+SSSY,KOENIMP,Køn inkl. imputerede,2005,2019,NA,NA
+SSSY,KONTAKT,Kontakt,2005,2019,NA,NA
+SSSY,PATGRP,Patientgruppe,2005,2019,NA,NA
+SSSY,PNR,Personnummer,2005,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+SSSY,SIKGRUP,Sygesikringsgruppe,2005,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Sygesikringsstatistik/SIKGRUP,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/SIKGRUP
+SSSY,SPEC2,2-cifret speciale,2005,2019,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Honorarer/SPEC2
+SSSY,SPECIALE,6-cifret speciale,2005,2019,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/SPECIALE
+SSSY,VERSION,ModulData versionsnummer,2005,2019,NA,NA
+SSSY,YDERNR,Ydernummer,2005,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Sygesikringsstatistik/YDERNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/YDERNR
+SSSY,YDERSAMT,Yders amt,2005,2019,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/YDERSAMT
+SSSY,YDLANT,Antal ydelser under specialet,2005,2019,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/YDLANT
+SSSY,YDLTID,Tidspunktskode for ydelsen,2005,2019,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/YDLTID
+SSSY,YDTYP,Ydertype,2005,2019,NA,NA
+SSSY,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+SSSY,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+SSSY,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+SYSI,AFRPER,Afregningsperiode,1990,2005,NA,NA
+SYSI,BARNMAK,Barnemarkering,1990,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/BARNMAK
+SYSI,BRUHON,Bruttohonorar til læge mv.,1990,2005,NA,NA
+SYSI,GRDHON,GRUNDHONORAR,1997,2005,NA,NA
+SYSI,HENVISNI,Henvisningsydernummer,1990,2005,NA,NA
+SYSI,HONUGE,Honoraruge,1990,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/HONUGE
+SYSI,PARAGRAF,PARAGRAFRELATION,1997,2005,NA,NA
+SYSI,PATTYP,Patienttype,1990,2005,NA,NA
+SYSI,PNR,Sikredes personnummer,1990,2005,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+SYSI,PRAKSISO,PRAKSISOMRÅDE,1997,2005,NA,NA
+SYSI,PRAKTYP,Praksistype,1990,2005,NA,NA
+SYSI,SIKGRUP,Sikringsgruppe,1990,2005,https://www.dst.dk/da/Statistik/dokumentation/Times/Sygesikringsstatistik/SIKGRUP,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/SIKGRUP
+SYSI,SIKREAMT,Sikredes amt,1990,2005,NA,NA
+SYSI,SIKREKOM,Sikredes kommune,1990,2005,NA,NA
+SYSI,SPECIALE,6-cifret speciale,1990,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/SPECIALE
+SYSI,VAGTOMR,VAGTOMRÅDE,1997,2005,NA,NA
+SYSI,YDERNR,Ydernummer,1990,2005,https://www.dst.dk/da/Statistik/dokumentation/Times/Sygesikringsstatistik/YDERNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/YDERNR
+SYSI,YDERSAMT,Yders amt,1990,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/YDERSAMT
+SYSI,YDLANT,Antal ydelser under specialet,1990,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/YDLANT
+SYSI,YDLTID,Tidspunktskode for ydelsen,1990,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/YDLTID
+SYSI,YDTYP,Ydertype,1990,2005,NA,NA
+SYSI,SIKREKOM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Sygesikringsstatistik/SIKREKOM,NA
+SYST,BARNMAK,Barnemarkering,1992,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/BARNMAK
+SYST,KOMMUNE,BOPÆLS KOMMUNE,1992,2005,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Hjaelp-efter-lov-om-aktiv-socialpolitik-mv-/KOMMUNE
+SYST,KONTAKT,Kontakt,1992,2005,NA,NA
+SYST,PNR,PERSONNUMMER,1992,2005,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+SYST,SIKGRUP,Sikringsgruppe,1992,2005,https://www.dst.dk/da/Statistik/dokumentation/Times/Sygesikringsstatistik/SIKGRUP,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Sygesikring---Ydelser/SIKGRUP
+SYST,SPEC4,4-CIFRET SPECIALE NR.,1992,2005,NA,NA
+SYST,SUMBRU,SUM BRUTTOHONORAR,1992,2005,NA,NA
+SYST,SUMYDL,SUM AF ANTAL YDELSER,1992,2005,NA,NA
+UAF_ADM,CPRTJEK,Ingen label,1996,2018,NA,NA
+UAF_ADM,CPRTYPE,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_ADIAG,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_AFD,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_AMT,Ingen label,2005,2018,NA,NA
+UAF_ADM,C_BLOK,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_BOPAMT,Ingen label,1996,2004,NA,NA
+UAF_ADM,C_EAKT,Ingen label,1996,2003,NA,NA
+UAF_ADM,C_EMEK,Ingen label,1996,2003,NA,NA
+UAF_ADM,C_EMODPART,Ingen label,1996,2003,NA,NA
+UAF_ADM,C_EPART,Ingen label,1996,2003,NA,NA
+UAF_ADM,C_ESTED,Ingen label,1996,2003,NA,NA
+UAF_ADM,C_ETRAF,Ingen label,1996,2003,NA,NA
+UAF_ADM,C_HAFD,Ingen label,2004,2018,NA,NA
+UAF_ADM,C_HENM,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_HSGH,Ingen label,2004,2018,NA,NA
+UAF_ADM,C_INDM,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_KOM,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_KONTAARS,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_NYAFD,Ingen label,2005,2018,NA,NA
+UAF_ADM,C_PATTYPE,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_SEX,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_SGH,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_SGHAMT,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_SPEC,Ingen label,1996,2018,NA,NA
+UAF_ADM,C_UDM,Ingen label,1996,2018,NA,NA
+UAF_ADM,D_EBHDTO,Ingen label,1998,2018,NA,NA
+UAF_ADM,D_FUSDTO,Ingen label,1998,2018,NA,NA
+UAF_ADM,D_HENDTO,Ingen label,1996,2018,NA,NA
+UAF_ADM,D_INDDTO,Ingen label,1996,2018,NA,NA
+UAF_ADM,D_OPDATDTO,Ingen label,2005,2018,NA,NA
+UAF_ADM,D_UDDTO,Ingen label,1996,2018,NA,NA
+UAF_ADM,K_AFD,Ingen label,2005,2018,NA,NA
+UAF_ADM,LEVERANCEDATO,Ingen label,1996,2018,NA,NA
+UAF_ADM,PNR,Ingen label,1996,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+UAF_ADM,RECNUM,Ingen label,1996,2018,NA,NA
+UAF_ADM,VERSION,Ingen label,1996,2018,NA,NA
+UAF_ADM,V_ALDDG,Ingen label,1996,2018,NA,NA
+UAF_ADM,V_ALDER,Ingen label,1996,2018,NA,NA
+UAF_ADM,V_ALDMDR,Ingen label,1996,2018,NA,NA
+UAF_ADM,V_BEHDAGE,Ingen label,1996,2018,NA,NA
+UAF_ADM,V_INDMINUT,Ingen label,1996,2018,NA,NA
+UAF_ADM,V_INDTIME,Ingen label,1996,2018,NA,NA
+UAF_ADM,V_SENGDAGE,Ingen label,1996,2018,NA,NA
+UAF_ADM,V_UDTIME,Ingen label,2005,2018,NA,NA
+UAF_ADM,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+UAF_ADM,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+UAF_ADM,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+UAF_ADM,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+UAF_BES,D_AMBDTO,Ingen label,1996,2018,NA,NA
+UAF_BES,LEVERANCEDATO,Ingen label,1996,2018,NA,NA
+UAF_BES,RECNUM,Ingen label,1996,2018,NA,NA
+UAF_BES,VERSION,Ingen label,1996,2018,NA,NA
+UAF_BES,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+UAF_BES,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+UAF_DIAG,C_DIAG,Ingen label,1996,2018,NA,NA
+UAF_DIAG,C_DIAGTYPE,Ingen label,1996,2018,NA,NA
+UAF_DIAG,C_TILDIAG,Ingen label,1996,2018,NA,NA
+UAF_DIAG,LEVERANCEDATO,Ingen label,1996,2018,NA,NA
+UAF_DIAG,RECNUM,Ingen label,1996,2018,NA,NA
+UAF_DIAG,VERSION,Ingen label,1996,2018,NA,NA
+UAF_DIAG,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+UAF_DIAG,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+UAF_OPR,C_KOMB,Ingen label,1996,2018,NA,NA
+UAF_OPR,C_OAFD,Ingen label,1996,2018,NA,NA
+UAF_OPR,C_OPR,Ingen label,1996,2018,NA,NA
+UAF_OPR,C_OSGH,Ingen label,1996,2018,NA,NA
+UAF_OPR,LEVERANCEDATO,Ingen label,1996,2018,NA,NA
+UAF_OPR,RECNUM,Ingen label,1996,2018,NA,NA
+UAF_OPR,VERSION,Ingen label,1996,2018,NA,NA
+UAF_OPR,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+UAF_OPR,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+UAF_SKSOPR,C_OAFD,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,C_OPR,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,C_OPRART,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,C_OSGH,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,C_TILOPR,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,D_ODTO,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,LEVERANCEDATO,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,RECNUM,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,VERSION,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,V_OMINUT,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,V_OTIME,Ingen label,1996,2018,NA,NA
+UAF_SKSOPR,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
+UAF_SKSOPR,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+UDDA,ALMAUDD,Højst fuldførte almen uddannelse,198012,201909,NA,NA
+UDDA,ALMINSTNR,"Institutionsnummer, højst fuldført almene uddannelse",198012,201909,NA,NA
+UDDA,ALM_VFRA,Tidspunkt for opnået almenuddannelse,198012,201909,NA,NA
+UDDA,CPRTJEK,CPR-tjek,200512,201909,NA,NA
+UDDA,CPRTYPE,CPR-type,200512,201909,NA,NA
+UDDA,ERHAUDD,Højst fuldførte erhvervskompetencegivende uddannelse,198012,201909,NA,NA
+UDDA,ERHINSTNR,"Institutionsnummer, højst fuldførte erhvervskompetencegivende uddannelse",198012,201909,NA,NA
+UDDA,ERH_VFRA,Tidspunkt for opnået erhvervskompetancegivende uddannelse,198012,201909,NA,NA
+UDDA,HFAUDD,Højste fuldførte uddannelse,198012,201909,https://www.dst.dk/da/Statistik/dokumentation/Times/Uddannelsesdata/Befolkningens-Uddannelse/HFAUDD,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Hoejst-fuldfoerte-uddannelse/HFAUDD
+UDDA,HFINSTNR,"Institutionsnummer, højst fuldført uddannelse",198012,201909,NA,NA
+UDDA,HF_KILDE,Kilde til uddannelsesoplysningen,198012,201909,https://www.dst.dk/da/Statistik/dokumentation/Times/Uddannelsesdata/Befolkningens-Uddannelse/HF-KILDE,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Hoejst-fuldfoerte-uddannelse/HF-KILDE
+UDDA,HF_VFRA,Tidspunkt for opnået højst fuldførte uddannelse,198012,201909,NA,NA
+UDDA,IGINSTNR,"Institutionsnummer, igangværende uddannelse",198012,201909,NA,NA
+UDDA,IG_VFRA,Påbegyndelsestidspunkt for igangværende uddannelse,198012,201909,NA,NA
+UDDA,PNR,Personnummer,198012,201909,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+UDDA,UDD,Uddannelseskode,198012,201909,https://www.dst.dk/da/Statistik/dokumentation/Times/Uddannelseregister/UDD,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Hoejst-fuldfoerte-uddannelse/UDD
+UDDA,VERSION,"1-Forløbig version 2-Endelig version, eller efterfølgende rettet versi",200512,201909,NA,NA
+UDDA,ALMAUDD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Uddannelsesdata/Befolkningens-Uddannelse/ALMAUDD,NA
+UDDA,ALM_VFRA,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Uddannelsesdata/Befolkningens-Uddannelse/ALM-VFRA,NA
+UDDA,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+UDDA,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+UDDA,ERHAUDD,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Uddannelsesdata/Befolkningens-Uddannelse/ERHAUDD,NA
+UDDA,ERH_VFRA,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Uddannelsesdata/Befolkningens-Uddannelse/ERH-VFRA,NA
+UDDA,HF_VFRA,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Uddannelsesdata/Befolkningens-Uddannelse/HF-VFRA,NA
+UDDA,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+VNDS,CPRTJEK,CPR-tjek,2019,2019,NA,NA
+VNDS,CPRTYPE,CPR-type,2019,2019,NA,NA
+VNDS,HAEND_DATO,Hændelsesdato,2019,2019,NA,NA
+VNDS,INDUD_KODE,Ingen label,2019,2019,NA,NA
+VNDS,INDUD_LAND,Ingen label,2019,2019,NA,NA
+VNDS,PNR,Personnummer,2019,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+VNDS,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+VNDS,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+VNDS,CPRTJEK,CPR-tjek,2019,2019,NA,NA
+VNDS,CPRTYPE,CPR-type,2019,2019,NA,NA
+VNDS,HAEND_DATO,Hændelsesdato,2019,2019,NA,NA
+VNDS,INDUD_KODE,Ingen label,2019,2019,NA,NA
+VNDS,INDUD_LAND,Ingen label,2019,2019,NA,NA
+VNDS,PNR,Personnummer,2019,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+VNDS,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+VNDS,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA

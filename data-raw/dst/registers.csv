@@ -1,0 +1,36 @@
+register_id,register_name_dk,start_year,start_month,last_year,last_month,date_last_update,register_url
+AKM,Arbejdsklassifikationsmodulet,1976,NA,2018,NA,21/11/2019,https://www.dst.dk/extranet/ForskningVariabellister/AKM%20-%20Arbejdsklassifikationsmodulet.html
+BEF,Befolkningen,1985,12,2020,3,15/07/2020,https://www.dst.dk/extranet/ForskningVariabellister/BEF%20-%20Befolkningen.html
+BYSTRB,Bystørrelser bopæle,2006,NA,2020,NA,10/09/2020,https://www.dst.dk/extranet/ForskningVariabellister/BYSTRB%20-%20Bystørrelser%20bopæle.html
+DOD,Døde i Danmark,1970,NA,2019,NA,25/02/2020,https://www.dst.dk/extranet/ForskningVariabellister/DOD%20-%20Døde%20i%20Danmark.html
+DODSAASG,Dødsårsagsregister,2002,NA,2018,NA,30/03/2020,https://www.dst.dk/extranet/ForskningVariabellister/DODSAASG%20-%20Dødsårsagsregister.html
+FAHU,Husstande,1980,NA,2007,NA,31/12/2008,https://www.dst.dk/extranet/ForskningVariabellister/FAHU%20-%20Husstande.html
+FAIK,Familieindkomster,1987,NA,2018,NA,20/10/2019,https://www.dst.dk/extranet/ForskningVariabellister/FAIK%20-%20Familieindkomster.html
+FAIN,Husstande og familier,1980,NA,2007,NA,31/12/2008,https://www.dst.dk/extranet/ForskningVariabellister/FAIN%20-%20Husstande%20og%20familier.html
+IEPE,Indvandrere og Efterkommere,1979,NA,2019,NA,07/05/2020,https://www.dst.dk/extranet/ForskningVariabellister/IEPE%20-%20Indvandrere%20og%20Efterkommere.html
+IEPE,Indvandrere og Efterkommere,1979,NA,2019,NA,07/05/2020,https://www.dst.dk/extranet/ForskningVariabellister/IEPE%20-%20Indvandrere%20og%20Efterkommere.html
+IND,Indkomst,1980,NA,2018,NA,19/11/2019,https://www.dst.dk/extranet/ForskningVariabellister/IND%20-%20Indkomst.html
+LMDB,Lægemiddeldatabasen,1995,NA,2019,NA,15/04/2020,https://www.dst.dk/extranet/ForskningVariabellister/LMDB%20-%20Lægemiddeldatabasen.html
+LPR_ADM,Landspatientregistret - administrative oplysninger,1977,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/LPR_ADM%20-%20Landspatientregistret%20-%20administrative%20oplysninger.html
+LPR_BES,Landspatientregistret - ambulante besøgsdatoer,1994,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/LPR_BES%20-%20Landspatientregistret%20-%20ambulante%20besøgsdatoer.html
+LPR_DIAG,Landspatientregistret - diagnoser,1977,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/LPR_DIAG%20-%20Landspatientregistret%20-%20diagnoser.html
+LPR_OPR,Landspatientregistret - operationer efter ICD8 klassifikationen,1977,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/LPR_OPR%20-%20Landspatientregistret%20-%20operationer%20efter%20ICD8%20klassifikationen.html
+LPR_SKSUBE,Landspatientregistret - undersøgelser og behandlinger,1999,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/LPR_SKSUBE%20-%20Landspatientregistret%20-%20undersøgelser%20og%20behandlinger.html
+PRIV_ADM,Landspatientregistret private sygehuse - administrative oplysninger,2002,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/PRIV_ADM%20-%20Landspatientregistret%20private%20sygehuse%20-%20administrative%20oplysninger.html
+PRIV_DIAG,Landspatientregistret private sygehuse - diagnoser,2002,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/PRIV_DIAG%20-%20Landspatientregistret%20private%20sygehuse%20-%20diagnoser.html
+PRIV_SKSOPR,Landspatientregistret private sygehuse - operationer,2002,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/PRIV_SKSOPR%20-%20Landspatientregistret%20private%20sygehuse%20-%20operationer.html
+PRIV_SKSUBE,Landspatientregistret private sygehuse - undersøgelser og behandlinger,2002,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/PRIV_SKSUBE%20-%20Landspatientregistret%20private%20sygehuse%20-%20undersøgelser%20og%20behandlinger.html
+RAS,Registerbaserede arbejdsstyrkestatistik,1980,NA,2018,NA,19/03/2020,https://www.dst.dk/extranet/ForskningVariabellister/RAS%20-%20Registerbaserede%20arbejdsstyrkestatistik.html
+SHSS,Sammenhængende socialstatistik,1984,NA,2007,NA,31/12/2008,https://www.dst.dk/extranet/ForskningVariabellister/SHSS%20-%20Sammenhængende%20socialstatistik.html
+SSNV,Sammenhængende socialstatistik nettovarigheder,1984,NA,2007,NA,31/12/2008,https://www.dst.dk/extranet/ForskningVariabellister/SSNV%20-%20Sammenhængende%20socialstatistik%20nettovarigheder.html
+SSSY,Sygesikring (6-cifret),2005,NA,2019,NA,29/04/2020,https://www.dst.dk/extranet/ForskningVariabellister/SSSY%20-%20Sygesikring%20(6-cifret).html
+SYSI,Sygesikring (6-cifret),1990,NA,2005,NA,31/12/2006,https://www.dst.dk/extranet/ForskningVariabellister/SYSI%20-%20Sygesikring%20(6-cifret).html
+SYST,Sygesikring (4-cifret),1992,NA,2005,NA,31/12/2006,https://www.dst.dk/extranet/ForskningVariabellister/SYST%20-%20Sygesikring%20(4-cifret).html
+UAF_ADM,Landspatientregistret uafsluttede kontakter - administrative oplysninger,1996,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/UAF_ADM%20-%20Landspatientregistret%20uafsluttede%20kontakter%20-%20administrative%20oplysninger.html
+UAF_BES,Landspatientregistret uafsluttede kontakter - ambulante besøgsdatoer,1996,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/UAF_BES%20-%20Landspatientregistret%20uafsluttede%20kontakter%20-%20ambulante%20besøgsdatoer.html
+UAF_DIAG,Landspatientregistret uafsluttede kontakter - diagnoser,1996,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/UAF_DIAG%20-%20Landspatientregistret%20uafsluttede%20kontakter%20-%20diagnoser.html
+UAF_OPR,Landspatientregistret uafsluttede kontakter - operationer efter ICD8 klassifikationen,1996,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/UAF_OPR%20-%20Landspatientregistret%20uafsluttede%20kontakter%20-%20operationer%20efter%20ICD8%20klassifikationen.html
+UAF_SKSOPR,Landspatientregistret uafsluttede kontakter - operationer,1996,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/UAF_SKSOPR%20-%20Landspatientregistret%20uafsluttede%20kontakter%20-%20operationer.html
+UDDA,Uddannelser (BUE),1980,12,2019,9,17/06/2020,https://www.dst.dk/extranet/ForskningVariabellister/UDDA%20-%20Uddannelser%20(BUE).html
+VNDS,Historiske vandringer,1973,NA,2019,NA,25/02/2020,https://www.dst.dk/extranet/ForskningVariabellister/VNDS%20-%20Historiske%20vandringer.html
+VNDS,Historiske vandringer,1973,NA,2019,NA,25/02/2020,https://www.dst.dk/extranet/ForskningVariabellister/VNDS%20-%20Historiske%20vandringer.html
