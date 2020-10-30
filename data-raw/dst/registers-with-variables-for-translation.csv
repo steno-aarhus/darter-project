@@ -1,0 +1,1799 @@
+register_id,variable_name,description_dk,description_english
+AKM,ALDER_ULT_INK,"Personens alder på referenecetidspunktet, 31. 12. det pågældende år","Age of the person at the time of reference, 31. 12. year in question"
+AKM,ANT_ANSAT_ARBSTED,Antal ansatte for væsentligste arbejdssted ( optælling af ansatte sker for hver arbejdessted under SENR (AKM),Number of employees for most important workplace (counting of employees takes place for each workplace under SENR (AKM)
+AKM,ANT_ANSAT_ARBSTED_13,Antal ansatte for væsentligste arbejdssted ( optælling af ansatte sker for hver arbejdessted under SENR (AKM),Number of employees for most important workplace (counting of employees takes place for each workplace under SENR (AKM)
+AKM,ANT_ANSAT_SENR,Antal ansatte for væsentligste beskæftigelse (AKM),Number of employees for main employment (AKM)
+AKM,ATPSUM2,Beskæftigelsesmål baseret på ATP- indbetalinger (AKM),Employment targets based on ATP payments (AKM)
+AKM,BESKST,Beskæftigelsesstatus 1980 til 2001 (Indkomst/AKM),Employment status 1980 to 2001 (Income / AKM)
+AKM,BESKST02,Beskæftigelsesstatus fra 2002 (Indkomst/AKM),Employment status from 2002 (Income / AKM)
+AKM,BESKST13,Kode for personens væsentligste indkomst-kilde (INDKOMST/AKM),Code for the person's main source of income (INCOME / AKM)
+AKM,BRANCHE_77,Dansk branchekode 1977 til 1993 (AKM),Danish industry code 1977 to 1993 (AKM)
+AKM,BRCHI,Branchekode for indehaver,Industry code for holder
+AKM,BRCHL,Branchekode for lønmodtager,Industry code for employee
+AKM,CPRTJEK,CPR-tjek,CPR check
+AKM,CPRTYPE,CPR-type,CPR type
+AKM,DISCO08_ALLE_INDK,"Fagklassifikation for beskæftigelsesforhold, fra 2010 (AKM)","Professional classification for employment conditions, from 2010 (AKM)"
+AKM,DISCO08_ALLE_INDK_13,Fagkode for væsentligste beskæftigelse i året- fra 2010 (AKM),Subject code for most important employment in the year - from 2010 (AKM)
+AKM,DISCO08_LOEN_INDK,Fagkode for væsentligste lønmodtagerbeskæftigelse i året. (AKM),Subject code for most important employee employment in the year. (AKM)
+AKM,DISCO08_SEL_INDK,Fagkode for arbejde i selvstændig virksomhed (AKM),Subject code for work in self-employment (AKM)
+AKM,DISCOALLE_INDK,"Fagklassifikation for beskæftigelsesforhold, fra 1991 TIL 2009 (AKM)","Professional classification for employment conditions, from 1991 TO 2009 (AKM)"
+AKM,DISCOLOEN_INDK,Fagkode for væsentligste lønmodtagerbeskæftigelse i året. (AKM),Subject code for most important employee employment in the year. (AKM)
+AKM,DISCOSEL_INDK,Fagkode for arbejde i selvstændig virksomhed (AKM),Subject code for work in self-employment (AKM)
+AKM,DISCOTYP,Kilde til lønmodtager DISCO-koden (AKM),Source for employee DISCO code (AKM)
+AKM,DISCO_ALLE_INDK_13,"Fagklassifikation for beskæftigelsesforhold, fra 1991 TIL 2009 (AKM)","Professional classification for employment conditions, from 1991 TO 2009 (AKM)"
+AKM,FUNK_TIMEANT,Personens samlede antal arbejdstimer i året.,The person's total number of working hours per year.
+AKM,NACE,"Branche for væsentligste beskæftigelse, fra 1992 til 2007 (AKM)","Industry for main employment, from 1992 to 2007 (AKM)"
+AKM,NACEA,Branchegruppering for arbejdssted (1993 til 2007) (AKM),Industry grouping for workplace (1993 to 2007) (AKM)
+AKM,NACEA_DB07,Branchegruppering for arbejdssted ( fra 2007) (AKM),Industry grouping for workplace (from 2007) (AKM)
+AKM,NACEI,Branchekode for selvstændige og medarbejdende ægtefællers virksomhed(1993 til 2007) (AKM),Industry code for the business of self-employed and employed spouses (1993 to 2007) (AKM)
+AKM,NACEI_DB07,Branchegruppering for indehaver (Selvstændig eller medhjælpende ægtefælle) (fra 2007) (AKM),Industry grouping for owner (Self-employed or assisting spouse) (from 2007) (AKM)
+AKM,NACE_13,"Branche for væsentligste beskæftigelse, fra 1993 til 2007 (AKM)","Industry for main employment, from 1993 to 2007 (AKM)"
+AKM,NACE_DB07,"Branche for væsentligste beskæftigelse, fra 2008-2013 (AKM)","Industry for most important employment, from 2008-2013 (AKM)"
+AKM,NACE_DB07_13,"Branche for væsentligste beskæftigelse, fra 2007(AKM)","Industry for most important employment, from 2007 (AKM)"
+AKM,NYSTGR,Stillingsgruppering 1980 til 1995 (AKM),Job grouping 1980 to 1995 (AKM)
+AKM,OMFANG,Omfang af skattepligt,Extent of tax liability
+AKM,PNR,Personnummer,Social security number
+AKM,SENR,SENR,SENR
+AKM,SENRI,SE-nummer for den virksomhed som personen ejer,SE number of the company that the person owns
+AKM,SENRL,SE-nummer for lønmodtager,SE number for employee
+AKM,SOCIO,Socioøkonomisk klassifikation fra 1994 til 2001 (AKM),Socio-economic classification from 1994 to 2001 (AKM)
+AKM,SOCIO02,Socioøkonomisk klassifikation fra 2002 (AKM),Socio-economic classification from 2002 (AKM)
+AKM,SOCIO13,Socioøkonomisk klassifikation version 2013 (AKM),Socio-economic classification version 2013 (AKM)
+AKM,SOCIO_GL,Socioøkonomisk klassifikation fra 1976 til 1990,Socio-economic classification from 1976 to 1990
+AKM,TYP,Stillingstype,Job type
+AKM,VERSION,Moduldata version,Modular data version
+AKM,VIRKF,Virksomhedskode angiver hvilken form for ejerskab der er på den arbejdsplads personen får størst erhrvsindkomst fra (AKM),Company code indicates what kind of ownership is in the workplace the person receives the most earned income from (AKM)
+AKM,VIRKFA,Virksomhedskode angiver hvilken form for ejerskab der er på den arbejdsplads personen får størstklønindkomst/arbejdstimer (AKM),Company code indicates what kind of ownership is in the workplace the person receives the largest salary income / working hours (AKM)
+AKM,VIRKF_13,Virksomhedskode angiver hvilken form for ejerskab der er på den arbejdsplads personen får størst erhrvsindkomst fra (AKM),Company code indicates what kind of ownership is in the workplace the person receives the most earned income from (AKM)
+AKM,ALDER_ULT_INK,,
+AKM,ANT_ANSAT_ARBSTED,,
+AKM,ANT_ANSAT_ARBSTED_13,,
+AKM,ANT_ANSAT_SENR,,
+AKM,ATPSUM2,,
+AKM,CPRTJEK,,
+AKM,CPRTYPE,,
+AKM,DISCO08_LOEN_INDK,,
+AKM,DISCO08_SEL_INDK,,
+AKM,DISCOLOEN_INDK,,
+AKM,DISCOSEL_INDK,,
+AKM,FUNK_TIMEANT,,
+AKM,NACEA,,
+AKM,NACEA_DB07,,
+AKM,NACEI,,
+AKM,NACEI_DB07,,
+AKM,TYP,,
+AKM,VERSION,,
+AKM,VIRKF,,
+AKM,VIRKFA,,
+AKM,VIRKF_13,,
+BEF,ADRESSE_ID,Bopælsadresse_id,Residence address_id
+BEF,AEGTE_ID,Ægtefælle ID,Spouse ID
+BEF,ALDER,Alder pr. 1. januar.,Age per 1st of January.
+BEF,ANTBOERNF,Antal børn i familien,Number of children in the family
+BEF,ANTBOERNH,Antal børn i husstanden,Number of children in the household
+BEF,ANTEFAM,Antal E-familier i husstanden,Number of E-families in the household
+BEF,ANTPERSF,Antal personer i familien,Number of people in the family
+BEF,ANTPERSH,Antal personer i husstanden,Number of persons in the household
+BEF,BETALINGSKOM,Betalingskommune,Payment municipality
+BEF,BOP_VFRA,Dato for tilflytning/indvandring,Date of move-in / immigration
+BEF,CIVST,Civilstand,Marital status
+BEF,CIV_VFRA,Civilstandsdato,Marital status date
+BEF,CPRTJEK,CPR-tjek,CPR check
+BEF,CPRTYPE,CPR-type,CPR type
+BEF,E_FAELLE_ID,E_fælle,E_common
+BEF,FAMILIE_ID,Familiens identificerende nummer.,Family identification number.
+BEF,FAMILIE_TYPE,Familietype,Family type
+BEF,FAM_KOEN,Køn for hovedpersonen i familien,Gender for the main character in the family
+BEF,FAR_ID,Faderens Person Id,Father's Person Id
+BEF,FKIRK,Tilhørsforhold til folkekirken.,Belonging to the Danish National Church.
+BEF,FM_MARK,Forældremarkering,Parental marking
+BEF,FOEDREG_KODE,Kode for personens fødselsregistreringssted.,Code of the person's place of birth.
+BEF,FOED_DAG,Fødselsdato,Date of birth
+BEF,FOERSTE_INDVANDRING,Første indvandringsdato,First date of immigration
+BEF,HUSTYPE,Husstandstype,Household type
+BEF,IE_TYPE,"Indvandrere, efterkommere , personer med dansk oprindelse","Immigrants, descendants, persons of Danish origin"
+BEF,KOEN,Køn,Sex
+BEF,KOM,Ingen label,No label
+BEF,MOR_ID,Moderens Person Id,Mother's Person Id
+BEF,OPHOLDMD_DK,Opholdstid i måneder,Residence time in months
+BEF,OPR_LAND,Oprindelsesland,Country of origin
+BEF,PLADS,Familiestatus,Family status
+BEF,PNR,Personnummer,Social security number
+BEF,REFERENCETID,Referencetidspunkt eller -periode,Reference time or period
+BEF,REG,Region,Region
+BEF,SENESTE_INDVANDRING,Seneste indvandringsdato,Latest immigration date
+BEF,STATSB,Statsborgerskab,Citizenship
+BEF,VAN_VTIL,Indvandringsdato,Date of immigration
+BEF,VERSION,Moduldata version,Modular data version
+BEF,ADRESSE_ID,,
+BEF,ALDER,,
+BEF,ANTEFAM,,
+BEF,ANTPERSF,,
+BEF,BOP_VFRA,,
+BEF,CPRTJEK,,
+BEF,CPRTYPE,,
+BEF,E_FAELLE_ID,,
+BEF,FAM_KOEN,,
+BEF,FAR_ID,,
+BEF,FOERSTE_INDVANDRING,,
+BEF,MOR_ID,,
+BEF,OPHOLDMD_DK,,
+BEF,REFERENCETID,,
+BEF,REG,,
+BEF,SENESTE_INDVANDRING,,
+BEF,STATSB,,
+BEF,VERSION,,
+BYSTRB,BEBOELSE,Beboelse,Residential
+BYSTRB,DSTKODE,Danmarks Statistik's løbenr. for et byområde,Statistics Denmark's serial no. for an urban area
+BYSTRB,DSTNAVN,DSt's stednavnsangivelse for et byområde (bebyggelse=/> 200 indbyggere),DSt's place name for an urban area (buildings = /> 200 inhabitants)
+BYSTRB,FOLKETAL,Antal personer boende på adressen,Number of people living at the address
+BYSTRB,HUSSTANDE,Antal husstande boende på adressen,Number of households living at the address
+BYSTRB,KOM,Kommune,commune
+BYSTRB,KOORDTYPE,Metode til hvordan koordinaterne er fundet,Method for how the coordinates are found
+BYSTRB,OPGIKOM,Opgangsadresse i kommunen,Boarding address in the municipality
+BYSTRB,POSTNR,Postnummer,Zip code
+BYSTRB,SOGNENR,Sognekode,Parish code
+BYSTRB,STORHED,Bystørrelse,City size
+BYSTRB,OPGIKOM,,
+BYSTRB,STORHED,,
+DOD,ALDER_HAEND,Alder på hændelsestidspunkt,Age at time of event
+DOD,CPRTJEK,CPR-tjek,CPR check
+DOD,CPRTYPE,CPR-type,CPR type
+DOD,DODDATO,Dato for dødsfald,Date of death
+DOD,PNR,Personnummer,Social security number
+DOD,CPRTJEK,,
+DOD,CPRTYPE,,
+DODSAASG,AAR,Ingen label,No label
+DODSAASG,CPRTJEK,CPR-tjek,CPR check
+DODSAASG,CPRTYPE,CPR-type,CPR type
+DODSAASG,C_BOPAMTF07,C_BOPAMTF07,C_BOPAMTF07
+DODSAASG,C_BOPKOM,C_BOPKOM,C_BOPKOM
+DODSAASG,C_BOPKOMF07,C_BOPKOMF07,C_BOPKOMF07
+DODSAASG,C_DODKOM,C_DODKOM,C_DODKOM
+DODSAASG,C_DODREGION,C_DODREGION,C_DODREGION
+DODSAASG,C_DODSMAADE,Dødsmåde,Mode of death
+DODSAASG,C_DODSSTED,Dødssted,Place of death
+DODSAASG,C_DODTILGRUNDL_ACME,Tilgrundliggende dødsårsag ifølge ACME,Underlying cause of death according to ACME
+DODSAASG,C_DOD_1A,C_DOD_1A,C_DOD_1A
+DODSAASG,C_DOD_1B,C_DOD_1B,C_DOD_1B
+DODSAASG,C_DOD_1C,C_DOD_1C,C_DOD_1C
+DODSAASG,C_DOD_1D,C_DOD_1D,C_DOD_1D
+DODSAASG,C_DOD_21,C_DOD_21,C_DOD_21
+DODSAASG,C_DOD_22,C_DOD_22,C_DOD_22
+DODSAASG,C_DOD_23,C_DOD_23,C_DOD_23
+DODSAASG,C_DOD_24,C_DOD_24,C_DOD_24
+DODSAASG,C_DOD_25,C_DOD_25,C_DOD_25
+DODSAASG,C_DOD_26,C_DOD_26,C_DOD_26
+DODSAASG,C_DOD_27,C_DOD_27,C_DOD_27
+DODSAASG,C_DOD_28,C_DOD_28,C_DOD_28
+DODSAASG,C_FINDESTED,Findested,Take place
+DODSAASG,C_HAENDELSESSTED,C_HAENDELSESSTED,C_EVENTION PLACE
+DODSAASG,C_LAEGEFUNKTION,C_LAEGEFUNKTION,C_LAYFUNCTION
+DODSAASG,C_LISTE14,"Diagnosegruppe, 14-listen","Diagnostic group, 14-list"
+DODSAASG,C_LISTE49,"Diagnosegruppe, 49-listen","Diagnostic group, 49-list"
+DODSAASG,C_LISTEA,C_LISTEA,C_LISTEA
+DODSAASG,C_LISTEB,C_LISTEB,C_LISTEB
+DODSAASG,C_OBDUKTION,C_OBDUKTION,C_OBDUKTION
+DODSAASG,C_OPERATION,C_OPERATION,C_OPERATION
+DODSAASG,C_PRAECIS_DODSSTED,C_PRAECIS_DODSSTED,C_PRAECIS_DODSSTED
+DODSAASG,C_PRAECIS_FINDESTED,C_PRAECIS_FINDESTED,C_PRAECIS_FINDESTED
+DODSAASG,C_REGION,C_REGION,C_REGION
+DODSAASG,C_SEX,C_SEX,C_SEX
+DODSAASG,D_DODSDATO,D_DODSDATO,D_DODSDATO
+DODSAASG,D_FINDEDATO,D_FINDEDATO,D_FINDEDATO
+DODSAASG,D_STATDATO,D_STATDATO,D_STATDATE
+DODSAASG,PNR,Personnummer,Social security number
+DODSAASG,V_ALDER,V_ALDER,V_ALDER
+DODSAASG,CPRTJEK,,
+DODSAASG,CPRTYPE,,
+FAHU,ALDALDPH,Alder for ældste person i husstanden,Age of oldest person in the household
+FAHU,ALDYNGPH,Alder for yngste person i husstanden,Age of youngest person in the household
+FAHU,ANTBRNH,Antal børn i husstanden,Number of children in the household
+FAHU,ANTCFAM,Antal C-familier,Number of C-families
+FAHU,ANTH00,Antal 0-årige personer i husstanden,Number of 0-year-old persons in the household
+FAHU,ANTH01,Antal 1-årige personer i husstanden,Number of 1-year-old persons in the household
+FAHU,ANTH02,Antal 2-årige personer i husstanden,Number of 2-year-olds in the household
+FAHU,ANTH03,Antal 3-årige personer i husstanden,Number of 3-year-olds in the household
+FAHU,ANTH04,Antal 4-årige personer i husstanden,Number of 4-year-olds in the household
+FAHU,ANTH05,Antal 5-årige personer i husstanden,Number of 5-year-olds in the household
+FAHU,ANTH06,Antal 6-årige personer i husstanden,Number of 6-year-olds in the household
+FAHU,ANTH07,Antal 7-årige personer i husstanden,Number of 7-year-olds in the household
+FAHU,ANTH08,Antal 8-årige personer i husstanden,Number of 8-year-olds in the household
+FAHU,ANTH09,Antal 9-årige personer i husstanden,Number of 9-year-olds in the household
+FAHU,ANTH10,Antal 10-årige personer i husstanden,Number of 10-year-olds in the household
+FAHU,ANTH11,Antal 11-årige personer i husstanden,Number of 11-year-olds in the household
+FAHU,ANTH12,Antal 12-årige personer i husstanden,Number of 12-year-olds in the household
+FAHU,ANTH13,Antal 13-årige personer i husstanden,Number of 13-year-olds in the household
+FAHU,ANTH14,Antal 14-årige personer i husstanden,Number of 14-year-olds in the household
+FAHU,ANTH15,Antal 15-årige personer i husstanden,Number of 15-year-olds in the household
+FAHU,ANTH16,Antal 16-årige personer i husstanden,Number of 16-year-olds in the household
+FAHU,ANTH17,Antal 17-årige personer i husstanden,Number of 17-year-olds in the household
+FAHU,ANTH1819,Antal 18-19-årige personer i husstanden,Number of 18-19-year-olds in the household
+FAHU,ANTH2029,Antal 20-29-årige personer i husstanden,Number of 20-29-year-olds in the household
+FAHU,ANTH3039,Antal 30-39-årige personer i husstanden,Number of 30-39-year-olds in the household
+FAHU,ANTH4049,Antal 40-49-årige personer i husstanden,Number of 40-49-year-olds in the household
+FAHU,ANTH5059,Antal 50-59-årige personer i husstanden,Number of 50-59-year-olds in the household
+FAHU,ANTH6069,Antal 60-69-årige personer i husstanden,Number of 60-69-year-olds in the household
+FAHU,ANTH70,Antal 70-og derover-årige personer i hus,Number of 70-year-olds and over persons in house
+FAHU,ANTPERH,Antal personer i husstanden,Number of persons in the household
+FAHU,ANTVOKSH,Antal voksne personer i husstanden,Number of adults in the household
+FAHU,BOPIKOM,"Adressen (vej, husnummer, husbogstav, etage, side/dørnummer)","Address (road, house number, house letter, floor, side / door number)"
+FAHU,D_ANT_FAM,Antal D-familier i husstanden,Number of D families in the household
+FAHU,FHART,Fælleshusstandsart,Communal household type
+FAHU,HUSTYPE,Husstandstype,Household type
+FAHU,KOM,Kommune,commune
+FAHU,KONALDH,KØN på ældste person i husstanden,SEX of oldest person in the household
+FAHU,BOPIKOM,,
+FAIK,FAMAEKVIVADISP,Ækvivaleret disponibel indkomst for familien,Equivalent disposable income for the family
+FAIK,FAMAEKVIVADISP_13,Ækvivaleret disponibel indkomst for familien,Equivalent disposable income for the family
+FAIK,FAMAEKVIVAINDKNETTO,Ækvivaleret samlet indkomst med nettorenter for familien,Equivalent total income with net interest for the family
+FAIK,FAMAKTIEINDK,Aktieindkomster,Share income
+FAIK,FAMANDENPENSION,Andre pensionsudbetalinger til familien,Other pension payments to the family
+FAIK,FAMANDOVERFORSEL,Andre overførsler til familien,Other transfers to the family
+FAIK,FAMANTALFSKATTEPLIGTIGE,Antal fuldt skattepligtige voksne i familien,Number of fully taxable adults in the family
+FAIK,FAMARBEJDSLOESP,Arbejdsløshedsdagpenge og uddannelsesgodtgørelse for familien,Unemployment benefits and education allowance for the family
+FAIK,FAMARBMABIDRAG,Arbejdsmarkedsbidrag mv,"Labor market contributions, etc."
+FAIK,FAMBOERNETILSKUD,Børnetilskud og familieydelser til familien,Child allowance and family benefits for the family
+FAIK,FAMBOLIGFORM,Familiens boligform,Family form of housing
+FAIK,FAMBOLIGSTOETTE,Boligstøtte udbetalt til familien,Housing allowance paid to the family
+FAIK,FAMBOLIGTYPE,Familiens boligtype,Family housing type
+FAIK,FAMBRUTTOINDK,Bruttoindkomst for familien,Gross income for the family
+FAIK,FAMDAGPENGE_KONTANT_13,Familiens samlede dagpenge og kontanthjælp,The family's total unemployment benefits and cash benefits
+FAIK,FAMDISPONIBEL,Diponibel indkomst for familien,Disposable income for the family
+FAIK,FAMDISPONIBEL_13,Disponibel indkomst,Disposable income
+FAIK,FAMEFTERLOEN,Efterløn,Early retirement pay
+FAIK,FAMEJDSKAT_EJERBOLIG,Ejendomsskat for boligejere,Property tax for homeowners
+FAIK,FAMEJDSKAT_LEJERBOLIG,Ejendomsskat for lejere,Property tax for tenants
+FAIK,FAMEJENDOMSVURDERING,Kontant ejendomsværdi,Cash property value
+FAIK,FAMERHVERVSINDK,Erhversindkomst for familien,Business income for the family
+FAIK,FAMERHVERVSINDK_13,"Erhvervsindkomst, løn og nettooverskud af selvstændig virksomhed inkl. visse honorarer","Business income, salary and net profit of self-employment including certain fees"
+FAIK,FAMFOLKEFORTID_13,Folke- og førtidspension i familien,National and early retirement pension in the family
+FAIK,FAMFORMREST_NY05,"Familiens nettorestformue ultimo året, ekskl. Pensionsformuer","The family's net residual assets at the end of the year, excluding pension assets"
+FAIK,FAMFORMUEAKTIVER,Familiens samlede aktiver,The family's total assets
+FAIK,FAMFORMUEINDK,Formueindkomst i alt for familien,Total property income for the family
+FAIK,FAMFORMUEINDK_BRUTTO,Formueindkomst. brutto i familien,Property income. gross in the family
+FAIK,FAMFRADRAGIALT,Samlet beregnet fradrag for familien,Total calculated deduction for the family
+FAIK,FAMFRYNSEGODER,Skattmæssig værdi af frynsegoderne i familien,Tax value of the perks in the family
+FAIK,FAMGAELDIALT,Familiens passiver,Family liabilities
+FAIK,FAMGRON_CHECK,Grøn check,Green check
+FAIK,FAMHOEJSTUDDA,Højeste uddannelse for de voksne i familien,Highest education for the adults in the family
+FAIK,FAMHONNY,AMB. pligtige honorarer,AMB. mandatory fees
+FAIK,FAMILIE_ID,Familiens identificerende nummer.,Family identification number.
+FAIK,FAMINDKOMSTIALT,Familieindkomst i alt før skat,Total family income before tax
+FAIK,FAMINDKOMSTIALT_13,"Indkomst i alt, før skatter mv.","Total income before taxes, etc."
+FAIK,FAMKONTANTHJAELP,Kontanthjælp for familien,Cash benefits for the family
+FAIK,FAMKONTANTHJAELP_13,Kontant hjælp i familien,Cash help in the family
+FAIK,FAMLEJEVAERDI,beregnet lejeværdi af egen bolig for familien,calculated rental value of own home for the family
+FAIK,FAMLEJEV_EGEN_BOLIG,Beregnet lejeværdi af egen bolig,Calculated rental value of own home
+FAIK,FAMLOENMV,Lønindkomst i alt i familien,Total wage income in the family
+FAIK,FAMLOENMV_13,Lønindkomst i alt i familien,Total wage income in the family
+FAIK,FAMMIDLERTIDYD,Midlertidige overførselsindkomster,Temporary transfer income
+FAIK,FAMOEVRIGFORMUE,Anden formueindkomst for familien,Second property income for the family
+FAIK,FAMOEVRIGFORMUE_13,Øvrige formueindkomster i familien (aktieindkomst mv.),"Other property income in the family (share income, etc.)"
+FAIK,FAMOFFPENS_EFTLON_13,Offentlige pensioner i familien,Public pensions in the family
+FAIK,FAMOFF_OVERFORSEL_13,Familiens offentlige overførsler,Family public transfers
+FAIK,FAMORLOVSYDELSE,Orlovsydelser udbetalt til familien,Leave benefits paid to the family
+FAIK,FAMOVERFOERINDK,Familiens samlede overførselsindkomster,The family's total transfer income
+FAIK,FAMOVERGANGYD,Familiens samledeoOvergangsydelse,Family total transitional benefit
+FAIK,FAMOVRIG_DAGPENGE_AKAS_13,Øvrige dagpenge fra A-kasser,Other unemployment benefits from unemployment insurance funds
+FAIK,FAMOVRIG_KONTANTHJALP_13,"Familiens samlede Aktiverings-, ledigheds- og revalideringsydelse","Family Total Activation, Unemployment and Rehabilitation Benefit"
+FAIK,FAMOVRIG_OVERFORSEL_13,Øvrige overførselsindkomster i familien,Other transfer income in the family
+FAIK,FAMPENSIONATP,Pensionsudbetaling fra ATP for familien,Pension payment from ATP for the family
+FAIK,FAMPENSIONIALT,Pensioner i alt for familien,Total pensions for the family
+FAIK,FAMPENSOFFENTLIG,Folke- og førtidspension for familien,National and early retirement pension for the family
+FAIK,FAMPENSTJENESTE,Tjenestemandspension for familien,Civil servant pension for the family
+FAIK,FAMPRIVAT_PENSION_13,Private pensioner i familien,Private pensions in the family
+FAIK,FAMRENTEINDK,Samlede renteindtægter fra Danmark for familien,Total interest income from Denmark for the family
+FAIK,FAMRENTEINDK_13,Familiens samlede skattepligtige renteindtægter fra Danmark undtagen renteindtægt i selvstændig virksomhed,The family's total taxable interest income from Denmark except interest income in self-employment
+FAIK,FAMRENTEUDGIFTER,Samlede fradragsberettigede renteudgifter for familien,Total deductible interest expenses for the family
+FAIK,FAMRENTEUDGIFTER_13,"Renteudgifter, ekskl. renteudgifter fra udlandet og ekskl. renteudgifter i selvstændig virksomhed","Interest expenses, excluding interest expenses from abroad and excluding interest expenses in self-employment"
+FAIK,FAMRESTBISTANDSYD,Andre ydelser fra kommuuner og A-kasser udbetalt til familien,Other benefits from municipalities and unemployment insurance funds paid to the family
+FAIK,FAMRESTINDK,Diverse indkomster som ikke direkte kan klassificeres i hovedgrupperne,Miscellaneous income that cannot be directly classified in the main groups
+FAIK,FAMRESTINDK_13,Anden personlig indkomst i familien,Other personal income in the family
+FAIK,FAMSAMLETINDK,Samlet indkomst for familien,Total income for the family
+FAIK,FAMSKATFRIYD,Skattefrie indkomster i familien,Tax-free income in the family
+FAIK,FAMSKATMVIALT,Skat og arbejdsmarkedsbidrag betalt af familien,Taxes and labor contributions paid by the family
+FAIK,FAMSKATMVIALT_13,"Skat, arbejdsmarkedsbidrag og særlig pension i alt. ekskl. kirkeskat","Tax, labor market contributions and special pension in total, excluding church tax"
+FAIK,FAMSKATPLIGTINDK,Skattepligtig indkomst for familien,Taxable income for the family
+FAIK,FAMSKATTOT,Samlet indkomstskat betalt af familien,Total income tax paid by the family
+FAIK,FAMSKATTOT_13,Samlet personlig slutskat for en skatteyder inkl. udenlandsk betalt skat. Ekskl. kirkeskat,Total personal final tax for a taxpayer incl. foreign tax paid. Excl. church tax
+FAIK,FAMSOCIOGRUP,Familiens socioøkonomiske gruppe,The family's socio-economic group
+FAIK,FAMSOCIOGRUP_13,Familiens socioøkonomiske gruppe Def13,The family's socio-economic group Def13
+FAIK,FAMSU,Stipendier fra Statens Uddannelsesstøtte - SU udbetalt til familien,Scholarships from Statens Uddannelsesstøtte - SU paid to the family
+FAIK,FAMSUMINDKNETTORENT,Samlet indkomst med nettorenter for familien,Total income with net interest for the family
+FAIK,FAMSYG_BARSEL_13,Familiens syge- og barselsdagpenge ekskl. refusion til arbejdsgiver.,The family's sickness and maternity benefits excl. reimbursement to employer.
+FAIK,FAMTRANSPORTFRADRAG,Samlet befordringsfradrag i familien,Total transportation deduction in the family
+FAIK,FAMTYPE,familietype,family type
+FAIK,FAMUNDERHBIDRAG,Underholdsbidrag betalt af familien,Maintenance paid by the family
+FAIK,FAMVIRKORDIND,Familiens samlede beløb indsat i virksomhedsordningerne netto (speciel ordning for selvstændige og kunstnere),The total amount of the family invested in the company schemes net (special scheme for the self-employed and artists)
+FAIK,FAMVIRKOVERSKUD,nettooverskud af selvstændig virksomhed for familien,net profit of self-employment for the family
+FAIK,FAMVIRKOVERSKUD_13,Familiens samlede overskud af selvstændig virksomhed efter virksomhedens renteudgifter,The family's total profit of self-employment after the company's interest expenses
+FAIK,VERSION,Version,Version
+FAIK,FAMAEKVIVADISP_13,,
+FAIK,FAMAKTIEINDK,,
+FAIK,FAMANDENPENSION,,
+FAIK,FAMANTALFSKATTEPLIGTIGE,,
+FAIK,FAMARBEJDSLOESP,,
+FAIK,FAMARBMABIDRAG,,
+FAIK,FAMBOERNETILSKUD,,
+FAIK,FAMBOLIGFORM,,
+FAIK,FAMBOLIGSTOETTE,,
+FAIK,FAMBOLIGTYPE,,
+FAIK,FAMBRUTTOINDK,,
+FAIK,FAMDAGPENGE_KONTANT_13,,
+FAIK,FAMDISPONIBEL_13,,
+FAIK,FAMEFTERLOEN,,
+FAIK,FAMEJDSKAT_EJERBOLIG,,
+FAIK,FAMEJDSKAT_LEJERBOLIG,,
+FAIK,FAMEJENDOMSVURDERING,,
+FAIK,FAMERHVERVSINDK_13,,
+FAIK,FAMFOLKEFORTID_13,,
+FAIK,FAMFORMREST_NY05,,
+FAIK,FAMFORMUEAKTIVER,,
+FAIK,FAMFORMUEINDK_BRUTTO,,
+FAIK,FAMFRYNSEGODER,,
+FAIK,FAMGAELDIALT,,
+FAIK,FAMGRON_CHECK,,
+FAIK,FAMHOEJSTUDDA,,
+FAIK,FAMHONNY,,
+FAIK,FAMINDKOMSTIALT_13,,
+FAIK,FAMKONTANTHJAELP,,
+FAIK,FAMKONTANTHJAELP_13,,
+FAIK,FAMLEJEV_EGEN_BOLIG,,
+FAIK,FAMLOENMV_13,,
+FAIK,FAMOEVRIGFORMUE,,
+FAIK,FAMOEVRIGFORMUE_13,,
+FAIK,FAMOFFPENS_EFTLON_13,,
+FAIK,FAMOFF_OVERFORSEL_13,,
+FAIK,FAMORLOVSYDELSE,,
+FAIK,FAMOVERGANGYD,,
+FAIK,FAMOVRIG_DAGPENGE_AKAS_13,,
+FAIK,FAMOVRIG_KONTANTHJALP_13,,
+FAIK,FAMOVRIG_OVERFORSEL_13,,
+FAIK,FAMPENSIONATP,,
+FAIK,FAMPENSOFFENTLIG,,
+FAIK,FAMPENSTJENESTE,,
+FAIK,FAMPRIVAT_PENSION_13,,
+FAIK,FAMRENTEINDK,,
+FAIK,FAMRENTEINDK_13,,
+FAIK,FAMRENTEUDGIFTER_13,,
+FAIK,FAMRESTBISTANDSYD,,
+FAIK,FAMRESTINDK_13,,
+FAIK,FAMSAMLETINDK,,
+FAIK,FAMSKATMVIALT_13,,
+FAIK,FAMSKATPLIGTINDK,,
+FAIK,FAMSKATTOT,,
+FAIK,FAMSKATTOT_13,,
+FAIK,FAMSOCIOGRUP,,
+FAIK,FAMSOCIOGRUP_13,,
+FAIK,FAMSU,,
+FAIK,FAMSYG_BARSEL_13,,
+FAIK,FAMTRANSPORTFRADRAG,,
+FAIK,FAMUNDERHBIDRAG,,
+FAIK,FAMVIRKORDIND,,
+FAIK,FAMVIRKOVERSKUD,,
+FAIK,FAMVIRKOVERSKUD_13,,
+FAIK,VERSION,,
+FAIN,ADRDATO,Tilflytningsdato til adressen,Relocation date to the address
+FAIN,AEGTEFAELLE_ID,Ægtefælle Person Id,Spouse Person Id
+FAIN,ALDER,Alder pr. 1. januar.,Age per 1st of January.
+FAIN,A_FAMILIE_ID,A-familie Id,A-family Id
+FAIN,A_STATUS,A-familie status,A-family status
+FAIN,A_TYPE,A-familietype,A-family type
+FAIN,BOPIKOM,"Adressen (vej, husnummer, husbogstav, etage, side/dørnummer)","Address (road, house number, house letter, floor, side / door number)"
+FAIN,CIVDATO,Civilstandsdato,Marital status date
+FAIN,CIVST,Civilstand,Marital status
+FAIN,C_FAELLE_ID,Partnerens Id,Partner Id
+FAIN,C_FAMILIE_ID,-familie_Id,-familie_Id
+FAIN,C_STATUS,C-familiestatus,C-family status
+FAIN,C_TYPE,C-familie type,C-family type
+FAIN,D_ANT_FAM,Antal D-familier i husstanden,Number of D families in the household
+FAIN,D_FAMILIE_ID,D-familie Id,D-family Id
+FAIN,D_TYPE,D-familietype,D-family type
+FAIN,FAR_ID,Faderens Person Id,Father's Person Id
+FAIN,FHART,Fælleshusstandsart,Communal household type
+FAIN,FMMARK,Forældremarkering,Parental marking
+FAIN,FODREG,Kode for fødselsregistreringssted,Code of birth registration place
+FAIN,H_TYPE,Husstandstype,Household type
+FAIN,INDVDATO,Indvandringsdato,Date of immigration
+FAIN,KOEN,Køn,Sex
+FAIN,KOM,Kommunekode,Municipal code
+FAIN,MOR_ID,Moderens Person Id,Mother's Person Id
+FAIN,PNR,Personnummer,Social security number
+FAIN,STATSB,Statsborgerskab,Citizenship
+FAIN,ALDER,,
+FAIN,BOPIKOM,,
+FAIN,FAR_ID,,
+FAIN,H_TYPE,,
+FAIN,MOR_ID,,
+FAIN,STATSB,,
+IEPE,CPRTJEK,CPR-tjek,CPR check
+IEPE,CPRTYPE,CPR-type,CPR type
+IEPE,GENERATION,Kategorisering af 2. og 3. generationsindvandrere (efter DS. definitio,Categorization of 2nd and 3rd generation immigrants (according to DS. Definitio
+IEPE,IE_TYPE,"Indvandrere, efterkommere , personer med dansk oprindelse","Immigrants, descendants, persons of Danish origin"
+IEPE,OPR_LAND,Oprindelsesland,Country of origin
+IEPE,PNR,PNR,PNR
+IEPE,VERDEL1,VERDEL1,DIVISION1
+IEPE,VEST_EJ,VEST_EJ,VEST_EJ
+IEPE,CPRTJEK,,
+IEPE,CPRTYPE,,
+IEPE,CPRTJEK,CPR-tjek,CPR check
+IEPE,CPRTYPE,CPR-type,CPR type
+IEPE,GENERATION,Kategorisering af 2. og 3. generationsindvandrere (efter DS. definitio,Categorization of 2nd and 3rd generation immigrants (according to DS. Definitio
+IEPE,IE_TYPE,"Indvandrere, efterkommere , personer med dansk oprindelse","Immigrants, descendants, persons of Danish origin"
+IEPE,OPR_LAND,Oprindelsesland,Country of origin
+IEPE,PNR,PNR,PNR
+IEPE,VERDEL1,VERDEL1,DIVISION1
+IEPE,VEST_EJ,VEST_EJ,VEST_EJ
+IEPE,CPRTJEK,,
+IEPE,CPRTYPE,,
+IND,ADAGP,Syge- og barselsdagpenge udbetalt af kommunerne ekskl. udbetaling til selvstændige,Sickness and maternity benefits paid by the municipalities excl. payment to the self-employed
+IND,ADAGPAGN,Arbejdsgiverbetalt sygedagpenge,Employer-paid sickness benefits
+IND,AEKVIVADISP_13,Ækvivaleret disponibel indkomst,Equivalent disposable income
+IND,AFHFORM,Gevinst og tab ved afhændelse af formuegoder samt anden ikke specielt klassificeret kapitalindkomst. Variablen er ekskl. aktieindkomster samt kapitalindkomst i selvstændig virksomhed.,Gains and losses on disposal of assets and other unspecified capital income. The variable is excl. share income as well as capital income in self-employment.
+IND,AINDK94,Løn mm. (arbejdsmarkedsbidragspligtig indkomst hvoraf der betales foreløbig skat før udbetaling),"Salary etc. (income subject to social security contributions, of which provisional tax is paid before payment)"
+IND,AKAPSKL,"Anden kapitalindkomst i virksomhed end renteindtægter, excl. kapitalindkomst fra udlandet","Capital income in business other than interest income, excl. Capital income from abroad"
+IND,AKIHUBS,Aktieudbytte af danske aktier hvor der er indeholdet udbyttetskat.,Share dividend on Danish shares with dividend tax included.
+IND,AKIIHUBS,"Gevinst/tab på danske aktier og investeringsforeningsbeviser samt udbytte/udlodning, hvor der ikke er indeholdt udbytteskat",Gains / losses on Danish shares and investment association certificates as well as dividends / distributions where no dividend tax is included
+IND,AKTIEINDK,Udbytte samt gevinst/tab på aktier og visse aktiebaserede investeringsforeningsbeviser,Dividends as well as gains / losses on shares and certain share-based investment fund certificates
+IND,AKTIUDL,Udbytte af udenlandske aktier samt visse gevinster og tab på udenlandske aktier,Dividends on foreign shares as well as certain gains and losses on foreign shares
+IND,AKTKOEB,"Aktieoptionsaflønning, skattepligtig","Share option remuneration, taxable"
+IND,ALDER_ULT_INK,"Personens alder på referenecetidspunktet, 31. 12. det pågældende år","Age of the person at the time of reference, 31. 12. of the year in question"
+IND,AMTSSK,Amtsskat,County tax
+IND,ANDAKAS,Anden understøttelse fra arbejdsløshedskasser,Other support from unemployment funds
+IND,ANDBISTANDYD,Andre ydelser fra kommuner og a-kasser,Other benefits from municipalities and unemployment insurance funds
+IND,ANDFRAD,Fradrag i personlig indkomst,Deductions from personal income
+IND,ANDOVERFORSEL,"Andre overførsler består af SU, boligstøtte og børnetilskud.","Other transfers consist of SU, housing benefit and child allowance."
+IND,ANKAPPER,"Andre kapitalindkomster end renteindtægter, excl. kapitalindkomster i virksomhed og visse udenlandske indkomster","Capital income other than interest income, excl. Capital income in business and certain foreign income"
+IND,ANPERIND,Anden personlig indkomst,Other personal income
+IND,ANUDLAK,Gevinster og tab på udenlandske aktier som ikke er omfattet af en skattemæssig lempelse,Gains and losses on foreign shares that are not covered by a tax relief
+IND,ARBBIDMVALM,Arbejdsmarkedsbidrag og særlig pension af erhvervsindkomst,Labor market contributions and special pension of business income
+IND,ARBFORS,"Arbejdsløshedsforsikring, faglige kontingenter, efterløns- og fleksydelsesbidrag (Rubrik52)","Unemployment insurance, professional contingents, early retirement and flexible benefit contributions (Box 52)"
+IND,ARBLHU,Arbejdsløshedsdagpenge,Unemployment benefits
+IND,ARBLHUMV,Arbejdsløshedsdagpenge og uddannelsesgodtgørelse,Unemployment benefits and education allowance
+IND,ASKPLI,Anden arbejdsmarkedsbidragsfri a-skattepligtig indkomst,Other labor market contribution-free a-taxable income
+IND,ATPABES,"Indbetalinger til ATP på A-satsen i forbindelse med et ansættelsesforhold, både arbejdstager og arbejdsgivers bidrag (AKM)","Payments to ATP at the A-rate in connection with an employment relationship, both employee and employer's contribution (AKM)"
+IND,ATPBBES,ATP-bidrag på B-satsen i forbindelse med et ansættelsesforhold (AKM),ATP contribution on the B-rate in connection with an employment relationship (AKM)
+IND,ATPCBES,ATP-bidrag på C-satsen i forbindelse med et ansættelsesforhold (AKM),ATP contribution on the C-rate in connection with an employment relationship (AKM)
+IND,ATPDBES,ATP-bidrag på D-satsen i forbindelse med et ansættelsesforhold( fra 2009) (AKM),ATP contribution on the D-rate in connection with an employment relationship (from 2009) (AKM)
+IND,ATPEBES,ATP-bidrag på E-satsen i forbindelse med et ansættelsesforhold(fra 2010) (AKM),ATP contribution on the E-rate in connection with an employment relationship (from 2010) (AKM)
+IND,ATPFBES,ATP-bidrag på F-satsen i forbindelse med et ansættelsesforhold(fra 2011) (AKM),ATP contribution on the F-rate in connection with an employment relationship (from 2011) (AKM)
+IND,ATPSAML,Samlet ATP-bidrag i året,Total ATP contribution per year
+IND,BANKAKT,Indestående i pengeinstitut pr. 31. 12,Deposit at bank per. 31. 12
+IND,BANKGAELD,Gæld til pengeinstitutter mv. pr. 31. 12,"Debt to banks, etc. pr. 31. 12"
+IND,BARNEP,Dagpenge udbetalt af a-kasse ved orlov til børnepasning,Unemployment benefit paid by the unemployment insurance fund during leave for childcare
+IND,BDAGP,Syge- og barselsdagpenge udbetalt af kommunerne til selvstændige,Sickness and maternity benefits paid by the municipalities to the self-employed
+IND,BEFORDR,Det selvangivne beløb vedr. befordring (fradrag i skattepligtig indkomst),The tax-declared amount regarding. transportation (deduction in taxable income)
+IND,BESKST,Beskæftigelsesstatus 1980 til 2001 (Indkomst/AKM),Employment status 1980 to 2001 (Income / AKM)
+IND,BESKST02,Beskæftigelsesstatus fra 2002 (Indkomst/AKM),Employment status from 2002 (Income / AKM)
+IND,BESKST13,Kode for personens væsentligste indkomst-kilde (INDKOMST/AKM),Code for the person's main source of income (INCOME / AKM)
+IND,BOSBOERN,Boligstøtte og børnetilskud,Housing allowance and child allowance
+IND,BRUTTO,Skattepligtig bruttoindkomst før fradrag i kr. ( 1980 -2013),Gross taxable income before deduction in DKK (1980 -2013)
+IND,BUNSKA,Beregnet bundskat til staten,Calculated bottom tax to the state
+IND,CORFRYNS,Skattemæssig værdi af frynsegoder i forbindelse med beskæftigelse,Tax value of fringe benefits in connection with employment
+IND,CORLOEN,Kontant løn fra indberetninger til skats oplysningsseddelregister/e-indkomstregister,Cash salary from reports to tax information sheet register / e-income register
+IND,CPRTJEK,CPR-tjek,CPR check
+IND,CPRTYPE,CPR-type,CPR type
+IND,DAGPENGE_KONTANT_13,Dagpenge og kontanthjælp mv. ialt,"Unemployment benefits and cash benefits, etc. Total"
+IND,DAKTIE,Udbytte samt gevinst/tab på danske aktier og visse aktiebaserede investeringsforeningsbeviser,Dividends and gains / losses on Danish shares and certain share-based investment association certificates
+IND,DELPENS,Delpension,Partial pension
+IND,DISPON_13,Indkomst efter skat og renter tillagt beregnet lejeværdi af egen bolig.,Income after tax and interest plus calculated rental value of own home.
+IND,DISPON_NY,"Indkomst efter skat og renter (samlet indkomst fratrukket renteudgifter, skat m.m.)","Income after tax and interest (total income less interest expenses, tax, etc.)"
+IND,DSPSUM,Særligt pensionsbidrag,Special pension contribution
+IND,EFTLEVHJ,Efterlevelseshjælp,Compliance assistance
+IND,EFTLOEN,Efterløn ( fra 2009 ink.l fleksydelse),Early retirement pay (from 2009 incl. Flexi-benefit)
+IND,EJD_SKAT_EJER_BOLIG,Ejendomsskat(grundskyld) for boligejere,Property tax (land debt) for homeowners
+IND,EJD_SKAT_LEJER_BOLIG,Ejendomsskat(grundskyld) for lejere,Property tax (land tax) for tenants
+IND,EJENDOMSVURDERING,Kontant ejendomsværdi af ejendomme i Danmark ejet pr. 31. 12,Cash property value of properties in Denmark owned per. 31. 12
+IND,EJVSKAT,Ejendomsværdiskat,Property value tax
+IND,ERHVERVSINDK,"Erhvervsindkomst, løn og nettooverskud af selvstændig virksomhed inkl. visse honorarer","Business income, salary and net profit of self-employment including certain fees"
+IND,ERHVERVSINDK_13,"Erhvervsindkomst, løn og nettooverskud af selvstændig virksomhed inkl. visse honorarer","Business income, salary and net profit of self-employment including certain fees"
+IND,ERHVERVSINDK_GL,"Erhvervsindkomst, løn og nettooverskud af selvstændig virksomhed","Business income, salary and net profit of self-employment"
+IND,ETABHUI,Indskud på etableringskonto,Deposit in establishment account
+IND,FAGFKDB,Fagforeningskontingent i kr.- det beløb der kan fratrækkes på selvangivelsen,Trade union membership fee in DKK - the amount that can be deducted from the tax return
+IND,FERIE_DAGPENGE,Dagpenge udbetalt af a_kasse til medlemmer på ferie,Unemployment benefit paid by a_kasse to members on holiday
+IND,FLEXLON_TILSKUD,Tilskud til flexløn,Subsidy for flex salary
+IND,FLEXYD,Fleksydelse,Flex performance
+IND,FOLKEFORTID_13,Folke- og førtidspension mv.,"National and early retirement pension, etc."
+IND,FORM,"Skattemæssigt beregnet værdi af nettoformuen ultimo året, ekskl. pensionsformuer","Tax calculated value of net assets at the end of the year, excluding pension assets"
+IND,FORMREST_NY05,"Nettorestformue ultimo året, ekskl. pensionsformuer","Net residual assets at the end of the year, excluding pension assets"
+IND,FORMUEINDK_BRUTTO,"Renteindtægter og realiserede tab/gevinster på værdipapirer, ekskl. indkomst fra selvstændig virksomhed samt ekskl. beregnet lejeværdi af egen bolig","Interest income and realized losses / gains on securities, excl. Income from self-employment and excl. Calculated rental value of own home"
+IND,FORMUEINDK_NY,Samlede formueindkomster inkl. beregnet lejeværdi af egen bolig,Total property income incl. calculated rental value of own home
+IND,FOSFUFRD,Pensionsbidrag privattegnet ordning med løbende udbetaling/ ratepension ( fradragsberttiget del),Pension contribution privately subscribed scheme with current payment / installment pension (deductible part)
+IND,FRADRAG,Samlet beregnet fradrag i skattepligtig indkomst,Total calculated deduction in taxable income
+IND,FRADRAGBES,Beskæftigelsesfradrag,Employment deduction
+IND,FRDUDL,Skattemæssige fradrag for lempelsesberettigede indkomster fra udlandet,Tax deductions for eligible income from abroad
+IND,FRIOFBEF,Markering for frikort til offentlig befordring,Marking for exemption card for public transport
+IND,GAELD_TIL_OFF,Gæld til skat,Debt to tax
+IND,GEVAFKAP,"Genvundne afskrivninger, kapitalindkomst. Fortjeneste/tab ved ophør af visse skibsprojekter, fortjeneste ved ophør af anden anpartsvirksomhed","Recovered depreciation, capital income. Profit / loss on termination of certain ship projects, profit on termination of other private limited liability company"
+IND,GRON_CHECK,"Grøn check, kompensation for grønne afgifter","Green check, compensation for green taxes"
+IND,HAEDGAVS,"Hædersgaver m.v. hvoraf arbejdsmarkedsbidrag ikke skal betales, og hvor der ikke er indeholdt foreløbig skat","Honorary gifts, etc. of which labor market contributions are not to be paid and where no preliminary tax is included"
+IND,HONNY,"Honoraraflønning, arbejdsmarkedsbidragspligtig","Remuneration, subject to social security contributions"
+IND,INDBEEFT,Indbetaling til efterløn (efterlønsbidrag),Payment for early retirement pay (early retirement contribution)
+IND,INDESTPI,"Indestående i pengeinstitutter mv., kursværdi af obligationer og pantebreve i depot pr. 31. december","Deposits in banks, etc., market value of bonds and mortgage deeds in custody as of 31 December"
+IND,INDSKIB,"Nettoindkomst ved skibsanparter, inkl. vindmøller omfattet af anpartsreglerne","Net income from ship shares, including wind turbines covered by the share rules"
+IND,INTGRAYD,Integrationsydelse til flygtninge-kontanthjælp til udlændinge,Integration benefit for refugees - cash benefits for foreigners
+IND,INVUDL,"Udlodning fra investeringsforening, hvor der er indeholdt udbytteskat",Distribution from an investment association where dividend tax is included
+IND,JUBJUB,Jubilæumsgratiale og fratrædelsesgodtgørelse ekskl. pension,Anniversary gratuity and severance pay excl. pension
+IND,KAPINDKP,Skattemæssig kapitalindkomst beregnet af Skat,Tax capital income calculated by Tax
+IND,KAPITIALT,Samlet kapitalindkomst ekskl. aktieindkomster,Total capital income excl. share income
+IND,KAPITPRIV,Samlet kapitalindkomst ekskl. aktieindkomster og ekskl. kapitalindkomst fra virksomhed,Total capital income excl. share income and excl. capital income from business
+IND,KAPITVIRK,Samlet kapitalindkomst fra virksomhed,Total capital income from business
+IND,KAPPENS,Skattemæssigt fradrag i personlig indkomst vedr. privattegnet kapitalpension og kapitalforsikring,Tax deduction in personal income regarding. privately subscribed capital pension and endowment insurance
+IND,KAPVAERS,Reservefondsudlodninger fra kreditforeninger samt kapitalværdistigninger af pensionsordninger af typen kapitalforsikring,Reserve fund distributions from credit unions as well as capital value increases of pension schemes of the type endowment insurance
+IND,KHFLYGT,Aktiveringsydelse- kontanthjælpsmodtagere,Activation benefit - cash benefit recipients
+IND,KISKAT,Kirkeskat for medlemmer af folkekirken,Church tax for members of the Danish National Church
+IND,KMSKAT,Kommuneskat,Municipal tax
+IND,KOEJD,Kontant værdi af ejendomme i Danmark ejet pr. 31. 12,Cash value of properties in Denmark owned per. 31. 12
+IND,KOM_RES_FORLOB,"Kommunalt ressource forløb, ressourceforløbsydelse","Municipal resource course, resource course benefit"
+IND,KONTANTHJ_13,Kontanthjælp (underhold/forsørgelse),Cash benefits (alimony)
+IND,KONTHJ,Skattepligtig kontanthjælp (underhold/forsørgelse),Taxable cash benefits (alimony)
+IND,KONTSKFRI,Skattetfri kontanthjælp,Tax-free cash benefits
+IND,KONT_GL,Kontanthjælpsydelser 1980 - 1993,Cash benefits 1980 - 1993
+IND,KORSTOETT,Boligsikring og boligydelse,Housing insurance and housing benefit
+IND,KORYDIAL,Udbetalte børnetilskud og familieydelser efter opregning til hele kalenderåret,Paid child allowances and family benefits after enumeration for the entire calendar year
+IND,KURSAKT,Kursværdi af danske aktier og investeringsforeningsbeviser i depot pr. 31. december,Price value of Danish shares and investment association certificates in custody per. 31th December
+IND,KURSUSG,Godtgørelse for kursus og kørsel i forbindelse med arbejdsmarkedsuddannelse og enkeltfag,Reimbursement for courses and driving in connection with labor market training and individual subjects
+IND,LEDIGHEDSYDELSE,Ydelse udbetalt til ledige personer visiteret til flexjob samt enkelte andre ydelser.,Benefit paid to unemployed persons examined for flex jobs as well as a few other benefits.
+IND,LEJEV_EGEN_BOLIG,Beregnet lejeværdi af egen bolig,Calculated rental value of own home
+IND,LEJINDT,Den skattepligtige nettolejeindtægt ved udleje af helårsbolig en del af året samt sommerhus- og værelsesudlejning.,The taxable net rental income from renting out year-round housing for part of the year as well as holiday home and room rentals.
+IND,LIGNFRDP,Ligningsmæssige fradrag,Income deductions
+IND,LOENMIO,Øvrige lønmodtagerudgifter,Other employment expenses
+IND,LOENMV,Lønindkomst i alt,Total wage income
+IND,LOENMV_13,Lønindkomst i alt,Total wage income
+IND,LOENSKPL,"Skattepligtig lønindkomst inkl. værdi af frynsegoder, og inkl. skattepligtig løn fra udlandet.","Taxable wage income incl. Value of fringe benefits, and incl. Taxable wage from abroad."
+IND,MLLSKA,Beregnet mellemskat til staten,Calculated intermediate tax to the state
+IND,NETOVSKUD,"Nettooverskud af selvstændig virksomhed inkl. visse honorarer, før kapitalindtægter og udgifter",Net profit from self-employment including certain fees before capital income and expenses
+IND,NETOVSKUD_13,Nettooverskud af selvstændig virksomhed efter kapitalindtægter og udgifter,Net profit from self-employment after capital income and expenses
+IND,NETOVSKUD_GL,"Nettooverskud af selvstændig virksomhed, før kapitalindtægter og udgifter",Net profit from self-employment before capital income and expenses
+IND,NYSTGR,Stillingsgruppering 1980 til 1995 (AKM),Job grouping 1980 to 1995 (AKM)
+IND,OBLAKT,Kursværdi af obligationer i depot (aktiver) pr. 31. 12,Market value of bonds in custody (assets) per. 31. 12
+IND,OBLGAELD,Kursværdi af obligationsgæld pr. 31. 12,Price value of bond debt per. 31. 12
+IND,OFFPENS,Folke- og førtidspension,National and early retirement pension
+IND,OFFPENS_EFTERLON_13,"førtids- og folkepenion, varmehjælp, efterløn og fleksydelse.","early and public pension, heating assistance, early retirement pay and flexi-benefit."
+IND,OFF_OVERFORSEL_13,Offentlige overførsler,Public transfers
+IND,OMFANG,Omfang af skattepligt,Extent of tax liability
+IND,OMFSKPL,Kode der angiver skattepligtens omfang,Code indicating the extent of the tax liability
+IND,OVERFORSINDK,"Overførselsindkomster inkl. udbetalinger fra pensionskasser, ratepension mv.","Transfer income incl. Payments from pension funds, installment pension, etc."
+IND,OVERG,Overgangsydelse,Transitional benefit
+IND,OVRIG_DAGPENGE_AKAS_13,"Alle udbetalinger fra A-kasser bortset fra efterløn/overgangsydelse, arbejdsløshedsunderstøttelse og dagpenge under kursus/uddannelse","All payments from unemployment insurance funds, except for early retirement / transitional benefit, unemployment benefit and unemployment benefits during course / education"
+IND,OVRIG_KONTANTHJALP_13,"Aktiverings, ledighed- og revalideringsydelse mv.","Activation, unemployment and rehabilitation benefit, etc."
+IND,OVRIG_OVERFORSEL_13,"Andre overførsler. SU, boligstøtte, grøn check og børnetilskud.","Other transfers. SU, housing benefit, green check and child allowance."
+IND,OVSKEJD,Beregnet lejeværdi af egen bolig (beregnet af SKAT),Calculated rental value of own home (calculated by SKAT)
+IND,OVSKEJD02_NY,Beregnet lejeværdi af egen bolig,Calculated rental value of own home
+IND,OVSKEJD07,Beregnet lejeværdi af egen bolig,Calculated rental value of own home
+IND,PANTAKT,Kursværdi af pantebreve i depot (aktiver) pr. 31. 12.,Price value of mortgage deeds in custody (assets) per. 31. 12.
+IND,PANTGAELD,Pantebrevsgæld pr. 31. 12,Mortgage debt per. 31. 12
+IND,PASBOERN,"Andre ydelser fra kommuner end kontanthjælp, aktivering, revalidering, introduktionsydelse og efterlevelseshjælp","Services from municipalities other than cash benefits, activation, rehabilitation, introductory benefits and compliance benefits"
+IND,PENBPA,Arbejdsmarkedsbidragspligtige pensionsudbetalinger,Labor market contribution pension payments
+IND,PENBPB,Pensionsudbetalinger fra tidligere arbejdsgivere ikke arbejdsmarkedsbidragspligtig,Pension payments from previous employers are not subject to labor market contributions
+IND,PENSBLB2,Pension udbetalt af forsikringsselskab eller pengeinstitut,Pension paid by insurance company or bank
+IND,PENSBLB7,Pension fra pensionskasse,Pension from pension fund
+IND,PERINDKIALT,Personindkomst i alt ekskl. beregnet lejeværdi af egen bolig og før fradrag af renteudgifter,Total personal income excl. calculated rental value of own home and before deduction of interest expenses
+IND,PERINDKIALT_13,Personindkomst i alt ekskl. beregnet lejeværdi af egen bolig og før fradrag af renteudgifter,Total personal income excl. calculated rental value of own home and before deduction of interest expenses
+IND,PERINDKP,Skattemæssig personlig indkomst beregnet af Skat,Tax personal income calculated by Tax
+IND,PEROEVRIGFORMUE,"Aktieindkomst, overskud/underskud af skibsanparter, lejeindtægt sommerhus mv.","Share income, profit / loss of ship shares, rental income holiday home, etc."
+IND,PEROEVRIGFORMUE_13,"Aktieindkomst, overskud/underskud af skibsanparter, lejeindtægt sommerhus mv. ekskl.formueindkomsti virksomhed","Share income, profit / loss of ship shares, rental income holiday home, etc. excluding property income company"
+IND,PERSAMLINKNETRENT_NY,Samlede indkomster inkl. beregnet lejeværdi fratrukket fradragsberettige renteudgifter ved skatteligningen,Total income incl. calculated rental value less deductible interest expenses in the tax assessment
+IND,PERSONINDK,"Personindkomst i alt uden formueindkomst, og før fradrag af arbejdsmarkedsbidrag og særlig pensionsbidrag.","Personal income in total without property income, and before deduction of labor market contributions and special pension contributions."
+IND,PFRDKM,"Personfradrag til kommune, amt/sundhedsbidrag og kirke, som skatteyderen er berettiget til","Personal deduction for municipality, county / health contribution and church to which the taxpayer is entitled"
+IND,PFRDST,"Personfradrag, staten yder skatteyderen ved beregning af statsskat","Personal deduction, the state provides the taxpayer when calculating state tax"
+IND,PNR,Personnummer,Social security number
+IND,PRE_SOCIO,Socioøkonomisk klassifikation (Indkomst/AKM),Socio-economic classification (Income / AKM)
+IND,PRIVAT_PENSION_13,Udbetalte private pensioner.,Private pensions paid out.
+IND,QAKTIE,Værdi af aktieoptionsaflønnning,Value of stock option pay
+IND,QAKTIVF,Samlede aktiver ultimo året ekskl. pensionsformuer,Total assets at the end of the year excl. pension assets
+IND,QAKTIVF_NY05,"Aktiver ultimo året, ekskl. pensionsformuer","Assets at the end of the year, excluding pension assets"
+IND,QAKTSKA,"Skat af de aktieindkomster,der indberettes til skat.",Tax on the share income reported for tax purposes.
+IND,QANDEN,Honorarer hvoraf der ikke skal betales arbejdsmarkedsbidrag og foreløbig skat (A-skat) men er skattepligtigt,Fees of which no labor market contribution and provisional tax (A-tax) are to be paid but are taxable
+IND,QANDPENS,Udbetalinger fra arbejdsmarkedspensioner( ekskl.tjenestemandspensioner) og private pensioner,Payments from labor market pensions (excluding civil servant pensions) and private pensions
+IND,QARBLOS,Udbetalinger fra arbejdsløshedskasser af arbejdsløshedsdagpenge og lign.,Payments from unemployment funds of unemployment benefits and the like.
+IND,QBISTYD,"Kontanthjælps-, aktiverings-, revaliderings, integrations-, og ledighedsydelse","Cash benefit, activation, rehabilitation, integration and unemployment benefit"
+IND,QBISTYD2,"Skattepligtig kontanthjælps-, aktiverings- og revalideringsydelser","Taxable cash benefits, activation and rehabilitation benefits"
+IND,QEFTLON,"Efterløn, overgangsydelse og(fra2008 flexydelse)","Early retirement pay, transitional benefit and (from 2008 flexi benefit)"
+IND,QHVIRKSK,Foreløbig betalt skat af beløb hævet i virksomhedsordningerne,Provisionally paid tax on amounts withdrawn in the corporate schemes
+IND,QIVARK,Ydelse udbetalt af a-kasser til iværksættere,Benefit paid by unemployment insurance funds to entrepreneurs
+IND,QMIDYD,"Midlertidige overførselsindkomster (kontanthjælpsydelser, dagpenge inkl. orlovsydelser)","Temporary transfer income (cash benefits, unemployment benefits including holiday pay)"
+IND,QORLOV,Dagpengevedorlovtil børnepasning og sabbat,Unemployment benefits for childcare and the Sabbath
+IND,QORLOV2,"Dagpenge udbetalt af a-kasse ved orlov til børnepasning, uddannelse og sabbat","Unemployment benefit paid by the unemployment insurance fund during leave for childcare, education and the Sabbath"
+IND,QPASSIV,Skattemæssigt beregnet værdi af passiver ultimo året,Tax calculated value of liabilities at the end of the year
+IND,QPASSIVN,Passiver ultimo året,Liabilities at the end of the year
+IND,QPENSIALT,Alle pensionsindkomster,All pension income
+IND,QPENSNY,"Folke- og førtidspension, delpension samt skattefrie tillæg til førtidspensionister.","National and early retirement pension, partial pension and tax-free supplements for early retirees."
+IND,QPENSPRI,Udbetalinger fra arbejdsmarkedspensioner(ekskl.tjenestemandspension) og private pensioner fra Danmark,Payments from labor market pensions (excluding civil servant pensions) and private pensions from Denmark
+IND,QRENTIND,Samlede skattepligtige renteindtægter fra Danmark undtagen renteindtægt i selvstændig virksomhed,Total taxable interest income from Denmark except interest income in self-employment
+IND,QRENTUD2,Samlede fradragsberettigede renteudgifter inkl. virksomhedsrenter,Total deductible interest expenses incl. corporate interest rates
+IND,QSAR,En række engangsindtægter samt fortjeneste ved salg af ejendom under visse forudsætninger,A number of non-recurring income as well as profits from the sale of property under certain conditions
+IND,QSKATFRI,"Skattefri løn fra politi og retsvæsen Grønland, DANIDA m. fl.","Tax-free salary from the police and judiciary Greenland, DANIDA and others."
+IND,QSPLINDK,Skattepligtig indkomst,Taxable income
+IND,QTILPENS,"Udbetalte pensioner fra ATP (ATP, særlig og midlertidig pension)","Pensions paid from ATP (ATP, special and temporary pension)"
+IND,QTJPENS,Tjenestemandspension inkl. pension til efterladte ægtefæller og børn.,Civil servant pension incl. pension for surviving spouses and children.
+IND,QUDDYDL,Uddannelsesgodtgørelse til ledige,Education allowance for the unemployed
+IND,QUDINK,Anden personlig indkomst fra udlandet end løn,Personal income from abroad other than salary
+IND,RENTBANK,"Renteindtægt af obligationer, pantebreve i depot samt indestående i pengeinstitutter i Danmark, ekskl. renteindtægt i selstændig virksomhed","Interest income from bonds, mortgage deeds in custody and deposits in banks in Denmark, excluding interest income in self-employed companies"
+IND,RENTEINDK,Samlede skattepligtige renteindtægter fra Danmark-fra 2010 ekskl. renteindtægt af pantebreve uden for depot),Total taxable interest income from Denmark-from 2010 excl. interest income on mortgage deeds outside custody)
+IND,RENTPBED,"Renteindtægter af pantebreve der ikke er i depot inkl. renter af solgte og indfriede pantebreve, ekskl. renteindtægter fra udlandet og ekskl. renteindtægter i selvstændig virksomhed","Interest income from mortgage deeds that are not in custody, including interest on sold and redeemed mortgage deeds, excluding interest income from abroad and excluding interest income in self-employment"
+IND,RENTUDGPR,"Renteudgifter, ekskl. renteudgifter fra udlandet og ekskl. renteudgifter i selvstændig virksomhed","Interest expenses, excluding interest expenses from abroad and excluding interest expenses in self-employment"
+IND,RENTUDIO,"Øvrige rentudgifter, ekskl. lempelsesberettigede renteudgifter til udlandet og renteudgift i selvstændig virksomhed","Other interest expenses, excluding eligible interest expenses abroad and interest expenses in self-employment"
+IND,RENTUPRI,"Renteudgift vedrørende prioritetsgæld, ekskl. renteudgifter til udlandet, ekskl. renteudgifter i selvstændig virksomhed","Interest expense relating to senior debt, excluding interest expenses abroad, excluding interest expenses in self-employment"
+IND,RENTVIRK,"Renteindtægter, der vedrører virksomhed (inkl. nettorenteindtægter fra udlandet,) samt indkomstskattepligtige kursgevinster i virksomhed.",Interest income relating to business (incl. Net interest income from abroad) as well as income taxable capital gains in business.
+IND,RESUINK,Restindkomst inkl. børnebidrag,Residual income incl. child support
+IND,RESUINK_13,Restindkomst inkl. børnebidrag,Residual income incl. child support
+IND,RESUINK_GL,Restindkomst inkl. honoraraflønning og børnebidrag,Residual income incl. remuneration and child support
+IND,REVAL,Revalideringsydelse,Rehabilitation benefit
+IND,RNTIOVIR,Renteindtægter fra Danmark i virksomhed,Interest income from Denmark in business
+IND,RNTUDIOV,Renteudgifter i virksomhed,Interest expenses in business
+IND,RNTUDSTU,Renteudgifter af studielån fra Økonomistyrelsen/fra SU-styrelsen,Interest expenses on student loans from the Danish Finance Agency / from the SU Board
+IND,RNT_UDG_OFF_GAELD,Renteudgifter af gæld til det offentlige,Interest expenses on public debt
+IND,RUDGBANK,"Renteudgifter til pengeinstitutter inkl. pantebreve i depot, (ekskl. renteudgifter til studielån, boligstøttelån, renteudgifter til udlandet og renteudgifter i selvstændig virksomhed)","Interest expenses for banks, including mortgage deeds in custody, (excluding interest expenses for student loans, housing benefit loans, interest expenses abroad and interest expenses in self-employment)"
+IND,SAMLINK_NY,"Samlet indkomst inkl. beregnet lejeværdi før fradrag af renteudgifter, og før fradrag af arbejdsmarkedsbidrag og særlig pensionsbidrag.","Total income incl. Calculated rental value before deduction of interest expenses, and before deduction of labor market contributions and special pension contributions."
+IND,SAMSKAT,"Kode der angiver, om en person er sambeskattet med en anden person",Code indicating whether a person is jointly taxed with another person
+IND,SFRIFOND,Skattefri uddelinger fra fonde og foreninger mv.,Tax-free distributions from foundations and associations etc.
+IND,SKATFRIYD,Skattefrie indkomster,Tax-free income
+IND,SKATMVIALT_13,"Skat, arbejdsmarkedsbidrag og særlig pension i alt. ekskl. kirkeskat","Tax, labor market contributions and special pension in total, excluding church tax"
+IND,SKATMVIALT_NY,"Skat, arbejdsmarkedsbidrag og særlig pension i alt","Tax, labor market contributions and special pension in total"
+IND,SKATTOT_13,Samlet personlig slutskat for en skatteyder inkl. udenlandsk betalt skat ekskl. kirkeskat,Total personal final tax for a taxpayer incl. foreign tax paid excl. church tax
+IND,SKATTOT_NY,Samlet personlig slutskat for en skatteyder inkl. udenlandsk betalt skat,Total personal final tax for a taxpayer incl. foreign tax paid
+IND,SKPLDGAN,Antal skattepligtige dage i året,Number of taxable days in the year
+IND,SLUSKAT,Samlet slutskat for en skatteyder,Total final tax for a taxpayer
+IND,SLUTBID,Samlet arbejdsmarkedsbidrag,Total labor market contribution
+IND,SLUT_LIGNET,Markering for slutligning,Mark for final equation
+IND,SOEMAND,"Lønindkomst fra ansættelse som sømand, registreret i Skats Slutligningsregister som sømandsindkomst","Wage income from employment as a seaman, registered in the Tax Assessment Register as a seaman's income"
+IND,ST12PCT,12 pct. skat til staten,12 pct. tax to the state
+IND,ST22PCT,22 pct. skat til staten,22 pct. tax to the state
+IND,ST6PCT,6 pct. skat til staten,6 pct. tax to the state
+IND,STIP,Stipendier fra Statens Uddannelsesstøtte - SU,Scholarships from Statens Uddannelsesstøtte - SU
+IND,STSKAT,Statsskatten,The state tax
+IND,SUNDHEDSBIDRAG,Sundhedsbidrag,Health contributions
+IND,SYG_BARSEL_13,Udbetalte sygedagpenge fra kommuner,Sickness benefits paid by municipalities
+IND,TBKONT,Tilbagebetalt kontanthjælp og øvrige fradrag,Refunded cash benefits and other deductions
+IND,TBKONTHJ,Tilbagebetalt kontanthjælp,Refunded cash benefits
+IND,TILBTOT,Skattefrit tillæg til førtidspensionister,Tax-free supplement for early retirees
+IND,TOPSKA,Beregnet topskat til staten,Calculated top tax to the state
+IND,UDDAN,Dagpenge udbetalt af a-kasse ved orlov under uddannelse,Unemployment benefits paid by the unemployment insurance fund during leave during education
+IND,UDD_YD,Uddannelsesydelse/ledighedsydelse/arbejdsmarkedsydelse til ledige der opbruger deres dagpengeret,Education benefit / unemployment benefit / labor market benefit for the unemployed who use up their right to unemployment benefits
+IND,UDKAINVR,Nettorenter i udenlandsk virksomhed,Net interest in foreign business
+IND,UDLAKT,Udenlandske aktiver,Foreign assets
+IND,UDLFAKF,"Udenlandsk kapitalindkomst, såfremt denne er omfattet af en skattemæssig lempelsesregel","Foreign capital income, provided that it is subject to a tax relief rule"
+IND,UDLIN2KA,Udenlandsk kapitalindkomst der er i følge en dobbeltbeskatningsoverenskomst er omfattet af reglerne om gammel exemption (skattefri),Foreign capital income that is in accordance with a double taxation agreement is covered by the rules on old exemption (tax-free)
+IND,UDLOEN,"Løn for arbejde i udlandet, del der kan skelnes fra anden udenlandsk pers. indk.","Salary for work abroad, part that can be distinguished from other foreign pers. Incl."
+IND,UDLPENS,Pensioner fra udlandet,Pensions from abroad
+IND,UDLSKAT,Udenlandsk betalt skat af indkomster i udlandet,Foreign paid tax on income abroad
+IND,UDPRIGAEL,"Gæld til realkreditinstitutter, pengeinstitutter mv. i udlandet","Debt to mortgage banks, banks, etc. abroad"
+IND,ULAKTIE,Udbytter fra udenlandske aktier samt gevinst og tab på udenlandske aktier mm.,Dividends from foreign shares as well as gains and losses on foreign shares etc.
+IND,UNDERHOL,Betalt underholdsbidrag (fradrag i skattepligtig indkomst),Paid maintenance (deduction in taxable income)
+IND,UNHINDK,Modtaget underholdsbidrag og børnebidrag,Received child support and child support
+IND,VARMEHJALP,Varmehjælp til folkepensionister,Heat assistance for old-age pensioners
+IND,VERSION,Version,Version
+IND,VIRKKOD,"Kode til angivelse af, om skatteberegning foretages inden for eller uden for virksomhedsordningen",Code for indicating whether tax is calculated within or outside the corporate scheme
+IND,VIRKORDIND,Beløb indsat i virksomhedsordningerne netto (speciel ordning for selvstændige og kunstnere),Amount deposited in the company schemes net (special scheme for self-employed and artists)
+IND,VIRKSK,Foreløbig skat af beløb overført til virksomhedsordningen og konjunkturudligningsordningen og kunstnerordningen,Provisional tax on amounts transferred to the company scheme and the cyclical equalization scheme and the artist scheme
+IND,VIRKSOMHEDS_PRAKTIK,Dagpenge til personer i virksomhedspraktik,Unemployment benefits for people in company internships
+IND,ADAGP,,
+IND,ADAGPAGN,,
+IND,AFHFORM,,
+IND,AINDK94,,
+IND,AKAPSKL,,
+IND,AKIHUBS,,
+IND,AKIIHUBS,,
+IND,AKTIUDL,,
+IND,AKTKOEB,,
+IND,ALDER_ULT_INK,,
+IND,ANDAKAS,,
+IND,ANDFRAD,,
+IND,ANKAPPER,,
+IND,ANPERIND,,
+IND,ANUDLAK,,
+IND,ARBLHU,,
+IND,ASKPLI,,
+IND,ATPABES,,
+IND,ATPBBES,,
+IND,ATPCBES,,
+IND,ATPDBES,,
+IND,ATPEBES,,
+IND,ATPSAML,,
+IND,BANKAKT,,
+IND,BANKGAELD,,
+IND,BARNEP,,
+IND,BDAGP,,
+IND,BOSBOERN,,
+IND,CORLOEN,,
+IND,CPRTJEK,,
+IND,CPRTYPE,,
+IND,DAGPENGE_KONTANT_13,,
+IND,DAKTIE,,
+IND,DISPON_13,,
+IND,EFTLEVHJ,,
+IND,EJD_SKAT_EJER_BOLIG,,
+IND,EJD_SKAT_LEJER_BOLIG,,
+IND,ETABHUI,,
+IND,FAGFKDB,,
+IND,FERIE_DAGPENGE,,
+IND,FLEXLON_TILSKUD,,
+IND,FLEXYD,,
+IND,FOLKEFORTID_13,,
+IND,FOSFUFRD,,
+IND,FRADRAGBES,,
+IND,FRDUDL,,
+IND,FRIOFBEF,,
+IND,GAELD_TIL_OFF,,
+IND,GEVAFKAP,,
+IND,HAEDGAVS,,
+IND,HONNY,,
+IND,INDESTPI,,
+IND,INDSKIB,,
+IND,INTGRAYD,,
+IND,INVUDL,,
+IND,JUBJUB,,
+IND,KAPINDKP,,
+IND,KAPITIALT,,
+IND,KAPITPRIV,,
+IND,KAPITVIRK,,
+IND,KAPPENS,,
+IND,KAPVAERS,,
+IND,KHFLYGT,,
+IND,KOM_RES_FORLOB,,
+IND,KONTANTHJ_13,,
+IND,KONTSKFRI,,
+IND,KURSAKT,,
+IND,KURSUSG,,
+IND,LEDIGHEDSYDELSE,,
+IND,LEJINDT,,
+IND,LIGNFRDP,,
+IND,LOENMIO,,
+IND,LOENSKPL,,
+IND,OBLAKT,,
+IND,OBLGAELD,,
+IND,OFFPENS,,
+IND,OFFPENS_EFTERLON_13,,
+IND,OVRIG_DAGPENGE_AKAS_13,,
+IND,OVRIG_KONTANTHJALP_13,,
+IND,OVRIG_OVERFORSEL_13,,
+IND,PANTAKT,,
+IND,PANTGAELD,,
+IND,PASBOERN,,
+IND,PENBPA,,
+IND,PENBPB,,
+IND,PENSBLB2,,
+IND,PENSBLB7,,
+IND,PERINDKP,,
+IND,PEROEVRIGFORMUE_13,,
+IND,PFRDKM,,
+IND,PFRDST,,
+IND,PRIVAT_PENSION_13,,
+IND,QAKTIE,,
+IND,QAKTSKA,,
+IND,QANDEN,,
+IND,QARBLOS,,
+IND,QBISTYD,,
+IND,QEFTLON,,
+IND,QRENTIND,,
+IND,QSKATFRI,,
+IND,QUDDYDL,,
+IND,QUDINK,,
+IND,RENTBANK,,
+IND,RENTPBED,,
+IND,RENTUDIO,,
+IND,RENTUPRI,,
+IND,RENTVIRK,,
+IND,RESUINK_13,,
+IND,REVAL,,
+IND,RNTIOVIR,,
+IND,RNTUDIOV,,
+IND,RNTUDSTU,,
+IND,RNT_UDG_OFF_GAELD,,
+IND,RUDGBANK,,
+IND,SAMSKAT,,
+IND,SFRIFOND,,
+IND,SLUSKAT,,
+IND,SOEMAND,,
+IND,SYG_BARSEL_13,,
+IND,TBKONT,,
+IND,UDDAN,,
+IND,UDD_YD,,
+IND,UDKAINVR,,
+IND,UDLAKT,,
+IND,UDLFAKF,,
+IND,UDLIN2KA,,
+IND,UDLOEN,,
+IND,UDLPENS,,
+IND,UDLSKAT,,
+IND,UDPRIGAEL,,
+IND,ULAKTIE,,
+IND,UNHINDK,,
+IND,VARMEHJALP,,
+IND,VERSION,,
+IND,VIRKKOD,,
+IND,VIRKSK,,
+IND,VIRKSOMHEDS_PRAKTIK,,
+LMDB,ABC,ABC-kode,ABC code
+LMDB,AIP,Registerpris (Apotekets indkøbspris) (s),Register price ( Apoteket's purchase price ) (s)
+LMDB,ALDR,Alder på udleveringstidspunkt,Age at time of delivery
+LMDB,APK,Antal pakninger,Number of packages
+LMDB,AREF,Andre refusionsordninger,Other reimbursement schemes
+LMDB,ATC,ATC-kode detaljeret (s),ATC code detailed (s)
+LMDB,ATC1,ATC-niveau 1 (s),ATC Level 1 (s)
+LMDB,ATC2,ATC-niveau 2 (s),ATC Level 2 (s)
+LMDB,ATC3,ATC-niveau 3 (s),ATC Level 3 (s)
+LMDB,ATC4,ATC-niveau 4 (s),ATC Level 4 (s)
+LMDB,AUP,Registerpris (Apotekets udsalgspris) (s),Register price ( Apoteket's sale price ) (s)
+LMDB,BALD,Barns alder,Children's age
+LMDB,CPRTJEK,CPR-tjek,CPR check
+LMDB,CPRTYPE,CPR-type,CPR type
+LMDB,CPR_KOM,CPR-bopælskommune på ekspeditionsdatoen,CPR municipality of residence on the dispatch date
+LMDB,CPR_REG,CPR-bopælsregion på ekspeditionsdatoen,CPR residence region on the dispatch date
+LMDB,DOSFORM,Lægemiddelform (s),Pharmaceutical form (s)
+LMDB,DOSO,Doseringskode,Dosage code
+LMDB,EJS,Fravalg af substitution,Opt-out of substitution
+LMDB,EKSD,Ekspeditionsdato,Expedition date
+LMDB,EKSP,Ekspeditionspris,Expedition price
+LMDB,EKST,Ekspeditionstype,Expedition type
+LMDB,ETID,Ekspeditionstidspunkt,Delivery time
+LMDB,IBGP,Indberettet beregningsgrundlagspris,Reported calculation basis price
+LMDB,IBNR,Indberetternummer,Reporter number
+LMDB,INDO,Indikationskode,Indication code
+LMDB,ITYPE,Indberettertype,Reporter type
+LMDB,KOM,Kommunekode,Municipal code
+LMDB,KORR,Korrektionskode,Correction code
+LMDB,NAME,Lægemidlets navn (Store bogstaver) (s),Name of the drug (Uppercase) (s)
+LMDB,OVNR,Ordineret varenummer,Prescribed item number
+LMDB,PACKSIZE,Numerisk pakningsstørrelse (s),Numeric pack size (s)
+LMDB,PACKTEXT,PACKTEXT,PACKTEXT
+LMDB,PATT,Patienttype,Patient type
+LMDB,PKSUBGR,Pakningssubstitutionsgruppe,Packing substitution group
+LMDB,PNR12,CPR-nummer,Social Security number
+LMDB,PPRS,Udleveringsbestemmelse,Delivery provision
+LMDB,PTP,Patientbetaling,Patient payment
+LMDB,RAMT,Amtskommunekode,County Municipality Code
+LMDB,RECA,Autorisationskode for receptudsteder,Authorization code for prescription issuer
+LMDB,RECU,Receptudsteder,Prescription issuer
+LMDB,RGL1,1. Kommuneregelnummer,1. Municipal rule number
+LMDB,RGL2,2. kommuneregelnummer,2. municipal rule number
+LMDB,RGLA,Amtskommunalt reglnummer,County municipal rule number
+LMDB,RIMB,Tilskudskode,Grant code
+LMDB,RINR,Reiterationsnummer,Reiteration number
+LMDB,SEKTOR,Sektor,Sector
+LMDB,STRENG,"Styrke, klartekst (s)","Strength, clear text (s)"
+LMDB,STRNUM,"Styrke, numerisk (s)","Strength, numeric (s)"
+LMDB,STRUNIT,Enhed til numerisk styrke (s),Unit for numerical strength (s)
+LMDB,TAKD,Takstdato,Rate date
+LMDB,TARD,Takseringsdato,Valuation date
+LMDB,TILPRIS,Tilskudspris pr. pakning,Grant price per. packing
+LMDB,TSK1,1. Kommunale tilskud,1. Municipal subsidies
+LMDB,TSK2,2. Kommunale tilskud,2. Municipal subsidies
+LMDB,TSK3,Andre tilskud,Other grants
+LMDB,TSKA,Amtskommunalt tilskud,County municipal subsidy
+LMDB,UDLV,Udleveringssted,Place of delivery
+LMDB,VNR,Varenummer (s),Item number (s)
+LMDB,VOLTYPECODE,Ingen label,No label
+LMDB,VOLTYPETXT,Ingen label,No label
+LMDB,VOLUME,Volume,Volume
+LMDB,CPRTJEK,,
+LMDB,CPRTYPE,,
+LPR_ADM,CPRTJEK,CPR-tjek,CPR check
+LPR_ADM,CPRTYPE,CPR-type,CPR type
+LPR_ADM,C_ADIAG,Aktionsdiagnose,Action diagnosis
+LPR_ADM,C_AFD,Afdelingskode,Department code
+LPR_ADM,C_AMT,Amt,Amt
+LPR_ADM,C_ANDENBEH,Ingen label,No label
+LPR_ADM,C_BLOK,Inddeling af speciale i blokke,Division of thesis into blocks
+LPR_ADM,C_BOPAMT,AMT,AMT
+LPR_ADM,C_EAKT,"Ulykkeskode, aktivitet","Accident code, activity"
+LPR_ADM,C_EMEK,Ingen label,No label
+LPR_ADM,C_EMODPART,"Ulykkeskode, modpart","Accident code, counterparty"
+LPR_ADM,C_EPART,"Ulykkeskode, egenpart","Accident code, own party"
+LPR_ADM,C_ESTED,"Ulykkeskode, sted","Accident code, location"
+LPR_ADM,C_ETRAF,"Ulykkeskode, trafikal","Accident code, traffic"
+LPR_ADM,C_HAFD,Henvisende afdeling,Referral Department
+LPR_ADM,C_HENM,Henvisningsmåde,Reference method
+LPR_ADM,C_HSGH,Henvisende sygehus,Referral hospital
+LPR_ADM,C_INDFORM,Ingen label,No label
+LPR_ADM,C_INDFRA,Ingen label,No label
+LPR_ADM,C_INDM,Indlæggelsesmåde,Mode of admission
+LPR_ADM,C_KOM,Kommune,commune
+LPR_ADM,C_KONTAARS,Kontaktårsag,Cause of contact
+LPR_ADM,C_NYAFD,Ingen label,No label
+LPR_ADM,C_PATTYPE,Patienttype,Patient type
+LPR_ADM,C_SENSTAT,Ingen label,No label
+LPR_ADM,C_SEX,Køn,Sex
+LPR_ADM,C_SGH,Sygehus,Hospital
+LPR_ADM,C_SGHAMT,Sygehusamt,Hospital ward
+LPR_ADM,C_SPEC,Specialekode,Special code
+LPR_ADM,C_UDM,Udskrivningsmåde,Printing method
+LPR_ADM,C_UDTIL,Ingen label,No label
+LPR_ADM,C_ULYKKE,Ingen label,No label
+LPR_ADM,D_EBHDTO,Data for endelig behandling (Variabel udgået efter 31.12.2003),Data for final processing (Variable expired after 31.12.2003)
+LPR_ADM,D_FUSDTO,Dato for forundersøgelse (Variabel udgået efter 31.12.2003),Date of feasibility study (Variable expired after 31.12.2003)
+LPR_ADM,D_HENDTO,Henvisningsdato,Reference date
+LPR_ADM,D_INDDTO,Indlæggelsesdato,Date of admission
+LPR_ADM,D_OPDATDTO,Intern dato for opdatering af kontakten,Internal date for updating the contact
+LPR_ADM,D_UDDTO,Udskrivningsdato,Date of printing
+LPR_ADM,K_AFD,Afdelingskode,Department code
+LPR_ADM,LEVERANCEDATO,Ingen label,No label
+LPR_ADM,PNR,Personnummer,Social security number
+LPR_ADM,RECNUM,LPR-identnummer,LPR ID number
+LPR_ADM,VERSION,Ingen label,No label
+LPR_ADM,V_ALDDG,Alder i dage ved kontaktens start,Age in days at the start of the contact
+LPR_ADM,V_ALDER,Alder i år ved kontaktens start,Age this year at the start of the contact
+LPR_ADM,V_ALDMDR,Alder i måneder ved kontaktens start,Age in months at the start of the contact
+LPR_ADM,V_BEHDAGE,Behandlingsdage (Variabel udgået efter 31.12.2001),Treatment days (Variable expired after 31.12.2001)
+LPR_ADM,V_INDMINUT,Indlæggelsminut,Admission minute
+LPR_ADM,V_INDTIME,Indlæggelsestidspunkt,Time of admission
+LPR_ADM,V_SENGDAGE,Sengedage,Bed days
+LPR_ADM,V_UDTIME,Udskrivningstime,Printing time
+LPR_ADM,CPRTJEK,,
+LPR_ADM,CPRTYPE,,
+LPR_ADM,RECNUM,,
+LPR_ADM,VERSION,,
+LPR_BES,D_AMBDTO,Dato for ambulantbesøg,Date of outpatient visit
+LPR_BES,LEVERANCEDATO,Ingen label,No label
+LPR_BES,RECNUM,LPR-identnummer,LPR ID number
+LPR_BES,VERSION,Ingen label,No label
+LPR_BES,RECNUM,,
+LPR_BES,VERSION,,
+LPR_DIAG,C_DIAG,Diagnosekode,Diagnostic code
+LPR_DIAG,C_DIAGMOD,Diagnosemodifikation,Diagnostic modification
+LPR_DIAG,C_DIAGTYPE,Diagnosetype,Type of diagnosis
+LPR_DIAG,C_TILDIAG,Tillægsdiagnose,Additional diagnosis
+LPR_DIAG,LEVERANCEDATO,Ingen label,No label
+LPR_DIAG,RECNUM,LPR-identnummer,LPR ID number
+LPR_DIAG,VERSION,Ingen label,No label
+LPR_DIAG,RECNUM,,
+LPR_DIAG,VERSION,,
+LPR_OPR,C_KOMB,Kombination,Combination
+LPR_OPR,C_OAFD,Operationsafdeling,Operations Department
+LPR_OPR,C_OPR,Operationskode,Operation code
+LPR_OPR,C_OSGH,Operationssygehus,Surgical hospital
+LPR_OPR,LEVERANCEDATO,Ingen label,No label
+LPR_OPR,RECNUM,LPR-identnummer,LPR ID number
+LPR_OPR,VERSION,Ingen label,No label
+LPR_OPR,RECNUM,,
+LPR_OPR,VERSION,,
+LPR_SKSUBE,C_OAFD,Procedurende afdeling (undersøgelse & behandling),Procedural department (examination & treatment)
+LPR_SKSUBE,C_OPR,Procedurekodenummer (undersøgelse & behandling),Procedure code number (examination & treatment)
+LPR_SKSUBE,C_OPRART,Procedureart (undersøgelse & behandling),Type of procedure (examination & treatment)
+LPR_SKSUBE,C_OSGH,Procedurende sygehus (undersøgelse & behandling),Procedural hospital (examination & treatment)
+LPR_SKSUBE,C_TILOPR,Tillægskode (undersøgelse & behandling),Additional code (examination & treatment)
+LPR_SKSUBE,D_ODTO,Proceduredato (undersøgelse & behandling),Procedure date (examination & treatment)
+LPR_SKSUBE,LEVERANCEDATO,Ingen label,No label
+LPR_SKSUBE,RECNUM,LPR-identnummer,LPR ID number
+LPR_SKSUBE,VERSION,Ingen label,No label
+LPR_SKSUBE,V_OMINUT,Procedureminut (undersøgelse & behandling),Minute of procedure (examination & treatment)
+LPR_SKSUBE,V_OTIME,Proceduretime (undersøgelse & behandling),Procedure time (examination & treatment)
+LPR_SKSUBE,RECNUM,,
+LPR_SKSUBE,VERSION,,
+PRIV_ADM,CPRTJEK,CPR-tjek,CPR check
+PRIV_ADM,CPRTYPE,CPR-type,CPR type
+PRIV_ADM,C_ADIAG,Ingen label,No label
+PRIV_ADM,C_AFD,Ingen label,No label
+PRIV_ADM,C_BOPAMT,Ingen label,No label
+PRIV_ADM,C_HAFD,Ingen label,No label
+PRIV_ADM,C_HENM,Ingen label,No label
+PRIV_ADM,C_HSGH,Ingen label,No label
+PRIV_ADM,C_INDM,Ingen label,No label
+PRIV_ADM,C_KOM,Ingen label,No label
+PRIV_ADM,C_KONTAARS,Ingen label,No label
+PRIV_ADM,C_PATTYPE,Ingen label,No label
+PRIV_ADM,C_SEX,Ingen label,No label
+PRIV_ADM,C_SGH,Ingen label,No label
+PRIV_ADM,C_SGHAMT,Ingen label,No label
+PRIV_ADM,C_SPEC,Ingen label,No label
+PRIV_ADM,C_UDM,Ingen label,No label
+PRIV_ADM,D_HENDTO,Ingen label,No label
+PRIV_ADM,D_INDDTO,Ingen label,No label
+PRIV_ADM,D_UDDTO,Ingen label,No label
+PRIV_ADM,LEVERANCEDATO,Ingen label,No label
+PRIV_ADM,PNR,Personnummer,Social security number
+PRIV_ADM,RECNUM,LPR-identnummer,LPR ID number
+PRIV_ADM,SKEMAOPDAT,Ingen label,No label
+PRIV_ADM,SKEMAOPRET,Ingen label,No label
+PRIV_ADM,VERSION,Ingen label,No label
+PRIV_ADM,V_ALDER,Ingen label,No label
+PRIV_ADM,V_BEHDAGE,Ingen label,No label
+PRIV_ADM,V_SENGDAGE,Ingen label,No label
+PRIV_ADM,CPRTJEK,,
+PRIV_ADM,CPRTYPE,,
+PRIV_ADM,RECNUM,,
+PRIV_ADM,VERSION,,
+PRIV_DIAG,C_DIAG,Ingen label,No label
+PRIV_DIAG,C_DIAGTYPE,Ingen label,No label
+PRIV_DIAG,C_TILDIAG,Ingen label,No label
+PRIV_DIAG,INDBERETNINGSDATO,Ingen label,No label
+PRIV_DIAG,LEVERANCEDATO,Ingen label,No label
+PRIV_DIAG,RECNUM,Ingen label,No label
+PRIV_DIAG,VERSION,Ingen label,No label
+PRIV_DIAG,RECNUM,,
+PRIV_DIAG,VERSION,,
+PRIV_SKSOPR,C_OAFD,Ingen label,No label
+PRIV_SKSOPR,C_OPR,Ingen label,No label
+PRIV_SKSOPR,C_OPRART,Ingen label,No label
+PRIV_SKSOPR,C_OSGH,Ingen label,No label
+PRIV_SKSOPR,C_TILOPR,Ingen label,No label
+PRIV_SKSOPR,D_ODTO,Ingen label,No label
+PRIV_SKSOPR,INDBERETNINGSDATO,Ingen label,No label
+PRIV_SKSOPR,LEVERANCEDATO,Ingen label,No label
+PRIV_SKSOPR,RECNUM,Ingen label,No label
+PRIV_SKSOPR,VERSION,Ingen label,No label
+PRIV_SKSOPR,RECNUM,,
+PRIV_SKSOPR,VERSION,,
+PRIV_SKSUBE,C_OAFD,Ingen label,No label
+PRIV_SKSUBE,C_OPR,Ingen label,No label
+PRIV_SKSUBE,C_OPRART,Ingen label,No label
+PRIV_SKSUBE,C_OSGH,Ingen label,No label
+PRIV_SKSUBE,C_TILOPR,Ingen label,No label
+PRIV_SKSUBE,D_ODTO,Ingen label,No label
+PRIV_SKSUBE,INDBERETNINGSDATO,Ingen label,No label
+PRIV_SKSUBE,LEVERANCEDATO,Ingen label,No label
+PRIV_SKSUBE,RECNUM,Ingen label,No label
+PRIV_SKSUBE,VERSION,Ingen label,No label
+PRIV_SKSUBE,RECNUM,,
+PRIV_SKSUBE,VERSION,,
+RAS,ADRKVAL,Adressen for arbejdsstedet kvalitet,The address of the workplace quality
+RAS,AFSTAND,Pendlingsafstand mellem bopæl og arbejdssted,Commuting distance between residence and place of work
+RAS,AKASSE_RAS,A-kasse,A-box
+RAS,AKOM07,Arbejdsstedskommune,Workplace municipality
+RAS,ALDER_AMR,Alder ultimo måneden,Age at the end of the month
+RAS,ALDER_RAS,Alder på sidste arbejdsdag i november.,Age on last working day in November.
+RAS,ANS2911K,Ansat ansat ultimo november,Employed at the end of November
+RAS,ANSFRA,Ansat fra dato i det aktuelle år.,Employed from date in the current year.
+RAS,ANSTIL,Ansat til dato i det aktuelle år.,Employed to date in the current year.
+RAS,ARBGNR,Arbejdsgivernummer,Employer number
+RAS,ARBGNR9,Arbejdsgivernummer med sektor,Employer number with sector
+RAS,ARBNR,Arbejdsstedsnummer,Workplace number
+RAS,ARBRANCE,Årets branche (AKM),Industry of the year (AKM)
+RAS,ARBSTIL,Arbejdsstilling,Working position
+RAS,ARBSTOPL,Metode til arbejdsstedsplacering,Workplace placement method
+RAS,ARB_BEL_KOM_KODE,Arbejdsstedskommune,Workplace municipality
+RAS,ARB_DST_ADGANGSADRESSE,Arbejdsstedsadressen ultimo november,Workplace address at the end of November
+RAS,ARB_DST_ADGANGSADRESSE_ID,Ingen label,No label
+RAS,ARB_DST_ENHEDSADRESSE,Arbejdsstedsadressen ultimo november,Workplace address at the end of November
+RAS,ARB_DST_ENHEDSADRESSE_ID,Ingen label,No label
+RAS,ARB_HOVED_BRA_DB07,Branchekode,Industry code
+RAS,ARB_SEKTORKODE,Sektorkode for arbejdsstedet,Sector code for the workplace
+RAS,ARDSEJER,Åprets ejerkode (AKM),Åprets owner code (AKM)
+RAS,ARSOCIO,Årets socio (AKM),Socio of the Year (AKM)
+RAS,ATP_BELOEB,ATP-beløb i året,ATP amount per year
+RAS,ATP_BIDRAG_SATS_KODE,Sats for ATP-beløbet,Rate for the ATP amount
+RAS,BOPAEL_ADGANGSADRESSE,Bopælsadressen ultimo november,Address of residence at the end of November
+RAS,BOPAEL_ADRESSE_ID,Ingen label,No label
+RAS,BOPAEL_ENHEDSADRESSE,Bopælsadressen ultimo november,Address of residence at the end of November
+RAS,BOPAEL_KOM_KODE,Kommunekode for bopælen,Municipal code for the residence
+RAS,BRANCHE_77,Dansk branchekode 1977 til 1993 (AKM),Danish industry code 1977 to 1993 (AKM)
+RAS,BRANCHE_KODE,Branchekode for arbejdesstedet,Industry code for the workplace
+RAS,BREDT_LOENBELOEB,Bredt lønbeløb,Wide salary amount
+RAS,BREDT_LOENBELOEB_EBS,Bredt lønbeløb i erhvervsbeskæfigelsen,Wide wage amount in business employment
+RAS,CPRTJEK,CPR-tjek,CPR check
+RAS,CPRTYPE,CPR-type,CPR type
+RAS,CVRNR,CVR-nummer,CVR number
+RAS,DISCO_KODE,Disco kode for lønmodtagere,Disco code for employees
+RAS,DISCO_MATCHPRIO_KODE,Kode der angiver kvaliteten af discokoden,Code indicating the quality of the disco code
+RAS,DISCO_RAS_KODE,Arbejdsfunktion for lønmodtagere,Work function for employees
+RAS,DSEJER,Primære ejerkode,Primary owner code
+RAS,DSKOD,Arbejdsstedskode,Workplace code
+RAS,EJANSNOV,Ej ansat ultimo november,Not employed at the end of November
+RAS,FIKTIV_ARB_KODE,Fiktivt arbejdssted,Fictitious workplace
+RAS,FORANST_RAS,Arbejdsmarkedspolitisk foranstaltning,Labor market policy measure
+RAS,FORSKAT_RAS,Forsikringskategori i akassen,Insurance category in akassen
+RAS,FRAVAER_BESK_KODE,Midlertidigt fraværende fra beskæftigelse,Temporarily absent from employment
+RAS,FUNKTION_KODE,Funktionskode,Function code
+RAS,GRADAT1,Årsledighed,Unemployment
+RAS,GRADAT2,Årsledighed næste år,Annual unemployment next year
+RAS,HELARKOD,Helårskode,Year-round code
+RAS,HELTID_32_KODE,Heltid eller deltidsbeskæftiget,Full-time or part-time employed
+RAS,HELTID_DELTID_KODE,heltid eller deltid (arbejdsomfang/potentielt arbejdsomfang),full-time or part-time (scope of work / potential scope of work)
+RAS,IE_TYPE,"Indvandrere, efterkommere , personer med dansk oprindelse","Immigrants, descendants, persons of Danish origin"
+RAS,I_BEFOLKNINGEN_KODE,I befolkningen på referencetidspunktet,In the population at the time of reference
+RAS,JUR_BAGATEL_AAR,Over/under bagatelgrænsen,Above / below the de minimis limit
+RAS,KOEN,Køn,Sex
+RAS,LOENBLB,Arbejdsmarkedsbidragspligtig løn,Wage pay subject to labor market contributions
+RAS,LOENTIMER,Løntimer,Pay hours
+RAS,NOVPRIO,Novemberprioritering,November prioritization
+RAS,NOV_TILSTAND_GRAD,Tilstandsgrad i november,Degree of condition in November
+RAS,NYARB,Ny arbejdsstilling,New working position
+RAS,NYSTIL,Ny stillingskode,New job code
+RAS,OK_NR,Økonomisk enheds-nummer,Economic unit number
+RAS,OPR_LAND,Oprindelsesland,Country of origin
+RAS,ORLOV_BESK_RAS,Orlov fra beskæftigelse,Leave from employment
+RAS,PARBOPL,Primær arbejds oplysning,Primary job information
+RAS,PENSMARK,Pensionsmarkering,Pension marking
+RAS,PNR,Personnummer,Social security number
+RAS,PRIMAER_STATUS_KODE,Kode for primær tilknytning til arbejdsmarkedet,Code of primary affiliation with the labor market
+RAS,RASDSEJER3,DSejer3,DSejer3
+RAS,SAADRKOD,SEKUNDÆR ARBEJDSSTEDSADRESSE,SECONDARY WORKPLACE ADDRESS
+RAS,SADRKVAL,SEKUNDÆR ARBEJDSSTEDSADRESSE KVALITET,SECONDARY WORK ADDRESS QUALITY
+RAS,SAKOM,SEKUNDÆR ARBEJDSSTEDSKOMMUNE,SECONDARY WORKPLACE MUNICIPALITY
+RAS,SARBGNR9,SEKUNDÆR ARBEJDSGIVERNUMMER,SECONDARY EMPLOYER NUMBER
+RAS,SARBSTIL,SEKUNDÆR ARBEJDSTILLING,SECONDARY WORK POSITION
+RAS,SAROPL,SEKUNDÆR ARBEJDS OPLYSNINGER,SECONDARY WORK INFORMATION
+RAS,SBRKVAL,SEKUNDÆR BRANCHE KVALITET,SECONDARY INDUSTRY QUALITY
+RAS,SDSEJER,SEKUNDÆR EJERKODE,SECONDARY OWNER CODE
+RAS,SDSKOD,SEKUNDÆR ARBEJDSSTEDSKODE,SECONDARY WORKPLACE CODE
+RAS,SENR,SENR,SENR
+RAS,SFORMAL,SEKUNDÆR FORMÅL,SECONDARY PURPOSE
+RAS,SISIC,SEKUNDÆR BRANCHE (ISIC),SECONDARY BRANCH (ISIC)
+RAS,SKIFT,PRIMÆRE SKIFT,PRIMARY SHIFT
+RAS,SKPLINDK,Skattepligtig indkomst,Taxable income
+RAS,SMALT_LOENBELOEB,Smalt lønbeløb,Narrow salary amount
+RAS,SOCSTIL_KODE,Socioøkonomisk status,Socio-economic status
+RAS,SOC_STATUS_KODE,Socioøkonomisk status,Socio-economic status
+RAS,SOMF,SEKUNDÆR OMF,SECONDARY OMF
+RAS,STOETTE_BESK,Støttet beskæftigelse,Supported employment
+RAS,STOETTE_BESK_KODE,Støttet beskæftigelse,Supported employment
+RAS,TILSTAND_GRAD_AAR_AMR,Tilstandsgrad i året,Degree of condition in the year
+RAS,TILSTAND_GRAD_AAR_EX_FRAVAER,Tilstandsgrad i året for lønmodtagerjob hvor fravær er ekskluderet,Degree of condition in the year for employee jobs where absence is excluded
+RAS,TILSTAND_KODE_AMR,Tilstandskode i AMR,Mode code in AMR
+RAS,VERSION,Moduldata version,Modular data version
+RAS,AFSTAND,,
+RAS,ALDER_AMR,,
+RAS,ARB_BEL_KOM_KODE,,
+RAS,ARB_HOVED_BRA_DB07,,
+RAS,ARB_SEKTORKODE,,
+RAS,ATP_BELOEB,,
+RAS,ATP_BIDRAG_SATS_KODE,,
+RAS,BOPAEL_KOM_KODE,,
+RAS,BREDT_LOENBELOEB,,
+RAS,BREDT_LOENBELOEB_EBS,,
+RAS,CPRTJEK,,
+RAS,CPRTYPE,,
+RAS,DISCO_KODE,,
+RAS,DISCO_MATCHPRIO_KODE,,
+RAS,DISCO_RAS_KODE,,
+RAS,FIKTIV_ARB_KODE,,
+RAS,FUNKTION_KODE,,
+RAS,HELTID_32_KODE,,
+RAS,I_BEFOLKNINGEN_KODE,,
+RAS,JUR_BAGATEL_AAR,,
+RAS,LOENBLB,,
+RAS,NOV_TILSTAND_GRAD,,
+RAS,OK_NR,,
+RAS,SMALT_LOENBELOEB,,
+RAS,STOETTE_BESK,,
+RAS,TILSTAND_GRAD_AAR_AMR,,
+RAS,TILSTAND_GRAD_AAR_EX_FRAVAER,,
+RAS,VERSION,,
+SHSS,BELE,Beløb efterløn,Amount of early retirement pay
+SHSS,BEL_AF,Udbetalt beløb ved aktivering,Amount paid upon activation
+SHSS,BEL_AK,Kontanthjælp under aktivering,Cash benefit during activation
+SHSS,BEL_AK1,Årlig udbetaling til aktivering af unge under 25 år,Annual payment for activating young people under 25 years of age
+SHSS,BEL_AK2,Årligt udbetalt kontanthjælp til aktiverede under 25 år.,Annually paid cash benefits to activists under 25 years of age.
+SHSS,BEL_AK3,Årlig udbetaling til aktivering af personer over 25 år (kommunal aktivering),Annual payment for activation of persons over 25 years (municipal activation)
+SHSS,BEL_AK4,Årlig udbetaling til igangsætningsydelse (kommunal aktivering),Annual payment for start-up benefit (municipal activation)
+SHSS,BEL_AK5,Årlig udbetaling til aktivering af flygtninge (kommunal aktivering),Annual payment for activation of refugees (municipal activation)
+SHSS,BEL_ALD,Årligt udbetalt beløb på folkepension.,Annually paid amount on national pension.
+SHSS,BEL_ARB,Årligt udbetalte arbejdsløshedsdagpenge,Annually paid unemployment benefits
+SHSS,BEL_BAR,Årligt udbetalte fødsels-/barselsdagpenge,Annually paid maternity / paternity benefits
+SHSS,BEL_F,Årligt udbetalt beløb på førtidspension.,Annually paid amount on early retirement.
+SHSS,BEL_K194,Årligt udbetalt hjælp til underhold til forsørgere.,Annually paid maintenance assistance to breadwinners.
+SHSS,BEL_K294,Årligt udbetalt hjælp til underhold til ikke-forsørgere.,Annually paid maintenance assistance to non-dependents.
+SHSS,BEL_K394,Årligt udbetalt hjælp til underhold til flygtninge,Annually paid maintenance assistance to refugees
+SHSS,BEL_K494,Årlig udbetalt beløb vedr. supplerende ydelser alene,Annual amount paid regarding. additional benefits only
+SHSS,BEL_K598,Årligt udbetalt beløb vedr. kontanthjælpspension,Annually paid amount regarding. cash benefit pension
+SHSS,BEL_K699,Årligt udbetalt beløb vedr. introduktionsydelse,Annually paid amount regarding. introductory benefit
+SHSS,BEL_KON1,Årligt udbetalt beløb vedr. underhold indtil 9 mdr.,Annually paid amount regarding. maintenance up to 9 months.
+SHSS,BEL_KON2,Årligt udbetalt beløb vedr. underhold efter 9 mdr.,Annually paid amount regarding. maintenance after 9 months.
+SHSS,BEL_KON3,Årligt udbetalt beløb vedr. anden kontanthjælp,Annually paid amount regarding. other cash benefits
+SHSS,BEL_LYD,Årligt udbetalt ledighedsydelse,Annually paid unemployment benefit
+SHSS,BEL_ORL,Årligt udbetalt beløb på orlovsydelse,Annually paid amount on leave benefit
+SHSS,BEL_REV_FLY,Beløb uddannelse (Flygtninge),Amount of education (Refugees)
+SHSS,BEL_REV_IF,Beløb uddannelse (Ikke flygtninge),Amount of education (Not refugees)
+SHSS,BEL_SYG,Årligt udbetalt beløb på sygedagpenge,Annually paid amount of sickness benefits
+SHSS,BEL_T,Årlig udbetaling af tjenestemandspension.,Annual payment of civil servant pension.
+SHSS,BEL_UFR,Årligt udbetalt beløb ved forrevalidering,Amount paid annually for pre-rehabilitation
+SHSS,PNR,Personnummer,Social security number
+SHSS,SL_ART_AF,Slutydelse for AF-aktivering.,AF activation final performance.
+SHSS,SL_ART_AF_A,Slutydelse for anden af-aktivering,Final performance for second deactivation
+SHSS,SL_ART_AF_B,Slutydelse for AF-beskæftigelse,Final benefit for AF employment
+SHSS,SL_ART_AF_F,Slutydelse for AF-forsøg,Final performance for AF trials
+SHSS,SL_ART_AF_U,Slutydelse for AF-uddannelse,Final performance for AF training
+SHSS,SL_ART_AKT,Slutydelse på aktivering,Final performance on activation
+SHSS,SL_ART_ARB,Slutydelse på arbejdsløshedsdagpenge,Final benefit on unemployment benefits
+SHSS,SL_ART_BAR,Slutydelse på barselsdagpenge,Final payment of maternity allowance
+SHSS,SL_ART_FEL,Slutydelse i fællesreg.,Final benefit in joint account.
+SHSS,SL_ART_FEL_X,Slutydelse i fællesreg. excl. tjenest.,Final benefit in joint account. excl. service.
+SHSS,SL_ART_KON,Slutydelse på Hjælp til underhold,Final performance on Maintenance Help
+SHSS,SL_ART_LYD,Slutart for ledighedsydelse,End type for unemployment benefit
+SHSS,SL_ART_ORL,Slutydelse for orlov,Final payment for leave
+SHSS,SL_ART_REV,Slutydelse på Uddannelse/Revalidering,Final performance on Education / Rehabilitation
+SHSS,SL_ART_SYG,Slutydelse på sygedagpenge,Final benefit on sickness benefits
+SHSS,SL_ART_V,Slutydelse på pensioner,Final benefit on pensions
+SHSS,SL_ART_VX,Slutyd på pens excl. Tjenestemandspension,End of pen excl. Civil servant pension
+SHSS,SL_MD_FEL,Slutmåned i fællesreg.,End month in joint reg.
+SHSS,SL_MD_FEL_X,Slutmåned i fællesreg. excl. tjenest.,End month in joint reg. excl. service.
+SHSS,SL_MRKM,Slutmarkering midlertig hjælp,End marking temporary help
+SHSS,STAT_FOER,Status før foranstaltning,Status before action
+SHSS,STAT_FOER_AFA,Status før foranstaltning AF-akt.,Status before measure AF act.
+SHSS,ST_ART_AF,Startydelse for AF-aktivering.,Start-up service for AF activation.
+SHSS,ST_ART_AF_A,Startydelse for anden af-aktivering,Initialization for second deactivation
+SHSS,ST_ART_AF_B,Startydelse for AF-beskæftigelse,Initial benefit for AF employment
+SHSS,ST_ART_AF_F,Startydelse for AF-forsøg,Initial performance for AF trials
+SHSS,ST_ART_AF_U,Startydelse for AF-uddannelse,Initial benefit for AF training
+SHSS,ST_ART_AKT,Startydelse på aktivering,Initialization of activation
+SHSS,ST_ART_ARB,Startydelse på arbejdsløshedsdagp.,Initial benefit on unemployment benefit.
+SHSS,ST_ART_BAR,Startydelse på barselsdagpenge,Initial benefit on maternity allowance
+SHSS,ST_ART_FEL,Startydelse i fællesreg.,Initial benefit in joint account.
+SHSS,ST_ART_FEL_X,Startydelse i fællesreg. excl. tjenest.,Initial benefit in joint account. excl. service.
+SHSS,ST_ART_KON,Startydelse på Hjælp til underhold,Start-up service on Help for maintenance
+SHSS,ST_ART_LYD,Startart for ledighedsydelse,Starting point for unemployment benefit
+SHSS,ST_ART_ORL,Startydelse for orlov,Initial benefit for leave
+SHSS,ST_ART_REV,Startydelse på Uddannelse/Revalidering,Initial benefit for Education / Rehabilitation
+SHSS,ST_ART_SYG,Startydelse på sygedagpenge,Initial benefit on sickness benefits
+SHSS,ST_ART_V,Startydelse på pensioner,Initial benefit on pensions
+SHSS,ST_ART_VX,Startyd på pens excl. Tjenestemandspens,Start time on pens excl. Civil servant pension
+SHSS,ST_MD_FEL,Startmåned i fællesreg.,Starting month in joint reg.
+SHSS,ST_MD_FEL_X,Startmåned i fællesreg. excl. tjenest.,Starting month in joint reg. excl. service.
+SHSS,ST_MRKM,Startmarkering midlertidig hjælp,Start mark temporary help
+SHSS,TDOMYD,Dominerende ydelse året før,Dominant performance the year before
+SHSS,VARMMA1,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA10,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA11,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA12,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA2,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA3,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA4,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA5,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA6,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA7,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA8,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMA9,Md.fordelt varigh arbl.dp.inkl. kontanthjælpsledige,Md.fordelt varigh arbl.dp.inkl. cash unemployed
+SHSS,VARMMAF1,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF10,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF11,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF12,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF2,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF3,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF4,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF5,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF6,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF7,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF8,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAF9,Md.fordelt varighed AF-aktivering. Brutto.,Monthly distributed duration AF activation. Gross.
+SHSS,VARMMAFA1,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA10,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA11,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA12,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA2,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA3,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA4,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA5,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA6,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA7,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA8,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFA9,Månedsfordelt varighed anden af-aktiv,Monthly distributed duration second off-active
+SHSS,VARMMAFB1,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB10,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB11,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB12,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB2,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB3,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB4,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB5,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB6,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB7,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB8,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFB9,Månedsfordelt varighed AF-beskæftig.,Monthly duration AF-employed.
+SHSS,VARMMAFF1,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF10,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF11,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF12,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF2,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF3,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF4,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF5,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF6,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF7,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF8,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFF9,Månedsfordelt varighed AF-forsøg,Monthly duration of AF trial
+SHSS,VARMMAFU1,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU10,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU11,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU12,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU2,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU3,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU4,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU5,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU6,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU7,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU8,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAFU9,Månedsfordelt varighed AF-uddannelse,Monthly duration of AF training
+SHSS,VARMMAK1,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK10,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK11,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK12,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK2,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK3,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK4,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK5,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK6,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK7,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK8,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAK9,Månedsfordelt varighed aktivering,Monthly duration activation
+SHSS,VARMMAN1,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.fordelt varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN10,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.distributed varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN11,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.distributed varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN12,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.fordelt varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN2,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.distributed varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN3,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.distributed varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN4,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.fordelt varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN5,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.fordelt varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN6,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.distributed varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN7,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.distributed varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN8,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.fordelt varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMAN9,Md.fordelt varigh arbl.dp. ekskl. kontanthjælpsledige,Md.distributed varigh arbl.dp. excl. cash unemployed
+SHSS,VARMMF1,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF10,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF11,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF12,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF2,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF3,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF4,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF5,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF6,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF7,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF8,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMF9,Månedsfordelt varighed underhold,Monthly duration of maintenance
+SHSS,VARMMK1,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK10,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK11,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK12,Md.fordelt varigh kont.hj. (Underhold+rev),Monthly distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK2,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK3,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK4,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK5,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK6,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK7,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK8,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMMK9,Md.fordelt varigh kont.hj. (Underhold+rev),Md.distributed duration cont.hj. (Maintenance + rev)
+SHSS,VARMML1,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML10,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML11,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML12,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML2,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML3,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML4,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML5,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML6,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML7,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML8,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMML9,Månedsfordelt varighedf ledighedssydelse,Monthly duration of unemployment benefit
+SHSS,VARMMLYD1,Månedsfordelt varighedf ledighedssydelse MD: 1,Monthly duration of unemployment benefit MD: 1
+SHSS,VARMMLYD10,Månedsfordelt varighedf ledighedssydelse MD: 10,Monthly distributed unemployment benefit MD: 10
+SHSS,VARMMLYD11,Månedsfordelt varighedf ledighedssydelse MD: 11,Monthly distributed unemployment benefit MD: 11
+SHSS,VARMMLYD12,Månedsfordelt varighedf ledighedssydelse MD: 12,Monthly distributed unemployment benefit MD: 12
+SHSS,VARMMLYD2,Månedsfordelt varighedf ledighedssydelse MD: 2,Monthly duration of unemployment benefit MD: 2
+SHSS,VARMMLYD3,Månedsfordelt varighedf ledighedssydelse MD: 3,Monthly duration of unemployment benefit MD: 3
+SHSS,VARMMLYD4,Månedsfordelt varighedf ledighedssydelse MD: 4,Monthly duration of unemployment benefit MD: 4
+SHSS,VARMMLYD5,Månedsfordelt varighedf ledighedssydelse MD: 5,Monthly duration of unemployment benefit MD: 5
+SHSS,VARMMLYD6,Månedsfordelt varighedf ledighedssydelse MD: 6,Monthly duration of unemployment benefit MD: 6
+SHSS,VARMMLYD7,Månedsfordelt varighedf ledighedssydelse MD: 7,Monthly duration of unemployment benefit MD: 7
+SHSS,VARMMLYD8,Månedsfordelt varighedf ledighedssydelse MD: 8,Monthly duration of unemployment benefit MD: 8
+SHSS,VARMMLYD9,Månedsfordelt varighedf ledighedssydelse MD: 9,Monthly duration of unemployment benefit MD: 9
+SHSS,VARMMO1,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO10,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO11,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO12,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO2,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO3,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO4,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO5,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO6,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO7,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO8,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMO9,Månedsfordelt varighed orlov,Monthly duration of leave
+SHSS,VARMMS1,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS10,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS11,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS12,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS2,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS3,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS4,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS5,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS6,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS7,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS8,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMS9,Md.fordelt varighed syge-/barselsdagpenge,Monthly distributed duration sickness / maternity benefits
+SHSS,VARMMSF1,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity benefit
+SHSS,VARMMSF10,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity benefit
+SHSS,VARMMSF11,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity benefit
+SHSS,VARMMSF12,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity benefit
+SHSS,VARMMSF2,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity allowance
+SHSS,VARMMSF3,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity benefit
+SHSS,VARMMSF4,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity benefit
+SHSS,VARMMSF5,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity benefit
+SHSS,VARMMSF6,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity allowance
+SHSS,VARMMSF7,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity allowance
+SHSS,VARMMSF8,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity allowance
+SHSS,VARMMSF9,Månedsfordelt varighed barselsdagpenge,Monthly duration maternity benefit
+SHSS,VARMMSS1,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS10,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS11,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS12,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS2,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS3,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS4,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS5,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS6,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS7,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS8,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMSS9,Månedsfordelt varighed sygedagpenge,Monthly duration of sickness benefits
+SHSS,VARMMU1,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU10,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU11,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU12,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU2,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU3,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU4,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU5,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU6,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU7,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU8,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMU9,Månedfordelt varighed uddannelse,Monthly duration of training
+SHSS,VARMMV1,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV10,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV11,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV12,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV2,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV3,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV4,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV5,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV6,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV7,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV8,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMV9,Månedsfordelt varighed for alle pensioner,Monthly duration for all pensions
+SHSS,VARMMVA1,Månedsfordelt varighed alderspension,Monthly distributed duration old-age pension
+SHSS,VARMMVA10,Månedsfordelt varighed alderspension,Monthly duration pension
+SHSS,VARMMVA11,Månedsfordelt varighed alderspension,Monthly distributed duration old-age pension
+SHSS,VARMMVA12,Månedsfordelt varighed alderspension,Monthly duration pension
+SHSS,VARMMVA2,Månedsfordelt varighed alderspension,Monthly duration pension
+SHSS,VARMMVA3,Månedsfordelt varighed alderspension,Monthly distributed duration old-age pension
+SHSS,VARMMVA4,Månedsfordelt varighed alderspension,Monthly duration pension
+SHSS,VARMMVA5,Månedsfordelt varighed alderspension,Monthly distributed duration old-age pension
+SHSS,VARMMVA6,Månedsfordelt varighed alderspension,Monthly duration pension
+SHSS,VARMMVA7,Månedsfordelt varighed alderspension,Monthly distributed duration old-age pension
+SHSS,VARMMVA8,Månedsfordelt varighed alderspension,Monthly distributed duration old-age pension
+SHSS,VARMMVA9,Månedsfordelt varighed alderspension,Monthly distributed duration old-age pension
+SHSS,VARMMVE1,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE10,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE11,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE12,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE2,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE3,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE4,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE5,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE6,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE7,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE8,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVE9,Månedsfordelt varighed for efterløn,Monthly duration of early retirement pay
+SHSS,VARMMVF1,Månedsfordelt varighed førtidspension,Monthly distributed duration early retirement
+SHSS,VARMMVF10,Månedsfordelt varighed førtidspension,Monthly distributed duration early retirement
+SHSS,VARMMVF11,Månedsfordelt varighed førtidspension,Monthly distributed duration early retirement
+SHSS,VARMMVF12,Månedsfordelt varighed førtidspension,Monthly duration of early retirement
+SHSS,VARMMVF2,Månedsfordelt varighed førtidspension,Monthly distributed duration early retirement
+SHSS,VARMMVF3,Månedsfordelt varighed førtidspension,Monthly distributed duration early retirement
+SHSS,VARMMVF4,Månedsfordelt varighed førtidspension,Monthly distributed duration early retirement
+SHSS,VARMMVF5,Månedsfordelt varighed førtidspension,Monthly distributed duration early retirement
+SHSS,VARMMVF6,Månedsfordelt varighed førtidspension,Monthly duration of early retirement
+SHSS,VARMMVF7,Månedsfordelt varighed førtidspension,Monthly distributed duration early retirement
+SHSS,VARMMVF8,Månedsfordelt varighed førtidspension,Monthly distributed duration early retirement
+SHSS,VARMMVF9,Månedsfordelt varighed førtidspension,Monthly distributed duration early retirement
+SHSS,VARMMVT1,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT10,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT11,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT12,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT2,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT3,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT4,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT5,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT6,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT7,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT8,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVT9,Månedsfordelt varighed tjenestemandspension,Monthly duration of civil service pension
+SHSS,VARMMVX1,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX10,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX11,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX12,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX2,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX3,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX4,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX5,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX6,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX7,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX8,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VARMMVX9,MM.f. var. f alle p-typer excl. tjenestemand,MM.f. was. f all p-types excl. official
+SHSS,VAR_AF_1,Årsvar. Virksomhedspraktik (nyt indhold 2004),Annual response. Company internship (new content 2004)
+SHSS,VAR_AF_2,Årsvar. etableringsydelse,Annual response. establishment benefit
+SHSS,VAR_AF_3,Årsvar. udd. m. voksenudd.støtte,Annual response. udd. m. voksenudd.støtte
+SHSS,VAR_AF_4,Årsvar. ordinær udd. m. godtgørelse,Annual response. ordinary udd. m. compensation
+SHSS,VAR_AF_5,Årsvar. særligt tilret. udd.forløb,Annual response. specially adapted. udd.forløb
+SHSS,VAR_AF_6,Årsvar. forsøg,Annual response. experiments
+SHSS,VAR_AF_7,Årsvar. vejledning og anden AF-aktivering,Annual response. guidance and other AF activation
+SHSS,VAR_AF_8,Årsvarighed ved anden AF-aktivering,Annual duration of second AF activation
+SHSS,VAR_AK1,Årsvarighed af aktivering af unge under 25 år,Annual duration of activation of young people under 25 years
+SHSS,VAR_AK2,Årsvarighed af kontanthjælp til aktiverede over 25 år,Annual duration of cash benefits for activated persons over 25 years
+SHSS,VAR_AK3,Årsvarighed af aktivering af personer over 25 år,Annual duration of activation of persons over 25 years
+SHSS,VAR_AK4,Årsvarighed af igangsætningsydelse,Annual duration of start-up benefit
+SHSS,VAR_AK5,Årsvarighed af aktivering af flygtninge,Annual duration of refugee activation
+SHSS,VAR_AKT,Årsvarighed af aktivering (kommunal aktivering),Annual duration of activation (municipal activation)
+SHSS,VAR_ALD,Årsvarighed af folkepension,Annual duration of national pension
+SHSS,VAR_ALM,Årsvarighed ved alm. arbejdsløshedsdagp.,Annual duration at alm. unemployment day p.
+SHSS,VAR_ARB,Årsvarighed af arbejdsløshedsdagpenge,Annual duration of unemployment benefits
+SHSS,VAR_BAR,Årsvarighed med fødsels-/barselsdagpenge,Annual duration with maternity / paternity benefits
+SHSS,VAR_E,Årsvarighed af efterløn/overgangsydelse,Annual duration of early retirement pay / transitional benefit
+SHSS,VAR_F,Årsvarighed af førtidspension,Annual duration of early retirement
+SHSS,VAR_FER,Årsvarighed på feriedagpenge,Annual duration of holiday pay
+SHSS,VAR_K194,Årsvarighed af underhold (forsørgere),Annual duration of maintenance (providers)
+SHSS,VAR_K294,Årsvarighed af underhold (ikke-forsørgere),Annual duration of maintenance (non-dependents)
+SHSS,VAR_K394,Årsvarighed af underhold til flygtninge,Annual duration of maintenance for refugees
+SHSS,VAR_K494,Årsvarighed af supplerende ydelser alene,Annual duration of supplementary benefits only
+SHSS,VAR_K598,Årsvarighed af kontanthjælpspension,Annual duration of cash benefit pension
+SHSS,VAR_K699,Årsvarighed af introduktionsydelse,Annual duration of introductory benefit
+SHSS,VAR_KIS,Årsvarighed i KIS (ikke-forsikrede ledige med kontanthjælpsudbetaling),Annual duration in KIS (uninsured unemployed with cash benefit payment)
+SHSS,VAR_KON1,Årsvarighed af underhold indtil 9 mdr.,Annual duration of maintenance up to 9 months.
+SHSS,VAR_KON2,Årsvarighed af underhold efter 9 mdr.,Annual duration of maintenance after 9 months.
+SHSS,VAR_KON3,Årsvarighed af anden kontanthjælp,Annual duration of other cash benefits
+SHSS,VAR_LYD,Årsvarighed af ledighedsydelse,Annual duration of unemployment benefit
+SHSS,VAR_ORL_BP,Varighed af børnepasningsorlov,Duration of childcare leave
+SHSS,VAR_ORL_SAB,Årsvarighed af sabbatorlov,Annual duration of sabbatical law
+SHSS,VAR_ORL_UDD,Varighed af uddannelsesorlov,Duration of educational leave
+SHSS,VAR_REV_FLY,Årsvar. ved udd./revalidering (Flygtninge),Annual response. by education / rehabilitation (Refugees)
+SHSS,VAR_REV_IF,Årsvar. ved udd./rev. (Ikke flygtninge),Annual response. at udd./rev. (Not refugees)
+SHSS,VAR_SYG,Årsvarighed på sygedagpenge,Annual duration of sickness benefits
+SHSS,VAR_T,Varighed af tjenestemandspension.,Duration of civil service pension.
+SHSS,VAR_UFR,Årsvarighed af forrevalidering,Annual duration of pre-rehabilitation
+SHSS,VAR_VEJR,Årsvarighed ved vejrlig,Annual duration by weather
+SSNV,BEL_AF,Udbetalt beløb ved aktivering,Amount paid upon activation
+SSNV,BEL_AK2,Årligt udbetalt kontanthjælp til aktiverede under 25 år.,Annually paid cash benefits to activists under 25 years of age.
+SSNV,BEL_AKT,Årligt udbetalt aktiveringsydelse (kommunal aktivering),Annual paid activation benefit (municipal activation)
+SSNV,BEL_ALD,Årligt udbetalt beløb på folkepension.,Annually paid amount on national pension.
+SSNV,BEL_ARB,Årligt udbetalt arbejdsløshedsdagpenge,Annually paid unemployment benefits
+SSNV,BEL_BAR,Årligt udbetalte fødsels-/barselsdagpenge,Annually paid maternity / paternity benefits
+SSNV,BEL_E,Årligt udbetalt beløb på efterløn/overgangsydelse,Annually paid amount on early retirement / transitional benefit
+SSNV,BEL_F,Årligt udbetalt beløb på førtidspension.,Annually paid amount on early retirement.
+SSNV,BEL_KON,Årlig udbetalt underholdsydelse,Annual maintenance paid
+SSNV,BEL_LYD,Årligt udbetalt ledighedsydelse,Annually paid unemployment benefit
+SSNV,BEL_ORL,Årligt udbetalt beløb på orlovsydelse,Annually paid amount on leave benefit
+SSNV,BEL_SYG,Årligt udbetalt beløb på sygedagpenge,Annually paid amount of sickness benefits
+SSNV,BEL_T,Årlig udbetaling af tjenestemandspension.,Annual payment of civil servant pension.
+SSNV,BEL_UDA,Årligt udbetalt beløb ved uddannelse/revalidering (alle),Annual amount paid for training / rehabilitation (all)
+SSNV,DOMYD,Dominerende ydelse,Dominant performance
+SSNV,KFLAG,Kontanthjælpsmarkering,Cash benefit marking
+SSNV,NETTOK,Nettovar. kontanthjælp(Underhold+rev),Nettovar. cash assistance (Maintenance + rev)
+SSNV,NETTO_AK,Årsvarighed af kommunal aktivering.,Annual duration of municipal activation.
+SSNV,NETTO_M,Årsvarighed af midlertidige ydelser,Annual duration of temporary benefits
+SSNV,NETTO_VAR,Årsvarighed af indkomsterstattende ydelser,Annual duration of income replacement benefits
+SSNV,PNR,PERSONENS CPR-NR,PERSON'S CPR NO
+SSNV,SLSART,Slutydelse på dagpenge,Final benefit on unemployment benefits
+SSNV,SL_ART_AF,Slutydelse for AF-aktivering.,AF activation final performance.
+SSNV,SL_ART_AKT,Slutydelse på aktivering,Final performance on activation
+SSNV,SL_ART_ARB,Slutydelse på arbejdsløshedsdagpenge,Final benefit on unemployment benefits
+SSNV,SL_ART_BAR,Slutydelse på barselsdagpenge,Final payment of maternity allowance
+SSNV,SL_ART_FEL,Slutydelse i fællesreg.,Final benefit in joint account.
+SSNV,SL_ART_FEL_X,Slutydelse i fællesreg. excl. tjenest.,Final benefit in joint account. excl. service.
+SSNV,SL_ART_KON,Slutydelse på Hjælp til underhold,Final performance on Maintenance Help
+SSNV,SL_ART_LYD,Slutart for ledighedsydelse,End type for unemployment benefit
+SSNV,SL_ART_ORL,Slutydelse for orlov,Final payment for leave
+SSNV,SL_ART_REV,Slutydelse på Uddannelse/Revalidering,Final performance on Education / Rehabilitation
+SSNV,SL_ART_SYG,Slutydelse på sygedagpenge,Final benefit on sickness benefits
+SSNV,SL_ART_V,SLUTYDELSE - PENSIONER,FINAL BENEFIT - PENSIONS
+SSNV,SL_ART_VX,Slutyd på pens excl. Tjenestemandspension,End of pen excl. Civil servant pension
+SSNV,SL_MD_FEL,Slutmåned i fællesreg.,End month in joint reg.
+SSNV,SL_MD_FEL_X,Slutmåned i fællesreg. excl. tjenest.,End month in joint reg. excl. service.
+SSNV,SL_MRKM,Slutmarkering midlertig hjælp,End marking temporary help
+SSNV,STSART,Startydelse på dagpenge,Initial benefit on unemployment benefits
+SSNV,ST_ART_AF,Startydelse for AF-aktivering.,Start-up service for AF activation.
+SSNV,ST_ART_AKT,Startydelse på aktivering,Initialization of activation
+SSNV,ST_ART_ARB,Startydelse på arbejdsløshedsdagp.,Initial benefit on unemployment benefit.
+SSNV,ST_ART_BAR,Startydelse på barselsdagpenge,Initial benefit on maternity allowance
+SSNV,ST_ART_FEL,Startydelse i fællesreg.,Initial benefit in joint account.
+SSNV,ST_ART_FEL_X,Startydelse i fællesreg. excl. tjenest.,Initial benefit in joint account. excl. service.
+SSNV,ST_ART_KON,Startydelse på Hjælp til underhold,Start-up service on Help for maintenance
+SSNV,ST_ART_LYD,Startart for ledighedsydelse,Starting point for unemployment benefit
+SSNV,ST_ART_ORL,Startydelse for orlov,Initial benefit for leave
+SSNV,ST_ART_REV,Startydelse på Uddannelse/Revalidering,Initial benefit for Education / Rehabilitation
+SSNV,ST_ART_SYG,Startydelse på sygedagpenge,Initial benefit on sickness benefits
+SSNV,ST_ART_V,STARTYDELSE - PENSIONER,INITIAL BENEFIT - PENSIONS
+SSNV,ST_ART_VX,Startyd på pens excl. Tjenestemandspens,Start time on pens excl. Civil servant pension
+SSNV,ST_MD_FEL,Startmåned i fællesreg.,Starting month in joint reg.
+SSNV,ST_MD_FEL_X,Startmåned i fællesreg. excl. tjenest.,Starting month in joint reg. excl. service.
+SSNV,ST_MRKM,Startmarkering midlertidig hjælp,Start mark temporary help
+SSNV,TDOMYD,Dominerende ydelse året før,Dominant performance the year before
+SSNV,TDOMYD94,Dominerende ydelse året før,Dominant performance the year before
+SSNV,TDOMYD96,Dominerende ydelse året før,Dominant performance the year before
+SSNV,VARLED,Årsvarighed på arbejdsløshedsdagpenge,Annual duration of unemployment benefits
+SSNV,VAR_AF_B,Årsvarighed af AF-aktivering (beskæftigelse),Annual duration of AF activation (employment)
+SSNV,VAR_AF_F,Årsvarighed ved AF-aktivering (forsøg),Annual duration of AF activation (trial)
+SSNV,VAR_AF_FA,Årsvarighed af AF-aktivering (anden AF-aktivering),Annual duration of AF activation (other AF activation)
+SSNV,VAR_AF_U,Årsvarighed af AF-aktivering (uddannelse),Year duration of AF activation (education)
+SSNV,VAR_AK2,Årsvarighed af kontanthjælp til aktiverede over 25 år,Annual duration of cash benefits for activated persons over 25 years
+SSNV,VAR_AKT,Årsvarighed af aktivering (kommunal aktivering),Annual duration of activation (municipal activation)
+SSNV,VAR_ALD,Årsvarighed af folkepension,Annual duration of national pension
+SSNV,VAR_BAR,Årsvarighed med fødsels-/barselsdagpenge,Annual duration with maternity / paternity benefits
+SSNV,VAR_E,Årsvarighed af efterløn/overgangsydelse,Annual duration of early retirement pay / transitional benefit
+SSNV,VAR_F,Årsvarighed af førtidspension,Annual duration of early retirement
+SSNV,VAR_KIS,Årsvarighed i KIS (ikke-forsikrede ledige med kontanthjælpsudbetaling),Annual duration in KIS (uninsured unemployed with cash benefit payment)
+SSNV,VAR_KON,Årsvarighed af hjælp til underhold,Annual duration of maintenance assistance
+SSNV,VAR_LYD,Årsvarighed af ledighedsydelse,Annual duration of unemployment benefit
+SSNV,VAR_ORL_BP,Varighed af børnepasningsorlov,Duration of childcare leave
+SSNV,VAR_ORL_SAB,Årsvarighed af sabbatorlov,Annual duration of sabbatical law
+SSNV,VAR_ORL_UDD,Varighed af uddannelsesorlov,Duration of educational leave
+SSNV,VAR_SYG,Årsvarighed på sygedagpenge,Annual duration of sickness benefits
+SSNV,VAR_T,Varighed af tjenestemandspension.,Duration of civil service pension.
+SSNV,VAR_UDA,Årsvarighed af uddannelse/revalidering (alle),Annual duration of training / rehabilitation (all)
+SSSY,AFRPER,Afregningsperiode,Settlement period
+SSSY,ALDERIMP,Alder ultimo inkl. imputerede,End of age incl. imputed
+SSSY,BARNMAK,Barnemarkering,Child marking
+SSSY,BRUHON,Bruttohonorar til læge mv.,"Gross fees for doctors, etc."
+SSSY,CPRTJEK,CPR-tjek,CPR check
+SSSY,CPRTYPE,CPR-type,CPR type
+SSSY,HONUGE,Honoraruge,Honoraruge
+SSSY,KOENIMP,Køn inkl. imputerede,Gender incl. imputed
+SSSY,KONTAKT,Kontakt,Contact
+SSSY,PATGRP,Patientgruppe,Patient group
+SSSY,PNR,Personnummer,Social security number
+SSSY,SIKGRUP,Sygesikringsgruppe,Health insurance group
+SSSY,SPEC2,2-cifret speciale,2-digit specialty
+SSSY,SPECIALE,6-cifret speciale,6-digit specialty
+SSSY,VERSION,ModulData versionsnummer,ModulData version number
+SSSY,YDERNR,Ydernummer,Outer number
+SSSY,YDERSAMT,Yders amt,Yders amt
+SSSY,YDLANT,Antal ydelser under specialet,Number of benefits under the thesis
+SSSY,YDLTID,Tidspunktskode for ydelsen,Time code for the service
+SSSY,YDTYP,Ydertype,Outer type
+SSSY,CPRTJEK,,
+SSSY,CPRTYPE,,
+SSSY,VERSION,,
+SYSI,AFRPER,Afregningsperiode,Settlement period
+SYSI,BARNMAK,Barnemarkering,Child marking
+SYSI,BRUHON,Bruttohonorar til læge mv.,"Gross fees for doctors, etc."
+SYSI,GRDHON,GRUNDHONORAR,BASIC FEES
+SYSI,HENVISNI,Henvisningsydernummer,Reference outside number
+SYSI,HONUGE,Honoraruge,Honoraruge
+SYSI,PARAGRAF,PARAGRAFRELATION,PARAGRAPH RELATIONSHIP
+SYSI,PATTYP,Patienttype,Patient type
+SYSI,PNR,Sikredes personnummer,Secured social security number
+SYSI,PRAKSISO,PRAKSISOMRÅDE,AREA OF PRACTICE
+SYSI,PRAKTYP,Praksistype,Type of practice
+SYSI,SIKGRUP,Sikringsgruppe,Security group
+SYSI,SIKREAMT,Sikredes amt,Sikredes amt
+SYSI,SIKREKOM,Sikredes kommune,Secured municipality
+SYSI,SPECIALE,6-cifret speciale,6-digit specialty
+SYSI,VAGTOMR,VAGTOMRÅDE,GUARD AREA
+SYSI,YDERNR,Ydernummer,Outer number
+SYSI,YDERSAMT,Yders amt,Yders amt
+SYSI,YDLANT,Antal ydelser under specialet,Number of benefits under the thesis
+SYSI,YDLTID,Tidspunktskode for ydelsen,Time code for the service
+SYSI,YDTYP,Ydertype,Outer type
+SYSI,SIKREKOM,,
+SYST,BARNMAK,Barnemarkering,Child marking
+SYST,KOMMUNE,BOPÆLS KOMMUNE,MUNICIPALITY OF RESIDENCE
+SYST,KONTAKT,Kontakt,Contact
+SYST,PNR,PERSONNUMMER,PERSONNUMMER
+SYST,SIKGRUP,Sikringsgruppe,Security group
+SYST,SPEC4,4-CIFRET SPECIALE NR.,4-DIGITAL SPECIAL NO.
+SYST,SUMBRU,SUM BRUTTOHONORAR,SUM GROSS HONORS
+SYST,SUMYDL,SUM AF ANTAL YDELSER,SUM OF NUMBER OF BENEFITS
+UAF_ADM,CPRTJEK,Ingen label,No label
+UAF_ADM,CPRTYPE,Ingen label,No label
+UAF_ADM,C_ADIAG,Ingen label,No label
+UAF_ADM,C_AFD,Ingen label,No label
+UAF_ADM,C_AMT,Ingen label,No label
+UAF_ADM,C_BLOK,Ingen label,No label
+UAF_ADM,C_BOPAMT,Ingen label,No label
+UAF_ADM,C_EAKT,Ingen label,No label
+UAF_ADM,C_EMEK,Ingen label,No label
+UAF_ADM,C_EMODPART,Ingen label,No label
+UAF_ADM,C_EPART,Ingen label,No label
+UAF_ADM,C_ESTED,Ingen label,No label
+UAF_ADM,C_ETRAF,Ingen label,No label
+UAF_ADM,C_HAFD,Ingen label,No label
+UAF_ADM,C_HENM,Ingen label,No label
+UAF_ADM,C_HSGH,Ingen label,No label
+UAF_ADM,C_INDM,Ingen label,No label
+UAF_ADM,C_KOM,Ingen label,No label
+UAF_ADM,C_KONTAARS,Ingen label,No label
+UAF_ADM,C_NYAFD,Ingen label,No label
+UAF_ADM,C_PATTYPE,Ingen label,No label
+UAF_ADM,C_SEX,Ingen label,No label
+UAF_ADM,C_SGH,Ingen label,No label
+UAF_ADM,C_SGHAMT,Ingen label,No label
+UAF_ADM,C_SPEC,Ingen label,No label
+UAF_ADM,C_UDM,Ingen label,No label
+UAF_ADM,D_EBHDTO,Ingen label,No label
+UAF_ADM,D_FUSDTO,Ingen label,No label
+UAF_ADM,D_HENDTO,Ingen label,No label
+UAF_ADM,D_INDDTO,Ingen label,No label
+UAF_ADM,D_OPDATDTO,Ingen label,No label
+UAF_ADM,D_UDDTO,Ingen label,No label
+UAF_ADM,K_AFD,Ingen label,No label
+UAF_ADM,LEVERANCEDATO,Ingen label,No label
+UAF_ADM,PNR,Ingen label,No label
+UAF_ADM,RECNUM,Ingen label,No label
+UAF_ADM,VERSION,Ingen label,No label
+UAF_ADM,V_ALDDG,Ingen label,No label
+UAF_ADM,V_ALDER,Ingen label,No label
+UAF_ADM,V_ALDMDR,Ingen label,No label
+UAF_ADM,V_BEHDAGE,Ingen label,No label
+UAF_ADM,V_INDMINUT,Ingen label,No label
+UAF_ADM,V_INDTIME,Ingen label,No label
+UAF_ADM,V_SENGDAGE,Ingen label,No label
+UAF_ADM,V_UDTIME,Ingen label,No label
+UAF_ADM,CPRTJEK,,
+UAF_ADM,CPRTYPE,,
+UAF_ADM,RECNUM,,
+UAF_ADM,VERSION,,
+UAF_BES,D_AMBDTO,Ingen label,No label
+UAF_BES,LEVERANCEDATO,Ingen label,No label
+UAF_BES,RECNUM,Ingen label,No label
+UAF_BES,VERSION,Ingen label,No label
+UAF_BES,RECNUM,,
+UAF_BES,VERSION,,
+UAF_DIAG,C_DIAG,Ingen label,No label
+UAF_DIAG,C_DIAGTYPE,Ingen label,No label
+UAF_DIAG,C_TILDIAG,Ingen label,No label
+UAF_DIAG,LEVERANCEDATO,Ingen label,No label
+UAF_DIAG,RECNUM,Ingen label,No label
+UAF_DIAG,VERSION,Ingen label,No label
+UAF_DIAG,RECNUM,,
+UAF_DIAG,VERSION,,
+UAF_OPR,C_KOMB,Ingen label,No label
+UAF_OPR,C_OAFD,Ingen label,No label
+UAF_OPR,C_OPR,Ingen label,No label
+UAF_OPR,C_OSGH,Ingen label,No label
+UAF_OPR,LEVERANCEDATO,Ingen label,No label
+UAF_OPR,RECNUM,Ingen label,No label
+UAF_OPR,VERSION,Ingen label,No label
+UAF_OPR,RECNUM,,
+UAF_OPR,VERSION,,
+UAF_SKSOPR,C_OAFD,Ingen label,No label
+UAF_SKSOPR,C_OPR,Ingen label,No label
+UAF_SKSOPR,C_OPRART,Ingen label,No label
+UAF_SKSOPR,C_OSGH,Ingen label,No label
+UAF_SKSOPR,C_TILOPR,Ingen label,No label
+UAF_SKSOPR,D_ODTO,Ingen label,No label
+UAF_SKSOPR,LEVERANCEDATO,Ingen label,No label
+UAF_SKSOPR,RECNUM,Ingen label,No label
+UAF_SKSOPR,VERSION,Ingen label,No label
+UAF_SKSOPR,V_OMINUT,Ingen label,No label
+UAF_SKSOPR,V_OTIME,Ingen label,No label
+UAF_SKSOPR,RECNUM,,
+UAF_SKSOPR,VERSION,,
+UDDA,ALMAUDD,Højst fuldførte almen uddannelse,Highly completed general education
+UDDA,ALMINSTNR,"Institutionsnummer, højst fuldført almene uddannelse","Institution number, maximum completed general education"
+UDDA,ALM_VFRA,Tidspunkt for opnået almenuddannelse,Time for general education
+UDDA,CPRTJEK,CPR-tjek,CPR check
+UDDA,CPRTYPE,CPR-type,CPR type
+UDDA,ERHAUDD,Højst fuldførte erhvervskompetencegivende uddannelse,Highly completed vocational qualifications
+UDDA,ERHINSTNR,"Institutionsnummer, højst fuldførte erhvervskompetencegivende uddannelse","Institution number, highly completed vocational qualification"
+UDDA,ERH_VFRA,Tidspunkt for opnået erhvervskompetancegivende uddannelse,Time for vocational training
+UDDA,HFAUDD,Højste fuldførte uddannelse,Highest completed education
+UDDA,HFINSTNR,"Institutionsnummer, højst fuldført uddannelse","Institution number, highly completed education"
+UDDA,HF_KILDE,Kilde til uddannelsesoplysningen,Source of educational information
+UDDA,HF_VFRA,Tidspunkt for opnået højst fuldførte uddannelse,Time of highest completed education
+UDDA,IGINSTNR,"Institutionsnummer, igangværende uddannelse","Institution number, current education"
+UDDA,IG_VFRA,Påbegyndelsestidspunkt for igangværende uddannelse,Start time for ongoing training
+UDDA,PNR,Personnummer,Social security number
+UDDA,UDD,Uddannelseskode,Education code
+UDDA,VERSION,"1-Forløbig version 2-Endelig version, eller efterfølgende rettet versi","1-Preliminary version 2-Final version, or subsequent corrected version"
+UDDA,ALMAUDD,,
+UDDA,ALM_VFRA,,
+UDDA,CPRTJEK,,
+UDDA,CPRTYPE,,
+UDDA,ERHAUDD,,
+UDDA,ERH_VFRA,,
+UDDA,HF_VFRA,,
+UDDA,VERSION,,
+VNDS,CPRTJEK,CPR-tjek,CPR check
+VNDS,CPRTYPE,CPR-type,CPR type
+VNDS,HAEND_DATO,Hændelsesdato,Event date
+VNDS,INDUD_KODE,Ingen label,No label
+VNDS,INDUD_LAND,Ingen label,No label
+VNDS,PNR,Personnummer,Social security number
+VNDS,CPRTJEK,,
+VNDS,CPRTYPE,,
+VNDS,CPRTJEK,CPR-tjek,CPR check
+VNDS,CPRTYPE,CPR-type,CPR type
+VNDS,HAEND_DATO,Hændelsesdato,Event date
+VNDS,INDUD_KODE,Ingen label,No label
+VNDS,INDUD_LAND,Ingen label,No label
+VNDS,PNR,Personnummer,Social security number
+VNDS,CPRTJEK,,
+VNDS,CPRTYPE,,
