@@ -104,19 +104,15 @@ scraped_variable_numbers <- scraped_table_numbers %>%
     rename(variable_id = Numbers, variable_name = Names) %>%
     mutate(url_extension = glue("{url_extension}&vid={variable_id}"))
 
-# saveRDS(scraped_variable_numbers, here::here("data/scraped-variables.Rds"))
-
 tidied_scraped_descriptions <- scraped_variable_numbers %>%
     pull(url_extension) %>%
     # TODO: Fix so it isn't converted into wide format.
     scrape_and_tidy(tidy_scraped_descriptions)
 
-saveRDS(tidied_scraped_descriptions, here::here("data/sds-variable-descriptions.Rds"))
+write_csv(tidied_scraped_descriptions, here::here("data-raw/sds/variable-descriptions.csv"))
+tidied_scraped_descriptions <- read_csv(here::here("data-raw/sds/variable-descriptions.csv"))
 
-
-tidied_scraped_descriptions <- readRDS(here::here("data/sds-variable-descriptions.Rds"))
-
-tidied_descriptions_2 <- tidied_scraped_descriptions %>%
+tidied_descriptions <- tidied_scraped_descriptions %>%
     pivot_longer(cols = everything(),
                  names_to = "id",
                  values_to = "variable_description") %>%
@@ -130,8 +126,6 @@ tidied_descriptions_2 <- tidied_scraped_descriptions %>%
              sep = "::") %>%
     mutate(across(everything(), str_trim))
 
-
-
 full_variable_list <- scraped_variable_numbers %>%
     mutate(url_extension = url_extension %>%
                str_remove("&vid=.*$") %>%
@@ -144,21 +138,33 @@ full_variable_list <- scraped_variable_numbers %>%
     full_join(select(kept_registers, -url_extension), by = "register_id") %>%
     full_join(select(scraped_table_numbers, -url_extension), by = "table_id")
 
-saveRDS(full_variable_list, here::here("data/sds-variables.Rds"))
-full_variable_list <- readRDS(here::here("data/sds-variables.Rds"))
+write_csv(full_variable_list, here::here("data-raw/sds/variables.csv"))
+full_variable_list <- read_csv(here::here("data-raw/sds/variables.csv"))
 
 tidied_variable_list <- full_variable_list %>%
     mutate(id = glue("?rid={register_id}&tid={table_id}&vid={variable_id}") %>%
                as.character())
 
-tidied_descriptions_2 %>%
+tidy_prep <- tidied_descriptions %>%
     mutate(description_title = description_title %>%
                str_replace_all("æ", "ae") %>%
                to_snake_case()) %>%
-    filter(description_text != "") %>%
-    full_join(tidied_variable_list) %>%
+    filter(description_text != "",
+           description_title != "sidst_aendret",
+           !(description_title == "periode" &
+                 str_detect(description_text, "Tabellen indeholder kontakter"))) %>%
+    group_by(id, description_title) %>%
+    add_count()
+
+tidy_prep %>%
+    # There are some duplicates here, this fixes many but not all.
+    filter(n > 1) %>%
+    summarise(description_text = unique(description_text)) %>%
+    ungroup() %>%
+    full_join(tidied_variable_list, by = "id") %>%
     pivot_wider(names_from = description_title,
-                values_from = description_text) %>%
+                values_from = description_text,
+                values_fn = list) %>%
     View()
 
 
