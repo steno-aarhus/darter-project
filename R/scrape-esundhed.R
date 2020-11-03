@@ -1,13 +1,8 @@
 
 library(rvest)
 # TODO: Since esundhed uses an API, don't need to use polite.
-library(polite)
-library(tibble)
-library(purrr)
-library(stringr)
+library(tidyverse)
 library(glue)
-library(tidyr)
-library(dplyr)
 library(snakecase)
 conflicted::conflict_prefer("filter", "dplyr")
 
@@ -68,8 +63,7 @@ tidy_scraped_descriptions <- function(.scraped_object) {
 
 scrape_and_tidy <- function(.url_extensions, .tidy_fn) {
     .url_extensions %>%
-        map( ~ nod(esundhed, glue("{esundhed_api_path}{.}"))) %>%
-        map(scrape) %>%
+        map( ~ read_html(glue("{esundhed_base_url}/{.}"))) %>%
         set_names(.url_extensions) %>%
         # TODO: This converts to wide, rather than by row... needs to be fixed
         map_dfr(.tidy_fn, .id = "url_extension")
@@ -78,41 +72,40 @@ scrape_and_tidy <- function(.url_extensions, .tidy_fn) {
 
 stop("To prevent accidental sourcing.")
 
-# Scraping ----------------------------------------------------------------
+# Scraping URL extensions -------------------------------------------------
 
-esundhed_api_path <- "api/sitecore/documentation/documentation"
-esundhed <- bow("https://www.esundhed.dk")
-scraped_register_numbers <- esundhed %>%
-    nod(esundhed_api_path) %>%
-    scrape() %>%
+esundhed_base_url <- "https://www.esundhed.dk/api/sitecore/documentation/documentation"
+register_numbers <- esundhed_base_url %>%
+    read_html() %>%
     tidy_scraped_registers()
 
-kept_registers <- scraped_register_numbers %>%
+kept_register_numbers <- register_numbers %>%
     filter(Numbers %in% c(5, 9, 12, 17, 18, 19)) %>%
     mutate(url_extension = glue("?rid={Numbers}")) %>%
     rename(register_id = Numbers, register_name = Names)
 
-scraped_table_numbers <- kept_registers %>%
+register_table_numbers <- kept_register_numbers %>%
     pull(url_extension) %>%
     scrape_and_tidy(tidy_scraped_register_tables) %>%
     rename(table_id = Numbers, table_name = Names) %>%
     mutate(url_extension = glue("{url_extension}&tid={table_id}"))
 
-scraped_variable_numbers <- scraped_table_numbers %>%
+register_variable_numbers <- register_table_numbers %>%
     pull(url_extension) %>%
     scrape_and_tidy(tidy_scraped_register_variables) %>%
     rename(variable_id = Numbers, variable_name = Names) %>%
     mutate(url_extension = glue("{url_extension}&vid={variable_id}"))
 
-tidied_scraped_descriptions <- scraped_variable_numbers %>%
+# Scraping descriptions ---------------------------------------------------
+
+tidied_descriptions <- register_variable_numbers %>%
     pull(url_extension) %>%
-    # TODO: Fix so it isn't converted into wide format.
     scrape_and_tidy(tidy_scraped_descriptions)
 
-write_csv(tidied_scraped_descriptions, here::here("data-raw/sds/variable-descriptions.csv"))
-tidied_scraped_descriptions <- read_csv(here::here("data-raw/sds/variable-descriptions.csv"))
+write_csv(tidied_descriptions, here::here("data-raw/sds/registers-descriptions.csv"))
+tidied_descriptions <- read_csv(here::here("data-raw/sds/registers-descriptions.csv"))
 
-tidied_descriptions <- tidied_scraped_descriptions %>%
+tidied_descriptions_long <- tidied_descriptions %>%
     pivot_longer(cols = everything(),
                  names_to = "id",
                  values_to = "variable_description") %>%
@@ -126,7 +119,7 @@ tidied_descriptions <- tidied_scraped_descriptions %>%
              sep = "::") %>%
     mutate(across(everything(), str_trim))
 
-full_variable_list <- scraped_variable_numbers %>%
+full_variable_list <- register_variable_numbers %>%
     mutate(url_extension = url_extension %>%
                str_remove("&vid=.*$") %>%
                str_remove_all("[?&]") %>%
@@ -135,8 +128,8 @@ full_variable_list <- scraped_variable_numbers %>%
     separate(url_extension,
              into = c("register_id", "table_id"),
              sep = "=") %>%
-    full_join(select(kept_registers, -url_extension), by = "register_id") %>%
-    full_join(select(scraped_table_numbers, -url_extension), by = "table_id")
+    full_join(select(kept_register_numbers, -url_extension), by = "register_id") %>%
+    full_join(select(register_table_numbers, -url_extension), by = "table_id")
 
 write_csv(full_variable_list, here::here("data-raw/sds/variables.csv"))
 full_variable_list <- read_csv(here::here("data-raw/sds/variables.csv"))
@@ -145,7 +138,7 @@ tidied_variable_list <- full_variable_list %>%
     mutate(id = glue("?rid={register_id}&tid={table_id}&vid={variable_id}") %>%
                as.character())
 
-tidy_prep <- tidied_descriptions %>%
+tidy_prep <- tidied_descriptions_long %>%
     mutate(description_title = description_title %>%
                str_replace_all("æ", "ae") %>%
                to_snake_case()) %>%
@@ -157,15 +150,21 @@ tidy_prep <- tidied_descriptions %>%
     add_count()
 
 tidy_prep %>%
-    # There are some duplicates here, this fixes many but not all.
     filter(n > 1) %>%
-    summarise(description_text = unique(description_text)) %>%
     ungroup() %>%
+    count(description_title)
+
+sds_descriptions <- tidy_prep %>%
+    # There are some duplicates here, this fixes many but not all.
+    summarise(description_text = unique(description_text),
+              .groups = "drop") %>%
     full_join(tidied_variable_list, by = "id") %>%
     pivot_wider(names_from = description_title,
                 values_from = description_text,
                 values_fn = list) %>%
-    View()
+    unnest(-periode) %>%
+    select(-format, -laengde, -funktion, -kilder, -kodesaet,
+           -vaerdier)
 
 
 # Translate via https://translate.google.dk/#view=home&op=docs&sl=da&tl=en
