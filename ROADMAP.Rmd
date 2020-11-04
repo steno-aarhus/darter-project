@@ -25,7 +25,6 @@
 library(readr)
 library(dplyr)
 library(gt)
-library(fontawesome)
 source(here::here("R/gantt.R"))
 conflicted::conflict_prefer("filter", "dplyr", quiet = TRUE)
 tasks <- read_csv(here::here("resources/tasks.csv"),
