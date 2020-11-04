@@ -1,6 +1,5 @@
 
 library(rvest)
-# TODO: Since esundhed uses an API, don't need to use polite.
 library(tidyverse)
 library(glue)
 library(snakecase)
@@ -103,21 +102,6 @@ tidied_descriptions <- register_variable_numbers %>%
     scrape_and_tidy(tidy_scraped_descriptions)
 
 write_csv(tidied_descriptions, here::here("data-raw/sds/registers-descriptions.csv"))
-tidied_descriptions <- read_csv(here::here("data-raw/sds/registers-descriptions.csv"))
-
-tidied_descriptions_long <- tidied_descriptions %>%
-    pivot_longer(cols = everything(),
-                 names_to = "id",
-                 values_to = "variable_description") %>%
-    mutate(variable_description = variable_description %>%
-               str_replace_all("  +", " ") %>%
-               str_replace_all(":: ?", ": ") %>%
-               str_replace(": ", "::") %>%
-               str_remove_all("\t")) %>%
-    separate(variable_description,
-             into = c("description_title", "description_text"),
-             sep = "::") %>%
-    mutate(across(everything(), str_trim))
 
 full_variable_list <- register_variable_numbers %>%
     mutate(url_extension = url_extension %>%
@@ -132,7 +116,25 @@ full_variable_list <- register_variable_numbers %>%
     full_join(select(register_table_numbers, -url_extension), by = "table_id")
 
 write_csv(full_variable_list, here::here("data-raw/sds/variables.csv"))
+
+# Prepare descriptions ----------------------------------------------------
+
+tidied_descriptions <- read_csv(here::here("data-raw/sds/registers-descriptions.csv"))
 full_variable_list <- read_csv(here::here("data-raw/sds/variables.csv"))
+
+tidied_descriptions_long <- tidied_descriptions %>%
+    pivot_longer(cols = everything(),
+                 names_to = "id",
+                 values_to = "variable_description") %>%
+    mutate(variable_description = variable_description %>%
+               str_replace_all("  +", " ") %>%
+               str_replace_all(":: ?", ": ") %>%
+               str_replace(": ", "::") %>%
+               str_remove_all("\t")) %>%
+    separate(variable_description,
+             into = c("description_title", "description_text"),
+             sep = "::") %>%
+    mutate(across(everything(), str_trim))
 
 tidied_variable_list <- full_variable_list %>%
     mutate(id = glue("?rid={register_id}&tid={table_id}&vid={variable_id}") %>%
@@ -164,7 +166,64 @@ sds_descriptions <- tidy_prep %>%
                 values_fn = list) %>%
     unnest(-periode) %>%
     select(-format, -laengde, -funktion, -kilder, -kodesaet,
-           -vaerdier)
+           -vaerdier, -ends_with("_id"))
+
+View(sds_descriptions)
 
 
-# Translate via https://translate.google.dk/#view=home&op=docs&sl=da&tl=en
+# For translation ---------------------------------------------------------
+
+# For translating this file, it's too big to put into Google Translate to
+# translate it all at once. So, you'll need to make a copy, open it up in a
+# spreadsheet program, delete the first two columns, save as a txt file and then
+# upload the file to this location https://translate.google.dk/#view=home&op=docs&sl=auto&tl=en
+# After that, open the original csv file and highlight the text until the point
+# when Translate stopped. Then, paste the output into a new column for the
+# translation, open the copy and delete the rows you just translated, and then
+# repeat the process. It shouldn't take too long.
+sds_descriptions %>%
+    select(-ends_with("_name"), -periode) %>%
+    pivot_longer(-id) %>%
+    count(name, value) %>%
+    rowid_to_column() %>%
+    write_csv(here::here("data-raw/sds/descriptions-for-translations.csv"))
+
+# Saving final descriptions -----------------------------------------------
+
+# After pasting the translation, we'll join with the translated files with
+# the non-translated files, join both dataframes into a single dataframe,
+# and save to data/.
+sds_descriptions_translated <- sds_descriptions %>%
+    select(-ends_with("_name"), -periode) %>%
+    pivot_longer(-id) %>%
+    count(name, value) %>%
+    select(-n) %>%
+    rowid_to_column() %>%
+    full_join(read_csv(here::here("data-raw/sds/descriptions-for-translations.csv")) %>%
+                  select(-name, -value),
+              by = "rowid") %>%
+    arrange(rowid)
+
+sds_descriptions %>%
+    pivot_longer(-c(id, ends_with("_name"), periode)) %>%
+    full_join(sds_descriptions_translated %>%
+                  select(-rowid),
+              by = c("name", "value")) %>%
+    mutate(name_english = snakecase::to_snake_case(name_english) %>%
+               str_replace("kort_om_registeret", "short_register_description"),
+           name_english = case_when(
+               str_detect(name_english, "known_dat") ~ "known_data_break_changes",
+               str_detect(name_english, "table_content") ~ "table_contents",
+               TRUE ~ name_english
+           )) %>%
+    select(-name, -value) %>%
+    pivot_wider(names_from = name_english,
+                values_from = value_english) %>%
+    full_join(sds_descriptions,
+              by = c("id", "variable_name", "register_name", "table_name", "periode")) %>%
+    select(-id) %>%
+    relocate(register_name, table_name, variable_name) %>%
+    unnest(periode) %>%
+    write_csv(here::here("data/sds-registers-with-variables.csv"))
+
+
