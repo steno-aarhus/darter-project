@@ -1,0 +1,1564 @@
+register_id,table_id,variable_id,variable_name,register_name,table_name
+5,7,42,c_adiag,Landspatientregisteret,t_adm
+5,7,43,c_afd,Landspatientregisteret,t_adm
+5,7,44,c_amt,Landspatientregisteret,t_adm
+5,7,45,c_andenbeh,Landspatientregisteret,t_adm
+5,7,46,c_blok,Landspatientregisteret,t_adm
+5,7,47,c_eakt,Landspatientregisteret,t_adm
+5,7,48,c_emek,Landspatientregisteret,t_adm
+5,7,49,c_emodpart,Landspatientregisteret,t_adm
+5,7,50,c_epart,Landspatientregisteret,t_adm
+5,7,51,c_ested,Landspatientregisteret,t_adm
+5,7,52,c_etraf,Landspatientregisteret,t_adm
+5,7,53,c_hafd,Landspatientregisteret,t_adm
+5,7,54,c_henm,Landspatientregisteret,t_adm
+5,7,55,c_hsgh,Landspatientregisteret,t_adm
+5,7,56,c_indform,Landspatientregisteret,t_adm
+5,7,57,c_indfra,Landspatientregisteret,t_adm
+5,7,58,c_indm,Landspatientregisteret,t_adm
+5,7,59,c_kom,Landspatientregisteret,t_adm
+5,7,60,c_kontaars,Landspatientregisteret,t_adm
+5,7,61,c_pattype,Landspatientregisteret,t_adm
+5,7,62,c_senstat,Landspatientregisteret,t_adm
+5,7,63,c_sex,Landspatientregisteret,t_adm
+5,7,64,c_sgh,Landspatientregisteret,t_adm
+5,7,65,c_sghamt,Landspatientregisteret,t_adm
+5,7,66,c_spec,Landspatientregisteret,t_adm
+5,7,67,c_udm,Landspatientregisteret,t_adm
+5,7,68,c_udtil,Landspatientregisteret,t_adm
+5,7,69,c_ulykke,Landspatientregisteret,t_adm
+5,7,70,d_ebhdto,Landspatientregisteret,t_adm
+5,7,71,d_fusdto,Landspatientregisteret,t_adm
+5,7,72,d_hendto,Landspatientregisteret,t_adm
+5,7,73,d_inddto,Landspatientregisteret,t_adm
+5,7,74,d_opdatdto,Landspatientregisteret,t_adm
+5,7,75,d_uddto,Landspatientregisteret,t_adm
+5,7,76,k_recnum,Landspatientregisteret,t_adm
+5,7,77,v_alddg,Landspatientregisteret,t_adm
+5,7,78,v_alder,Landspatientregisteret,t_adm
+5,7,79,v_aldmdr,Landspatientregisteret,t_adm
+5,7,80,v_behdage,Landspatientregisteret,t_adm
+5,7,81,v_cpr,Landspatientregisteret,t_adm
+5,7,82,v_indminut,Landspatientregisteret,t_adm
+5,7,83,v_indtime,Landspatientregisteret,t_adm
+5,7,84,v_sengdage,Landspatientregisteret,t_adm
+5,7,85,v_udtime,Landspatientregisteret,t_adm
+5,8,86,c_oafd,Landspatientregisteret,t_afl
+5,8,87,c_opr,Landspatientregisteret,t_afl
+5,8,88,c_oprart,Landspatientregisteret,t_afl
+5,8,89,c_osgh,Landspatientregisteret,t_afl
+5,8,90,c_tilopr,Landspatientregisteret,t_afl
+5,8,91,v_recnum,Landspatientregisteret,t_afl
+5,9,99,v_recnum,Landspatientregisteret,t_distkod
+5,9,100,v_distkod,Landspatientregisteret,t_distkod
+5,10,110,c_fritvalg,Landspatientregisteret,t_fritvalg
+5,10,111,v_recnum,Landspatientregisteret,t_fritvalg
+5,11,169,v_recnum,Landspatientregisteret,t_opdatdto
+5,11,170,d_opdatdto,Landspatientregisteret,t_opdatdto
+5,12,112,c_komb,Landspatientregisteret,t_opr
+5,12,113,c_oafd,Landspatientregisteret,t_opr
+5,12,114,c_opr,Landspatientregisteret,t_opr
+5,12,115,c_osgh,Landspatientregisteret,t_opr
+5,12,116,v_recnum,Landspatientregisteret,t_opr
+5,13,124,c_perskat1,Landspatientregisteret,t_pers
+5,13,125,c_perskat2,Landspatientregisteret,t_pers
+5,13,126,c_perskat3,Landspatientregisteret,t_pers
+5,13,127,c_psykyd,Landspatientregisteret,t_pers
+5,13,128,c_ydsted,Landspatientregisteret,t_pers
+5,13,129,d_ambdto,Landspatientregisteret,t_pers
+5,13,130,v_recnum,Landspatientregisteret,t_pers
+5,14,131,c_indfra,Landspatientregisteret,t_psykio
+5,14,132,c_indvilk,Landspatientregisteret,t_psykio
+5,14,133,c_udtil,Landspatientregisteret,t_psykio
+5,14,134,v_recnum,Landspatientregisteret,t_psykio
+5,15,135,c_oafd,Landspatientregisteret,t_sksopr
+5,15,136,c_opr,Landspatientregisteret,t_sksopr
+5,15,137,c_oprart,Landspatientregisteret,t_sksopr
+5,15,138,c_osgh,Landspatientregisteret,t_sksopr
+5,15,139,c_tilopr,Landspatientregisteret,t_sksopr
+5,15,140,d_odto,Landspatientregisteret,t_sksopr
+5,15,141,v_recnum,Landspatientregisteret,t_sksopr
+5,15,142,v_ominut,Landspatientregisteret,t_sksopr
+5,15,143,v_otime,Landspatientregisteret,t_sksopr
+5,16,144,c_oafd,Landspatientregisteret,t_sksube
+5,16,145,c_opr,Landspatientregisteret,t_sksube
+5,16,146,c_oprart,Landspatientregisteret,t_sksube
+5,16,147,c_osgh,Landspatientregisteret,t_sksube
+5,16,148,c_tilopr,Landspatientregisteret,t_sksube
+5,16,149,d_odto,Landspatientregisteret,t_sksube
+5,16,150,v_recnum,Landspatientregisteret,t_sksube
+5,16,151,v_ominut,Landspatientregisteret,t_sksube
+5,16,152,v_otime,Landspatientregisteret,t_sksube
+5,17,153,c_precision,Landspatientregisteret,t_stedf
+5,17,154,c_utm,Landspatientregisteret,t_stedf
+5,17,155,v_recnum,Landspatientregisteret,t_stedf
+5,17,156,v_xkoord,Landspatientregisteret,t_stedf
+5,17,157,v_ykoord,Landspatientregisteret,t_stedf
+5,18,158,c_udtilafd,Landspatientregisteret,t_udtilsgh
+5,18,159,c_udtilsgh,Landspatientregisteret,t_udtilsgh
+5,18,160,v_recnum,Landspatientregisteret,t_udtilsgh
+5,19,161,c_art,Landspatientregisteret,t_ulyk
+5,19,162,c_tilulyk,Landspatientregisteret,t_ulyk
+5,19,163,c_ulyk,Landspatientregisteret,t_ulyk
+5,19,164,v_recnum,Landspatientregisteret,t_ulyk
+5,20,165,c_vstatus,Landspatientregisteret,t_vente
+5,20,166,d_vsldto,Landspatientregisteret,t_vente
+5,20,167,d_vstdto,Landspatientregisteret,t_vente
+5,20,168,v_recnum,Landspatientregisteret,t_vente
+5,21,92,d_ambdto,Landspatientregisteret,t_bes
+5,21,93,v_recnum,Landspatientregisteret,t_bes
+5,22,94,c_diag,Landspatientregisteret,t_diag
+5,22,95,c_diagmod,Landspatientregisteret,t_diag
+5,22,96,c_diagtype,Landspatientregisteret,t_diag
+5,22,97,c_tildiag,Landspatientregisteret,t_diag
+5,22,98,v_recnum,Landspatientregisteret,t_diag
+5,23,101,d_smdto,Landspatientregisteret,t_foedsler
+5,23,102,v_recnum,Landspatientregisteret,t_foedsler
+5,23,103,v_flernr,Landspatientregisteret,t_foedsler
+5,23,104,v_jmbes,Landspatientregisteret,t_foedsler
+5,23,105,v_langde,Landspatientregisteret,t_foedsler
+5,23,106,v_lbes,Landspatientregisteret,t_foedsler
+5,23,107,v_paritet,Landspatientregisteret,t_foedsler
+5,23,108,v_spbes,Landspatientregisteret,t_foedsler
+5,23,109,v_vagt,Landspatientregisteret,t_foedsler
+5,24,117,c_tilbafd,Landspatientregisteret,t_pas
+5,24,118,c_tilbsgh,Landspatientregisteret,t_pas
+5,24,119,d_passldto,Landspatientregisteret,t_pas
+5,24,120,d_passtdto,Landspatientregisteret,t_pas
+5,24,121,d_tilbdto,Landspatientregisteret,t_pas
+5,24,122,v_recnum,Landspatientregisteret,t_pas
+5,24,123,c_passarsag,Landspatientregisteret,t_pas
+9,39,286,c_kom,Det Nationale Diabetesregister,t_bopael
+9,39,287,c_region,Det Nationale Diabetesregister,t_bopael
+9,39,298,d_slut,Det Nationale Diabetesregister,t_bopael
+9,39,299,d_start,Det Nationale Diabetesregister,t_bopael
+9,39,300,v_cpr,Det Nationale Diabetesregister,t_bopael
+9,40,288,c_sex,Det Nationale Diabetesregister,t_diabetes
+9,40,289,d_blod2i5,Det Nationale Diabetesregister,t_diabetes
+9,40,290,d_blod5i1,Det Nationale Diabetesregister,t_diabetes
+9,40,291,d_dodsdto,Det Nationale Diabetesregister,t_diabetes
+9,40,292,d_foddto,Det Nationale Diabetesregister,t_diabetes
+9,40,293,d_fodt,Det Nationale Diabetesregister,t_diabetes
+9,40,294,d_inkldto,Det Nationale Diabetesregister,t_diabetes
+9,40,295,d_ins,Det Nationale Diabetesregister,t_diabetes
+9,40,296,d_lpr,Det Nationale Diabetesregister,t_diabetes
+9,40,297,d_oad,Det Nationale Diabetesregister,t_diabetes
+9,40,301,v_cpr,Det Nationale Diabetesregister,t_diabetes
+9,40,302,v_inklaarsag,Det Nationale Diabetesregister,t_diabetes
+12,62,315,anden_kode,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,316,c_adiag,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,379,c_afd,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,380,c_afregn,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,381,c_afregn_dia_kilde,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,382,c_akut,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,383,c_amt,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,384,c_bestakst,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,386,c_bestype,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,393,c_betaler,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,429,c_blok,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,430,c_bo_kom,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,431,c_bo_region,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,432,c_casemix,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,562,c_cprglamt,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,563,c_cpr_betregion,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,564,c_cpr_kom,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,565,c_cpr_region,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,566,c_cpr_betkom,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,567,c_csc_betaftal,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,568,c_csc_betaler,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,569,c_csc_dbtsldt,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,570,c_csc_dbtstdt,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,571,c_csc_opdatdto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,572,c_csc_pkontid,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,573,c_dia1-19,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,574,c_discdisp,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,575,c_drg,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,582,c_flksygd,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,583,c_flksgd_km,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,584,c_fodesystem,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,590,c_fritvalg,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,592,c_genopgrp,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,593,c_genoptype,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,598,c_henm,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,600,c_indm,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,602,c_kom,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,606,c_lpr_bestype,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,607,c_lpr_casemix,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,608,c_lpr_dia1-19,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,609,c_lpr_drg,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,610,c_lpr_genopgrp,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,611,c_lpr_mdc,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,612,c_lpr_rtc,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,613,c_lpr_tdia1-14,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,614,c_mdc,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,616,c_mrk_komfin,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,617,c_mrk_kommed,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,618,c_mrk_mra,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,621,c_nykomkod,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,622,c_oprart1-40,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,623,c_orig_amt,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,624,c_orig_bestype,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,625,c_pattype,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,626,c_plejeboligkode,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,627,c_proc1-40,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,628,c_procp,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,629,c_prodafd1-40,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,630,c_region,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,631,c_reglnr,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,632,c_rtc,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,633,c_sex,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,634,c_sgh,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,635,c_sghamt,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,637,c_sghregion,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,638,c_sghtype,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,639,c_spec,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,640,c_spec1-40,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,641,c_status,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,642,c_storkom,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,643,c_tdia1-14,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,644,c_tproc1-10,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,648,c_udm,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,653,d_aarsdto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,654,d_ambdto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,655,d_cprdoddto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,656,d_ebhdto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,657,d_fradto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,660,d_fusdto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,661,d_hendto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,663,d_inddto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,665,d_odto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,667,d_tildto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,669,d_uddto,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,673,i,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,676,mrk_merakt,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,677,mrk_type_merakt,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,679,pid,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,681,v_aar,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,682,v_alddg,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,683,v_alder,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,684,v_alder_bes,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,685,v_aldmdr,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,686,v_ass,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,687,v_behdage,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,688,v_cpr,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,689,v_cpr_doddage,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,690,v_epid,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,709,v_genoppris,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,710,v_genoppris_afgift,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,712,v_hjembesog,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,713,v_indberetningsdato,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,714,v_indminut,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,715,v_indtime,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,717,v_kompris,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,722,v_lbnr,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,723,v_lpr_genoppris,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,724,v_lpr_kompris,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,725,v_lpr_pris,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,726,v_lpr_pris_genop,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,727,v_mdr,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,728,v_mrk_affsind,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,729,v_mrk_alko1,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,730,v_mrk_alko2,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,731,v_mrk_alko3,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,732,v_mrk_alko4,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,733,v_mrk_ami,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,734,v_mrk_angina,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,735,v_mrk_apopl,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,736,v_mrk_astma,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,737,v_mrk_cancer1,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,738,v_mrk_cancer2,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,739,v_mrk_cancer3,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,740,v_mrk_cancer4,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,741,v_mrk_cancer5,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,742,v_mrk_cancer6,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,743,v_mrk_cancer7,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,744,v_mrk_cancer8,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,745,v_mrk_cancer9,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,746,v_mrk_cancer10,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,747,v_mrk_cancer11,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,748,v_mrk_cancer12,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,749,v_mrk_cancer13,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,750,v_mrk_cancer14,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,751,v_mrk_cancer15,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,752,v_mrk_demens,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,753,v_mrk_diabetes,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,756,v_mrk_gigt,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,757,v_mrk_hjflim,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,758,v_mrk_hjinsuf,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,759,v_mrk_hjkar,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,760,v_mrk_hjklap,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,761,v_mrk_hypert,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,762,v_mrk_knoglesk,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,763,v_mrk_kol,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,764,v_mrk_skitzo,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,765,v_oprid,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,768,v_pid,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,769,v_pnr,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,770,v_pris,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,771,v_pris_afgift,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,772,v_pris_genop,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,773,v_pris_genop_afgift,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,774,v_recnum,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,62,777,v_survdag,DRG-grupperet LPR,t_amb<åååå>_10<mmm><åååå>
+12,82,315,anden_kode,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,316,c_adiag,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,379,c_afd,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,380,c_afregn,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,382,c_akut,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,383,c_amt,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,393,c_betaler,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,429,c_blok,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,430,c_bo_kom,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,431,c_bo_region,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,562,c_cprglamt,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,563,c_cpr_betregion,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,564,c_cpr_kom,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,565,c_cpr_region,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,566,c_cpr_betkom,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,567,c_csc_betaftal,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,568,c_csc_betaler,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,569,c_csc_dbtsldt,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,570,c_csc_dbtstdt,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,571,c_csc_opdatdto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,572,c_csc_pkontid,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,573,c_dia1-19,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,574,c_discdisp,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,575,c_drg,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,582,c_flksygd,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,583,c_flksgd_km,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,584,c_fodesystem,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,590,c_fritvalg,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,592,c_genopgrp,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,593,c_genoptype,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,598,c_henm,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,600,c_indm,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,602,c_kom,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,606,c_lpr_bestype,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,607,c_lpr_casemix,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,609,c_lpr_drg,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,610,c_lpr_genopgrp,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,611,c_lpr_mdc,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,612,c_lpr_rtc,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,613,c_lpr_tdia1-14,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,614,c_mdc,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,616,c_mrk_komfin,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,617,c_mrk_kommed,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,618,c_mrk_mra,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,621,c_nykomkod,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,622,c_oprart1-40,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,623,c_orig_amt,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,624,c_orig_bestype,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,625,c_pattype,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,626,c_plejeboligkode,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,627,c_proc1-40,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,628,c_procp,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,629,c_prodafd1-40,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,630,c_region,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,631,c_reglnr,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,632,c_rtc,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,633,c_sex,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,634,c_sgh,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,635,c_sghamt,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,637,c_sghregion,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,638,c_sghtype,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,639,c_spec,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,640,c_spec1-40,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,641,c_status,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,642,c_storkom,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,643,c_tdia1-14,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,644,c_tproc1-10,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,648,c_udm,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,653,d_aarsdto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,655,d_cprdoddto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,656,d_ebhdto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,657,d_fradto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,660,d_fusdto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,661,d_hendto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,663,d_inddto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,665,d_odto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,667,d_tildto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,669,d_uddto,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,673,i,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,676,mrk_merakt,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,677,mrk_type_merakt,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,679,pid,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,681,v_aar,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,682,v_alddg,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,683,v_alder,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,684,v_alder_bes,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,685,v_aldmdr,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,686,v_ass,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,687,v_behdage,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,688,v_cpr,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,689,v_cpr_doddage,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,690,v_epid,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,709,v_genoppris,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,710,v_genoppris_afgift,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,712,v_hjembesog,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,713,v_indberetningsdato,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,714,v_indminut,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,715,v_indtime,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,717,v_kompris,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,722,v_lbnr,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,723,v_lpr_genoppris,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,724,v_lpr_kompris,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,725,v_lpr_pris,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,726,v_lpr_pris_genop,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,727,v_mdr,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,728,v_mrk_affsind,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,729,v_mrk_alko1,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,730,v_mrk_alko2,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,731,v_mrk_alko3,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,732,v_mrk_alko4,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,733,v_mrk_ami,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,734,v_mrk_angina,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,735,v_mrk_apopl,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,736,v_mrk_astma,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,737,v_mrk_cancer1,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,738,v_mrk_cancer2,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,739,v_mrk_cancer3,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,740,v_mrk_cancer4,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,741,v_mrk_cancer5,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,742,v_mrk_cancer6,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,743,v_mrk_cancer7,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,744,v_mrk_cancer8,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,745,v_mrk_cancer9,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,746,v_mrk_cancer10,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,747,v_mrk_cancer11,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,748,v_mrk_cancer12,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,749,v_mrk_cancer13,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,750,v_mrk_cancer14,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,751,v_mrk_cancer15,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,752,v_mrk_demens,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,753,v_mrk_diabetes,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,756,v_mrk_gigt,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,757,v_mrk_hjflim,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,758,v_mrk_hjinsuf,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,759,v_mrk_hjkar,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,760,v_mrk_hjklap,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,761,v_mrk_hypert,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,762,v_mrk_knoglesk,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,763,v_mrk_kol,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,764,v_mrk_skitzo,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,765,v_oprid,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,768,v_pid,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,769,v_pnr,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,770,v_pris,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,771,v_pris_afgift,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,772,v_pris_genop,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,773,v_pris_genop_afgift,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,774,v_recnum,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,82,777,v_survdag,DRG-grupperet LPR,t_fejl_amb<åååå>_10<mmm><åååå>
+12,83,316,c_adiag,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,380,c_afregn,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,382,c_akut,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,383,c_amt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,393,c_betaler,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,429,c_blok,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,430,c_bo_kom,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,431,c_bo_region,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,562,c_cprglamt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,563,c_cpr_betregion,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,564,c_cpr_kom,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,565,c_cpr_region,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,566,c_cpr_betkom,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,567,c_csc_betaftal,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,568,c_csc_betaler,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,569,c_csc_dbtsldt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,570,c_csc_dbtstdt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,571,c_csc_opdatdto,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,572,c_csc_pkontid,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,573,c_dia1-19,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,574,c_discdisp,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,575,c_drg,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,576,c_eakt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,577,c_emek,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,578,c_emodpart,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,579,c_epart,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,580,c_ested,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,581,c_etraf,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,582,c_flksygd,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,583,c_flksgd_km,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,584,c_fodesystem,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,586,c_frkom_1,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,587,c_frkom_2,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,588,c_frregion_1,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,589,c_frregion_2,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,590,c_fritvalg,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,592,c_genopgrp,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,593,c_genoptype,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,594,c_genop_betaler,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,595,c_graa,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,596,c_hafdn,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,597,c_hdiag,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,598,c_henm,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,600,c_indm,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,601,c_indmf,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,602,c_kom,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,604,c_kontaars,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,605,c_lpr_amt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,614,c_mdc,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,615,c_mdcorg,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,616,c_mrk_komfin,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,617,c_mrk_kommed,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,618,c_mrk_mra,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,619,c_nordkode,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,620,c_nyafd,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,621,c_nykomkod,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,622,c_oprart1-40,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,623,c_orig_amt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,625,c_pattype,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,626,c_plejeboligkode,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,627,c_proc1-40,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,628,c_procp,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,629,c_prodafd1-40,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,630,c_region,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,631,c_reglnr,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,632,c_rtc,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,633,c_sex,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,634,c_sgh,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,635,c_sghamt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,636,c_sghgrp,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,637,c_sghregion,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,638,c_sghtype,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,639,c_spec,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,641,c_status,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,643,c_tdia1-14,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,644,c_tproc1-10,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,645,c_udkstype,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,646,c_udtilafd,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,647,c_udtilsgh,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,648,c_udm,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,649,c_udmf,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,650,c_udm_amb,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,651,c_udsghafd,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,652,c_udsktype,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,655,d_cprdoddto,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,656,d_ebhdto,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,658,d_fraflyt_dato,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,660,d_fusdto,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,661,d_hendto,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,662,d_hendtof,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,663,d_inddto,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,664,d_inddtof,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,666,d_opdatdto,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,668,d_tilflyt_dato,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,669,d_uddto,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,670,d_uddtof,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,672,hjerne,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,674,k_afd,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,675,k_sgh,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,676,mrk_merakt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,677,mrk_type_merakt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,678,nykom,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,679,pid,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,680,ts_ajour,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,681,v_aar,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,682,v_alddg,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,683,v_alder,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,685,v_aldmdr,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,688,v_cpr,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,689,v_cpr_doddage,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,690,v_epid,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,691,v_forlob,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,692,v_frdage,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,693,v_frdage2007,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,694,v_frdage2008,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,695,v_frdage2009,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,696,v_frdage2011_1,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,697,v_frpris,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,698,v_frpris2003,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,699,v_frpris2004,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,700,v_frpris2005,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,701,v_frpris2006,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,702,v_frpris2007,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,703,v_frpris2008,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,704,v_frpris2009,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,705,v_frpris2011_1,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,706,v_frpris2011_2,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,707,v_frpris2012_1,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,708,v_frpris2012_2,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,709,v_genoppris,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,710,v_genoppris_afgift,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,711,v_gnslig,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,712,v_hjembesog,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,714,v_indminut,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,715,v_indtime,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,716,v_indtimef,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,717,v_kompris,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,718,v_korttid,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,719,v_langdage,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,720,v_langpris,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,721,v_langpris_afgift,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,722,v_lbnr,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,727,v_mdr,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,728,v_mrk_affsind,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,729,v_mrk_alko1,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,730,v_mrk_alko2,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,731,v_mrk_alko3,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,732,v_mrk_alko4,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,733,v_mrk_ami,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,734,v_mrk_angina,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,735,v_mrk_apopl,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,736,v_mrk_astma,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,737,v_mrk_cancer1,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,738,v_mrk_cancer2,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,739,v_mrk_cancer3,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,740,v_mrk_cancer4,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,741,v_mrk_cancer5,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,742,v_mrk_cancer6,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,743,v_mrk_cancer7,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,744,v_mrk_cancer8,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,745,v_mrk_cancer9,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,746,v_mrk_cancer10,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,747,v_mrk_cancer11,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,748,v_mrk_cancer12,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,749,v_mrk_cancer13,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,750,v_mrk_cancer14,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,751,v_mrk_cancer15,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,752,v_mrk_demens,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,753,v_mrk_diabetes,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,754,v_mrk_genind,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,755,v_mrk_genind_p,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,756,v_mrk_gigt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,757,v_mrk_hjflim,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,758,v_mrk_hjinsuf,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,759,v_mrk_hjkar,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,760,v_mrk_hjklap,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,761,v_mrk_hypert,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,762,v_mrk_knoglesk,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,763,v_mrk_kol,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,764,v_mrk_skitzo,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,766,v_oldpid,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,767,v_orecnum,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,768,v_pid,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,769,v_pnr,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,770,v_pris,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,771,v_pris_afgift,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,774,v_recnum,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,775,v_sengdage,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,776,v_sengdagf,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,777,v_survdag,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,778,v_totpris,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,779,v_totpris_genop,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,780,v_totpris_genop_afgift,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,781,v_trimpkt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,782,v_udtime,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,783,v_udtimef,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,784,v_vgt,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,83,1731,bo_region,DRG-grupperet LPR,t_hel<åååå>_10<mmm><åååå>
+12,84,316,c_adiag,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,380,c_afregn,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,382,c_akut,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,383,c_amt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,393,c_betaler,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,429,c_blok,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,430,c_bo_kom,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,431,c_bo_region,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,562,c_cprglamt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,563,c_cpr_betregion,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,564,c_cpr_kom,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,565,c_cpr_region,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,566,c_cpr_betkom,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,567,c_csc_betaftal,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,568,c_csc_betaler,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,569,c_csc_dbtsldt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,570,c_csc_dbtstdt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,571,c_csc_opdatdto,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,572,c_csc_pkontid,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,573,c_dia1-19,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,574,c_discdisp,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,575,c_drg,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,576,c_eakt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,577,c_emek,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,578,c_emodpart,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,579,c_epart,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,580,c_ested,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,581,c_etraf,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,582,c_flksygd,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,583,c_flksgd_km,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,584,c_fodesystem,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,585,c_fr_nat,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,586,c_frkom_1,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,587,c_frkom_2,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,588,c_frregion_1,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,589,c_frregion_2,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,590,c_fritvalg,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,591,c_glkomkod,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,592,c_genopgrp,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,593,c_genoptype,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,594,c_genop_betaler,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,596,c_hafdn,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,597,c_hdiag,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,598,c_henm,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,599,c_hsgh,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,600,c_indm,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,601,c_indmf,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,602,c_kom,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,604,c_kontaars,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,605,c_lpr_amt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,614,c_mdc,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,615,c_mdcorg,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,616,c_mrk_komfin,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,617,c_mrk_kommed,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,618,c_mrk_mra,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,620,c_nyafd,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,621,c_nykomkod,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,622,c_oprart1-40,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,623,c_orig_amt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,625,c_pattype,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,626,c_plejeboligkode,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,627,c_proc1-40,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,628,c_procp,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,629,c_prodafd1-40,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,630,c_region,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,631,c_reglnr,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,632,c_rtc,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,633,c_sex,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,634,c_sgh,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,635,c_sghamt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,636,c_sghgrp,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,637,c_sghregion,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,638,c_sghtype,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,639,c_spec,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,641,c_status,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,642,c_storkom,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,643,c_tdia1-14,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,644,c_tproc1-10,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,645,c_udkstype,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,646,c_udtilafd,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,647,c_udtilsgh,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,648,c_udm,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,649,c_udmf,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,650,c_udm_amb,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,651,c_udsghafd,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,652,c_udsktype,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,655,d_cprdoddto,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,656,d_ebhdto,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,658,d_fraflyt_dato,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,660,d_fusdto,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,661,d_hendto,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,662,d_hendtof,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,663,d_inddto,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,664,d_inddtof,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,666,d_opdatdto,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,668,d_tilflyt_dato,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,669,d_uddto,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,670,d_uddtof,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,672,hjerne,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,674,k_afd,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,675,k_sgh,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,676,mrk_merakt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,677,mrk_type_merakt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,678,nykom,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,679,pid,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,680,ts_ajour,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,681,v_aar,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,682,v_alddg,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,683,v_alder,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,685,v_aldmdr,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,688,v_cpr,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,689,v_cpr_doddage,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,690,v_epid,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,691,v_forlob,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,692,v_frdage,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,693,v_frdage2007,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,694,v_frdage2008,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,695,v_frdage2009,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,696,v_frdage2011_1,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,697,v_frpris,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,698,v_frpris2003,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,699,v_frpris2004,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,700,v_frpris2005,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,701,v_frpris2006,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,702,v_frpris2007,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,703,v_frpris2008,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,704,v_frpris2009,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,705,v_frpris2011_1,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,706,v_frpris2011_2,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,707,v_frpris2012_1,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,708,v_frpris2012_2,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,709,v_genoppris,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,710,v_genoppris_afgift,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,711,v_gnslig,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,712,v_hjembesog,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,714,v_indminut,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,715,v_indtime,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,716,v_indtimef,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,717,v_kompris,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,718,v_korttid,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,719,v_langdage,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,720,v_langpris,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,721,v_langpris_afgift,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,722,v_lbnr,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,727,v_mdr,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,728,v_mrk_affsind,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,729,v_mrk_alko1,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,730,v_mrk_alko2,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,731,v_mrk_alko3,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,732,v_mrk_alko4,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,733,v_mrk_ami,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,734,v_mrk_angina,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,735,v_mrk_apopl,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,736,v_mrk_astma,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,737,v_mrk_cancer1,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,738,v_mrk_cancer2,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,739,v_mrk_cancer3,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,740,v_mrk_cancer4,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,741,v_mrk_cancer5,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,742,v_mrk_cancer6,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,743,v_mrk_cancer7,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,744,v_mrk_cancer8,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,745,v_mrk_cancer9,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,746,v_mrk_cancer10,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,747,v_mrk_cancer11,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,748,v_mrk_cancer12,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,749,v_mrk_cancer13,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,750,v_mrk_cancer14,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,751,v_mrk_cancer15,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,752,v_mrk_demens,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,753,v_mrk_diabetes,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,754,v_mrk_genind,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,755,v_mrk_genind_p,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,756,v_mrk_gigt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,757,v_mrk_hjflim,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,758,v_mrk_hjinsuf,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,759,v_mrk_hjkar,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,760,v_mrk_hjklap,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,761,v_mrk_hypert,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,762,v_mrk_knoglesk,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,763,v_mrk_kol,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,764,v_mrk_skitzo,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,766,v_oldpid,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,767,v_orecnum,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,768,v_pid,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,769,v_pnr,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,770,v_pris,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,771,v_pris_afgift,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,774,v_recnum,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,775,v_sengdage,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,776,v_sengdagf,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,777,v_survdag,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,778,v_totpris,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,779,v_totpris_genop,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,780,v_totpris_genop_afgift,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,781,v_trimpkt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,782,v_udtime,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,783,v_udtimef,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,84,784,v_vgt,DRG-grupperet LPR,t_fejl_hel<åååå>_10<mmm><åååå>
+12,110,676,mrk_merakt,DRG-grupperet LPR,esundhed
+12,110,677,mrk_type_merakt,DRG-grupperet LPR,esundhed
+12,110,1724,adiag,DRG-grupperet LPR,esundhed
+12,110,1725,afd,DRG-grupperet LPR,esundhed
+12,110,1726,afregn,DRG-grupperet LPR,esundhed
+12,110,1727,alddg,DRG-grupperet LPR,esundhed
+12,110,1728,alder,DRG-grupperet LPR,esundhed
+12,110,1729,betaler,DRG-grupperet LPR,esundhed
+12,110,1730,bo_kom,DRG-grupperet LPR,esundhed
+12,110,1732,cpr,DRG-grupperet LPR,esundhed
+12,110,1733,cprdoddto,DRG-grupperet LPR,esundhed
+12,110,1734,cpr_betkom,DRG-grupperet LPR,esundhed
+12,110,1735,csc_betaftal,DRG-grupperet LPR,esundhed
+12,110,1736,csc_betaler,DRG-grupperet LPR,esundhed
+12,110,1737,csc_dbtsldt,DRG-grupperet LPR,esundhed
+12,110,1738,csc_dbtstdt,DRG-grupperet LPR,esundhed
+12,110,1739,dia1,DRG-grupperet LPR,esundhed
+12,110,1740,dia2-19,DRG-grupperet LPR,esundhed
+12,110,1741,discdisp,DRG-grupperet LPR,esundhed
+12,110,1742,drg,DRG-grupperet LPR,esundhed
+12,110,1743,epid,DRG-grupperet LPR,esundhed
+12,110,1744,forlob,DRG-grupperet LPR,esundhed
+12,110,1745,frdage,DRG-grupperet LPR,esundhed
+12,110,1746,fritvalg,DRG-grupperet LPR,esundhed
+12,110,1747,frpris,DRG-grupperet LPR,esundhed
+12,110,1748,genopgrp,DRG-grupperet LPR,esundhed
+12,110,1749,genoppris,DRG-grupperet LPR,esundhed
+12,110,1750,genoppris_afgift,DRG-grupperet LPR,esundhed
+12,110,1751,genoptype,DRG-grupperet LPR,esundhed
+12,110,1752,hafdn,DRG-grupperet LPR,esundhed
+12,110,1753,hendiag,DRG-grupperet LPR,esundhed
+12,110,1754,hendto,DRG-grupperet LPR,esundhed
+12,110,1755,hendtof,DRG-grupperet LPR,esundhed
+12,110,1756,henm,DRG-grupperet LPR,esundhed
+12,110,1757,inddto,DRG-grupperet LPR,esundhed
+12,110,1758,inddtof,DRG-grupperet LPR,esundhed
+12,110,1759,indm,DRG-grupperet LPR,esundhed
+12,110,1760,indmf,DRG-grupperet LPR,esundhed
+12,110,1761,indminut,DRG-grupperet LPR,esundhed
+12,110,1762,indtime,DRG-grupperet LPR,esundhed
+12,110,1763,kompris,DRG-grupperet LPR,esundhed
+12,110,1764,langdage,DRG-grupperet LPR,esundhed
+12,110,1765,langpris,DRG-grupperet LPR,esundhed
+12,110,1766,langpris_afgift,DRG-grupperet LPR,esundhed
+12,110,1767,mdc,DRG-grupperet LPR,esundhed
+12,110,1768,mdcorg,DRG-grupperet LPR,esundhed
+12,110,1769,mdr,DRG-grupperet LPR,esundhed
+12,110,1770,mrk_diabetes,DRG-grupperet LPR,esundhed
+12,110,1771,mrk_genind,DRG-grupperet LPR,esundhed
+12,110,1772,mrk_genind_p,DRG-grupperet LPR,esundhed
+12,110,1773,mrk_kommed,DRG-grupperet LPR,esundhed
+12,110,1775,mrk_mra,DRG-grupperet LPR,esundhed
+12,110,1777,opdatdto,DRG-grupperet LPR,esundhed
+12,110,1778,oprart1-40,DRG-grupperet LPR,esundhed
+12,110,1779,pattype,DRG-grupperet LPR,esundhed
+12,110,1780,pris,DRG-grupperet LPR,esundhed
+12,110,1781,pris_afgift,DRG-grupperet LPR,esundhed
+12,110,1782,proc1-40,DRG-grupperet LPR,esundhed
+12,110,1783,prodafd1-40,DRG-grupperet LPR,esundhed
+12,110,1784,sengdage,DRG-grupperet LPR,esundhed
+12,110,1785,sengdagf,DRG-grupperet LPR,esundhed
+12,110,1786,sex,DRG-grupperet LPR,esundhed
+12,110,1787,sgh,DRG-grupperet LPR,esundhed
+12,110,1788,sghregion,DRG-grupperet LPR,esundhed
+12,110,1789,sghtype,DRG-grupperet LPR,esundhed
+12,110,1790,spec,DRG-grupperet LPR,esundhed
+12,110,1791,survdag,DRG-grupperet LPR,esundhed
+12,110,1792,tdia1-14,DRG-grupperet LPR,esundhed
+12,110,1793,totpris,DRG-grupperet LPR,esundhed
+12,110,1794,totpris_genop,DRG-grupperet LPR,esundhed
+12,110,1795,totpris_genop_afgift,DRG-grupperet LPR,esundhed
+12,110,1796,tproc1-3,DRG-grupperet LPR,esundhed
+12,110,1797,uddto,DRG-grupperet LPR,esundhed
+12,110,1798,uddtof,DRG-grupperet LPR,esundhed
+12,110,1799,udm,DRG-grupperet LPR,esundhed
+12,110,1800,udmf,DRG-grupperet LPR,esundhed
+12,110,1801,udsktype,DRG-grupperet LPR,esundhed
+12,110,1802,udtime,DRG-grupperet LPR,esundhed
+12,110,1803,vgt,DRG-grupperet LPR,esundhed
+12,110,1804,aar,DRG-grupperet LPR,esundhed
+12,236,2534,id,DRG-grupperet LPR,drgkontakt
+12,236,2535,recnum,DRG-grupperet LPR,drgkontakt
+12,236,2536,fodesystem,DRG-grupperet LPR,drgkontakt
+12,236,2537,aktivitetsaar,DRG-grupperet LPR,drgkontakt
+12,236,2538,cpr,DRG-grupperet LPR,drgkontakt
+12,236,2539,alder_aar,DRG-grupperet LPR,drgkontakt
+12,236,2540,alder_dage,DRG-grupperet LPR,drgkontakt
+12,236,2541,koen,DRG-grupperet LPR,drgkontakt
+12,236,2542,sygehus,DRG-grupperet LPR,drgkontakt
+12,236,2543,afdeling,DRG-grupperet LPR,drgkontakt
+12,236,2544,speciale,DRG-grupperet LPR,drgkontakt
+12,236,2545,sygehustype,DRG-grupperet LPR,drgkontakt
+12,236,2546,sygehus_region,DRG-grupperet LPR,drgkontakt
+12,236,2547,indmaade,DRG-grupperet LPR,drgkontakt
+12,236,2548,akut_elektiv,DRG-grupperet LPR,drgkontakt
+12,236,2549,kontaktaarsag,DRG-grupperet LPR,drgkontakt
+12,236,2550,inddato,DRG-grupperet LPR,drgkontakt
+12,236,2551,indtime,DRG-grupperet LPR,drgkontakt
+12,236,2552,indminut,DRG-grupperet LPR,drgkontakt
+12,236,2553,indtidspunkt_drgkontakt,DRG-grupperet LPR,drgkontakt
+12,236,2554,udmaade,DRG-grupperet LPR,drgkontakt
+12,236,2555,afslutning,DRG-grupperet LPR,drgkontakt
+12,236,2556,uddato,DRG-grupperet LPR,drgkontakt
+12,236,2557,udtime,DRG-grupperet LPR,drgkontakt
+12,236,2558,udtidspunkt_drgkontakt,DRG-grupperet LPR,drgkontakt
+12,236,2559,liggedage,DRG-grupperet LPR,drgkontakt
+12,236,2560,kontaktdage,DRG-grupperet LPR,drgkontakt
+12,236,2561,drgkontakttype,DRG-grupperet LPR,drgkontakt
+12,236,2562,patienttype,DRG-grupperet LPR,drgkontakt
+12,236,2563,ambulant_dato,DRG-grupperet LPR,drgkontakt
+12,236,2564,assistance,DRG-grupperet LPR,drgkontakt
+12,236,2565,drg,DRG-grupperet LPR,drgkontakt
+12,236,2566,trimpunkt,DRG-grupperet LPR,drgkontakt
+12,236,2567,pris_drg,DRG-grupperet LPR,drgkontakt
+12,236,2568,langliggerdage,DRG-grupperet LPR,drgkontakt
+12,236,2569,langliggerpris,DRG-grupperet LPR,drgkontakt
+12,236,2570,totalpris_drg,DRG-grupperet LPR,drgkontakt
+12,236,2571,drgsghforlob_id,DRG-grupperet LPR,drgkontakt
+12,236,2572,drgsghforlob_nr,DRG-grupperet LPR,drgkontakt
+12,236,2573,drgsghforlob_udtidspunkt,DRG-grupperet LPR,drgkontakt
+12,236,2574,drgsghforlob_type,DRG-grupperet LPR,drgkontakt
+12,236,2575,drg_drgsghf,DRG-grupperet LPR,drgkontakt
+12,236,2576,drg_grouper,DRG-grupperet LPR,drgkontakt
+12,236,2577,mdc,DRG-grupperet LPR,drgkontakt
+12,236,2578,rtc,DRG-grupperet LPR,drgkontakt
+12,236,2579,regel,DRG-grupperet LPR,drgkontakt
+12,236,2580,d70ua02,DRG-grupperet LPR,drgkontakt
+12,236,2581,d70ua03,DRG-grupperet LPR,drgkontakt
+12,236,2582,d90ua01,DRG-grupperet LPR,drgkontakt
+12,236,2583,d90ua03,DRG-grupperet LPR,drgkontakt
+12,236,2584,d90ua04,DRG-grupperet LPR,drgkontakt
+12,236,2585,henvisningsmaade,DRG-grupperet LPR,drgkontakt
+12,236,2586,henvisningsdiagnose,DRG-grupperet LPR,drgkontakt
+12,236,2587,henvisningssygehus,DRG-grupperet LPR,drgkontakt
+12,236,2588,henvisningsafdeling,DRG-grupperet LPR,drgkontakt
+12,236,2589,henvisningsdato,DRG-grupperet LPR,drgkontakt
+12,236,2590,finansiering,DRG-grupperet LPR,drgkontakt
+12,236,2591,bo_kom,DRG-grupperet LPR,drgkontakt
+12,236,2592,bo_kom_source,DRG-grupperet LPR,drgkontakt
+12,236,2593,bo_region,DRG-grupperet LPR,drgkontakt
+12,236,2594,betaler_kom,DRG-grupperet LPR,drgkontakt
+12,236,2595,betaler_region,DRG-grupperet LPR,drgkontakt
+12,236,2596,betaler,DRG-grupperet LPR,drgkontakt
+12,236,2597,afregn,DRG-grupperet LPR,drgkontakt
+12,236,2598,sghgrp,DRG-grupperet LPR,drgkontakt
+12,236,2599,adiag,DRG-grupperet LPR,drgkontakt
+12,236,2600,diagnosekilde,DRG-grupperet LPR,drgkontakt
+12,236,2601,blok,DRG-grupperet LPR,drgkontakt
+12,236,2602,sdb_betalingsaftale,DRG-grupperet LPR,drgkontakt
+12,236,2603,sdb_betaler,DRG-grupperet LPR,drgkontakt
+12,236,2604,sdb_slutdato_betaftale,DRG-grupperet LPR,drgkontakt
+12,236,2605,sdb_startdato_betaftale,DRG-grupperet LPR,drgkontakt
+12,236,2606,sdb_pkontid,DRG-grupperet LPR,drgkontakt
+12,236,2607,datalev,DRG-grupperet LPR,drgkontakt
+12,236,2608,cprdoddto,DRG-grupperet LPR,drgkontakt
+12,236,2609,cpr_doddage,DRG-grupperet LPR,drgkontakt
+12,236,2610,opdatdto,DRG-grupperet LPR,drgkontakt
+12,236,2611,mrk_diabetes,DRG-grupperet LPR,drgkontakt
+12,236,2612,epid,DRG-grupperet LPR,drgkontakt
+12,236,2613,kontakt_id,DRG-grupperet LPR,drgkontakt
+12,236,2614,dia01,DRG-grupperet LPR,drgkontakt
+12,236,2615,dia02,DRG-grupperet LPR,drgkontakt
+12,236,2616,dia03,DRG-grupperet LPR,drgkontakt
+12,236,2617,dia04,DRG-grupperet LPR,drgkontakt
+12,236,2618,dia05,DRG-grupperet LPR,drgkontakt
+12,236,2619,dia06,DRG-grupperet LPR,drgkontakt
+12,236,2620,dia07,DRG-grupperet LPR,drgkontakt
+12,236,2621,dia08,DRG-grupperet LPR,drgkontakt
+12,236,2622,dia09,DRG-grupperet LPR,drgkontakt
+12,236,2623,dia10,DRG-grupperet LPR,drgkontakt
+12,236,2624,dia11,DRG-grupperet LPR,drgkontakt
+12,236,2625,dia12,DRG-grupperet LPR,drgkontakt
+12,236,2626,dia13,DRG-grupperet LPR,drgkontakt
+12,236,2627,dia14,DRG-grupperet LPR,drgkontakt
+12,236,2628,dia15,DRG-grupperet LPR,drgkontakt
+12,236,2629,dia16,DRG-grupperet LPR,drgkontakt
+12,236,2630,dia17,DRG-grupperet LPR,drgkontakt
+12,236,2631,dia18,DRG-grupperet LPR,drgkontakt
+12,236,2632,dia19,DRG-grupperet LPR,drgkontakt
+12,236,2633,dia20,DRG-grupperet LPR,drgkontakt
+12,236,2634,tdia01,DRG-grupperet LPR,drgkontakt
+12,236,2635,tdia02,DRG-grupperet LPR,drgkontakt
+12,236,2636,tdia03,DRG-grupperet LPR,drgkontakt
+12,236,2637,tdia04,DRG-grupperet LPR,drgkontakt
+12,236,2638,tdia05,DRG-grupperet LPR,drgkontakt
+12,236,2639,tdia06,DRG-grupperet LPR,drgkontakt
+12,236,2640,tdia07,DRG-grupperet LPR,drgkontakt
+12,236,2641,tdia08,DRG-grupperet LPR,drgkontakt
+12,236,2642,tdia09,DRG-grupperet LPR,drgkontakt
+12,236,2643,tdia10,DRG-grupperet LPR,drgkontakt
+12,236,2644,tdia11,DRG-grupperet LPR,drgkontakt
+12,236,2645,tdia12,DRG-grupperet LPR,drgkontakt
+12,236,2646,tdia13,DRG-grupperet LPR,drgkontakt
+12,236,2647,tdia14,DRG-grupperet LPR,drgkontakt
+12,236,2648,proc01,DRG-grupperet LPR,drgkontakt
+12,236,2649,proc02,DRG-grupperet LPR,drgkontakt
+12,236,2650,proc03,DRG-grupperet LPR,drgkontakt
+12,236,2651,proc04,DRG-grupperet LPR,drgkontakt
+12,236,2652,proc05,DRG-grupperet LPR,drgkontakt
+12,236,2653,proc06,DRG-grupperet LPR,drgkontakt
+12,236,2654,proc07,DRG-grupperet LPR,drgkontakt
+12,236,2655,proc08,DRG-grupperet LPR,drgkontakt
+12,236,2656,proc09,DRG-grupperet LPR,drgkontakt
+12,236,2657,proc10,DRG-grupperet LPR,drgkontakt
+12,236,2658,proc11,DRG-grupperet LPR,drgkontakt
+12,236,2659,proc12,DRG-grupperet LPR,drgkontakt
+12,236,2660,proc13,DRG-grupperet LPR,drgkontakt
+12,236,2661,proc14,DRG-grupperet LPR,drgkontakt
+12,236,2662,proc15,DRG-grupperet LPR,drgkontakt
+12,236,2663,proc16,DRG-grupperet LPR,drgkontakt
+12,236,2664,proc17,DRG-grupperet LPR,drgkontakt
+12,236,2665,proc18,DRG-grupperet LPR,drgkontakt
+12,236,2666,proc19,DRG-grupperet LPR,drgkontakt
+12,236,2667,proc20,DRG-grupperet LPR,drgkontakt
+12,236,2668,proc21,DRG-grupperet LPR,drgkontakt
+12,236,2669,proc22,DRG-grupperet LPR,drgkontakt
+12,236,2670,proc23,DRG-grupperet LPR,drgkontakt
+12,236,2671,proc24,DRG-grupperet LPR,drgkontakt
+12,236,2672,proc25,DRG-grupperet LPR,drgkontakt
+12,236,2673,proc26,DRG-grupperet LPR,drgkontakt
+12,236,2674,proc27,DRG-grupperet LPR,drgkontakt
+12,236,2675,proc28,DRG-grupperet LPR,drgkontakt
+12,236,2676,proc29,DRG-grupperet LPR,drgkontakt
+12,236,2677,proc30,DRG-grupperet LPR,drgkontakt
+12,236,2678,proc31,DRG-grupperet LPR,drgkontakt
+12,236,2679,proc32,DRG-grupperet LPR,drgkontakt
+12,236,2680,proc33,DRG-grupperet LPR,drgkontakt
+12,236,2681,proc34,DRG-grupperet LPR,drgkontakt
+12,236,2682,proc35,DRG-grupperet LPR,drgkontakt
+12,236,2683,proc36,DRG-grupperet LPR,drgkontakt
+12,236,2684,proc37,DRG-grupperet LPR,drgkontakt
+12,236,2685,proc38,DRG-grupperet LPR,drgkontakt
+12,236,2686,proc39,DRG-grupperet LPR,drgkontakt
+12,236,2687,proc40,DRG-grupperet LPR,drgkontakt
+12,236,2688,tproc01,DRG-grupperet LPR,drgkontakt
+12,236,2689,tproc02,DRG-grupperet LPR,drgkontakt
+12,236,2690,tproc03,DRG-grupperet LPR,drgkontakt
+12,236,2691,tproc04,DRG-grupperet LPR,drgkontakt
+12,236,2692,tproc05,DRG-grupperet LPR,drgkontakt
+12,236,2693,tproc06,DRG-grupperet LPR,drgkontakt
+12,236,2694,tproc07,DRG-grupperet LPR,drgkontakt
+12,236,2695,tproc08,DRG-grupperet LPR,drgkontakt
+12,236,2696,tproc09,DRG-grupperet LPR,drgkontakt
+12,236,2697,tproc10,DRG-grupperet LPR,drgkontakt
+12,236,2698,ink1,DRG-grupperet LPR,drgkontakt
+12,236,2699,ink2,DRG-grupperet LPR,drgkontakt
+12,236,2700,ink3,DRG-grupperet LPR,drgkontakt
+12,236,2701,ink4,DRG-grupperet LPR,drgkontakt
+12,236,2702,ink5,DRG-grupperet LPR,drgkontakt
+12,236,2703,ink6,DRG-grupperet LPR,drgkontakt
+12,237,2704,id,DRG-grupperet LPR,drgsghforlob
+12,237,2705,aktivitetsaar,DRG-grupperet LPR,drgsghforlob
+12,237,2706,drgsghforlob_type,DRG-grupperet LPR,drgsghforlob
+12,237,2707,cpr,DRG-grupperet LPR,drgsghforlob
+12,237,2708,alder_aar_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2709,alder_dage_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2710,koen,DRG-grupperet LPR,drgsghforlob
+12,237,2711,sygehus,DRG-grupperet LPR,drgsghforlob
+12,237,2712,sygehustype_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2713,sygehus_region_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2714,indmaade_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2715,kontaktaarsag_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2716,indtidspunkt_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2717,udmaade_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2718,afslutning_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2719,udtidspunkt_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2720,liggedage_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2721,kontaktdage_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2722,drgkontakttype_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2723,antal_i_forlob,DRG-grupperet LPR,drgsghforlob
+12,237,2724,adiag_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2725,drg_kontakt_id_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2726,drg_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2727,trimpunkt_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2728,lonsumafgift_pris_drg,DRG-grupperet LPR,drgsghforlob
+12,237,2729,langliggerdage_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2730,langliggerpris_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2731,lonsumafgift_langliggerpris,DRG-grupperet LPR,drgsghforlob
+12,237,2732,totalpris_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2733,drg_grouper_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2734,mdc_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2735,rtc_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2736,regel_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2737,pris_drg_grouper_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2738,d70ua02_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2739,d70ua03_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2740,d90ua01_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2741,d90ua03_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2742,d90ua04_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2743,henvisningsmaade_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2744,henvisningsdato_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2745,henvisningssygehus_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2746,henvisningsafdeling_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2747,adiag_drgsgh_ind,DRG-grupperet LPR,drgsghforlob
+12,237,2748,adiag_drgsgh_ud,DRG-grupperet LPR,drgsghforlob
+12,237,2749,betaler_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2750,sdb_betalingsaftale_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2751,sdb_betaler_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2752,sdb_startdato_betaftale_drgsgh,DRG-grupperet LPR,drgsghforlob
+12,237,2753,sdb_slutdato_betaftale_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2754,sdb_pkontid_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2755,afregn_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2756,diagnosekilde_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2757,bo_kom_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2758,bo_region_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2759,betaler_kom_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2760,betaler_region_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2761,mrk_mellemregional,DRG-grupperet LPR,drgsghforlob
+12,237,2762,mrk_meraktivitet,DRG-grupperet LPR,drgsghforlob
+12,237,2763,mrk_meraktivitet_type,DRG-grupperet LPR,drgsghforlob
+12,237,2764,plejeboligkode,DRG-grupperet LPR,drgsghforlob
+12,237,2765,dodsdato,DRG-grupperet LPR,drgsghforlob
+12,237,2766,mrk_genindlaeggelse,DRG-grupperet LPR,drgsghforlob
+12,237,2767,mrk_genindlaeggelse_primaer,DRG-grupperet LPR,drgsghforlob
+12,237,2768,maaned_drgsghf,DRG-grupperet LPR,drgsghforlob
+12,237,2769,epid,DRG-grupperet LPR,drgsghforlob
+12,238,2770,id,DRG-grupperet LPR,procedure
+12,238,2771,recnum,DRG-grupperet LPR,procedure
+12,238,2772,drgkontakt_id,DRG-grupperet LPR,procedure
+12,238,2773,drgsghforlob_id,DRG-grupperet LPR,procedure
+12,238,2774,procedure_tidspunkt,DRG-grupperet LPR,procedure
+12,238,2775,procedure_dato,DRG-grupperet LPR,procedure
+12,238,2776,procedurekode,DRG-grupperet LPR,procedure
+12,238,2777,operationsart,DRG-grupperet LPR,procedure
+12,238,2778,producerende_sghafdeling,DRG-grupperet LPR,procedure
+12,238,2779,kilde,DRG-grupperet LPR,procedure
+12,238,2780,dublet_tilladt,DRG-grupperet LPR,procedure
+12,240,2781,id,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2782,recnum,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2783,fodesystem,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2784,aktivitetsaar,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2786,cpr,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2787,alder_aar,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2788,alder_dage,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2789,koen,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2790,sygehus,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2791,afdeling,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2792,speciale,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2793,sygehustype,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2794,sygehus_region,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2795,indmaade,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2796,akut_elektiv,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2797,kontaktaarsag,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2798,inddato,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2799,indtime,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2800,indminut,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2801,indtidspunkt_drgkontakt,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2802,udmaade,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2803,afslutning,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2804,uddato,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2805,udtime,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2806,udtidspunkt_drgkontakt,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2807,liggedage,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2808,kontaktdage,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2809,drgkontakttype,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2810,patienttype,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2811,ambulant_dato,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2812,assistance,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2813,drg,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2814,trimpunkt,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2815,pris_drg,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2816,langliggerdage,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2817,langliggerpris,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2818,totalpris_drg,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2819,drg_grouper,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2820,mdc,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2821,rtc,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2822,regel,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2823,d70ua02,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2824,d70ua03,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2825,d90ua01,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2826,d90ua03,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2827,d90ua04,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2828,henvisningsmaade,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2829,henvisningsdiagnose,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2830,henvisningssygehus,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2831,henvisningsafdeling,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2832,henvisningsdato,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2833,finansiering,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2834,bo_kom,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2835,bo_kom_source,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2836,bo_region,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2837,betaler_kom,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2838,betaler_region,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2839,betaler,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2840,afregn,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2841,sghgrp,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2842,adiag,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2843,diagnosekilde,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2844,blok,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2845,sdb_betalingsaftale,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2846,sdb_betaler,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2847,sdb_slutdato_betaftale,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2848,sdb_startdato_betaftale,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2849,sdb_pkontid,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2850,datalev,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2851,cprdoddto,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2852,cpr_doddage,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2853,opdatdto,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2854,mrk_diabetes,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2855,epid,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2856,kontakt_id,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2857,dia01,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2858,dia02,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2859,dia03,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2860,dia04,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2861,dia05,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2862,dia06,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2863,dia07,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2864,dia08,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2865,dia09,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2866,dia10,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2867,dia11,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2868,dia12,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2869,dia13,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2870,dia14,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2871,dia15,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2872,dia16,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2873,dia17,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2874,dia18,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2875,dia19,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2876,dia20,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2877,tdia01,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2878,tdia02,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2879,tdia03,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2880,tdia04,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2881,tdia05,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2882,tdia06,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2883,tdia07,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2884,tdia08,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2885,tdia09,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2886,tdia10,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2887,tdia11,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2888,tdia12,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2889,tdia13,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2890,tdia14,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2891,proc01,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2892,proc02,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2893,proc03,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2894,proc04,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2895,proc05,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2896,proc06,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2897,proc07,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2898,proc08,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2899,proc09,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2900,proc10,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2901,proc11,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2902,proc12,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2903,proc13,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2904,proc14,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2905,proc15,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2906,proc16,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2907,proc17,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2908,proc18,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2909,proc19,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2910,proc20,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2911,proc21,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2912,proc22,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2913,proc23,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2914,proc24,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2915,proc25,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2916,proc26,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2917,proc27,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2918,proc28,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2919,proc29,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2920,proc30,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2921,proc31,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2922,proc32,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2923,proc33,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2924,proc34,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2925,proc35,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2926,proc36,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2927,proc37,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2928,proc38,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2929,proc39,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2930,proc40,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2931,tproc01,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2932,tproc02,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2933,tproc03,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2934,tproc04,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2935,tproc05,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2936,tproc06,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2937,tproc07,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2938,tproc08,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2939,tproc09,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2940,tproc10,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2941,ink1,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2942,ink2,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2943,ink3,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2944,ink4,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2945,ink5,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2946,ink6,DRG-grupperet LPR,drgkontakt_fejl
+12,240,2947,fejltekst,DRG-grupperet LPR,drgkontakt_fejl
+17,98,953,c_dodssted,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,954,c_dodtilgrundl_acme,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,955,c_findested,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,956,c_haendelsessted,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,957,c_laegefunktion,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,958,c_liste14,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,959,c_liste49,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,960,c_listea,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,961,c_listeb,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,962,c_obduktion,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,963,c_operation,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,964,c_praecis_dodssted,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,965,c_praecis_findested,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,966,c_region,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,967,c_sex,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,968,d_dodsdato,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,969,d_findedato,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,970,d_statdato,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,971,k_cpr,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,972,v_alder,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,973,c_bopamtf07,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,974,c_bopkom,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,975,c_bopkomf07,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,976,c_dodsmaade,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1381,c_dod_1a,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1382,c_dod_1b,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1383,c_dod_1c,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1384,c_dod_1d,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1385,c_dod_21,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1386,c_dod_22,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1387,c_dod_23,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1388,c_dod_24,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1389,c_dod_25,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1390,c_dod_26,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1391,c_dod_27,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1392,c_dod_28,Dødsårsagsregisteret,t_dodsaarsag_2
+17,98,1393,v_pid,Dødsårsagsregisteret,t_dodsaarsag_2
+17,117,1469,k_cpr,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1470,d_dodsdto,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1471,t_klok,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1472,v_alder,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1473,v_aldermdr,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1474,c_aldertim,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1475,c_u28dg,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1476,c_sex,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1477,c_civstd,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1478,c_bopkom,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1479,c_bobamt,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1480,c_dod1,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1481,c_dod2,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1482,c_dod3,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1483,c_dod4,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1484,c_liste_14,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1486,c_liste_49,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1487,c_liste_65,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1488,c_dodsmaade,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1490,c_ulyktype,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1491,c_obduktio,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1493,c_operatio,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1494,c_atckode1,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1495,c_atckode2,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1496,c_atckode3,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1497,c_atckode4,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1498,c_dodskom,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1499,c_dodsamt,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1500,c_institut,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1501,c_handsted,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1503,c_attart,Dødsårsagsregisteret,t_dodsaarsag_1
+17,117,1504,v_pid,Dødsårsagsregisteret,t_dodsaarsag_1
+18,75,487,c_snomedkode,Landsregisteret for Patologi,t_diag_ny
+18,75,488,k_inst,Landsregisteret for Patologi,t_diag_ny
+18,75,489,k_matnr,Landsregisteret for Patologi,t_diag_ny
+18,75,490,k_rekvnr,Landsregisteret for Patologi,t_diag_ny
+18,75,491,k_sekvensnr,Landsregisteret for Patologi,t_diag_ny
+18,75,492,v_fritekst,Landsregisteret for Patologi,t_diag_ny
+18,76,453,c_kommune,Landsregisteret for Patologi,t_rekv_ny
+18,76,454,c_prioritet,Landsregisteret for Patologi,t_rekv_ny
+18,76,455,c_rekvafd,Landsregisteret for Patologi,t_rekv_ny
+18,76,456,c_rekvafdsor,Landsregisteret for Patologi,t_rekv_ny
+18,76,457,c_rekvyder,Landsregisteret for Patologi,t_rekv_ny
+18,76,458,c_rekvydersor,Landsregisteret for Patologi,t_rekv_ny
+18,76,459,c_stamafd,Landsregisteret for Patologi,t_rekv_ny
+18,76,460,c_stamafdsor,Landsregisteret for Patologi,t_rekv_ny
+18,76,461,c_stamansv,Landsregisteret for Patologi,t_rekv_ny
+18,76,462,c_team,Landsregisteret for Patologi,t_rekv_ny
+18,76,463,c_undafd,Landsregisteret for Patologi,t_rekv_ny
+18,76,464,c_undafdsor,Landsregisteret for Patologi,t_rekv_ny
+18,76,465,c_undnr,Landsregisteret for Patologi,t_rekv_ny
+18,76,466,c_undyder,Landsregisteret for Patologi,t_rekv_ny
+18,76,467,c_undydersor,Landsregisteret for Patologi,t_rekv_ny
+18,76,468,d_ajourdato,Landsregisteret for Patologi,t_rekv_ny
+18,76,469,d_forlsdato,Landsregisteret for Patologi,t_rekv_ny
+18,76,470,d_modtdato,Landsregisteret for Patologi,t_rekv_ny
+18,76,471,d_opdatdatotid,Landsregisteret for Patologi,t_rekv_ny
+18,76,472,d_rekvdato,Landsregisteret for Patologi,t_rekv_ny
+18,76,473,d_senedato,Landsregisteret for Patologi,t_rekv_ny
+18,76,474,d_suppldato,Landsregisteret for Patologi,t_rekv_ny
+18,76,475,d_svardato,Landsregisteret for Patologi,t_rekv_ny
+18,76,476,k_inst,Landsregisteret for Patologi,t_rekv_ny
+18,76,477,k_rekvnr,Landsregisteret for Patologi,t_rekv_ny
+18,76,478,v_cprnr,Landsregisteret for Patologi,t_rekv_ny
+18,76,479,v_cprnrmor,Landsregisteret for Patologi,t_rekv_ny
+18,76,480,v_forlsklk,Landsregisteret for Patologi,t_rekv_ny
+18,76,481,v_modtklk,Landsregisteret for Patologi,t_rekv_ny
+18,76,482,v_rekvklk,Landsregisteret for Patologi,t_rekv_ny
+18,76,483,v_seneklk,Landsregisteret for Patologi,t_rekv_ny
+18,76,484,v_supplklk,Landsregisteret for Patologi,t_rekv_ny
+18,76,485,v_svarklk,Landsregisteret for Patologi,t_rekv_ny
+18,77,497,c_mattype,Landsregisteret for Patologi,t_lprp_ny
+18,77,498,k_inst,Landsregisteret for Patologi,t_lprp_ny
+18,77,499,k_rekvnr,Landsregisteret for Patologi,t_lprp_ny
+18,77,500,v_biobank,Landsregisteret for Patologi,t_lprp_ny
+18,77,501,v_emblok,Landsregisteret for Patologi,t_lprp_ny
+18,77,502,v_emgrid,Landsregisteret for Patologi,t_lprp_ny
+18,77,503,v_frysblok,Landsregisteret for Patologi,t_lprp_ny
+18,77,504,v_glasalm,Landsregisteret for Patologi,t_lprp_ny
+18,77,505,v_glasfrys,Landsregisteret for Patologi,t_lprp_ny
+18,77,506,v_glaskrom,Landsregisteret for Patologi,t_lprp_ny
+18,77,507,v_glasmak,Landsregisteret for Patologi,t_lprp_ny
+18,77,508,v_glasuf,Landsregisteret for Patologi,t_lprp_ny
+18,77,509,v_immunalm,Landsregisteret for Patologi,t_lprp_ny
+18,77,510,v_immuntma,Landsregisteret for Patologi,t_lprp_ny
+18,77,511,v_ishmtaelalm,Landsregisteret for Patologi,t_lprp_ny
+18,77,512,v_ishmtaeltma,Landsregisteret for Patologi,t_lprp_ny
+18,77,513,v_ishutaelalm,Landsregisteret for Patologi,t_lprp_ny
+18,77,514,v_ishutaeltma,Landsregisteret for Patologi,t_lprp_ny
+18,77,515,v_laanblok,Landsregisteret for Patologi,t_lprp_ny
+18,77,516,c_matantal,Landsregisteret for Patologi,t_lprp_ny
+18,77,517,v_pamakblok,Landsregisteret for Patologi,t_lprp_ny
+18,77,518,v_paalmblok,Landsregisteret for Patologi,t_lprp_ny
+18,77,519,v_rorflow,Landsregisteret for Patologi,t_lprp_ny
+18,77,520,v_rorpcr,Landsregisteret for Patologi,t_lprp_ny
+18,77,521,v_stanstma,Landsregisteret for Patologi,t_lprp_ny
+18,77,2376,v_anapcra,Landsregisteret for Patologi,t_lprp_ny
+18,77,2377,v_anapcrb,Landsregisteret for Patologi,t_lprp_ny
+18,77,2378,v_anapcrc,Landsregisteret for Patologi,t_lprp_ny
+18,77,2379,v_anapcrd,Landsregisteret for Patologi,t_lprp_ny
+18,78,526,c_mattype,Landsregisteret for Patologi,t_mate_ny
+18,78,527,k_inst,Landsregisteret for Patologi,t_mate_ny
+18,78,528,k_matnr,Landsregisteret for Patologi,t_mate_ny
+18,78,529,k_rekvnr,Landsregisteret for Patologi,t_mate_ny
+18,79,522,k_inst,Landsregisteret for Patologi,t_makro_ny
+18,79,523,k_matnr,Landsregisteret for Patologi,t_makro_ny
+18,79,524,k_rekvnr,Landsregisteret for Patologi,t_makro_ny
+18,79,525,v_fritekst,Landsregisteret for Patologi,t_makro_ny
+18,80,530,k_inst,Landsregisteret for Patologi,t_mikro_ny
+18,80,531,k_matnr,Landsregisteret for Patologi,t_mikro_ny
+18,80,532,k_rekvnr,Landsregisteret for Patologi,t_mikro_ny
+18,80,533,v_fritekst,Landsregisteret for Patologi,t_mikro_ny
+18,81,493,k_inst,Landsregisteret for Patologi,t_konk_ny
+18,81,494,k_matnr,Landsregisteret for Patologi,t_konk_ny
+18,81,495,k_rekvnr,Landsregisteret for Patologi,t_konk_ny
+18,81,496,v_fritekst,Landsregisteret for Patologi,t_konk_ny
+19,215,2322,c_adiag,MiniPas - LPR,t_adm
+19,215,2323,c_afd,MiniPas - LPR,t_adm
+19,215,2324,c_bopamt,MiniPas - LPR,t_adm
+19,215,2325,c_hafd,MiniPas - LPR,t_adm
+19,215,2326,c_henm,MiniPas - LPR,t_adm
+19,215,2327,c_hsgh,MiniPas - LPR,t_adm
+19,215,2328,c_indm,MiniPas - LPR,t_adm
+19,215,2329,c_kom,MiniPas - LPR,t_adm
+19,215,2330,c_kontaars,MiniPas - LPR,t_adm
+19,215,2331,c_pattype,MiniPas - LPR,t_adm
+19,215,2332,c_sex,MiniPas - LPR,t_adm
+19,215,2333,c_sgh,MiniPas - LPR,t_adm
+19,215,2334,c_sghamt,MiniPas - LPR,t_adm
+19,215,2335,c_spec,MiniPas - LPR,t_adm
+19,215,2336,c_udm,MiniPas - LPR,t_adm
+19,215,2337,d_hendto,MiniPas - LPR,t_adm
+19,215,2338,d_inddto,MiniPas - LPR,t_adm
+19,215,2339,d_uddto,MiniPas - LPR,t_adm
+19,215,2340,idnummer,MiniPas - LPR,t_adm
+19,215,2341,k_recnum,MiniPas - LPR,t_adm
+19,215,2342,skemaopdat,MiniPas - LPR,t_adm
+19,215,2343,skemaopret,MiniPas - LPR,t_adm
+19,215,2344,v_alder,MiniPas - LPR,t_adm
+19,215,2345,v_behdage,MiniPas - LPR,t_adm
+19,215,2346,v_cpr,MiniPas - LPR,t_adm
+19,215,2347,v_pid,MiniPas - LPR,t_adm
+19,215,2348,v_sengdage,MiniPas - LPR,t_adm
+19,216,2340,idnummer,MiniPas - LPR,t_fritvalg
+19,216,2349,c_fritvalg,MiniPas - LPR,t_fritvalg
+19,216,2350,indberetningsdato,MiniPas - LPR,t_fritvalg
+19,216,2357,v_recnum,MiniPas - LPR,t_fritvalg
+19,217,2340,idnummer,MiniPas - LPR,t_sksopr
+19,217,2350,indberetningsdato,MiniPas - LPR,t_sksopr
+19,217,2351,c_oafd,MiniPas - LPR,t_sksopr
+19,217,2352,c_opr,MiniPas - LPR,t_sksopr
+19,217,2353,c_oprart,MiniPas - LPR,t_sksopr
+19,217,2354,c_osgh,MiniPas - LPR,t_sksopr
+19,217,2355,c_tilopr,MiniPas - LPR,t_sksopr
+19,217,2356,d_odto,MiniPas - LPR,t_sksopr
+19,217,2357,v_recnum,MiniPas - LPR,t_sksopr
+19,218,2340,idnummer,MiniPas - LPR,t_sksube
+19,218,2350,indberetningsdato,MiniPas - LPR,t_sksube
+19,218,2357,v_recnum,MiniPas - LPR,t_sksube
+19,218,2358,c_oafd,MiniPas - LPR,t_sksube
+19,218,2359,c_opr,MiniPas - LPR,t_sksube
+19,218,2360,c_oprart,MiniPas - LPR,t_sksube
+19,218,2361,c_osgh,MiniPas - LPR,t_sksube
+19,218,2362,c_tilopr,MiniPas - LPR,t_sksube
+19,218,2363,d_odto,MiniPas - LPR,t_sksube
+19,219,2340,idnummer,MiniPas - LPR,t_udtilsgh
+19,219,2350,indberetningsdato,MiniPas - LPR,t_udtilsgh
+19,219,2357,v_recnum,MiniPas - LPR,t_udtilsgh
+19,219,2364,c_udtilafd,MiniPas - LPR,t_udtilsgh
+19,219,2365,c_udtilsgh,MiniPas - LPR,t_udtilsgh
+19,220,2340,idnummer,MiniPas - LPR,t_vente
+19,220,2350,indberetningsdato,MiniPas - LPR,t_vente
+19,220,2357,v_recnum,MiniPas - LPR,t_vente
+19,220,2366,c_vstatus,MiniPas - LPR,t_vente
+19,220,2367,d_vsldto,MiniPas - LPR,t_vente
+19,220,2368,d_vstdto,MiniPas - LPR,t_vente
+19,223,2340,idnummer,MiniPas - LPR,t_bes
+19,223,2350,indberetningsdato,MiniPas - LPR,t_bes
+19,223,2357,v_recnum,MiniPas - LPR,t_bes
+19,223,2372,d_ambdto,MiniPas - LPR,t_bes
+19,224,2340,idnummer,MiniPas - LPR,t_diag
+19,224,2350,indberetningsdato,MiniPas - LPR,t_diag
+19,224,2357,v_recnum,MiniPas - LPR,t_diag
+19,224,2373,c_diag,MiniPas - LPR,t_diag
+19,224,2374,c_diagtype,MiniPas - LPR,t_diag
+19,224,2375,c_tildiag,MiniPas - LPR,t_diag
