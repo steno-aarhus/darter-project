@@ -46,17 +46,20 @@ type 2 diabetes development and progression, this project will further use cohor
 survey data to extract more detailed information on individuals’ and family members risk exposures.
 
 ## Variabelindhold / Variables included
-•	Befolkning vs. Demografi, familie og husstandsforhold (BEF) 
-•	BEF_ADRESSELABEL, BEF_PERSONNUMMER, Byopgørelsen, Familier og husstande
-•	Fertilitetsdatabasen
-•	Personindkomst vs. Indkomster (INDH/INDK)
-•	Familieindskomst (FAIK)
-•	Kvalifikationsregistret vs. Uddannelsesoplysninger (UDDA) 
-•	Vandringer (VNDS)
-•	Arbejdsklassifikationsmodulet (AKM)
-•	Sygesikringsregisteret (SYSI, SSSY)
-•	Lægemiddelregisteret (LMDB)
-•	Arbejdsplads(er)
+
+All variables can be de-identified (direct identification is not needed).
+
+- Befolkning vs. Demografi, familie og husstandsforhold (BEF) 
+- BEF_ADRESSELABEL, BEF_PERSONNUMMER, Byopgørelsen, Familier og husstande
+- Fertilitetsdatabasen
+- Personindkomst vs. Indkomster (INDH/INDK)
+- Familieindskomst (FAIK)
+- Kvalifikationsregistret vs. Uddannelsesoplysninger (UDDA) 
+- Vandringer (VNDS)
+- Arbejdsklassifikationsmodulet (AKM)
+- Sygesikringsregisteret (SYSI, SSSY)
+- Lægemiddelregisteret (LMDB)
+- Arbejdsplads(er)
 
 ##Just a random though, early life stressor: parents' imprisonment. Perhaps you want to have a look 
 at this registers: 
@@ -65,7 +68,7 @@ Levevilkårsundersøgelsen (SILC)
 Forbrugsundersøgelsen?
 Idræt?
 
-##Særligt vedr. Lægemiddelsdata
+## Særligt vedr. Lægemiddelsdata
 Der ønskes adgang til lægemidler, da oplysninger om medicin bidrager til at identificere personer med
 diabetes og derudover bidrager til at belyse sygelighed i populationen. 
 
@@ -73,27 +76,18 @@ Eksterne data eller egne data
 Eksterne data/egne data til dette projekt er:
 Fra Sundhedsdatastyrelsen vil vi desuden søge om adgang til følgende register for data om diabetes
 samt relaterede sygdomme og risikofaktorer:
-•	Kroniske sygdomsdiagnoser:
+
+- Kroniske sygdomsdiagnoser:
 Det Nationale Diabetesregister? (LPR, RMPS, DADD, Diabase)
-Landspatientregistret 
+- Landspatientregistret 
 Cancerregisteret
 The laboratory data set/ Danish National Biobank?
-•	Dødsårsag:
+- Dødsårsag:
 Dødsårsagsregisteret (DOD, DODSAARS, DODSAASG)
-•	Medicinering kronisk sygdom:
+- Medicinering kronisk sygdom:
 Lægemiddelstatistikdatabasen
-•	Exposures and risk factors:
+- Exposures and risk factors:
 Overvægt:Sessionsregisteret?
-EPIC-Interact cohort study. Next Generation Study
-ADDITION, ADDITION-PRO cohort studies
-Inter99
-CORE Trial (Check your health study)
-The Danish National Health survey (2010, 2013 and 2017)
-
-##Projekts slutdato
-Data access is requested until December 2030?
-
-
 
 ```{r setup, include=FALSE}
 library(tidyverse)
@@ -128,9 +122,15 @@ variable_list %>%
 
 List cohorts:
 
+- EPIC-Interact cohort study. Next Generation Study
+- ADDITION, ADDITION-PRO cohort studies
+- Inter99
+- CORE Trial (Check your health study)
+- The Danish National Health survey (2010, 2013 and 2017)
+
 ## Projekts slutdato / Project's end date
 
-Date of deletion of data: Access to data is requested until December 2023.
+Date of deletion of data: Access to data is requested until December 2030.
 
 ## Autoriserede forskere / Authorised scientists
 
