@@ -165,12 +165,16 @@ register_variables_df %>%
 
 # Saving final register list ----------------------------------------------
 
+# This section can be run without doing any of the above.
+
 # After pasting the translation, we'll join with the translated files with
 # the non-translated files, join both dataframes into a single dataframe,
 # and save to data/.
+registers_df <- read_csv(here::here("data-raw/dst/registers.csv"))
 registers_translated <- read_csv(here::here("data-raw/dst/registers-for-translation.csv")) %>%
     full_join(registers_df, by = c("register_id", "register_name_dk"))
 
+register_variables_df <- read_csv(here::here("data-raw/dst/registers-with-variables.csv"))
 variables_translated <- read_csv(here::here("data-raw/dst/registers-with-variables-for-translation.csv")) %>%
     full_join(register_variables_df, by = c("register_id", "variable_name", "description_dk"))
 
@@ -178,7 +182,18 @@ registers_translated %>%
     rename_with( ~ str_c("register_", .x), contains("year")) %>%
     full_join(variables_translated,
               by = "register_id") %>%
-    write_csv(here::here("data/dst-registers-with-variables.csv"))
+    rename(register_start_month = start_month,
+           register_last_month = last_month,
+           variable_start_year = start_year,
+           variable_end_year = end_year) %>%
+    relocate(register_id, contains("register_name"),
+             variable_name, contains("description")) %>%
+    relocate(ends_with("url"), .after = last_col()) %>%
+    mutate(use_in_application = NA_character_,
+           reason_for_use = NA_character_,
+           .before = 1) %>%
+    write_csv(here::here("data/dst-registers-with-variables.csv"),
+              na = "")
 
 # For misc checking -------------------------------------------------------
 

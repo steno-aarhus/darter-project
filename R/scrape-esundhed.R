@@ -151,10 +151,10 @@ tidy_prep <- tidied_descriptions_long %>%
     group_by(id, description_title) %>%
     add_count()
 
-tidy_prep %>%
-    filter(n > 1) %>%
-    ungroup() %>%
-    count(description_title)
+# tidy_prep %>%
+#     filter(n > 1) %>%
+#     ungroup() %>%
+#     count(description_title)
 
 sds_descriptions <- tidy_prep %>%
     # There are some duplicates here, this fixes many but not all.
@@ -167,9 +167,6 @@ sds_descriptions <- tidy_prep %>%
     unnest(-periode) %>%
     select(-format, -laengde, -funktion, -kilder, -kodesaet,
            -vaerdier, -ends_with("_id"))
-
-View(sds_descriptions)
-
 
 # For translation ---------------------------------------------------------
 
@@ -224,6 +221,16 @@ sds_descriptions %>%
     select(-id) %>%
     relocate(register_name, table_name, variable_name) %>%
     unnest(periode) %>%
-    write_csv(here::here("data/sds-registers-with-variables.csv"))
+    mutate(use_in_application = NA_character_,
+           reason_for_use = NA_character_,
+           .before = 1) %>%
+    mutate(across(c(known_data_break_changes, kendte_databrud_aendringer),
+                  ~ .x %>%
+                      na_if("None") %>%
+                      na_if("Ingen"))) %>%
+    relocate(short_register_description, table_contents, variable_description,
+             .after = variable_name) %>%
+    write_csv(here::here("data/sds-registers-with-variables.csv"),
+              na = "")
 
 
