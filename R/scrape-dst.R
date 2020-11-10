@@ -5,7 +5,7 @@ library(polite)
 library(glue)
 conflicted::conflict_prefer("filter", "dplyr")
 conflicted::conflict_prefer("pluck", "purrr")
-needed_registers <- read_csv(here::here("data-raw/needed-registers.csv"),
+needed_registers <- read_csv(here::here("data/needed-registers.csv"),
                              col_types = cols("c"))
 
 # Functions ---------------------------------------------------------------
