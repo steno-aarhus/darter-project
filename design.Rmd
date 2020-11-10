@@ -175,32 +175,7 @@ This cohort and those from the "closed cohort" would both make up the "open coho
 
 ### Registries
 
-- Civil Registration System
-- Medical Birth Registry
-- National Patient Register
-- Conscription Registry
-- Psychiatric Central Research Register
-- Danish Registry of Causes of Death
-- Population Education Register
-- Income Statistics Register
-
-- Register of Support for Children and Adolescents
-- National Prescription Registry
-- LABKA
-- Integrated Database for Labour Market Research
-
-- Building and Housing register? for the social housing etc?
-
 ```{r registers_cohorts_table, results='asis', echo=FALSE}
-measures <- tibble::tribble(
-    ~Dataset, ~Variables, ~`Sample size`,
-    "National Diabetes Register, National Patient Register, Register of Causes of Death", "Disease and T2D diagnoses, death of participant, death of parent during childhood", "Entire Danish population, data on T2D from 1995",
-    "", "", "",
-    "Civil Registration, Population's Education Register, Income Statistics Register, Building and Housing Register", "Parental ID, early life/parental socioeconomic data (education, occupation, income), adult socioeconomic data", "Entire Danish population with fairly complete data from 1960s",
-    "", "", "",
-    "DCH-NG and original DCH, ADDITION-DK, EPIC-InterAct for Denmark", "Metabolic profile, lipidomics, metabolomics, and other detailed phenotyping", "~1500 to 55000"
-)
-
 ```
 
 Examples of variables contained within registers and cohorts that will be used
