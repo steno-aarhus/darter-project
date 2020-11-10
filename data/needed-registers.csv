@@ -1,45 +1,53 @@
-register_id
-BEF
-FAIN
-VNDS
-FAIK
-IND
-AKM
-UDDA
-FAM
-HUST
-FAHU
-IEPE
-VNDS
-IDA
-RAS
-PUOB
-INDH
-INDK
-IEPE
-SYSI
-SSSY
-SYST
-SHSS
-SSNV
-LPR_ADM
-LPR_BES
-LPR_DIAG
-LPR_OPR
-LPR_SKSOP
-LPR_SKSUBE
-PRIV_ADM
-PRIV_DIAG
-PRIV_SKSUBE
-PRIV_SKSOPR
-UAF_ADM
-UAF_BES
-UAF_DIAG
-UAF_OPR
-UAF_SKSOPR
-DOD
-DODSAASG
-LMDB
-LPR_PSYK
-LABKA
-BYSTRB
+completed,register_id,register_name_dk,register_name_english,owner,note
+1,BEF,Befolkningen,The population,dst,
+,FAIN,Husstande og familier,Households and families,dst,
+,VNDS,Historiske vandringer,Historical walks,dst,
+,FAIK,Familieindkomster,Family income,dst,
+,IND,Indkomst,Income,dst,
+1,AKM,Arbejdsklassifikationsmodulet,The work classification module,dst,
+,UDDA,Uddannelser (BUE),Education (BUE),dst,
+,FAM,,,,
+,HUST,,,,
+1,FAHU,Husstande,Households,dst,Need this? Doesn't have an ID to link with other data sources...
+,IEPE,Indvandrere og Efterkommere,Immigrants and Descendants,dst,
+,VNDS,Historiske vandringer,Historical walks,dst,
+,IDA,,,,
+,RAS,Registerbaserede arbejdsstyrkestatistik,Register-based labor force statistics,dst,
+,PUOB,,,,
+,INDH,,,,
+,INDK,,,,
+,IEPE,Indvandrere og Efterkommere,Immigrants and Descendants,dst,
+,SYSI,Sygesikring (6-cifret),Health insurance (6-digit),dst,
+,SSSY,Sygesikring (6-cifret),Health insurance (6-digit),dst,
+,SYST,Sygesikring (4-cifret),Health insurance (4-digit),dst,
+,SHSS,Sammenhængende socialstatistik,Coherent social statistics,dst,
+,SSNV,Sammenhængende socialstatistik nettovarigheder,Coherent social statistics net durations,dst,
+,LPR_ADM,Landspatientregistret - administrative oplysninger,National Patient Register - administrative information,dst,
+,LPR_BES,Landspatientregistret - ambulante besøgsdatoer,National Patient Register - outpatient visit dates,dst,
+,LPR_DIAG,Landspatientregistret - diagnoser,National Patient Register - diagnoses,dst,
+,LPR_OPR,Landspatientregistret - operationer efter ICD8 klassifikationen,National Patient Register - operations according to the ICD8 classification,dst,
+,LPR_SKSOP,,,,
+,LPR_SKSUBE,Landspatientregistret - undersøgelser og behandlinger,National Patient Register - examinations and treatments,dst,
+,PRIV_ADM,Landspatientregistret private sygehuse - administrative oplysninger,National Patient Register private hospitals - administrative information,dst,
+,PRIV_DIAG,Landspatientregistret private sygehuse - diagnoser,National Patient Register of private hospitals - diagnoses,dst,
+,PRIV_SKSUBE,Landspatientregistret private sygehuse - undersøgelser og behandlinger,National Patient Register private hospitals - examinations and treatments,dst,
+,PRIV_SKSOPR,Landspatientregistret private sygehuse - operationer,National Patient Register of Private Hospitals - Operations,dst,
+,UAF_ADM,Landspatientregistret uafsluttede kontakter - administrative oplysninger,National Patient Register unfinished contacts - administrative information,dst,
+,UAF_BES,Landspatientregistret uafsluttede kontakter - ambulante besøgsdatoer,National Patient Register unfinished contacts - outpatient visit dates,dst,
+,UAF_DIAG,Landspatientregistret uafsluttede kontakter - diagnoser,National Patient Register unfinished contacts - diagnoses,dst,
+,UAF_OPR,Landspatientregistret uafsluttede kontakter - operationer efter ICD8 klassifikationen,National Patient Register unfinished contacts - operations according to the ICD8 classification,dst,
+,UAF_SKSOPR,Landspatientregistret uafsluttede kontakter - operationer,National Patient Register unfinished contacts - operations,dst,
+1,DOD,Døde i Danmark,Died in Denmark,dst?,
+1,DODSAASG,Dødsårsagsregister,Cause of death register,sds?,"Use SDS version, not DST"
+,LMDB,Lægemiddeldatabasen,The drug database,dst?,
+,LPR_PSYK,,,?,
+,LABKA,,,?,
+1,BYSTRB,Bystørrelser bopæle,City sizes residences,dst,Not sure I need this register.
+,MFR,Fødselsregisteret,Medical Birth Register,?,
+,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,
+,,,Civil Registration System,,
+,,,Psychiatric Central Research Register,,
+,,,Population Education Register,,
+,,,Register of Support for Children and Adolescents,,
+,,,National Prescription Registry,,
+,,,Integrated Database for Labour Market Research,,
