@@ -17,33 +17,40 @@ Family relations and type 2 diabetes through the life span
 
 ## Projektbeskrivelse / Project description
 
-The overall aim of this project is to identify the contribution of family characteristics in
-terms of chronic disease history, socio demographic characteristics and risk factors for the 
-development of type 2 diabetes under a life course perspective using a three-generation family pedigree. 
+The overall aim of this project is to identify the contribution of family
+characteristics in terms of chronic disease history, socio demographic
+characteristics and risk factors for the development of type 2 diabetes under a
+life course perspective using a three-generation family pedigree.
 
-Type 2 diabetes is a multifactorial disease that can develop at any stage of life course trajectory;
-yet it is most commonly diagnosed during middle-age adulthood. In addition to the strong genetic 
-risk component, behavioral risk factors and socio economic conditions clusters in families and their 
-influence depends on the timing and exposure accumulation (length). For example: 
-poor childhood socio economic status (SES) --> poor educational attainment --> poor adult SES 
-poor childhood SES --> poor quality diet --> lower pancreatic potential **** add a simple DAG of your
-project instead. Use these three nodes structure to keep it simple***
+Type 2 diabetes is a multifactorial disease that can develop at any stage of
+life course trajectory; yet it is most commonly diagnosed during middle-age
+adulthood. In addition to the strong genetic risk component, behavioral risk
+factors and socio economic conditions clusters in families and their influence
+depends on the timing and exposure accumulation (length). For example: poor
+childhood socio economic status (SES) --> poor educational attainment --> poor
+adult SES poor childhood SES --> poor quality diet --> lower pancreatic
+potential **** add a simple DAG of your project instead. Use these three nodes
+structure to keep it simple***
 
-This project will contribute with new and strong evidence on the role that family relations plays for 
-type 2 diabetes development and progression under an aetiological, predictive and a causal perspective
-using advanced epidemiological, demographic, and statistical methods.
+This project will contribute with new and strong evidence on the role that
+family relations plays for type 2 diabetes development and progression under an
+aetiological, predictive and a causal perspective using advanced
+epidemiological, demographic, and statistical methods.
 
 
 ## Population / Population
 
-In order to identify familial relations through individuals’ life course trajectory, the population
-understudy covers all individuals alive and living in Denmark from 1 January 1970 to 31 December 2020
-(~8.5 million people). It consist of a two or three-generation (even four) pedigree in which index 
-individuals have linkage to their parents and spouses. Index individuals are defined as those individuals
-that serve as a reference to identify family relations and which will follow with regards to the outcome.
-With the purpose to identify potential pathways, drivers and mechanisms linking family relations to 
-type 2 diabetes development and progression, this project will further use cohort and cross-sectional
-survey data to extract more detailed information on individuals’ and family members risk exposures.
+In order to identify familial relations through individuals’ life course
+trajectory, the population understudy covers all individuals alive and living in
+Denmark from 1 January 1970 to 31 December 2020 (~8.5 million people). It
+consist of a two or three-generation (even four) pedigree in which index
+individuals have linkage to their parents and spouses. Index individuals are
+defined as those individuals that serve as a reference to identify family
+relations and which will follow with regards to the outcome. With the purpose to
+identify potential pathways, drivers and mechanisms linking family relations to
+type 2 diabetes development and progression, this project will further use
+cohort and cross-sectional survey data to extract more detailed information on
+individuals’ and family members risk exposures.
 
 ## Variabelindhold / Variables included
 
