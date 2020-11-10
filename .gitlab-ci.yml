@@ -9,4 +9,4 @@ pages:
             - public
         expire_in: 1 hour
     only:
-        - master
+        - main
