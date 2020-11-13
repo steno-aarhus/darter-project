@@ -16,7 +16,8 @@ Imports:
     tibble,
     pander,
     gt,
-    DiagrammeR
+    DiagrammeR,
+    conflicted
 Suggests: 
     V8,
     DiagrammeRsvg
