@@ -3,10 +3,21 @@ library(tidyverse)
 library(rvest)
 library(polite)
 library(glue)
+library(here)
 conflicted::conflict_prefer("filter", "dplyr")
 conflicted::conflict_prefer("pluck", "purrr")
-needed_registers <- read_csv(here::here("data/needed-registers.csv"),
-                             col_types = cols("c"))
+
+current_registers <-
+    here("data/dst-registers-with-variables.csv") %>%
+    read_csv(col_types = cols_only(register_id = col_character())) %>%
+    pull(register_id) %>%
+    unique()
+
+needed_registers <-
+    here("data/needed-registers.csv") %>%
+    read_csv(col_types = cols_only(register_id = col_character())) %>%
+    filter(!register_id %in% current_registers) %>%
+    na.omit()
 
 # Functions ---------------------------------------------------------------
 
