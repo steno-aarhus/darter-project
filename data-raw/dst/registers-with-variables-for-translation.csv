@@ -1797,3 +1797,474 @@ VNDS,INDUD_LAND,Ingen label,No label
 VNDS,PNR,Personnummer,Social security number
 VNDS,CPRTJEK,,
 VNDS,CPRTYPE,,
+FTBARN,B_KILDE,Kilde til barnets oplysninger,Source of child information
+FTBARN,CPRTJEK,CPR-tjek,CPR check
+FTBARN,CPRTYPE,CPR-type,CPR type
+FTBARN,FAR1,Tidligste far registreret,Earliest father registered
+FTBARN,FAR2,Seneste far,Latest father
+FTBARN,FAR_ALDER,Fars alder,Father's age
+FTBARN,FAR_ALDER_ULT,Faderens alder ultimo året,Father's age at the end of the year
+FTBARN,FAR_FOED_ADOP,Fars relation til barnet,Father's relationship to the child
+FTBARN,FAR_KOEN,Fars køn,Father's gender
+FTBARN,FAR_VFRA,Ingen label,No label
+FTBARN,FLERFOLD,Ingen label,No label
+FTBARN,FOEDAAR,Ingen label,No label
+FTBARN,FOEDREG_DK,Fødselsregistrering i Danmark,Birth registration in Denmark
+FTBARN,FOEDREG_KODE,Kode for personens fødselsregistreringssted.,Code of the person's place of birth.
+FTBARN,FOEDTE_POPULATION,Ingen label,No label
+FTBARN,FOED_DAG,Fødselsdato,Date of birth
+FTBARN,F_KILDE,Kilde til far1-oplysningen,Source of the father1 information
+FTBARN,INDDAG,Barnets alder ved første registrering i CPR (dage),The child's age at first registration in CPR (days)
+FTBARN,KOEN,Ingen label,No label
+FTBARN,LAENGDE_BARN,Ingen label,No label
+FTBARN,LEVENDE_ELLER_DOEDFOEDT,Levende eller dødfødt barn,Living or stillborn child
+FTBARN,MDOED,Ingen label,No label
+FTBARN,MFR_OPLYSNING,Oplysninger fra MFR,Information from MFR
+FTBARN,MOR1,Tidligste mor,Earliest mother
+FTBARN,MOR2,Seneste mor,Latest mother
+FTBARN,MOR_ALDER,Moderens alder,Mother's age
+FTBARN,MOR_ALDER_ULT,Moderens alder ultimo året,Mother's age at the end of the year
+FTBARN,MOR_FOED_ADOP,Mors relation til barnet,Mother's relationship to the child
+FTBARN,MOR_KOEN,Ingen label,No label
+FTBARN,MOR_VFRA,Ingen label,No label
+FTBARN,M_KILDE,Kilde til mor1-oplysningen,Source of the mother1 information
+FTBARN,PNR,Personnummer,Social security number
+FTBARN,VAEGT_BARN,Barnets fødselvægt,The baby's birth weight
+FTBARN,VERSION,Ingen label,No label
+FTBARN,CPRTJEK,NA,REACH
+FTBARN,CPRTYPE,NA,REACH
+FTBARN,VERSION,NA,REACH
+FTDB,ANTAL,Barnets nr i fødslen,The child's number at birth
+FTDB,ARBOERN,Angiver barnets 1. statusår eller kilde,Indicates the child's 1st year of status or source
+FTDB,FAR_KILDE,Kilde til oplysning om far,Source for information about father
+FTDB,FODTDATO,Fødselsdato - barnet,Date of birth - the child
+FTDB,FODTDK,Dansk født,Danish born
+FTDB,FOEDDATF,Faders fødselsår,Father's year of birth
+FTDB,FOEDDATM,Moders fødselsår,Mother's year of birth
+FTDB,FREGKO,Fødselsregistreringskode,Birth registration code
+FTDB,FTDB_LBNR,Løbenr til match med MFR,Serial number for match with MFR
+FTDB,INDDTO,Indvandringsdato,Date of immigration
+FTDB,KQN,Køn,Sex
+FTDB,MADOPT,Markering af adoption,Marking of adoption
+FTDB,MDOED,Markering af evt. død,Marking of any death
+FTDB,MFR_MATCH,Matchtype til MFR,Match type for MFR
+FTDB,MOR_KILDE,Kilde til oplysning om mor,Source of information about mother
+FTDB,PNRB,"Personnummer, barn","Social security number, children"
+FTDB,PNRF,"Personnummer, far","Social security number, father"
+FTDB,PNRM,Personnummer på mor,Social security number of mother
+FTDK,ANTAL,Barnets nr i fødslen,The child's number at birth
+FTDK,DEMPAR,Optalt demografisk paritet,Counted demographic parity
+FTDK,DEMSPA2,Afstand mellem levendefødet i dage,Distance between live births in days
+FTDK,DEMSPAC,Optalt demografisk spacing,Counted demographic spacing
+FTDK,ENKPAR,"Optalt paritet, enk,levf.","Counted parity, single, levf."
+FTDK,ENKSPA2,"Optalt spacing, enkelt levendefødt i dage","Counted spacing, single live born in days"
+FTDK,ENKSPAC,"Optalt spacing, enkelt levendefødt i måneder","Counted spacing, single live birth in months"
+FTDK,FAMPAR,Optalt familieparitet,Counted family parity
+FTDK,FAMSPA2,Optalt familiespacing i dage,Enumerated family space for days
+FTDK,FAMSPAC,Optalt familiespacing,Enumerated family space
+FTDK,FODTDAT,Forældres fødselsdato,Parents' date of birth
+FTDK,FODTDATI,Forældres partners fødselsdato,Parents' date of birth
+FTDK,FODTDATO,Fødselsdato - barnet,Date of birth - the child
+FTDK,FORLDRE,"Forælders køn, mor eller far","Parent gender, mother or father"
+FTDK,FREGKO,Fødselsregistreringskode,Birth registration code
+FTDK,FTDB_LBNR,Løbenr til match med MFR,Serial number for match with MFR
+FTDK,KQN,Køn,Sex
+FTDK,MADOPT,Markering af adoption,Marking of adoption
+FTDK,MDOED,Markering af evt. død,Marking of any death
+FTDK,MEDPAR,Optalt medicinsk paritet,Counted medical parity
+FTDK,MEDSPA2,Medicinsk paritet beregnet i dage.,Medical parity calculated in days.
+FTDK,MEDSPAC,Optalt medicinsk spacing,Enumerated medical spacing
+FTDK,PNRBARN,"Personnummer, barn","Social security number, children"
+FTDK,PNRFLDR,"Pnr, forælder","Pnr, parent"
+FTDK,PNRINV,Personnummer - forældrens partner,Social security number - the parent's partner
+FTDM,ANTAL,Barnets nr i fødslen,The child's number at birth
+FTDM,DEMPAR,Optalt demografisk paritet,Counted demographic parity
+FTDM,DEMSPA2,Afstand mellem levendefødet i dage,Distance between live births in days
+FTDM,DEMSPAC,Optalt demografisk spacing,Counted demographic spacing
+FTDM,ENKPAR,"Optalt paritet, enk,levf.","Counted parity, single, levf."
+FTDM,ENKSPA2,"Optalt spacing, enkelt levendefødt i dage","Counted spacing, single live birth in days"
+FTDM,ENKSPAC,"Optalt spacing, enkelt levendefødt i måneder","Counted spacing, single live birth in months"
+FTDM,FAMPAR,Optalt familieparitet,Counted family parity
+FTDM,FAMSPA2,Optalt familiespacing i dage,Enumerated family space for days
+FTDM,FAMSPAC,Optalt familiespacing,Enumerated family space
+FTDM,FODTDAT,Forældres fødselsdato,Parents' date of birth
+FTDM,FODTDATI,Forældres partners fødselsdato,Parent partner's date of birth
+FTDM,FODTDATO,Fødselsdato - barnet,Date of birth - the child
+FTDM,FORLDRE,"Forælders køn, mor eller far","Parent gender, mother or father"
+FTDM,FREGKO,Fødselsregistreringskode,Birth registration code
+FTDM,FTDB_LBNR,Løbenr til match med MFR,Serial number for match with MFR
+FTDM,KQN,Køn,Sex
+FTDM,MADOPT,Markering af adoption,Marking of adoption
+FTDM,MDOED,Markering af evt. død,Marking of any death
+FTDM,MEDPAR,Optalt medicinsk paritet,Counted medical parity
+FTDM,MEDSPA2,Medicinsk paritet beregnet i dage.,Medical parity calculated in days.
+FTDM,MEDSPAC,Optalt medicinsk spacing,Enumerated medical spacing
+FTDM,PNRBARN,"Personnummer, barn","Social security number, children"
+FTDM,PNRFLDR,"Pnr, forælder","Pnr, parent"
+FTDM,PNRINV,Personnummer - forældrens partner,Social security number - the parent's partner
+FTFORAEL,ADOP,ADOP,ADOP
+FTFORAEL,CPRTJEK,CPR-tjek,CPR check
+FTFORAEL,CPRTYPE,CPR-type,CPR type
+FTFORAEL,DEMOGRAFISK_PARITET,DEMOGRAFISK_PARITET,DEMOGRAPHIC_PARITY
+FTFORAEL,DEMOGRAFISK_SPACING,Demografisk afstand mellem børn,Demographic distance between children
+FTFORAEL,DOED_DATO,Barnets dødsdato,Date of death of the child
+FTFORAEL,ENKELT_PARITET,Enkeltparitet,Single parity
+FTFORAEL,ENKELT_SPACING,ENKELT_SPACING,EASY_SPACING
+FTFORAEL,FAMILIE_PARITET,Familieparitet,Family parity
+FTFORAEL,FAMILIE_SPACING,FAMILIE_SPACING,FAMILY_SPACING
+FTFORAEL,FLERFOLD,FLERFOLD,MULTIPLE
+FTFORAEL,FOED_DAG,Fødselsdato,Date of birth
+FTFORAEL,FORAELDER_PNR,Foraelder_pnr,Foraelder_pnr
+FTFORAEL,MDOED,Markering af evt. død,Marking of any death
+FTFORAEL,MEDICINSK_PARITET,Medicinsk paritet,Medical parity
+FTFORAEL,MEDICINSK_SPACING,DEMOGRAFISK_PARITET,DEMOGRAFISK_PARITET
+FTFORAEL,MOR_FAR,Angiver om foraelder_id er moren eller faderen,Specifies whether foraelder_id's mother or father
+FTFORAEL,PARITET,Moderens fødsel nummer,Mother's birth number
+FTFORAEL,PNR,Personnummer,Social security number
+FTFORAEL,VERSION,VERSION,VERSION
+FTFORAEL,CPRTJEK,NA,REACH
+FTFORAEL,CPRTYPE,NA,REACH
+FTFORAEL,PARITET,NA,REACH
+FTFORAEL,VERSION,NA,REACH
+FTNAEVN,AAR,Ingen label,No label
+FTNAEVN,ALDER_SLUT,Ingen label,No label
+FTNAEVN,ALDER_START,Ingen label,No label
+FTNAEVN,ANDEL,Andel af fertile alder,Percentage of fertile age
+FTNAEVN,ANTAL_BOERN_SLUT,Ingen label,No label
+FTNAEVN,ANTAL_BOERN_START,Ingen label,No label
+FTNAEVN,ANTAL_DAGE_SLUT,Ingen label,No label
+FTNAEVN,ANTAL_DAGE_START,Ingen label,No label
+FTNAEVN,CPRTJEK,CPR-tjek,CPR check
+FTNAEVN,CPRTYPE,CPR-type,CPR type
+FTNAEVN,FOED_DAG,Ingen label,No label
+FTNAEVN,KOEN,Ingen label,No label
+FTNAEVN,PNR,Personnummer,Social security number
+FTNAEVN,PRIMO_ULTIMO,Ingen label,No label
+FTNAEVN,VERSION,Moduldata version,Modular data version
+FTNAEVN,CPRTJEK,NA,REACH
+FTNAEVN,CPRTYPE,NA,REACH
+FTNAEVN,VERSION,NA,REACH
+LPRMFRDF,B_AMBULANT,Planlagt fødsel,Planned birth
+LPRMFRDF,B_ANDRE,Andre indgreb under fødsel,Other procedures during childbirth
+LPRMFRDF,B_ANESTESI,Anæstesilæge tilstede,Anesthesiologist present
+LPRMFRDF,B_COLLUM,Livmoderhalsinspektion,Cervical inspection
+LPRMFRDF,B_CTG_U_F,CTG under fødslen,CTG during childbirth
+LPRMFRDF,B_D1,"Diagnosticering 1, ultralydsscanning","Diagnosis 1, ultrasound scan"
+LPRMFRDF,B_D2,"Diagnosticering 2, chorion villusbiopsi","Diagnostics 2, chorionic villusbiopsi"
+LPRMFRDF,B_D3,"Diagnosticering 3, serum AFP","Diagnosis 3, serum AFP"
+LPRMFRDF,B_D4,"Diagnosticering 4, amniocentese","Diagnosis 4, amniocentesis"
+LPRMFRDF,B_D5,"Diagnosticering 5, CTG i svangerskab","Diagnosis 5, CTG in pregnancy"
+LPRMFRDF,B_EPIS,Episiostomi,Episiostomy
+LPRMFRDF,B_F1,"Indgreb 1 før fødsel, vending/vendingsforsøg","Interventions 1 before birth, reversal / reversal experiments"
+LPRMFRDF,B_F2,"Indgreb 2 før fødsel, hindesprængning","Intervention 2 before birth, rupture of membranes"
+LPRMFRDF,B_F3,"Indgreb 3 før fødsel, medicinsk igangsætning","Intervention 3 before birth, medical initiation"
+LPRMFRDF,B_F5,"Indgreb 5 før fødsel, andet indgreb","Intervention 5 before birth, second intervention"
+LPRMFRDF,B_F6,"Indgreb 6 før fødsel, sectio","Intervention 6 before birth, sectio"
+LPRMFRDF,B_FLERFOLD,Flerfoldsfødsel,Multiple birth
+LPRMFRDF,B_FREMT,Fremtrækning,Drawing
+LPRMFRDF,B_FSHJAELP,Fødselshjælp,Obstetrics
+LPRMFRDF,B_HINDESP,Hindesprængning,Membrane rupture
+LPRMFRDF,B_I1,"Indgreb 1, vestimulation","Intervention 1, vestimulation"
+LPRMFRDF,B_I10,"Indgreb 10, andre indgreb","Intervention 10, other interventions"
+LPRMFRDF,B_I11,"Indgreb 11, sectio","Intervention 11, section"
+LPRMFRDF,B_I12,"Indgreb 12, acut sectio","Intervention 12, acute section"
+LPRMFRDF,B_I2,"Indgreb 2, hindepunktur","Intervention 2, hind point"
+LPRMFRDF,B_I3,"Indgreb 3, hindesprængning","Intervention 3, membrane rupture"
+LPRMFRDF,B_I4,"Indgreb 4, Episiotomia","Intervention 4, Episiotomy"
+LPRMFRDF,B_I5,"Indgreb 5, fremhjælpning","Intervention 5, relief"
+LPRMFRDF,B_I6,"Indgreb 6, vacuumekstarktion","Intervention 6, vacuum extraction"
+LPRMFRDF,B_I7,"Indgreb 7, tangforløsning","Intervention 7, forceps release"
+LPRMFRDF,B_I8,"Indgreb 8, fremtrækning","Intervention 8, traction"
+LPRMFRDF,B_I9,"Indgreb 9, planlagt sectio","Intervention 9, planned section"
+LPRMFRDF,B_K1,"Komplikation 1, forliggende moderkage","Complication 1, present placenta"
+LPRMFRDF,B_K10,"Komplikation 10, svangerskabsforgiftning eller truende fødekrampe","Complication 10, preeclampsia or threatening food cramps"
+LPRMFRDF,B_K11,"Komplikation 11, truende fosterdød","Complication 11, threatening fetal death"
+LPRMFRDF,B_K12,"Komplikation 12, bristning","Complication 12, rupture"
+LPRMFRDF,B_K13,"Komplikation 13, sygdom hos moderen","Complication 13, disease of the mother"
+LPRMFRDF,B_K14,"Komplikation 14, andre komplikationer","Complication 14, other complications"
+LPRMFRDF,B_K15,"Komplikation15, placentainsufficiens","Complication15, placental insufficiency"
+LPRMFRDF,B_K2,"Komplikation 2, fastsiddende moderkage","Complication 2, stuck placenta"
+LPRMFRDF,B_K3,"Komplikation 3, præmatur løsning","Complication 3, premature ejaculation"
+LPRMFRDF,B_K4,"Komplikation 4, blødning af anden årsag","Complication 4, bleeding for another reason"
+LPRMFRDF,B_K5,"Komplikation 5, abnormt bækken eller misforhold mellem bækken og foste","Complication 5, abnormal pelvis or mismatch between pelvis and fetus"
+LPRMFRDF,B_K6,"Komplikation 6, abnorm fosterstilling","Complication 6, abnormal fetal position"
+LPRMFRDF,B_K7,"Komplikation 7, langvarig fødsel af anden årsag","Complication 7, prolonged birth for another reason"
+LPRMFRDF,B_K8,"Komplikation 8, navesnorskomplikation","Complication 8, hub cord complication"
+LPRMFRDF,B_K9,"Komplikation 9, hydramnios","Complication 9, hydramnios"
+LPRMFRDF,B_NORMAL,Normal fødsel,Normal birth
+LPRMFRDF,B_OVERF,Noderen overflyttet under fødsel,The note transferred during birth
+LPRMFRDF,B_OVERFL,Barnet overflyttet under fødsel,The baby transferred during birth
+LPRMFRDF,B_PARTUS,Spontan fødsel,Spontaneous birth
+LPRMFRDF,B_PEDIATER,Pædiater tilstede,Pediatricians present
+LPRMFRDF,B_PLACENTA,Intrauterin palpation,Intrauterine palpation
+LPRMFRDF,B_RISIKO,Risikoadfærd før fødsel,Risk behavior before birth
+LPRMFRDF,B_RYGER,Ryger,Smoker
+LPRMFRDF,B_SAMADR,Forældrene samboende ved fødsel,The parents cohabiting at birth
+LPRMFRDF,B_SECTIOF,Samboende forældre ved fødsel,Cohabiting parents at birth
+LPRMFRDF,B_SECTIOU,Sectio under fødsel,Sectio during childbirth
+LPRMFRDF,B_SMSIKKER,Sikker på menstruationsberegning,Safe on menstrual calculation
+LPRMFRDF,B_TANG,Tangforløsning,Seaweed release
+LPRMFRDF,B_VACUUM,Vacuum ekstraktion,Vacuum extraction
+LPRMFRDF,B_VESTIM,Vestimulation,Vestimulation
+LPRMFRDF,C_ANTAL,Ingen label,No label
+LPRMFRDF,C_APGAR,Ingen label,No label
+LPRMFRDF,C_BOPAMT,Bopælsamt,Residential
+LPRMFRDF,C_BOPKOM,Bopælskommune,Municipality of residence
+LPRMFRDF,C_CIVSTD,Moderens civilstand,Mother's marital status
+LPRMFRDF,C_DOD1,Primær dødsårsag,Primary cause of death
+LPRMFRDF,C_DOD2,Sekundær dødsårsag,Secondary cause of death
+LPRMFRDF,C_DOD3,Tertiær dødsårsag,Tertiary cause of death
+LPRMFRDF,C_DODFU,Fosterets dødstidspunkt i.f.t. fødsel,Fetal death time i.f.t. Birth
+LPRMFRDF,C_FODEAMT,Fødselsamt,Birth-bearing
+LPRMFRDF,C_FODEKOM,Fødselskommune,Municipality of birth
+LPRMFRDF,C_FODESTED,Fødestedstype,Place of birth type
+LPRMFRDF,C_FODSFORL,Fødselsforløb,Birth process
+LPRMFRDF,C_FODVISIT,Primært visitationssted til fødselssted,Primarily place of visitation to place of birth
+LPRMFRDF,C_FOSTERPR,Fosterpræsentation,Fetal presentation
+LPRMFRDF,C_FULDB,Ingen label,No label
+LPRMFRDF,C_INDGREB1,Ingen label,No label
+LPRMFRDF,C_INDGREB2,Ingen label,No label
+LPRMFRDF,C_INDGRFOR,Indgreb før fødslen,Intervention before birth
+LPRMFRDF,C_INDGRUND,Indgreb under fødslen,Interventions during childbirth
+LPRMFRDF,C_MISDAN,Misdannelsestilkendegivelse,Malformation manifestation
+LPRMFRDF,C_OBDUKTIO,Obduktionstilkendegivelse,Autopsy statement
+LPRMFRDF,C_OVERFRA,Moderen overført fra,The mother transferred from
+LPRMFRDF,C_PLAC,Barnets placering i flerfoldsfødsler,Placement of the child in multiple births
+LPRMFRDF,C_SEX,Barnets køn,The sex of the child
+LPRMFRDF,C_SGHNR,Sygehusnummer,Hospital number
+LPRMFRDF,D_FODDTO,Fødselsdato - barnet,Date of birth - the child
+LPRMFRDF,D_SM,Dato for sidste menstruation,Date of last menstruation
+LPRMFRDF,D_TERMIN,Terminsdato,Deadline
+LPRMFRDF,FTDB_LBNR,Fertilitetsdatabase løbenummer,Fertility database serial number
+LPRMFRDF,MFR_MATCH,Ingen label,No label
+LPRMFRDF,T_KLOKKE,Klokkeslæt for fødsel,Time of birth
+LPRMFRDF,V_ANTAL,Antal børn i fødslen,Number of children at birth
+LPRMFRDF,V_APGAR1,Apgar score efter 1 minut,Apgar score after 1 minute
+LPRMFRDF,V_APGAR5,Apgar score efter 5 minutter,Apgar score after 5 minutes
+LPRMFRDF,V_FALDER,Faderens alder,Father's age
+LPRMFRDF,V_FCPR,Faderens personnummer,Father's social security number
+LPRMFRDF,V_GRAV,Antal tidligere graviditeter,Number of previous pregnancies
+LPRMFRDF,V_LANGDE,Barnets længde i cm,The child's length in cm
+LPRMFRDF,V_MALDER,Moderens alder,Mother's age
+LPRMFRDF,V_MCPR,Moderens Personnummer,Mother's Social Security Number
+LPRMFRDF,V_MISANT,Ingen label,No label
+LPRMFRDF,V_PABORT,Antal tidligere provokerede aborter,Number of previously provoked abortions
+LPRMFRDF,V_SABORT,Antal tidligere spontane aborter,Number of previous miscarriages
+LPRMFRDF,V_SVLANGDE,Svangerskabslængden i uger,Pregnancy length in weeks
+LPRMFRDF,V_TIDLDOD,Antal tidligere dødfødte,Number of previous stillbirths
+LPRMFRDF,V_TIDLLEV,Antal tidligere levendefødte,Number of previous live births
+LPRMFRDF,V_U1,Antal undersøgelser hos jordemoder,Number of examinations by midwife
+LPRMFRDF,V_U2,Antal undersøgelser hos egen læge,Number of examinations by own doctor
+LPRMFRDF,V_U3,Antal undersøgelser hos speciallæge,Number of examinations by a specialist
+LPRMFRDF,V_U4,Antal undersøgelser på kirurgisk afdeling,Number of examinations in the surgical department
+LPRMFRDF,V_U5,Antal undersøgelser på specialafdeling,Number of examinations in the specialist department
+LPRMFRDF,V_UDSKDAG,Dage fra fødsel til udskrivning,Days from birth to discharge
+LPRMFRDF,V_UDSKTIM,Timer fra fødsel til udskrivning,Hours from birth to discharge
+LPRMFRDF,V_VAGT,Barnets vægt i gram,The child's weight in grams
+LPRMFRLF,B_AMBULANT,Planlagt fødsel,Planned birth
+LPRMFRLF,B_ANDRE,Andre indgreb under fødsel,Other procedures during childbirth
+LPRMFRLF,B_ANESTESI,Anæstesilæge tilstede,Anesthesiologist present
+LPRMFRLF,B_COLLUM,Livmoderhalsinspektion,Cervical inspection
+LPRMFRLF,B_CTG_U_F,CTG under fødslen,CTG during childbirth
+LPRMFRLF,B_D1,"Diagnosticering 1, ultralydsscanning","Diagnosis 1, ultrasound scan"
+LPRMFRLF,B_D2,"Diagnosticering 2, chorion villusbiopsi","Diagnosis 2, chorionic villus biopsy"
+LPRMFRLF,B_D3,"Diagnosticering 3, serum AFP","Diagnosis 3, serum AFP"
+LPRMFRLF,B_D4,"Diagnosticering 4, amniocentese","Diagnosis 4, amniocentesis"
+LPRMFRLF,B_D5,"Diagnosticering 5, CTG i svangerskab","Diagnosis 5, CTG in pregnancy"
+LPRMFRLF,B_EPIS,Episiostomi,Episiostomy
+LPRMFRLF,B_F1,"Indgreb 1 før fødsel, vending/vendingsforsøg","Intervention 1 before birth, reversal / reversal attempt"
+LPRMFRLF,B_F2,"Indgreb 2 før fødsel, hindesprængning","Intervention 2 before birth, rupture of membranes"
+LPRMFRLF,B_F3,"Indgreb 3 før fødsel, medicinsk igangsætning","Intervention 3 before birth, medical initiation"
+LPRMFRLF,B_F5,"Indgreb 5 før fødsel, andet indgreb","Intervention 5 before birth, second intervention"
+LPRMFRLF,B_F6,"Indgreb 6 før fødsel, sectio","Intervention 6 before birth, sectio"
+LPRMFRLF,B_FLERFOLD,Flerfoldsfødsel,Multiple birth
+LPRMFRLF,B_FREMT,Fremtrækning,Drawing
+LPRMFRLF,B_FSHJAELP,Fødselshjælp,Obstetrics
+LPRMFRLF,B_HINDESP,Hindesprængning,Membrane rupture
+LPRMFRLF,B_I1,"Indgreb 1, vestimulation","Intervention 1, vestimulation"
+LPRMFRLF,B_I10,"Indgreb 10, andre indgreb","Intervention 10, other interventions"
+LPRMFRLF,B_I11,"Indgreb 11, sectio","Intervention 11, section"
+LPRMFRLF,B_I12,"Indgreb 12, acut sectio","Intervention 12, acute section"
+LPRMFRLF,B_I2,"Indgreb 2, hindepunktur","Intervention 2, hind point"
+LPRMFRLF,B_I3,"Indgreb 3, hindesprængning","Intervention 3, membrane rupture"
+LPRMFRLF,B_I4,"Indgreb 4, Episiotomia","Intervention 4, Episiotomy"
+LPRMFRLF,B_I5,"Indgreb 5, fremhjælpning","Intervention 5, relief"
+LPRMFRLF,B_I6,"Indgreb 6, vacuumekstarktion","Intervention 6, vacuum extraction"
+LPRMFRLF,B_I7,"Indgreb 7, tangforløsning","Intervention 7, forceps release"
+LPRMFRLF,B_I8,"Indgreb 8, fremtrækning","Intervention 8, traction"
+LPRMFRLF,B_I9,"Indgreb 9, planlagt sectio","Intervention 9, planned section"
+LPRMFRLF,B_K1,"Komplikation 1, forliggende moderkage","Complication 1, present placenta"
+LPRMFRLF,B_K10,"Komplikation 10, svangerskabsforgiftning eller truende fødekrampe","Complication 10, preeclampsia or threatening food cramps"
+LPRMFRLF,B_K11,"Komplikation 11, truende fosterdød","Complication 11, threatening fetal death"
+LPRMFRLF,B_K12,"Komplikation 12, bristning","Complication 12, rupture"
+LPRMFRLF,B_K13,"Komplikation 13, sygdom hos moderen","Complication 13, disease of the mother"
+LPRMFRLF,B_K14,"Komplikation 14, andre komplikationer","Complication 14, other complications"
+LPRMFRLF,B_K15,"Komplikation15, placentainsufficiens","Complication15, placental insufficiency"
+LPRMFRLF,B_K2,"Komplikation 2, fastsiddende moderkage","Complication 2, stuck placenta"
+LPRMFRLF,B_K3,"Komplikation 3, præmatur løsning","Complication 3, premature ejaculation"
+LPRMFRLF,B_K4,"Komplikation 4, blødning af anden årsag","Complication 4, bleeding for another reason"
+LPRMFRLF,B_K5,"Komplikation 5, abnormt bækken eller misforhold mellem bækken og foste","Complication 5, abnormal pelvis or mismatch between pelvis and fetus"
+LPRMFRLF,B_K6,"Komplikation 6, abnorm fosterstilling","Complication 6, abnormal fetal position"
+LPRMFRLF,B_K7,"Komplikation 7, langvarig fødsel af anden årsag","Complication 7, prolonged birth for another reason"
+LPRMFRLF,B_K8,"Komplikation 8, navesnorskomplikation","Complication 8, hub cord complication"
+LPRMFRLF,B_K9,"Komplikation 9, hydramnios","Complication 9, hydramnios"
+LPRMFRLF,B_NORMAL,Normal fødsel,Normal birth
+LPRMFRLF,B_OVERF,Noderen overflyttet under fødsel,The note transferred during birth
+LPRMFRLF,B_OVERFL,Barnet overflyttet under fødsel,The baby transferred during birth
+LPRMFRLF,B_PARTUS,Spontan fødsel,Spontaneous birth
+LPRMFRLF,B_PEDIATER,Pædiater tilstede,Pediatricians present
+LPRMFRLF,B_PLACENTA,Intrauterin palpation,Intrauterine palpation
+LPRMFRLF,B_RISIKO,Risikoadfærd før fødsel,Risk behavior before birth
+LPRMFRLF,B_RYGER,Ryger,Smoker
+LPRMFRLF,B_SAMADR,Samboende forældre ved fødsel,Cohabiting parents at birth
+LPRMFRLF,B_SECTIOF,Ingen label,No label
+LPRMFRLF,B_SECTIOU,Sectio under fødsel,Sectio during childbirth
+LPRMFRLF,B_SMSIKKER,Sikker på menstruationsberegning,Safe on menstrual calculation
+LPRMFRLF,B_TANG,Tangforløsning,Seaweed release
+LPRMFRLF,B_VACUUM,Vacuum ekstraktion,Vacuum extraction
+LPRMFRLF,B_VESTIM,Vestimulation,Vestimulation
+LPRMFRLF,CPRTJEK,CPR-tjek,CPR check
+LPRMFRLF,CPRTYPE,CPR-type,CPR type
+LPRMFRLF,C_APGAR,Indikation af Apgar score måling,Indication of Apgar score measurement
+LPRMFRLF,C_BOPAMT,Moderens bopælsamt,Mother's residence
+LPRMFRLF,C_BOPKOM,Moderens bopælskommune,The mother's municipality of residence
+LPRMFRLF,C_CIVSTD,Moderens civilstand ved fødsel,Maternal marital status at birth
+LPRMFRLF,C_FODEAMT,Fødselsamt,Birth-bearing
+LPRMFRLF,C_FODEKOM,Fødselskommune,Municipality of birth
+LPRMFRLF,C_FODESTED,Fødestedstype,Place of birth type
+LPRMFRLF,C_FODSFORL,Fødselsforløb,Birth process
+LPRMFRLF,C_FODVISIT,Primært visitationssted til fødselssted,Primarily place of visitation to place of birth
+LPRMFRLF,C_FOSTERPR,Fosterpræsentation,Fetal presentation
+LPRMFRLF,C_FULDB,Fuldbyrdet,The execution
+LPRMFRLF,C_INDGREB1,Kunsthjælp ved fødslen - Før fødslen,Art assistance at birth - Before birth
+LPRMFRLF,C_INDGREB2,Kunsthjælp ved fødslen - Under fødslen,Art assistance at birth - During birth
+LPRMFRLF,C_INDGRFOR,Indgreb før fødsel,Intervention before birth
+LPRMFRLF,C_INDGRUND,Indgreb under fødslen,Interventions during childbirth
+LPRMFRLF,C_MISDAN,Misdannelsestilkendegivelse,Malformation manifestation
+LPRMFRLF,C_OVERFRA,Moderen overført fra,The mother transferred from
+LPRMFRLF,C_PLAC,Barnets placering i flerfoldsfødsel,Placement of the child in multiple births
+LPRMFRLF,C_SGHNR,Sygehusnummer,Hospital number
+LPRMFRLF,D_FODTDTO,Fødselsdato,Date of birth
+LPRMFRLF,D_SM,Dato for sidste menstruation,Date of last menstruation
+LPRMFRLF,D_TERMIN,Terminsdato,Deadline
+LPRMFRLF,FTDB_LBNR,Ingen label,No label
+LPRMFRLF,K_BCPR,Barnets personnummer,The child's social security number
+LPRMFRLF,MFR_MATCH,Ingen label,No label
+LPRMFRLF,T_KLOKKE,Klokkeslæt for fødsel,Time of birth
+LPRMFRLF,V_ANTAL,Antal børn i fødslen udover dette,Number of children at birth in addition to this
+LPRMFRLF,V_APGAR1,Apgar efter 1 minut,Apgar after 1 minute
+LPRMFRLF,V_APGAR5,Apgar efter 5 minutter,Apgar after 5 minutes
+LPRMFRLF,V_FALDER,Faderens alder (på fødselstidspunkt),Father's age (at time of birth)
+LPRMFRLF,V_FCPR,Faderens personnummer,Father's social security number
+LPRMFRLF,V_GRAV,Antal tidligere graviditeter,Number of previous pregnancies
+LPRMFRLF,V_LANGDE,Barnets længde i cm.,The child's length in cm.
+LPRMFRLF,V_MALDER,Moderens alder (på fødselstidspunkt),Mother's age (at time of birth)
+LPRMFRLF,V_MCPR,Moderens CPR nummer,Mother's CPR number
+LPRMFRLF,V_MISANT,Antal misdannelser hos barnet,Number of malformations in the child
+LPRMFRLF,V_PABORT,Tidligere provokerede aborter,Previously provoked abortions
+LPRMFRLF,V_SABORT,Tidligere spontane aborter,Previous miscarriages
+LPRMFRLF,V_SVLANGDE,Svangerskabslængde i uger,Pregnancy length in weeks
+LPRMFRLF,V_TIDLDOD,Tidligere dødfødte,Former stillborn
+LPRMFRLF,V_TIDLLEV,Antal tidligere levendefødte,Number of previous live births
+LPRMFRLF,V_U1,Antal undersøgelser hos jordemoder,Number of examinations by midwife
+LPRMFRLF,V_U2,Antal undersøgelser hos egen læge,Number of examinations by your own doctor
+LPRMFRLF,V_U3,Antal undersøgelser hos speciallæge,Number of examinations by a specialist
+LPRMFRLF,V_U4,Antal undersøgelser på kirurgisk afdeling,Number of examinations in the surgical department
+LPRMFRLF,V_U5,Antal undersøgelser på specialafdeling,Number of examinations in the specialist department
+LPRMFRLF,V_UDSKDAG,Antal dage fra fødsel til udskrivning,Number of days from birth to discharge
+LPRMFRLF,V_UDSKTIM,Antal timer fra fødsel til udskrivning,Number of hours from birth to discharge
+LPRMFRLF,V_VAGT,Barnets vægt i gram,The child's weight in grams
+LPRMFRLF,CPRTJEK,NA,
+LPRMFRLF,CPRTYPE,NA,
+MFR,ABDOMINALOMFANG,ABDOMINALOMFANG,
+MFR,ABRUPTIO,ABRUPTIO,
+MFR,AFDELING,AFDELING,
+MFR,ALDERVEDDOED_DAGE_BARN,ALDERVEDDOED_DAGE_BARN,
+MFR,ALDER_FADER,ALDER_FADER,
+MFR,ALDER_MODER,ALDER_MODER,
+MFR,AMNIOINFUSION,AMNIOINFUSION,
+MFR,AMNITOMI_UNDER_FOEDSEL_HSP,AMNITOMI_UNDER_FOEDSEL_HSP,
+MFR,ANDENSUTUR,ANDENSUTUR,
+MFR,APGARSCORE_EFTER5MINUTTER,APGARSCORE_EFTER5MINUTTER,
+MFR,BARNSLEVENDENR_FLERFOLDFOEDSEL,BARNSLEVENDENR_FLERFOLDFOEDSEL,
+MFR,BARNSNUMMER_FLERFOLDSFOEDSEL,BARNSNUMMER_FLERFOLDSFOEDSEL,
+MFR,BESOEGHOSJORDEMODER,BESOEGHOSJORDEMODER,
+MFR,BESOEGHOSLAEGE,BESOEGHOSLAEGE,
+MFR,BESOEGHOSSPECIALLAEGE,BESOEGHOSSPECIALLAEGE,
+MFR,BMI_MODER,BMI_MODER,
+MFR,BOPAELSKOMMUNE_MODER,BOPAELSKOMMUNE_MODER,
+MFR,CPAPBEH_NEONATALAFDELING,CPAPBEH_NEONATALAFDELING,
+MFR,CPR_BARN,CPR_BARN,
+MFR,CPR_FADER,CPR_FADER,
+MFR,CPR_MODER,CPR_MODER,
+MFR,DISPROPORTIO,DISPROPORTIO,
+MFR,DOEDSDATO_BARN,DOEDSDATO_BARN,
+MFR,DOEDSDATO_MODER,DOEDSDATO_MODER,
+MFR,EPIDURALBLOKADE,EPIDURALBLOKADE,
+MFR,EPISIOTOMI,EPISIOTOMI,
+MFR,FASTSIDDENDEMODERKAGE,FASTSIDDENDEMODERKAGE,
+MFR,FLERFOLDSFOEDSEL_BEREGNET,FLERFOLDSFOEDSEL_BEREGNET,
+MFR,FLERFOLDSGRAVIDITET,FLERFOLDSGRAVIDITET,
+MFR,FOEDESTED,FOEDESTED,
+MFR,FOEDSELSAAR,FOEDSELSAAR,
+MFR,FOEDSELSDATO,FOEDSELSDATO,
+MFR,FOEDSELSDIAGNOSE_MODER,FOEDSELSDIAGNOSE_MODER,
+MFR,FOEDSELSLOEBENUMMER,Ingen label,No label
+MFR,FOEDSELSTIME,FOEDSELSTIME,
+MFR,FOSTERPRAESENTATION,FOSTERPRAESENTATION,
+MFR,GESTATIONSALDER_DAGE,GESTATIONSALDER_DAGE,
+MFR,HJEMMEBESOEG,HJEMMEBESOEG,
+MFR,HOEJDE_MODER,HOEJDE_MODER,
+MFR,HOVEDOMFANG,HOVEDOMFANG,
+MFR,INTRAUTERIN_ASFYXI,INTRAUTERIN_ASFYXI,
+MFR,INTRAUTERIN_PALPATION,INTRAUTERIN_PALPATION,
+MFR,KEJSERSNIT_MODERSOENSKE,KEJSERSNIT_MODERSOENSKE,
+MFR,KOEN_BARN,KOEN_BARN,
+MFR,LAENGDE_BARN,LAENGDE_BARN,
+MFR,LEVENDE_ELLER_DOEDFOEDT,LEVENDE_ELLER_DOEDFOEDT,
+MFR,MARKOER_ACCRETA,MARKOER_ACCRETA,
+MFR,MARKOER_ANAESTESI_TIL_OPERATION,MARKOER_ANAESTESI_TIL_OPERATION,
+MFR,MARKOER_ANDRE_FOEDSELSKOMPLIKATI,Ingen label,No label
+MFR,MARKOER_B_MISDANNELSE,MARKOER_B_MISDANNELSE,
+MFR,MARKOER_CARDIOMYOPATI,MARKOER_CARDIOMYOPATI,
+MFR,MARKOER_GRAVIDITETSKOMPLIKATIO,MARKOER_GRAVIDITETSKOMPLIKATIO,
+MFR,MARKOER_HAEMOPERITONEUM,MARKOER_HAEMOPERITONEUM,
+MFR,MARKOER_HJEMMEFOEDSEL_BEREGNET,MARKOER_HJEMMEFOEDSEL_BEREGNET,
+MFR,MARKOER_IGANGSAETTELSE,MARKOER_IGANGSAETTELSE,
+MFR,MARKOER_INFEKTIONER,MARKOER_INFEKTIONER,
+MFR,MARKOER_KEJSERSNIT,MARKOER_KEJSERSNIT,
+MFR,MARKOER_MEDICINSKE_SYGDOMME,MARKOER_MEDICINSKE_SYGDOMME,
+MFR,MARKOER_NAVLESNORSBLOD_ANALYSE,MARKOER_NAVLESNORSBLOD_ANALYSE,
+MFR,MARKOER_PERINEAL_BRISTNING,MARKOER_PERINEAL_BRISTNING,
+MFR,MARKOER_POST_PARTUM_BLOEDNING,MARKOER_POST_PARTUM_BLOEDNING,
+MFR,MARKOER_RUPTUR,MARKOER_RUPTUR,
+MFR,MARKOER_SMERTELINDRING,MARKOER_SMERTELINDRING,
+MFR,MARKOER_ULTRALYD,MARKOER_ULTRALYD,
+MFR,MARKOER_VESTIMULATION,MARKOER_VESTIMULATION,
+MFR,MARKOER_YDRE_VENDING,MARKOER_YDRE_VENDING,
+MFR,NAVLESNORSFREMFALD,NAVLESNORSFREMFALD,
+MFR,PARITET,PARITET,
+MFR,PK_MFR,PK_MFR,
+MFR,PLACENTAVAEGT,PLACENTAVAEGT,
+MFR,POLYHYDRAMNIOS,POLYHYDRAMNIOS,
+MFR,PPROM,PPROM,
+MFR,PRAEVIA,PRAEVIA,
+MFR,PROM,PROM,
+MFR,RESPIRATORBEH_NEONATALAFDELING,RESPIRATORBEH_NEONATALAFDELING,
+MFR,RYGERSTATUS_MODER,RYGERSTATUS_MODER,
+MFR,SENGEDAGE_BEREGNET_BARN,SENGEDAGE_BEREGNET_BARN,
+MFR,SENGEDAGE_BEREGNET_MODER,SENGEDAGE_BEREGNET_MODER,
+MFR,SENGEDAGE_NEONATALAFDELING_BARN,SENGEDAGE_NEONATALAFDELING_BARN,
+MFR,SEPSIS_BARN,SEPSIS_BARN,
+MFR,SKALP_BLODPROEVE,SKALP_BLODPROEVE,
+MFR,SUTURCOLLUM,SUTURCOLLUM,
+MFR,SYGEHUS,SYGEHUS,
+MFR,TANG_FORLOESNING,TANG_FORLOESNING,
+MFR,TEGN_PAA_ASPHYXI,TEGN_PAA_ASPHYXI,
+MFR,TIDLIGEREFOEDSLER_I_DANMARK,TIDLIGEREFOEDSLER_I_DANMARK,
+MFR,TIDLIGEREKEJSERSNIT_I_DANMARK,TIDLIGEREKEJSERSNIT_I_DANMARK,
+MFR,TIDLIGERESPONTANEABORTER,TIDLIGERESPONTANEABORTER,
+MFR,VAEGT_BARN,VAEGT_BARN,
+MFR,VAEGT_MODER,VAEGT_MODER,
+MFR,VAKUUMEKSTRAKTION,VAKUUMEKSTRAKTION,
+MFR,PARITET,NA,

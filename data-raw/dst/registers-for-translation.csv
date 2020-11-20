@@ -34,3 +34,12 @@ UAF_SKSOPR,Landspatientregistret uafsluttede kontakter - operationer,National Pa
 UDDA,Uddannelser (BUE),Education (BUE)
 VNDS,Historiske vandringer,Historical walks
 VNDS,Historiske vandringer,Historical walks
+FTBARN,Fertilitet - børn,Fertility - children
+FTDB,Fertilitetsdatabasen børn,Fertility database children
+FTDK,Fertilitetsdatabasen paritetsfil kvinder,Fertility database parity file women
+FTDM,Fertilitetsdatabasen paritetsfil mænd,Fertility database parity file men
+FTFORAEL,Fertilitet - forælder,Fertility - parent
+FTNAEVN,Fertilitet - Nævner,Fertility - Mentions
+LPRMFRDF,Dødfødte ud fra LPR,Stillbirths from LPR
+LPRMFRLF,Levendefødte ud fra LPR,Live births from LPR
+MFR,Levendefødte fra det medicinske fødselsregister,Live births from the medical birth registry

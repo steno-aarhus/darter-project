@@ -1797,3 +1797,474 @@ VNDS,INDUD_LAND,Ingen label,2019,2019,NA,NA
 VNDS,PNR,Personnummer,2019,2019,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
 VNDS,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
 VNDS,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+FTBARN,B_KILDE,Kilde til barnets oplysninger,2018,2018,NA,NA
+FTBARN,CPRTJEK,CPR-tjek,2018,2018,NA,NA
+FTBARN,CPRTYPE,CPR-type,2018,2018,NA,NA
+FTBARN,FAR1,Tidligste far registreret,2018,2018,NA,NA
+FTBARN,FAR2,Seneste far,2018,2018,NA,NA
+FTBARN,FAR_ALDER,Fars alder,2018,2018,NA,NA
+FTBARN,FAR_ALDER_ULT,Faderens alder ultimo året,2018,2018,NA,NA
+FTBARN,FAR_FOED_ADOP,Fars relation til barnet,2018,2018,NA,NA
+FTBARN,FAR_KOEN,Fars køn,2018,2018,NA,NA
+FTBARN,FAR_VFRA,Ingen label,2018,2018,NA,NA
+FTBARN,FLERFOLD,Ingen label,2018,2018,NA,NA
+FTBARN,FOEDAAR,Ingen label,2018,2018,NA,NA
+FTBARN,FOEDREG_DK,Fødselsregistrering i Danmark,2018,2018,NA,NA
+FTBARN,FOEDREG_KODE,Kode for personens fødselsregistreringssted.,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/foedreg-kode,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/FOEDREG-KODE
+FTBARN,FOEDTE_POPULATION,Ingen label,2018,2018,NA,NA
+FTBARN,FOED_DAG,Fødselsdato,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/foed-dag,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/FOED-DAG
+FTBARN,F_KILDE,Kilde til far1-oplysningen,2018,2018,NA,NA
+FTBARN,INDDAG,Barnets alder ved første registrering i CPR (dage),2018,2018,NA,NA
+FTBARN,KOEN,Ingen label,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/forebyggelsesregistret/koen,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOEN
+FTBARN,LAENGDE_BARN,Ingen label,2018,2018,NA,NA
+FTBARN,LEVENDE_ELLER_DOEDFOEDT,Levende eller dødfødt barn,2018,2018,NA,NA
+FTBARN,MDOED,Ingen label,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Fertilitetsdatabasen/MDOED,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/MDOED
+FTBARN,MFR_OPLYSNING,Oplysninger fra MFR,2018,2018,NA,NA
+FTBARN,MOR1,Tidligste mor,2018,2018,NA,NA
+FTBARN,MOR2,Seneste mor,2018,2018,NA,NA
+FTBARN,MOR_ALDER,Moderens alder,2018,2018,NA,NA
+FTBARN,MOR_ALDER_ULT,Moderens alder ultimo året,2018,2018,NA,NA
+FTBARN,MOR_FOED_ADOP,Mors relation til barnet,2018,2018,NA,NA
+FTBARN,MOR_KOEN,Ingen label,2018,2018,NA,NA
+FTBARN,MOR_VFRA,Ingen label,2018,2018,NA,NA
+FTBARN,M_KILDE,Kilde til mor1-oplysningen,2018,2018,NA,NA
+FTBARN,PNR,Personnummer,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+FTBARN,VAEGT_BARN,Barnets fødselvægt,2018,2018,NA,NA
+FTBARN,VERSION,Ingen label,2018,2018,NA,NA
+FTBARN,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+FTBARN,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+FTBARN,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+FTDB,ANTAL,Barnets nr i fødslen,2012,2012,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/ANTAL
+FTDB,ARBOERN,Angiver barnets 1. statusår eller kilde,2012,2012,NA,NA
+FTDB,FAR_KILDE,Kilde til oplysning om far,2012,2012,NA,NA
+FTDB,FODTDATO,Fødselsdato - barnet,2012,2012,NA,NA
+FTDB,FODTDK,Dansk født,2012,2012,NA,NA
+FTDB,FOEDDATF,Faders fødselsår,2012,2012,NA,NA
+FTDB,FOEDDATM,Moders fødselsår,2012,2012,NA,NA
+FTDB,FREGKO,Fødselsregistreringskode,2012,2012,NA,NA
+FTDB,FTDB_LBNR,Løbenr til match med MFR,2012,2012,NA,NA
+FTDB,INDDTO,Indvandringsdato,2012,2012,NA,NA
+FTDB,KQN,Køn,2012,2012,NA,NA
+FTDB,MADOPT,Markering af adoption,2012,2012,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/MADOPT
+FTDB,MDOED,Markering af evt. død,2012,2012,https://www.dst.dk/da/Statistik/dokumentation/Times/Fertilitetsdatabasen/MDOED,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/MDOED
+FTDB,MFR_MATCH,Matchtype til MFR,2012,2012,NA,NA
+FTDB,MOR_KILDE,Kilde til oplysning om mor,2012,2012,NA,NA
+FTDB,PNRB,"Personnummer, barn",2012,2012,https://www.dst.dk/da/Statistik/dokumentation/Times/Fertilitetsdatabasen/PNRB,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/PNRB
+FTDB,PNRF,"Personnummer, far",2012,2012,NA,NA
+FTDB,PNRM,Personnummer på mor,2012,2012,NA,NA
+FTDK,ANTAL,Barnets nr i fødslen,2012,2012,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/ANTAL
+FTDK,DEMPAR,Optalt demografisk paritet,2012,2012,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/DEMPAR
+FTDK,DEMSPA2,Afstand mellem levendefødet i dage,2012,2012,NA,NA
+FTDK,DEMSPAC,Optalt demografisk spacing,2012,2012,NA,NA
+FTDK,ENKPAR,"Optalt paritet, enk,levf.",2012,2012,NA,NA
+FTDK,ENKSPA2,"Optalt spacing, enkelt levendefødt i dage",2012,2012,NA,NA
+FTDK,ENKSPAC,"Optalt spacing, enkelt levendefødt i måneder",2012,2012,NA,NA
+FTDK,FAMPAR,Optalt familieparitet,2012,2012,NA,NA
+FTDK,FAMSPA2,Optalt familiespacing i dage,2012,2012,NA,NA
+FTDK,FAMSPAC,Optalt familiespacing,2012,2012,NA,NA
+FTDK,FODTDAT,Forældres fødselsdato,2012,2012,NA,NA
+FTDK,FODTDATI,Forældres partners fødselsdato,2012,2012,NA,NA
+FTDK,FODTDATO,Fødselsdato - barnet,2012,2012,NA,NA
+FTDK,FORLDRE,"Forælders køn, mor eller far",2012,2012,NA,NA
+FTDK,FREGKO,Fødselsregistreringskode,2012,2012,NA,NA
+FTDK,FTDB_LBNR,Løbenr til match med MFR,2012,2012,NA,NA
+FTDK,KQN,Køn,2012,2012,NA,NA
+FTDK,MADOPT,Markering af adoption,2012,2012,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/MADOPT
+FTDK,MDOED,Markering af evt. død,2012,2012,https://www.dst.dk/da/Statistik/dokumentation/Times/Fertilitetsdatabasen/MDOED,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/MDOED
+FTDK,MEDPAR,Optalt medicinsk paritet,2012,2012,NA,NA
+FTDK,MEDSPA2,Medicinsk paritet beregnet i dage.,2012,2012,NA,NA
+FTDK,MEDSPAC,Optalt medicinsk spacing,2012,2012,NA,NA
+FTDK,PNRBARN,"Personnummer, barn",2012,2012,NA,NA
+FTDK,PNRFLDR,"Pnr, forælder",2012,2012,NA,NA
+FTDK,PNRINV,Personnummer - forældrens partner,2012,2012,NA,NA
+FTDM,ANTAL,Barnets nr i fødslen,2012,2012,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/ANTAL
+FTDM,DEMPAR,Optalt demografisk paritet,2012,2012,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/DEMPAR
+FTDM,DEMSPA2,Afstand mellem levendefødet i dage,2012,2012,NA,NA
+FTDM,DEMSPAC,Optalt demografisk spacing,2012,2012,NA,NA
+FTDM,ENKPAR,"Optalt paritet, enk,levf.",2012,2012,NA,NA
+FTDM,ENKSPA2,"Optalt spacing, enkelt levendefødt i dage",2012,2012,NA,NA
+FTDM,ENKSPAC,"Optalt spacing, enkelt levendefødt i måneder",2012,2012,NA,NA
+FTDM,FAMPAR,Optalt familieparitet,2012,2012,NA,NA
+FTDM,FAMSPA2,Optalt familiespacing i dage,2012,2012,NA,NA
+FTDM,FAMSPAC,Optalt familiespacing,2012,2012,NA,NA
+FTDM,FODTDAT,Forældres fødselsdato,2012,2012,NA,NA
+FTDM,FODTDATI,Forældres partners fødselsdato,2012,2012,NA,NA
+FTDM,FODTDATO,Fødselsdato - barnet,2012,2012,NA,NA
+FTDM,FORLDRE,"Forælders køn, mor eller far",2012,2012,NA,NA
+FTDM,FREGKO,Fødselsregistreringskode,2012,2012,NA,NA
+FTDM,FTDB_LBNR,Løbenr til match med MFR,2012,2012,NA,NA
+FTDM,KQN,Køn,2012,2012,NA,NA
+FTDM,MADOPT,Markering af adoption,2012,2012,NA,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/MADOPT
+FTDM,MDOED,Markering af evt. død,2012,2012,https://www.dst.dk/da/Statistik/dokumentation/Times/Fertilitetsdatabasen/MDOED,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/MDOED
+FTDM,MEDPAR,Optalt medicinsk paritet,2012,2012,NA,NA
+FTDM,MEDSPA2,Medicinsk paritet beregnet i dage.,2012,2012,NA,NA
+FTDM,MEDSPAC,Optalt medicinsk spacing,2012,2012,NA,NA
+FTDM,PNRBARN,"Personnummer, barn",2012,2012,NA,NA
+FTDM,PNRFLDR,"Pnr, forælder",2012,2012,NA,NA
+FTDM,PNRINV,Personnummer - forældrens partner,2012,2012,NA,NA
+FTFORAEL,ADOP,ADOP,2018,2018,NA,NA
+FTFORAEL,CPRTJEK,CPR-tjek,2018,2018,NA,NA
+FTFORAEL,CPRTYPE,CPR-type,2018,2018,NA,NA
+FTFORAEL,DEMOGRAFISK_PARITET,DEMOGRAFISK_PARITET,2018,2018,NA,NA
+FTFORAEL,DEMOGRAFISK_SPACING,Demografisk afstand mellem børn,2018,2018,NA,NA
+FTFORAEL,DOED_DATO,Barnets dødsdato,2018,2018,NA,NA
+FTFORAEL,ENKELT_PARITET,Enkeltparitet,2018,2018,NA,NA
+FTFORAEL,ENKELT_SPACING,ENKELT_SPACING,2018,2018,NA,NA
+FTFORAEL,FAMILIE_PARITET,Familieparitet,2018,2018,NA,NA
+FTFORAEL,FAMILIE_SPACING,FAMILIE_SPACING,2018,2018,NA,NA
+FTFORAEL,FLERFOLD,FLERFOLD,2018,2018,NA,NA
+FTFORAEL,FOED_DAG,Fødselsdato,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/foed-dag,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/FOED-DAG
+FTFORAEL,FORAELDER_PNR,Foraelder_pnr,2018,2018,NA,NA
+FTFORAEL,MDOED,Markering af evt. død,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Fertilitetsdatabasen/MDOED,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Fertilitet/MDOED
+FTFORAEL,MEDICINSK_PARITET,Medicinsk paritet,2018,2018,NA,NA
+FTFORAEL,MEDICINSK_SPACING,DEMOGRAFISK_PARITET,2018,2018,NA,NA
+FTFORAEL,MOR_FAR,Angiver om foraelder_id er moren eller faderen,2018,2018,NA,NA
+FTFORAEL,PARITET,Moderens fødsel nummer,2018,2018,NA,NA
+FTFORAEL,PNR,Personnummer,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+FTFORAEL,VERSION,VERSION,2018,2018,NA,NA
+FTFORAEL,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+FTFORAEL,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+FTFORAEL,PARITET,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forebyggelsesregistret/paritet,NA
+FTFORAEL,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+FTNAEVN,AAR,Ingen label,2018,2018,NA,NA
+FTNAEVN,ALDER_SLUT,Ingen label,2018,2018,NA,NA
+FTNAEVN,ALDER_START,Ingen label,2018,2018,NA,NA
+FTNAEVN,ANDEL,Andel af fertile alder,2018,2018,NA,NA
+FTNAEVN,ANTAL_BOERN_SLUT,Ingen label,2018,2018,NA,NA
+FTNAEVN,ANTAL_BOERN_START,Ingen label,2018,2018,NA,NA
+FTNAEVN,ANTAL_DAGE_SLUT,Ingen label,2018,2018,NA,NA
+FTNAEVN,ANTAL_DAGE_START,Ingen label,2018,2018,NA,NA
+FTNAEVN,CPRTJEK,CPR-tjek,2018,2018,NA,NA
+FTNAEVN,CPRTYPE,CPR-type,2018,2018,NA,NA
+FTNAEVN,FOED_DAG,Ingen label,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/foed-dag,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/FOED-DAG
+FTNAEVN,KOEN,Ingen label,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/forebyggelsesregistret/koen,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOEN
+FTNAEVN,PNR,Personnummer,2018,2018,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+FTNAEVN,PRIMO_ULTIMO,Ingen label,2018,2018,NA,NA
+FTNAEVN,VERSION,Moduldata version,2018,2018,NA,NA
+FTNAEVN,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+FTNAEVN,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+FTNAEVN,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+LPRMFRDF,B_AMBULANT,Planlagt fødsel,1996,1996,NA,NA
+LPRMFRDF,B_ANDRE,Andre indgreb under fødsel,1996,1996,NA,NA
+LPRMFRDF,B_ANESTESI,Anæstesilæge tilstede,1996,1996,NA,NA
+LPRMFRDF,B_COLLUM,Livmoderhalsinspektion,1996,1996,NA,NA
+LPRMFRDF,B_CTG_U_F,CTG under fødslen,1996,1996,NA,NA
+LPRMFRDF,B_D1,"Diagnosticering 1, ultralydsscanning",1996,1996,NA,NA
+LPRMFRDF,B_D2,"Diagnosticering 2, chorion villusbiopsi",1996,1996,NA,NA
+LPRMFRDF,B_D3,"Diagnosticering 3, serum AFP",1996,1996,NA,NA
+LPRMFRDF,B_D4,"Diagnosticering 4, amniocentese",1996,1996,NA,NA
+LPRMFRDF,B_D5,"Diagnosticering 5, CTG i svangerskab",1996,1996,NA,NA
+LPRMFRDF,B_EPIS,Episiostomi,1996,1996,NA,NA
+LPRMFRDF,B_F1,"Indgreb 1 før fødsel, vending/vendingsforsøg",1996,1996,NA,NA
+LPRMFRDF,B_F2,"Indgreb 2 før fødsel, hindesprængning",1996,1996,NA,NA
+LPRMFRDF,B_F3,"Indgreb 3 før fødsel, medicinsk igangsætning",1996,1996,NA,NA
+LPRMFRDF,B_F5,"Indgreb 5 før fødsel, andet indgreb",1996,1996,NA,NA
+LPRMFRDF,B_F6,"Indgreb 6 før fødsel, sectio",1996,1996,NA,NA
+LPRMFRDF,B_FLERFOLD,Flerfoldsfødsel,1996,1996,NA,NA
+LPRMFRDF,B_FREMT,Fremtrækning,1996,1996,NA,NA
+LPRMFRDF,B_FSHJAELP,Fødselshjælp,1996,1996,NA,NA
+LPRMFRDF,B_HINDESP,Hindesprængning,1996,1996,NA,NA
+LPRMFRDF,B_I1,"Indgreb 1, vestimulation",1996,1996,NA,NA
+LPRMFRDF,B_I10,"Indgreb 10, andre indgreb",1996,1996,NA,NA
+LPRMFRDF,B_I11,"Indgreb 11, sectio",1996,1996,NA,NA
+LPRMFRDF,B_I12,"Indgreb 12, acut sectio",1996,1996,NA,NA
+LPRMFRDF,B_I2,"Indgreb 2, hindepunktur",1996,1996,NA,NA
+LPRMFRDF,B_I3,"Indgreb 3, hindesprængning",1996,1996,NA,NA
+LPRMFRDF,B_I4,"Indgreb 4, Episiotomia",1996,1996,NA,NA
+LPRMFRDF,B_I5,"Indgreb 5, fremhjælpning",1996,1996,NA,NA
+LPRMFRDF,B_I6,"Indgreb 6, vacuumekstarktion",1996,1996,NA,NA
+LPRMFRDF,B_I7,"Indgreb 7, tangforløsning",1996,1996,NA,NA
+LPRMFRDF,B_I8,"Indgreb 8, fremtrækning",1996,1996,NA,NA
+LPRMFRDF,B_I9,"Indgreb 9, planlagt sectio",1996,1996,NA,NA
+LPRMFRDF,B_K1,"Komplikation 1, forliggende moderkage",1996,1996,NA,NA
+LPRMFRDF,B_K10,"Komplikation 10, svangerskabsforgiftning eller truende fødekrampe",1996,1996,NA,NA
+LPRMFRDF,B_K11,"Komplikation 11, truende fosterdød",1996,1996,NA,NA
+LPRMFRDF,B_K12,"Komplikation 12, bristning",1996,1996,NA,NA
+LPRMFRDF,B_K13,"Komplikation 13, sygdom hos moderen",1996,1996,NA,NA
+LPRMFRDF,B_K14,"Komplikation 14, andre komplikationer",1996,1996,NA,NA
+LPRMFRDF,B_K15,"Komplikation15, placentainsufficiens",1996,1996,NA,NA
+LPRMFRDF,B_K2,"Komplikation 2, fastsiddende moderkage",1996,1996,NA,NA
+LPRMFRDF,B_K3,"Komplikation 3, præmatur løsning",1996,1996,NA,NA
+LPRMFRDF,B_K4,"Komplikation 4, blødning af anden årsag",1996,1996,NA,NA
+LPRMFRDF,B_K5,"Komplikation 5, abnormt bækken eller misforhold mellem bækken og foste",1996,1996,NA,NA
+LPRMFRDF,B_K6,"Komplikation 6, abnorm fosterstilling",1996,1996,NA,NA
+LPRMFRDF,B_K7,"Komplikation 7, langvarig fødsel af anden årsag",1996,1996,NA,NA
+LPRMFRDF,B_K8,"Komplikation 8, navesnorskomplikation",1996,1996,NA,NA
+LPRMFRDF,B_K9,"Komplikation 9, hydramnios",1996,1996,NA,NA
+LPRMFRDF,B_NORMAL,Normal fødsel,1996,1996,NA,NA
+LPRMFRDF,B_OVERF,Noderen overflyttet under fødsel,1996,1996,NA,NA
+LPRMFRDF,B_OVERFL,Barnet overflyttet under fødsel,1996,1996,NA,NA
+LPRMFRDF,B_PARTUS,Spontan fødsel,1996,1996,NA,NA
+LPRMFRDF,B_PEDIATER,Pædiater tilstede,1996,1996,NA,NA
+LPRMFRDF,B_PLACENTA,Intrauterin palpation,1996,1996,NA,NA
+LPRMFRDF,B_RISIKO,Risikoadfærd før fødsel,1996,1996,NA,NA
+LPRMFRDF,B_RYGER,Ryger,1996,1996,NA,NA
+LPRMFRDF,B_SAMADR,Forældrene samboende ved fødsel,1996,1996,NA,NA
+LPRMFRDF,B_SECTIOF,Samboende forældre ved fødsel,1996,1996,NA,NA
+LPRMFRDF,B_SECTIOU,Sectio under fødsel,1996,1996,NA,NA
+LPRMFRDF,B_SMSIKKER,Sikker på menstruationsberegning,1996,1996,NA,NA
+LPRMFRDF,B_TANG,Tangforløsning,1996,1996,NA,NA
+LPRMFRDF,B_VACUUM,Vacuum ekstraktion,1996,1996,NA,NA
+LPRMFRDF,B_VESTIM,Vestimulation,1996,1996,NA,NA
+LPRMFRDF,C_ANTAL,Ingen label,1996,1996,NA,NA
+LPRMFRDF,C_APGAR,Ingen label,1996,1996,NA,NA
+LPRMFRDF,C_BOPAMT,Bopælsamt,1996,1996,NA,NA
+LPRMFRDF,C_BOPKOM,Bopælskommune,1996,1996,NA,NA
+LPRMFRDF,C_CIVSTD,Moderens civilstand,1996,1996,NA,NA
+LPRMFRDF,C_DOD1,Primær dødsårsag,1996,1996,NA,NA
+LPRMFRDF,C_DOD2,Sekundær dødsårsag,1996,1996,NA,NA
+LPRMFRDF,C_DOD3,Tertiær dødsårsag,1996,1996,NA,NA
+LPRMFRDF,C_DODFU,Fosterets dødstidspunkt i.f.t. fødsel,1996,1996,NA,NA
+LPRMFRDF,C_FODEAMT,Fødselsamt,1996,1996,NA,NA
+LPRMFRDF,C_FODEKOM,Fødselskommune,1996,1996,NA,NA
+LPRMFRDF,C_FODESTED,Fødestedstype,1996,1996,NA,NA
+LPRMFRDF,C_FODSFORL,Fødselsforløb,1996,1996,NA,NA
+LPRMFRDF,C_FODVISIT,Primært visitationssted til fødselssted,1996,1996,NA,NA
+LPRMFRDF,C_FOSTERPR,Fosterpræsentation,1996,1996,NA,NA
+LPRMFRDF,C_FULDB,Ingen label,1996,1996,NA,NA
+LPRMFRDF,C_INDGREB1,Ingen label,1996,1996,NA,NA
+LPRMFRDF,C_INDGREB2,Ingen label,1996,1996,NA,NA
+LPRMFRDF,C_INDGRFOR,Indgreb før fødslen,1996,1996,NA,NA
+LPRMFRDF,C_INDGRUND,Indgreb under fødslen,1996,1996,NA,NA
+LPRMFRDF,C_MISDAN,Misdannelsestilkendegivelse,1996,1996,NA,NA
+LPRMFRDF,C_OBDUKTIO,Obduktionstilkendegivelse,1996,1996,NA,NA
+LPRMFRDF,C_OVERFRA,Moderen overført fra,1996,1996,NA,NA
+LPRMFRDF,C_PLAC,Barnets placering i flerfoldsfødsler,1996,1996,NA,NA
+LPRMFRDF,C_SEX,Barnets køn,1996,1996,NA,NA
+LPRMFRDF,C_SGHNR,Sygehusnummer,1996,1996,NA,NA
+LPRMFRDF,D_FODDTO,Fødselsdato - barnet,1996,1996,NA,NA
+LPRMFRDF,D_SM,Dato for sidste menstruation,1996,1996,NA,NA
+LPRMFRDF,D_TERMIN,Terminsdato,1996,1996,NA,NA
+LPRMFRDF,FTDB_LBNR,Fertilitetsdatabase løbenummer,1996,1996,NA,NA
+LPRMFRDF,MFR_MATCH,Ingen label,1996,1996,NA,NA
+LPRMFRDF,T_KLOKKE,Klokkeslæt for fødsel,1996,1996,NA,NA
+LPRMFRDF,V_ANTAL,Antal børn i fødslen,1996,1996,NA,NA
+LPRMFRDF,V_APGAR1,Apgar score efter 1 minut,1996,1996,NA,NA
+LPRMFRDF,V_APGAR5,Apgar score efter 5 minutter,1996,1996,NA,NA
+LPRMFRDF,V_FALDER,Faderens alder,1996,1996,NA,NA
+LPRMFRDF,V_FCPR,Faderens personnummer,1996,1996,NA,NA
+LPRMFRDF,V_GRAV,Antal tidligere graviditeter,1996,1996,NA,NA
+LPRMFRDF,V_LANGDE,Barnets længde i cm,1996,1996,NA,NA
+LPRMFRDF,V_MALDER,Moderens alder,1996,1996,NA,NA
+LPRMFRDF,V_MCPR,Moderens Personnummer,1996,1996,NA,NA
+LPRMFRDF,V_MISANT,Ingen label,1996,1996,NA,NA
+LPRMFRDF,V_PABORT,Antal tidligere provokerede aborter,1996,1996,NA,NA
+LPRMFRDF,V_SABORT,Antal tidligere spontane aborter,1996,1996,NA,NA
+LPRMFRDF,V_SVLANGDE,Svangerskabslængden i uger,1996,1996,NA,NA
+LPRMFRDF,V_TIDLDOD,Antal tidligere dødfødte,1996,1996,NA,NA
+LPRMFRDF,V_TIDLLEV,Antal tidligere levendefødte,1996,1996,NA,NA
+LPRMFRDF,V_U1,Antal undersøgelser hos jordemoder,1996,1996,NA,NA
+LPRMFRDF,V_U2,Antal undersøgelser hos egen læge,1996,1996,NA,NA
+LPRMFRDF,V_U3,Antal undersøgelser hos speciallæge,1996,1996,NA,NA
+LPRMFRDF,V_U4,Antal undersøgelser på kirurgisk afdeling,1996,1996,NA,NA
+LPRMFRDF,V_U5,Antal undersøgelser på specialafdeling,1996,1996,NA,NA
+LPRMFRDF,V_UDSKDAG,Dage fra fødsel til udskrivning,1996,1996,NA,NA
+LPRMFRDF,V_UDSKTIM,Timer fra fødsel til udskrivning,1996,1996,NA,NA
+LPRMFRDF,V_VAGT,Barnets vægt i gram,1996,1996,NA,NA
+LPRMFRLF,B_AMBULANT,Planlagt fødsel,1996,1996,NA,NA
+LPRMFRLF,B_ANDRE,Andre indgreb under fødsel,1996,1996,NA,NA
+LPRMFRLF,B_ANESTESI,Anæstesilæge tilstede,1996,1996,NA,NA
+LPRMFRLF,B_COLLUM,Livmoderhalsinspektion,1996,1996,NA,NA
+LPRMFRLF,B_CTG_U_F,CTG under fødslen,1996,1996,NA,NA
+LPRMFRLF,B_D1,"Diagnosticering 1, ultralydsscanning",1996,1996,NA,NA
+LPRMFRLF,B_D2,"Diagnosticering 2, chorion villusbiopsi",1996,1996,NA,NA
+LPRMFRLF,B_D3,"Diagnosticering 3, serum AFP",1996,1996,NA,NA
+LPRMFRLF,B_D4,"Diagnosticering 4, amniocentese",1996,1996,NA,NA
+LPRMFRLF,B_D5,"Diagnosticering 5, CTG i svangerskab",1996,1996,NA,NA
+LPRMFRLF,B_EPIS,Episiostomi,1996,1996,NA,NA
+LPRMFRLF,B_F1,"Indgreb 1 før fødsel, vending/vendingsforsøg",1996,1996,NA,NA
+LPRMFRLF,B_F2,"Indgreb 2 før fødsel, hindesprængning",1996,1996,NA,NA
+LPRMFRLF,B_F3,"Indgreb 3 før fødsel, medicinsk igangsætning",1996,1996,NA,NA
+LPRMFRLF,B_F5,"Indgreb 5 før fødsel, andet indgreb",1996,1996,NA,NA
+LPRMFRLF,B_F6,"Indgreb 6 før fødsel, sectio",1996,1996,NA,NA
+LPRMFRLF,B_FLERFOLD,Flerfoldsfødsel,1996,1996,NA,NA
+LPRMFRLF,B_FREMT,Fremtrækning,1996,1996,NA,NA
+LPRMFRLF,B_FSHJAELP,Fødselshjælp,1996,1996,NA,NA
+LPRMFRLF,B_HINDESP,Hindesprængning,1996,1996,NA,NA
+LPRMFRLF,B_I1,"Indgreb 1, vestimulation",1996,1996,NA,NA
+LPRMFRLF,B_I10,"Indgreb 10, andre indgreb",1996,1996,NA,NA
+LPRMFRLF,B_I11,"Indgreb 11, sectio",1996,1996,NA,NA
+LPRMFRLF,B_I12,"Indgreb 12, acut sectio",1996,1996,NA,NA
+LPRMFRLF,B_I2,"Indgreb 2, hindepunktur",1996,1996,NA,NA
+LPRMFRLF,B_I3,"Indgreb 3, hindesprængning",1996,1996,NA,NA
+LPRMFRLF,B_I4,"Indgreb 4, Episiotomia",1996,1996,NA,NA
+LPRMFRLF,B_I5,"Indgreb 5, fremhjælpning",1996,1996,NA,NA
+LPRMFRLF,B_I6,"Indgreb 6, vacuumekstarktion",1996,1996,NA,NA
+LPRMFRLF,B_I7,"Indgreb 7, tangforløsning",1996,1996,NA,NA
+LPRMFRLF,B_I8,"Indgreb 8, fremtrækning",1996,1996,NA,NA
+LPRMFRLF,B_I9,"Indgreb 9, planlagt sectio",1996,1996,NA,NA
+LPRMFRLF,B_K1,"Komplikation 1, forliggende moderkage",1996,1996,NA,NA
+LPRMFRLF,B_K10,"Komplikation 10, svangerskabsforgiftning eller truende fødekrampe",1996,1996,NA,NA
+LPRMFRLF,B_K11,"Komplikation 11, truende fosterdød",1996,1996,NA,NA
+LPRMFRLF,B_K12,"Komplikation 12, bristning",1996,1996,NA,NA
+LPRMFRLF,B_K13,"Komplikation 13, sygdom hos moderen",1996,1996,NA,NA
+LPRMFRLF,B_K14,"Komplikation 14, andre komplikationer",1996,1996,NA,NA
+LPRMFRLF,B_K15,"Komplikation15, placentainsufficiens",1996,1996,NA,NA
+LPRMFRLF,B_K2,"Komplikation 2, fastsiddende moderkage",1996,1996,NA,NA
+LPRMFRLF,B_K3,"Komplikation 3, præmatur løsning",1996,1996,NA,NA
+LPRMFRLF,B_K4,"Komplikation 4, blødning af anden årsag",1996,1996,NA,NA
+LPRMFRLF,B_K5,"Komplikation 5, abnormt bækken eller misforhold mellem bækken og foste",1996,1996,NA,NA
+LPRMFRLF,B_K6,"Komplikation 6, abnorm fosterstilling",1996,1996,NA,NA
+LPRMFRLF,B_K7,"Komplikation 7, langvarig fødsel af anden årsag",1996,1996,NA,NA
+LPRMFRLF,B_K8,"Komplikation 8, navesnorskomplikation",1996,1996,NA,NA
+LPRMFRLF,B_K9,"Komplikation 9, hydramnios",1996,1996,NA,NA
+LPRMFRLF,B_NORMAL,Normal fødsel,1996,1996,NA,NA
+LPRMFRLF,B_OVERF,Noderen overflyttet under fødsel,1996,1996,NA,NA
+LPRMFRLF,B_OVERFL,Barnet overflyttet under fødsel,1996,1996,NA,NA
+LPRMFRLF,B_PARTUS,Spontan fødsel,1996,1996,NA,NA
+LPRMFRLF,B_PEDIATER,Pædiater tilstede,1996,1996,NA,NA
+LPRMFRLF,B_PLACENTA,Intrauterin palpation,1996,1996,NA,NA
+LPRMFRLF,B_RISIKO,Risikoadfærd før fødsel,1996,1996,NA,NA
+LPRMFRLF,B_RYGER,Ryger,1996,1996,NA,NA
+LPRMFRLF,B_SAMADR,Samboende forældre ved fødsel,1996,1996,NA,NA
+LPRMFRLF,B_SECTIOF,Ingen label,1996,1996,NA,NA
+LPRMFRLF,B_SECTIOU,Sectio under fødsel,1996,1996,NA,NA
+LPRMFRLF,B_SMSIKKER,Sikker på menstruationsberegning,1996,1996,NA,NA
+LPRMFRLF,B_TANG,Tangforløsning,1996,1996,NA,NA
+LPRMFRLF,B_VACUUM,Vacuum ekstraktion,1996,1996,NA,NA
+LPRMFRLF,B_VESTIM,Vestimulation,1996,1996,NA,NA
+LPRMFRLF,CPRTJEK,CPR-tjek,1996,1996,NA,NA
+LPRMFRLF,CPRTYPE,CPR-type,1996,1996,NA,NA
+LPRMFRLF,C_APGAR,Indikation af Apgar score måling,1996,1996,NA,NA
+LPRMFRLF,C_BOPAMT,Moderens bopælsamt,1996,1996,NA,NA
+LPRMFRLF,C_BOPKOM,Moderens bopælskommune,1996,1996,NA,NA
+LPRMFRLF,C_CIVSTD,Moderens civilstand ved fødsel,1996,1996,NA,NA
+LPRMFRLF,C_FODEAMT,Fødselsamt,1996,1996,NA,NA
+LPRMFRLF,C_FODEKOM,Fødselskommune,1996,1996,NA,NA
+LPRMFRLF,C_FODESTED,Fødestedstype,1996,1996,NA,NA
+LPRMFRLF,C_FODSFORL,Fødselsforløb,1996,1996,NA,NA
+LPRMFRLF,C_FODVISIT,Primært visitationssted til fødselssted,1996,1996,NA,NA
+LPRMFRLF,C_FOSTERPR,Fosterpræsentation,1996,1996,NA,NA
+LPRMFRLF,C_FULDB,Fuldbyrdet,1996,1996,NA,NA
+LPRMFRLF,C_INDGREB1,Kunsthjælp ved fødslen - Før fødslen,1996,1996,NA,NA
+LPRMFRLF,C_INDGREB2,Kunsthjælp ved fødslen - Under fødslen,1996,1996,NA,NA
+LPRMFRLF,C_INDGRFOR,Indgreb før fødsel,1996,1996,NA,NA
+LPRMFRLF,C_INDGRUND,Indgreb under fødslen,1996,1996,NA,NA
+LPRMFRLF,C_MISDAN,Misdannelsestilkendegivelse,1996,1996,NA,NA
+LPRMFRLF,C_OVERFRA,Moderen overført fra,1996,1996,NA,NA
+LPRMFRLF,C_PLAC,Barnets placering i flerfoldsfødsel,1996,1996,NA,NA
+LPRMFRLF,C_SGHNR,Sygehusnummer,1996,1996,NA,NA
+LPRMFRLF,D_FODTDTO,Fødselsdato,1996,1996,NA,NA
+LPRMFRLF,D_SM,Dato for sidste menstruation,1996,1996,NA,NA
+LPRMFRLF,D_TERMIN,Terminsdato,1996,1996,NA,NA
+LPRMFRLF,FTDB_LBNR,Ingen label,1996,1996,NA,NA
+LPRMFRLF,K_BCPR,Barnets personnummer,1996,1996,NA,NA
+LPRMFRLF,MFR_MATCH,Ingen label,1996,1996,NA,NA
+LPRMFRLF,T_KLOKKE,Klokkeslæt for fødsel,1996,1996,NA,NA
+LPRMFRLF,V_ANTAL,Antal børn i fødslen udover dette,1996,1996,NA,NA
+LPRMFRLF,V_APGAR1,Apgar efter 1 minut,1996,1996,NA,NA
+LPRMFRLF,V_APGAR5,Apgar efter 5 minutter,1996,1996,NA,NA
+LPRMFRLF,V_FALDER,Faderens alder (på fødselstidspunkt),1996,1996,NA,NA
+LPRMFRLF,V_FCPR,Faderens personnummer,1996,1996,NA,NA
+LPRMFRLF,V_GRAV,Antal tidligere graviditeter,1996,1996,NA,NA
+LPRMFRLF,V_LANGDE,Barnets længde i cm.,1996,1996,NA,NA
+LPRMFRLF,V_MALDER,Moderens alder (på fødselstidspunkt),1996,1996,NA,NA
+LPRMFRLF,V_MCPR,Moderens CPR nummer,1996,1996,NA,NA
+LPRMFRLF,V_MISANT,Antal misdannelser hos barnet,1996,1996,NA,NA
+LPRMFRLF,V_PABORT,Tidligere provokerede aborter,1996,1996,NA,NA
+LPRMFRLF,V_SABORT,Tidligere spontane aborter,1996,1996,NA,NA
+LPRMFRLF,V_SVLANGDE,Svangerskabslængde i uger,1996,1996,NA,NA
+LPRMFRLF,V_TIDLDOD,Tidligere dødfødte,1996,1996,NA,NA
+LPRMFRLF,V_TIDLLEV,Antal tidligere levendefødte,1996,1996,NA,NA
+LPRMFRLF,V_U1,Antal undersøgelser hos jordemoder,1996,1996,NA,NA
+LPRMFRLF,V_U2,Antal undersøgelser hos egen læge,1996,1996,NA,NA
+LPRMFRLF,V_U3,Antal undersøgelser hos speciallæge,1996,1996,NA,NA
+LPRMFRLF,V_U4,Antal undersøgelser på kirurgisk afdeling,1996,1996,NA,NA
+LPRMFRLF,V_U5,Antal undersøgelser på specialafdeling,1996,1996,NA,NA
+LPRMFRLF,V_UDSKDAG,Antal dage fra fødsel til udskrivning,1996,1996,NA,NA
+LPRMFRLF,V_UDSKTIM,Antal timer fra fødsel til udskrivning,1996,1996,NA,NA
+LPRMFRLF,V_VAGT,Barnets vægt i gram,1996,1996,NA,NA
+LPRMFRLF,CPRTJEK,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtjek,NA
+LPRMFRLF,CPRTYPE,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forskningsservice/cprtype,NA
+MFR,ABDOMINALOMFANG,ABDOMINALOMFANG,1997,2018,NA,NA
+MFR,ABRUPTIO,ABRUPTIO,1997,2018,NA,NA
+MFR,AFDELING,AFDELING,1997,2018,NA,NA
+MFR,ALDERVEDDOED_DAGE_BARN,ALDERVEDDOED_DAGE_BARN,1997,2018,NA,NA
+MFR,ALDER_FADER,ALDER_FADER,1997,2018,NA,NA
+MFR,ALDER_MODER,ALDER_MODER,1997,2018,NA,NA
+MFR,AMNIOINFUSION,AMNIOINFUSION,1998,2018,NA,NA
+MFR,AMNITOMI_UNDER_FOEDSEL_HSP,AMNITOMI_UNDER_FOEDSEL_HSP,1997,2018,NA,NA
+MFR,ANDENSUTUR,ANDENSUTUR,1997,2018,NA,NA
+MFR,APGARSCORE_EFTER5MINUTTER,APGARSCORE_EFTER5MINUTTER,1997,2018,NA,NA
+MFR,BARNSLEVENDENR_FLERFOLDFOEDSEL,BARNSLEVENDENR_FLERFOLDFOEDSEL,1997,2018,NA,NA
+MFR,BARNSNUMMER_FLERFOLDSFOEDSEL,BARNSNUMMER_FLERFOLDSFOEDSEL,1997,2018,NA,NA
+MFR,BESOEGHOSJORDEMODER,BESOEGHOSJORDEMODER,1997,2018,NA,NA
+MFR,BESOEGHOSLAEGE,BESOEGHOSLAEGE,1997,2018,NA,NA
+MFR,BESOEGHOSSPECIALLAEGE,BESOEGHOSSPECIALLAEGE,1997,2018,NA,NA
+MFR,BMI_MODER,BMI_MODER,2003,2018,NA,NA
+MFR,BOPAELSKOMMUNE_MODER,BOPAELSKOMMUNE_MODER,1997,2018,NA,NA
+MFR,CPAPBEH_NEONATALAFDELING,CPAPBEH_NEONATALAFDELING,2000,2018,NA,NA
+MFR,CPR_BARN,CPR_BARN,1997,2018,NA,NA
+MFR,CPR_FADER,CPR_FADER,1997,2018,NA,NA
+MFR,CPR_MODER,CPR_MODER,1997,2018,NA,NA
+MFR,DISPROPORTIO,DISPROPORTIO,1997,2018,NA,NA
+MFR,DOEDSDATO_BARN,DOEDSDATO_BARN,1997,2018,NA,NA
+MFR,DOEDSDATO_MODER,DOEDSDATO_MODER,1997,2018,NA,NA
+MFR,EPIDURALBLOKADE,EPIDURALBLOKADE,2000,2018,NA,NA
+MFR,EPISIOTOMI,EPISIOTOMI,1997,2018,NA,NA
+MFR,FASTSIDDENDEMODERKAGE,FASTSIDDENDEMODERKAGE,1997,2018,NA,NA
+MFR,FLERFOLDSFOEDSEL_BEREGNET,FLERFOLDSFOEDSEL_BEREGNET,1997,2018,NA,NA
+MFR,FLERFOLDSGRAVIDITET,FLERFOLDSGRAVIDITET,1997,2018,NA,NA
+MFR,FOEDESTED,FOEDESTED,1997,2018,NA,NA
+MFR,FOEDSELSAAR,FOEDSELSAAR,1997,2018,NA,NA
+MFR,FOEDSELSDATO,FOEDSELSDATO,1997,2018,NA,NA
+MFR,FOEDSELSDIAGNOSE_MODER,FOEDSELSDIAGNOSE_MODER,1997,2018,NA,NA
+MFR,FOEDSELSLOEBENUMMER,Ingen label,1997,2018,NA,NA
+MFR,FOEDSELSTIME,FOEDSELSTIME,1997,2018,NA,NA
+MFR,FOSTERPRAESENTATION,FOSTERPRAESENTATION,1997,2018,NA,NA
+MFR,GESTATIONSALDER_DAGE,GESTATIONSALDER_DAGE,1997,2018,NA,NA
+MFR,HJEMMEBESOEG,HJEMMEBESOEG,2003,2018,NA,NA
+MFR,HOEJDE_MODER,HOEJDE_MODER,2003,2018,NA,NA
+MFR,HOVEDOMFANG,HOVEDOMFANG,1997,2018,NA,NA
+MFR,INTRAUTERIN_ASFYXI,INTRAUTERIN_ASFYXI,1997,2018,NA,NA
+MFR,INTRAUTERIN_PALPATION,INTRAUTERIN_PALPATION,1997,2018,NA,NA
+MFR,KEJSERSNIT_MODERSOENSKE,KEJSERSNIT_MODERSOENSKE,2002,2018,NA,NA
+MFR,KOEN_BARN,KOEN_BARN,1997,2018,NA,NA
+MFR,LAENGDE_BARN,LAENGDE_BARN,1997,2018,NA,NA
+MFR,LEVENDE_ELLER_DOEDFOEDT,LEVENDE_ELLER_DOEDFOEDT,1997,2018,NA,NA
+MFR,MARKOER_ACCRETA,MARKOER_ACCRETA,1997,2018,NA,NA
+MFR,MARKOER_ANAESTESI_TIL_OPERATION,MARKOER_ANAESTESI_TIL_OPERATION,2000,2018,NA,NA
+MFR,MARKOER_ANDRE_FOEDSELSKOMPLIKATI,Ingen label,1997,2018,NA,NA
+MFR,MARKOER_B_MISDANNELSE,MARKOER_B_MISDANNELSE,1997,2018,NA,NA
+MFR,MARKOER_CARDIOMYOPATI,MARKOER_CARDIOMYOPATI,1997,2018,NA,NA
+MFR,MARKOER_GRAVIDITETSKOMPLIKATIO,MARKOER_GRAVIDITETSKOMPLIKATIO,1997,2018,NA,NA
+MFR,MARKOER_HAEMOPERITONEUM,MARKOER_HAEMOPERITONEUM,1997,2018,NA,NA
+MFR,MARKOER_HJEMMEFOEDSEL_BEREGNET,MARKOER_HJEMMEFOEDSEL_BEREGNET,1997,2018,NA,NA
+MFR,MARKOER_IGANGSAETTELSE,MARKOER_IGANGSAETTELSE,1997,2018,NA,NA
+MFR,MARKOER_INFEKTIONER,MARKOER_INFEKTIONER,1997,2018,NA,NA
+MFR,MARKOER_KEJSERSNIT,MARKOER_KEJSERSNIT,1997,2018,NA,NA
+MFR,MARKOER_MEDICINSKE_SYGDOMME,MARKOER_MEDICINSKE_SYGDOMME,1997,2018,NA,NA
+MFR,MARKOER_NAVLESNORSBLOD_ANALYSE,MARKOER_NAVLESNORSBLOD_ANALYSE,2003,2018,NA,NA
+MFR,MARKOER_PERINEAL_BRISTNING,MARKOER_PERINEAL_BRISTNING,1997,2018,NA,NA
+MFR,MARKOER_POST_PARTUM_BLOEDNING,MARKOER_POST_PARTUM_BLOEDNING,1997,2018,NA,NA
+MFR,MARKOER_RUPTUR,MARKOER_RUPTUR,1997,2018,NA,NA
+MFR,MARKOER_SMERTELINDRING,MARKOER_SMERTELINDRING,1999,2018,NA,NA
+MFR,MARKOER_ULTRALYD,MARKOER_ULTRALYD,1999,2018,NA,NA
+MFR,MARKOER_VESTIMULATION,MARKOER_VESTIMULATION,1999,2018,NA,NA
+MFR,MARKOER_YDRE_VENDING,MARKOER_YDRE_VENDING,1997,2018,NA,NA
+MFR,NAVLESNORSFREMFALD,NAVLESNORSFREMFALD,1997,2018,NA,NA
+MFR,PARITET,PARITET,1997,2018,NA,NA
+MFR,PK_MFR,PK_MFR,1997,2018,NA,NA
+MFR,PLACENTAVAEGT,PLACENTAVAEGT,1997,2018,NA,NA
+MFR,POLYHYDRAMNIOS,POLYHYDRAMNIOS,1997,2018,NA,NA
+MFR,PPROM,PPROM,1997,2018,NA,NA
+MFR,PRAEVIA,PRAEVIA,1997,2018,NA,NA
+MFR,PROM,PROM,1997,2018,NA,NA
+MFR,RESPIRATORBEH_NEONATALAFDELING,RESPIRATORBEH_NEONATALAFDELING,2000,2018,NA,NA
+MFR,RYGERSTATUS_MODER,RYGERSTATUS_MODER,1997,2018,NA,NA
+MFR,SENGEDAGE_BEREGNET_BARN,SENGEDAGE_BEREGNET_BARN,1997,2018,NA,NA
+MFR,SENGEDAGE_BEREGNET_MODER,SENGEDAGE_BEREGNET_MODER,1997,2018,NA,NA
+MFR,SENGEDAGE_NEONATALAFDELING_BARN,SENGEDAGE_NEONATALAFDELING_BARN,1997,2018,NA,NA
+MFR,SEPSIS_BARN,SEPSIS_BARN,1997,2018,NA,NA
+MFR,SKALP_BLODPROEVE,SKALP_BLODPROEVE,2000,2018,NA,NA
+MFR,SUTURCOLLUM,SUTURCOLLUM,1997,2018,NA,NA
+MFR,SYGEHUS,SYGEHUS,1997,2018,NA,NA
+MFR,TANG_FORLOESNING,TANG_FORLOESNING,1997,2018,NA,NA
+MFR,TEGN_PAA_ASPHYXI,TEGN_PAA_ASPHYXI,1997,2018,NA,NA
+MFR,TIDLIGEREFOEDSLER_I_DANMARK,TIDLIGEREFOEDSLER_I_DANMARK,1997,2018,NA,NA
+MFR,TIDLIGEREKEJSERSNIT_I_DANMARK,TIDLIGEREKEJSERSNIT_I_DANMARK,1997,2018,NA,NA
+MFR,TIDLIGERESPONTANEABORTER,TIDLIGERESPONTANEABORTER,1997,2018,NA,NA
+MFR,VAEGT_BARN,VAEGT_BARN,1997,2018,NA,NA
+MFR,VAEGT_MODER,VAEGT_MODER,2003,2018,NA,NA
+MFR,VAKUUMEKSTRAKTION,VAKUUMEKSTRAKTION,1997,2018,NA,NA
+MFR,PARITET,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/forebyggelsesregistret/paritet,NA
