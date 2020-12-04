@@ -13,44 +13,48 @@ Denmark
 
 ## Projekttitel / Project title
 
-Family relations and type 2 diabetes through the life span
+Transgenerational and life-course factors that influence risk for type 2
+diabetes
 
 ## Projektbeskrivelse / Project description
 
-The overall aim of this project is to identify the contribution of family
-characteristics in terms of chronic disease history, socio demographic
-characteristics and risk factors for the development of type 2 diabetes under a
-life course perspective using a three-generation family pedigree.
+The overall aim of this project is to identify the contributions of family
+network and characteristics and early life factors on the development,
+management, and care of type 2 diabetes and its complications.
 
-Type 2 diabetes is a multifactorial disease that can develop at any stage of
-life course trajectory; yet it is most commonly diagnosed during middle-age
-adulthood. In addition to the strong genetic risk component, behavioral risk
-factors and socio economic conditions clusters in families and their influence
-depends on the timing and exposure accumulation (length). For example: poor
-childhood socio economic status (SES) --> poor educational attainment --> poor
-adult SES poor childhood SES --> poor quality diet --> lower pancreatic
-potential **** add a simple DAG of your project instead. Use these three nodes
-structure to keep it simple***
+Type 2 diabetes is a complex, multi-factorial disease that is influenced by 
+throughout the life-course from individual as well as social factors.
+Behavioural risk factors and socioeconomic conditions cluster in families and
+their influence depends on the timing and accumulation of exposures. 
+For instance, poor childhood socioeconomic status (SES) can impact final 
+educational attainment, adult SES, and lifestyle and behavioural
+characteristics, which ultimately influences an individual's metabolic capacity
+to regulate glucose and subsequent risk for diabetes.
 
-This project will contribute with new and strong evidence on the role that
-family relations plays for type 2 diabetes development and progression under an
-aetiological, predictive and a causal perspective using advanced
-epidemiological, demographic, and statistical methods.
+This project will contribute to a broader and deeper understanding into the role
+that these factors play with the development and progression of diabetes.
+Using the findings from this project we hope to model several potential public
+health strategies that could impact the prevention and management of diabetes.
 
+A key feature to this project is the integration of external data sources, such
+as longitudinal cohort studies, with the register data. We aim to apply causal
+and predictive statistical methods to best use the data available from the 
+integration.
 
 ## Population / Population
 
 In order to identify familial relations through individuals’ life course
-trajectory, the population understudy covers all individuals alive and living in
-Denmark from 1 January 1970 to 31 December 2020 (~8.5 million people). It
-consist of a two or three-generation (even four) pedigree in which index
-individuals have linkage to their parents and spouses. Index individuals are
-defined as those individuals that serve as a reference to identify family
-relations and which will follow with regards to the outcome. With the purpose to
-identify potential pathways, drivers and mechanisms linking family relations to
-type 2 diabetes development and progression, this project will further use
-cohort and cross-sectional survey data to extract more detailed information on
-individuals’ and family members risk exposures.
+trajectory, the population requested covers all individuals, alive or deceased,
+who live or lived in Denmark from 1 January 1970 to 31 December 2020 (~8.5
+million people). Key requirements are:
+
+- Data on parents of those born starting from 1970 as well as data throughout
+their early life and childhood.
+- Two or three-generation (even four) pedigree in which index
+individuals have linkage to their parents, siblings, half-siblings, and spouses.
+Index individuals are defined as those individuals that serve as a reference to
+identify family relations and which will be followed with regards to the
+outcome.
 
 ## Variabelindhold / Variables included
 
@@ -68,33 +72,27 @@ All variables can be de-identified (direct identification is not needed).
 - Lægemiddelregisteret (LMDB)
 - Arbejdsplads(er)
 
-##Just a random though, early life stressor: parents' imprisonment. Perhaps you want to have a look 
-at this registers: 
-Børnetilskud og børnefamilieydelse
-Levevilkårsundersøgelsen (SILC)
-Forbrugsundersøgelsen?
-Idræt?
+Others?
 
-## Særligt vedr. Lægemiddelsdata
-Der ønskes adgang til lægemidler, da oplysninger om medicin bidrager til at identificere personer med
-diabetes og derudover bidrager til at belyse sygelighed i populationen. 
+- Imprisonment.
+- Børnetilskud og børnefamilieydelse
+- Levevilkårsundersøgelsen (SILC)
+- Forbrugsundersøgelsen?
+- Idræt?
+- BARNFORA? (Henvisninger mellem barn og forældre (references between children
+and parents)
+- FTDB (Fertilitetsdatabasen)
+- LPR-Psikiatri (To extract psichiatryc diseases for the prediction model and
+family history)
+- LABKA
+- Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati
+og maculopati (DiaBase): Diabetes definition
+- Cancer register (to identify family history)
+- Særligt vedr. Lægemiddelsdata. Der ønskes adgang til lægemidler, da
+oplysninger om medicin bidrager til at identificere personer med diabetes og
+derudover bidrager til at belyse sygelighed i populationen.
 
-Eksterne data eller egne data
-Eksterne data/egne data til dette projekt er:
-Fra Sundhedsdatastyrelsen vil vi desuden søge om adgang til følgende register for data om diabetes
-samt relaterede sygdomme og risikofaktorer:
-
-- Kroniske sygdomsdiagnoser:
-Det Nationale Diabetesregister? (LPR, RMPS, DADD, Diabase)
-- Landspatientregistret 
-Cancerregisteret
-The laboratory data set/ Danish National Biobank?
-- Dødsårsag:
-Dødsårsagsregisteret (DOD, DODSAARS, DODSAASG)
-- Medicinering kronisk sygdom:
-Lægemiddelstatistikdatabasen
-- Exposures and risk factors:
-Overvægt:Sessionsregisteret?
+## Eksterne data eller egne data
 
 ```{r setup, include=FALSE}
 library(tidyverse)
@@ -129,11 +127,33 @@ variable_list %>%
 
 List cohorts:
 
-- EPIC-Interact cohort study. Next Generation Study
+- Diet, Cancer, and Health study. Next Generation Study
 - ADDITION, ADDITION-PRO cohort studies
+    - Some ideas: Family characteristics and diabetes control.
 - Inter99
-- CORE Trial (Check your health study)
+- CORE Trial (Check your health study. This is a household intervention)
 - The Danish National Health survey (2010, 2013 and 2017)
+    - See: https://www.danishhealthdata.com/find-health-data/Danskernes-sundhed Data
+    administrator: National Institute of Public Health, SDU, application here:
+    http://www.danskernessundhed.dk/Spoergeskema
+    
+Fra Sundhedsdatastyrelsen vil vi desuden søge om adgang til følgende register
+for data om diabetes samt relaterede sygdomme og risikofaktorer:
+
+- Kroniske sygdomsdiagnoser:
+- Det Nationale Diabetesregister? (LPR, RMPS, DADD, Diabase)
+- Landspatientregistret 
+- Cancerregisteret
+- The laboratory data set/ Danish National Biobank?
+- Dødsårsag: Dødsårsagsregisteret (DOD, DODSAARS, DODSAASG)
+- Medicinering kronisk sygdom:
+- Lægemiddelstatistikdatabasen
+- Exposures and risk factors: Overvægt?
+- Sessionsregisteret?
+- drug addicts in treatment and alcohol treatment registers
+- birth register
+- children data base
+- The laboratory data set
 
 ## Projekts slutdato / Project's end date
 
