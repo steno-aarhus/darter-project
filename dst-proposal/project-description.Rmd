@@ -93,30 +93,37 @@ og maculopati (DiaBase): Diabetes definition
 - Særligt vedr. Lægemiddelsdata. Der ønskes adgang til lægemidler, da
 oplysninger om medicin bidrager til at identificere personer med diabetes og
 derudover bidrager til at belyse sygelighed i populationen.
-
-## Eksterne data eller egne data
+-->
 
 ```{r setup, include=FALSE}
 library(tidyverse)
+library(here)
+library(glue)
 # library(gt)
-variable_list <- read_csv(here::here("data/registries-general-variables.csv"))
+dst_variables <- read_csv(here("data/dst-registers-with-variables-to-use.csv"))
+dst_variables <- dst_variables %>%
+    filter(use_in_application == 1) %>% 
+    mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>% 
+    mutate(years = str_c(variable_start_year, "--", variable_end_year)) %>% 
+    select(register_id, register_name_dk, variable_name, years)
+
 authorized_researchers <-
     read_csv(
-        here::here("data/authorized-researchers.csv"),
+        here("data/authorized-researchers.csv"),
         col_types = cols(.default = col_character())
     )
+
 knitr::opts_chunk$set(echo = FALSE)
 options(knitr.kable.NA = "")
 ```
 
 Registers requested are:
 
-```{r register-list, results="asis"}
-variable_list %>% 
-    glue::glue_data("- {register_english} / {register_danish} ({register_abbreviation})") %>% 
-    unique() %>%
-    str_remove(" \\(NA\\)") %>% 
-    str_remove(" \\/ NA") %>% 
+```{r register-list, results = "asis"}
+read_csv(here("data/needed-registers.csv"), col_types = "dccccc") %>% 
+    filter(!is.na(register_id)) %>% 
+    mutate(across(where(is.character), ~if_else(is.na(.), "TO UPDATE", .))) %>% 
+    glue_data("- {register_id}: {register_name_dk} / {register_name_english}") %>% 
     sort() %>% 
     cat(sep = "\n")
 ```
@@ -169,14 +176,22 @@ knitr::kable(authorized_researchers)
 
 # List of registers and variables, with explanations
 
-```{r justification-table, echo=FALSE}
-variable_list %>% 
-    dplyr::filter(use_in_study == "yes") %>% 
-    group_by(register_english) %>% 
-    mutate(Register = ifelse(row_number() == 1, register_english, "")) %>% 
-    ungroup() %>% 
-    select(Register, Variable = variable_english, Explanation = explanation) %>% 
-    knitr::kable(caption = "Explanation for requested selected variables and registers.")
+```{r requested-variable-table, echo=FALSE, results='asis'}
+variable_tables<- dst_variables %>% 
+    mutate(register_name = glue("{register_name_dk} ({register_id})")) %>% 
+    select(-register_id, -register_name_dk) %>% 
+    rename(Variables = variable_name, Years = years) %>% 
+    group_split(register_name) 
+
+for (variable_table in variable_tables) {
+    variable_table %>% 
+        select(-register_name) %>%  
+        knitr::kable(caption = str_c(
+            "Requested variables from ",
+            unique(variable_table$register_name)
+        )) %>% 
+        print()
+}
     # gt() %>% 
     # tab_style(
     #     style = cell_text(weight = "bold"),
