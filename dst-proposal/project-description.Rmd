@@ -58,8 +58,10 @@ outcome.
 
 ## Variabelindhold / Variables included
 
-All variables can be de-identified (direct identification is not needed).
+All variables can be de-identified (direct identification is not needed). List
+of requested variables is found in the tables at the end of the document.
 
+<!--
 - Befolkning vs. Demografi, familie og husstandsforhold (BEF) 
 - BEF_ADRESSELABEL, BEF_PERSONNUMMER, Byopgørelsen, Familier og husstande
 - Fertilitetsdatabasen
