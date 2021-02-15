@@ -132,6 +132,12 @@ read_csv(here("data/needed-registers.csv"), col_types = "dccccc") %>%
 <!-- data is part of the project. In such cases please include approval from the -->
 <!-- Danish Protection Agency. -->
 
+## Særligt vedr. lægemiddelsdata / Especially regarding drug data 
+
+## Offentliggørelse af resultater / Publication of results
+
+## Perspektivering
+
 ## Data som ikke kommer fra Danmarks Statistik / Data that doesn't come from DST
 
 List cohorts:
@@ -174,7 +180,9 @@ Date of deletion of data: Access to data is requested until December 2030.
 knitr::kable(authorized_researchers)
 ```
 
-# List of registers and variables, with explanations
+# Bilag / Appendix
+
+## List of registers and variables, with explanations
 
 ```{r requested-variable-table, echo=FALSE, results='asis'}
 variable_tables<- dst_variables %>% 
