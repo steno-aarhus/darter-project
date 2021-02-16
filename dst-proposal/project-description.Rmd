@@ -16,13 +16,15 @@ Denmark
 Transgenerational and life-course factors that influence risk for type 2
 diabetes
 
+Interplay between transgenerational and life-course factors with diabetes
+
 ## Projektbeskrivelse / Project description
 
 The overall aim of this project is to identify the contributions of family
-network and characteristics and early life factors on the development,
-management, and care of type 2 diabetes and its complications.
+network and life-course factors on the development,
+management, and care of diabetes and diseases following diabetes.
 
-Type 2 diabetes is a complex, multi-factorial disease that is influenced by 
+Diabetes is a complex, multi-factorial disease that is influenced
 throughout the life-course from individual as well as social factors.
 Behavioural risk factors and socioeconomic conditions cluster in families and
 their influence depends on the timing and accumulation of exposures. 
@@ -31,15 +33,18 @@ educational attainment, adult SES, and lifestyle and behavioural
 characteristics, which ultimately influences an individual's metabolic capacity
 to regulate glucose and subsequent risk for diabetes.
 
-This project will contribute to a broader and deeper understanding into the role
+This project will contribute to a broader and deeper understanding of the role
 that these factors play with the development and progression of diabetes.
 Using the findings from this project we hope to model several potential public
-health strategies that could impact the prevention and management of diabetes.
+health strategies that could impact the prevention and management of diabetes 
+and diseases following diabetes.
 
 A key feature to this project is the integration of external data sources, such
 as longitudinal cohort studies, with the register data. We aim to apply causal
 and predictive statistical methods to best use the data available from the 
-integration.
+integrated data sources.
+
+TODO: Add simple DAG of expected relationship?
 
 ## Population / Population
 
@@ -50,7 +55,7 @@ million people). Key requirements are:
 
 - Data on parents of those born starting from 1970 as well as data throughout
 their early life and childhood.
-- Two or three-generation (even four) pedigree in which index
+- Minimum two, and up to four-generation pedigree in which index
 individuals have linkage to their parents, siblings, half-siblings, and spouses.
 Index individuals are defined as those individuals that serve as a reference to
 identify family relations and which will be followed with regards to the
@@ -93,6 +98,15 @@ og maculopati (DiaBase): Diabetes definition
 - Særligt vedr. Lægemiddelsdata. Der ønskes adgang til lægemidler, da
 oplysninger om medicin bidrager til at identificere personer med diabetes og
 derudover bidrager til at belyse sygelighed i populationen.
+
+LPR-Psikiatri,  Diabase (retinopathy and maculopathy screening),  Diabetes register? LABKA?
+
+imprisonment.
+Børnetilskud og børnefamilieydelse
+Levevilkårsundersøgelsen (SILC)
+Forbrugsundersøgelsen?
+Idræt?
+
 -->
 
 ```{r setup, include=FALSE}
@@ -157,18 +171,13 @@ for data om diabetes samt relaterede sygdomme og risikofaktorer:
 
 - Kroniske sygdomsdiagnoser:
 - Det Nationale Diabetesregister? (LPR, RMPS, DADD, Diabase)
-- Landspatientregistret 
-- Cancerregisteret
-- The laboratory data set/ Danish National Biobank?
-- Dødsårsag: Dødsårsagsregisteret (DOD, DODSAARS, DODSAASG)
 - Medicinering kronisk sygdom:
-- Lægemiddelstatistikdatabasen
 - Exposures and risk factors: Overvægt?
-- Sessionsregisteret?
-- drug addicts in treatment and alcohol treatment registers
-- birth register
+- LPR diagnosis of overweight may be included : ICD 10: E66. Maybe possible to
+get some data from electronic health records.
+- drug addicts in treatment and alcohol treatment registers. Could we use
+diagnoses of substance abuse / alcohol abuse: ICD-10: F1x
 - children data base
-- The laboratory data set
 
 ## Projekts slutdato / Project's end date
 
