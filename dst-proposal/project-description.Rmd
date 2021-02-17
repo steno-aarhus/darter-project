@@ -60,13 +60,11 @@ outcome.
 
 ## Variabelindhold / Variables included
 
-All variables can be de-identified (direct identification is not needed). List
-of requested variables is found in the tables at the end of the document.
+All variables can be de-identified (direct identification is not needed). The
+list of requested variables is found in the tables at the end of the document in 
+the Appendix.
 
 <!--
-- Befolkning vs. Demografi, familie og husstandsforhold (BEF) 
-- BEF_ADRESSELABEL, BEF_PERSONNUMMER, Byopgørelsen, Familier og husstande
-- Fertilitetsdatabasen
 - Personindkomst vs. Indkomster (INDH/INDK)
 - Familieindskomst (FAIK)
 - Kvalifikationsregistret vs. Uddannelsesoplysninger (UDDA) 
@@ -92,9 +90,6 @@ family history)
 - Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati
 og maculopati (DiaBase): Diabetes definition
 - Cancer register (to identify family history)
-- Særligt vedr. Lægemiddelsdata. Der ønskes adgang til lægemidler, da
-oplysninger om medicin bidrager til at identificere personer med diabetes og
-derudover bidrager til at belyse sygelighed i populationen.
 
 LPR-Psikiatri,  Diabase (retinopathy and maculopathy screening),  Diabetes register? LABKA?
 
