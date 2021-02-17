@@ -140,9 +140,23 @@ read_csv(here("data/needed-registers.csv"), col_types = "dccccc") %>%
 
 ## Særligt vedr. lægemiddelsdata / Especially regarding drug data 
 
+<!--
+Only to be filled in if the project is to use drug data. Research projects that
+must use data from the Medicines Database must be approved by the Danish Health
+and Medicines Authority. The approval process takes place via a contact person
+in Forskningsservice. Drug data may only be used for the purpose described in
+this project setting. If drug data is to be used for other purposes, a renewed
+approval from the Danish Health and Medicines Authority is required.
+-->
+
 ## Offentliggørelse af resultater / Publication of results
 
-## Perspektivering
+Results will be published in open access scientific outlets and presented at
+scientific conferences.
+
+## Perspektivering / Perspective
+
+<!-- A description of what knowledge of societal relevance this study can contribute. -->
 
 ## Data som ikke kommer fra Danmarks Statistik / Data that doesn't come from DST
 
