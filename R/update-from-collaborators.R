@@ -28,6 +28,5 @@ updated %>%
     view()
 
 # Can now save it.
-write_csv(updated, here("data/dst-registers-with-variables-to-use.csv"))
-
-
+write_csv(updated, here("data/dst-registers-with-variables-to-use.csv"),
+          na = "")
