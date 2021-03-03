@@ -143,7 +143,7 @@ register_variables_df <- register_variables_tables %>%
 write_csv(register_variables_df,
           here("data-raw/dst/registers-with-variables.csv"),
           # If updating from the needed registers.
-          append = TRUE)
+          append = TRUE, na = "")
 
 registers_df <- needed_registers_tbl %>%
     select(register_id, register_name_dk = registertitel,
@@ -155,7 +155,7 @@ registers_df <- needed_registers_tbl %>%
 write_csv(registers_df,
           here("data-raw/dst/registers.csv"),
           # If updating from the needed registers.
-          append = TRUE)
+          append = TRUE, na = "")
 
 # For translation ---------------------------------------------------------
 
@@ -164,7 +164,7 @@ write_csv(registers_df,
 registers_df %>%
     select(register_id, register_name_dk) %>%
     write_csv(here("data-raw/dst/registers-for-translation.csv"),
-              append = TRUE)
+              append = TRUE, na = "")
 
 # For translating this file, it's too big to put into Google Translate to
 # translate it all at once. So, you'll need to make a copy, open it up in a
@@ -178,7 +178,9 @@ registers_df %>%
 register_variables_df %>%
     select(register_id, variable_name, description_dk) %>%
     write_csv(here("data-raw/dst/registers-with-variables-for-translation.csv"),
-              append = TRUE)
+              append = TRUE, na = "")
+
+# TODO: Could use: https://cloud.r-project.org/web/packages/googleLanguageR/vignettes/translation.html
 
 # Saving final register list ----------------------------------------------
 
