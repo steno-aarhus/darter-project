@@ -7,7 +7,7 @@ inspected,scraped,register_id,register_name_dk,register_name_english,owner,note,
 1,1,FAHU,Husstande,Households,dst,Need this? Doesn't have an ID to link with other data sources...,
 1,1,FAIK,Familieindkomster,Family income,dst,,
 1,1,FAIN,Husstande og familier,Households and families,dst,,
-,1,IDAP,IDA persondata,IDA person data,dst,,
+1,1,IDAP,IDA persondata,IDA person data,dst,,
 ,1,IDAN,IDA ansættelser,IDA employment,dst,,
 ,1,IDAS,IDA arbejdssteder,IDA workplaces,dst,"Don’t need this, it is about workplaces, not individual employees",TRUE
 1,1,IEPE,Indvandrere og Efterkommere,Immigrants and Descendants,dst,,
