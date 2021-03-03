@@ -43,3 +43,8 @@ FTNAEVN,Fertilitet - Nævner,1973,NA,2018,NA,09/01/2020,https://www.dst.dk/extra
 LPRMFRDF,Dødfødte ud fra LPR,1973,NA,1996,NA,01/10/2010,https://www.dst.dk/extranet/ForskningVariabellister/LPRMFRDF%20-%20Dødfødte%20ud%20fra%20LPR.html
 LPRMFRLF,Levendefødte ud fra LPR,1973,NA,1996,NA,01/10/2010,https://www.dst.dk/extranet/ForskningVariabellister/LPRMFRLF%20-%20Levendefødte%20ud%20fra%20LPR.html
 MFR,Levendefødte fra det medicinske fødselsregister,1997,NA,2018,NA,14/01/2020,https://www.dst.dk/extranet/ForskningVariabellister/MFR%20-%20Levendefødte%20fra%20det%20medicinske%20fødselsregister.html
+DODSAARS,Dødsårssagsregistret,1970,NA,2001,NA,14/07/2015,https://www.dst.dk/extranet/ForskningVariabellister/DODSAARS%20-%20Dødsårssagsregistret.html
+IDAN,IDA ansættelser,1980,NA,2018,NA,16/06/2020,https://www.dst.dk/extranet/ForskningVariabellister/IDAN%20-%20IDA%20ansættelser.html
+IDAP,IDA persondata,1980,NA,2018,NA,25/06/2020,https://www.dst.dk/extranet/ForskningVariabellister/IDAP%20-%20IDA%20persondata.html
+IDAS,IDA arbejdssteder,1980,NA,2018,NA,16/06/2020,https://www.dst.dk/extranet/ForskningVariabellister/IDAS%20-%20IDA%20arbejdssteder.html
+LPR_SKSOPR,Landspatientregistret - operationer,1996,NA,2018,NA,27/09/2019,https://www.dst.dk/extranet/ForskningVariabellister/LPR_SKSOPR%20-%20Landspatientregistret%20-%20operationer.html

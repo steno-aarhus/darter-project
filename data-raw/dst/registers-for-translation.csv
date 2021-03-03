@@ -43,3 +43,8 @@ FTNAEVN,Fertilitet - Nævner,Fertility - Mentions
 LPRMFRDF,Dødfødte ud fra LPR,Stillbirths from LPR
 LPRMFRLF,Levendefødte ud fra LPR,Live births from LPR
 MFR,Levendefødte fra det medicinske fødselsregister,Live births from the medical birth registry
+DODSAARS,Dødsårssagsregistret,Cause of death register
+IDAN,IDA ansættelser,IDA employment
+IDAP,IDA persondata,IDA person data
+IDAS,IDA arbejdssteder,IDA workplaces
+LPR_SKSOPR,Landspatientregistret - operationer,National Patient Register - operations

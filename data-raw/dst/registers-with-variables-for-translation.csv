@@ -2174,8 +2174,8 @@ LPRMFRLF,V_U5,Antal undersøgelser på specialafdeling,Number of examinations in
 LPRMFRLF,V_UDSKDAG,Antal dage fra fødsel til udskrivning,Number of days from birth to discharge
 LPRMFRLF,V_UDSKTIM,Antal timer fra fødsel til udskrivning,Number of hours from birth to discharge
 LPRMFRLF,V_VAGT,Barnets vægt i gram,The child's weight in grams
-LPRMFRLF,CPRTJEK,NA,
-LPRMFRLF,CPRTYPE,NA,
+LPRMFRLF,CPRTJEK,,
+LPRMFRLF,CPRTYPE,,
 MFR,ABDOMINALOMFANG,ABDOMINALOMFANG,
 MFR,ABRUPTIO,ABRUPTIO,
 MFR,AFDELING,AFDELING,
@@ -2209,7 +2209,7 @@ MFR,FOEDESTED,FOEDESTED,
 MFR,FOEDSELSAAR,FOEDSELSAAR,
 MFR,FOEDSELSDATO,FOEDSELSDATO,
 MFR,FOEDSELSDIAGNOSE_MODER,FOEDSELSDIAGNOSE_MODER,
-MFR,FOEDSELSLOEBENUMMER,Ingen label,No label
+MFR,FOEDSELSLOEBENUMMER,,
 MFR,FOEDSELSTIME,FOEDSELSTIME,
 MFR,FOSTERPRAESENTATION,FOSTERPRAESENTATION,
 MFR,GESTATIONSALDER_DAGE,GESTATIONSALDER_DAGE,
@@ -2268,3 +2268,328 @@ MFR,VAEGT_BARN,VAEGT_BARN,
 MFR,VAEGT_MODER,VAEGT_MODER,
 MFR,VAKUUMEKSTRAKTION,VAKUUMEKSTRAKTION,
 MFR,PARITET,NA,
+DODSAARS,CPRTJEK,CPR-tjek,CPR check
+DODSAARS,CPRTYPE,CPR-type,CPR type
+DODSAARS,C_ALDERTIM,Dødsalder i timer,Age of death in hours
+DODSAARS,C_ATCKODE1,C_ATCKODE1,C_ATCKODE1
+DODSAARS,C_ATCKODE2,C_ATCKODE2,C_ATCKODE2
+DODSAARS,C_ATCKODE3,C_ATCKODE3,C_ATCKODE3
+DODSAARS,C_ATCKODE4,C_ATCKODE4,C_ATCKODE4
+DODSAARS,C_ATTART,Attestens art,Art
+DODSAARS,C_BOPKOM,C_BOPKOM,C_BOPKOM
+DODSAARS,C_CIVSTD,Civilstand,Marital status
+DODSAARS,C_DOD1,C_DOD1,C_DOD1
+DODSAARS,C_DOD2,C_DOD2,C_DOD2
+DODSAARS,C_DOD3,C_DOD3,C_DOD3
+DODSAARS,C_DOD4,C_DOD4,C_DOD4
+DODSAARS,C_DODSKOM,Dødskommune,Municipality of Death
+DODSAARS,C_DODSMAADE,Dødsart,Species of death
+DODSAARS,C_HANDSTED,Hændelsessted ved unaturlig død,Event of unnatural death
+DODSAARS,C_INSTITUT,Institution for dødsfald,Institution of death
+DODSAARS,C_LISTE_14,C_LISTE_14,C_LISTE_14
+DODSAARS,C_LISTE_49,C_LISTE_49,C_LISTE_49
+DODSAARS,C_LISTE_65,C_LISTE_65,C_LISTE_65
+DODSAARS,C_OBDUKTIO,C_OBDUKTIO,C_OBDUKTIO
+DODSAARS,C_OPERATIO,Operationstilkendegivelse,Operation statement
+DODSAARS,C_SEX,Køn,Sex
+DODSAARS,C_U28DG,Angivelse af dødsalder under 28 dage,Indication of age of death under 28 days
+DODSAARS,C_ULYKTYPE,C_ULYKTYPE,C_ULYKTYPE
+DODSAARS,DAAR,Dødsår,Death wound
+DODSAARS,D_DODSDTO,Dødsdato,Date of death
+DODSAARS,PNR,Personnummer,Social security number
+DODSAARS,V_ALDER,Alder,Age
+DODSAARS,V_ALDERMDR,Alder i måneder,Age in months
+DODSAARS,V_BOPAMT,V_BOPAMT,V_BOPAMT
+DODSAARS,V_DODSAMT,Dødsstedsamt,Place of death
+DODSAARS,V_KLOK,Tiden for dødens indtræffelse,The time of death
+DODSAARS,CPRTJEK,,
+DODSAARS,CPRTYPE,,
+IDAN,ANSAAR,År for ansættelse på arbejdssted,Year of employment at the workplace
+IDAN,ANSDAGE,Antal dage ansat,Number of days employed
+IDAN,ANSDAGE_2008,Antal dage i jobbet,Number of days at work
+IDAN,ANSXFREM,Ansættelsesændring frem til året efter,Change of employment until the following year
+IDAN,ANSXTILB,Ansættelsesændring i forhold til året før,Change of employment compared to the previous year
+IDAN,ARBGNR,Arbejdsgivernummer,Employer number
+IDAN,ARBGNR9,Arbejdsgivernummer med sektorkode,Employer number with sector code
+IDAN,ARBLED,Ledighedsgrad i arbejdsår (ekskl. ferie),Unemployment rate in working years (excluding holidays)
+IDAN,ARBNR,Arbejdsstedsnummer,Workplace number
+IDAN,ARBSTK,Arbejdsstedskode,Workplace code
+IDAN,ARB_HOVED_BRA_DB07,Arbejdsstedets branche,Workplace industry
+IDAN,ARB_SEKTORKODE,Sektorkode for arbejdsstedet,Sector code for the workplace
+IDAN,ATP_BELOEB,ATP-beløb i året,ATP amount per year
+IDAN,BREDT_LOEN_BELOEB,Bredt lønbeløb,Wide salary amount
+IDAN,BRED_TIMELOEN,Timeløn (bredt lønbeløb),Hourly wage (broad wage amount)
+IDAN,BRUTTO_GRADAAR,Bruttoledighedsgrad i året,Gross unemployment rate per year
+IDAN,BRUTTO_LEDIGHED,Antal uger med bruttoledighed i året,Number of weeks of gross unemployment per year
+IDAN,CPRTJEK,CPR-tjek,CPR check
+IDAN,CPRTYPE,CPR-type,CPR type
+IDAN,CVRNR,CVR-nummer,CVR number
+IDAN,DISCO_KODE,Disco kode for lønmodtagere,Disco code for employees
+IDAN,DISCO_MATCHPRIO_KODE,Kode der angiver kvaliteten af discokoden,Code indicating the quality of the disco code
+IDAN,FRAVAER_BESK_KODE,Midlertidigt fraværende fra beskæftigelse,Temporarily absent from employment
+IDAN,JOBATP,Atpbeløb fra oplysningsseddel,Atp amount from information sheet
+IDAN,JOBKAT,Jobtype i ansættelsen,Job type in employment
+IDAN,JOBLON,Lønbeløb i ansættelsesforholdet,Salary amount in the employment relationship
+IDAN,KOM,Kommunekode,Municipal code
+IDAN,LBNR,Arbejdsstedets løbenummer,Workplace serial number
+IDAN,LOENTIMER,Betalte timer,Paid hours
+IDAN,LONMFREM,Lønmodtager året efter,Wage earner the following year
+IDAN,LONMTILB,Lønmodtager året før,Wage earner the year before
+IDAN,NETTO_GRADAAR,Nettoledighedsgrad i året,Net unemployment rate in the year
+IDAN,NETTO_LEDIGHED,Antal uger med nettoledighed i året,Number of weeks of net unemployment per year
+IDAN,OPGIKOM,Opgangsadressen i kommunen,The ascent address in the municipality
+IDAN,PERSBRC,Personlig branche,Personal industry
+IDAN,PERSBRC07,Ingen label,No label
+IDAN,PNR,Personnummer,Social security number
+IDAN,SMALT_LOEN_BELOEB,Smalt lønbeløb,Narrow salary amount
+IDAN,SMAL_TIMELOEN,Timeløn (smalt lønbeløb),Hourly wage (narrow wage amount)
+IDAN,SOC_STATUS_KODE,Socioøkonomisk status,Socio-economic status
+IDAN,STILL,Arbejdsstilling,Working position
+IDAN,STOETTE_BESK_KODE,Støttet beskæftigelse,Supported employment
+IDAN,TILKNYT,Tilknytning til primært arbejdssted,Connection to primary workplace
+IDAN,TIMELON,Timeløn i ansættelsen,Hourly wage in employment
+IDAN,TLONKVAL,Kvalitet af timelønsskøn,Quality of hourly wage estimates
+IDAN,TYPE,Type for ansættelsesforholdet,Type of employment relationship
+IDAN,TYPE_2008,Type for jobbet,Type of job
+IDAN,ANSDAGE_2008,,
+IDAN,ARB_HOVED_BRA_DB07,,
+IDAN,ARB_SEKTORKODE,,
+IDAN,ATP_BELOEB,,
+IDAN,BREDT_LOEN_BELOEB,,
+IDAN,BRUTTO_GRADAAR,,
+IDAN,BRUTTO_LEDIGHED,,
+IDAN,CPRTJEK,,
+IDAN,CPRTYPE,,
+IDAN,DISCO_KODE,,
+IDAN,DISCO_MATCHPRIO_KODE,,
+IDAN,LOENTIMER,,
+IDAN,OPGIKOM,,
+IDAN,SMALT_LOEN_BELOEB,,
+IDAN,TYPE_2008,,
+IDAP,AKASAF,Seneste år som medlem af A-kasse,Last year as a member of A-kasse
+IDAP,AKASSE_ID,Entydig identifikation af a-kassetilhørsforhold,Unique identification of unemployment insurance affiliation
+IDAP,AKASST,Seneste startår som medlem af en A-kasse,Last starting year as a member of an A-fund
+IDAP,ALDERNOV,Alder beregnet ultimo november,Age calculated at the end of November
+IDAP,ANDEL_BEF,Grad for andelen af dage i året hvor man har været i befolkningen,Degree for the proportion of days in the year where one has been in the population
+IDAP,ANDEL_BEF_AKK,Grad for andelen af dage i perioden fra 2008 hvor man har været i befolkningen,Degree for the proportion of days in the period from 2008 where one has been in the population
+IDAP,ANDEL_BESK,Grad for andelen af dage i året hvor man har været beskæftiget,Degree for the proportion of days in the year in which one has been employed
+IDAP,ANDEL_BESK_AKK,Grad for andelen af dage i perioden fra 2008 hvor man har været beskæftiget,Degree of proportion of days in the period from 2008 in which one has been employed
+IDAP,ARLEDGR,Årsledighedsgrad,Unemployment rate
+IDAP,ARLEDGR_BRUTTO,Årsledighedsgrad (bruttoledighed),Annual unemployment rate (gross unemployment)
+IDAP,ARLEDGR_NETTO,Årsledighedsgrad (nettoledighed).,Annual unemployment rate (net unemployment).
+IDAP,ATPAR,Antal år som lønmodtager,Number of years as an employee
+IDAP,ATPXX,ATP omregnet til B-sats,ATP converted to B-rate
+IDAP,ATP_AAR,ATP i året (omregnet til b-sats),ATP per year (converted to b-rate)
+IDAP,BEF_ULT_NOV_AKK,Antal år fra november 1980 i befolkningen ult. nov.,Number of years from November 1980 in the population ult. nov.
+IDAP,BESK_ULT_NOV_AKK,Antal år fra november 1980 i beskæftigelse ult. nov.,Number of years from November 1980 in employment ult. nov.
+IDAP,CPRTJEK,CPR-tjek,CPR check
+IDAP,CPRTYPE,CPR-type,CPR type
+IDAP,EJNOV,Antal supplerende ej-november ansættelser,Number of supplementary non-November appointments
+IDAP,EJNOVSUM,Ej-novemberansættelser lønsum,Non-November employment payroll
+IDAP,EJNOVSUM_BRED,Ej-novemberansættelser bred lønsum,Non-November employment wide payroll
+IDAP,EJNOVSUM_SMAL,Ej-novemberansættelser smal lønsum,Non-November employment narrow payroll
+IDAP,ERHVER,Erhvervserfaring fra 1980 i 1000,Work experience from 1980 in 1000
+IDAP,ERHVER79,Erhvervserfaring ultimo 1979,Work experience at the end of 1979
+IDAP,ERHVER_2007,Erhvervserfaring 1980-2007,Work experience 1980-2007
+IDAP,ERHVER_TIMER,Erhvervserfaring i året opgjort på baggrund af løntimerne,Work experience in the year calculated on the basis of salary hours
+IDAP,ERHVER_TIMER_AKK,Erhvervserfaring fra 2008 opgjort på baggrund af løntimerne,Work experience from 2008 calculated on the basis of salary hours
+IDAP,FORSIKRINGSKATEGORI_KODE,Kode for forsikringskategori,Insurance category code
+IDAP,KON,Køn,Sex
+IDAP,LEDAR,Første ledighed (årstal),First unemployment (year)
+IDAP,LEDAR_BRUTTO,Året for første bruttoledighed,The year of first gross unemployment
+IDAP,LEDAR_NETTO,Året for første nettoledighed,The year of first net unemployment
+IDAP,LEDDEL,Uger delvis ledig,Weeks partially free
+IDAP,LEDFULD,Uger fuld ledighed,Weeks full unemployment
+IDAP,LEDIGHED_BRUTTO,Antal uger med bruttoledighed i året,Number of weeks of gross unemployment per year
+IDAP,LEDIGHED_NETTO,Antal uger med nettoledighed i året,Number of weeks of net unemployment per year
+IDAP,LONIND,Kontant løn - Arbejdsgivernes oplysningssedler,Cash pay - Employers' information leaflets
+IDAP,NSUP,Supplerende november-ansættelser (antal).,Supplementary November appointments (number).
+IDAP,NSUPSUM,Supplerende løn i november-ansættelser (sum),Supplementary salary in November employment (sum)
+IDAP,NSUPSUM_BRED,Bred løn i supplerende job ultimo november,Wide pay in supplementary jobs at the end of November
+IDAP,NSUPSUM_SMAL,Smal løn i supplerende job i november,Narrow salary in supplementary jobs in November
+IDAP,PENSALD,Alder ved pensionering (offentlig),Age at retirement (public)
+IDAP,PJOB_DAGE,Antal dage i året ansat i det primære job,Number of days per year employed in the primary job
+IDAP,PLOENTIMER,Løntimer i det primære job,Wage hours in the primary job
+IDAP,PNR,Personnummer,Social security number
+IDAP,POTLEAR,Forsikret/ledig antal år (fra 1980),Insured / vacant number of years (from 1980)
+IDAP,POTLEAR_BRUTTO,Antal år bruttoledig eller forsikret (fra 2008),Number of years gross or insured (from 2008)
+IDAP,POTLEAR_NETTO,Antal år nettoledig eller forsikret (fra 1980),Number of years net unemployed or insured (from 1980)
+IDAP,PSOC_STATUS_KODE,Socioøkonomisk status i det primære job,Socio-economic status in the primary job
+IDAP,PSTILL,Primær arbejdsstilling,Primary working position
+IDAP,PSUM_BRED,Bred løn i det primære job,Wide pay in the primary job
+IDAP,PSUM_SMAL,Smal løn i det primære job,Narrow salary in the primary job
+IDAP,PTIMELOEN_BRED,Timeløn (bred) i det primære job,Hourly wage (broad) in the primary job
+IDAP,PTIMELOEN_SMAL,Timeløn (smal) i det primære job,Hourly wage (narrow) in the primary job
+IDAP,SAMLET_BREDT_LOEN_BELOEB,Samlet bred løn i året,Total broad salary per year
+IDAP,SAMLET_SMALT_LOEN_BELOEB,Samlet smal løn i året,Total narrow salary per year
+IDAP,SATP79,Samlet ATP ultimo 1979,Total ATP at the end of 1979
+IDAP,SENAFAR,Seneste afslutning på arbejdsmarkedet,Recent completion in the labor market
+IDAP,SENSTAR,Seneste start på arbejdsmarkedet,Recent start in the labor market
+IDAP,SJOB_DAGE,Antal dage i året ansat i det sekundære job,Number of days per year employed in the secondary job
+IDAP,SLOENTIMER,Løntimer i det sekundære job,Wage hours in the secondary job
+IDAP,SLON,Samlet løn fra oplysningssedler,Total salary from information leaflets
+IDAP,SSOC_STATUS_KODE,Socioøkonomisk status i det sekundære job,Socio-economic status in the secondary job
+IDAP,SSTILL,Sekundær arbejdsstilling,Secondary working position
+IDAP,SSUM_BRED,Bred løn i det sekundære job,Wide pay in the secondary job
+IDAP,SSUM_SMAL,Smalt lønbeløb i det sekundære job,Narrow salary amount in the secondary job
+IDAP,STARTAR,Første år på arbejdsmarkedet,First year in the labor market
+IDAP,STIMELOEN_BRED,Timeløn (bred) i det sekundære job,Hourly wage (broad) in the secondary job
+IDAP,STIMELOEN_SMAL,Timeløn (smal) i det sekundære job,Hourly wage (narrow) in the secondary job
+IDAP,SUMGRAD,Sum af ledighedsgrader (fra 1980),Sum of unemployment rates (from 1980)
+IDAP,SUMGRAD_BRUTTO,Summeret bruttoledighed( fra 2008),Total gross unemployment (from 2008)
+IDAP,SUMGRAD_NETTO,Summeret nettoledighed (fra 1980),Total net unemployment (from 1980)
+IDAP,CPRTJEK,,
+IDAP,CPRTYPE,,
+IDAS,AARSVRK,Antal årsværk for alle ansættelsesforhold,Number of man-years for all employment relationships
+IDAS,ADRXFREM,Adresseændring for arbejssted året efter,Change of address for workplace the following year
+IDAS,ADRXTILB,Adresseændring for arbejdssted i året før,Change of address for workplace in the previous year
+IDAS,AFGRATE,Afgangsrate i efterfølgende årsperiode i procent,Departure rate in subsequent year period in percent
+IDAS,AND131,Andel Soc_status_kode=131 blandt ansatte,Share Soc_status_kode = 131 among employees
+IDAS,AND132,Andel Soc_status_kode=132 blandt ansatte,Share Soc_status_kode = 132 among employees
+IDAS,AND133,Andel Soc_status_kode=133 blandt ansatte,Share Soc_status_kode = 133 among employees
+IDAS,AND134,Andel Soc_status_kode=134 blandt ansatte,Share Soc_status_kode = 134 among employees
+IDAS,AND135,Andel Soc_status_kode=135 blandt ansatte,Share Soc_status_kode = 135 among employees
+IDAS,AND136,Andel Soc_status_kode=136 blandt ansatte,Share Soc_status_kode = 136 among employees
+IDAS,ANDELOPS,Andel af opsugede blandt ansatte,Proportion of absorbed among employees
+IDAS,ANDELUDS,Andel af udskilte til et andet arbejdssted blandt ansatte,Proportion of separated to another workplace among employees
+IDAS,ANDFA,Andel lønmodtagere på grundniveau (PSTILL=35) pr. arbejdssted,Proportion of employees at basic level (PSTILL = 35) per. workplace
+IDAS,ANDHF,Andel topledere og lønmodtagere på højeste niveau (PSTILL=31-33) pr. arbejdssted,Proportion of top managers and employees at the highest level (PSTILL = 31-33) per. workplace
+IDAS,ANDIF,Andel i kategorien -anden lønmodtager- (PSTILL=36) pr. arbejdssted,Share in the category -other employee- (PSTILL = 36) per. workplace
+IDAS,ANDLEDAR,"Andel af arbejdere med årsledighed, pct.","Proportion of workers with annual unemployment, per cent."
+IDAS,ANDLEDAR131_BRUTTO,"Andel Soc_status_kode=131 m. bruttoårsledighed, pct.","Share Soc_status_kode = 131 m. Gross annual unemployment, per cent."
+IDAS,ANDLEDAR131_NETTO,"Andel Soc_status_kode=131 m. nettoårsledighed, pct.","Share Soc_status_kode = 131 m. Net annual unemployment, per cent."
+IDAS,ANDLEDAR132_BRUTTO,"Andel Soc_status_kode=132 m. bruttoårsledighed, pct.","Share Soc_status_kode = 132 m. Gross annual unemployment, per cent."
+IDAS,ANDLEDAR132_NETTO,"Andel Soc_status_kode=132 m. nettoårsledighed, pct.","Share Soc_status_kode = 132 m. Net annual unemployment, per cent."
+IDAS,ANDLEDAR133_BRUTTO,"Andel Soc_status_kode=133 m. bruttoårsledighed, pct.","Share Soc_status_kode = 133 m. Gross annual unemployment, per cent."
+IDAS,ANDLEDAR133_NETTO,"Andel Soc_status_kode=133 m. nettoårsledighed, pct.","Share Soc_status_kode = 133 m. Net annual unemployment, per cent."
+IDAS,ANDLEDAR134_BRUTTO,"Andel Soc_status_kode=134 m. bruttoårsledighed, pct.","Share Soc_status_kode = 134 m. Gross annual unemployment, per cent."
+IDAS,ANDLEDAR134_NETTO,"Andel Soc_status_kode=134 m. nettoårsledighed, pct.","Share Soc_status_kode = 134 m. Net annual unemployment, per cent."
+IDAS,ANDLEDAR135_BRUTTO,"Andel Soc_status_kode=135 m. bruttoårsledighed, pct.","Share Soc_status_kode = 135 m. Gross annual unemployment, per cent."
+IDAS,ANDLEDAR135_NETTO,"Andel Soc_status_kode=135 m. nettoårsledighed, pct.","Share Soc_status_kode = 135 m. Net annual unemployment, per cent."
+IDAS,ANDLEDAR136_BRUTTO,"Andel Soc_status_kode=136 m. bruttoårsledighed, pct.","Share Soc_status_kode = 136 m. Gross annual unemployment, per cent."
+IDAS,ANDLEDAR136_NETTO,"Andel Soc_status_kode=136 m. nettoårsledighed, pct.","Share Soc_status_kode = 136 m. Net annual unemployment, per cent."
+IDAS,ANDLEDAR_BRUTTO,"Andel blandt samtlige ansatte m. bruttoårsledighed, pct.","Share among all employees with gross annual unemployment, per cent."
+IDAS,ANDLEDAR_NETTO,"Andel blandt samtlige ansatte m. nettoårsledighed, pct.","Share among all employees with net annual unemployment, per cent."
+IDAS,ANDLF,Andel lønmodtagere på mellemniveau (PSTILL=34) pr. arbejdssted,Proportion of employees at intermediate level (PSTILL = 34) per. workplace
+IDAS,ANTAAR,Antal ansættelsesforhold (personer) i år,Number of employment relationships (persons) this year
+IDAS,ANTALXFR,Ændring i antal ansatte i efterfølgende år (hovedbeskæftigede),Change in number of employees in subsequent years (main employees)
+IDAS,ANTALXTI,Ændring i antal ansatte ift. året før,Change in number of employees compared to the previous year
+IDAS,ANTNOV,Antal ansatte pr. november,Number of employees per November
+IDAS,ANTNOVBI,Antal bibeskæftigede pr. november,Number of secondary employees per November
+IDAS,ARBGNR,Arbejdsgivernummer,Employer number
+IDAS,ARBGNR9,Arbejdsgivernummer med sektorkode,Employer number with sector code
+IDAS,ARBGNR9FR,Arbejdsgivernummer for arbejdssted året efter med sektorkode,Employer number for workplace the following year with sector code
+IDAS,ARBGNR9TI,Arbejdsgivernummer for arbejdssted året før med sektorkode,Employer number for workplace the year before with sector code
+IDAS,ARBGNRFR,Arbejdsgivernummer for arbejdssted året efter,Employer number for workplace the following year
+IDAS,ARBGNRTI,Arbejdsgivernummer for arbejdssted året før,Employer number for workplace the year before
+IDAS,ARBNR,Arbejdsstedsnummer,Workplace number
+IDAS,ARBNRFR,Arbejdsstedsnummer året efter,Workplace number the following year
+IDAS,ARBNRTI,Arbejdsstedsnummer året før,Workplace number the year before
+IDAS,ARBSTK,Arbejdsstedskode,Workplace code
+IDAS,ARBSTKFR,Arbejdsstedskode for arbejdssted året efter,Workplace code for workplace the following year
+IDAS,ARBSTKTI,Arbejdsstedskode for arbejdssted året før,Workplace code for workplace the year before
+IDAS,ARB_HOVED_BRA_DB07,Arbejdsstedets branche,Workplace industry
+IDAS,BESKXFR,Ændring i beskæftigelsesomfang efterfølgende år,Change in employment volume in subsequent years
+IDAS,BESKXTI,Ændring i beskæftigelsesomfang året før,Change in employment volume the year before
+IDAS,BRANCHE,Branchekode,Industry code
+IDAS,BRANCHE03,Branchekode (DB03) for arbejdsstedet.,Industry code (DB03) for the workplace.
+IDAS,BRANCHE1,Branchekode (DB93) for arbejdsstedet,Industry code (DB93) for the workplace
+IDAS,BREDT_LOEN_BELOEB,Bredt lønbeløb,Wide salary amount
+IDAS,CVRNR,CVR-nummer,CVR number
+IDAS,CVRNRFR,CVR-nummer for arbejdssted året efter,CVR number for workplace the following year
+IDAS,CVRNRTI,CVR-nummer året før,CVR number the year before
+IDAS,EJERKO,Ejerkode (omkodet),Owner code (recoded)
+IDAS,ENDNEDL,Endelig nedlæggelse af arbejdssted,Final closure of workplace
+IDAS,FILIAL,Antal arbejdssteder i firmaet (max. 9),Number of workplaces in the company (max. 9)
+IDAS,FRELFREM,Firmaintern/ekstern nedlæggelse via opsugning,Company internal / external closure via suction
+IDAS,FRELTILB,Firmaintern/ekstern oprettelse via udskilning,Company internal / external creation via separation
+IDAS,IDFREM,Identitet for arbejdssted fremad i tid,Identity of workplace forward in time
+IDAS,IDTILB,Identitet for arbejdssted tilbage i tid,Workplace identity back in time
+IDAS,KOM,Arbejdsstedets kommunekode,Workplace municipal code
+IDAS,KVAND131,Andel kvinder blandt personer med soc_status_Kode=131,Proportion of women among persons with soc_status_Kode = 131
+IDAS,KVAND132,Andel kvinder blandt personer med soc_status_Kode=132,Proportion of women among persons with soc_status_Kode = 132
+IDAS,KVAND133,Andel kvinder blandt personer med soc_status_Kode=133,Proportion of women among persons with soc_status_Kode = 133
+IDAS,KVAND134,Andel kvinder blandt personer med soc_status_Kode=134,Proportion of women among persons with soc_status_Kode = 134
+IDAS,KVAND135,Andel kvinder blandt personer med soc_status_Kode=135,Proportion of women among persons with soc_status_Kode = 135
+IDAS,KVAND136,Andel kvinder blandt personer med soc_status_Kode=136,Proportion of women among persons with soc_status_Kode = 136
+IDAS,KVANDFA,Andel kvinder blandt lønmodtagere på grundniveau (personer med PSTILL=35),Proportion of women among employees at basic level (persons with PSTILL = 35)
+IDAS,KVANDHF,"Andel kvinder blandt direktører, overordnede og ledende funktionærer (personer med PSTILL=31-33)","Proportion of women among directors, senior and senior salaried employees (persons with PSTILL = 31-33)"
+IDAS,KVANDIF,Andel kvinder i kategorien 'anden lønmodtager' (personer med PSTILL=36),Proportion of women in the category 'other employee' (persons with PSTILL = 36)
+IDAS,KVANDLF,Andel kvinder blandt lønmodtagere på mellemniveau (personer med PSTILL=34),Proportion of women among middle-level employees (persons with PSTILL = 34)
+IDAS,LBNR,Arbejdsstedets løbenummer,Workplace serial number
+IDAS,LBNRFREM,LBNR for relateret arb.sted året efter,LBNR for related workplace the following year
+IDAS,LBNRTILB,LBNR for relateret arbejdssted året før,LBNR for related workplace the year before
+IDAS,LEDPERG,Ledighedsperioder blandt ledige arbejdere i gennemsnit,Unemployment periods among unemployed workers on average
+IDAS,LEDPERG131_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=131,Gross vacancy periods incl. free soc_status_code = 131
+IDAS,LEDPERG131_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=131,"Net vacancy periods, incl. free soc_status_code = 131"
+IDAS,LEDPERG132_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=132,Gross vacancy periods incl. free soc_status_code = 132
+IDAS,LEDPERG132_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=132,"Net vacancy periods, incl. free soc_status_code = 132"
+IDAS,LEDPERG133_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=133,Gross vacancy periods incl. free soc_status_code = 133
+IDAS,LEDPERG133_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=133,"Net vacancy periods, incl. free soc_status_code = 133"
+IDAS,LEDPERG134_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=134,Gross vacancy periods incl. free soc_status_code = 134
+IDAS,LEDPERG134_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=134,"Net vacancy periods, incl. free soc_status_code = 134"
+IDAS,LEDPERG135_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=135,Gross vacancy periods incl. free soc_status_code = 135
+IDAS,LEDPERG135_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=135,"Net vacancy periods, incl. free soc_status_code = 135"
+IDAS,LEDPERG136_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=136,Gross vacancy periods incl. free soc_status_code = 136
+IDAS,LEDPERG136_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=136,"Net vacancy periods, incl. free soc_status_code = 136"
+IDAS,LEDPERG_BRUTTO,Brutto ledigh.perioder bl. ledige,Gross vacancy periods incl. available
+IDAS,LEDPERG_NETTO,Netto ledigh.perioder bl. ledige,"Net vacancy periods, incl. available"
+IDAS,LGRGNSAR,Årsledighedsgrad blandt ledige arbejdere i gennemsnit,Annual unemployment rate among unemployed workers on average
+IDAS,LGRGNSAR131_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=131,Gross vacancy periods incl. free soc_status_code = 131
+IDAS,LGRGNSAR131_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=131,"Net vacancy periods, incl. free soc_status_code = 131"
+IDAS,LGRGNSAR132_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=132,Gross vacancy periods incl. free soc_status_code = 132
+IDAS,LGRGNSAR132_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=132,"Net vacancy periods, incl. free soc_status_code = 132"
+IDAS,LGRGNSAR133_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=133,Gross vacancy periods incl. free soc_status_code = 133
+IDAS,LGRGNSAR133_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=133,"Net vacancy periods, incl. free soc_status_code = 133"
+IDAS,LGRGNSAR134_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=134,Gross vacancy periods incl. free soc_status_code = 134
+IDAS,LGRGNSAR134_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=134,"Net vacancy periods, incl. free soc_status_code = 134"
+IDAS,LGRGNSAR135_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=135,Gross vacancy periods incl. free soc_status_code = 135
+IDAS,LGRGNSAR135_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=135,"Net vacancy periods, incl. free soc_status_code = 135"
+IDAS,LGRGNSAR136_BRUTTO,Brutto ledigh.perioder bl. ledige soc_status_kode=136,Gross vacancy periods incl. free soc_status_code = 136
+IDAS,LGRGNSAR136_NETTO,Netto ledigh.perioder bl. ledige soc_status_kode=136,"Net vacancy periods, incl. free soc_status_code = 136"
+IDAS,LGRGNSAR_BRUTTO,Brutto ledigh.perioder bl. ledige,Gross vacancy periods incl. available
+IDAS,LGRGNSAR_NETTO,Netto ledigh.perioder bl. ledige,"Net vacancy periods, incl. available"
+IDAS,LONAAR,Lønsum pr. år for alle ansættelsesforhold,Payroll per years for all employment relationships
+IDAS,LONGNS,Gennemsnitlig timeløn for alle hovedbeskæftigede,Average hourly wage for all main employees
+IDAS,LONGNSFA,Gennemsnitlig timeløn for hovedbeskæftigede faglærte arbejdere (PSTILL= 35).,Average hourly wage for mainly employed skilled workers (PSTILL = 35).
+IDAS,LONGNSHF,Gennemsnitlig timeløn for højere funktionærer (hovedbeskæftigede med PSTILL= 31-33),Average hourly wage for senior salaried employees (main employees with PSTILL = 31-33)
+IDAS,LONGNSIF,Gennemsnitlig timeløn for hovedbeskæftigede personer i kategorien 'anden lønmodtager' (PSTILL= 36).,Average hourly wage for main employees in the category 'other wage earner' (PSTILL = 36).
+IDAS,LONGNSLF,Gennemsnitlig timeløn for hovedbeskæftigede lønmodtagerE på mellemniveau (PSTILL= 34),Average hourly wage for main employees at intermediate level (PSTILL = 34)
+IDAS,LONGNS_BRED,"Bred timeløn for hovedbeskæftigede personer, gns.","Wide hourly wage for main employees, avg."
+IDAS,LONGNS_BRED131,"Bred timeløn for hovedbeskæftigede personer med soc_status_kode=131, gns.","Wide hourly wage for main employees with soc_status_code = 131, avg."
+IDAS,LONGNS_BRED132,"Bred timeløn for hovedbeskæftigede personer med soc_status_kode=132, gns.","Wide hourly wage for main employees with soc_status_code = 132, avg."
+IDAS,LONGNS_BRED133,"Bred timeløn for hovedbeskæftigede personer med soc_status_kode=133, gns.","Wide hourly wage for main employees with soc_status_code = 133, avg."
+IDAS,LONGNS_BRED134,"Bred timeløn for hovedbeskæftigede personer med soc_status_kode=134, gns.","Wide hourly wage for main employees with soc_status_code = 134, avg."
+IDAS,LONGNS_BRED135,"Bred timeløn for hovedbeskæftigede personer med soc_status_kode=135, gns.","Wide hourly wage for main employees with soc_status_code = 135, avg."
+IDAS,LONGNS_BRED136,"Bred timeløn for hovedbeskæftigede personer med soc_status_kode=136, gns.","Wide hourly wage for main employees with soc_status_code = 136, avg."
+IDAS,LONGNS_SMAL,"Smal timeløn for hovedbeskæftigede personer, gns.","Narrow hourly wage for main employed persons, avg."
+IDAS,LONGNS_SMAL131,"Smal timeløn for hovedbeskæftigede personer med soc_status_kode=131, gns.","Narrow hourly wage for main employees with soc_status_code = 131, avg."
+IDAS,LONGNS_SMAL132,"Smal timeløn for hovedbeskæftigede personer med soc_status_kode=132, gns.","Narrow hourly wage for main employees with soc_status_code = 132, avg."
+IDAS,LONGNS_SMAL133,"Smal timeløn for hovedbeskæftigede personer med soc_status_kode=133, gns.","Narrow hourly wage for main employees with soc_status_code = 133, avg."
+IDAS,LONGNS_SMAL134,"Smal timeløn for hovedbeskæftigede personer med soc_status_kode=134, gns.","Narrow hourly wage for main employees with soc_status_code = 134, avg."
+IDAS,LONGNS_SMAL135,"Smal timeløn for hovedbeskæftigede personer med soc_status_kode=135, gns.","Narrow hourly wage for main employees with soc_status_code = 135, avg."
+IDAS,LONGNS_SMAL136,"Smal timeløn for hovedbeskæftigede personer med soc_status_kode=136, gns.","Narrow hourly wage for main employees with soc_status_code = 136, avg."
+IDAS,OPGIKOM,Opgangsadressen i kommunen,The ascent address in the municipality
+IDAS,PCTFREM,Gengangere på arbejdsstedet pr. året efter,Pedestrians at the workplace per. the year after
+IDAS,PCTTILB,Gengangere på arbejdsstedet fra året før.,Repetitive in the workplace from the year before.
+IDAS,REGELFR,Regel vedrørende bevaret arbejdssted året efter,Rule regarding retained workplace the following year
+IDAS,REGELTI,Regel vedrørende bevaret arbejdssted året før,Rule regarding preserved workplace the year before
+IDAS,SMALT_LOEN_BELOEB,Smalt lønbeløb,Narrow salary amount
+IDAS,TILGRATE,"Tilgangsrate i forudgående årsperiode, pct.","Access rate in previous year period, per cent."
+IDAS,ARB_HOVED_BRA_DB07,,
+IDAS,BREDT_LOEN_BELOEB,,
+IDAS,OPGIKOM,,
+IDAS,SMALT_LOEN_BELOEB,,
+LPR_SKSOPR,C_OAFD,Procedurende afdeling (operation),Procedural department (operation)
+LPR_SKSOPR,C_OPR,Procedurekodenummer (operation),Procedure code number (operation)
+LPR_SKSOPR,C_OPRART,Procedureart (operation),Type of procedure (operation)
+LPR_SKSOPR,C_OSGH,Procedurende sygehus (operation),Procedure hospital (operation)
+LPR_SKSOPR,C_TILOPR,Tillægskode (operation),Additional code (operation)
+LPR_SKSOPR,D_ODTO,Proceduredato (operation),Procedure date (operation)
+LPR_SKSOPR,LEVERANCEDATO,Ingen label,No label
+LPR_SKSOPR,RECNUM,LPR-identnummer,LPR ID number
+LPR_SKSOPR,VERSION,Ingen label,No label
+LPR_SKSOPR,V_OMINUT,Procedureminut (operation),Minute of procedure (operation)
+LPR_SKSOPR,V_OTIME,Proceduretime (operation),Proceduretime (operation)
+LPR_SKSOPR,RECNUM,,
+LPR_SKSOPR,VERSION,,
