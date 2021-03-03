@@ -20,6 +20,7 @@ create_checklist <- function(data, from_dst = TRUE, type = c("scraped", "inspect
 
     data %>%
         dplyr::filter(condition) %>%
+        dplyr::filter(!drop | is.na(drop)) %>%
         glue::glue_data(glue_text, .na = "?") %>%
         purrr::prepend(prepended_text) %>%
         clipr::write_clip()
