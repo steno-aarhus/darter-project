@@ -13,91 +13,102 @@ Denmark
 
 ## Projekttitel / Project title
 
-Interplay between intergenerational and life-course factors with diabetes
+Interplay between diabetes and intergenerational transmission of health determinants over the life course
 
 ## Projektbeskrivelse / Project description
 
-The overall aim of this project is to identify the contributions of family
-network and life-course factors on the development,
-management, and care of diabetes and diseases following diabetes.
-
-Diabetes is a complex, multi-factorial disease that is influenced
-throughout the life-course from individual as well as social factors.
-Behavioural risk factors and socioeconomic conditions cluster in families and
-their influence depends on the timing and accumulation of exposures. 
-For instance, poor childhood socioeconomic status (SES) can impact final 
-educational attainment, adult SES, and lifestyle and behavioural
-characteristics, which ultimately influences an individual's metabolic capacity
-to regulate glucose and subsequent risk for diabetes.
-
+The overall aim of this project is to identify the contributions of family 
+determinants on the development, management, and care of diabetes and the 
+diseases that may arise following a diabetes diagnosis, under a life course
+framework.
+Diabetes is a complex, multi-factorial disease. Its development depends on 
+the timing and accumulation of exposures throughout the life-course. In 
+addition to the genetic influence, behavioral risk factors and socioeconomic
+conditions cluster in families and are passed through generations. For instance,
+poor childhood socioeconomic status (SES) can impact final educational attainment,
+adult SES, and lifestyle and behavioral characteristics, which ultimately influences
+an individual’s metabolic capacity to regulate glucose and subsequent risk for diabetes.
 This project will contribute to a broader and deeper understanding of the role
-that these factors play with the development and progression of diabetes.
-Using the findings from this project we hope to model several potential public
-health strategies that could impact the prevention and management of diabetes 
-and diseases following diabetes.
-
-A key feature to this project is the integration of external data sources, such
-as longitudinal cohort studies, with the register data. We aim to apply causal
-and predictive statistical methods to best use the data available from the 
-integrated data sources.
-
-TODO: Add simple DAG of expected relationship?
+that these factors play with the development and progression of diabetes. For 
+this purpose, we will apply causal and predictive statistical methods to best
+use the data available from the integrated data sources with an overarching goal 
+to model several potential public health strategies that might impact the 
+prevention and management of diabetes and the diseases that follows its diagnosis.
+A key feature to this project is the integration of external data sources,
+such as longitudinal cohort studies, with the register data.
 
 ## Population / Population
 
-In order to identify familial relations through individuals’ life course
-trajectory, the population requested covers all individuals, alive or deceased,
-who live or lived in Denmark from 1 January 1970 to 31 December 2020 (~8.5
-million people). Key requirements are:
+In order to identify familial relations through individuals’ life course trajectory,
+the population requested covers all individuals, who live or lived in Denmark 
+from 1 January 1970 to 31 December 2020 (~8.5 million people). Key requirements are:
 
-- Data on parents of those born starting from 1970 as well as data throughout
-their early life and childhood.
-- Minimum two, and up to four-generation pedigree in which index
-individuals have linkage to their parents, siblings, half-siblings, and spouses.
-Index individuals are defined as those individuals that serve as a reference to
-identify family relations and which will be followed with regards to the
-outcome.
+- Individuals were born starting from 1970 with available parental linkage. Wherever
+  possible, individuals and parental data throughout their early life, childhood 
+  and adulthood.
+
+- Minimum two and up to four-generation family pedigrees in which index individuals
+  have linkage to their parents and spouses. Index individuals are defined as those 
+  individuals that serve as a reference to identify family relations and which will
+  be followed with regards to the outcomes.
 
 ## Variabelindhold / Variables included
 
 All variables can be de-identified (direct identification is not needed). The
 list of requested variables is found in the tables at the end of the document in 
 the Appendix.
+Registers requested are:
+- AKM: Arbejdsklassifikationsmodulet / The work classification module
+- BEF: Befolkningen / The population
+- BYSTRB: Bystørrelser bopæle / City sizes residences
+- DOD, DODSAASG and DODSAARS: Dødsårsagsregister / Cause of death register
+- FAHU: Husstande / Households
+- FAIK: Familieindkomster / Family income
+- FAIN: Husstande og familier / Households and families
+- FTBARN, FTDB, FTDK, FTDM, FTFORAEL, FTNAEVN: Fertilitetsdatabasen / Fertility database 
+- IEPE: Indvandrere og Efterkommere / Immigrants and Descendants
+- IND: Indkomst / Income
+- LMDB: Lægemiddeldatabasen / The drug database
+- LPR_ADM, LPR_BES, LPR_DIAG, LPR_OPR, LPR_SKSOP, LPR_SKSOPR, UAF_ADM, UAF_BES, UAF_DIAG,
+  UAF_OPR, LPR_SKSUBE, UAF_SKSOPR: Landspatientregistret/ National Patient Register
+- LPR_PSYK: Landspatientregisteret for psykiatri – centralpsykiatrisk register 
+- LPRMFRDF: Dødfødte ud fra LPR / Stillbirths from LPR
+- LPRMFRLF: Levendefødte ud fra LPR / Live births from LPR
+- MFR: Levendefødte fra det medicinske fødselsregister / Live births from the 
+  Medical Birth Register
+- PRIV_ADM, PRIV_DIAG, PRIV_SKSOPR, PRIV_SKSUBE: Landspatientregistret private sygehuse
+  / National Patient Register private hospitals 
+- RAS: Registerbaserede arbejdsstyrkestatistik / Register-based labor force statistics
+- SHSS: Sammenhængende socialstatistik / Coherent social statistics
+- SSNV: Sammenhængende socialstatistik nettovarigheder / Coherent social statistics 
+  net durations
+- SSSY, SYSI, SYST: Sygesikringsregisteret / Helath Insurance Register
+- UDDA: Uddannelser (BUE) / Education (BUE)
+- VNDS: Historiske vandringer / Historical walks
 
-<!--
-- Personindkomst vs. Indkomster (INDH/INDK)
-- Familieindskomst (FAIK)
-- Kvalifikationsregistret vs. Uddannelsesoplysninger (UDDA) 
-- Vandringer (VNDS)
-- Arbejdsklassifikationsmodulet (AKM)
-- Sygesikringsregisteret (SYSI, SSSY)
-- Lægemiddelregisteret (LMDB)
-- Arbejdsplads(er)
+Data som ikke kommer fra Danmarks Statistik / Data that doesn’t come from DST
+List of studies:
+- Diet, Cancer, and Health study. Next Generation Study
+- ADDITION, ADDITION-PRO cohort studies
+- Inter99
+- CORE Trial (Check your health study. This is a household intervention)
+- The Danish National Health survey (2010, 2013 and 2017)
 
-Others?
+Fra Sundhedsdatastyrelsen vil vi desuden søge om adgang til følgende register for data om diabetes samt relaterede sygdomme og risikofaktorer:
+Kroniske sygdomsdiagnoser:
+- Cancerregisteret
+- IVF-registeret
+- LABKA data
+- Drug addicts in treatment and alcohol treatment registers
+- Children data base
 
-- Imprisonment.
-- Børnetilskud og børnefamilieydelse
-- Levevilkårsundersøgelsen (SILC)
-- Forbrugsundersøgelsen?
-- Idræt?
-- BARNFORA? (Henvisninger mellem barn og forældre (references between children
-and parents)
-- FTDB (Fertilitetsdatabasen)
-- LPR-Psikiatri (To extract psichiatryc diseases for the prediction model and
-family history)
-- LABKA
-- Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati
-og maculopati (DiaBase): Diabetes definition
-- Cancer register (to identify family history)
+## Projekts slutdato / Project’s end date
 
-LPR-Psikiatri,  Diabase (retinopathy and maculopathy screening),  Diabetes register? LABKA?
+Date of deletion of data: Access to data is requested until December 2031.
 
-imprisonment.
-Børnetilskud og børnefamilieydelse
-Levevilkårsundersøgelsen (SILC)
-Forbrugsundersøgelsen?
-Idræt?
+## Autoriserede forskere / Authorised scientists
+*See the email to get the list
+
 
 -->
 
