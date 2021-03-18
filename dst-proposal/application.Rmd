@@ -102,14 +102,6 @@ Kroniske sygdomsdiagnoser:
 - Drug addicts in treatment and alcohol treatment registers
 - Children data base
 
-## Projekts slutdato / Project’s end date
-
-Date of deletion of data: Access to data is requested until December 2031.
-
-## Autoriserede forskere / Authorised scientists
-*See the email to get the list
-
-
 -->
 
 ```{r setup, include=FALSE}
