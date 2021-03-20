@@ -28,11 +28,11 @@ TRUE,,1,MFR,Levendefødte fra det medicinske fødselsregister,Live births from t
 ,1,1,PRIV_SKSUBE,Landspatientregistret private sygehuse - undersøgelser og behandlinger,National Patient Register private hospitals - examinations and treatments,dst,
 TRUE,1,1,RAS,Registerbaserede arbejdsstyrkestatistik,Register-based labor force statistics,dst,"Not sure if we need this one. Based on variables, I can't see what I'd need"
 TRUE,,,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,Might not be necessary. Let's drop for now.
-,,1,SHSS,Sammenhængende socialstatistik,Coherent social statistics,dst,"There seems like a lot of interesting info in here, but I don't know what I need, if I need anything."
+,1,1,SHSS,Sammenhængende socialstatistik,Coherent social statistics,dst,"There seems like a lot of interesting info in here, but I don't know what I need, if I need anything."
 ,,1,SSNV,Sammenhængende socialstatistik nettovarigheder,Coherent social statistics net durations,dst,
 ,,1,SSSY,Sygesikring (6-cifret),Health insurance (6-digit),dst,
 ,,1,SYSI,Sygesikring (sikringsgruppe),Health insurance (group),dst,
-,,1,SYST,Sygesikring (4-cifret),Health insurance (4-digit),dst,
+,,1,SYST,Sygesikring (4-cifret),Health insurance (4-digit),dst,What is this for? What variables do I need here?
 ,,1,UAF_ADM,Landspatientregistret uafsluttede kontakter - administrative oplysninger,National Patient Register unfinished contacts - administrative information,dst,
 ,,1,UAF_BES,Landspatientregistret uafsluttede kontakter - ambulante besøgsdatoer,National Patient Register unfinished contacts - outpatient visit dates,dst,
 ,,1,UAF_DIAG,Landspatientregistret uafsluttede kontakter - diagnoser,National Patient Register unfinished contacts - diagnoses,dst,
@@ -56,5 +56,5 @@ TRUE,,,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,
 ,,,,Dansk Voskne Diabetes Database,Danish Adults Diabetes Database,,
 ,,,,Diabase,Diabase,,
 ,,,,Cancerregisteret,Cancer Register,sds,
-,,1,DODSAARS,Dødsårssagsregistret,Cause of death register,dst,Maybe also in SDS?
+,1,1,DODSAARS,Dødsårssagsregistret,Cause of death register,dst,Maybe also in SDS?
 ,,,,IVF-registeret,,sds?,
