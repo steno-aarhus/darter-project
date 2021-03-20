@@ -29,7 +29,7 @@ TRUE,,1,MFR,Levendefødte fra det medicinske fødselsregister,Live births from t
 TRUE,1,1,RAS,Registerbaserede arbejdsstyrkestatistik,Register-based labor force statistics,dst,"Not sure if we need this one. Based on variables, I can't see what I'd need"
 TRUE,,,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,Might not be necessary. Let's drop for now.
 ,1,1,SHSS,Sammenhængende socialstatistik,Coherent social statistics,dst,"There seems like a lot of interesting info in here, but I don't know what I need, if I need anything."
-,,1,SSNV,Sammenhængende socialstatistik nettovarigheder,Coherent social statistics net durations,dst,
+,1,1,SSNV,Sammenhængende socialstatistik nettovarigheder,Coherent social statistics net durations,dst,
 ,,1,SSSY,Sygesikring (6-cifret),Health insurance (6-digit),dst,
 ,,1,SYSI,Sygesikring (sikringsgruppe),Health insurance (group),dst,
 ,,1,SYST,Sygesikring (4-cifret),Health insurance (4-digit),dst,What is this for? What variables do I need here?
