@@ -30,28 +30,25 @@ TRUE,1,1,RAS,Registerbaserede arbejdsstyrkestatistik,Register-based labor force 
 TRUE,,,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,Might not be necessary. Let's drop for now.
 ,1,1,SHSS,Sammenhængende socialstatistik,Coherent social statistics,dst,"There seems like a lot of interesting info in here, but I don't know what I need, if I need anything."
 ,1,1,SSNV,Sammenhængende socialstatistik nettovarigheder,Coherent social statistics net durations,dst,
-,,1,SSSY,Sygesikring (6-cifret),Health insurance (6-digit),dst,
-,,1,SYSI,Sygesikring (sikringsgruppe),Health insurance (group),dst,
+,1,1,SSSY,Sygesikring (6-cifret),Health insurance (6-digit),dst,There’s several stuff here that I’m not sure what we need.
+,1,1,SYSI,Sygesikring (sikringsgruppe),Health insurance (group),dst,There’s several stuff here that I’m not sure what we need.
 ,,1,SYST,Sygesikring (4-cifret),Health insurance (4-digit),dst,What is this for? What variables do I need here?
-,,1,UAF_ADM,Landspatientregistret uafsluttede kontakter - administrative oplysninger,National Patient Register unfinished contacts - administrative information,dst,
-,,1,UAF_BES,Landspatientregistret uafsluttede kontakter - ambulante besøgsdatoer,National Patient Register unfinished contacts - outpatient visit dates,dst,
-,,1,UAF_DIAG,Landspatientregistret uafsluttede kontakter - diagnoser,National Patient Register unfinished contacts - diagnoses,dst,
-,,1,UAF_OPR,Landspatientregistret uafsluttede kontakter - operationer efter ICD8 klassifikationen,National Patient Register unfinished contacts - operations according to the ICD8 classification,dst,
-,,1,UAF_SKSOPR,Landspatientregistret uafsluttede kontakter - operationer,National Patient Register unfinished contacts - operations,dst,
+,,1,UAF_ADM,Landspatientregistret uafsluttede kontakter - administrative oplysninger,National Patient Register unfinished contacts - administrative information,dst,This has just “ingen label” as a description. Not sure what we need.
+,,1,UAF_BES,Landspatientregistret uafsluttede kontakter - ambulante besøgsdatoer,National Patient Register unfinished contacts - outpatient visit dates,dst,This has just “ingen label” as a description. Not sure what we need.
+,,1,UAF_DIAG,Landspatientregistret uafsluttede kontakter - diagnoser,National Patient Register unfinished contacts - diagnoses,dst,This has just “ingen label” as a description. Not sure what we need.
+,,1,UAF_OPR,Landspatientregistret uafsluttede kontakter - operationer efter ICD8 klassifikationen,National Patient Register unfinished contacts - operations according to the ICD8 classification,dst,This has just “ingen label” as a description. Not sure what we need.
+,,1,UAF_SKSOPR,Landspatientregistret uafsluttede kontakter - operationer,National Patient Register unfinished contacts - operations,dst,This has just “ingen label” as a description. Not sure what we need.
 ,1,1,UDDA,Uddannelser (BUE),Education (BUE),dst,
-,,1,VNDS,Historiske vandringer,Historical walks,dst,
+,,1,VNDS,Historiske vandringer,Historical walks,dst,Do we need this? The descriptions are vague for the variables.
 ,,,CPST,CPR Status,Civil Registration Status,dst,
-,,,,,Population Education Register,,
-,,,,,Register of Support for Children and Adolescents,,
-,,,,,National Prescription Registry,,
 ,1,1,LPRMFRLF,Levendefødte ud fra LPR,Live births from LPR,dst,
 ,1,1,LPRMFRDF,Dødfødte ud fra LPR,Stillbirths from LPR,dst,
-,,1,FTBARN,Fertilitet - børn,Fertility - children,dst,
-,,1,FTDB,Fertilitetsdatabasen børn,Fertility database children,dst,
-,,1,FTDK,Fertilitetsdatabasen paritetsfil kvinder,Fertility database parity file women,dst,
-,,1,FTDM,Fertilitetsdatabasen paritetsfil mænd,Fertility database parity file men,dst,
-,,1,FTFORAEL,Fertilitet - forælder,Fertility - parent,dst,
-,,1,FTNAEVN,Fertilitet - Nævner,Fertility - Mentions,dst,
+,1,1,FTBARN,Fertilitet - børn,Fertility - children,dst,
+,1,1,FTDB,Fertilitetsdatabasen børn,Fertility database children,dst,
+,1,1,FTDK,Fertilitetsdatabasen paritetsfil kvinder,Fertility database parity file women,dst,
+,1,1,FTDM,Fertilitetsdatabasen paritetsfil mænd,Fertility database parity file men,dst,
+,1,1,FTFORAEL,Fertilitet - forælder,Fertility - parent,dst,
+,,1,FTNAEVN,Fertilitet - Nævner,Fertility - Mentions,dst,Do we need this? The descriptions are vague for the variables.
 ,,,,Dansk Børne Diabetes Database,Danish Childrens Diabetes Database,,
 ,,,,Dansk Voskne Diabetes Database,Danish Adults Diabetes Database,,
 ,,,,Diabase,Diabase,,
