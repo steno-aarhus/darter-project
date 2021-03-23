@@ -1,5 +1,11 @@
 ---
-output: word_document
+papersize: a4
+fontsize: 11pt
+output: 
+    word_document: default
+    pdf_document:
+        toc: true
+        toc_depth: 3
 ---
 
 # Project description for DST application
@@ -17,34 +23,39 @@ Interplay between diabetes and intergenerational transmission of health determin
 
 ## Projektbeskrivelse / Project description
 
-The overall aim of this project is to identify the contributions of family 
-determinants on the development, management, and care of diabetes and the 
-diseases that may arise following a diabetes diagnosis, under a life course
+The overall aim of this project is to identify the contributions of family and
+early life determinants on the development, management, and care of diabetes and
+the diseases that may arise following a diabetes diagnosis, under a life-course
 framework.
-Diabetes is a complex, multi-factorial disease. Its development depends on 
-the timing and accumulation of exposures throughout the life-course. In 
-addition to the genetic influence, behavioral risk factors and socioeconomic
-conditions cluster in families and are passed through generations. For instance,
-poor childhood socioeconomic status (SES) can impact final educational attainment,
-adult SES, and lifestyle and behavioral characteristics, which ultimately influences
-an individual’s metabolic capacity to regulate glucose and subsequent risk for diabetes.
+
+Diabetes is a complex, multi-factorial disease. Its development depends on the
+timing and accumulation of exposures throughout the life-course. In addition to
+genetic influences, behavioral risk factors and socioeconomic conditions cluster
+in families and are passed through generations. For instance, poor childhood
+socioeconomic status (SES) can impact final educational attainment, adult SES,
+and lifestyle and behavioral characteristics, which ultimately influence an
+individual's metabolic capacity to regulate glucose and subsequent risk for
+diabetes.
+
 This project will contribute to a broader and deeper understanding of the role
-that these factors play with the development and progression of diabetes. For 
+that these factors play with the development and progression of diabetes. For
 this purpose, we will apply causal and predictive statistical methods to best
-use the data available from the integrated data sources with an overarching goal 
-to model several potential public health strategies that might impact the 
-prevention and management of diabetes and the diseases that follows its diagnosis.
-A key feature to this project is the integration of external data sources,
-such as longitudinal cohort studies, with the register data.
+use the data available from the integrated data sources with an overarching goal
+to model several potential public health strategies that might impact the
+prevention and management of diabetes and the diseases that follow its
+diagnosis. 
+
+<!-- A key feature to this project is the integration of external data -->
+<!-- sources, such as longitudinal cohort studies, with the register data. -->
 
 ## Population / Population
 
-In order to identify familial relations through individuals’ life course trajectory,
+In order to identify familial relations through individuals' life course trajectory,
 the population requested covers all individuals, who live or lived in Denmark 
 from 1 January 1970 to 31 December 2020 (~8.5 million people). Key requirements are:
 
 - Individuals were born starting from 1970 with available parental linkage. Wherever
-  possible, individuals and parental data throughout their early life, childhood 
+  possible, individuals and parental data throughout their early life, childhood, 
   and adulthood.
 
 - Minimum two and up to four-generation family pedigrees in which index individuals
@@ -57,52 +68,6 @@ from 1 January 1970 to 31 December 2020 (~8.5 million people). Key requirements 
 All variables can be de-identified (direct identification is not needed). The
 list of requested variables is found in the tables at the end of the document in 
 the Appendix.
-Registers requested are:
-- AKM: Arbejdsklassifikationsmodulet / The work classification module
-- BEF: Befolkningen / The population
-- BYSTRB: Bystørrelser bopæle / City sizes residences
-- DOD, DODSAASG and DODSAARS: Dødsårsagsregister / Cause of death register
-- FAHU: Husstande / Households
-- FAIK: Familieindkomster / Family income
-- FAIN: Husstande og familier / Households and families
-- FTBARN, FTDB, FTDK, FTDM, FTFORAEL, FTNAEVN: Fertilitetsdatabasen / Fertility database 
-- IEPE: Indvandrere og Efterkommere / Immigrants and Descendants
-- IND: Indkomst / Income
-- LMDB: Lægemiddeldatabasen / The drug database
-- LPR_ADM, LPR_BES, LPR_DIAG, LPR_OPR, LPR_SKSOP, LPR_SKSOPR, UAF_ADM, UAF_BES, UAF_DIAG,
-  UAF_OPR, LPR_SKSUBE, UAF_SKSOPR: Landspatientregistret/ National Patient Register
-- LPR_PSYK: Landspatientregisteret for psykiatri – centralpsykiatrisk register 
-- LPRMFRDF: Dødfødte ud fra LPR / Stillbirths from LPR
-- LPRMFRLF: Levendefødte ud fra LPR / Live births from LPR
-- MFR: Levendefødte fra det medicinske fødselsregister / Live births from the 
-  Medical Birth Register
-- PRIV_ADM, PRIV_DIAG, PRIV_SKSOPR, PRIV_SKSUBE: Landspatientregistret private sygehuse
-  / National Patient Register private hospitals 
-- RAS: Registerbaserede arbejdsstyrkestatistik / Register-based labor force statistics
-- SHSS: Sammenhængende socialstatistik / Coherent social statistics
-- SSNV: Sammenhængende socialstatistik nettovarigheder / Coherent social statistics 
-  net durations
-- SSSY, SYSI, SYST: Sygesikringsregisteret / Helath Insurance Register
-- UDDA: Uddannelser (BUE) / Education (BUE)
-- VNDS: Historiske vandringer / Historical walks
-
-Data som ikke kommer fra Danmarks Statistik / Data that doesn’t come from DST
-List of studies:
-- Diet, Cancer, and Health study. Next Generation Study
-- ADDITION, ADDITION-PRO cohort studies
-- Inter99
-- CORE Trial (Check your health study. This is a household intervention)
-- The Danish National Health survey (2010, 2013 and 2017)
-
-Fra Sundhedsdatastyrelsen vil vi desuden søge om adgang til følgende register for data om diabetes samt relaterede sygdomme og risikofaktorer:
-Kroniske sygdomsdiagnoser:
-- Cancerregisteret
-- IVF-registeret
-- LABKA data
-- Drug addicts in treatment and alcohol treatment registers
-- Children data base
-
--->
 
 ```{r setup, include=FALSE}
 library(tidyverse)
@@ -116,6 +81,14 @@ dst_variables <- dst_variables %>%
     mutate(years = str_c(variable_start_year, "--", variable_end_year)) %>% 
     select(register_id, register_name_dk, variable_name, years)
 
+sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv"))
+sds_variables <- sds_variables %>% 
+    filter(use_in_application == 1) %>% 
+    select(register_name, table_name, variable_name, periode)
+
+random_registers <- read_csv(here("data/random-undocumented.csv")) %>% 
+    mutate(years = str_c(start_year, "--", end_year))
+
 authorized_researchers <-
     read_csv(
         here("data/authorized-researchers.csv"),
@@ -128,9 +101,9 @@ options(knitr.kable.NA = "")
 
 Registers requested are:
 
-```{r register-list, results = "asis"}
-read_csv(here("data/needed-registers.csv"), col_types = "dccccc") %>% 
-    filter(!is.na(register_id)) %>% 
+```{r dst-register-list, results = "asis"}
+read_csv(here("data/needed-registers.csv"), col_types = "lddccccc") %>% 
+    filter(!is.na(register_id) & owner == "dst" & (!drop | is.na(drop))) %>% 
     mutate(across(where(is.character), ~if_else(is.na(.), "TO UPDATE", .))) %>% 
     glue_data("- {register_id}: {register_name_dk} / {register_name_english}") %>% 
     sort() %>% 
@@ -163,6 +136,9 @@ scientific conferences.
 
 ## Data som ikke kommer fra Danmarks Statistik / Data that doesn't come from DST
 
+Data coming from other sources (e.g. Sundhedsdatastyrelsen):
+
+<!--
 List cohorts:
 
 - Diet, Cancer, and Health study. Next Generation Study
@@ -174,19 +150,16 @@ List cohorts:
     - See: https://www.danishhealthdata.com/find-health-data/Danskernes-sundhed Data
     administrator: National Institute of Public Health, SDU, application here:
     http://www.danskernessundhed.dk/Spoergeskema
+-->
     
-Fra Sundhedsdatastyrelsen vil vi desuden søge om adgang til følgende register
-for data om diabetes samt relaterede sygdomme og risikofaktorer:
-
-- Kroniske sygdomsdiagnoser:
-- Det Nationale Diabetesregister? (LPR, RMPS, DADD, Diabase)
-- Medicinering kronisk sygdom:
-- Exposures and risk factors: Overvægt?
-- LPR diagnosis of overweight may be included : ICD 10: E66. Maybe possible to
-get some data from electronic health records.
-- drug addicts in treatment and alcohol treatment registers. Could we use
-diagnoses of substance abuse / alcohol abuse: ICD-10: F1x
-- children data base
+```{r non-dst-register-list, results = "asis"}
+read_csv(here("data/needed-registers.csv"), col_types = "lddccccc") %>% 
+    filter(!is.na(register_id) & owner != "dst" & (!drop | is.na(drop))) %>% 
+    mutate(across(where(is.character), ~if_else(is.na(.), "TO UPDATE", .))) %>% 
+    glue_data("- {register_id}: {register_name_dk} / {register_name_english}") %>% 
+    sort() %>% 
+    cat(sep = "\n")
+```
 
 ## Projekts slutdato / Project's end date
 
@@ -200,33 +173,91 @@ knitr::kable(authorized_researchers)
 
 # Bilag / Appendix
 
-## List of registers and variables, with explanations
+## List of registers and variables from DST
 
-```{r requested-variable-table, echo=FALSE, results='asis'}
-variable_tables<- dst_variables %>% 
+```{r requested-dst-variable-tables, echo=FALSE, results='asis'}
+variable_tables <- dst_variables %>% 
     mutate(register_name = glue("{register_name_dk} ({register_id})")) %>% 
     select(-register_id, -register_name_dk) %>% 
     rename(Variables = variable_name, Years = years) %>% 
     group_split(register_name) 
 
 for (variable_table in variable_tables) {
+    register <- unique(variable_table$register_name)
+    # Register name as header
+    glue("\n\n### {register}\n\n") %>% 
+        as.character() %>% 
+        cat()
+    
+    # Variables as table
     variable_table %>% 
         select(-register_name) %>%  
         knitr::kable(caption = str_c(
             "Requested variables from ",
-            unique(variable_table$register_name)
+            register
         )) %>% 
         print()
 }
-    # gt() %>% 
-    # tab_style(
-    #     style = cell_text(weight = "bold"),
-    #     locations = cells_row_groups()
-    # ) %>% 
-    # tab_style(
-    #     style = cell_text(weight = "bold"),
-    #     locations = cells_column_labels(everything())
-    # ) %>% 
-    # tab_header("Explanation for requested selected variables and registers.") %>% 
-    # cols_label(variable_english = "Variable in English", explanation = "Explanation")
+```
+
+## List of registers and variables from external sources
+
+```{r requested-non-dst-variable-tables, echo=FALSE, results='asis'}
+sds_variable_tables <- sds_variables %>% 
+    rename(
+        Table = table_name,
+        Variables = variable_name, 
+        Years = periode
+    ) %>% 
+    group_split(register_name) 
+
+for (variable_table in sds_variable_tables) {
+    register <- unique(variable_table$register_name)
+    # Register name as header
+    glue("\n\n### {register}\n\n") %>% 
+        as.character() %>% 
+        cat()
+    
+    # Variables as table
+    variable_table %>% 
+        select(-register_name) %>%  
+        knitr::kable(caption = str_c(
+            "Requested variables from ",
+            register
+        )) %>% 
+        print()
+}
+```
+
+```{r requested-random-registers-variable-tables, echo=FALSE, results='asis'}
+random_variable_tables <- random_registers %>% 
+    select(register_name, register_table_name, variable_name, years) %>% 
+    rename(
+        Table = register_table_name,
+        Variables = variable_name, 
+        Years = years
+    ) %>% 
+    group_split(register_name) 
+
+for (variable_table in random_variable_tables) {
+    register <- unique(variable_table$register_name)
+    # Register name as header
+    glue("\n\n### {register}\n\n") %>% 
+        as.character() %>% 
+        cat()
+    
+    if (all(is.na(unique(variable_table$Table)))) {
+        variable_table <- variable_table %>% 
+            select(-Table)
+    }
+    
+    # Variables as table
+    variable_table %>% 
+        select(-register_name) %>%  
+        knitr::kable(caption = str_c(
+            "Requested variables from ",
+            register
+        )) %>% 
+        print()
+}
 ```
