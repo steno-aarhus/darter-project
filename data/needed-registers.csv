@@ -12,13 +12,13 @@ TRUE,1,1,BYSTRB,Bystørrelser bopæle,City sizes residences,dst,Not sure I need 
 TRUE,,1,IDAS,IDA arbejdssteder,IDA workplaces,dst,"Don’t need this, it is about workplaces, not individual employees"
 ,1,1,IEPE,Indvandrere og Efterkommere,Immigrants and Descendants,dst,
 ,1,1,IND,Indkomst,Income,dst,
-,,,LABKA,,,,
+,,,LABKA,,,?,
 ,1,1,LMDB,Lægemiddeldatabasen,The drug database,dst,Not sure if I use the one from DST?
 ,1,1,LPR_ADM,Landspatientregistret - administrative oplysninger,National Patient Register - administrative information,dst,
 ,1,1,LPR_BES,Landspatientregistret - ambulante besøgsdatoer,National Patient Register - outpatient visit dates,dst,
 ,1,1,LPR_DIAG,Landspatientregistret - diagnoser,National Patient Register - diagnoses,dst,
 ,1,1,LPR_OPR,Landspatientregistret - operationer efter ICD8 klassifikationen,National Patient Register - operations according to the ICD8 classification,dst,
-,,,LPR_PSYK,,,sds,
+,1,,LPR_PSYK,Landspatientregistret – psykologi?,National Patient Register - psychological,sds,"This have not been scraped, but were taken from other applications."
 ,1,1,LPR_SKSOPR,Landspatientregistret - operationer,National Patient Register - operations,dst,
 ,1,1,LPR_SKSUBE,Landspatientregistret - undersøgelser og behandlinger,National Patient Register - examinations and treatments,dst,
 TRUE,,1,MFR,Levendefødte fra det medicinske fødselsregister,Live births from the Medical Birth Register,dst,"Do I need? This is from 1997, which would mean the child is 23 now. A bit young."
@@ -39,7 +39,7 @@ TRUE,,,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,
 ,1,1,UAF_OPR,Landspatientregistret uafsluttede kontakter - operationer efter ICD8 klassifikationen,National Patient Register unfinished contacts - operations according to the ICD8 classification,dst,This has just “ingen label” as a description. Not sure what we need.
 ,1,1,UAF_SKSOPR,Landspatientregistret uafsluttede kontakter - operationer,National Patient Register unfinished contacts - operations,dst,This has just “ingen label” as a description. Not sure what we need.
 ,1,1,UDDA,Uddannelser (BUE),Education (BUE),dst,
-,1,1,VNDS,Historiske vandringer,Historical walks,dst,"The labels are quite vague, at least with translation to English."
+,1,1,VNDS,Historiske vandringer,Historical migration,dst,"The labels are quite vague, at least with translation to English."
 ,,,CPST,CPR Status,Civil Registration Status,dst,
 ,1,1,LPRMFRLF,Levendefødte ud fra LPR,Live births from LPR,dst,
 ,1,1,LPRMFRDF,Dødfødte ud fra LPR,Stillbirths from LPR,dst,
@@ -49,9 +49,9 @@ TRUE,,,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,
 ,1,1,FTDM,Fertilitetsdatabasen paritetsfil mænd,Fertility database parity file men,dst,
 ,1,1,FTFORAEL,Fertilitet - forælder,Fertility - parent,dst,
 ,,1,FTNAEVN,Fertilitet - Nævner,Fertility - Mentions,dst,Do we need this? The descriptions are vague for the variables.
-,,,,Dansk Børne Diabetes Database,Danish Childrens Diabetes Database,,
-,,,,Dansk Voskne Diabetes Database,Danish Adults Diabetes Database,,
-,,,,Diabase,Diabase,,
-,,,,Cancerregisteret,Cancer Register,sds,
+,1,,DBDD,Dansk Børne Diabetes Database,Danish Childrens Diabetes Database,?,"This have not been scraped, but were taken from other applications."
+,1,,DVDD,Dansk Voskne Diabetes Database,Danish Adults Diabetes Database,?,"This have not been scraped, but were taken from other applications."
+,1,,Diabase,Diabase,Diabase,?,"This have not been scraped, but were taken from other applications."
+,1,,Cancerregisteret,Cancerregisteret,Cancer Register,sds,"This have not been scraped, but were taken from other applications."
 ,1,1,DODSAARS,Dødsårssagsregistret,Cause of death register,dst,Maybe also in SDS?
-,,,,IVF-registeret,,sds?,
+,1,,IVF,IVF-registeret,In vitro fertilization register,sds,"This have not been scraped, but were taken from other applications."
