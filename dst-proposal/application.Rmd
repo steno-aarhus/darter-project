@@ -67,27 +67,37 @@ from 1 January 1970 to 31 December 2020 (~8.5 million people). Key requirements 
 
 All variables can be de-identified (direct identification is not needed). The
 list of requested variables is found in the tables at the end of the document in 
-the Appendix.
+the Appendix. For all the variables, we need the data from the first year it is
+available to the most recent year it is available.
 
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(here)
 library(glue)
 # library(gt)
+needed_registers <- here("data/needed-registers.csv") %>% 
+    read_csv(col_types = "lddccccc") %>% 
+    filter(!drop | is.na(drop))
+
 dst_variables <- read_csv(here("data/dst-registers-with-variables-to-use.csv"))
 dst_variables <- dst_variables %>%
-    filter(use_in_application == 1) %>% 
+    filter(use_in_application == 1,
+           register_id %in% unique(needed_registers$register_id)) %>% 
     mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>% 
-    mutate(years = str_c(variable_start_year, "--", variable_end_year)) %>% 
-    select(register_id, register_name_dk, variable_name, years)
+    mutate(start_year = case_when(
+        is.na(variable_start_year) | variable_start_year == variable_end_year ~
+            register_start_year,
+        TRUE ~ variable_start_year
+    )) %>% 
+    select(register_id, register_name_dk, variable_name, start_year)
 
 sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv"))
 sds_variables <- sds_variables %>% 
     filter(use_in_application == 1) %>% 
-    select(register_name, table_name, variable_name, periode)
+    mutate(start_year = str_extract(periode, "^\\d{4}")) %>% 
+    select(register_name, table_name, variable_name, start_year)
 
-random_registers <- read_csv(here("data/random-undocumented.csv")) %>% 
-    mutate(years = str_c(start_year, "--", end_year))
+random_registers <- read_csv(here("data/random-undocumented.csv"))
 
 authorized_researchers <-
     read_csv(
@@ -102,8 +112,8 @@ options(knitr.kable.NA = "")
 Registers requested are:
 
 ```{r dst-register-list, results = "asis"}
-read_csv(here("data/needed-registers.csv"), col_types = "lddccccc") %>% 
-    filter(!is.na(register_id) & owner == "dst" & (!drop | is.na(drop))) %>% 
+needed_registers %>% 
+    filter(!is.na(register_id) & owner == "dst") %>% 
     mutate(across(where(is.character), ~if_else(is.na(.), "TO UPDATE", .))) %>% 
     glue_data("- {register_id}: {register_name_dk} / {register_name_english}") %>% 
     sort() %>% 
@@ -153,8 +163,8 @@ List cohorts:
 -->
     
 ```{r non-dst-register-list, results = "asis"}
-read_csv(here("data/needed-registers.csv"), col_types = "lddccccc") %>% 
-    filter(!is.na(register_id) & owner != "dst" & (!drop | is.na(drop))) %>% 
+needed_registers %>% 
+    filter(!is.na(register_id) & owner != "dst") %>% 
     mutate(across(where(is.character), ~if_else(is.na(.), "TO UPDATE", .))) %>% 
     glue_data("- {register_id}: {register_name_dk} / {register_name_english}") %>% 
     sort() %>% 
@@ -179,7 +189,7 @@ knitr::kable(authorized_researchers)
 variable_tables <- dst_variables %>% 
     mutate(register_name = glue("{register_name_dk} ({register_id})")) %>% 
     select(-register_id, -register_name_dk) %>% 
-    rename(Variables = variable_name, Years = years) %>% 
+    rename(Variables = variable_name, `Start Year` = start_year) %>% 
     group_split(register_name) 
 
 for (variable_table in variable_tables) {
@@ -207,7 +217,7 @@ sds_variable_tables <- sds_variables %>%
     rename(
         Table = table_name,
         Variables = variable_name, 
-        Years = periode
+        `Start Year` = start_year
     ) %>% 
     group_split(register_name) 
 
