@@ -32,12 +32,12 @@ TRUE,,,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,
 ,1,1,SSNV,Sammenhængende socialstatistik nettovarigheder,Coherent social statistics net durations,dst,
 ,1,1,SSSY,Sygesikring (6-cifret),Health insurance (6-digit),dst,There’s several stuff here that I’m not sure what we need.
 ,1,1,SYSI,Sygesikring (sikringsgruppe),Health insurance (group),dst,There’s several stuff here that I’m not sure what we need.
-,,1,SYST,Sygesikring (4-cifret),Health insurance (4-digit),dst,What is this for? What variables do I need here?
-,1,1,UAF_ADM,Landspatientregistret uafsluttede kontakter - administrative oplysninger,National Patient Register unfinished contacts - administrative information,dst,This has just “ingen label” as a description. Not sure what we need.
-,1,1,UAF_BES,Landspatientregistret uafsluttede kontakter - ambulante besøgsdatoer,National Patient Register unfinished contacts - outpatient visit dates,dst,This has just “ingen label” as a description. Not sure what we need.
-,1,1,UAF_DIAG,Landspatientregistret uafsluttede kontakter - diagnoser,National Patient Register unfinished contacts - diagnoses,dst,This has just “ingen label” as a description. Not sure what we need.
-,1,1,UAF_OPR,Landspatientregistret uafsluttede kontakter - operationer efter ICD8 klassifikationen,National Patient Register unfinished contacts - operations according to the ICD8 classification,dst,This has just “ingen label” as a description. Not sure what we need.
-,1,1,UAF_SKSOPR,Landspatientregistret uafsluttede kontakter - operationer,National Patient Register unfinished contacts - operations,dst,This has just “ingen label” as a description. Not sure what we need.
+TRUE,,1,SYST,Sygesikring (4-cifret),Health insurance (4-digit),dst,What is this for? What variables do I need here?
+TRUE,1,1,UAF_ADM,Landspatientregistret uafsluttede kontakter - administrative oplysninger,National Patient Register unfinished contacts - administrative information,dst,This has just “ingen label” as a description. Not sure what we need.
+TRUE,1,1,UAF_BES,Landspatientregistret uafsluttede kontakter - ambulante besøgsdatoer,National Patient Register unfinished contacts - outpatient visit dates,dst,This has just “ingen label” as a description. Not sure what we need.
+TRUE,1,1,UAF_DIAG,Landspatientregistret uafsluttede kontakter - diagnoser,National Patient Register unfinished contacts - diagnoses,dst,This has just “ingen label” as a description. Not sure what we need.
+TRUE,1,1,UAF_OPR,Landspatientregistret uafsluttede kontakter - operationer efter ICD8 klassifikationen,National Patient Register unfinished contacts - operations according to the ICD8 classification,dst,This has just “ingen label” as a description. Not sure what we need.
+TRUE,1,1,UAF_SKSOPR,Landspatientregistret uafsluttede kontakter - operationer,National Patient Register unfinished contacts - operations,dst,This has just “ingen label” as a description. Not sure what we need.
 ,1,1,UDDA,Uddannelser (BUE),Education (BUE),dst,
 ,1,1,VNDS,Historiske vandringer,Historical migration,dst,"The labels are quite vague, at least with translation to English."
 ,,,CPST,CPR Status,Civil Registration Status,dst,
@@ -48,7 +48,7 @@ TRUE,,,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,
 ,1,1,FTDK,Fertilitetsdatabasen paritetsfil kvinder,Fertility database parity file women,dst,
 ,1,1,FTDM,Fertilitetsdatabasen paritetsfil mænd,Fertility database parity file men,dst,
 ,1,1,FTFORAEL,Fertilitet - forælder,Fertility - parent,dst,
-,,1,FTNAEVN,Fertilitet - Nævner,Fertility - Mentions,dst,Do we need this? The descriptions are vague for the variables.
+TRUE,,1,FTNAEVN,Fertilitet - Nævner,Fertility - Mentions,dst,Do we need this? The descriptions are vague for the variables.
 ,1,,DBDD,Dansk Børne Diabetes Database,Danish Childrens Diabetes Database,?,"This have not been scraped, but were taken from other applications."
 ,1,,DVDD,Dansk Voskne Diabetes Database,Danish Adults Diabetes Database,?,"This have not been scraped, but were taken from other applications."
 ,1,,Diabase,Diabase,Diabase,?,"This have not been scraped, but were taken from other applications."
