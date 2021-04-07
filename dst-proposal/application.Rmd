@@ -54,14 +54,10 @@ In order to identify familial relations through individuals' life course traject
 the population requested covers all individuals, who live or lived in Denmark 
 from 1 January 1970 to 31 December 2020 (~8.5 million people). Key requirements are:
 
-- Individuals were born starting from 1970 with available parental linkage. Wherever
-  possible, individuals and parental data throughout their early life, childhood, 
-  and adulthood.
+- All index individuals born or who migrated into Denmark on or after 1970-01-01.
 
-- Minimum two and up to four-generation family pedigrees in which index individuals
-  have linkage to their parents and spouses. Index individuals are defined as those 
-  individuals that serve as a reference to identify family relations and which will
-  be followed with regards to the outcomes.
+- All family members of the index individuals, including parents, siblings,
+spouses, and children.
 
 ## Variabelindhold / Variables included
 
@@ -173,7 +169,7 @@ needed_registers %>%
 
 ## Projekts slutdato / Project's end date
 
-Date of deletion of data: Access to data is requested until December 2030.
+Date of deletion of data: Access to data is requested until 2030-12-31.
 
 ## Autoriserede forskere / Authorised scientists
 
