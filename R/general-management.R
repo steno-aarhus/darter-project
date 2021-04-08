@@ -9,8 +9,9 @@ read_csv(here("data/needed-registers.csv"),
              drop = col_logical(),
              register_id = col_character(),
              register_name_english = col_character(),
-             note = col_character()
+             note = col_character(),
+             note_resolved = col_logical()
          )) %>%
-    filter(!drop | is.na(drop), !is.na(note)) %>%
+    filter(!drop | is.na(drop), !is.na(note), (!note_resolved | is.na(note_resolved))) %>%
     glue_data("- {register_id} ({register_name_english}): {note}") %>%
     clipr::write_clip()

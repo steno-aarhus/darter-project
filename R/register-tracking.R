@@ -33,6 +33,7 @@ compare_current_vs_needed_dst_registers()
 # Needed registers importing in -------------------------------------------
 
 needed_registers <- read_csv(here::here("data/needed-registers.csv")) %>%
+    filter(!drop | is.na(drop)) %>%
     mutate(inspected = if_else(is.na(inspected), " ", "X"),
            scraped = if_else(is.na(scraped), " ", "X")) %>%
     arrange(register_id)
