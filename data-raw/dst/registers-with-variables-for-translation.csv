@@ -2593,3 +2593,33 @@ LPR_SKSOPR,V_OMINUT,Procedureminut (operation),Minute of procedure (operation)
 LPR_SKSOPR,V_OTIME,Proceduretime (operation),Proceduretime (operation)
 LPR_SKSOPR,RECNUM,,
 LPR_SKSOPR,VERSION,,
+CPST,ADRDATO,Tilflytningsdato til adressen,Relocation date to the address
+CPST,AEGTEFAELLE_ID,Ægtefælle Person Id,Spouse Person Id
+CPST,BOPIKOM,"Adressen (vej, husnummer, husbogstav, etage, side/dørnummer)","The address (road, house number, house letter, floor, side / door number)"
+CPST,CIVDATO,Civilstandsdato,Marital status date
+CPST,CIVST,Civilstand,Marital status
+CPST,ERHVSTA,Erhvervsstatus,Occupational status
+CPST,FAR_ID,PNR for far,PNR for father
+CPST,FKIRK,Folkekirkemarkering,Folkekirkemarkering
+CPST,FODREG,Kode for fødselsregistreringssted,Code of birth registration place
+CPST,KOM,Bopæls kommune,Municipality of residence
+CPST,K_CIV_MYKODE,Civilstandsmyndighedskode for kvinden,Civil status authority code for the woman
+CPST,MOR_ID,PNR for mor,PNR for mother
+CPST,OPGIKOM,Opgangsadressen i kommunen,The ascent address in the municipality
+CPST,OPHKOD,Opholdskode for flygtninge/ayslansøgere,Residence code for refugees / asylum seekers
+CPST,PNR,Personnummer,Social security number
+CPST,STATINIT,Statsborgerskabsinitialer (3 b,Citizenship Initials (3 b
+CPST,STATKODE,Statsborgerskabskode,Citizenship code
+CPST,STATUS,STATUS,STATUS
+CPST,STAT_VFRA,Dato for statsborgerskab,Date of citizenship
+CPST,STILKODE,Stillingskode,Job code
+CPST,STOPHDTO,Startdato for opholdsgrundlag,Start date for residence basis
+CPST,UDOPHDTO,Udløbsdato for opholdsgrundlag,Expiration date for residence basis
+CPST,UMYN_MYKODE,Kode for myndighed for persone,Code of authority for persons
+CPST,VAN_VFRA,udvandringsdato,date of emigration
+CPST,VAN_VTIL,Indvandringsdato,Date of immigration
+CPST,BOPIKOM,,
+CPST,FAR_ID,,
+CPST,MOR_ID,,
+CPST,OPGIKOM,,
+CPST,VAN_VFRA,,

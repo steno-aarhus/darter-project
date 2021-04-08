@@ -15,8 +15,9 @@ current_registers <-
 
 needed_registers <-
     here("data/needed-registers.csv") %>%
-    read_csv(col_types = cols_only(register_id = col_character())) %>%
-    filter(!register_id %in% current_registers) %>%
+    read_csv(col_types = cols_only(register_id = col_character(), drop = col_logical())) %>%
+    filter(!register_id %in% current_registers, !drop | is.na(drop)) %>%
+    select(register_id) %>%
     na.omit()
 
 # Functions ---------------------------------------------------------------

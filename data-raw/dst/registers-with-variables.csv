@@ -2593,3 +2593,33 @@ LPR_SKSOPR,V_OMINUT,Procedureminut (operation),1996,2018,NA,NA
 LPR_SKSOPR,V_OTIME,Proceduretime (operation),1996,2018,NA,NA
 LPR_SKSOPR,RECNUM,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Forebyggelsesregistret/RECNUM,NA
 LPR_SKSOPR,VERSION,NA,NA,NA,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-faelles-variable/VERSION,NA
+CPST,ADRDATO,Tilflytningsdato til adressen,1976,2007,,
+CPST,AEGTEFAELLE_ID,Ægtefælle Person Id,1976,2007,,
+CPST,BOPIKOM,"Adressen (vej, husnummer, husbogstav, etage, side/dørnummer)",1976,2007,,
+CPST,CIVDATO,Civilstandsdato,1976,2007,,
+CPST,CIVST,Civilstand,1976,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/cpr-oplysninger/civst,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/CIVST
+CPST,ERHVSTA,Erhvervsstatus,1976,1991,,
+CPST,FAR_ID,PNR for far,1979,2007,,
+CPST,FKIRK,Folkekirkemarkering,1976,2007,,
+CPST,FODREG,Kode for fødselsregistreringssted,1976,2007,,
+CPST,KOM,Bopæls kommune,1976,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/KOM,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/KOM
+CPST,K_CIV_MYKODE,Civilstandsmyndighedskode for kvinden,1976,1978,,
+CPST,MOR_ID,PNR for mor,1979,2007,,
+CPST,OPGIKOM,Opgangsadressen i kommunen,1976,2007,,
+CPST,OPHKOD,Opholdskode for flygtninge/ayslansøgere,2000,2007,,
+CPST,PNR,Personnummer,1976,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/PNR,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Folketal/PNR
+CPST,STATINIT,Statsborgerskabsinitialer (3 b,1976,1978,,
+CPST,STATKODE,Statsborgerskabskode,1979,2007,,
+CPST,STATUS,STATUS,1979,2007,,
+CPST,STAT_VFRA,Dato for statsborgerskab,1992,2007,,
+CPST,STILKODE,Stillingskode,1976,1991,,
+CPST,STOPHDTO,Startdato for opholdsgrundlag,2000,2007,,
+CPST,UDOPHDTO,Udløbsdato for opholdsgrundlag,2000,2007,,
+CPST,UMYN_MYKODE,Kode for myndighed for persone,1976,1991,,
+CPST,VAN_VFRA,udvandringsdato,1979,2007,,
+CPST,VAN_VTIL,Indvandringsdato,1979,2007,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/VAN-VTIL,https://dst.dk/da/TilSalg/Forskningsservice/Dokumentation/hoejkvalitetsvariable/Indvandringer-til-Danmark/VAN-VTIL
+CPST,BOPIKOM,,,,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/BOPIKOM,
+CPST,FAR_ID,,,,https://www.dst.dk/da/Statistik/dokumentation/Times/moduldata-for-befolkning-og-valg/far-id,
+CPST,MOR_ID,,,,https://www.dst.dk/da/Statistik/dokumentation/Times/Moduldata-for-Befolkning-og-valg/MOR-ID,
+CPST,OPGIKOM,,,,https://www.dst.dk/da/Statistik/dokumentation/Times/Forskningsservice/OPGIKOM,
+CPST,VAN_VFRA,,,,https://www.dst.dk/da/Statistik/dokumentation/Times/CPR-oplysninger/VAN-VFRA,
