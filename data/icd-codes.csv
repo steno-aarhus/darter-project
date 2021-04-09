@@ -1,0 +1,35 @@
+parent_group,Sygdomsgruppe,Sygdomme,ICD10,ICD8
+comorbidity,Hjertekarsygdomme,Iskæmisk hjertesygdom; Hypertension; Arteriosklerose; Akut myokadieinfarkt; Hjerteinsufficiens; Karsygdomme; Cerebrovasculære sygdomme; Tachycardia,I10-I13; I15; I20-I21; I23-I25; I44-I49; I50; I78-I79; R000,400-404; 410-414; 426-429; 782.2; 
+comorbidity,Øjensygdomme,"Betændelse i øjets bindehinde; Konjunktivitis; Andre sygdomme i øjets bindehinde; Sygdomme i sclera, kreatitis, cornea, hornhinde, iris; Grå stær; Katarakt; Forandringer i linse; Glaucoma; Grøn stær",H10-H11; H15-H22; H25-H28; H30-H35; H36; H40; H42,360-369; 370-372; 374-378
+comorbidity,Neurologiske og Neuro-degenererende sygdomme,"Parkinson, Alzheimers, Iskæmi ved cerebrovaskulære sygdomme; Idiopatiske neuropatier; Polyneuropatier; Andre sygdomme i det perifere nervesystem; Sygdomme i autonome nervesystem",G20-G22; G30; G45-G47; G60-G64; G90,342; 348; 358
+comorbidity,Mentale sygdomme,Manisk enkeltepisode; Bipolær affektiv sindslidelse; Depression. Vedvarende affektive tilstande; Spiseforstyrrelse,F30-F34; F38-F39; F50-F51,296; 300.4; 301.1; 780.6; 780.7; 790.2
+comorbidity,Sygdomme i tænder og mundhule,"Karies; Tandsygdomme; Sygdomme i mund, læber etc.",K02-K05; K08; K12-K13,521-523; 528
+comorbidity,Frakturer,"Osteoporose m/u frakturer; Patologiske frakturer; Knoglelidelser ved neoplastisk sygdommme klassificeret andetsteds; Knoglefrakturer og følgetilstand efter fraktur i bevægeapparatet",M80-M81; M84; M84.4; M90.7; M96.6; S02; S12; S22; S32; S42; S52; S62; S72; S82; S92; T02; T08; T10; T12; T14.2; T90.2; T91.1; T91.2; T92.1; T92.2; T93.1; T93.2,N800-N809; N810-N819; N820-N829
+comorbidity,Hudsygdomme,Hordeolum og chalazion; Betændelse i øjenlåg; bylder; eksem; kløe; Psoriasis; Dermatitis,H00-H01; L02; L20-L21; L29-L30; L40; L60; L62; L72-L74; L83; L85.3; L92.0; L92.1; B37,680; 690-692; 696; 698; 702-705
+comorbidity,Cystisk fibrose,,E84,273
+comorbidity,Metaboliske sygdomme,Forstyrrelser i omsætningen makro- og mikronæringsstoffer; forskellige former af porfyri;,E70-E80; E83; E85-E89,270-272; 274-277
+comorbidity,Pankreatitis,Pankratitis og andre sygdomme i bugspytkirtlen,K85-K87,577-579
+comorbidity,Thyreoidea Sygdomme,"Medfødt jodmangelsyndrom; Jodmangel-relaterede lidelser i skjoldbruskkirtlen; Kompenseret jodmangelbetinget myksødem; Anden hypotyroidisme; Anden atoksisk struma; Tyrotoksikose Betændelse i skjoldbruskkirtlen; Andre sygdomme i skjoldbruskkirtlen",E00-E07,240-246
+comorbidity,Endokrine sygdomme,Paratyroidisme; Andre sygdomme i biskjoldbruskkirtel; Sygdomme i hypofysen; Hyperaldosteronisme; Andre binyresygdomme; Funktionsforstyrrelser i flere endokrine kirtler; Sygdomme i andre endokrine kirtler,E20-E32; E34-E35,251-258
+comorbidity,Adipositas,Overvægt; Fedme; Svær fedme; Ekstrem Fedme; Overernæring,E65-E68,277
+comorbidity,"Mave-tarmsygdomme; Leversygdomme; Galdeblære- og bugspytkirtel-sygdomme; Fordøjelsessyg-domme","Betændelse i spiserøret; Gastro-øsofageal refluks; Andre sygdomme i spiserør; Ulcers; Karsygdomme i tarm; Tyktarmssygdomme; Andre forstyrrelser i tarmen; Leversygdomme; Galdeblæresygdomme; Nedsat optagelse af næringsstoffer fra tarmen; Andre sygdomme i fordøjelsessystemet",K20-K23; K29-K31; K35-K38; K50-K52; K55-K59; K70-K77; K80-K83; K90-K93,530; 535-537; 540-543; 561-564; 570-571; 573-576
+comorbidity,Anæmier,"Anæmier; Jernmangelanæmi; Anæmi, B12 mangel; Anæmi; Folinsyremangel; Ernæringsbetinget anæmi; Selgcellesygdomme; Hæmolytiske anæmier",D50-D53; D55-D59; D60-D64,280-289
+comorbidity,Infertilitert,Mandlig infertilitet; Kvindelig infertilitet,N46; N97,
+diabetes,Diabetes,Type 1 diabetes mellitus; Type 2 mellitus; Andre diabetes subtyper; Diabetes med komplikationer,E10-E14,249-250
+charlesons,,Akut myokardieinfarkt,I21; I23,410
+charlesons,,Hjerteinsufficiens,I50; I11; I13,427-428; 782
+charlesons,,"Karsygdomme",I70-I74; I77,440-445
+charlesons,,Demens ,F00-F03; F05; G30,290; 293
+charlesons,,Cerebrovaskulære sygdomme ,I60-I69; G45-G46,430-438
+charlesons,,"Kroniske lungesygdomme",J40-J47; J60-J67; J684; J70; J841; J920; J961; J982; J983,490-493; 515-518
+charlesons,,"Bindevævssygdomme",M05-M06; M08-M09; M30-M36; D86,135; 712; 716; 734; 446
+charlesons,,"Ulcussygdomme",K221; K25-K28,530; 531-534
+charlesons,,"Milde leversygdomme",B18; K700; K71; K73-K74; K760,571; 573
+charlesons,,Hemiplegi,G81-G82,344
+charlesons,,"Nyresygdomme",I12-I13; N00-N05; N07; N11; N14; N17-N19; Q61,403-404; 580-584; 590; 593; 753; 792
+charlesons,,Solide kræftformer,C00-C75,140-194
+charlesons,,Leukæmi,C91-C95,204-207
+charlesons,,"Lymfomer",C81-C85; C88; C90; C96,200-203; 275
+charlesons,,"Moderate til svære leversygdomme",B15-B16; B19; K70; K72; K76; I85,070; 456; 573
+charlesons,,Metastaserende cancer ,C76-C80,195-199
+charlesons,,AIDS,B21-B24,79

@@ -1,0 +1,315 @@
+level,code,description
+1,A,Alimentary tract and metabolisma
+2,A08,"Antiobesity preparations, excluding diet products"
+3,A08A,"Anti obesity drugs list, excluding diet products"
+4,A08AA,Centrally acting anti obesity drugs
+4,A08AB,Peripherally acting anti obesity drugs
+4,A08AX,Other anti obesity drugs
+2,A10,Drugs used in diabetes
+3,A10A,Insulins and analogues
+4,A10AB,"Insulins and analogues for injection, fast-acting"
+5,A10AB01,Insulin (human)
+5,A10AB02,Insulin (beef)
+5,A10AB03,Insulin (pork)
+5,A10AB04,Insulin lispro
+5,A10AB05,Insulin aspart
+5,A10AB06,Insulin glulisine
+5,A10AB30,Combinations
+4,A10AC,"Insulins and analogues for injection, intermediate-acting"
+5,A10AC01,Insulin (human)
+5,A10AC02,Insulin (beef)
+5,A10AC03,Insulin (pork)
+5,A10AC04,Insulin lispro
+5,A10AC30,Combinations
+4,A10AD,"Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting"
+5,A10AD01,Insulin (human)
+5,A10AD02,Insulin (beef)
+5,A10AD03,Insulin (pork)
+5,A10AD04,Insulin lispro
+5,A10AD05,Insulin aspart
+5,A10AD06,Insulin degludec and insulin aspart
+5,A10AD30,Combinations
+4,A10AE,"Insulins and analogues for injection, long-acting"
+5,A10AE01,Insulin (human)
+5,A10AE02,Insulin (beef)
+5,A10AE03,Insulin (pork)
+5,A10AE04,Insulin glargine
+5,A10AE05,Insulin detemir
+5,A10AE06,Insulin degludec
+5,A10AE30,Combinations
+5,A10AE54,Insuline glargine and lixisenatide
+5,A10AE56,Insulin degludec and liraglutide
+4,A10AF,Insulins and analogues for inhalation
+5,A10AF01,Insulin (human)
+3,A10B,"Blood glucose lowering drugs, excluding insulins"
+4,A10BA,Biguanides
+5,A10BA01,Phenformin
+5,A10BA02,Metformin
+5,A10BA03,Buformin
+4,A10BB,Sulfonylureas
+5,A10BB01,Glibenclamide
+5,A10BB02,Chlorpropamide
+5,A10BB03,Tolbutamide
+5,A10BB04,Glibornuride
+5,A10BB05,Tolazamide
+5,A10BB06,Carbutamide
+5,A10BB07,Glipizide
+5,A10BB08,Gliquidone
+5,A10BB09,Gliclazide
+5,A10BB10,Metahexamide
+5,A10BB11,Glisoxepide
+5,A10BB12,Glimepiride
+5,A10BB31,Acetohexamide
+4,A10BC,Sulfonamides (heterocyclic)
+5,A10BC01,Glymidine
+4,A10BD,Combinations of oral blood glucose lowering drugs
+5,A10BD01,Phenformin and sulfonylureas
+5,A10BD02,Metformin and sulfonylureas
+5,A10BD03,Metformin and rosiglitazone
+5,A10BD04,Glimepiride and rosiglitazone
+5,A10BD05,Metformin and pioglitazone
+5,A10BD06,Glimepiride and pioglitazone
+5,A10BD07,Metformin and sitagliptin
+5,A10BD08,Metformin and vildagliptin
+5,A10BD09,Pioglitazone and alogliptin
+5,A10BD10,Metformin and saxagliptin
+5,A10BD11,Metformin and linagliptin
+5,A10BD12,Pioglitazone and sitagliptin
+5,A10BD13,Metformin and alogliptin
+5,A10BD14,Metformin and repaglinide
+5,A10BD15,Metformin and dapagliflozin
+5,A10BD16,Metformin and canagliflozin
+5,A10BD17,Metformin and acarbose
+5,A10BD18,Metformin and gemigliptin
+5,A10BD19,Linagliptin and empagliflozin
+5,A10BD20,Metformin and empagliflozin
+5,A10BD21,Saxagliptin and dapagliflozin
+5,A10BD22,Metformin and evogliptin
+5,A10BD23,Metformin and ertugliflozin
+5,A10BD24,Sitagliptin and ertugliflozin
+5,A10BD25,"Metformin, saxagliptin and dapagliflozin"
+5,A10BD26,Metformin and lobeglitazone
+4,A10BF,Alpha glucosidase inhibitors
+5,A10BF01,Acarbose
+5,A10BF02,Miglitol
+5,A10BF03,Voglibose
+4,A10BG,Thiazolidinediones
+5,A10BG01,Troglitazone
+5,A10BG02,Rosiglitazone
+5,A10BG03,Pioglitazone
+5,A10BG04,Lobeglitazone
+4,A10BH,Dipeptidyl peptidase 4 (DPP-4) inhibitors
+5,A10BH01,Sitagliptin
+5,A10BH02,Vildagliptin
+5,A10BH03,Saxagliptin
+5,A10BH04,Alogliptin
+5,A10BH05,Linagliptin
+5,A10BH06,Gemigliptin
+5,A10BH07,Evogliptin
+5,A10BH08,Teneligliptin
+5,A10BH51,Sitagliptin and simvastatin
+5,A10BH52,Gemigliptin and rosuvastatin
+4,A10BJ,Glucagon-like peptide-1 (GLP-1) analogues
+5,A10BJ01,Exenatide
+5,A10BJ02,Liraglutide
+5,A10BJ03,Lixisenatide
+5,A10BJ04,Albiglutide
+5,A10BJ05,Dulaglutide
+5,A10BJ06,Semaglutide
+5,A10BJ07,Beinaglutide
+4,A10BK,Sodium-glucose co-transporter 2 (SGLT2) inhibitors
+5,A10BK01,Dapaglifozin
+5,A10BK02,Canagliflozin
+5,A10BK03,Empagliflozin
+5,A10BK04,Ertugliflozin
+5,A10BK05,Ipragliflozin
+5,A10BK06,Sotagliflozin
+5,A10BK07,Luseogliflozin
+4,A10BX,"Other blood glucose lowering drugs, excluding insulins"
+5,A10BX01,Guar gum
+5,A10BX02,Repaglinide
+5,A10BX03,Nateglinide
+5,A10BX05,Pramlintide
+5,A10BX06,Benfluorex
+5,A10BX08,Mitiglinide
+5,A10BX10,Lixinatide
+3,A10X,Other drugs used in diabetes
+4,A10XA,Aldose reductase inhibitors
+5,A10XA01,Tolrestat
+1,B,Blood and blood forming organs
+2,B01A,Antithrombotic agents
+3,B01A,
+4,B01AA,
+5,B01AA03,Warfarin
+4,B01AC,Platelet aggregation inhibitors excluding heparin
+5,B01AC04,Clopidogrel
+5,B01AC05,Ticlopidine
+5,B01AC06,Acetylsalicylic acid
+5,B01AC07,Dipyridamole
+5,B01AC16,Eptifibatide
+5,B01AC24,Ticagrelor
+5,B01AC25,Cangrelor
+4,B01AE,Direct thrombin inhibitors
+5,B01AE07,Dabigatran etexilate
+4,B01AF,Direct factor Xa inhibitors
+5,B01AF01,Rivaroxaban
+5,B01AF02,Apixaban
+5,B01AF03,Edoxaban
+2,B03,Antianemic drugs
+3,B03A,Iron preparations
+4,B03AB,"Iron trivalent, oral preparations"
+4,B03AD,Iron in combination with folic acid
+4,B03AE,Iron in other combinations
+3,B03B,Vitamin B12 and folic acid
+4,B03BA,Vitamin B12 (cyanocobalamin and analogues)
+4,B03BB,Folic acid and derivatives
+3,B03X,Other antianemic preparations
+4,B03XA,
+5,B03XA01,Erythropoietin
+5,B03XA02,Darbepoetin alfa
+5,B03XA03,Methoxy polyethylene glycol-epoetin beta
+5,B03XA04,Peginesatide
+1,C,Cardiovascular system
+2,C01,Cardiac therapy
+3,C01A,Cardiac glycosides list
+4,C01AA,Digitalis glycosides
+5,C01AA04,Digitoxin
+5,C01AA05,Digoxin
+3,C01B,Class 1 and 3 antiarrhythmic drugs
+4,C01BA,Class 1a antiarrhythmic drugs
+4,C01BB,Class 1b antiarrhythmic drugs
+4,C01BC,Class 1c antiarrhythmic drugs
+5,C01BC04,Flecainide
+4,C01BD,Class 3 antiarrhythmic drugs
+5,C01BD01,Amiodarone
+4,C01BG,Class 1 and 3 antiarrhythmic drugs
+2,C03,Diuretic drugs
+3,C03A,"Low-ceiling diuretics, thiazides"
+4,C03AA,"Thiazides, plain"
+4,C03AB,Thiazides and potassium in combination
+4,C03AH,"Thiazides, combinations with psycholeptics and/or analgesics"
+4,C03AX,"Thiazides, combinations with other drugs"
+3,C03C,High-ceiling diuretics
+4,C03CA,"Sulfonamides, plain"
+4,C03CB,Sulfonamides and potassium in combination
+4,C03CC,Aryloxyacetic acid derivatives
+4,C03CD,Pyrazolone derivatives
+4,C03CX,Other high-ceiling diuretics
+3,C03D,Potassium-sparing agents
+4,C03DA,Aldosterone antagonists
+5,C03DA01,Spironolactone
+5,C03DA02,Potassium canrenoate
+5,C03DA03,Canrenone
+5,C03DA04,Eplerenone
+2,C07,Beta blocking agents
+3,C07A,Beta blocking agents
+4,C07AA,"Beta blocking agents, non-selective"
+4,C07AB,"Beta blocking agents, selective"
+4,C07AG,Alpha and beta blocking agents
+3,C07B,Beta blocking agents and thiazides
+4,C07BA,"Beta blocking agents, non-selective, and thiazides"
+4,C07BB,"Beta blocking agents, selective, and thiazides"
+4,C07BG,Alpha and beta blocking agents and thiazides
+3,C07C,
+4,C07CA,"Beta blocking agents, non-selective, and other diuretics"
+4,C07CB,"Beta blocking agents, selective, and other diuretics"
+4,C07CG,Alpha and beta blocking agents and other diuretics
+3,C07D,
+4,C07DA,"Beta blocking agents, non-selective, thiazides and other diuretics"
+4,C07DB,"Beta blocking agents, selective, thiazides and other diuretics"
+3,C07F,
+4,C07FA,"Beta blocking agents, non-selective, and other antihypertensives"
+4,C07FB,"Beta blocking agents, selective, and other antihypertensives"
+4,C07FX,"Beta blocking agents, other combinations"
+2,C08,Calcium channel blockers
+3,C08C,Selective calcium channel blockers with mainly vascular effects
+4,C08CA,Dihydropyridine derivatives
+4,C08CX,Other selective calcium channel blockers with mainly vascular effects
+3,C08D,Selective calcium channel blockers with direct cardiac effects
+4,C08DA,Phenylalkylamine derivatives
+4,C08DB,Benzothiazepine derivatives
+2,C09,Agents acting on the renin-angiotensin system
+3,C09A,"ACE inhibitors, plain"
+4,C09AA,"ACE inhibitors, plain"
+5,C09AA01,Captopril
+5,C09AA02,Enalapril
+5,C09AA03,Lisinopril
+5,C09AA04,Perindopril
+5,C09AA05,Ramipril
+5,C09AA06,Quinapril
+5,C09AA07,Benazepril
+5,C09AA08,Cilazapril
+5,C09AA09,Fosinopril
+5,C09AA10,Trandolapril
+5,C09AA11,Spirapril
+5,C09AA12,Delapril
+5,C09AA13,Moexipril
+5,C09AA14,Temocapril
+5,C09AA15,Zofenopril
+5,C09AA16,Imidapril
+3,C09C,Angiotensin II receptor blockers (ARBs)plain
+4,C09CA,Angiotensin II receptor blockers (ARBs)plain
+5,C09CA01,Losartan
+5,C09CA02,Eprosartan
+5,C09CA03,Valsartan
+5,C09CA04,Irbesartan
+5,C09CA05,Tasosartan
+5,C09CA06,Candesartan
+5,C09CA07,Telmisartan
+5,C09CA08,Olmesartan medoxomil
+5,C09CA09,Azilsartan medoxomil
+5,C09CA10,Fimasartan
+3,C09D,"Angiotensin II receptor blockers (ARBs), combinations"
+4,C09DX,
+5,C09DX04,Valsartan and sacubitril
+2,C10,Lipid modifying agents
+3,C10A,"Lipid modifying agents, plain"
+4,C10AA,HMG CoA reductase inhibitors
+5,C10AA01,Simvastatin
+5,C10AA02,Lovastatin
+5,C10AA03,Pravastatin
+5,C10AA04,Fluvastatin
+5,C10AA05,Atorvastatin
+5,C10AA06,Cerivastatin
+5,C10AA07,Rosuvastatin
+5,C10AA08,Pitavastatin
+1,G,Genitourinary system and reproductive hormones
+2,G04,Urological drugs
+3,G04B,Urologicals
+4,G04BE,Drugs used in erectile dysfunction
+5,G04BE01,Alprostadil
+5,G04BE02,Papaverine
+5,G04BE03,Sildenafil
+5,G04BE04,Yohimbin
+5,G04BE06,Moxisylyte
+5,G04BE07,Apomorphine
+5,G04BE08,Tadalafil
+5,G04BE09,Vardenafil
+5,G04BE10,Avanafil
+5,G04BE11,Udenafil
+5,G04BE30,Combinations
+5,G04BE52,"Papaverine, combinations"
+1,H,"Systemic hormonal preparations, excluding reproductive hormones and insulins"
+2,H02,Corticosteroids systemic
+3,H02A,"Corticosteroids for systemic use, plain"
+4,H02AA,Mineralocorticoids
+4,H02AB,Glucocorticoids
+3,H02B,
+4,H02BX,"Corticosteroids for systemic use, combinations"
+5,H02BX01,"Methylprednisolone, combinations"
+2,H03,Thyroid therapy
+3,H03A,Thyroid preparations
+4,H03AA,Thyroid hormones
+3,H03B,Antithyroid preparations
+4,H03BA,Thiouracils
+4,H03BB,Sulphur-containing imidazole derivatives
+4,H03BC,Perchlorates
+4,H03BX,Other antithyroid preparations
+1,N,Nervous system
+2,N06,Psychoanaleptics
+3,N06A,Antidepressant drugs
+4,N06AA,Non-selective monoamine reuptake inhibitors
+4,N06AB,Selective Serotonin Reuptake Inhibitors
+4,N06AF,"Monoamine oxidase inhibitors, non-selective"
+4,N06AG,Monoamine oxidase A inhibitors
+4,N06AX,Other antidepressant drugs
