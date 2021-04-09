@@ -53,5 +53,6 @@ TRUE,,1,FTNAEVN,Fertilitet - Nævner,Fertility - Mentions,dst,Do we need this? T
 ,1,,DVDD,Dansk Voskne Diabetes Database,Danish Adults Diabetes Database,?,"This have not been scraped, but were taken from other applications.",TRUE
 ,1,,Diabase,Diabase,Diabase,?,"This have not been scraped, but were taken from other applications.",TRUE
 ,1,,Cancerregisteret,Cancerregisteret,Cancer Register,sds,"This have not been scraped, but were taken from other applications.",TRUE
-,1,1,DODSAARS,Dødsårssagsregistret,Cause of death register,dst,Maybe also in SDS?,
+,1,1,DODSAARS,Dødsårssagsregistret,Cause of death register,dst,,
 ,1,,IVF,IVF-registeret,In vitro fertilization register,sds,"This have not been scraped, but were taken from other applications.",TRUE
+,1,1,,Det Nationale Diabetesregister,National Diabetes Register,sds,,
