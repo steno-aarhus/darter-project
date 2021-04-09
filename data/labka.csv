@@ -1,0 +1,63 @@
+Komponent,Kode,Enhed
+P- Alanintransaminase [ALAT],NPU19651 (katalytisk akt konc. IFCC2002)  ,U/L
+P- Alanintransaminase [ALAT],NPU01121 (katalytisk akt konc. 37 gr. C) ,Ukat/L
+P- Alanintransaminase [ALAT],NPU19981 (katalytisk akt konc. IFCC2002) ,Ukat/L
+P- Alanintransaminase [ALAT],DNK05051 (erstattet af NPU 53495) ,U/L
+P- Alanintransaminase [ALAT],NPU53495 (katalytisk akt konc. 37 gr. C) ,U/L
+P- Albumin ,NPU19673 (massek.(proc) ,g/L
+P- Albumin ,NPU01132 (stofkonc) ,umol/L
+P- Albumin ,DNK05449 stofk. (kolorim.) ,umol/L
+P- Albumin ,DNK05001 (erstattet af NPU19673) ,g/L
+U-alb/crea ratio,NPU19661 (masseratio) ,Ratio (10-3)
+U-alb/crea ratio,DNK05289 (erstattet af: NPU19661) ,Ratio (10-3)
+U-alb/crea ratio,NPU28842 (massekoeficient) ,g/mol
+U-alb/crea ratio,NPU03918 (stofratio) ,Ratio (10-3)
+P- Basisk fosfatase,"NPU27783 (katalytisk aktivitets konc, 37 gr. C) ",U/L
+p-CRP,NPU19748 ,mg/L
+p-CRP,NPU01422 ,IU/L
+p-CRP,NPU01423 ,nmol/L
+p-CRP,DNK05027,mg/L
+eGFR ,DNK35302 (CKD-EPI krea) ,"mL/min Per 1,73m2"
+eGFR ,DNK35131 (nyre) ,"mL/min Per 1,73m2"
+eGFR ,DNK30301 (CKD-EPI CysC) ,"mL/min Per 1,73m2"
+eGFR ,DNK35303 CKiD-CysC  ,"mL/min Per 1,73m2"
+eGFR ,DNK35304 (CKiD-Bedside) ,"mL/min Per 1,73m2"
+GFR,NPU19597 chrom.EDTA ,"mL/min Per 1,73m2"
+GFR,NPU28271 chrom.EDTA ,"mL/min Per 1,73m2"
+GFR,NPU10295 chrom.EDTA ,"mL/min Per 1,73m2"
+P- Glukose,NPU02192 ,
+P (vB; fPt)- Glukose (diag.),DNK35842 (fastende patient),mmol/L
+p-glucose 0 min,NPU04173 (0 min i belastning),mmol/L
+p-glucose 30 min,NPU04174 (30 min i belastningstest),mmol/L
+p-glucose 120 min,NPU04177 (120 min i belastning),mmol/L
+Pt- Glucose-belastning gruppe ,NPU14915,"Indeholder alle målene fra en glukose tolerance test inkl. De tre ovenstående ved 0,30 og 120 min"
+B- Hæmoglobin ,NPU02319,mmol/L
+Hb (B)- Hæmoglobin A1c (IFCC) ,NPU27300 (IFCC) ,mmol/mol
+Hb (B)- Hæmoglobin A1c (IFCC) ,NPU27412 (genn. HbA1c ,mmol/L
+Hb (B)- Hæmoglobin A1c (IFCC) ,"DNK35249 (prot glycolering, gruppe) ",ratio
+Hb (B)- Hæmoglobin A1c (IFCC) ,NPU03835 (glycoleret hæmoglobin) ,ratio
+P- Kalium,NPU03230 ,mmol/L
+P- Kolesterol,NPU01566 ,mmol/L
+P- Kolesterol,NPU18412 (fPt) ,mmol/L
+P- Kolesterol,NPU01549 (non-ester) ,mmol/L
+P- Kolesterol,NPU10033 (syst. Spec.) ,mmol/L
+P- Kolesterol,NPU18412 (fPt) ,mmol/L
+P- Kolesterol HDL,NPU01567 ,mmol/L
+P- Kolesterol HDL,NPU10157 (fPt) ,mmol/L
+P- Kolesterol HDL,NPU1807 (syst(spec.)) ,mmol/L
+P- Kolesterol LDL,NPU01668 ,mmol/L
+P- Kolesterol LDL,NPU10171 (fPt) ,mmol/L
+P- Kolesterol LDL,DNK35308 (beregnet) ,mmol/L
+P- Kreatinin,NPU18016 ,umol/L
+P- Kreatinin,NPU04998 (enzymatisk) ,umol/L
+P- Kreatinin,NPU01807 (beregnet ved Jaffe-metode) ,umol/L
+P- Kreatinin,NPU09101 (Jaffe) ,mmol/L
+P- Natrium,NPU03429 ,mmol/L
+p-TSH,NPU03577 ,10-3 IU/L
+p-TSH,NPU27547,10-3 IU/L
+p-triglycerid,NPU04094 ,mmol/L
+p-triglycerid,NPU03620 (fPt) ,mmol/L
+p-triglycerid,NPU18106 (syst(spec)) ,mmol/L
+p-urat,NPU09356 ,umol/L
+p-urat,NPU03688,mmol/L
+p-urea,NPU01459,mmol/L
