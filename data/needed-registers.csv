@@ -2,9 +2,9 @@ drop,inspected,scraped,register_id,register_name_dk,register_name_english,owner,
 ,1,1,AKM,Arbejdsklassifikationsmodulet,The work classification module,dst,,
 ,1,1,BEF,Befolkningen,The population,dst,,
 TRUE,1,1,BYSTRB,Bystørrelser bopæle,City sizes residences,dst,Not sure I need this register. Most info can be obtained from BEF,TRUE
-,1,1,DOD,Døde i Danmark,Died in Denmark,dst,Not sure if I use the DST version or if there are other versions?,
-,1,,DODSAASG,Dødsårsagsregister,Cause of death register,sds?,"Use SDS version, not DST",
-,1,1,FAHU,Husstande,Households,dst,Need this? Doesn't have an ID to link with other data sources...,
+,1,1,DOD,Døde i Danmark,Died in Denmark,dst,,
+,1,,DODSAASG,Dødsårsagsregister,Cause of death register,dst,,
+TRUE,1,1,FAHU,Husstande,Households,dst,Need this? Doesn't have an ID to link with other data sources...,TRUE
 ,1,1,FAIK,Familieindkomster,Family income,dst,,
 ,1,1,FAIN,Husstande og familier,Households and families,dst,,
 ,1,1,IDAP,IDA persondata,IDA person data,dst,,
@@ -30,8 +30,8 @@ TRUE,1,1,RAS,Registerbaserede arbejdsstyrkestatistik,Register-based labor force 
 TRUE,,,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,Might not be necessary. Let's drop for now.,TRUE
 ,1,1,SHSS,Sammenhængende socialstatistik,Coherent social statistics,dst,"There seems like a lot of interesting info in here, but I don't know what I need, if I need anything.",TRUE
 ,1,1,SSNV,Sammenhængende socialstatistik nettovarigheder,Coherent social statistics net durations,dst,,
-,1,1,SSSY,Sygesikring (6-cifret),Health insurance (6-digit),dst,There’s several stuff here that I’m not sure what we need.,
-,1,1,SYSI,Sygesikring (sikringsgruppe),Health insurance (group),dst,There’s several stuff here that I’m not sure what we need.,
+,1,1,SSSY,Sygesikring (6-cifret),Health insurance (6-digit),dst,There’s several stuff here that I’m not sure what we need.,TRUE
+,1,1,SYSI,Sygesikring (sikringsgruppe),Health insurance (group),dst,There’s several stuff here that I’m not sure what we need.,TRUE
 TRUE,,1,SYST,Sygesikring (4-cifret),Health insurance (4-digit),dst,What is this for? What variables do I need here?,TRUE
 TRUE,1,1,UAF_ADM,Landspatientregistret uafsluttede kontakter - administrative oplysninger,National Patient Register unfinished contacts - administrative information,dst,This has just “ingen label” as a description. Not sure what we need.,TRUE
 TRUE,1,1,UAF_BES,Landspatientregistret uafsluttede kontakter - ambulante besøgsdatoer,National Patient Register unfinished contacts - outpatient visit dates,dst,This has just “ingen label” as a description. Not sure what we need.,TRUE
