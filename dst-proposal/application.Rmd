@@ -219,24 +219,19 @@ sds_variable_tables <- sds_variables %>%
         Variables = variable_name, 
         `Start Year` = start_year
     ) %>% 
-    group_split(register_name) 
+    filter(register_name == "Det Nationale Diabetesregister")
 
-for (variable_table in sds_variable_tables) {
-    register <- unique(variable_table$register_name)
-    # Register name as header
-    glue("\n\n### {register}\n\n") %>% 
-        as.character() %>% 
-        cat()
-    
-    # Variables as table
-    variable_table %>% 
-        select(-register_name) %>%  
-        knitr::kable(caption = str_c(
-            "Requested variables from ",
-            register
-        )) %>% 
-        print()
-}
+register <- unique(sds_variable_tables$register_name)
+# Register name as header
+glue("\n\n### {register}\n\n") %>%
+    as.character() %>%
+    cat()
+
+# Variables as table
+sds_variable_tables %>%
+    select(-register_name) %>%
+    knitr::kable(caption = str_c("Requested variables from ",
+                                 register))
 ```
 
 ```{r requested-random-registers-variable-tables, results='asis'}
