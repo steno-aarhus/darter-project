@@ -126,6 +126,10 @@ cardiovascular diseases cases.
 
 ## Særligt vedr. lægemiddelsdata / Especially regarding drug data 
 
+The medication data we are requested are used in order to identify cases of disease
+(e.g. diabetes) that might not have been diagnosed and recorded in the patient register.
+The list of requested ATC codes is found in the Appendix section.
+
 <!--
 Only to be filled in if the project is to use drug data. Research projects that
 must use data from the Medicines Database must be approved by the Danish Health
@@ -141,6 +145,13 @@ Results will be published in open access scientific outlets and presented at
 scientific conferences.
 
 ## Perspektivering / Perspective
+
+Understanding how early life and familial factors can influence diabetes provides
+us with tools and knowledge to better target, intervene, and either
+prevent or manage diabetes and its complications. Considering the impact that
+diabetes as a disease itself and its related comorbidities has at the personal,
+public health, and economic level, any improvement in knowledge can have major 
+impacts.
 
 <!-- A description of what knowledge of societal relevance this study can contribute. -->
 
@@ -236,11 +247,11 @@ sds_variable_tables %>%
 
 ```{r requested-random-registers-variable-tables, results='asis'}
 random_variable_tables <- random_registers %>% 
-    select(register_name, register_table_name, variable_name, years) %>% 
+    select(register_name, register_table_name, variable_name, start_year) %>% 
     rename(
         Table = register_table_name,
         Variables = variable_name, 
-        Years = years
+        `Start Year` = start_year
     ) %>% 
     group_split(register_name) 
 
