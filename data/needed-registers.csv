@@ -22,10 +22,10 @@ TRUE,,1,IDAS,IDA arbejdssteder,IDA workplaces,dst,"Don’t need this, it is abou
 ,1,1,LPR_SKSOPR,Landspatientregistret - operationer,National Patient Register - operations,dst,,
 ,1,1,LPR_SKSUBE,Landspatientregistret - undersøgelser og behandlinger,National Patient Register - examinations and treatments,dst,,
 TRUE,,1,MFR,Levendefødte fra det medicinske fødselsregister,Live births from the Medical Birth Register,dst,"Do I need? This is from 1997, which would mean the child is 23 now. A bit young.",TRUE
-,1,1,PRIV_ADM,Landspatientregistret private sygehuse - administrative oplysninger,National Patient Register private hospitals - administrative information,dst,,
-,1,1,PRIV_DIAG,Landspatientregistret private sygehuse - diagnoser,National Patient Register of private hospitals - diagnoses,dst,,
-,1,1,PRIV_SKSOPR,Landspatientregistret private sygehuse - operationer,National Patient Register of Private Hospitals - Operations,dst,,
-,1,1,PRIV_SKSUBE,Landspatientregistret private sygehuse - undersøgelser og behandlinger,National Patient Register private hospitals - examinations and treatments,dst,,
+TRUE,1,1,PRIV_ADM,Landspatientregistret private sygehuse - administrative oplysninger,National Patient Register private hospitals - administrative information,dst,,
+TRUE,1,1,PRIV_DIAG,Landspatientregistret private sygehuse - diagnoser,National Patient Register of private hospitals - diagnoses,dst,,
+TRUE,1,1,PRIV_SKSOPR,Landspatientregistret private sygehuse - operationer,National Patient Register of Private Hospitals - Operations,dst,,
+TRUE,1,1,PRIV_SKSUBE,Landspatientregistret private sygehuse - undersøgelser og behandlinger,National Patient Register private hospitals - examinations and treatments,dst,,
 TRUE,1,1,RAS,Registerbaserede arbejdsstyrkestatistik,Register-based labor force statistics,dst,"Not sure if we need this one. Based on variables, I can't see what I'd need",TRUE
 TRUE,,,SER,Sessionsregister,Conscription Registry,The Danish National Archives?,Might not be necessary. Let's drop for now.,TRUE
 ,1,1,SHSS,Sammenhængende socialstatistik,Coherent social statistics,dst,"There seems like a lot of interesting info in here, but I don't know what I need, if I need anything.",TRUE
@@ -55,4 +55,4 @@ TRUE,,1,FTNAEVN,Fertilitet - Nævner,Fertility - Mentions,dst,Do we need this? T
 ,1,,Cancerregisteret,Cancerregisteret,Cancer Register,sds,"This have not been scraped, but were taken from other applications.",TRUE
 ,1,1,DODSAARS,Dødsårssagsregistret,Cause of death register,dst,,
 ,1,,IVF,IVF-registeret,In vitro fertilization register,sds,"This have not been scraped, but were taken from other applications.",TRUE
-,1,1,,Det Nationale Diabetesregister,National Diabetes Register,sds,,
+,1,1,DND,Det Nationale Diabetesregister,National Diabetes Register,sds,,
