@@ -12,6 +12,7 @@ output:
 
 ## Autoriseret institution / Authorised institution
 
+Enhedschef Annelli Sandbæk  
 Steno Diabetes Center Aarhus (inst. nr. 574)  
 Hedeager 3, 2. sal  
 8200 Aarhus  
@@ -117,8 +118,8 @@ needed_registers %>%
 ```
 
 In the Appendix we listed the ATC codes from the prescription register and ICD-8
-and -10 codes from the patient register that we need to classify diabetes and
-cardiovascular diseases cases.
+and -10 codes from the patient register that we need to classify diabetes 
+and the diseases that may arise following a diabetes diagnosis.
 
 <!-- Please also include information on external data or own survey data if such -->
 <!-- data is part of the project. In such cases please include approval from the -->
@@ -191,6 +192,33 @@ Date of deletion of data: Access to data is requested until 2030-12-31.
 ```{r}
 knitr::kable(authorized_researchers)
 ```
+
+## Underskrift / Signatures
+
+Underskriver bekræfter på vegne af den dataansvarlige autoriserede institution,
+at den konkrete behandling er lovlig i henhold til databeskyttelsesforordningen
+artikel 6.
+
+Underskriver bekræfter ligeledes at være formelt ansat på den dataansvarlige
+autoriserede institution, der indstiller projektet.
+
+**På vegne af den dataansvarlige:**
+
+| | |
+|--|--|
+|Navn: |Annelli Sandbæk|
+|Stilling: |Enhedschef|
+|Dato: | |
+|Underskrift:| |
+
+**Godkendt til ekstern adgang**
+
+| | |
+|--|--|
+|Navn: | Nikolaj Borg Burmeister |
+|Stilling: | Kontorchef |
+|Dato: | |
+|Underskrift:| |
 
 # Bilag / Appendix
 
