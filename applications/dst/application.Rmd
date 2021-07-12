@@ -1,11 +1,7 @@
 ---
-papersize: a4
-fontsize: 11pt
 output: 
-    word_document: default
-    pdf_document:
-        toc: true
-        toc_depth: 3
+    word_document: 
+        reference_docx: "templates/description.docx"
 ---
 
 # Project description for DST application
