@@ -1,7 +1,7 @@
-Name,Position,Institution,Email,ID,Phone
-Luke W. Johnston,Clinical researcher,Steno Diabetes Center Aarhus,luke.johnston@rm.dk,,
-Omar Silverman,Clinical researcher,Steno Diabetes Center Aarhus,jossil@rm.dk,,
-Daniel R. Witte,Professor,"Steno Diabetes Center Aarhus and Institute for Public Health, Aarhus University",daniel.witte@ph.au.dk,,
-Gunnar Toft,Senior Researcher,Steno Diabetes Center Aarhus,guntof@rm.dk,,
-Adam Hulman,Senior Data Scientist,Steno Diabetes Center Aarhus,adahul@rm.dk,,
-Annelli Sandbæk,Unit Manager,Steno Diabetes Center Aarhus,anesnd@rm.dk,,
+Navn,Stillingsbetegnelse,Ansættelsessted (Institution & Afdeling) ,Ident,Email,Mobil,Fysisk token ønskes,Hjemsendelse tillades,Brugeraftale på engelsk
+Luke W. Johnston,Clinical researcher,Steno Diabetes Center Aarhus,,luke.johnston@rm.dk,,Nej,,Ja
+Omar Silverman,Clinical researcher,Steno Diabetes Center Aarhus,,jossil@rm.dk,,Nej,,
+Daniel R. Witte,Professor,"Steno Diabetes Center Aarhus and Institute for Public Health, Aarhus University",,daniel.witte@ph.au.dk,,Nej,,
+Gunnar Toft,Senior Researcher,Steno Diabetes Center Aarhus,,guntof@rm.dk,,Nej,,
+Adam Hulman,Senior Data Scientist,Steno Diabetes Center Aarhus,,adahul@rm.dk,,Nej,,
+Annelli Sandbæk,Unit Manager,Steno Diabetes Center Aarhus,,anesnd@rm.dk,,Nej,,
