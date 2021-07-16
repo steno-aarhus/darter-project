@@ -17,7 +17,9 @@ Imports:
     pander,
     gt,
     DiagrammeR,
-    conflicted
+    conflicted,
+    flextable,
+    officer
 Suggests: 
     V8,
     DiagrammeRsvg
