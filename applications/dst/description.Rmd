@@ -186,15 +186,26 @@ needed_registers %>%
 
 Date of deletion of data: Access to data is requested until 2030-12-31.
 
+\newpage
+
 ## Autoriserede forskere / Authorised scientists
 
-TODO: Row for Kontaktperson and one for Øvrige personer
-
-```{r}
-knitr::kable(authorized_researchers)
+```{r authorized-researchers-table}
+library(flextable)
+flextable(authorized_researchers) %>% 
+    border_inner() %>% 
+    border_outer() %>% 
+    flextable::bold(part = "header") %>% 
+    valign(valign = "top", part = "header") %>% 
+    bg(bg = "#d9d9d9", part = "header") %>% 
+    bg(i = c(1, 3), bg = "#f2f2f2") %>% 
+    flextable::bold(i = c(1, 3)) %>% 
+    merge_h_range(i = c(1, 3), j1 = 1, j2 = ncol(authorized_researchers)) %>% 
+    flextable::fontsize(size = 9, part = "all") %>% 
+    font(fontname = "Bitstream Vera Sans", part = "all")
 ```
 
-TODO: Page break
+\newpage
 
 ## Underskrift / Signatures
 

@@ -4,19 +4,17 @@ output:
         reference_docx: "templates/appendix.docx"
 ---
 
-Danmarks Statistik, Forskningsservice       `r lubridate::stamp("March 13, 1999")(lubridate::today())`
-Generel Forskningsservice 
+Danmarks Statistik, Forskningsservice       `r lubridate::stamp("March 13, 1999")(lubridate::today())`  
+Generel Forskningsservice   
         Projektnr. <xxxxxx
 
 Luke W. Johnston, Steno Diabetes Center Aarhus
-
-# Bilag / Appendix
 
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(here)
 library(glue)
-# library(gt)
+library(flextable)
 needed_registers <- here("data/needed-registers.csv") %>% 
     read_csv(col_types = "lddccccc") %>% 
     filter(!drop | is.na(drop))
@@ -26,20 +24,29 @@ dst_variables <- dst_variables %>%
     filter(use_in_application == 1,
            register_id %in% unique(needed_registers$register_id)) %>% 
     mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>% 
-    mutate(start_year = case_when(
-        is.na(variable_start_year) | variable_start_year == variable_end_year ~
-            register_start_year,
-        TRUE ~ variable_start_year
-    )) %>% 
-    select(register_id, register_name_dk, variable_name, start_year)
+    mutate(
+        start_year = case_when(
+            is.na(variable_start_year) |
+                variable_start_year == variable_end_year ~
+                register_start_year,
+            TRUE ~ variable_start_year
+        ),
+        year_range = glue::glue("{start_year} - {variable_end_year}")
+    ) %>% 
+    select(register_id, register_name_dk, variable_name, year_range, description_dk)
 
 sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv"))
 sds_variables <- sds_variables %>% 
     filter(use_in_application == 1) %>% 
-    mutate(start_year = str_extract(periode, "^\\d{4}")) %>% 
-    select(register_name, table_name, variable_name, start_year)
+    # mutate(start_year = str_extract(periode, "^\\d{4}")) %>% 
+    mutate(periode = str_replace(periode, "\\s?-\\s?$", "-Latest")) %>% 
+    select(register_name, table_name, variable_name, periode, variablebeskrivelse)
 
-random_registers <- read_csv(here("data/random-undocumented.csv"))
+random_registers <- read_csv(here("data/random-undocumented.csv")) %>% 
+    mutate(
+        start_year = if_else(is.na(start_year), "Earliest", as.character(start_year)),
+        year_range = glue::glue("{start_year} - {end_year}")
+    )
 
 knitr::opts_chunk$set(echo = FALSE)
 options(knitr.kable.NA = "")
@@ -47,16 +54,49 @@ options(knitr.kable.NA = "")
 
 ## Projekttitel og -nr
 
+Interplay between diabetes and intergenerational transmission of health determinants over the life course
+
 ## Populations afgrænsning(er)
+
+<!-- Skriv her en beskrivelse af populationen -->
+
+In order to identify familial relations through individuals' life course trajectory,
+the population requested covers all individuals, who live or lived in Denmark 
+from 1 January 1970 to 31 December 2020 (~8.5 million people). Key requirements are:
+
+- All index individuals born or who migrated into Denmark on or after 1970-01-01.
+- All family members of the index individuals, including parents, siblings,
+spouses, and children.
 
 ## List of registers and variables from DST
 
 ```{r requested-dst-variable-tables, results='asis'}
 variable_tables <- dst_variables %>% 
     mutate(register_name = glue("{register_name_dk} ({register_id})")) %>% 
-    select(-register_id, -register_name_dk) %>% 
-    rename(Variables = variable_name, `Start Year` = start_year) %>% 
+    select(-register_name_dk) %>% 
+    rename(Variables = variable_name, Beskrivelse = description_dk, År = year_range) %>% 
     group_split(register_name) 
+
+format_dst_appendix_table <- function(data) {
+    data %>%
+        dplyr::select(Variables, Beskrivelse, År) %>%
+        flextable::flextable() %>%
+        flextable::add_header_row(values = c("Grundregisternavn",
+                                             unique(data$register_id),
+                                             "")) %>%
+        flextable::border_remove() %>%
+        flextable::hline_top(border = officer::fp_border(color = "black"),
+                             part = "all") %>%
+        flextable::hline_bottom(border = officer::fp_border(color = "black"),
+                                part = "body") %>%
+        flextable::bold(part = "header") %>%
+        flextable::color(color = "white", part = "header") %>%
+        flextable::valign(valign = "top", part = "header") %>%
+        flextable::bg(bg = "#4f81bd", part = "header") %>% 
+        flextable::font(fontname = "Times New Roman", part = "all") %>% 
+        flextable::fontsize(size = 12, part = "all") %>% 
+        flextable::width(width = 2.25)
+}
 
 for (variable_table in variable_tables) {
     register <- unique(variable_table$register_name)
@@ -67,9 +107,8 @@ for (variable_table in variable_tables) {
     
     # Variables as table
     variable_table %>% 
-        select(-register_name) %>%  
-        knitr::kable() %>% 
-        print()
+        format_dst_appendix_table() %>% 
+        flextable_to_rmd(text_after = "\\pagebreak")
 }
 ```
 
@@ -78,64 +117,86 @@ for (variable_table in variable_tables) {
 ```{r requested-non-dst-variable-tables, results='asis'}
 sds_variable_tables <- sds_variables %>% 
     rename(
-        Table = table_name,
-        Variables = variable_name, 
-        `Start Year` = start_year
+        Tabel = table_name,
+        Variabler = variable_name, 
+        Beskrivelse = variablebeskrivelse,
+        År = periode
     ) %>% 
     filter(register_name == "Det Nationale Diabetesregister")
 
+format_non_dst_appendix_table <- function(data, caption = NULL, width = 2.25) {
+    data %>%
+        flextable::flextable() %>%
+        # flextable::add_header_row(values = c("Registernavn",
+        #                                      unique(data$register_name),
+        #                                      "")) %>%
+        flextable::border_remove() %>%
+        flextable::hline_top(border = officer::fp_border(color = "black"),
+                             part = "all") %>%
+        flextable::hline_bottom(border = officer::fp_border(color = "black"),
+                                part = "body") %>%
+        flextable::bold(part = "header") %>%
+        flextable::color(color = "white", part = "header") %>%
+        flextable::valign(valign = "top", part = "header") %>%
+        flextable::bg(bg = "#4f81bd", part = "header") %>% 
+        flextable::font(fontname = "Times New Roman", part = "all") %>% 
+        flextable::fontsize(size = 12, part = "all") %>% 
+        flextable::width(width = width) %>% 
+        {if (!is.null(caption)) {flextable::set_caption(., caption = caption)} else {.}} %>% 
+        flextable::flextable_to_rmd(text_after = "\\pagebreak")
+}
+
 register <- unique(sds_variable_tables$register_name)
 # Register name as header
-glue("\n\n### {register}\n\n") %>%
+glue("\n\n## {register}\n\n") %>%
     as.character() %>%
     cat()
 
 # Variables as table
 sds_variable_tables %>%
-    select(-register_name) %>%
-    knitr::kable(caption = str_c("Requested variables from ",
-                                 register))
+    dplyr::select(matches("^Tabel$"), Variabler, Beskrivelse, År) %>% 
+    format_non_dst_appendix_table(width = c(1.5, 1.5, 3, 1.5))
 ```
 
 ```{r requested-random-registers-variable-tables, results='asis'}
 random_variable_tables <- random_registers %>% 
-    select(register_name, register_table_name, variable_name, start_year) %>% 
+    select(register_name, register_table_name, variable_name, 
+           year_range, variable_description_dk) %>% 
     rename(
-        Table = register_table_name,
-        Variables = variable_name, 
-        `Start Year` = start_year
+        Tabel = register_table_name,
+        Variabler = variable_name, 
+        Beskrivelse = variable_description_dk,
+        År = year_range
     ) %>% 
     group_split(register_name) 
 
 for (variable_table in random_variable_tables) {
     register <- unique(variable_table$register_name)
     # Register name as header
-    glue("\n\n### {register}\n\n") %>% 
+    glue("\n\n## {register}\n\n") %>% 
         as.character() %>% 
         cat()
     
-    if (all(is.na(unique(variable_table$Table)))) {
+    width <- c(1.5, 1.5, 3, 1.5)
+    if (all(is.na(unique(variable_table$Tabel)))) {
+        width <- 2.25
         variable_table <- variable_table %>% 
-            select(-Table)
+            select(-Tabel)
     }
     
     # Variables as table
     variable_table %>% 
-        select(-register_name) %>%  
-        knitr::kable(caption = str_c(
-            "Requested variables from ",
-            register
-        )) %>% 
-        print()
+        dplyr::select(matches("^Tabel$"), Variabler, Beskrivelse, År) %>% 
+        format_non_dst_appendix_table(width = width)
 }
 ```
 
-### Labka
+## Labka
 
 For alle individer i databasen ønskes der laboratorie udtræk af følgene
 NPU/DNK-koder så langt tilbage i tiden som muligt.
 
-```{r labka-data-source} 
+```{r labka-data-source, results='asis'} 
 here("data/labka.csv") %>%
     read_csv(col_types = cols(
         Komponent = col_character(),
@@ -144,7 +205,8 @@ here("data/labka.csv") %>%
     )) %>% 
     group_by(Komponent) %>% 
     mutate(Komponent = if_else(row_number() == 1, Komponent, "")) %>% 
-    knitr::kable(caption = "Components and codes from the Labka database.")
+    format_non_dst_appendix_table()
+    # knitr::kable(caption = "Components and codes from the Labka database.")
 ```
 
 ## List of requested ICD-8 and -10 codes
@@ -155,7 +217,7 @@ diabetes, relaterede kardiometaboliske sygdomme samt følgesygdomme
 Efter koderne har vi kort redegjort for, hvorfor vi ansøger om netop de listede
 koder.
 
-```{r}
+```{r icd-codes-tables, results='asis'}
 icd_codes <- here("data/icd-codes.csv") %>%
     read_csv(
         col_types = cols(
@@ -167,11 +229,11 @@ icd_codes <- here("data/icd-codes.csv") %>%
         )
     )
 
-icd_as_table <- function(data, group, caption) {
+icd_as_table <- function(data, group, caption, width = c(1.5, 2.5, 1.75, 1.75)) {
     data %>%
         filter(parent_group == group) %>%
         select(-parent_group) %>%
-        knitr::kable(caption = caption)
+        format_non_dst_appendix_table(caption = caption, width = width)
 }
 
 icd_as_table(
@@ -189,11 +251,12 @@ icd_as_table(
 icd_as_table(
     icd_codes %>% select(-Sygdomsgruppe),
     "charlesons",
-    "Diseases that are components of the 'Charleson's Morbidity Index'."
+    "Diseases that are components of the 'Charleson's Morbidity Index'.",
+    width = 2.25
 )
 ```
 
-### Justification for requested disease codes
+## Justification for requested disease codes
 
 The overall aim of this project is to identify the contributions of family and
 early life determinants on the development, management and care of diabetes and
@@ -353,7 +416,7 @@ and male infertility is a likely but less studied consequence of diabetes.
 
 ## List of requested ATC codes
 
-```{r atc-code-table}
+```{r atc-code-table, results='asis'}
 here("data/atc-codes.csv") %>%
     read_csv(col_types = cols(
         level = col_double(),
@@ -362,6 +425,6 @@ here("data/atc-codes.csv") %>%
     )) %>% 
     mutate(across(c(description, code), ~ if_else(level == 1, paste0("**", ., "**"), .))) %>% 
     select(`ATC Code` = code, Description = description) %>% 
-    knitr::kable(caption = "Requested ATC codes in classifying diabetes and cardiovascular diseases.")
+    format_non_dst_appendix_table(caption = "Requested ATC codes in classifying diabetes and cardiovascular diseases.", width = c(2, 5))
 ```
 
