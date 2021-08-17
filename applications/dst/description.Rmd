@@ -7,7 +7,7 @@ output:
 # Project description for DST application
 TODO: Delete above header
 
-**Forskningsservice**                     **Dato**  
+**Forskningsservice**                     **Dato** `r lubridate::stamp("March 13, 1999")(lubridate::today())`
 Projekt nr. 70xxxx/ kontaktperson i Forskningsservice
 
 ## Autoriseret institution / Authorised institution
