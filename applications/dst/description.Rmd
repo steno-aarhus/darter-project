@@ -216,20 +216,33 @@ artikel 6.
 Underskriver bekræfter ligeledes at være formelt ansat på den dataansvarlige
 autoriserede institution, der indstiller projektet.
 
+```{r}
+signature_table <- function(name, position) {
+    table_prep <- tribble(
+        ~base, ~values,
+        "Navn:", name,
+        "Stilling:", position,
+        "Dato:", "",
+        "Underskrift:", ""
+    )
+    
+    table_prep %>% 
+        flextable::flextable() %>% 
+        flextable::delete_part() %>% 
+        flextable::border_remove() %>% 
+        flextable::width(width = c(2, 4.5))
+}
+```
+
+
 **På vegne af den dataansvarlige:**
 
-| | |
-|--|--|
-|Navn: |Annelli Sandbæk|
-|Stilling: |Enhedschef|
-|Dato: | |
-|Underskrift:| |
+```{r sign-table-1}
+signature_table("Annelli Sandbæk", "Enhedschef")
+```
 
 **Godkendt til ekstern adgang**
 
-| | |
-|--|--|
-|Navn: | Nikolaj Borg Burmeister |
-|Stilling: | Kontorchef |
-|Dato: | |
-|Underskrift:| |
+```{r sign-table-2}
+signature_table("Nikolaj Borg Burmeister", "Kontorchef")
+```
