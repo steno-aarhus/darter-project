@@ -52,6 +52,67 @@ knitr::opts_chunk$set(echo = FALSE)
 options(knitr.kable.NA = "")
 ```
 
+```{r functions, include=FALSE}
+format_dst_appendix_table <- function(data) {
+    data %>%
+        dplyr::select(Variables, Beskrivelse, År) %>%
+        flextable::flextable() %>%
+        flextable::add_header_row(values = c("Grundregisternavn",
+                                             unique(data$register_id),
+                                             "")) %>%
+        flextable::border_remove() %>%
+        flextable::hline_top(border = officer::fp_border(color = "black"),
+                             part = "all") %>%
+        flextable::hline_bottom(border = officer::fp_border(color = "black"),
+                                part = "body") %>%
+        flextable::bold(part = "header") %>%
+        flextable::color(color = "white", part = "header") %>%
+        flextable::valign(valign = "top", part = "header") %>%
+        flextable::bg(bg = "#4f81bd", part = "header") %>% 
+        flextable::font(fontname = "Times New Roman", part = "all") %>% 
+        flextable::fontsize(size = 12, part = "all") %>% 
+        flextable::width(width = 2.25)
+}
+
+format_non_dst_appendix_table <- function(data, caption = NULL, width = 2.25, is_atc = FALSE) {
+    bold_atc <- function(tbl) {
+        tbl %>% 
+            flextable::bold(
+                i = ~str_detect(`ATC Code`, "^[A-N]$"),
+                j = ~Description + `ATC Code`
+            )
+    }
+    data %>%
+        flextable::flextable() %>%
+        # flextable::add_header_row(values = c("Registernavn",
+        #                                      unique(data$register_name),
+        #                                      "")) %>%
+        flextable::border_remove() %>%
+        flextable::hline_top(border = officer::fp_border(color = "black"),
+                             part = "all") %>%
+        flextable::hline_bottom(border = officer::fp_border(color = "black"),
+                                part = "body") %>%
+        {if (is_atc) {bold_atc(.)} else {.}} %>% 
+        flextable::bold(part = "header") %>%
+        flextable::color(color = "white", part = "header") %>%
+        flextable::valign(valign = "top", part = "header") %>%
+        flextable::bg(bg = "#4f81bd", part = "header") %>% 
+        flextable::font(fontname = "Times New Roman", part = "all") %>% 
+        flextable::fontsize(size = 12, part = "all") %>% 
+        flextable::width(width = width) %>% 
+        {if (!is.null(caption)) {flextable::set_caption(., caption = caption)} else {.}} %>% 
+        {if (interactive()) {.} else {flextable::flextable_to_rmd(text_after = "\\pagebreak")}}
+}
+
+icd_as_table <- function(data, group, caption, width = c(1.5, 2.5, 1.75, 1.75)) {
+    data %>%
+        filter(parent_group == group) %>%
+        select(-parent_group) %>%
+        format_non_dst_appendix_table(caption = caption, width = width)
+}
+
+```
+
 ## Projekttitel og -nr
 
 Interplay between diabetes and intergenerational transmission of health determinants over the life course
@@ -76,27 +137,6 @@ variable_tables <- dst_variables %>%
     select(-register_name_dk) %>% 
     rename(Variables = variable_name, Beskrivelse = description_dk, År = year_range) %>% 
     group_split(register_name) 
-
-format_dst_appendix_table <- function(data) {
-    data %>%
-        dplyr::select(Variables, Beskrivelse, År) %>%
-        flextable::flextable() %>%
-        flextable::add_header_row(values = c("Grundregisternavn",
-                                             unique(data$register_id),
-                                             "")) %>%
-        flextable::border_remove() %>%
-        flextable::hline_top(border = officer::fp_border(color = "black"),
-                             part = "all") %>%
-        flextable::hline_bottom(border = officer::fp_border(color = "black"),
-                                part = "body") %>%
-        flextable::bold(part = "header") %>%
-        flextable::color(color = "white", part = "header") %>%
-        flextable::valign(valign = "top", part = "header") %>%
-        flextable::bg(bg = "#4f81bd", part = "header") %>% 
-        flextable::font(fontname = "Times New Roman", part = "all") %>% 
-        flextable::fontsize(size = 12, part = "all") %>% 
-        flextable::width(width = 2.25)
-}
 
 for (variable_table in variable_tables) {
     register <- unique(variable_table$register_name)
@@ -123,28 +163,6 @@ sds_variable_tables <- sds_variables %>%
         År = periode
     ) %>% 
     filter(register_name == "Det Nationale Diabetesregister")
-
-format_non_dst_appendix_table <- function(data, caption = NULL, width = 2.25) {
-    data %>%
-        flextable::flextable() %>%
-        # flextable::add_header_row(values = c("Registernavn",
-        #                                      unique(data$register_name),
-        #                                      "")) %>%
-        flextable::border_remove() %>%
-        flextable::hline_top(border = officer::fp_border(color = "black"),
-                             part = "all") %>%
-        flextable::hline_bottom(border = officer::fp_border(color = "black"),
-                                part = "body") %>%
-        flextable::bold(part = "header") %>%
-        flextable::color(color = "white", part = "header") %>%
-        flextable::valign(valign = "top", part = "header") %>%
-        flextable::bg(bg = "#4f81bd", part = "header") %>% 
-        flextable::font(fontname = "Times New Roman", part = "all") %>% 
-        flextable::fontsize(size = 12, part = "all") %>% 
-        flextable::width(width = width) %>% 
-        {if (!is.null(caption)) {flextable::set_caption(., caption = caption)} else {.}} %>% 
-        flextable::flextable_to_rmd(text_after = "\\pagebreak")
-}
 
 register <- unique(sds_variable_tables$register_name)
 # Register name as header
@@ -228,13 +246,6 @@ icd_codes <- here("data/icd-codes.csv") %>%
             ICD8 = col_character()
         )
     )
-
-icd_as_table <- function(data, group, caption, width = c(1.5, 2.5, 1.75, 1.75)) {
-    data %>%
-        filter(parent_group == group) %>%
-        select(-parent_group) %>%
-        format_non_dst_appendix_table(caption = caption, width = width)
-}
 
 icd_as_table(
     icd_codes,
