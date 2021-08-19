@@ -434,8 +434,7 @@ here("data/atc-codes.csv") %>%
         code = col_character(),
         description = col_character()
     )) %>% 
-    mutate(across(c(description, code), ~ if_else(level == 1, paste0("**", ., "**"), .))) %>% 
     select(`ATC Code` = code, Description = description) %>% 
-    format_non_dst_appendix_table(caption = "Requested ATC codes in classifying diabetes and cardiovascular diseases.", width = c(2, 5))
+    format_non_dst_appendix_table(caption = "Requested ATC codes in classifying diabetes and cardiovascular diseases.", width = c(2, 5), is_atc = TRUE)
 ```
 
