@@ -54,17 +54,14 @@ diagnosis.
 In order to identify familial relations through individuals' life course trajectory,
 the population requested covers all individuals, who live or lived in Denmark 
 from 1 January 1970 to 31 December 2020 (~8.5 million people). 
-The family linkage and structure makes the population complicated
-and that we will need to do ourselves. We need the entire population because
-we need data on not just the individual, but also the family (parents and siblings).
-To characterise early life and early childhood conditions of an individual
-person, we need data on their parents. Globally, there are few datasets that
-have data going back far enough in the past to allow us to more fully
-investigate how early life factors can influence risk for diabetes. The
-Danish registers provide a unique resource to study this area of research.
-Likewise, to understand the role that the family network, including siblings and
-grandparents, has on diabetes risk, we need a large
-enough population to make these linkages and to adequately study this area.
+The family linkage and structure makes the construction of the population
+complicated and we will do this ourselves. For that we need the entire
+population because we need data on not just the individual, but also the family
+(parents and siblings). To characterise early life and early childhood
+conditions of an individual person, we need data on their parents. Likewise, to
+understand the role that the family network, including siblings and
+grandparents, has on diabetes risk, we need a large enough population to make
+these linkages and to adequately study this area.
 Key requirements are:
 
 - All index individuals born or who migrated into Denmark on or after 1970-01-01.
