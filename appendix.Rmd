@@ -1,5 +1,11 @@
 ---
 title: "Appendix of requested variables"
+author:
+  - name: Luke W. Johnston
+    url: https://lukewjohnston.com/
+    affiliation: Steno Diabetes Center Aarhus
+repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
+creative_commons: CC BY
 ---
 
 `r if (!knitr::is_html_output()) "
@@ -56,11 +62,6 @@ options(knitr.kable.NA = "")
 
 ```{r functions, include=FALSE}
 format_dst_appendix_table <- function(data) {
-    if (!knitr::is_html_output()) {
-        html_table <- data %>% 
-            dplyr::select(Variables, Beskrivelse, År)
-        return(gt::gt(html_table))
-    }
     data %>%
         dplyr::select(Variables, Beskrivelse, År) %>%
         flextable::flextable() %>%
@@ -83,9 +84,6 @@ format_dst_appendix_table <- function(data) {
 }
 
 format_non_dst_appendix_table <- function(data, caption = NULL, width = 2.25, is_atc = FALSE) {
-    if (knitr::is_html_output()) {
-        return(gt::gt(data))
-    }
     bold_atc <- function(tbl) {
         tbl %>% 
             flextable::bold(
@@ -213,8 +211,7 @@ for (variable_table in random_variable_tables) {
     # Variables as table
     variable_table %>% 
         dplyr::select(matches("^Tabel$"), Variabler, Beskrivelse, År) %>% 
-        format_non_dst_appendix_table(width = width) %>% 
-        print()
+        format_non_dst_appendix_table(width = width)
 }
 ```
 

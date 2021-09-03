@@ -1,5 +1,11 @@
 ---
 title: "Project description for DST application"
+author:
+  - name: Luke W. Johnston
+    url: https://lukewjohnston.com/
+    affiliation: Steno Diabetes Center Aarhus
+repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
+creative_commons: CC BY
 ---
 
 `r if (!knitr::is_html_output()) "
@@ -200,9 +206,6 @@ Date of deletion of data: Access to data is requested until 2030-12-31.
 ```{r authorized-researchers-table}
 library(flextable)
 authorized_researchers_table <- function(data) {
-    if (knitr::is_html_output()) {
-        return(knitr::kable(data))
-    }
     flextable(data) %>%
         border_inner() %>%
         border_outer() %>%

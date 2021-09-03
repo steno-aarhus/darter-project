@@ -15,7 +15,6 @@ Imports:
     here,
     tibble,
     pander,
-    gt,
     DiagrammeR,
     conflicted,
     flextable,
