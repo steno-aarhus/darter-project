@@ -2,7 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-public
 .Rbuildignore
 resources/packages.bib
 _ignore

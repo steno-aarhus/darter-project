@@ -1,0 +1,22 @@
+name: "meld-dst-application"
+title: "DST Application for MELD Project"
+description: |
+  Application to Denmark Statistics for data for the MELD Project.
+output_dir: "public"
+exclude: ["LICENSE", "DESCRIPTION", "data", "data-raw",
+    "misc", "resources", "R", "description.html", "appendix.html"]
+navbar:
+  right:
+    - text: "Description"
+      href: index.html
+    - text: "Appendix"
+      href: appendix.html
+    - icon: far fa-file-word
+      menu:
+        - text: "Project description"
+          href: description.docx
+        - text: "Project appendix"
+          href: appendix.docx
+output:
+    distill::distill_article:
+        toc: true

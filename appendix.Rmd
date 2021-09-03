@@ -1,10 +1,12 @@
 ---
-output: 
-    word_document: 
-        reference_docx: "templates/appendix.docx"
+title: "Appendix of requested variables"
 ---
 
-Danmarks Statistik, Forskningsservice       `r lubridate::stamp("March 13, 1999")(lubridate::today())`  
+`r if (!knitr::is_html_output()) "
+TODO: Delete above title header before sending to DST.
+"`
+
+Danmarks Statistik, Forskningsservice       `r lubridate::stamp("March 13, 1999", quiet = TRUE)(lubridate::today())`  
 Generel Forskningsservice   
         Projektnr. <xxxxxx
 
@@ -54,6 +56,11 @@ options(knitr.kable.NA = "")
 
 ```{r functions, include=FALSE}
 format_dst_appendix_table <- function(data) {
+    if (!knitr::is_html_output()) {
+        html_table <- data %>% 
+            dplyr::select(Variables, Beskrivelse, År)
+        return(gt::gt(html_table))
+    }
     data %>%
         dplyr::select(Variables, Beskrivelse, År) %>%
         flextable::flextable() %>%
@@ -71,10 +78,14 @@ format_dst_appendix_table <- function(data) {
         flextable::bg(bg = "#4f81bd", part = "header") %>% 
         flextable::font(fontname = "Times New Roman", part = "all") %>% 
         flextable::fontsize(size = 12, part = "all") %>% 
-        flextable::width(width = 2.25)
+        flextable::width(width = 2.25) %>% 
+        {if (interactive()) {.} else {flextable::flextable_to_rmd(., text_after = "\\pagebreak")}}
 }
 
 format_non_dst_appendix_table <- function(data, caption = NULL, width = 2.25, is_atc = FALSE) {
+    if (knitr::is_html_output()) {
+        return(gt::gt(data))
+    }
     bold_atc <- function(tbl) {
         tbl %>% 
             flextable::bold(
@@ -84,9 +95,6 @@ format_non_dst_appendix_table <- function(data, caption = NULL, width = 2.25, is
     }
     data %>%
         flextable::flextable() %>%
-        # flextable::add_header_row(values = c("Registernavn",
-        #                                      unique(data$register_name),
-        #                                      "")) %>%
         flextable::border_remove() %>%
         flextable::hline_top(border = officer::fp_border(color = "black"),
                              part = "all") %>%
@@ -101,7 +109,7 @@ format_non_dst_appendix_table <- function(data, caption = NULL, width = 2.25, is
         flextable::fontsize(size = 12, part = "all") %>% 
         flextable::width(width = width) %>% 
         {if (!is.null(caption)) {flextable::set_caption(., caption = caption)} else {.}} %>% 
-        {if (interactive()) {.} else {flextable::flextable_to_rmd(text_after = "\\pagebreak")}}
+        {if (interactive()) {.} else {flextable::flextable_to_rmd(., text_after = "\\pagebreak")}}
 }
 
 icd_as_table <- function(data, group, caption, width = c(1.5, 2.5, 1.75, 1.75)) {
@@ -148,7 +156,7 @@ for (variable_table in variable_tables) {
     # Variables as table
     variable_table %>% 
         format_dst_appendix_table() %>% 
-        flextable_to_rmd(text_after = "\\pagebreak")
+        print()
 }
 ```
 
@@ -205,7 +213,8 @@ for (variable_table in random_variable_tables) {
     # Variables as table
     variable_table %>% 
         dplyr::select(matches("^Tabel$"), Variabler, Beskrivelse, År) %>% 
-        format_non_dst_appendix_table(width = width)
+        format_non_dst_appendix_table(width = width) %>% 
+        print()
 }
 ```
 

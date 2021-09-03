@@ -1,13 +1,12 @@
 ---
-output: 
-    word_document: 
-        reference_docx: "templates/description.docx"
+title: "Project description for DST application"
 ---
 
-# Project description for DST application
-TODO: Delete above header
+`r if (!knitr::is_html_output()) "
+TODO: Delete above title header before sending to DST.
+"`
 
-**Forskningsservice**                     **Dato** `r lubridate::stamp("March 13, 1999")(lubridate::today())`
+**Forskningsservice**                     **Dato** `r lubridate::stamp("March 13, 1999", quiet = TRUE)(lubridate::today())`
 Projekt nr. 70xxxx/ kontaktperson i Forskningsservice
 
 ## Autoriseret institution / Authorised institution
@@ -79,7 +78,6 @@ available to the most recent year it is available.
 library(tidyverse)
 library(here)
 library(glue)
-# library(gt)
 needed_registers <- here("data/needed-registers.csv") %>% 
     read_csv(col_types = "lddccccc") %>% 
     filter(!drop | is.na(drop))
@@ -201,17 +199,29 @@ Date of deletion of data: Access to data is requested until 2030-12-31.
 
 ```{r authorized-researchers-table}
 library(flextable)
-flextable(authorized_researchers) %>% 
-    border_inner() %>% 
-    border_outer() %>% 
-    flextable::bold(part = "header") %>% 
-    valign(valign = "top", part = "header") %>% 
-    bg(bg = "#d9d9d9", part = "header") %>% 
-    bg(i = c(1, 3), bg = "#f2f2f2") %>% 
-    flextable::bold(i = c(1, 3)) %>% 
-    merge_h_range(i = c(1, 3), j1 = 1, j2 = ncol(authorized_researchers)) %>% 
-    flextable::fontsize(size = 9, part = "all") %>% 
-    font(fontname = "Bitstream Vera Sans", part = "all")
+authorized_researchers_table <- function(data) {
+    if (knitr::is_html_output()) {
+        return(knitr::kable(data))
+    }
+    flextable(data) %>%
+        border_inner() %>%
+        border_outer() %>%
+        flextable::bold(part = "header") %>%
+        valign(valign = "top", part = "header") %>%
+        bg(bg = "#d9d9d9", part = "header") %>%
+        bg(i = c(1, 3), bg = "#f2f2f2") %>%
+        flextable::bold(i = c(1, 3)) %>%
+        merge_h_range(
+            i = c(1, 3),
+            j1 = 1,
+            j2 = ncol(authorized_researchers)
+        ) %>%
+        flextable::fontsize(size = 9, part = "all") %>%
+        font(fontname = "Bitstream Vera Sans", part = "all")
+}
+
+authorized_researchers %>% 
+    authorized_researchers_table()
 ```
 
 \newpage

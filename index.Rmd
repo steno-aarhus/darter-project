@@ -1,51 +1,23 @@
 --- 
-title: "*M*etabolic consequences of *E*arly *L*ife adversity and subsequent risk for type 2 *D*iabetes (MELD)"
-subtitle: "MELD Project Protocol"
-author:
-    - Luke W. Johnston
-    - Daniel Witte
+title: "*M*etabolic consequences of *E*arly *L*ife adversity and subsequent risk for type 2 *D*iabetes (MELD) Project"
+description: "Application to request data from Denmark Statistics"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
-documentclass: book
-bibliography: [resources/refs.bib, resources/packages.bib]
-biblio-style: apalike
-csl: "resources/vancouver.csl"
-link-citations: yes
-description: "Protocol for the MELD Project"
+author:
+  - name: Luke W. Johnston
+    url: https://lukewjohnston.com/
+    affiliation: Steno Diabetes Center Aarhus
+site: distill::distill_website
+repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
+creative_commons: CC BY
 ---
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), here::here('resources/packages.bib'))
 ```
 
-# Study Protocol
-
-![](https://img.shields.io/badge/stage-in%20progress-orange?style=flat-square)
-
-## Abstract
-
-Early life adversity is known to influence the risk for adult cardiometabolic
-diseases such as type 2 diabetes (T2D); however, how metabolic processes mediate
-this link is unknown. Two recent
-advances have removed some of the historical barriers to research in this field (i.e.
-difficulty in collecting and analyzing the data). First is the ability to link
-cohort studies (with metabolic data) to national register databases (with
-demographic and medical data). Second is the emergence of mediation analysis and
-causal structure learning techniques
-that allow us to identify how early life adversity may contribute to adult
-metabolism and to T2D risk. My aims are to 1) understand how specific early life
-conditions affect T2D risk, 2) identify the metabolic pathways that mediate
-between early life adversity and adult T2D risk, and 3) to develop a recent
-causal pathway algorithm (NetCoupler) capable of performing mediation and causal
-structure analysis on detailed metabolic data into a reusable
-software package. To achieve these aims, I will a) use Denmark's unique national
-registers linked with multiple cohorts, b) deploy and apply NetCoupler, and c)
-collaborate with national and international groups. The software will provide a
-tool for researchers working in similar areas, while the results will give
-insight into how more effective public health strategies could be created for
-T2D prevention and how more precise clinical decisions could be made for T2D
-management in those exposed to early life adversity.
+- [Project Description](description.html) with justification and other
+necessary information for DST. See the [word document](description.docx) sent to
+DST for how it should look like.
+- [Project Appendix](appendix.html) with tables of requested registers and
+variables from DST. See the [word document](appendix.docx) sent
+to DST for how it should look like.
