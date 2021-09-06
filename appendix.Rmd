@@ -58,6 +58,9 @@ random_registers <- read_csv(here("data/random-undocumented.csv")) %>%
 
 knitr::opts_chunk$set(echo = FALSE)
 options(knitr.kable.NA = "")
+# To get loop to work
+if (knitr::is_html_output())
+    htmltools::div(flextable_html_dependency())
 ```
 
 ```{r functions, include=FALSE}
