@@ -11,14 +11,14 @@ LazyData: true
 URL: https://lwjohnst.gitlab.io/meld-protocol
 Encoding: UTF-8
 Imports: 
-    bookdown,
     here,
-    tibble,
-    pander,
-    DiagrammeR,
     conflicted,
     flextable,
-    officer
-Suggests: 
-    V8,
-    DiagrammeRsvg
+    officer,
+    distill,
+    glue,
+    lubridate,
+    cli,
+    htmltools
+Depends: 
+    tidyverse
