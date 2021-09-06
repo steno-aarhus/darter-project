@@ -220,7 +220,7 @@ authorized_researchers_table <- function(data) {
             j2 = ncol(authorized_researchers)
         ) %>%
         flextable::fontsize(size = 9, part = "all") %>%
-        font(fontname = "Bitstream Vera Sans", part = "all")
+        {if (!knitr::is_html_output()) {font(., fontname = "Bitstream Vera Sans", part = "all")} else {.}}
 }
 
 authorized_researchers %>% 
