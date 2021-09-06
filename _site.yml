@@ -16,9 +16,9 @@ navbar:
     - text: "Word docs"
       menu:
         - text: "Project description"
-          href: description.docx
+          href: 708421_projektinstilling_LukeJohnston.docx
         - text: "Project appendix"
-          href: appendix.docx
+          href: 708421_udtræksbeskrivelse_LukeJohnston.docx
 output:
     distill::distill_article:
         toc: true
