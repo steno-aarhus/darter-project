@@ -207,6 +207,10 @@ Date of deletion of data: Access to data is requested until 2030-12-31.
 
 ## Autoriserede forskere / Authorised scientists
 
+`r if (!knitr::is_html_output()) "
+TODO: Add in relevant missing info before sending.
+"`
+
 ```{r authorized-researchers-table}
 library(flextable)
 authorized_researchers_table <- function(data) {
@@ -262,6 +266,10 @@ signature_table <- function(name, position) {
 
 
 **På vegne af den dataansvarlige:**
+
+`r if (!knitr::is_html_output()) "
+TODO: Add signature before sending.
+"`
 
 ```{r sign-table-1}
 signature_table("Annelli Sandbæk", "Enhedschef")
