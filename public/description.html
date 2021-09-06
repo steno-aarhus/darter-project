@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>DST Application for MELD Project: Project description for DST application</title>
@@ -454,7 +455,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1861,7 +1862,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2031,8 +2035,318 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+  @import url("https://fonts.googleapis.com/css2?family=Syne");
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      46px;
+    --body-size:       1.00rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    "Syne", sans-serif;
+    --mono-font:       monospace;
+    --body-font:       "Syne", sans-serif;
+    --navbar-font:     "Syne", sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.9);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #4f81bd;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.9);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.10.6/header-attrs.js"></script>
   <link href="site_libs/tabwid-1.0.0/tabwid.css" rel="stylesheet" />
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
@@ -2121,7 +2435,7 @@ Word docs
 </ul>
 </nav>
 </div>
-<p><strong>Forskningsservice</strong> <strong>Dato</strong> September 03, 2021 Projekt nr. 70xxxx/ kontaktperson i Forskningsservice</p>
+<p><strong>Forskningsservice</strong> <strong>Dato</strong> September 06, 2021 Projekt nr. 70xxxx/ kontaktperson i Forskningsservice</p>
 <h2 id="autoriseret-institution-authorised-institution">Autoriseret institution / Authorised institution</h2>
 <p>Enhedschef Annelli Sandbæk<br />
 Steno Diabetes Center Aarhus (inst. nr. 574)<br />
@@ -2232,7 +2546,7 @@ List cohorts:
 <div style="page-break-after: always;"></div>
 <h2 id="autoriserede-forskere-authorised-scientists">Autoriserede forskere / Authorised scientists</h2>
 <div class="layout-chunk" data-layout="l-body">
-<template id="2693d4df-8762-4643-b8fc-e6d55ca56f15"><style>
+<template id="5a02eecb-6c8d-4607-b729-29208285d5e5"><style>
 .tabwid table{
   border-collapse:collapse;
   line-height:1;
@@ -2266,12 +2580,12 @@ List cohorts:
 .tabwid table tr {
 background-color: transparent;
 }
-</style><div class="tabwid"><style>.cl-3276e140{border-collapse:collapse;}.cl-326c9cee{font-family:'Bitstream Vera Sans';font-size:9pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-326c9d3e{font-family:'Bitstream Vera Sans';font-size:9pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-326cb6fc{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-326cb724{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-326eff20{width:54pt;background-color:rgba(242, 242, 242, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-326eff66{width:54pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-326eff7a{width:54pt;background-color:rgba(242, 242, 242, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-326eff8e{width:54pt;background-color:rgba(217, 217, 217, 1.00);vertical-align: top;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-3276e140'>
-<thead><tr style="overflow-wrap:break-word;"><td class="cl-326eff8e"><p class="cl-326cb6fc"><span class="cl-326c9cee">Navn</span></p></td><td class="cl-326eff8e"><p class="cl-326cb6fc"><span class="cl-326c9cee">Stillingsbetegnelse</span></p></td><td class="cl-326eff8e"><p class="cl-326cb6fc"><span class="cl-326c9cee">Ansættelsessted (Institution &amp; Afdeling)</span></p></td><td class="cl-326eff8e"><p class="cl-326cb6fc"><span class="cl-326c9cee">Ident</span></p></td><td class="cl-326eff8e"><p class="cl-326cb6fc"><span class="cl-326c9cee">Email</span></p></td><td class="cl-326eff8e"><p class="cl-326cb6fc"><span class="cl-326c9cee">Mobil</span></p></td><td class="cl-326eff8e"><p class="cl-326cb6fc"><span class="cl-326c9cee">Fysisk token ønskes</span></p></td><td class="cl-326eff8e"><p class="cl-326cb6fc"><span class="cl-326c9cee">Hjemsendelse tillades</span></p></td><td class="cl-326eff8e"><p class="cl-326cb6fc"><span class="cl-326c9cee">Brugeraftale på engelsk</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td  colspan="9"class="cl-326eff20"><p class="cl-326cb724"><span class="cl-326c9cee">Kontaktperson</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Luke W. Johnston</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Clinical researcher</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Steno Diabetes Center Aarhus</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">luke.johnston@rm.dk</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td  colspan="9"class="cl-326eff7a"><p class="cl-326cb724"><span class="cl-326c9cee">Øvrige personer</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Omar Silverman</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Clinical researcher</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Steno Diabetes Center Aarhus</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">jossil@rm.dk</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Daniel R. Witte</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Professor</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Steno Diabetes Center Aarhus and Institute for Public Health, Aarhus University</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">daniel.witte@ph.au.dk</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Gunnar Toft</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Senior Researcher</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Steno Diabetes Center Aarhus</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">guntof@rm.dk</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Adam Hulman</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Senior Data Scientist</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Steno Diabetes Center Aarhus</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">adahul@rm.dk</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Ja</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Annelli Sandbæk</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Unit Manager</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Steno Diabetes Center Aarhus</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">anesnd@rm.dk</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e"></span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Ja</span></p></td><td class="cl-326eff66"><p class="cl-326cb724"><span class="cl-326c9d3e">Nej</span></p></td></tr></tbody></table></div></template>
-<div class="flextable-shadow-host" id="daddec34-fc3c-475a-bb15-2487fd256c15"></div>
+</style><div class="tabwid"><style>.cl-8b0f2ac2{border-collapse:collapse;}.cl-8b0bd7b4{font-family:'DejaVu Sans';font-size:9pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-8b0bd7dc{font-family:'DejaVu Sans';font-size:9pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-8b0be18c{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-8b0be1a0{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-8b0c08ba{width:54pt;background-color:rgba(242, 242, 242, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8b0c08ce{width:54pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8b0c08d8{width:54pt;background-color:rgba(242, 242, 242, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8b0c08e2{width:54pt;background-color:rgba(217, 217, 217, 1.00);vertical-align: top;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-8b0f2ac2'>
+<thead><tr style="overflow-wrap:break-word;"><td class="cl-8b0c08e2"><p class="cl-8b0be18c"><span class="cl-8b0bd7b4">Navn</span></p></td><td class="cl-8b0c08e2"><p class="cl-8b0be18c"><span class="cl-8b0bd7b4">Stillingsbetegnelse</span></p></td><td class="cl-8b0c08e2"><p class="cl-8b0be18c"><span class="cl-8b0bd7b4">Ansættelsessted (Institution &amp; Afdeling)</span></p></td><td class="cl-8b0c08e2"><p class="cl-8b0be18c"><span class="cl-8b0bd7b4">Ident</span></p></td><td class="cl-8b0c08e2"><p class="cl-8b0be18c"><span class="cl-8b0bd7b4">Email</span></p></td><td class="cl-8b0c08e2"><p class="cl-8b0be18c"><span class="cl-8b0bd7b4">Mobil</span></p></td><td class="cl-8b0c08e2"><p class="cl-8b0be18c"><span class="cl-8b0bd7b4">Fysisk token ønskes</span></p></td><td class="cl-8b0c08e2"><p class="cl-8b0be18c"><span class="cl-8b0bd7b4">Hjemsendelse tillades</span></p></td><td class="cl-8b0c08e2"><p class="cl-8b0be18c"><span class="cl-8b0bd7b4">Brugeraftale på engelsk</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td  colspan="9"class="cl-8b0c08ba"><p class="cl-8b0be1a0"><span class="cl-8b0bd7b4">Kontaktperson</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Luke W. Johnston</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Clinical researcher</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Steno Diabetes Center Aarhus</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">luke.johnston@rm.dk</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td  colspan="9"class="cl-8b0c08d8"><p class="cl-8b0be1a0"><span class="cl-8b0bd7b4">Øvrige personer</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Omar Silverman</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Clinical researcher</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Steno Diabetes Center Aarhus</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">jossil@rm.dk</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Daniel R. Witte</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Professor</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Steno Diabetes Center Aarhus and Institute for Public Health, Aarhus University</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">daniel.witte@ph.au.dk</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Gunnar Toft</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Senior Researcher</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Steno Diabetes Center Aarhus</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">guntof@rm.dk</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Adam Hulman</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Senior Data Scientist</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Steno Diabetes Center Aarhus</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">adahul@rm.dk</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Ja</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Annelli Sandbæk</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Unit Manager</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Steno Diabetes Center Aarhus</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">anesnd@rm.dk</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc"></span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Ja</span></p></td><td class="cl-8b0c08ce"><p class="cl-8b0be1a0"><span class="cl-8b0bd7dc">Nej</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="47cb2551-ed3e-406a-b1c9-e6b19c785e25"></div>
 <script>
-var dest = document.getElementById("daddec34-fc3c-475a-bb15-2487fd256c15");
-var template = document.getElementById("2693d4df-8762-4643-b8fc-e6d55ca56f15");
+var dest = document.getElementById("47cb2551-ed3e-406a-b1c9-e6b19c785e25");
+var template = document.getElementById("5a02eecb-6c8d-4607-b729-29208285d5e5");
 var caption = template.content.querySelector("caption");
 if(caption) {
   caption.style.cssText = "display:block;text-align:center;";
@@ -2294,7 +2608,7 @@ fantome.appendChild(templateContent);
 </div>
 <p><strong>På vegne af den dataansvarlige:</strong></p>
 <div class="layout-chunk" data-layout="l-body">
-<template id="d17dfc2e-ecd5-4bba-bf1c-701bcccf3e57"><style>
+<template id="d416d518-1a64-4870-914d-6e8b7dc13223"><style>
 .tabwid table{
   border-collapse:collapse;
   line-height:1;
@@ -2328,12 +2642,12 @@ fantome.appendChild(templateContent);
 .tabwid table tr {
 background-color: transparent;
 }
-</style><div class="tabwid"><style>.cl-3289aad2{border-collapse:collapse;}.cl-3282f03e{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-32830330{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-328332f6{width:144pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-3283331e{width:324pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-3289aad2'>
-<tbody><tr style="overflow-wrap:break-word;"><td class="cl-328332f6"><p class="cl-32830330"><span class="cl-3282f03e">Navn:</span></p></td><td class="cl-3283331e"><p class="cl-32830330"><span class="cl-3282f03e">Annelli Sandbæk</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-328332f6"><p class="cl-32830330"><span class="cl-3282f03e">Stilling:</span></p></td><td class="cl-3283331e"><p class="cl-32830330"><span class="cl-3282f03e">Enhedschef</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-328332f6"><p class="cl-32830330"><span class="cl-3282f03e">Dato:</span></p></td><td class="cl-3283331e"><p class="cl-32830330"><span class="cl-3282f03e"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-328332f6"><p class="cl-32830330"><span class="cl-3282f03e">Underskrift:</span></p></td><td class="cl-3283331e"><p class="cl-32830330"><span class="cl-3282f03e"></span></p></td></tr></tbody></table></div></template>
-<div class="flextable-shadow-host" id="4bb2e209-22d0-4343-8447-3b9267928822"></div>
+</style><div class="tabwid"><style>.cl-8b176570{border-collapse:collapse;}.cl-8b14c25c{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-8b14ca40{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-8b14df3a{width:144pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8b14df44{width:324pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-8b176570'>
+<tbody><tr style="overflow-wrap:break-word;"><td class="cl-8b14df3a"><p class="cl-8b14ca40"><span class="cl-8b14c25c">Navn:</span></p></td><td class="cl-8b14df44"><p class="cl-8b14ca40"><span class="cl-8b14c25c">Annelli Sandbæk</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b14df3a"><p class="cl-8b14ca40"><span class="cl-8b14c25c">Stilling:</span></p></td><td class="cl-8b14df44"><p class="cl-8b14ca40"><span class="cl-8b14c25c">Enhedschef</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b14df3a"><p class="cl-8b14ca40"><span class="cl-8b14c25c">Dato:</span></p></td><td class="cl-8b14df44"><p class="cl-8b14ca40"><span class="cl-8b14c25c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b14df3a"><p class="cl-8b14ca40"><span class="cl-8b14c25c">Underskrift:</span></p></td><td class="cl-8b14df44"><p class="cl-8b14ca40"><span class="cl-8b14c25c"></span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="c0083cd9-535d-4e01-8a6e-3aafaab3d58b"></div>
 <script>
-var dest = document.getElementById("4bb2e209-22d0-4343-8447-3b9267928822");
-var template = document.getElementById("d17dfc2e-ecd5-4bba-bf1c-701bcccf3e57");
+var dest = document.getElementById("c0083cd9-535d-4e01-8a6e-3aafaab3d58b");
+var template = document.getElementById("d416d518-1a64-4870-914d-6e8b7dc13223");
 var caption = template.content.querySelector("caption");
 if(caption) {
   caption.style.cssText = "display:block;text-align:center;";
@@ -2349,7 +2663,7 @@ fantome.appendChild(templateContent);
 </div>
 <p><strong>Godkendt til ekstern adgang</strong></p>
 <div class="layout-chunk" data-layout="l-body">
-<template id="a1f8c806-580c-402b-8ea8-c94710e60f27"><style>
+<template id="fad3504b-e8df-48ae-b4dc-6e56eb8721a9"><style>
 .tabwid table{
   border-collapse:collapse;
   line-height:1;
@@ -2383,12 +2697,12 @@ fantome.appendChild(templateContent);
 .tabwid table tr {
 background-color: transparent;
 }
-</style><div class="tabwid"><style>.cl-329ce476{border-collapse:collapse;}.cl-32957cae{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-3295934c{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-3295cbfa{width:144pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-3295cc2c{width:324pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-329ce476'>
-<tbody><tr style="overflow-wrap:break-word;"><td class="cl-3295cbfa"><p class="cl-3295934c"><span class="cl-32957cae">Navn:</span></p></td><td class="cl-3295cc2c"><p class="cl-3295934c"><span class="cl-32957cae">Nikolaj Borg Burmeister</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-3295cbfa"><p class="cl-3295934c"><span class="cl-32957cae">Stilling:</span></p></td><td class="cl-3295cc2c"><p class="cl-3295934c"><span class="cl-32957cae">Kontorchef</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-3295cbfa"><p class="cl-3295934c"><span class="cl-32957cae">Dato:</span></p></td><td class="cl-3295cc2c"><p class="cl-3295934c"><span class="cl-32957cae"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-3295cbfa"><p class="cl-3295934c"><span class="cl-32957cae">Underskrift:</span></p></td><td class="cl-3295cc2c"><p class="cl-3295934c"><span class="cl-32957cae"></span></p></td></tr></tbody></table></div></template>
-<div class="flextable-shadow-host" id="a2bd7895-5ee9-4f81-9b2b-da2d2ea4b635"></div>
+</style><div class="tabwid"><style>.cl-8b1faac8{border-collapse:collapse;}.cl-8b1c239e{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-8b1c2bd2{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-8b1d19ac{width:144pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8b1d19c0{width:324pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-8b1faac8'>
+<tbody><tr style="overflow-wrap:break-word;"><td class="cl-8b1d19ac"><p class="cl-8b1c2bd2"><span class="cl-8b1c239e">Navn:</span></p></td><td class="cl-8b1d19c0"><p class="cl-8b1c2bd2"><span class="cl-8b1c239e">Nikolaj Borg Burmeister</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b1d19ac"><p class="cl-8b1c2bd2"><span class="cl-8b1c239e">Stilling:</span></p></td><td class="cl-8b1d19c0"><p class="cl-8b1c2bd2"><span class="cl-8b1c239e">Kontorchef</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b1d19ac"><p class="cl-8b1c2bd2"><span class="cl-8b1c239e">Dato:</span></p></td><td class="cl-8b1d19c0"><p class="cl-8b1c2bd2"><span class="cl-8b1c239e"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8b1d19ac"><p class="cl-8b1c2bd2"><span class="cl-8b1c239e">Underskrift:</span></p></td><td class="cl-8b1d19c0"><p class="cl-8b1c2bd2"><span class="cl-8b1c239e"></span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="b5d4ebd9-d353-4f67-8c06-5390a3395168"></div>
 <script>
-var dest = document.getElementById("a2bd7895-5ee9-4f81-9b2b-da2d2ea4b635");
-var template = document.getElementById("a1f8c806-580c-402b-8ea8-c94710e60f27");
+var dest = document.getElementById("b5d4ebd9-d353-4f67-8c06-5390a3395168");
+var template = document.getElementById("fad3504b-e8df-48ae-b4dc-6e56eb8721a9");
 var caption = template.content.querySelector("caption");
 if(caption) {
   caption.style.cssText = "display:block;text-align:center;";
