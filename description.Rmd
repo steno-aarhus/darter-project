@@ -13,7 +13,11 @@ TODO: Delete above title header before sending to DST.
 "`
 
 **Forskningsservice**                     **Dato** `r lubridate::stamp("March 13, 1999", quiet = TRUE)(lubridate::today())`
-Projekt nr. 70xxxx/ kontaktperson i Forskningsservice
+Projekt nr. 708421/ kontaktperson i Forskningsservice
+
+`r if (!knitr::is_html_output()) "
+TODO: Fix kontaktperson line.
+"`
 
 ## Autoriseret institution / Authorised institution
 
