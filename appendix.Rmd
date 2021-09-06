@@ -80,10 +80,12 @@ format_dst_appendix_table <- function(data) {
         flextable::color(color = "white", part = "header") %>%
         flextable::valign(valign = "top", part = "header") %>%
         flextable::bg(bg = "#4f81bd", part = "header") %>% 
-        flextable::font(fontname = "Times New Roman", part = "all") %>% 
+        {if (!knitr::is_html_output()) {flextable::font(., fontname = "Times New Roman", part = "all")} else {.}} %>% 
         flextable::fontsize(size = 12, part = "all") %>% 
         flextable::width(width = 2.25) %>% 
-        {if (interactive()) {.} else {flextable::flextable_to_rmd(., text_after = "\\pagebreak")}}
+        # To see it interactively (not while running rmarkdown, check out:
+        # https://github.com/yihui/knitr/issues/926)
+        flextable::flextable_to_rmd(., text_after = "\\pagebreak")
 }
 
 format_non_dst_appendix_table <- function(data, caption = NULL, width = 2.25, is_atc = FALSE) {
@@ -106,11 +108,13 @@ format_non_dst_appendix_table <- function(data, caption = NULL, width = 2.25, is
         flextable::color(color = "white", part = "header") %>%
         flextable::valign(valign = "top", part = "header") %>%
         flextable::bg(bg = "#4f81bd", part = "header") %>% 
-        flextable::font(fontname = "Times New Roman", part = "all") %>% 
+        {if (!knitr::is_html_output()) {flextable::font(., fontname = "Times New Roman", part = "all")} else {.}} %>% 
         flextable::fontsize(size = 12, part = "all") %>% 
         flextable::width(width = width) %>% 
         {if (!is.null(caption)) {flextable::set_caption(., caption = caption)} else {.}} %>% 
-        {if (interactive()) {.} else {flextable::flextable_to_rmd(., text_after = "\\pagebreak")}}
+        # To see it interactively (not while running rmarkdown, check out:
+        # https://github.com/yihui/knitr/issues/926)
+        flextable::flextable_to_rmd(., text_after = "\\pagebreak")
 }
 
 icd_as_table <- function(data, group, caption, width = c(1.5, 2.5, 1.75, 1.75)) {
@@ -119,7 +123,6 @@ icd_as_table <- function(data, group, caption, width = c(1.5, 2.5, 1.75, 1.75)) 
         select(-parent_group) %>%
         format_non_dst_appendix_table(caption = caption, width = width)
 }
-
 ```
 
 ## Projekttitel og -nr
@@ -140,7 +143,7 @@ spouses, and children.
 
 ## List of registers and variables from DST
 
-```{r requested-dst-variable-tables, results='asis'}
+```{r requested-dst-variable-tables, results='asis', echo=FALSE}
 variable_tables <- dst_variables %>% 
     mutate(register_name = glue("{register_name_dk} ({register_id})")) %>% 
     select(-register_name_dk) %>% 
@@ -156,14 +159,13 @@ for (variable_table in variable_tables) {
     
     # Variables as table
     variable_table %>% 
-        format_dst_appendix_table() %>% 
-        print()
+        format_dst_appendix_table()
 }
 ```
 
 ## List of registers and variables from external sources
 
-```{r requested-non-dst-variable-tables, results='asis'}
+```{r requested-non-dst-variable-tables, results='asis', echo=FALSE}
 sds_variable_tables <- sds_variables %>% 
     rename(
         Tabel = table_name,
@@ -185,7 +187,7 @@ sds_variable_tables %>%
     format_non_dst_appendix_table(width = c(1.5, 1.5, 3, 1.5))
 ```
 
-```{r requested-random-registers-variable-tables, results='asis'}
+```{r requested-random-registers-variable-tables, results='asis', echo=FALSE}
 random_variable_tables <- random_registers %>% 
     select(register_name, register_table_name, variable_name, 
            year_range, variable_description_dk) %>% 
@@ -214,7 +216,7 @@ for (variable_table in random_variable_tables) {
     # Variables as table
     variable_table %>% 
         dplyr::select(matches("^Tabel$"), Variabler, Beskrivelse, År) %>% 
-        format_non_dst_appendix_table(width = width)
+        format_non_dst_appendix_table(width = width) 
 }
 ```
 
