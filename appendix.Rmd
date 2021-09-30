@@ -136,9 +136,10 @@ Interplay between diabetes and intergenerational transmission of health determin
 In create the family structure and linkages, we need:
 
 - All index individuals born or who migrated into Denmark on or after 1970-01-01.
-- Variables AEGTE_ID, FAR_ID, MOR_ID, and PNR from the BEF
-(population) register and AEGTEFAELLE_ID, FAR_ID, MOR_ID, and PNR from the CPST
-(CPR status) register.
+- Registers and variables:  
+    - BEF: AEGTE_ID, CIVST, CIV_VFRA, E_FAELLE_ID, FAR_ID, MOR_ID, PNR,
+    FOED_DAG, KOEN, OPR_LAND.
+    - CPST: AEGTEFAELLE_ID, CIVST, CIV_DATO, FAR_ID, MOR_ID, PNR.
 
 Combining BEF and CPST has, from our previous experience and projects, resulted
 in better coverage in creating our study population than one register alone.
