@@ -16,8 +16,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 - [Project Description](description.html) with justification and other
-necessary information for DST. See the [word document](description.docx) sent to
+necessary information for DST. See the [word document](public/708421_projektinstilling_LukeJohnston.docx) sent to
 DST for how it should look like.
 - [Project Appendix](appendix.html) with tables of requested registers and
-variables from DST. See the [word document](appendix.docx) sent
+variables from DST. See the [word document](public/708421_udtræksbeskrivelse_LukeJohnston.docx) sent
 to DST for how it should look like.
+- [Comments and responses](misc/review-responses.html) to DST reviewer.
+<!-- - [Application to Sundhedsdatastyrelsen](misc/sds-application.html) with the  -->
+<!-- necessary information for their approval. -->
