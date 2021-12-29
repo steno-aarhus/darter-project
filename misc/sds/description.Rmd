@@ -1,0 +1,106 @@
+---
+title: "Project description"
+author:
+  - name: Luke W. Johnston
+    url: https://lukewjohnston.com/
+    affiliation: Steno Diabetes Center Aarhus
+repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
+creative_commons: CC BY
+---
+
+# Introduction
+
+<!-- Brief introduction to the area. -->
+
+Diabetes is a complex, multi-factorial disease. Its development depends on the
+timing and accumulation of exposures throughout the life-course. In addition to
+genetic influences, behavioral risk factors and socioeconomic conditions cluster
+in families and are passed through generations. For instance, poor childhood
+socioeconomic status (SES) can impact final educational attainment, adult SES,
+and lifestyle and behavioral characteristics, which ultimately influence an
+individual's metabolic capacity to regulate glucose and subsequent risk for
+diabetes.
+
+# Purpose
+
+<!-- The purpose of the project is briefly formulated. -->
+
+The overall aim of this project is to identify the contributions of family and
+early life determinants on the development, management, and care of diabetes and
+the diseases that may arise following a diabetes diagnosis, under a life-course
+framework.
+
+# The problem of the project
+
+<!-- 
+Preferably formulated as the specific question or questions to which the 
+conclusion must answer.
+-->
+
+# Data and Method
+
+<!-- 
+How will the project respond to the problem? What data will be used? How should
+data be used?
+-->
+
+We intend to use 
+For
+this purpose, we will apply causal and predictive statistical methods to best
+use the data available from the integrated data sources with an overarching goal
+to model several potential public health strategies that might impact the
+prevention and management of diabetes and the diseases that follow its
+diagnosis. 
+
+In order to identify familial relations through individuals' life course trajectory,
+the population requested covers all individuals, who live or lived in Denmark 
+from 1 January 1970 to 31 December 2020 (~8.5 million people). 
+The family linkage and structure makes the construction of the population
+complicated and we will do this ourselves. For that we need the entire
+population because we need data on not just the individual, but also the family
+(parents and siblings). To characterise early life and early childhood
+conditions of an individual person, we need data on their parents. Likewise, to
+understand the role that the family network, including siblings and
+grandparents, has on diabetes risk, we need a large enough population to make
+these linkages and to adequately study this area.
+Key requirements are:
+
+- All index individuals born or who migrated into Denmark on or after 1970-01-01.
+- All family members of the index individuals, including parents, siblings,
+spouses, and children.
+
+# Publication of results
+
+<!-- How and when are the results of the research planned to be published? -->
+
+We will disseminate the results of the planned research project through
+pre-print archives, conference presentations, journal articles, and through
+blogs and other social media outlets. Results will only be 
+
+Results will be published in open access scientific outlets and presented at
+scientific conferences.
+
+# Perspective
+
+<!-- What knowledge of societal relevance can this study contribute to? -->
+
+This project will contribute to a broader and deeper understanding of the role
+that these factors play with the development and progression of diabetes. 
+
+Understanding how early life and familial factors can influence diabetes provides
+us with tools and knowledge to better target, intervene, and either
+prevent or manage diabetes and its complications. Considering the impact that
+diabetes as a disease itself and its related comorbidities has at the personal,
+public health, and economic level, any improvement in knowledge can have major 
+impacts.
+
+
+# Ethical considerations
+
+<!-- 
+If the project involves direct contact with citizens, for example questionnaire 
+surveys or intervention studies: What ethical considerations have been made in
+connection with the direct involvement of citizens in the survey?
+-->
+
+No direct contact to citizens are made in this project.
