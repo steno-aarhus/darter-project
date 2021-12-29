@@ -4,7 +4,7 @@ description: |
   Application to Denmark Statistics for data for the MELD Project.
 output_dir: "public"
 exclude: ["LICENSE", "DESCRIPTION", "data", "data-raw",
-    "misc", "resources", "R", "description.html", "appendix.html"]
+    "resources", "R", "misc"]
 navbar:
   right:
     - icon: fas fa-home

@@ -14,7 +14,7 @@ rmarkdown::render("description.Rmd",
             output_format = rmarkdown::word_document(
                 reference_docx = "resources/templates/description.docx"
             ),
-            output_dir = here::here("public"),
+            output_dir = here::here("public/misc"),
             output_file = "708421_projektinstilling_LukeJohnston.docx",
             quiet = TRUE
 )
