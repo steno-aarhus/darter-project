@@ -37,6 +37,17 @@ Preferably formulated as the specific question or questions to which the
 conclusion must answer.
 -->
 
+Some of our questions include:
+
+1. Are some metabolic characteristics affected more by early life conditions than others?
+1. Knowing the above and knowing an adult individual's history during early life, 
+could we intervene and target specific metabolic characteristics to lower the risk
+for T2DM?
+1. Do some early life conditions affect an adult individual's metabolic status and
+risk for disease more than other conditions?
+1. To what extent does the family network (e.g. parents, grandparents, siblings)
+and family environment influence the risk for developing type 2 diabetes in adulthood?
+
 # Data and Method
 
 <!-- 
@@ -44,30 +55,19 @@ How will the project respond to the problem? What data will be used? How should
 data be used?
 -->
 
-We intend to use 
-For
-this purpose, we will apply causal and predictive statistical methods to best
-use the data available from the integrated data sources with an overarching goal
-to model several potential public health strategies that might impact the
-prevention and management of diabetes and the diseases that follow its
-diagnosis. 
+We intend to use the requested data from both SDS and DST registers, as well
+as data from Danish cohort studies, to apply causal and predictive statistical methods 
+that best model associations for our questions and compare how various public
+health strategies might impact the prevention and management of diabetes and the
+diseases that follow its diagnosis.
 
-In order to identify familial relations through individuals' life course trajectory,
-the population requested covers all individuals, who live or lived in Denmark 
-from 1 January 1970 to 31 December 2020 (~8.5 million people). 
-The family linkage and structure makes the construction of the population
-complicated and we will do this ourselves. For that we need the entire
-population because we need data on not just the individual, but also the family
-(parents and siblings). To characterise early life and early childhood
-conditions of an individual person, we need data on their parents. Likewise, to
+Because we intend to try to answer questions that involve any individual's early
+life and early childhood conditions, we need data on their parents. Likewise, to
 understand the role that the family network, including siblings and
 grandparents, has on diabetes risk, we need a large enough population to make
-these linkages and to adequately study this area.
-Key requirements are:
-
-- All index individuals born or who migrated into Denmark on or after 1970-01-01.
-- All family members of the index individuals, including parents, siblings,
-spouses, and children.
+these linkages and to adequately study this area. Given the complicated nature
+of linking and constructing family networks, we need data on not just the individual
+but also the family in order to obtain the data we need to answer our questions.
 
 # Publication of results
 
@@ -75,10 +75,8 @@ spouses, and children.
 
 We will disseminate the results of the planned research project through
 pre-print archives, conference presentations, journal articles, and through
-blogs and other social media outlets. Results will only be 
-
-Results will be published in open access scientific outlets and presented at
-scientific conferences.
+blogs and other social media outlets. Results will only be published in open
+access scientific outlets.
 
 # Perspective
 
@@ -93,7 +91,6 @@ prevent or manage diabetes and its complications. Considering the impact that
 diabetes as a disease itself and its related comorbidities has at the personal,
 public health, and economic level, any improvement in knowledge can have major 
 impacts.
-
 
 # Ethical considerations
 
