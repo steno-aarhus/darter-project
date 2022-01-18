@@ -6,6 +6,7 @@ author:
     affiliation: Steno Diabetes Center Aarhus
 repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
 creative_commons: CC BY
+output: word_document
 ---
 
 # Introduction

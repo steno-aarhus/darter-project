@@ -6,14 +6,17 @@ author:
     affiliation: Steno Diabetes Center Aarhus
 repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
 creative_commons: CC BY
+output: word_document
 ---
 
-Your extract description must consist of the following points:
+<!-- 
+Your extract description must consist of the following points: 
 
 - Place of treatment
 - Population
 - Data connection
 - Justification for the requested data
+-->
 
 ## Data access and user on the Research Machine
 
@@ -25,36 +28,21 @@ We want the data to be transferred to our project on the DST research server.
 
 ## Population
 
-In order to identify familial relations through individuals' life course
+<!-- State whether you need CPR linked for you or if you will be doing it. -->
+
+To identify familial relations through individuals' life course
 trajectory, the population requested covers all individuals, who live or lived
 in Denmark from 1 January 1970 to 31 December 2020 (~8.5 million people). The
 family linkage and structure makes the construction of the population
 complicated, which we will do ourselves. For that we need the entire population
 because we need data on not just the individual, but also the family (parents
-and siblings). To characterise early life and early childhood conditions of an
-individual person, we need data on their parents. Likewise, to understand the
-role that the family network, including siblings and grandparents, has on
-diabetes risk, we need a large enough population to make these linkages and to
-adequately study this area.
-
-To create the family structure and linkages, we need:
-
-- All index individuals born or who migrated into Denmark on or after 1970-01-01.
-- All family members of the index individuals, including parents, siblings,
-spouses, and children.
-- Registers and variables:  
-    - BEF: AEGTE_ID, CIVST, CIV_VFRA, E_FAELLE_ID, FAR_ID, MOR_ID, PNR,
-    FOED_DAG, KOEN, OPR_LAND.
-    - CPST: AEGTEFAELLE_ID, CIVST, CIV_DATO, FAR_ID, MOR_ID, PNR.
-
-Combining BEF and CPST has, from our previous experience and projects, resulted
-in better coverage in creating our study population than one register alone.
-
-The population has been created by DST.
+and siblings). Denmark Statistics has given us the population and data we
+requested.
 
 ## Data connection
 
-You must specify what data you want to access for the population you have specified.
+<!-- 
+You must specify what data you want to access for the population you have specified. 
 
 Data must as a minimum be delimited on the basis of the following parameters:
 
@@ -62,10 +50,33 @@ Data must as a minimum be delimited on the basis of the following parameters:
 - Which tables
 - Which variables
 - What time period
+-->
 
 ```{r list-registers-needed, include=FALSE}
 library(tidyverse)
 library(here)
+needed_registers <- here("data/needed-registers.csv") %>% 
+    read_csv(col_types = "lddccccc") %>% 
+    filter(!drop | is.na(drop))
+
+dst_register_names <- c("Lægemiddeldatabasen", "Landspatientregistret") 
+dst_variables <- read_csv(here("data/dst-registers-with-variables-to-use.csv"))
+dst_variables <- dst_variables %>%
+    filter(use_in_application == 1,
+           register_id %in% unique(needed_registers$register_id),
+           register_name_dk %in% dst_register_names) %>% 
+    mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>% 
+    mutate(
+        start_year = case_when(
+            is.na(variable_start_year) |
+                variable_start_year == variable_end_year ~
+                register_start_year,
+            TRUE ~ variable_start_year
+        ),
+        time_period = glue::glue("{start_year} to {variable_end_year}")
+    ) %>% 
+    select(register_name = register_name_dk, variable_name, time_period)
+
 sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv"))
 sds_variables <- sds_variables %>% 
     filter(use_in_application == 1) %>% 
@@ -78,18 +89,20 @@ random_registers <- read_csv(here("data/random-undocumented.csv")) %>%
     select(register_name, table_name = register_table_name, variable_name,
            time_period)
 
-registers <- bind_rows(sds_variables, random_registers)
-
-# TODO: Filter registers to those that are on SDS, including LMBD and others?
+sds_register_names <- c("Cancerregisteret", "Dødsårsagsregisteret", "IVF", "LPR_PSYK")
+registers <- bind_rows(sds_variables, random_registers) %>% 
+    filter(register_name %in% sds_register_names) %>% 
+    bind_rows(dst_variables)
 ```
 
-```{r}
+```{r tables, echo=FALSE, results='asis'}
 header_and_table_as_md <- function(data) {
     header <- unique(data$register_name)
     
     table <- data %>% 
         select(-register_name) %>% 
         select(where(~all(!is.na(.x)))) %>% 
+        rename_with(~str_replace_all(.x, "_", " ") %>% str_to_sentence()) %>% 
         knitr::kable() %>% 
         as.character()
     
@@ -105,8 +118,16 @@ registers %>%
 
 ## Justification for the requested data
 
-We ask you to briefly describe how the desired data can be used to answer the project's problem.
+<!-- 
+We ask you to briefly describe how the desired data can be used to answer the
+project's problem.
 
-This is to ensure that you as a researcher have access to data that is both necessary and sufficient for your project.
+This is to ensure that you as a researcher have access to data that is both
+necessary and sufficient for your project.
+-->
 
-
+Most of the requested data (e.g. LMBD, LPR) are used to determine diabetes
+status using published algorithms such as from Steno Copenhagen. We also need
+the data to determine other health outcomes like death or complications arising from
+diabetes. The rest of the data is used to determine early life/childhood factors and
+family network relationships (e.g. IVF)

@@ -11,6 +11,8 @@ creative_commons: CC BY
 Fill in the below information using the [SDS application form](https://ds.sst.dk/ds2010/Forskerservice_CRM2/Forskerservice.aspx).
 Not all information filled into the form is present here.
 
+- **Project number**: 708421
+
 # Project title 
 
 Interplay between diabetes and intergenerational transmission of health determinants over the life course
@@ -19,7 +21,13 @@ Interplay between diabetes and intergenerational transmission of health determin
 
 # Abstract
 
-
+Diabetes is a complex, multi-factorial disease. Its development depends on the
+timing and accumulation of exposures throughout the life-course. In addition to
+genetic influences, behavioral risk factors and socioeconomic conditions cluster
+in families and are passed through generations. The overall aim of this project
+is to identify the contributions of family and early life determinants on the
+development, management, and care of diabetes and the diseases that may arise
+following a diabetes diagnosis, under a life-course framework.
 
 # Registers
 
@@ -38,10 +46,11 @@ random_registers <- read_csv(here("data/random-undocumented.csv"))
 
 Also need LPR and LMDB.
 
-```{r list-registers-needed}
-bind_rows(sds_variables) %>% 
-          # random_registers) %>% 
-    pull(register_name) %>% 
-    unique() %>% 
-    sort()
+```{r list-registers-needed, echo=FALSE, results='asis'}
+bind_rows(sds_variables,
+          random_registers) %>%
+    distinct(register_name) %>% 
+    filter(register_name %in% c("Cancerregisteret", "Dødsårsagsregisteret", "IVF", "LPR_PSYK")) %>% 
+    arrange(register_name) %>% 
+    glue::glue_data("- {register_name}")
 ```
