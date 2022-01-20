@@ -59,7 +59,7 @@ needed_registers <- here("data/needed-registers.csv") %>%
     read_csv(col_types = "lddccccc") %>% 
     filter(!drop | is.na(drop))
 
-dst_register_names <- c("Lægemiddeldatabasen", "Landspatientregistret") 
+dst_register_names <- c("Lægemiddeldatabasen") 
 dst_variables <- read_csv(here("data/dst-registers-with-variables-to-use.csv"))
 dst_variables <- dst_variables %>%
     filter(use_in_application == 1,
@@ -89,7 +89,7 @@ random_registers <- read_csv(here("data/random-undocumented.csv")) %>%
     select(register_name, table_name = register_table_name, variable_name,
            time_period)
 
-sds_register_names <- c("Cancerregisteret", "Dødsårsagsregisteret", "IVF", "LPR_PSYK")
+sds_register_names <- c("Cancerregisteret", "IVF", "LPR_PSYK")
 registers <- bind_rows(sds_variables, random_registers) %>% 
     filter(register_name %in% sds_register_names) %>% 
     bind_rows(dst_variables)

@@ -44,13 +44,12 @@ sds_variables <- sds_variables %>%
 random_registers <- read_csv(here("data/random-undocumented.csv"))
 ```
 
-Also need LPR and LMDB.
-
 ```{r list-registers-needed, echo=FALSE, results='asis'}
 bind_rows(sds_variables,
           random_registers) %>%
     distinct(register_name) %>% 
-    filter(register_name %in% c("Cancerregisteret", "Dødsårsagsregisteret", "IVF", "LPR_PSYK")) %>% 
+    filter(register_name %in% c("Cancerregisteret", "IVF", "LPR_PSYK")) %>% 
+    add_row(register_name = "LMDB") %>% 
     arrange(register_name) %>% 
     glue::glue_data("- {register_name}")
 ```
