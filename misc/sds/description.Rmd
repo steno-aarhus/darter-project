@@ -6,10 +6,12 @@ author:
     affiliation: Steno Diabetes Center Aarhus
 repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
 creative_commons: CC BY
-output: word_document
+output: 
+    word_document:
+        reference_docx: ../../resources/templates/appendix.docx
 ---
 
-# Introduction
+## Introduction
 
 <!-- Brief introduction to the area. -->
 
@@ -22,7 +24,7 @@ and lifestyle and behavioral characteristics, which ultimately influence an
 individual's metabolic capacity to regulate glucose and subsequent risk for
 diabetes.
 
-# Purpose
+## Purpose
 
 <!-- The purpose of the project is briefly formulated. -->
 
@@ -31,7 +33,7 @@ early life determinants on the development, management, and care of diabetes and
 the diseases that may arise following a diabetes diagnosis, under a life-course
 framework.
 
-# The problem of the project
+## The problem of the project
 
 <!-- 
 Preferably formulated as the specific question or questions to which the 
@@ -49,7 +51,7 @@ risk for disease more than other conditions?
 1. To what extent does the family network (e.g. parents, grandparents, siblings)
 and family environment influence the risk for developing type 2 diabetes in adulthood?
 
-# Data and Method
+## Data and Method
 
 <!-- 
 How will the project respond to the problem? What data will be used? How should
@@ -70,7 +72,7 @@ these linkages and to adequately study this area. Given the complicated nature
 of linking and constructing family networks, we need data on not just the individual
 but also the family in order to obtain the data we need to answer our questions.
 
-# Publication of results
+## Publication of results
 
 <!-- How and when are the results of the research planned to be published? -->
 
@@ -79,7 +81,7 @@ pre-print archives, conference presentations, journal articles, and through
 blogs and other social media outlets. Results will only be published in open
 access scientific outlets.
 
-# Perspective
+## Perspective
 
 <!-- What knowledge of societal relevance can this study contribute to? -->
 
@@ -93,7 +95,7 @@ diabetes as a disease itself and its related comorbidities has at the personal,
 public health, and economic level, any improvement in knowledge can have major 
 impacts.
 
-# Ethical considerations
+## Ethical considerations
 
 <!-- 
 If the project involves direct contact with citizens, for example questionnaire 
