@@ -61,7 +61,7 @@ diagnosis.
 ## Population / Population
 
 In order to identify familial relations through individuals' life course trajectory,
-the population requested covers all individuals, who live or lived in Denmark 
+the population requested covers all individuals, who were alive in Denmark 
 from 1 January 1970 to 31 December 2020 (~8.5 million people). 
 The family linkage and structure makes the construction of the population
 complicated and we will do this ourselves. For that we need the entire
@@ -73,7 +73,7 @@ grandparents, has on diabetes risk, we need a large enough population to make
 these linkages and to adequately study this area.
 Key requirements are:
 
-- All index individuals born or who migrated into Denmark on or after 1970-01-01.
+- All index individuals born or who migrated into Denmark.
 - All family members of the index individuals, including parents, siblings,
 spouses, and children.
 
