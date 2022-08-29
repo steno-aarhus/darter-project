@@ -1,0 +1,127 @@
+---
+format: docx
+---
+
+# English original
+
+## Projektets type, titel og formål
+
+### Projektets titel
+
+Metabolic consequences of Early Life adversity and subsequent risk for
+type 2 Diabetes (MELD) Project
+
+### Projektets formål
+
+The overall aim of this project is to identify the contributions of
+family and early life determinants on the development, management, and
+care of diabetes and the diseases that may arise following a diabetes
+diagnosis, under a life-course framework.
+
+Diabetes is a complex, multi-factorial disease. Its development depends
+on the timing and accumulation of exposures throughout the life-course.
+In addition to genetic influences, behavioral risk factors and
+socioeconomic conditions cluster in families and are passed through
+generations. For instance, poor childhood socioeconomic status (SES) can
+impact final educational attainment, adult SES, and lifestyle and
+behavioral characteristics, which ultimately influence an individual's
+metabolic capacity to regulate glucose and subsequent risk for diabetes.
+
+This project will contribute to a broader and deeper understanding of
+the role that these factors play with the development and progression of
+diabetes. For this purpose, we will apply causal and predictive
+statistical methods to best use the data available from the integrated
+data sources with an overarching goal to model several potential public
+health strategies that might impact the prevention and management of
+diabetes and the diseases that follow its diagnosis.
+
+## Generel beskrivelse
+
+### Registre: Angiv hvilke
+
+## Antal, personkategorier og oplysningstyper
+
+### Oplysningstyper om personkategori 1:
+
+All persons involved in the project are researchers (diabetes
+epidemiologists)
+
+## Sikkerhed og indsendelse
+
+### Beskriv kort de tekniske og organisatoriske sikkerhedsforanstaltninger
+
+We have multiple national register based research projects on going at
+Steno Diabetes Center Aarhus and have dedicated personnel who are
+responsible for managing and ensuring security of the research projects.
+More information about our process from either Annelli Sandbæk, Adam
+Hulman, or Else-Marie Dalsgaard.
+
+# Danish translation
+
+## Projektets type, titel og formål
+
+### Projektets titel
+
+Interplay between diabetes and intergenerational transmission of health
+determinants over the life course
+
+### Projektets formål
+
+Det overordnede formål med dette projekt er at identificere bidragene
+fra familie- og tidlige livsdeterminanter til udvikling, håndtering og
+pleje af diabetes og de sygdomme, der kan opstå efter en
+diabetesdiagnose, under en livsforløbsramme.
+
+Diabetes er en kompleks, multifaktoriel sygdom. Dets udvikling afhænger
+af timingen og akkumuleringen af eksponeringer gennem hele livsforløbet.
+Ud over genetiske påvirkninger samler adfærdsmæssige risikofaktorer og
+socioøkonomiske forhold sig i familier og går gennem generationer. For
+eksempel kan dårlig socioøkonomisk status (SØS) i barndommen påvirke den
+endelige uddannelsesniveau, voksen-SØS og livsstils- og
+adfærdskarakteristika, som i sidste ende påvirker et individs
+metaboliske kapacitet til at regulere glukose og efterfølgende risiko
+for diabetes.
+
+Dette projekt vil bidrage til en bredere og dybere forståelse af den
+rolle, som disse faktorer spiller for udvikling og progression af
+diabetes. Til dette formål vil vi anvende kausale og prædiktive
+statistiske metoder for bedst muligt at bruge de tilgængelige data fra
+de integrerede datakilder med et overordnet mål til at modellere
+adskillige potentielle folkesundhedsstrategier, der kan påvirke
+forebyggelsen og håndteringen af diabetes og de sygdomme, der følger
+efter diagnosen.
+
+## Generel beskrivelse
+
+### Registre: Angiv hvilke
+
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE, results='asis'}
+library(tidyverse)
+library(here)
+library(glue)
+here("data/needed-registers.csv") %>% 
+    read_csv(col_types = "lddccccc") %>% 
+    filter(!drop | is.na(drop)) %>% 
+    select(register_id, register_name_dk) %>% 
+    glue_data("{register_name_dk} ({register_id})") %>% 
+    sort() %>% 
+    str_c(collapse = "; ") %>% 
+    cat()
+```
+
+## Antal, personkategorier og oplysningstyper
+
+### Oplysningstyper om personkategori 1:
+
+Alle personer involveret i projektet er forskere (diabetes
+epidemiologer)
+
+## Sikkerhed og indsendelse
+
+### Beskriv kort de tekniske og organisatoriske sikkerhedsforanstaltninger
+
+Vi har flere nationale registerbaserede forskningsprojekter i gang på
+Steno Diabetes Center Aarhus og har dedikerede medarbejdere, der er
+ansvarlige for at styre og sikre sikkerheden i forskningsprojekterne.
+Mere information om vores proces fra enten Annelli Sandbæk, Adam Hulman,
+or Else-Marie Dalsgaard.
