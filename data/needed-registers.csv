@@ -12,7 +12,7 @@ TRUE,1,1,FAHU,Husstande,Households,dst,Need this? Doesn't have an ID to link wit
 TRUE,,1,IDAS,IDA arbejdssteder,IDA workplaces,dst,"Don’t need this, it is about workplaces, not individual employees",TRUE
 ,1,1,IEPE,Indvandrere og Efterkommere,Immigrants and Descendants,dst,,
 ,1,1,IND,Indkomst,Income,dst,,
-,,,LABKA,Clinical data,Clinical data,?,,
+,,,LABKA,Laboratoriedatabasen,Clinical data,?,,
 ,1,1,LMDB,Lægemiddeldatabasen,The drug database,dst,Not sure if I use the one from DST?,TRUE
 ,1,1,LPR_ADM,Landspatientregistret - administrative oplysninger,National Patient Register - administrative information,dst,,
 ,1,1,LPR_BES,Landspatientregistret - ambulante besøgsdatoer,National Patient Register - outpatient visit dates,dst,,
@@ -50,7 +50,7 @@ TRUE,1,1,UAF_SKSOPR,Landspatientregistret uafsluttede kontakter - operationer,Na
 ,1,1,FTFORAEL,Fertilitet - forælder,Fertility - parent,dst,,
 TRUE,,1,FTNAEVN,Fertilitet - Nævner,Fertility - Mentions,dst,Do we need this? The descriptions are vague for the variables.,TRUE
 ,1,,DBDD,Dansk Børne Diabetes Database,Danish Childrens Diabetes Database,?,"This have not been scraped, but were taken from other applications.",TRUE
-,1,,DVDD,Dansk Voskne Diabetes Database,Danish Adults Diabetes Database,?,"This have not been scraped, but were taken from other applications.",TRUE
+,1,,DVDD,Dansk Vosken Diabetes Database,Danish Adults Diabetes Database,?,"This have not been scraped, but were taken from other applications.",TRUE
 ,1,,Diabase,Diabase,Diabase,?,"This have not been scraped, but were taken from other applications.",TRUE
 ,1,,Cancerregisteret,Cancerregisteret,Cancer Register,sds,"This have not been scraped, but were taken from other applications.",TRUE
 ,1,1,DODSAARS,Dødsårssagsregistret,Cause of death register,dst,,
