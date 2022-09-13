@@ -1,0 +1,39 @@
+PNR;Personnummer;BFL;2014-2021
+AJO_BREDT_LOENBELOEB;Bredt lønbeløb;BFL;2014-2021
+AJO_SMALT_LOENBELOEB;Smalt lønbeløb;BFL;2014-2021
+AJO_INDBERETTEDE_LOENTIMER;Løntimer på prodjob;BFL;2014-2021
+AJO_LOENTIMER;Løntimer på komprimerede job;BFL;2014-2021
+AJO_LOENTIME_KODE;Løntimer på prodjob;BFL;2014-2021
+GRAD_:_:;;DREAM;2014-2021
+PNR;;DREAM;2014-2021
+Y_:;;DREAM;2014-2021
+AAR;;FREP - Fræværdsperioder;2014-2021
+PNR;;FREP - Fræværdsperioder;2014-2021
+FRAV_FRADATO;;FREP - Fræværdsperioder;2014-2021
+FRAV_TILDATO;;FREP - Fræværdsperioder;2014-2021
+FRAVPERIOD;;FREP - Fræværdsperioder;2014-2021
+FRAVAARSAG;;FREP - Fræværdsperioder;2014-2021
+AAR;;FREP - Fræværdsperioder;2014-2021
+PNR;;FREP - Fræværdsperioder;2014-2021
+FRAV_FRADATO;;FREP - Fræværdsperioder;2014-2021
+FRAV_TILDATO;;FREP - Fræværdsperioder;2014-2021
+FRAVPERIOD;;FREP - Fræværdsperioder;2014-2021
+FRAVAARSAG;;FREP - Fræværdsperioder;2014-2021
+ATC2;;LMDB - lægemiddeldatabase;2014-2021
+EKSP;;LMDB - lægemiddeldatabase;2014-2021
+PNR/CPR;;LMDB - lægemiddeldatabase;2014-2021
+PNR;Personnummer;AEREHAB;2014-2021
+AEL_KOMKOD;Kommunekode;AEREHAB;2014-2021
+AAR;Register-, eller tællingsår;AEREHAB;2014-2021
+GODKEND_AAR;Angivelse af om kommunen har godkendt hele eller kun dele af året;AEREHAB;2014-2021
+VERSION;Moduldata version;AEREHAB;2014-2021
+PNR;Personnummer;AEFV;2014-2021
+HÆND_MDR;Hændelses måned;AEFV;2014-2021
+PERPL_VIS;Personlig pleje frit valg;AEFV;2014-2021
+PRAHJ_VIS;Praktisk hjælp frit valg;AEFV;2014-2021
+PNR;Personnummer;AETR;2014-2021
+HAEND_MDR;Hændelsesmåned;AETR;2014-2021
+TREAN_ART;Træningsydelse;AETR;2014-2021
+PNR;Personnummer;AEHJSP;2014-2021
+HJEMSYGEP_DATO;Hjemmesygepleje dato;AEHJSP;2014-2021
+IMP_MARK;Imputering ;AEHJSP;2014-2021
