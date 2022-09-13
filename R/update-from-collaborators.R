@@ -30,3 +30,77 @@ updated %>%
 # Can now save it.
 write_csv(updated, here("data/dst-registers-with-variables-to-use.csv"),
           na = "")
+
+# New collaborator added --------------------------------------------------
+
+## For DST
+original_dst <- here("data/dst-registers-with-variables-to-use.csv") %>%
+    read_csv()
+
+updates_dst <- read_csv2(
+    here("data-raw/addition-dst.csv"),
+    col_names = c("variable_name", "description_english",
+                  "register_id", "time_period"),
+    locale = locale(encoding = "latin1")
+) %>%
+    mutate(
+        register_id = str_remove(register_id, " - .*$"),
+        variable_name = str_replace(variable_name, "pnr/cpr", "pnr12"),
+        use_in_application = 1
+    ) %>%
+    separate(time_period,
+             into = c("register_start_year", "register_last_year"),
+             sep = "-", convert = TRUE)
+
+# registers missing.
+missing_registers <- anti_join(
+    updates_dst %>% distinct(register_id),
+    original_dst %>% distinct(register_id)
+)
+
+# variables missing
+missing_variables <- anti_join(
+    updates_dst %>% distinct(register_id, variable_name),
+    original_dst %>% distinct(register_id, variable_name)
+)
+
+full_join(original_dst, updates_dst) %>%
+    write_csv(here("data/dst-registers-with-variables-to-use.csv"),
+              na = "")
+
+## SDS
+original_sds <- here("data/sds-registers-with-variables-to-use.csv") %>%
+    read_csv()
+
+# updates_sds <-
+    read_csv2(
+    here("data-raw/addition-sds.csv"))
+    ,
+    col_names = c("variable_name", "description_english",
+                  "register_id", "time_period"),
+    locale = locale(encoding = "latin1")
+) %>%
+    mutate(
+        register_id = str_remove(register_id, " - .*$"),
+        variable_name = str_replace(variable_name, "pnr/cpr", "pnr12"),
+        use_in_application = "1"
+    ) %>%
+    separate(time_period,
+             into = c("register_start_year", "register_end_year"),
+             sep = "-")
+
+# registers missing.
+missing_registers <- anti_join(
+    updates %>% distinct(register_id),
+    original %>% distinct(register_id)
+)
+
+# variables missing
+missing_variables <- anti_join(
+    updates %>% distinct(register_id, variable_name),
+    original %>% distinct(register_id, variable_name)
+)
+
+full_join(original, updates) %>%
+    write_csv(here("data/dst-registers-with-variables-to-use.csv"),
+              na = "")
