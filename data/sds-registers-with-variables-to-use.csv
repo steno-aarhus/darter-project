@@ -693,3 +693,300 @@ use_in_application,reason_for_use,register_name,table_name,variable_name,short_r
 1,To know the criteria of inclusion to the register,Det Nationale Diabetesregister,t_diabetes,d_oad,"The National Diabetes Register (NDR) contains data on almost all persons in Denmark with diagnosed diabetes. The register contains for each person general data such as date of birth, gender, possible date of death and municipality of residence. In addition, information on date of inclusion in the register and inclusion criteria. The register contains information from 1990 onwards. However, it is only from 1997 onwards that included individuals are considered incidents. A full population of living and diagnosed diabetics in Denmark can thus be identified as of 31 December 1996. The register is formed by finding indicators that are a consequence of diabetes. If you meet one of a total of 6 different criteria that indicate that you have diabetes, you will be registered in the National Diabetes Register. The method makes it possible, on a national basis, to identify close to a entire population of diagnosed diabetics, which is internationally unique.In return, there will be no affiliate t as much medical information to the individual diabetic. For example, there is no information about the type of diabetes, as this is not determined with certainty for each individual. Also note that the National Diabetes Register only contains information about diabetics who have most likely been diagnosed with the disease. As diabetes often has a long course before it is diagnosed, it must therefore be expected that there will be a larger number of people who have diabetes but have not yet been diagnosed with the disease (dark numbers).","The table contains two types of information for persons in the register.1.Information for each person's inclusion in the register: Ie inclusion date, reason for inclusion (which criterion was met by inclusion in the register). In addition, there is information about, which inclusion criteria you may otherwise meet and dates for these.2.Basic information such as civil registration number, date of birth, sex and possibly date of death.T_diabetes can be linked to t_bopael via the variable v_cpr.In all statements based on data in the table, , that a full population is not estimated to be formed until the end of 1996. Newly included persons can thus only be considered incidents from and including 1997. See also remarks in the general description of the register.","If a person regularly redeems a prescription for oral antidiabetics (tablet treatment), it is assumed that he or she is most likely diabetic. The inclusion criterion OAD is met for a person residing in Denmark and within a period of 6 months has redeemed 2 prescriptions for oral antidiabetics (ATC code A10B *). The date of fulfillment of the criterion is the date of the other of the two prescription redemptions. If the person meets the inclusion criterion OAD, the variable will contain the date of fulfillment of the criterion. Otherwise the variable will be empty. However, there are two exceptions: 1. Women with indications of gestational diabetes that may occur during pregnancy As gestational diabetes is of a transient nature, women with this diagnosis (ICD8 code: 63474, ICD10 code: DO244) should not therefore all registrations of indicators registrations one year from the date of admission for a contact with gestational dia are disregarded betes.2.The redemption of prescriptions of antidiabetics for women aged 20-39 is also disregarded. This is because women with PCO (polycystic ovary syndrome) are increasingly being treated with oral antidiabetic (tablet treatment). The majority of these women do not have diabetes and should therefore not be included in the National Diabetes Register. To avoid incorrectly including a group without diabetes in the register, it has therefore been chosen to exclude all women with tablet-treated diabetes aged 20-39 years, and who only meet the criterion OAD. Other inclusion criteria appear from the variables d_blod2i5, d_blod5i1, d_fodt, d_lpr , and d_ins.",1994 -,,A row in the table expresses that a person is included in the register. A person can not appear in several rows in the table.,,"Det Nationale Diabetesregister (NDR) indeholder data om tilnærmelsesvis alle personer i Danmark med diagnosticeret diabetes. Registeret indeholder for hver enkelt person almene data som fødselsdato, køn, evt. dødsdato og bopælskommune. Dertil kommer oplysninger om dato for inklusion i registeret og inklusionskriterium.Registeret rummer oplysninger fra 1990 og frem. Dog er det først fra og med 1997, at inkluderede individer regnes for incidente. En fuld population af levende og diagnosticerede diabetikere i Danmark,kan altså identificeres fra og med 31. december 1996.Registeret dannes ved at finde indikatorer som er en følge af diabetes. Opfylderman et af i alt 6 forskellige kriterier, som indikerer, at man har diabetes, vil man blive registreret i DetNationale Diabetesregister. Metoden gør det muligt, på landsbasis at identificere tæt på en hel population af diagnosticerede diabetikere, hvilket er internationalt enestående. Til gengæld vil der ikke være tilknyttet så mange medicinske oplysninger til den enkelte diabetiker. Fx er der ikke oplysninger om diabetestypen, da denne ikke med sikkerhed bestemmes for hver enkelt.Bemærk desuden, at det Nationale Diabetesregister alene indeholder information om diabetikere, der med stor sandsynlighed har fået sygdommen konstateret. Da diabetes ofte har et langt forløb inden den konstateres, må der derfor forventes at være et større antal personer, der har diabetes, men endnu ikke har fået konstateret sygdommen (mørketal).","En række i tabellen udtrykker, at en person er inkluderet i registeret. En person kan ikke optræde i flere rækker i tabellen.","Tabellen rummer to typer oplysninger for personer i registeret.1.Oplysninger for hver enkelt persons inklusion i registeret: Dvs. inklusionsdato, inklusionsårsag (hvilket kriterium man opfyldte ved inklusion i registeret). Der ud over er der oplysninger om, hvilke inklusionskriterier man evt. ellers opfylder og datoer for disse.2.Basisoplysninger som cpr-nummer, fødselsdato, køn og evt. dødsdato.T_diabetes kan kobles til t_bopael via variablen v_cpr.Ved alle opgørelser baseret på data i tabellen skal man tage højde for, at en fuld population først skønnes dannet ved udgangen af 1996. Nyinkluderede personer kan dermed først regnes for incidente fra og med 1997.Se også bemærkninger i den genereller beskrivelse af registeret.","Hvis en person regelmæssigt indløser en recept på oral antidiabetika (tabletbehandling) antages det, at vedkommende med stor sandsynlighed er diabetiker.Inklusionskriteriet ”OAD” ” er opfyldt for en person, der er bosat i Danmark og inden for en periode af 6 måneder har indløst 2 recepter på oral antidiabetika (ATC-kode A10B*). Datoen for opfyldelse af kriteriet er datoen for den anden af de to receptindløsninger.Hvis personen opfylder inklusionskriteriet ”OAD” vil variablen indeholde datoen for opfyldelse af kriteriet. Ellers vil variablen være tom.Der er dog to undtagelser: 1.Kvinder med indikationer på gestationel diabetes, som kan opstå i forbindelse med graviditet. Da gestitionel diabetes er af forbigående karakter, skal kvinder med denne diagnose (ICD8-kode: 63474, ICD10-kode: DO244) ikke inkluderes i registeret. Derfor ses der bort fra alle registreringer af indikatorer registreringer et år fra og med indlæggelsesdatoen for en kontakt med gestationel diabetes.2.Der ses ligeledes bort fra indløsning af recepter af antidiabetika for kvinder i alderen 20-39. Dette skyldes, at kvinder med PCO (polycystisk ovarie syndrom) i stigende omfang behandles med peroralt antidiabetikum (tabletbehandling). Flertallet af disse kvinder har ikke diabetes og skal derfor ikke indgå i det Nationale Diabetesregister. For at undgå fejlagtigt at inkludere en gruppe uden diabetes i registeret, er det derfor valgt at ekskludere alle kvinder med tabletbehandlet diabetes i alderen 20-39 år, og som alene opfylder kriteriet OAD.Øvrige inklusionskriterier fremgår af variablene d_blod2i5, d_blod5i1, d_fodt, d_lpr, og d_ins ."
 1,Register linkage,Det Nationale Diabetesregister,t_diabetes,v_cpr,"The National Diabetes Register (NDR) contains data on almost all persons in Denmark with diagnosed diabetes. The register contains for each person general data such as date of birth, gender, possible date of death and municipality of residence. In addition, information on date of inclusion in the register and inclusion criteria. The register contains information from 1990 onwards. However, it is only from 1997 onwards that included individuals are considered incidents. A full population of living and diagnosed diabetics in Denmark can thus be identified as of 31 December 1996. The register is formed by finding indicators that are a consequence of diabetes. If you meet one of a total of 6 different criteria that indicate that you have diabetes, you will be registered in the National Diabetes Register. The method makes it possible, on a national basis, to identify close to a entire population of diagnosed diabetics, which is internationally unique.In return, there will be no affiliate t as much medical information to the individual diabetic. For example, there is no information about the type of diabetes, as this is not determined with certainty for each individual. Also note that the National Diabetes Register only contains information about diabetics who have most likely been diagnosed with the disease. As diabetes often has a long course before it is diagnosed, it must therefore be expected that there will be a larger number of people who have diabetes but have not yet been diagnosed with the disease (dark numbers).","The table contains two types of information for persons in the register.1.Information for each person's inclusion in the register: Ie inclusion date, reason for inclusion (which criterion was met by inclusion in the register). In addition, there is information about, which inclusion criteria you may otherwise meet and dates for these.2.Basic information such as civil registration number, date of birth, sex and possibly date of death.T_diabetes can be linked to t_bopael via the variable v_cpr.In all statements based on data in the table, , that a full population is not estimated to be formed until the end of 1996. Newly included persons can thus only be considered incidents from and including 1997. See also remarks in the general description of the register.","The variable indicates the civil registration number for persons included in the NDR. Since the variable indicates individuals, it is central in all types of calculations and calculations. The variable is also a key variable when linking the tables td_diabetes and dt_bopael.",1990 -,"It is estimated that it is only from 1997 onwards that newly included persons can be regarded as incidents. This means that statements of prevalence for a nationwide population can be made from 31 December 1996. The incidence of individuals who are diagnosed in 2001, as well as the period 2005 - 10 may be underestimated, This is due to changes in the podiatrists' agreements and thus performance patterns.This has probably again led to a decrease in the number of people included via foot therapy as an inclusion criterion.See also corresponding comment below the variables d_foot and d_inklaarsag.",A row in the table expresses that a person is included in the register. A person can not appear in several rows in the table.,"Det skønnes, at det først er fra og med 1997, at nyinkluderede personer kan regnes som incidente.Det betyder opgørelser af prævalens for en landsdækkende population, kan foretages fra og med 31. december 1996.Forekomsten af enkeltindivider, der er diagnosticerede i 2001, samt perioden 2005 – 10 kan være underestimeret, Dette skyldes ændringer i fodterapeuternes overenskomster og dermed ydelsesmønster. Dette har sandsynligvis igen medført et fald i antal personer, der er inkluderet via ”fodterapi” som inklusionskriterium. Se også tilsvarende kommentar under variablene d_fodt og d_inklaarsag.","Det Nationale Diabetesregister (NDR) indeholder data om tilnærmelsesvis alle personer i Danmark med diagnosticeret diabetes. Registeret indeholder for hver enkelt person almene data som fødselsdato, køn, evt. dødsdato og bopælskommune. Dertil kommer oplysninger om dato for inklusion i registeret og inklusionskriterium.Registeret rummer oplysninger fra 1990 og frem. Dog er det først fra og med 1997, at inkluderede individer regnes for incidente. En fuld population af levende og diagnosticerede diabetikere i Danmark,kan altså identificeres fra og med 31. december 1996.Registeret dannes ved at finde indikatorer som er en følge af diabetes. Opfylderman et af i alt 6 forskellige kriterier, som indikerer, at man har diabetes, vil man blive registreret i DetNationale Diabetesregister. Metoden gør det muligt, på landsbasis at identificere tæt på en hel population af diagnosticerede diabetikere, hvilket er internationalt enestående. Til gengæld vil der ikke være tilknyttet så mange medicinske oplysninger til den enkelte diabetiker. Fx er der ikke oplysninger om diabetestypen, da denne ikke med sikkerhed bestemmes for hver enkelt.Bemærk desuden, at det Nationale Diabetesregister alene indeholder information om diabetikere, der med stor sandsynlighed har fået sygdommen konstateret. Da diabetes ofte har et langt forløb inden den konstateres, må der derfor forventes at være et større antal personer, der har diabetes, men endnu ikke har fået konstateret sygdommen (mørketal).","En række i tabellen udtrykker, at en person er inkluderet i registeret. En person kan ikke optræde i flere rækker i tabellen.","Tabellen rummer to typer oplysninger for personer i registeret.1.Oplysninger for hver enkelt persons inklusion i registeret: Dvs. inklusionsdato, inklusionsårsag (hvilket kriterium man opfyldte ved inklusion i registeret). Der ud over er der oplysninger om, hvilke inklusionskriterier man evt. ellers opfylder og datoer for disse.2.Basisoplysninger som cpr-nummer, fødselsdato, køn og evt. dødsdato.T_diabetes kan kobles til t_bopael via variablen v_cpr.Ved alle opgørelser baseret på data i tabellen skal man tage højde for, at en fuld population først skønnes dannet ved udgangen af 1996. Nyinkluderede personer kan dermed først regnes for incidente fra og med 1997.Se også bemærkninger i den genereller beskrivelse af registeret.","Variablen angiver cpr-nummer for personer inkluderet i NDR.Dan variablen angiver enkeltindivider, er den central i alle typer opgørelser og beregninger.Variablen er desuden nøglevariabel ved kobling mellem tabellerne td_diabetes og dt_bopael."
 1,Inclusion criteria,Det Nationale Diabetesregister,t_diabetes,v_inklaarsag,"The National Diabetes Register (NDR) contains data on almost all persons in Denmark with diagnosed diabetes. The register contains for each person general data such as date of birth, gender, possible date of death and municipality of residence. In addition, information on date of inclusion in the register and inclusion criteria. The register contains information from 1990 onwards. However, it is only from 1997 onwards that included individuals are considered incidents. A full population of living and diagnosed diabetics in Denmark can thus be identified as of 31 December 1996. The register is formed by finding indicators that are a consequence of diabetes. If you meet one of a total of 6 different criteria that indicate that you have diabetes, you will be registered in the National Diabetes Register. The method makes it possible, on a national basis, to identify close to a entire population of diagnosed diabetics, which is internationally unique.In return, there will be no affiliate t as much medical information to the individual diabetic. For example, there is no information about the type of diabetes, as this is not determined with certainty for each individual. Also note that the National Diabetes Register only contains information about diabetics who have most likely been diagnosed with the disease. As diabetes often has a long course before it is diagnosed, it must therefore be expected that there will be a larger number of people who have diabetes but have not yet been diagnosed with the disease (dark numbers).","The table contains two types of information for persons in the register.1.Information for each person's inclusion in the register: Ie inclusion date, reason for inclusion (which criterion was met by inclusion in the register). In addition, there is information about, which inclusion criteria you may otherwise meet and dates for these.2.Basic information such as civil registration number, date of birth, sex and possibly date of death.T_diabetes can be linked to t_bopael via the variable v_cpr.In all statements based on data in the table, , that a full population is not estimated to be formed until the end of 1996. Newly included persons can thus only be considered incidents from and including 1997. See also remarks in the general description of the register.","The variable indicates which of the total of 6 inclusion criteria the person met when he or she was included in the NDR. The inclusion in the NDR occurs the first time the person meets one of the total of 6 inclusion criteria blood5i1, blood2i5, foot therapy, lpr, oad and ins The date for this is the value of the variable d_inkldto.The 6 inclusion criteria are described in more detail in the overall description of NDR and each in the description of the variables d_blod5i1, d_blod2i5, d_fodt, d_lpr, d_oad and d_ins.",1990 -,"It is estimated that it is only from 1997 onwards that newly included persons can be regarded as incidents. This means that statements of the distribution of inclusion reasons only make sense from this year onwards. For the subsequent period (1997 and It should be noted that the incidence of 'foot therapy' as an inclusion criterion has changed over time in line with changes in the podiatrists' agreements and thus the performance pattern. This is seen as a decrease in the number of people who for the first time met the 'foot therapy' criterion in 2001 and 2005-10, as well as a significant increase in 2011See also similar remarks in the description of the variable d_inkldto.",A row in the table expresses that a person is included in the register. A person can not appear in several rows in the table.,"Det skønnes, at det først er fra og med 1997, at nyinkluderede personer kan regnes som incidente.Det betyder, at opgørelser af fordelingen af inklusionsårsager først giver mening fra og med dette år. For den efterfølgende periode (1997 og frem) skal det bemærkes, at forekomsten af ”fodterapi” som inklusionskriterium over tid har ændret sig i takt med ændringer i fodterapeuternes overenskomster og dermed ydelsesmønster. Dette ses som et fald i antallet af personer, der for første gang opfyldte kriteriet ’fodterapi’ i 2001og 2005-10, samt en betydelig stigning i 2011Se også tilsvarende bemærkninger i beskrivelsen af variablen d_inkldto.","Det Nationale Diabetesregister (NDR) indeholder data om tilnærmelsesvis alle personer i Danmark med diagnosticeret diabetes. Registeret indeholder for hver enkelt person almene data som fødselsdato, køn, evt. dødsdato og bopælskommune. Dertil kommer oplysninger om dato for inklusion i registeret og inklusionskriterium.Registeret rummer oplysninger fra 1990 og frem. Dog er det først fra og med 1997, at inkluderede individer regnes for incidente. En fuld population af levende og diagnosticerede diabetikere i Danmark,kan altså identificeres fra og med 31. december 1996.Registeret dannes ved at finde indikatorer som er en følge af diabetes. Opfylderman et af i alt 6 forskellige kriterier, som indikerer, at man har diabetes, vil man blive registreret i DetNationale Diabetesregister. Metoden gør det muligt, på landsbasis at identificere tæt på en hel population af diagnosticerede diabetikere, hvilket er internationalt enestående. Til gengæld vil der ikke være tilknyttet så mange medicinske oplysninger til den enkelte diabetiker. Fx er der ikke oplysninger om diabetestypen, da denne ikke med sikkerhed bestemmes for hver enkelt.Bemærk desuden, at det Nationale Diabetesregister alene indeholder information om diabetikere, der med stor sandsynlighed har fået sygdommen konstateret. Da diabetes ofte har et langt forløb inden den konstateres, må der derfor forventes at være et større antal personer, der har diabetes, men endnu ikke har fået konstateret sygdommen (mørketal).","En række i tabellen udtrykker, at en person er inkluderet i registeret. En person kan ikke optræde i flere rækker i tabellen.","Tabellen rummer to typer oplysninger for personer i registeret.1.Oplysninger for hver enkelt persons inklusion i registeret: Dvs. inklusionsdato, inklusionsårsag (hvilket kriterium man opfyldte ved inklusion i registeret). Der ud over er der oplysninger om, hvilke inklusionskriterier man evt. ellers opfylder og datoer for disse.2.Basisoplysninger som cpr-nummer, fødselsdato, køn og evt. dødsdato.T_diabetes kan kobles til t_bopael via variablen v_cpr.Ved alle opgørelser baseret på data i tabellen skal man tage højde for, at en fuld population først skønnes dannet ved udgangen af 1996. Nyinkluderede personer kan dermed først regnes for incidente fra og med 1997.Se også bemærkninger i den genereller beskrivelse af registeret.","Variablen angiver hvilket af de i alt 6 inklusionskriterier personen opfyldte, da vedkommende blev inkluderet i NDR. Inklusionen i NDR sker første gang vedkommende opfylder en af de i alt 6 inklusionskriterier ”blod5i1”, ”blod2i5”, ”fodterapi”, ”lpr”, ”oad” og ”ins”. Datoen for dette er værdien af variablen d_inkldto.De 6 inklusionskriterier er nærmere beskrevet i den overordnede beskrivelse af NDR og hver især i beskrivelsen af variablene d_blod5i1, d_blod2i5, d_fodt, d_lpr, d_oad og d_ins."
+1,,PLH,ophold_plejehjem,d_fraflyt_dato,,,,2014 -,,,,,,,Dato for fraflytning fra adresse
+1,,PLH,ophold_plejehjem,d_tilflyt_dato,,,,2014 -,,,,,,,Dato for tilflytning til adresse
+1,,PLH,ophold_plejehjem,plejehjemsnavn,,,,2014 -,,,,,,,Navn på plejehjem (klartekst)
+1,,PLH,ophold_plejehjem,v_pnr,,,,2014 -,,,,,,,CPR-nummer
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_cpr,,,,2005 - 2017,,,,,,,CPR-nummer
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_adiag,,,,2005 - 2017,,,,,,,Aktionsdiagnose
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_akut,,,,2005 - 2017,,,,,,,Markør for akut indlæggelse
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_blok,,,,2005 - 2017,,,,,,,Inddeling af speciale i blokke.
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_dia1,,,,2005 - 2017,,,,,,,Bidiagnose 1
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_dia2,,,,2005 - 2017,,,,,,,Bidiagnose 2
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_dia3,,,,2005 - 2017,,,,,,,Bidiagnose 3
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_drg,,,,2005 - 2017,,,,,,,DRG-gruppe
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_graa,,,,2005 - 2017,,,,,,,Markør for gråzone
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_hdiag,,,,2011 - 2017,,,,,,,Henvisningsdiagnose
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_henm,,,,2005 - 2017,,,,,,,Henvisningsmåde
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_indm,,,,2005 - 2017,,,,,,,Indskrivningsmåde
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_oprart1,,,,2005 - 2017,,,,,,,Operationsart 1
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_oprart2,,,,2005 - 2017,,,,,,,Operationsart 2
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_oprart3,,,,2005 - 2017,,,,,,,Operationsart 3
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_pattype,,,,2005 - 2017,,,,,,,Patienttype
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_plejeboligkode,,,,2009 - 2017,,,,,,,Markør for borgere i plejebolig/plejehjem
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_proc1,,,,2005 - 2017,,,,,,,Procedure 1
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_proc2,,,,2005 - 2017,,,,,,,Procedure 2
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_proc3,,,,2005 - 2017,,,,,,,Procedure 3
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_region,,,,2005 - 2017,,,,,,,Region
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_sgh,,,,2005 - 2017,,,,,,,Sygehus
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_sghafd,,,,2009 - 2017,,,,,,,Sygehus-afdeling
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_spec,,,,2005 - 2017,,,,,,,Speciale
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_udm,,,,2005 - 2017,,,,,,,Udskrivningsmåde
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_udmf,,,,2006 - 2017,,,,,,,Udskrivningsmåde for forløb
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_udsktype,,,,2005 - 2017,,,,,,,Udskrivningstype
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",d_inddto,,,,2005 - 2017,,,,,,,Indskrivningssdato
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",d_uddto,,,,2005 - 2017,,,,,,,Udskrivningsdato
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",d_uddtof,,,,2005 - 2017,,,,,,,Udskrivningsdato for forløb
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_behdage,,,,2005 - 2017,,,,,,,Behandlingsdage
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_indtime,,,,2005 - 2017,,,,,,,Indlæggelsestime
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_langpris,,,,2005 - 2017,,,,,,,Samlet pris for langliggere
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_pris,,,,2005 - 2017,,,,,,,DRG-takst og takst for ambulant besøg
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_recnum,,,,2005 - 2017,,,,,,,Recordnummer fra LPR
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_sengdage,,,,2005 - 2017,,,,,,,Sengedage
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_totpris,,,,2005 - 2017,,,,,,,Samlet takst
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_totpris_genop,,,,2007 - 2017,,,,,,,Samlet takst inklusiv genoptræning
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_udtime,,,,2005 - 2017,,,,,,,Udskrivningstime
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_adiag,,,,2005 - 2017,,,,,,,Aktionsdiagnose på besøgsdato
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_afd,,,,2005 - 2017,,,,,,,Afdeling
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_akut,,,,2005 - 2017,,,,,,,Markør for akut indlæggelse
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_bestakst,,,,2012 - 2017,,,,,,,Besøgstakst
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_bestype,,,,2005 - 2017,,,,,,,Besøgstype
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_casemix,,,,2005 - 2017,,,,,,,Ambulant DAGS-gruppe.
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_dia1,,,,2005 - 2017,,,,,,,Aktionsdiagnose
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_dia2,,,,2005 - 2017,,,,,,,Bidiagnose 1
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_dia3,,,,2005 - 2017,,,,,,,Bidiagnose 2
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_dia4,,,,2005 - 2017,,,,,,,Bidiagnose 3
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_drg,,,,2005 - 2017,,,,,,,DRG-gruppe
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_graazone,,,,2016 - 2017,,,,,,,Markør for gråzone
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_indm,,,,2005 - 2017,,,,,,,Indlæggelsesmåde
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_oprart1,,,,2005 - 2017,,,,,,,Operationsart 1
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_oprart2,,,,2005 - 2017,,,,,,,Operationsart 2
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_oprart3,,,,2005 - 2017,,,,,,,Operationsart 3
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_pattype,,,,2005 - 2017,,,,,,,Patienttype
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_proc1,,,,2005 - 2017,,,,,,,Procedure 1
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_udm,,,,2005 - 2017,,,,,,,Udskrivningsmåde
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",d_ambdto,,,,2005 - 2017,,,,,,,Dato for ambulant besøg
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",d_inddto,,,,2005 - 2017,,,,,,,Indskrivningssdato
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",d_uddto,,,,2005 - 2017,,,,,,,Udskrivningsdato
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_cpr,,,,2005 - 2017,,,,,,,CPR-nummer
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_dags_pris,,,,2016 - 2017,,,,,,,DAGS-takst for ambulant gruppe
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_indminut,,,,2005 - 2017,,,,,,,Indlæggelsesminut
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_indtime,,,,2005 - 2017,,,,,,,Indlæggelsestime
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_pris,,,,2005 - 2017,,,,,,,Takst for ambulant besøg inklusiv proceduretakst
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_pris_genop,,,,2007 - 2017,,,,,,,"Samlet takst på ambulant besøg, procedure og genoptræning"
+1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",v_cpr,,,,2005 - 2017,,,,,,,CPR-nummer
+1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",c_adiag,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",c_drg_psyk,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",c_sgh,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",d_inddto,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",d_uddto,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",v_drgpris,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",v_kompris_drg,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",v_langpris,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",v_totpris,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_amb""aktivitetsår""",v_cpr,,,,2005 - 2017,,,,,,,CPR-nummer
+1,,DRG,"psyk_takst""takstår""_amb""aktivitetsår""",c_adiag,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_amb""aktivitetsår""",c_indm,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_amb""aktivitetsår""",c_pattype,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_amb""aktivitetsår""",c_sgh,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_amb""aktivitetsår""",d_ambdto,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_amb""aktivitetsår""",d_inddto,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_amb""aktivitetsår""",d_uddto,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_amb""aktivitetsår""",v_aar,,,,2005 - 2017,,,,,,,
+1,,DRG,"psyk_takst""takstår""_amb""aktivitetsår""",v_recnum,,,,2005 - 2017,,,,,,,
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",adiag_drgsghf,,,,2018,,,,,,,Aktionsdiagnose for DRG-forløb (udvalgt blandt DRG-kontakternes dia01)
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",afregn_drgsghf,,,,2018,,,,,,,Markør for afregning af DRG-forløb (fra den dyreste enkeltgrupperede kontakt i forløb)
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",afslutning_drgsghf,,,,2018,,,,,,,Afslutningsmåde for DRG-forløb (fra udkontakt i forløb)
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",aktivitetsaar,,,,2018,,,,,,,Aktivitetsår for DRG-forløb
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",antal_i_forlob,,,,2018,,,,,,,Antal drg-kontakter i DRG-forløb
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",cpr,,,,2018,,,,,,,CPR-nummer
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",diagnosekilde_drgsghf,,,,2018,,,,,,,Kilde til aktionsdiagnose for DRG-forløb
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",drg_drgsghf,,,,2018,,,,,,,"DRG-forløbets DRG-gruppe, inklusiv afregningsregler"
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",drg_grouper_drgsghf,,,,2018,,,,,,,DRG-forløbets DRG-gruppe
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",drg_kontakt_id_drgsghf,,,,2018,,,,,,,"ID for DRG-kontakt i forløbet, som er afgørende for DRG-sygehusforløbets gruppering"
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",drgsghforlob_type,,,,2018,,,,,,,"Markør for DRG-forløbstype 
+(hjerne = hjernedød, praehosp = præhospital, baf = betalt af forskningsmidler, ' ' = andet)"
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",id,,,,2018,,,,,,,Primærnøgle for DRG-forløb og koblingsnøgle til soma_t18_drgkontakt[aktivitetsår]
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",indmaade_drgsghf,,,,2018,,,,,,,"Indlæggelsesmåde for DRG-forløbet (1 = akut, 2 = ikke akut)"
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",indtidspunkt_drgsghf,,,,2018,,,,,,,Konstrueret indtidspunkt for DRG-forløb
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",kontaktaarsag_drgsghf,,,,2018,,,,,,,Kontaktårsag for DRG-forløb (fra indkontakt i forløb)
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",kontaktdage_drgsghf,,,,2018,,,,,,,Kontaktdage i DRG-forløb (udtidspunkt_drgsghf - indtidspunkt_drgsghf + 1)
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",langliggerpris_drgsghf,,,,2018,,,,,,,Langliggerpris for DRG-forløb
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",liggedage_drgsghf,,,,2018,,,,,,,"Liggedage i DRG-forløb (udtidspunkt_drgsghf - indtidspunkt_drgsghf, dog mindst 1)"
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",totalpris_drgsghf,,,,2018,,,,,,,Total pris for DRG-forløb (pris_drg_drgsghf + langliggerpris_drgsghf)
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",udmaade_drgsghf,,,,2018,,,,,,,Udskrivningsmåde for DRG-forløb (fra udkontakt i forløb)
+1,,DRG,"soma_t18_drgsghforlob""aktivitetsår""",udtidspunkt_drgsghf,,,,2018,,,,,,,Konstrueret udtidspunkt for DRG-forløb
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",adiag,,,,2018,,,,,,,Aktionsdiagnose
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",afslutning,,,,2018,,,,,,,"Afslutningsmåde (13 = død, 27 = afsluttet til sygehusafsnit)"
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",akut_elektiv,,,,2018,,,,,,,"Markør for ambulant DRG-kontakt (1 = planlagt ambulant, 0 = akut ambulant)"
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",ambulant_dato,,,,2018,,,,,,,"Dato for ambulant besøg eller procedure, anvendt ved dannelsen af DRG-kontakt 
+(kun planlagt ambulante LPR-kontakter)"
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",blok,,,,2018,,,,,,,Inddeling af speciale i blokke.
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",dia01,,,,2018,,,,,,,Diagnose 1
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",dia02,,,,2018,,,,,,,Diagnose 2
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",dia03,,,,2018,,,,,,,Diagnose 3
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",diagnosekilde,,,,2018,,,,,,,Kilde til aktionsdiagnose
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",drg,,,,2018,,,,,,,"DRG-gruppe, inklusiv afregningsregler"
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",drg_drgsghf,,,,2018,,,,,,,DRG-gruppe for kontaktens DRG-forløb (før afregningsregler)
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",drgsghforlob_id,,,,2018,,,,,,,Koblingsnøgle til tabellen soma_t18_drgsghfor[aktivitetsår]
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",drgsghforlob_nr,,,,2018,,,,,,,Kontaktens nummer i DRG-forløb
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",drgsghforlob_type,,,,2018,,,,,,,"Markør for DRG-forløbstype 
+(hjerne = hjernedød, praehosp = præhospital, baf = betalt af forskningsmidler, ' ' = andet)"
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",drgsghforlob_udtidspunkt,,,,2018,,,,,,,Udtidspunkt for kontaktens DRG-forløb (bestemmer aktivitetsår for kontakt)
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",inddato,,,,2018,,,,,,,Indskrivningsdato
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",indmaade,,,,2018,,,,,,,"Indlæggelsesmåde (1 = akut, 2 = ikke akut)"
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",indtidspunkt_drgkontakt,,,,2018,,,,,,,"Konstrueret indtidspunkt for DRG-kontakt ud fra inddato, indtime, indminut og ambulant_dato"
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",kontakt_id,,,,2018,,,,,,,Indberetnings-ID fra LPR2 (contact_identification_id)
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",patienttype,,,,2018,,,,,,,"Patienttype (0 = stationær, 2 = ambulant, 4 = hjernedød)"
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",pris_drg,,,,2018,,,,,,,"Pris for DRG-gruppe, inklusiv afregningsregler"
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",proc01,,,,2018,,,,,,,Procedure 1
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",proc02,,,,2018,,,,,,,Procedure 2
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",proc03,,,,2018,,,,,,,Procedure 3
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",recnum,,,,2018,,,,,,,Recordnummer for LPR-kontakt
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",totalpris_drg,,,,2018,,,,,,,Totalpris for DRG-kontakt (pris_drg + lanliggergpris)
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",uddato,,,,2018,,,,,,,Udskrivningsdato for LPR-kontakt
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",udmaade,,,,2018,,,,,,,Udskrivningsmåde
+1,,DRG,"soma_t18_drgkont""aktivitetsår""",udtidspunkt_drgkontakt,,,,2018,,,,,,,"Konstrueret udtidspunkt for DRG-kontakt ud fra uddato, udtime og ambulant_dato"
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",cpr,,,,jan 2019 - mar 2019,,,,,,,CPR-nummer
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",id,,,,jan 2019 - mar 2019,,,,,,,"Primærnøgle for DRG-sygehusforløb og koblingsnøgle til tabellerne
+soma_l2_t19_drgkontakt[aktivitetsår] og soma_l3_t19_overgang19"
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",drg_kontakt_id_drgsghf,,,,jan 2019 - mar 2019,,,,,,,"ID for DRG-kontakt i forløbet, som er afgørende for DRG-sygehusforløbets gruppering"
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",adiag_drgsgh_ind,,,,jan 2019 - mar 2019,,,,,,,Aktionsdiagnose for indkontakt i DRG-forløb
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",adiag_drgsgh_ud,,,,jan 2019 - mar 2019,,,,,,,Aktionsdiagnose for udkontakt i DRG-forløb
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",adiag_drgsghf,,,,jan 2019 - mar 2019,,,,,,,Aktionsdiagnose for DRG-forløb (udvalgt blandt DRG-kontakternes dia01)
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",afregn_drgsghf,,,,jan 2019 - mar 2019,,,,,,,Markør for afregning af DRG-forløb (fra den dyreste enkeltgrupperede kontakt i forløb)
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",afslutning_drgsghf,,,,jan 2019 - mar 2019,,,,,,,Afslutningsmåde for DRG-forløb (fra udkontakt i forløb)
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",aktivitetsaar,,,,jan 2019 - mar 2019,,,,,,,Aktivitetsår for DRG-forløb
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",antal_i_forlob,,,,jan 2019 - mar 2019,,,,,,,Antal drg-kontakter i DRG-forløb
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",diagnosekilde_drgsghf,,,,jan 2019 - mar 2019,,,,,,,Kilde til aktionsdiagnose for DRG-forløb
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",drg_drgsghf,,,,jan 2019 - mar 2019,,,,,,,"DRG-forløbets DRG-gruppe, inklusiv afregningsregler"
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",drgkontakttype_drgsghf,,,,jan 2019 - mar 2019,,,,,,,"Kontakttype anvendt i grupperingsnøglen 
+9 = forløb indeholder min. én kontakt med kontakttype 9
+6 = forløbet indeholder kun kontakter med kontakttype 5 (ikke-besøg) eller 6 (egne forløb)
+5 = forløbet indeholder kun kontakter med kontakttype 5 (ikke-besøg)"
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",indtidspunkt_drgsghf,,,,jan 2019 - mar 2019,,,,,,,Konstrueret indtidspunkt for DRG-forløb
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",langliggerpris_drgsghf,,,,jan 2019 - mar 2019,,,,,,,Langliggerpris for DRG-forløb
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",pris_drg_drgsghf,,,,jan 2019 - mar 2019,,,,,,,"Pris for DRG-gruppe, inklusiv afregningsregler"
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",pris_drg_grouper_drgsghf,,,,jan 2019 - mar 2019,,,,,,,Pris på DRG-gruppe
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",sygehus,,,,jan 2019 - mar 2019,,,,,,,Sygehuskode
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",sygehus_region_drgsghf,,,,jan 2019 - mar 2019,,,,,,,Sygehusregion for DRG-forløb
+1,,DRG,"soma_l2_t19_drgsghfor""aktivitetsår""",totalpris_drgsghf,,,,jan 2019 - mar 2019,,,,,,,Total pris for DRG-forløb (pris_drg_drgsghf + langliggerpris_drgsghf)
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",cpr,,,,jan 2019 - mar 2019,,,,,,,CPR-nummer
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",id,,,,jan 2019 - mar 2019,,,,,,,Primærnøgle for DRG-kontakt og koblingsnøgle til tabellen soma_l2_t19_proc[aktivitetsår]
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",drgsghforlob_id,,,,jan 2019 - mar 2019,,,,,,,Koblingsnøgle til tabellen soma_l2_t19_drgsghfor[aktivitetsår]
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",adiag,,,,jan 2019 - mar 2019,,,,,,,Aktionsdiagnose
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",akut_elektiv,,,,jan 2019 - mar 2019,,,,,,,"Markør for ambulant DRG-kontakt (1 = planlagt ambulant, 0 = akut ambulant)"
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",ambulant_dato,,,,jan 2019 - mar 2019,,,,,,,"Dato for ambulant besøg eller procedure, anvendt ved dannelsen af DRG-kontakt 
+(kun planlagt ambulante LPR-kontakter)"
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",blok,,,,jan 2019 - mar 2019,,,,,,,Inddeling af speciale i blokke.
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",dia01,,,,jan 2019 - mar 2019,,,,,,,Diagnose 1
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",dia02,,,,jan 2019 - mar 2019,,,,,,,Diagnose 2
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",dia03,,,,jan 2019 - mar 2019,,,,,,,Diagnose 3
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",drg_grouper,,,,jan 2019 - mar 2019,,,,,,,Kontaktens DRG-gruppe
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",drgkontakttype,,,,jan 2019 - mar 2019,,,,,,,"Kontakttype anvendt i grupperingsnøglen (6=egne forløb, 5=ikke-besøg, 9=øvrige)"
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",drgsghforlob_nr,,,,jan 2019 - mar 2019,,,,,,,Kontaktens nummer i DRG-forløb
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",drgsghforlob_udtidspunkt,,,,jan 2019 - mar 2019,,,,,,,Udtidspunkt for kontaktens DRG-forløb (bestemmer aktivitetsår for kontakt)
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",inddato,,,,jan 2019 - mar 2019,,,,,,,Indskrivningsdato
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",indmaade,,,,jan 2019 - mar 2019,,,,,,,"Indlæggelsesmåde (1 = akut, 2 = ikke akut)"
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",indtidspunkt_drgkontakt,,,,jan 2019 - mar 2019,,,,,,,"Konstrueret indtidspunkt for DRG-kontakt ud fra inddato, indtime, indminut og ambulant_dato"
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",kontakt_id,,,,jan 2019 - mar 2019,,,,,,,Indberetnings-ID fra LPR2 (contact_identification_id)
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",patienttype,,,,jan 2019 - mar 2019,,,,,,,"Patienttype (0 = stationær, 2 = ambulant, 4 = hjernedød)"
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",pris_drg,,,,jan 2019 - mar 2019,,,,,,,"Pris for DRG-gruppe, inklusiv afregningsregler"
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",proc01,,,,jan 2019 - mar 2019,,,,,,,Procedure 1
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",proc02,,,,jan 2019 - mar 2019,,,,,,,Procedure 2
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",proc03,,,,jan 2019 - mar 2019,,,,,,,Procedure 3
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",recnum,,,,jan 2019 - mar 2019,,,,,,,Recordnummer for LPR-kontakt
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",sygehus,,,,jan 2019 - mar 2019,,,,,,,Sygehuskode
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",uddato,,,,jan 2019 - mar 2019,,,,,,,Udskrivningsdato for LPR-kontakt
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",udmaade,,,,jan 2019 - mar 2019,,,,,,,Udskrivningsmåde
+1,,DRG,"soma_l2_t19_drgkont""aktivitetsår""",udtidspunkt_drgkontakt,,,,jan 2019 - mar 2019,,,,,,,"Konstrueret udtidspunkt for DRG-kontakt ud fra uddato, udtime og ambulant_dato"
+1,,DRG,"soma_l2_t19_proc""aktivitetsår""",drgsghforlob_id,,,,jan 2019 - mar 2019,,,,,,,Koblingsnøgle til tabellen soma_l2_t19_drgsghfor[aktivitetsår]
+1,,DRG,soma_l3_t19_drgsghfor19,cpr,,,,2019,,,,,,,CPR-nummer
+1,,DRG,soma_l3_t19_drgsghfor19,adiag_drgsghf,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,afslutningsmaade_drgsghf,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,aktivitetsaar,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,antal_i_forlob,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,drg_drgsghf,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,drg_kontakt_id_drgsghf,,,,2019,,,,,,,"ID for DRG-kontakt i forløbet, som er afgørende for DRG-sygehusforløbets gruppering"
+1,,DRG,soma_l3_t19_drgsghfor19,drgkontakttype_drgsghf,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,drgsghforlob_type,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,id,,,,2019,,,,,,,Primærnøgle for DRG-sygehusforløb og koblingsnøgle til tabellerne soma_l3_t19_drgkontakt19 og soma_l3_t19_overgang19
+1,,DRG,soma_l3_t19_drgsghfor19,indtidspunkt_drgsghf,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,langliggerpris_drgsghf,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,pris_drg_drgsghf,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,sygdomsforlob_id,,,,2019,,,,,,,Fælles ID for alle kontakter i samme helbredsforløb i LPR3
+1,,DRG,soma_l3_t19_drgsghfor19,sygehus,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,sygehus_region,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgsghfor19,totalpris_drgsghf,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,cpr,,,,2019,,,,,,,CPR-nummer
+1,,DRG,soma_l3_t19_drgkont19,afslutningsmaade,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,aktivitetsaar,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,dia01,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,dia02,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,dia03,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,drg,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,drg_drgsghf,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,drgsghforlob_id,,,,2019,,,,,,,Koblingsnøgle til tabellen soma_l3_t19_drgsghfor19
+1,,DRG,soma_l3_t19_drgkont19,drgsghforlob_nr,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,henvisningsmaade,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,id,,,,2019,,,,,,,"Primærnøgle for DRG-kontakt og koblingsnøgle til tabellerne 
+soma_l3_t19_diag19, soma_l3_t19_proc19 og soma_l3_t19_int_kode19"
+1,,DRG,soma_l3_t19_drgkont19,langliggerpris,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,pris_drg,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,proc01,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,proc02,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,proc03,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,sygdomsforlob_id,,,,2019,,,,,,,Fælles ID for alle kontakter i samme helbredsforløb i LPR3
+1,,DRG,soma_l3_t19_drgkont19,sygehus,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,sygehus_region,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,tdia01,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,tdia02,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,tdia03,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,totalpris_drg,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,tungeste_drgkontakt,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_drgkont19,udfaldsgivende_kontakt,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_overgang19,drgsghforlob_id_lpr2,,,,2019,,,,,,,Koblingsnøgle til tabellen soma_l2_t19_drgsghfor19
+1,,DRG,soma_l3_t19_overgang19,drg_drgsghf_lpr2,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_overgang19,drg_drgsghf_lpr3,,,,2019,,,,,,,
+1,,DRG,soma_l3_t19_overgang19,drgsghforlob_id_lpr3,,,,2019,,,,,,,Koblingsnøgle til tabellen soma_l3_t19_drgsghfor19
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",adiag_drgsghf,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",afslutningsmaade_drgsghf,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",aktivitetsaar,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",antal_i_forlob,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",drg_drgsghf,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",drg_kontakt_id_drgsghf,,,,2020 -,,,,,,,"ID for DRG-kontakt i forløbet, som er afgørende for DRG-sygehusforløbets gruppering"
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",drgkontakttype_drgsghf,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",drgsghforlob_type,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",henvisningsmaade_drgsghf,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",id,,,,2020 -,,,,,,,"Primærnøgle for DRG-sygehusforløb og koblingsnøgle til tabellen 
+soma_t[takstår]_drgkontakt[aktivitetsår]"
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",indtidspunkt_drgsghf,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",pris_drg_drgsghf,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",sygdomsforlob_id,,,,2020 -,,,,,,,Fælles ID for alle kontakter i samme helbredsforløb i LPR3
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",sygehus,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",sygehus_region,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgsghfor""aktivitetsår""",totalpris_drgsghf,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",cpr,,,,2020 -,,,,,,,CPR-nummer
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",afslutningsmaade,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",aktivitetsaar,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",dia01,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",dia02,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",dia03,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",drg,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",drg_drgsghf,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",drgsghforlob_id,,,,2020 -,,,,,,,Koblingsnøgle til tabellen soma_t[takstår]_drgsghfor[aktivitetsår]
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",drgsghforlob_nr,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",henvisningsmaade,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",id,,,,2020 -,,,,,,,"Primærnøgle for DRG-kontakt og koblingsnøgle til tabellerne soma_t[takstår]_diag[aktivitetsår], 
+soma_t[takstår]_proc[aktivitetsår] og soma_t[takstår]_int_kode[aktivitetsår]"
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",langliggerpris,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",pris_drg,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",proc01,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",proc02,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",proc03,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",sygdomsforlob_id,,,,2020 -,,,,,,,Fælles ID for alle kontakter i samme helbredsforløb i LPR3
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",sygehus,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",sygehus_region,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",tdia01,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",tdia02,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",tdia03,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",totalpris_drg,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",tungeste_drgkontakt,,,,2020 -,,,,,,,
+1,,DRG,"soma_t""takstår""_drgkont""aktivitetsår""",udfaldsgivende_kontakt,,,,2020 -,,,,,,,
+1,,RUKS,kronikere,cpr,,,,1995 -,,,,,,,CPR-nummer
+1,,RUKS,kronikere,aarsag_tekst,,,,1995 -,,,,,,,Årsag til inklusion/eksklusion
+1,,RUKS,kronikere,debut,,,,1995 -,,,,,,,Debutdato for kronisk sygdom/svær psykisk lidelse
+1,,RUKS,kronikere,opdateringsdato,,,,1995 -,,,,,,,Opdateringsdato
+1,,RUKS,kronikere,status,,,,1995 -,,,,,,,Statuskode fra CPR-registeret
+1,,RUKS,kronikere,sygdom,,,,1995 -,,,,,,,Kronisk sygdom/svær psykisk lidelse
+1,,RUKS,kronikere,uddato,,,,1995 -,,,,,,,Eksklusionsdato

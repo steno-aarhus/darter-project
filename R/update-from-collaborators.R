@@ -72,35 +72,33 @@ full_join(original_dst, updates_dst) %>%
 original_sds <- here("data/sds-registers-with-variables-to-use.csv") %>%
     read_csv()
 
-# updates_sds <-
-    read_csv2(
-    here("data-raw/addition-sds.csv"))
-    ,
-    col_names = c("variable_name", "description_english",
-                  "register_id", "time_period"),
+updates_sds <- read_csv2(
+    here("data-raw/addition-sds.csv"),
+    col_names = c("table_name",
+                  "variable_name",
+                  "variablebeskrivelse",
+                  "periode",
+                  "use_in_application",
+                  "register_name"),
     locale = locale(encoding = "latin1")
 ) %>%
     mutate(
-        register_id = str_remove(register_id, " - .*$"),
-        variable_name = str_replace(variable_name, "pnr/cpr", "pnr12"),
-        use_in_application = "1"
-    ) %>%
-    separate(time_period,
-             into = c("register_start_year", "register_end_year"),
-             sep = "-")
+        # register_id = str_remove(register_id, " - .*$"),
+        use_in_application = as.integer(use_in_application == "x")
+    )
 
 # registers missing.
 missing_registers <- anti_join(
-    updates %>% distinct(register_id),
-    original %>% distinct(register_id)
+    updates_sds %>% distinct(register_name),
+    original_sds %>% distinct(register_name)
 )
 
 # variables missing
 missing_variables <- anti_join(
-    updates %>% distinct(register_id, variable_name),
-    original %>% distinct(register_id, variable_name)
+    updates_sds %>% distinct(register_name, variable_name),
+    original_sds %>% distinct(register_name, variable_name)
 )
 
-full_join(original, updates) %>%
-    write_csv(here("data/dst-registers-with-variables-to-use.csv"),
+full_join(original_sds, updates_sds) %>%
+    write_csv(here("data/sds-registers-with-variables-to-use.csv"),
               na = "")
