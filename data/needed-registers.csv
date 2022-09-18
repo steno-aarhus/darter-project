@@ -56,3 +56,13 @@ TRUE,,1,FTNAEVN,Fertilitet - Nævner,Fertility - Mentions,dst,Do we need this? T
 ,1,1,DODSAARS,Dødsårssagsregistret,Cause of death register,dst,,
 ,1,,IVF,IVF-registeret,In vitro fertilization register,sds,"This have not been scraped, but were taken from other applications.",TRUE
 ,1,1,DND,Det Nationale Diabetesregister,National Diabetes Register,sds,,
+,,,BFL,Detaljeret lønmodtagerdata fra e-Indkomst,Detailed employee data from e-Income,dst,,
+,,,DREAM,Beskæftigelsesministeriets forløbsdatabase DREAM,DREAM database of the Ministry of Employment,dst,,
+,,,FRPE,Fraværsperioder,Periods of absence,dst,,
+,,,AEREHAB,Ældredokumentation - Rehabilitering,Elderly documentation - Rehabilitation,dst,,
+,,,AEFV,Ældredokumentation visiteret hjemmehjælp frit valg,Documentation for the elderly Visited home help free choice,dst,,
+,,,AETR,Ældredokumentation genoptræning vedligeholdelsestræning,Elderly documentation rehabilitation maintenance training,dst,,
+,,,AEHJSP,Ældredokumentation - hjemmesygepleje i eget hjem,Elderly documentation - home care in own home,dst,,
+,,,PLH,Plejehjemsdata,Nursing home data,sds,,
+,,,DRG,Afregning og finansiering,Settlement and financing,sds,,
+,,,RUKS,Register for Udvalgte Kroniske Sygdomme,Register of Selected Chronic Diseases,sds,,
