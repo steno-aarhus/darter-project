@@ -2,6 +2,20 @@
 format: docx
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = "asis")
+library(tidyverse)
+library(here)
+library(glue)
+needed_registers <- here("data/needed-registers.csv") %>% 
+    read_csv(col_types = "lddccccc") %>% 
+    filter(!drop | is.na(drop)) %>% 
+    select(register_id, register_name_dk) %>% 
+    glue_data("{register_name_dk} ({register_id})") %>% 
+    sort() %>% 
+    str_c(collapse = "; ") 
+```
+
 # English original
 
 ## Projektets type, titel og formål
@@ -39,12 +53,24 @@ diabetes and the diseases that follow its diagnosis.
 
 ### Registre: Angiv hvilke
 
+```{r}
+needed_registers
+```
+
 ## Antal, personkategorier og oplysningstyper
+
+### Antalpersoner-new
+
+\~8 million people
+
+### Personkategori 1
+
+Whole population (e.g., patients, healthy, dead, etc).
 
 ### Oplysningstyper om personkategori 1:
 
-All persons involved in the project are researchers (diabetes
-epidemiologists)
+A lot of information on health and disease (e.g. diabetes), economics,
+social relationships (e.g. parents).
 
 ## Sikkerhed og indsendelse
 
@@ -95,26 +121,24 @@ efter diagnosen.
 
 ### Registre: Angiv hvilke
 
-```{r setup, echo=FALSE, warning=FALSE, message=FALSE, results='asis'}
-library(tidyverse)
-library(here)
-library(glue)
-here("data/needed-registers.csv") %>% 
-    read_csv(col_types = "lddccccc") %>% 
-    filter(!drop | is.na(drop)) %>% 
-    select(register_id, register_name_dk) %>% 
-    glue_data("{register_name_dk} ({register_id})") %>% 
-    sort() %>% 
-    str_c(collapse = "; ") %>% 
-    cat()
+```{r}
+needed_registers
 ```
 
 ## Antal, personkategorier og oplysningstyper
 
+### Antalpersoner-new
+
+\~8 mio. mennesker
+
+### Personkategori 1
+
+Hele befolkningen (f.eks, patienter, raske, afdøde, etc).
+
 ### Oplysningstyper om personkategori 1:
 
-Alle personer involveret i projektet er forskere (diabetes
-epidemiologer)
+Mange oplysninger om sundhed og sygdom (f.eks. diabetes), økonomiske, og
+sociale forhold (f.eks. forældre).
 
 ## Sikkerhed og indsendelse
 
@@ -126,4 +150,3 @@ ansvarlige for at styre og sikre sikkerheden i forskningsprojekterne.
 Mere information om vores proces kan indhentes fra enten Annelli Sandbæk
 (anesnd\@rm.dk), Adam Hulman (adahul\@rm.dk), eller Else-Marie Dalsgaard
 (elseda\@rm.dk)
-
