@@ -15,92 +15,100 @@ output:
 
 <!-- Brief introduction to the area. -->
 
-Diabetes is a complex, multi-factorial disease. Its development depends on the
-timing and accumulation of exposures throughout the life-course. In addition to
-genetic influences, behavioral risk factors and socioeconomic conditions cluster
-in families and are passed through generations. For instance, poor childhood
-socioeconomic status (SES) can impact final educational attainment, adult SES,
-and lifestyle and behavioral characteristics, which ultimately influence an
-individual's metabolic capacity to regulate glucose and subsequent risk for
-diabetes.
+Diabetes is a complex, multi-factorial disease. Its development depends
+on the timing and accumulation of exposures throughout the life-course.
+In addition to genetic influences, behavioral risk factors and
+socioeconomic conditions cluster in families and are passed through
+generations. For instance, poor childhood socioeconomic status (SES) can
+impact final educational attainment, adult SES, and lifestyle and
+behavioral characteristics, which ultimately influence an individual's
+metabolic capacity to regulate glucose and subsequent risk for diabetes.
 
 ## Purpose
 
 <!-- The purpose of the project is briefly formulated. -->
 
-The overall aim of this project is to identify the contributions of family and
-early life determinants on the development, management, and care of diabetes and
-the diseases that may arise following a diabetes diagnosis, under a life-course
-framework.
+The overall aim of this project is to identify the contributions of
+family and early life determinants on the development, management,
+economics, and care of diabetes and the diseases that may arise
+following a diabetes diagnosis, under a life-course framework.
 
 ## The problem of the project
 
+```{=html}
 <!-- 
 Preferably formulated as the specific question or questions to which the 
 conclusion must answer.
 -->
-
+```
 Some of our questions include:
 
-1. Are some metabolic characteristics affected more by early life conditions than others?
-1. Knowing the above and knowing an adult individual's history during early life, 
-could we intervene and target specific metabolic characteristics to lower the risk
-for T2DM?
-1. Do some early life conditions affect an adult individual's metabolic status and
-risk for disease more than other conditions?
-1. To what extent does the family network (e.g. parents, grandparents, siblings)
-and family environment influence the risk for developing type 2 diabetes in adulthood?
+1.  Are some metabolic characteristics affected more by early life
+    conditions than others?
+2.  Knowing the above and knowing an adult individual's history during
+    early life, could we intervene and target specific metabolic
+    characteristics to lower the risk for T2DM?
+3.  Do some early life conditions affect an adult individual's metabolic
+    status and risk for disease more than other conditions?
+4.  To what extent does the family network (e.g. parents, grandparents,
+    siblings) and family environment influence the risk for developing
+    type 2 diabetes in adulthood?
 
 ## Data and Method
 
+```{=html}
 <!-- 
 How will the project respond to the problem? What data will be used? How should
 data be used?
 -->
+```
+We intend to use the requested data from both SDS and DST registers, as
+well as data from Danish cohort studies, to apply causal and predictive
+statistical methods that best model associations for our questions and
+compare how various public health strategies might impact the
+prevention, economics, and management of diabetes and the diseases that
+follow its diagnosis.
 
-We intend to use the requested data from both SDS and DST registers, as well
-as data from Danish cohort studies, to apply causal and predictive statistical methods 
-that best model associations for our questions and compare how various public
-health strategies might impact the prevention and management of diabetes and the
-diseases that follow its diagnosis.
-
-Because we intend to try to answer questions that involve any individual's early
-life and early childhood conditions, we need data on their parents. Likewise, to
-understand the role that the family network, including siblings and
-grandparents, has on diabetes risk, we need a large enough population to make
-these linkages and to adequately study this area. Given the complicated nature
-of linking and constructing family networks, we need data on not just the individual
-but also the family in order to obtain the data we need to answer our questions.
+Because we intend to try to answer questions that involve any
+individual's early life and early childhood conditions, we need data on
+their parents. Likewise, to understand the role that the family network,
+including siblings and grandparents, has on diabetes risk, we need a
+large enough population to make these linkages and to adequately study
+this area. Given the complicated nature of linking and constructing
+family networks, we need data on not just the individual but also the
+family in order to obtain the data we need to answer our questions.
 
 ## Publication of results
 
 <!-- How and when are the results of the research planned to be published? -->
 
 We will disseminate the results of the planned research project through
-pre-print archives, conference presentations, journal articles, and through
-blogs and other social media outlets. Results will only be published in open
-access scientific outlets.
+pre-print archives, conference presentations, journal articles, and
+through blogs and other social media outlets. Results will only be
+published in open access scientific outlets.
 
 ## Perspective
 
 <!-- What knowledge of societal relevance can this study contribute to? -->
 
-This project will contribute to a broader and deeper understanding of the role
-that these factors play with the development and progression of diabetes. 
+This project will contribute to a broader and deeper understanding of
+the role that these factors play with the development and progression of
+diabetes.
 
-Understanding how early life and familial factors can influence diabetes provides
-us with tools and knowledge to better target, intervene, and either
-prevent or manage diabetes and its complications. Considering the impact that
-diabetes as a disease itself and its related comorbidities has at the personal,
-public health, and economic level, any improvement in knowledge can have major 
-impacts.
+Understanding how early life and familial factors can influence diabetes
+provides us with tools and knowledge to better target, intervene, and
+either prevent or manage diabetes and its complications. Considering the
+impact that diabetes as a disease itself and its related comorbidities
+has at the personal, public health, and economic level, any improvement
+in knowledge can have major impacts.
 
 ## Ethical considerations
 
+```{=html}
 <!-- 
 If the project involves direct contact with citizens, for example questionnaire 
 surveys or intervention studies: What ethical considerations have been made in
 connection with the direct involvement of citizens in the survey?
 -->
-
+```
 No direct contact to citizens are made in this project.
