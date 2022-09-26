@@ -1,0 +1,26 @@
+---
+format: docx
+---
+
+1.  Processing of personally identifiable data
+    -   See attached documents.
+    -   Requested information:
+        -   Name of institution responsible for data: Steno Diabetes
+            Center Aarhus
+        -   Name of project manager: Annelli Sandbæk (or Adam Hulman)
+        -   Title of the project: Interplay between diabetes and
+            intergenerational transmission of health determinants over
+            the life course
+        -   End date of the project, if any: 2030-12-31 (with DST)
+2.  Payment information
+    -   E-mail payment manager: sofalb\@rm.dk
+    -   Invoice must be sent to: Sofie Albrechtsen, Steno Diabetes
+        Center Aarhus
+    -   CVR: 29190925
+    -   EAN:
+    -   Project account: 708421
+3.  Extraction description
+    -   We've updated the extraction document with the requested
+        justifications.
+4.  ATC codes for LMDB:
+    -   We've completed the ATC code document as requested.
