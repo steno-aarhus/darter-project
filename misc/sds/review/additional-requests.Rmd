@@ -1,0 +1,187 @@
+# Clarifications and other requests
+
+## Danish original
+
+Jeg er nu i gang med den indledende behandling af din ansøgning. I den
+forbindelse kan jeg se, at der er behov for afklaring af følgende, før
+vi kan gå videre med sagsbehandlingen:
+
+1.  Behandling af personhenførbare data
+
+    Vi skal i Forskerservice se dokumentation for, at din dataansvarlige
+    institution har godkendt databehandlingen af personhenførbare
+    oplysninger i forbindelse med dit projekt. Det vil sige, at du skal
+    fremsende følgende:
+
+    -   Din dataansvarlige institutions gældende godkendelse af
+        databehandlingen i dit projekt. Godkendelsen skal som minimum
+        indeholde følgende informationer:
+        -   Navn på dataansvarlig institution
+        -   Navn på projektansvarlig person
+        -   Titel på projektet
+        -   Slutdato for projektet, hvis denne findes
+
+    Hvis godkendelsen ikke indeholder disse informationer, skal
+    informationerne indsendes på anden vis, for eksempel i form af
+    fortegnelsen med de informationer der er anført vedrørende dit
+    projekt.
+
+    -   Hvis den gældende godkendelse og eventuelle fortegnelse ikke
+        indeholder alle relevante oplysninger, skal også indsendes
+        tidligere godkendelser af ændringer i projektet. Ændringer kan
+        for eksempel være ændringer i formål, titel eller skift af
+        projektansvarlig person.
+
+2.  Betalingsoplysninger
+
+    Du har angivet følgende betalingsoplysninger:
+
+    -   E-mail betalingsansvarlig:
+        [sofalb\@rm.dk](mailto:sofalb@rm.dk){.email}
+    -   Faktura skal stiles til: Sofie Albrechtsen, Steno Diabetes
+        Center Aarhus
+    -   CVR: 29190925
+    -   EAN:
+    -   Projektkonto:
+
+    Hvis du er i tvivl om CVR-nummeret, kan du finde hjælp her: VIRK
+
+    Du har ikke angivet et EAN-nummer. Fakturaen kan derfor ikke leveres
+    elektronisk. Hvis du ønsker en elektronisk faktura, bedes du sende
+    os det EAN-nummer, som fakturaen skal sendes til. Bemærk at såfremt
+    betaler er en offentlige institution, skal der angives et
+    EAN-nummer.
+
+    Du har ikke angivet en projektkonto. Hvis der skal refereres til en
+    projektkonto på den faktura, der fremsendes, må du meget gerne
+    oplyse denne.
+
+3.  Udtræksbeskrivelse
+
+    Jeg forstår af projektbeskrivelsen, at formålet med indeværende
+    projekt er at undersøge familie og tidlig livsfaktorers betydning
+    for udvikling, håndtering og behandling af diabetes og følger heraf
+    i et life-course perspektiv.
+
+    Jeg læser af udtræksbeskrivelsen, at populationen består af 8,5 mio.
+    mennesker, som har været i live og bosiddende i Danmark i perioden
+    1970-2020.
+
+    Jeg forstår, at I har behov for data fra IVF-registeret for at
+    afdække faktorer i tidlig liv og i barndommen, samt
+    familierelationer.
+
+    Med afsæt i Databeskyttelseslovens §10 og dataminimeringsprincippet,
+    har Forskerservice pligt til at sikre, at vi kun videregiver de
+    data, som er nødvendige for at projektet kan gennemføres.
+
+    -   Til ovenstående formål skal populationen afgrænses til relevante
+        personer med diabetes og disses familierelationer.
+    -   Alternativt skal du give en uddybet begrundelse for, at I har
+        behov for data om IVF-behandlinger og kræftdiagnoser på alle
+        personer, der har levet og boet i Danmark i peiroden 1970-2020,
+        inklusiv personer, som ikke er diabetespatienter eller i
+        familierelation til en diabetespatient.
+
+    Det fremgår ikke af udtræksbeskrivelsen eller projektbeskrivelsen,
+    hvordan data fra CAR og IVF skal anvendes til at besvare projektets
+    problemstilling.
+
+    -   Jeg skal derfor bede dig give en uddybet begrundelse for dit
+        behov for data fra både CAR og IVF.
+
+    Se Forskerservices krav til udtræksbeskrivelsen her: Krav til
+    udtræksbeskrivelse
+
+Jeg vil afvente svar fra dig, før jeg går videre med sagsbehandlingen.
+Bemærk, at sagsbehandlingen vil være hurtigere, såfremt der kan
+fremsendes samlet afklaring af ovenstående punkter.
+
+Hvis du har spørgsmål til ovenstående punkter, er du altid meget
+velkommen til at kontakte mig. Alternativt kan du kontakte
+Forskerservice
+
+## English translation
+
+Clarifications of the following before proceeding with the case
+processing:
+
+1.  Processing of personally identifiable data
+
+    In Forskerservice, we must see documentation that your
+    data-responsible institution has approved the data processing of
+    personally identifiable information in connection with your project.
+    This means that you must submit the following:
+
+    -   Your data controller's current approval of the data processing
+        in your project. The approval must at least contain the
+        following information:
+        -   Name of institution responsible for data: Steno Diabetes
+            Center Aarhus
+        -   Name of project manager: Annelli Sandbæk (or Adam Hulman)
+        -   Title of the project: Interplay between diabetes and
+            intergenerational transmission of health determinants over
+            the life course
+        -   End date of the project, if any: 2030-12-31
+
+    If the approval does not contain this information, the information
+    must be submitted in another way, for example in the form of the
+    list with the information provided regarding your project.
+
+    -   If the current approval and any list does not contain all
+        relevant information, previous approvals of changes to the
+        project must also be submitted. Changes can be, for example,
+        changes in purpose, title or change of project manager.
+
+2.  Payment information
+
+    You have entered the following payment information:
+
+    -   E-mail payment manager:
+    -   Invoice must be sent to:
+    -   CVR:
+    -   EAN:
+    -   Project account:
+
+    If you are in doubt about the CVR number, you can find help here:
+    WORK
+
+    You have not entered an EAN number. The invoice can therefore not be
+    delivered electronically. If you want an electronic invoice, please
+    send us the EAN number to which the invoice should be sent. Note
+    that if the payer is a public institution, an EAN number must be
+    entered.
+
+    You have not specified a project account. If you need to refer to a
+    project account on the invoice that is sent, you are very welcome to
+    state this.
+
+3.  Extraction description
+
+    Based on section 10 of the Data Protection Act and the data
+    minimization principle, Forskerservice has a duty to ensure that we
+    only pass on the data that is necessary for the project to be
+    implemented.
+
+    For the above purposes, the population should be limited to relevant
+    individuals with diabetes and their family relationships.
+
+    Alternatively, you must provide a detailed justification that you
+    need data on IVF treatments and cancer diagnoses on all persons who
+    have lived and lived in Denmark in the period 1970-2020, including
+    persons who are not diabetic patients or in a family relationship to
+    a diabetic patient.
+
+    It does not appear from the extract description or the project
+    description how data from CAR and IVF are to be used to answer the
+    project's problem.
+
+    -   I must therefore ask you to provide a detailed justification for
+        your need for data from both CAR and IVF.
+
+    See Research Service's requirements for the extract description
+    here: Requirements for extract description
+
+I will await a response from you before proceeding with the proceedings.
+Please note that case processing will be faster if overall clarification
+of the above points can be submitted.
