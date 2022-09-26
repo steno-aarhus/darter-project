@@ -11,6 +11,7 @@ output:
         reference_docx: ../../resources/templates/appendix.docx
 ---
 
+```{=html}
 <!-- 
 Your extract description must consist of the following points: 
 
@@ -19,30 +20,32 @@ Your extract description must consist of the following points:
 - Data connection
 - Justification for the requested data
 -->
-
+```
 ## Data access and user on the Research Machine
 
 We do not need access to a research machine, we have a project at DST.
 
 ## Treatment site
 
-We want the data to be transferred to our project on the DST research server.
+We want the data to be transferred to our project on the DST research
+server.
 
 ## Population
 
 <!-- State whether you need CPR linked for you or if you will be doing it. -->
 
 To identify familial relations through individuals' life course
-trajectory, the population requested covers all individuals, who live or lived
-in Denmark from 1 January 1970 to 31 December 2020 (~8.5 million people). The
-family linkage and structure makes the construction of the population
-complicated, which we will do ourselves. For that we need the entire population
-because we need data on not just the individual, but also the family (parents
-and siblings). Denmark Statistics has given us the population and data we
-requested.
+trajectory, the population requested covers all individuals, who live or
+lived in Denmark from 1 January 1970 to 31 December 2020 (\~8.5 million
+people). The family linkage and structure makes the construction of the
+population complicated, which we will do ourselves. For that we need the
+entire population because we need data on not just the individual, but
+also the family (parents and siblings). Denmark Statistics has given us
+the population and data we requested.
 
 ## Data connection
 
+```{=html}
 <!-- 
 You must specify what data you want to access for the population you have specified. 
 
@@ -53,7 +56,7 @@ Data must as a minimum be delimited on the basis of the following parameters:
 - Which variables
 - What time period
 -->
-
+```
 ```{r list-registers-needed, include=FALSE}
 library(tidyverse)
 library(here)
@@ -79,11 +82,15 @@ dst_variables <- dst_variables %>%
     ) %>% 
     select(register_name = register_name_dk, variable_name, time_period)
 
-sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv"))
-sds_variables <- sds_variables %>% 
+sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv")) %>% 
     filter(use_in_application == 1) %>% 
-    mutate(start_year = str_extract(periode, "^\\d{4}"),
-           time_period = str_c(start_year, " to 2020")) %>% 
+    mutate(
+        start_year = str_extract(periode, "\\d{4}"),
+        time_period = case_when(
+            str_detect(periode, "jan 2019 - .*") ~ periode,
+            TRUE ~ str_c(start_year, " to 2020")
+        )
+    ) %>% 
     select(register_name, table_name, variable_name, time_period)
 
 random_registers <- read_csv(here("data/random-undocumented.csv")) %>% 
@@ -91,7 +98,7 @@ random_registers <- read_csv(here("data/random-undocumented.csv")) %>%
     select(register_name, table_name = register_table_name, variable_name,
            time_period)
 
-sds_register_names <- c("Cancerregisteret", "IVF", "LPR_PSYK")
+sds_register_names <- c("Cancerregisteret", "IVF", "LPR_PSYK", "DRG", "PLH", "RUKS")
 registers <- bind_rows(sds_variables, random_registers) %>% 
     filter(register_name %in% sds_register_names) %>% 
     bind_rows(dst_variables)
@@ -120,6 +127,7 @@ registers %>%
 
 ## Justification for the requested data
 
+```{=html}
 <!-- 
 We ask you to briefly describe how the desired data can be used to answer the
 project's problem.
@@ -127,9 +135,127 @@ project's problem.
 This is to ensure that you as a researcher have access to data that is both
 necessary and sufficient for your project.
 -->
+```
+-   Population:
 
-Most of the requested data (e.g. LMBD, LPR) are used to determine diabetes
-status using published algorithms such as from Steno Copenhagen. We also need
-the data to determine other health outcomes like death or complications arising from
-diabetes. The rest of the data is used to determine early life/childhood factors and
-family network relationships (e.g. IVF)
+    -   We require data on all individuals, including those without
+        diabetes, in order for our models to have a comparison to use
+        and to identify risk factors. We also need the data on the
+        individuals *before* they get diabetes until their birth in
+        order to study life course effects on diabetes risk and eventual
+        prevention.
+
+-   IVF treatments and cancer diagnoses on all persons who have lived
+    and lived in Denmark in the period 1970-2020, including persons who
+    are not diabetic patients or in a family relationship to a diabetic
+    patient:
+
+    -   Over the last decades, increasing trends in the incidence of
+        specific types of cancers, obesity, and type 2 diabetes has been
+        observed globally. Lifestyle factors such as the type of diet
+        that is consumed, and the quantity of physical activity that is
+        performed are some of the drivers in the development of obesity,
+        which is a strong independent risk factor for type 2 diabetes
+        and the link to certain types of cancers such as liver,
+        pancreas, breast, among others. Furthermore, shared biological
+        pathways between diabetes and cancer include inflammation,
+        metabolic and genetic anomalies. In summary, a broad body of
+        literature shows a strong link between diabetes and cancer. In
+        this project, we would investigate how diabetes and cancer (and
+        other diseases) cluster in families and how this disease
+        aggregation in the family affects the individual risk of
+        developing different chronic disease profiles (e.g. diabetes or
+        cancer, or both). In short, data on cancer diagnoses on all
+        persons who have lived and lived in Denmark from the period
+        1970-2020 is necessary, as this population will serve as the
+        reference group when relevant.
+
+        For example, if we want to estimate the risk of diabetes for
+        50-year-old male individuals with a paternal history of cancer
+        and diabetes, the reference group would be the 50-year-old male
+        individuals with no paternal history of cancer and diabetes. It
+        would be possible to investigate the independent effect of
+        paternal cancer history on diabetes risk among those individuals
+        with no paternal history of diabetes. A second example of a
+        reference population is when estimating mortality rates of
+        diabetes and cancer using transition models. Where individuals
+        enter the cohort without any disease and then move into the next
+        state that could be either diabetes only, cancer only, or death,
+        then move to diabetes with cancer and then transition to death.
+
+-   Both CAR and IVF:
+
+    -   Diseases following the diabetes diagnosis includes not only the
+        classical diabetes related diseases, but also less studied
+        diseases like reproductive impairment and cancers. Therefore, we
+        request access to several registers to identify relevant factors
+        related to family and early life determinants on the
+        development, management, and care of diabetes and for
+        development of diabetes and diseases following diabetes.
+
+-   DRG og DAGS grupperet LPR (DRG)
+
+    -   Hospital treatment is a crucial cost when it comes to diabetes
+        care. It is important to analyse all costs (and not only those
+        with an acute diagnosis of diabetes) as diabetes may be related
+        to a general change in and therefore the consumption of hospital
+        care.
+
+    -   The years are extended to 2004 in order to calculate charlson
+        co-morbidity index with a 10-year look back.
+
+-   Landspatientregisteret psykiatri (LPR)
+
+    -   Treatment in a psychiatric hospital may be influenced by a
+        possible diabetes diagnosis and should therefore be included to
+        provide the full picture.
+
+-   Plejehjemsadresser (PLH)
+
+    -   People with diabetes may be at increased risk of needing to live
+        in a care home, particularly in the context of diabetes-related
+        conditions.
+
+-   Register for Udvalgte Kroniske Sygdomme (RUKS)
+
+    -   RUKS is used to compare the identified diabetes population and
+        to compare morbidity between the identified diabetes population
+        and the diabetes-free population.
+
+-   Lægemiddelstatistiskregisteret hos Danmarks Statistisk (LMDB)
+
+    -   Diabetes patients can have a considerable consumption of
+        medicines both directly related to diabetes, but also other
+        medicines.
+
+<!-- ## Extras -->
+
+<!-- -   Laboratoriedatabasen (LAB) -->
+
+<!--     -   HbA1c measurements from the laboratory database researcher table -->
+
+<!--         are desired to examine incidence and progression of diabetes in -->
+
+<!--         the whole population, especially from general practice which is -->
+
+<!--         only available to a limited extent. Data unbiased by value are -->
+
+<!--         desired as diagnostic criteria have changed over time. The -->
+
+<!--         remaining measurements (cholesterol, eGFR, CRP, Urat, etc.) are -->
+
+<!--         desired to examine the incidence and progression of -->
+
+<!--         complications of the disease. Information on the laboratory and -->
+
+<!--         the applicant is requested in order to take into account -->
+
+<!--         possible differences in measurements and results among -->
+
+<!--         laboratories and geographically. Reference ranges are requested -->
+
+<!--         to examine responses indicated to be in the normal range and any -->
+
+<!--         differences between laboratories and over time. -->
+
+<!--     -   De relevante NPU/DNK koder er listet i nedenstående tabel. -->
