@@ -65,7 +65,7 @@ vi kan gå videre med sagsbehandlingen:
 
     Jeg læser af udtræksbeskrivelsen, at populationen består af 8,5 mio.
     mennesker, som har været i live og bosiddende i Danmark i perioden
-    1970-2020.
+    1970-2021.
 
     Jeg forstår, at I har behov for data fra IVF-registeret for at
     afdække faktorer i tidlig liv og i barndommen, samt
@@ -79,7 +79,7 @@ vi kan gå videre med sagsbehandlingen:
         personer med diabetes og disses familierelationer.
     -   Alternativt skal du give en uddybet begrundelse for, at I har
         behov for data om IVF-behandlinger og kræftdiagnoser på alle
-        personer, der har levet og boet i Danmark i peiroden 1970-2020,
+        personer, der har levet og boet i Danmark i peiroden 1970-2021,
         inklusiv personer, som ikke er diabetespatienter eller i
         familierelation til en diabetespatient.
 
@@ -168,7 +168,7 @@ processing:
 
     Alternatively, you must provide a detailed justification that you
     need data on IVF treatments and cancer diagnoses on all persons who
-    have lived and lived in Denmark in the period 1970-2020, including
+    have lived and lived in Denmark in the period 1970-2021, including
     persons who are not diabetic patients or in a family relationship to
     a diabetic patient.
 

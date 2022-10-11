@@ -36,7 +36,7 @@ server.
 
 To identify familial relations through individuals' life course
 trajectory, the population requested covers all individuals, who live or
-lived in Denmark from 1 January 1970 to 31 December 2020 (\~8.5 million
+lived in Denmark from 1 January 1970 to 31 December 2021 (\~8.5 million
 people). The family linkage and structure makes the construction of the
 population complicated, which we will do ourselves. For that we need the
 entire population because we need data on not just the individual, but
@@ -78,7 +78,7 @@ dst_variables <- dst_variables %>%
                 register_start_year,
             TRUE ~ variable_start_year
         ),
-        time_period = glue::glue("{start_year} to {variable_end_year}")
+        time_period = glue::glue("{start_year} to 2021")
     ) %>% 
     select(register_name = register_name_dk, variable_name, time_period)
 
@@ -88,7 +88,7 @@ sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv")) 
         start_year = str_extract(periode, "\\d{4}"),
         time_period = case_when(
             str_detect(periode, "jan 2019 - .*") ~ periode,
-            TRUE ~ str_c(start_year, " to 2020")
+            TRUE ~ str_c(start_year, " to 2021")
         )
     ) %>% 
     select(register_name, table_name, variable_name, time_period)
@@ -146,7 +146,7 @@ necessary and sufficient for your project.
         prevention.
 
 -   IVF treatments and cancer diagnoses on all persons who have lived
-    and lived in Denmark in the period 1970-2020, including persons who
+    and lived in Denmark in the period 1970-2021, including persons who
     are not diabetic patients or in a family relationship to a diabetic
     patient:
 
@@ -167,7 +167,7 @@ necessary and sufficient for your project.
         developing different chronic disease profiles (e.g. diabetes or
         cancer, or both). In short, data on cancer diagnoses on all
         persons who have lived and lived in Denmark from the period
-        1970-2020 is necessary, as this population will serve as the
+        1970-2021 is necessary, as this population will serve as the
         reference group when relevant.
 
         For example, if we want to estimate the risk of diabetes for
