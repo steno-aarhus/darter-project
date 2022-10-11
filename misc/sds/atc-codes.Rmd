@@ -58,8 +58,8 @@ atc_codes_list <- atc_codes %>%
     map(
         ~ .x %>%
             mutate(
-                `LMBD variable` = str_replace(glue::glue("ATC{level}"), "ATC5", "ATC"),
-                `LMBD variable` = if_else(row_number() == 1, `LMBD variable`, ""),
+                `LMDB variable` = str_replace(glue::glue("ATC{level}"), "ATC5", "ATC"),
+                `LMDB variable` = if_else(row_number() == 1, `LMDB variable`, ""),
                 renamed_column = glue::glue("ATC-Code ({level}. niveau)")
             ) %>%
             pivot_wider(
