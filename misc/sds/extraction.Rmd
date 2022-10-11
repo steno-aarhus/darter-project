@@ -214,7 +214,8 @@ necessary and sufficient for your project.
 
     -   People with diabetes may be at increased risk of needing to live
         in a care home, particularly in the context of diabetes-related
-        conditions.
+        conditions. We need nursing home names in order to make the most
+        detailed calculation of the cost of living in nursing home.
 
 -   Register for Udvalgte Kroniske Sygdomme (RUKS)
 
