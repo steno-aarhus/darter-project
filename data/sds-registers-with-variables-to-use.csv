@@ -990,3 +990,13 @@ soma_t[takstår]_proc[aktivitetsår] og soma_t[takstår]_int_kode[aktivitetsår]
 1,,RUKS,kronikere,status,,,,1995 -,,,,,,,Statuskode fra CPR-registeret
 1,,RUKS,kronikere,sygdom,,,,1995 -,,,,,,,Kronisk sygdom/svær psykisk lidelse
 1,,RUKS,kronikere,uddato,,,,1995 -,,,,,,,Eksklusionsdato
+1,,LAB,lab_dm_forsker,analysiscode,,,,2008 -,,,,,,,NPU/DNK-kode for den målte kvantitet
+1,,LAB,lab_dm_forsker,laboratorium_idcode,,,,2008 -,,,,,,,Producerende laboratorie
+1,,LAB,lab_dm_forsker,patient_cpr,,,,2008 -,,,,,,,CPR-nummer
+1,,LAB,lab_dm_forsker,referenceinterval_lowerlimit,,,,2008 -,,,,,,,Nedre grænse for referenceintervallet for analyseresultatet
+1,,LAB,lab_dm_forsker,referenceinterval_upperlimit,,,,2008 -,,,,,,,Øvre grænse for referenceintervallet for analyseresultatet
+1,,LAB,lab_dm_forsker,resulttype,,,,2008 -,,,,,,,Angiver om analyseresultat er numerisk eller alfanumerisk
+1,,LAB,lab_dm_forsker,samplingdate,,,,2008 -,,,,,,,Prøvetagningsdato
+1,,LAB,lab_dm_forsker,samplingtime,,,,2008 -,,,,,,,Prøvetagningstidspunkt
+1,,LAB,lab_dm_forsker,unit,,,,2008 -,,,,,,,Enhed for indholdet i value
+1,,LAB,lab_dm_forsker,value,,,,2008 -,,,,,,,Analyseresultat i tal eller tekst
