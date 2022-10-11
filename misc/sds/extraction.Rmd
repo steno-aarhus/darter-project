@@ -229,34 +229,35 @@ necessary and sufficient for your project.
         medicines both directly related to diabetes, but also other
         medicines.
 
-<!-- ## Extras -->
+-   Laboratoriedatabasen (LAB)
 
-<!-- -   Laboratoriedatabasen (LAB) -->
+    -   HbA1c measurements from the laboratory database researcher table
+        are desired to examine incidence and progression of diabetes in
+        the whole population, especially from general practice which is
+        only available to a limited extent. Data unbiased by value are
+        desired as diagnostic criteria have changed over time. The
+        remaining measurements (cholesterol, eGFR, CRP, Urat, etc.) are
+        desired to examine the incidence and progression of
+        complications of the disease. Information on the laboratory and
+        the applicant is requested in order to take into account
+        possible differences in measurements and results among
+        laboratories and geographically. Reference ranges are requested
+        to examine responses indicated to be in the normal range and any
+        differences between laboratories and over time.
+    -   The relevant NPU/DNK codes are listed in the table below.
 
-<!--     -   HbA1c measurements from the laboratory database researcher table -->
+## Requested LAB NPU/DNK codes
 
-<!--         are desired to examine incidence and progression of diabetes in -->
-
-<!--         the whole population, especially from general practice which is -->
-
-<!--         only available to a limited extent. Data unbiased by value are -->
-
-<!--         desired as diagnostic criteria have changed over time. The -->
-
-<!--         remaining measurements (cholesterol, eGFR, CRP, Urat, etc.) are -->
-
-<!--         desired to examine the incidence and progression of -->
-
-<!--         complications of the disease. Information on the laboratory and -->
-
-<!--         the applicant is requested in order to take into account -->
-
-<!--         possible differences in measurements and results among -->
-
-<!--         laboratories and geographically. Reference ranges are requested -->
-
-<!--         to examine responses indicated to be in the normal range and any -->
-
-<!--         differences between laboratories and over time. -->
-
-<!--     -   De relevante NPU/DNK koder er listet i nedenstående tabel. -->
+```{r labka-data-source, results='asis', echo=FALSE}
+# Labka is same as LAB
+here("data/labka.csv") %>%
+    read_csv(col_types = cols(
+        Komponent = col_character(),
+        Kode = col_character(),
+        Enhed = col_character()
+    )) %>% 
+    group_by(Komponent) %>% 
+    mutate(Komponent = if_else(row_number() == 1, Komponent, "")) %>% 
+    ungroup() %>% 
+    knitr::kable()
+```
