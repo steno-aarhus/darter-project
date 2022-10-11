@@ -314,14 +314,6 @@ level,code,description,expanded_level
 4,N06AG,Monoamine oxidase A inhibitors,
 4,N06AX,Other antidepressant drugs,
 2,A08,,4
-4,B03AB,,
-4,B03AD,,
-4,B03AE,,
-4,B03BA,,
-4,B03BB,,
-4,C01BA,,
-4,C01BB,,
-4,C01BG,,
 3,C03A,,4
 3,C03C,,4
 3,C07A,,4
@@ -336,33 +328,8 @@ level,code,description,expanded_level
 3,H03B,,4
 3,N06A,,4
 2,A10,,5
-5,B01AA03,,
-5,B01AC04,,
-5,B01AC05,,
-5,B01AC06 ,,
-5,B01AC07,,
-5,B01AC16,,
-5,B01AC24,,
-5,B01AC25,,
-5,B01AE07,,
-5,B01AF01,,
-5,B01AF02,,
-5,B01AF03,,
-5,B03XA01,,
-5,B03XA02,,
-5,B03XA03,,
-5,B03XA04,,
-5,C01AA04,,
-5,C01AA05,,
-5,C01BC04,,
-5,C01BD01,,
-5,C03DA01,,
-5,C03DA02,,
-5,C03DA03,,
-5,C03DA04,,
 3,C09A,,5
 3,C09C,,5
-5,C09DX04,,
 4,C10AA,,5
 4,G04BE,,5
 3,H02B,,5
@@ -380,3 +347,6 @@ level,code,description,expanded_level
 1,R,,2
 1,S,,2
 1,V,,2
+3,N05A ,,5
+3,N06A ,,5
+4,N06CA,,5

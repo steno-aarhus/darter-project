@@ -1,0 +1,82 @@
+---
+title: "Requested ATC codes"
+author:
+  - name: Luke W. Johnston
+    url: https://lukewjohnston.com/
+    affiliation: Steno Diabetes Center Aarhus
+repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
+creative_commons: CC BY
+output: 
+    word_document:
+        reference_docx: ../../resources/templates/appendix.docx
+---
+
+## Justifications
+
+-   Many of the detailed level 5 ATC codes are used to determine
+    diabetes or cardiovascular disease status, or to help identify
+    co-morbidities from these diseases.
+-   Many of the level 2 ATC codes are needed to calculate the total cost
+    to the individual. This is standard to include all prescriptions and
+    not only the ones related to diabetes. We use the level 2 ATC codes
+    to make a rough classification of the groups of medicine used.
+
+\pagebreak
+
+```{r list-atc-codes, include=FALSE}
+library(here)
+library(tidyverse)
+library(flextable)
+source(here("R/format-tables.R"))
+
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.kable.NA = "")
+# To get loop to work
+if (knitr::is_html_output())
+    htmltools::div(flextable_html_dependency())
+
+atc_codes <- here("data/atc-codes.csv") %>%
+    read_csv(col_types = cols(
+        level = col_double(),
+        code = col_character(),
+        description = col_character(),
+        expanded_level = col_double()
+    )) %>% 
+    mutate(
+        level = if_else(
+            is.na(expanded_level),
+            level,
+            expanded_level
+        ),
+    ) %>% 
+    # janitor::get_dupes(level, code)
+    select(level, code) 
+
+atc_codes_list <- atc_codes %>% 
+    arrange(level) %>% 
+    group_split(level) %>% 
+    map(
+        ~ .x %>%
+            mutate(
+                `LMBD variable` = str_replace(glue::glue("ATC{level}"), "ATC5", "ATC"),
+                `LMBD variable` = if_else(row_number() == 1, `LMBD variable`, ""),
+                renamed_column = glue::glue("ATC-Code ({level}. niveau)")
+            ) %>%
+            pivot_wider(
+                names_from = renamed_column,
+                values_from = code,
+                values_fn = list
+            ) %>%
+            unnest(cols = everything()) %>% 
+            select(-level) 
+        )
+```
+
+```{r table-atc-codes, results='asis', echo=FALSE}
+# Need a loop for working with flextables
+for (atc_code_table in atc_codes_list) {
+    cat("\n\n")
+    atc_code_table %>% 
+        format_non_dst_appendix_table(width = c(2, 5))
+}
+```
