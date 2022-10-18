@@ -51,8 +51,8 @@ random_registers <- read_csv(here("data/random-undocumented.csv"))
 bind_rows(sds_variables,
           random_registers) %>%
     distinct(register_name) %>% 
-    filter(register_name %in% c("Cancerregisteret", "IVF", "LPR_PSYK", "DRG", "PLH", "RUKS")) %>% 
-    add_row(register_name = "LMDB") %>% 
+    filter(register_name %in% c("Cancerregisteret", "IVF", "LPR_PSYK", "DRG", "PLH", "RUKS", "LAB")) %>%
+    add_row(register_name = "LMDB") %>%
     arrange(register_name) %>% 
     glue::glue_data("- {register_name}")
 ```
