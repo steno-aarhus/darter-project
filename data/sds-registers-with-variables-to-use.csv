@@ -706,23 +706,23 @@ use_in_application,reason_for_use,register_name,table_name,variable_name,short_r
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_dia3,,,,2005 - 2017,,,,,,,Bidiagnose 3
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_drg,,,,2005 - 2017,,,,,,,DRG-gruppe
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_graa,,,,2005 - 2017,,,,,,,Markør for gråzone
-1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_hdiag,,,,2011 - 2017,,,,,,,Henvisningsdiagnose
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_hdiag,,,,2005 - 2017,,,,,,,Henvisningsdiagnose
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_henm,,,,2005 - 2017,,,,,,,Henvisningsmåde
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_indm,,,,2005 - 2017,,,,,,,Indskrivningsmåde
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_oprart1,,,,2005 - 2017,,,,,,,Operationsart 1
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_oprart2,,,,2005 - 2017,,,,,,,Operationsart 2
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_oprart3,,,,2005 - 2017,,,,,,,Operationsart 3
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_pattype,,,,2005 - 2017,,,,,,,Patienttype
-1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_plejeboligkode,,,,2009 - 2017,,,,,,,Markør for borgere i plejebolig/plejehjem
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_plejeboligkode,,,,2005 - 2017,,,,,,,Markør for borgere i plejebolig/plejehjem
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_proc1,,,,2005 - 2017,,,,,,,Procedure 1
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_proc2,,,,2005 - 2017,,,,,,,Procedure 2
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_proc3,,,,2005 - 2017,,,,,,,Procedure 3
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_region,,,,2005 - 2017,,,,,,,Region
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_sgh,,,,2005 - 2017,,,,,,,Sygehus
-1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_sghafd,,,,2009 - 2017,,,,,,,Sygehus-afdeling
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_sghafd,,,,2005 - 2017,,,,,,,Sygehus-afdeling
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_spec,,,,2005 - 2017,,,,,,,Speciale
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_udm,,,,2005 - 2017,,,,,,,Udskrivningsmåde
-1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_udmf,,,,2006 - 2017,,,,,,,Udskrivningsmåde for forløb
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_udmf,,,,2005 - 2017,,,,,,,Udskrivningsmåde for forløb
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",c_udsktype,,,,2005 - 2017,,,,,,,Udskrivningstype
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",d_inddto,,,,2005 - 2017,,,,,,,Indskrivningssdato
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",d_uddto,,,,2005 - 2017,,,,,,,Udskrivningsdato
@@ -734,12 +734,12 @@ use_in_application,reason_for_use,register_name,table_name,variable_name,short_r
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_recnum,,,,2005 - 2017,,,,,,,Recordnummer fra LPR
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_sengdage,,,,2005 - 2017,,,,,,,Sengedage
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_totpris,,,,2005 - 2017,,,,,,,Samlet takst
-1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_totpris_genop,,,,2007 - 2017,,,,,,,Samlet takst inklusiv genoptræning
+1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_totpris_genop,,,,2005 - 2017,,,,,,,Samlet takst inklusiv genoptræning
 1,,DRG,"soma_takst""takstår""_hel""aktivitetsår""",v_udtime,,,,2005 - 2017,,,,,,,Udskrivningstime
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_adiag,,,,2005 - 2017,,,,,,,Aktionsdiagnose på besøgsdato
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_afd,,,,2005 - 2017,,,,,,,Afdeling
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_akut,,,,2005 - 2017,,,,,,,Markør for akut indlæggelse
-1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_bestakst,,,,2012 - 2017,,,,,,,Besøgstakst
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_bestakst,,,,2005 - 2017,,,,,,,Besøgstakst
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_bestype,,,,2005 - 2017,,,,,,,Besøgstype
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_casemix,,,,2005 - 2017,,,,,,,Ambulant DAGS-gruppe.
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_dia1,,,,2005 - 2017,,,,,,,Aktionsdiagnose
@@ -747,7 +747,7 @@ use_in_application,reason_for_use,register_name,table_name,variable_name,short_r
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_dia3,,,,2005 - 2017,,,,,,,Bidiagnose 2
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_dia4,,,,2005 - 2017,,,,,,,Bidiagnose 3
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_drg,,,,2005 - 2017,,,,,,,DRG-gruppe
-1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_graazone,,,,2016 - 2017,,,,,,,Markør for gråzone
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_graazone,,,,2005 - 2017,,,,,,,Markør for gråzone
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_indm,,,,2005 - 2017,,,,,,,Indlæggelsesmåde
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_oprart1,,,,2005 - 2017,,,,,,,Operationsart 1
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",c_oprart2,,,,2005 - 2017,,,,,,,Operationsart 2
@@ -759,11 +759,11 @@ use_in_application,reason_for_use,register_name,table_name,variable_name,short_r
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",d_inddto,,,,2005 - 2017,,,,,,,Indskrivningssdato
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",d_uddto,,,,2005 - 2017,,,,,,,Udskrivningsdato
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_cpr,,,,2005 - 2017,,,,,,,CPR-nummer
-1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_dags_pris,,,,2016 - 2017,,,,,,,DAGS-takst for ambulant gruppe
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_dags_pris,,,,2005 - 2017,,,,,,,DAGS-takst for ambulant gruppe
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_indminut,,,,2005 - 2017,,,,,,,Indlæggelsesminut
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_indtime,,,,2005 - 2017,,,,,,,Indlæggelsestime
 1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_pris,,,,2005 - 2017,,,,,,,Takst for ambulant besøg inklusiv proceduretakst
-1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_pris_genop,,,,2007 - 2017,,,,,,,"Samlet takst på ambulant besøg, procedure og genoptræning"
+1,,DRG,"soma_takst""takstår""_amb""aktivitetsår""",v_pris_genop,,,,2005 - 2017,,,,,,,"Samlet takst på ambulant besøg, procedure og genoptræning"
 1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",v_cpr,,,,2005 - 2017,,,,,,,CPR-nummer
 1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",c_adiag,,,,2005 - 2017,,,,,,,
 1,,DRG,"psyk_takst""takstår""_hel""aktivitetsår""",c_drg_psyk,,,,2005 - 2017,,,,,,,
