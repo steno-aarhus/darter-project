@@ -82,13 +82,19 @@ dst_variables <- dst_variables %>%
     ) %>% 
     select(register_name = register_name_dk, variable_name, time_period)
 
-sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv")) %>% 
+sds_variables <-
+    read_csv(here("data/sds-registers-with-variables-to-use.csv"),
+             show_col_types = FALSE) %>% 
     filter(use_in_application == 1) %>% 
     mutate(
-        start_year = str_extract(periode, "\\d{4}"),
+        periode = periode %>%
+            str_trim() %>%
+            str_replace_all(" +", " ") %>%
+            str_replace_all(" ?- ?", " to ") %>%
+            str_replace(" og ", ", "),
         time_period = case_when(
-            str_detect(periode, "jan 2019 - .*") ~ periode,
-            TRUE ~ str_c(start_year, " to 2021")
+            str_detect(periode, "to $") ~ glue::glue("{str_remove(periode, ' -$')} 2021"),
+            TRUE ~ periode
         )
     ) %>% 
     select(register_name, table_name, variable_name, time_period)
@@ -98,7 +104,7 @@ random_registers <- read_csv(here("data/random-undocumented.csv")) %>%
     select(register_name, table_name = register_table_name, variable_name,
            time_period)
 
-sds_register_names <- c("Cancerregisteret", "IVF", "LPR_PSYK", "DRG", "PLH", "RUKS")
+sds_register_names <- c("Cancerregisteret", "IVF", "LPR_PSYK", "DRG", "PLH", "RUKS", "LAB")
 registers <- bind_rows(sds_variables, random_registers) %>% 
     filter(register_name %in% sds_register_names) %>% 
     bind_rows(dst_variables)
