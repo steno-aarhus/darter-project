@@ -50,7 +50,10 @@ Some of our questions include:
     characteristics to lower the risk for T2DM?
 3.  Do some early life conditions affect an adult individual's metabolic
     status and risk for disease more than other conditions?
-4.  To what extent does the family network (e.g. parents, grandparents,
+4.  Are long-term diabetes outcomes (nephropathy, eye disease, premature
+    death) affected by treatment persistence and stability in patients
+    with psychiatric comorbidity?
+5.  To what extent does the family network (e.g. parents, grandparents,
     siblings) and family environment influence the risk for developing
     type 2 diabetes in adulthood?
 
