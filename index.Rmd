@@ -1,26 +1,32 @@
---- 
-title: "*M*etabolic consequences of *E*arly *L*ife adversity and subsequent risk for type 2 *D*iabetes (MELD) Project"
-description: "Application to request data from Denmark Statistics"
-date: "`r Sys.Date()`"
+---
+title: {{ var title }}
 author:
   - name: Luke W. Johnston
-    url: https://lukewjohnston.com/
-    affiliation: Steno Diabetes Center Aarhus
-site: distill::distill_website
-repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
-creative_commons: CC BY
+    orcid: 0000-0003-4169-2616
+    affiliations: 
+        - name: Steno Diabetes Center Aarhus
+        - name: Aarhus University
+  - name: Omar Silverman
+    affiliations: 
+        - name: Steno Diabetes Center Aarhus
+        - name: Aarhus University
+  - name: Gunnar Toft
+    affiliations: 
+        - name: Steno Diabetes Center Aarhus
+        - name: Aarhus University
 ---
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+Application to request data from Denmark Statistics
 
-- [Project Description](description.html) with justification and other
-necessary information for DST. See the [word document](public/708421_projektinstilling_LukeJohnston.docx) sent to
-DST for how it should look like.
-- [Project Appendix](appendix.html) with tables of requested registers and
-variables from DST. See the [word document](public/708421_udtræksbeskrivelse_LukeJohnston.docx) sent
-to DST for how it should look like.
-- [Comments and responses](misc/review-responses.html) to DST reviewer.
-<!-- - [Application to Sundhedsdatastyrelsen](misc/sds-application.html) with the  -->
-<!-- necessary information for their approval. -->
+-   [Project Description](description.html) with justification and other
+    necessary information for DST. See the [word
+    document](public/708421_projektinstilling_LukeJohnston.docx) sent to
+    DST for how it should look like.
+-   [Project Appendix](appendix.html) with tables of requested registers
+    and variables from DST. See the [word
+    document](public/708421_udtræksbeskrivelse_LukeJohnston.docx) sent
+    to DST for how it should look like.
+-   [Comments and responses](misc/review-responses.html) to DST
+    reviewer.
+    <!-- - [Application to Sundhedsdatastyrelsen](misc/sds-application.html) with the  -->
+    <!-- necessary information for their approval. -->
