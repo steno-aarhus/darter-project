@@ -1,88 +1,86 @@
 ---
 title: "Project description for DST application"
+# date: last-modified
 author:
   - name: Luke W. Johnston
-    url: https://lukewjohnston.com/
-    affiliation: Steno Diabetes Center Aarhus
-repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
-creative_commons: CC BY
+    affiliations: 
+      - name: Steno Diabetes Center Aarhus
 ---
 
-`r if (!knitr::is_html_output()) "
-TODO: Delete above title header before sending to DST.
-"`
+`r if (!knitr::is_html_output()) " TODO: Delete above title header before sending to DST. "`
 
-**Forskningsservice**                     **Dato** `r lubridate::stamp("March 13, 1999", quiet = TRUE)(lubridate::today())`
+**Forskningsservice** **Dato**
+`r lubridate::stamp("March 13, 1999", quiet = TRUE)(lubridate::today())`
 Projekt nr. 708421/ kontaktperson i Forskningsservice
 
-`r if (!knitr::is_html_output()) "
-TODO: Fix kontaktperson line.
-"`
+`r if (!knitr::is_html_output()) " TODO: Fix kontaktperson line. "`
 
 ## Autoriseret institution / Authorised institution
 
-Enhedschef Annelli Sandbæk  
-Steno Diabetes Center Aarhus (inst. nr. 574)  
-Hedeager 3, 2. sal  
-8200 Aarhus  
-Denmark  
+Enhedschef Annelli Sandbæk\
+Steno Diabetes Center Aarhus (inst. nr. 574)\
+Hedeager 3, 2. sal\
+8200 Aarhus\
+Denmark
 
 ## Projekttitel / Project title
 
-Interplay between diabetes and intergenerational transmission of health determinants over the life course
+{{< var title >}}
 
 ## Projektbeskrivelse / Project description
 
-The overall aim of this project is to identify the contributions of family and
-early life determinants on the development, management, and care of diabetes and
-the diseases that may arise following a diabetes diagnosis, under a life-course
-framework.
+The overall aim of this project is to identify the contributions of
+family and early life determinants on the development, management, and
+care of diabetes and the diseases that may arise following a diabetes
+diagnosis, under a life-course framework.
 
-Diabetes is a complex, multi-factorial disease. Its development depends on the
-timing and accumulation of exposures throughout the life-course. In addition to
-genetic influences, behavioral risk factors and socioeconomic conditions cluster
-in families and are passed through generations. For instance, poor childhood
-socioeconomic status (SES) can impact final educational attainment, adult SES,
-and lifestyle and behavioral characteristics, which ultimately influence an
-individual's metabolic capacity to regulate glucose and subsequent risk for
-diabetes.
+Diabetes is a complex, multi-factorial disease. Its development depends
+on the timing and accumulation of exposures throughout the life-course.
+In addition to genetic influences, behavioral risk factors and
+socioeconomic conditions cluster in families and are passed through
+generations. For instance, poor childhood socioeconomic status (SES) can
+impact final educational attainment, adult SES, and lifestyle and
+behavioral characteristics, which ultimately influence an individual's
+metabolic capacity to regulate glucose and subsequent risk for diabetes.
 
-This project will contribute to a broader and deeper understanding of the role
-that these factors play with the development and progression of diabetes. For
-this purpose, we will apply causal and predictive statistical methods to best
-use the data available from the integrated data sources with an overarching goal
-to model several potential public health strategies that might impact the
-prevention and management of diabetes and the diseases that follow its
-diagnosis. 
+This project will contribute to a broader and deeper understanding of
+the role that these factors play with the development and progression of
+diabetes. For this purpose, we will apply causal and predictive
+statistical methods to best use the data available from the integrated
+data sources with an overarching goal to model several potential public
+health strategies that might impact the prevention and management of
+diabetes and the diseases that follow its diagnosis.
 
 <!-- A key feature to this project is the integration of external data -->
+
 <!-- sources, such as longitudinal cohort studies, with the register data. -->
 
 ## Population / Population
 
-In order to identify familial relations through individuals' life course trajectory,
-the population requested covers all individuals, who were alive in Denmark 
-from 1 January 1970 to 31 December 2020 (~8.5 million people). 
-The family linkage and structure makes the construction of the population
-complicated and we will do this ourselves. For that we need the entire
-population because we need data on not just the individual, but also the family
-(parents and siblings). To characterise early life and early childhood
-conditions of an individual person, we need data on their parents. Likewise, to
-understand the role that the family network, including siblings and
-grandparents, has on diabetes risk, we need a large enough population to make
-these linkages and to adequately study this area.
-Key requirements are:
+In order to identify familial relations through individuals' life course
+trajectory, the population requested covers all individuals, who were
+alive in Denmark from 1 January 1970 to 31 December 2020 (\~8.5 million
+people). The family linkage and structure makes the construction of the
+population complicated and we will do this ourselves. For that we need
+the entire population because we need data on not just the individual,
+but also the family (parents and siblings). To characterise early life
+and early childhood conditions of an individual person, we need data on
+their parents. Likewise, to understand the role that the family network,
+including siblings and grandparents, has on diabetes risk, we need a
+large enough population to make these linkages and to adequately study
+this area. Key requirements are:
 
-- All index individuals born or who migrated into Denmark.
-- All family members of the index individuals, including parents, siblings,
-spouses, and children.
+-   All index individuals born or who migrated into Denmark.
+-   All family members of the index individuals, including parents,
+    siblings, spouses, and children.
 
 ## Variabelindhold / Variables included
 
-All variables can be de-identified (direct identification is not needed). The
-list of requested variables is found in the tables at the end of the document in 
-the Appendix. For all the variables, we need the data from the first year it is
-available to the most recent year it is available. 
+All variables can be de-identified (direct identification is not
+needed). The list of requested variables is found in the tables at the
+end of the document in the Appendix. For all the variables, we need the
+data from the first year it is available to the most recent year it is
+available.
 
 ```{r setup, include=FALSE}
 library(tidyverse)
@@ -133,20 +131,25 @@ needed_registers %>%
     cat(sep = "\n")
 ```
 
-In the Appendix we listed the ATC codes from the prescription register and ICD-8
-and -10 codes from the patient register that we need to classify diabetes 
-and the diseases that may arise following a diabetes diagnosis.
+In the Appendix we listed the ATC codes from the prescription register
+and ICD-8 and -10 codes from the patient register that we need to
+classify diabetes and the diseases that may arise following a diabetes
+diagnosis.
 
 <!-- Please also include information on external data or own survey data if such -->
+
 <!-- data is part of the project. In such cases please include approval from the -->
+
 <!-- Danish Protection Agency. -->
 
-## Særligt vedr. lægemiddelsdata / Especially regarding drug data 
+## Særligt vedr. lægemiddelsdata / Especially regarding drug data
 
-The medication data we are requested are used in order to identify cases of disease
-(e.g. diabetes) that might not have been diagnosed and recorded in the patient register.
-The list of requested ATC codes is found in the Appendix section.
+The medication data we are requested are used in order to identify cases
+of disease (e.g. diabetes) that might not have been diagnosed and
+recorded in the patient register. The list of requested ATC codes is
+found in the Appendix section.
 
+```{=html}
 <!--
 Only to be filled in if the project is to use drug data. Research projects that
 must use data from the Medicines Database must be approved by the Danish Health
@@ -155,20 +158,20 @@ in Forskningsservice. Drug data may only be used for the purpose described in
 this project setting. If drug data is to be used for other purposes, a renewed
 approval from the Danish Health and Medicines Authority is required.
 -->
-
+```
 ## Offentliggørelse af resultater / Publication of results
 
-Results will be published in open access scientific outlets and presented at
-scientific conferences.
+Results will be published in open access scientific outlets and
+presented at scientific conferences.
 
 ## Perspektivering / Perspective
 
-Understanding how early life and familial factors can influence diabetes provides
-us with tools and knowledge to better target, intervene, and either
-prevent or manage diabetes and its complications. Considering the impact that
-diabetes as a disease itself and its related comorbidities has at the personal,
-public health, and economic level, any improvement in knowledge can have major 
-impacts.
+Understanding how early life and familial factors can influence diabetes
+provides us with tools and knowledge to better target, intervene, and
+either prevent or manage diabetes and its complications. Considering the
+impact that diabetes as a disease itself and its related comorbidities
+has at the personal, public health, and economic level, any improvement
+in knowledge can have major impacts.
 
 <!-- A description of what knowledge of societal relevance this study can contribute. -->
 
@@ -176,6 +179,7 @@ impacts.
 
 Data coming from other sources (e.g. Sundhedsdatastyrelsen):
 
+```{=html}
 <!--
 List cohorts:
 
@@ -189,7 +193,7 @@ List cohorts:
     administrator: National Institute of Public Health, SDU, application here:
     http://www.danskernessundhed.dk/Spoergeskema
 -->
-    
+```
 ```{r non-dst-register-list, results = "asis"}
 needed_registers %>% 
     filter(!is.na(register_id) & owner != "dst") %>% 
@@ -203,13 +207,11 @@ needed_registers %>%
 
 Date of deletion of data: Access to data is requested until 2030-12-31.
 
-\newpage
+{{< pagebreak >}}
 
 ## Autoriserede forskere / Authorised scientists
 
-`r if (!knitr::is_html_output()) "
-TODO: Add in relevant missing info before sending.
-"`
+`r if (!knitr::is_html_output()) " TODO: Add in relevant missing info before sending. "`
 
 ```{r authorized-researchers-table}
 library(flextable)
@@ -239,12 +241,12 @@ authorized_researchers %>%
 
 ## Underskrift / Signatures
 
-Underskriver bekræfter på vegne af den dataansvarlige autoriserede institution,
-at den konkrete behandling er lovlig i henhold til databeskyttelsesforordningen
-artikel 6.
+Underskriver bekræfter på vegne af den dataansvarlige autoriserede
+institution, at den konkrete behandling er lovlig i henhold til
+databeskyttelsesforordningen artikel 6.
 
-Underskriver bekræfter ligeledes at være formelt ansat på den dataansvarlige
-autoriserede institution, der indstiller projektet.
+Underskriver bekræfter ligeledes at være formelt ansat på den
+dataansvarlige autoriserede institution, der indstiller projektet.
 
 ```{r}
 signature_table <- function(name, position) {
@@ -264,12 +266,9 @@ signature_table <- function(name, position) {
 }
 ```
 
-
 **På vegne af den dataansvarlige:**
 
-`r if (!knitr::is_html_output()) "
-TODO: Add signature before sending.
-"`
+`r if (!knitr::is_html_output()) " TODO: Add signature before sending. "`
 
 ```{r sign-table-1}
 signature_table("Annelli Sandbæk", "Enhedschef")
