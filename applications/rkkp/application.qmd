@@ -1,0 +1,217 @@
+---
+format: docx
+metadata-files: 
+  - ../../_variables.yml
+---
+
+# Ansøgning
+
+## Projekttitel
+
+<!-- (Text box)  -->
+
+{{< meta project.title >}}
+
+## Beskrivelsen
+
+::: content-hidden
+**Instructions**: Kortfattet beskrivelse af projektet egnet til
+offentliggørelse i årsrapport eller lign. Beskrivelsen skal omfatte:
+:::
+
+### Rationale for undersøgelsen
+
+<!-- (Text box) -->
+
+Diabetes is a complex, multi-factorial disease. Its development depends
+on the timing and accumulation of exposures throughout the life-course.
+In addition to genetic influences, behavioral risk factors and
+socioeconomic conditions cluster in families and are passed through
+generations. For instance, poor childhood socioeconomic status (SES) can
+impact final educational attainment, adult SES, and lifestyle and
+behavioral characteristics, which ultimately influence an individual's
+metabolic capacity to regulate glucose and subsequent risk for diabetes.
+
+### Formål
+
+<!-- (Text box) -->
+
+{{< var project.overall-aim >}}
+
+### Kort beskrivelse af undersøgelsens perspektiver
+
+<!-- (Text box) -->
+
+This project will contribute to a broader and deeper understanding of
+the role that these factors play with the development and progression of
+diabetes. For this purpose, we will apply causal and predictive
+statistical methods to best use the data available from the integrated
+data sources with an overarching goal to model several potential public
+health strategies that might impact the prevention and management of
+diabetes and the diseases that follow its diagnosis.
+
+### Projektet gennemføres som led i
+
+<!-- (Selection) -->
+
+Andet
+
+-   Research project
+
+## Data
+
+### Hvilken database ønskes data fra?
+
+::: content-hidden
+**Instructions**: Den database som du vælger, skal også fremgå som
+datakilde på tilladelsen til forskningsprojektet.
+:::
+
+<!-- (Selection) -->
+
+### Studiepopulation
+
+::: content-hidden
+**Instructions**: Beskriv den studiepopulation, der ønskes data på:
+:::
+
+In order to identify familial relations through individuals' life course
+trajectory, the population requested covers all individuals, who were
+alive in Denmark from 1 January 1970 to 31 December 2022. The family
+linkage and structure makes the construction of the population
+complicated and we will do this ourselves. For that we need the entire
+population because we need data on not just the individual, but also the
+family (parents and siblings). To characterise early life and early
+childhood conditions of an individual person, we need data on their
+parents. Likewise, to understand the role that the family network,
+including siblings and grandparents, has on diabetes risk, we need a
+large enough population to make these linkages and to adequately study
+this area. Key requirements are:
+
+-   All index individuals born or who migrated into Denmark.
+-   All family members of the index individuals, including parents,
+    siblings, spouses, and children.
+
+#### Angiv tidsperiode for det ønskede dataudtræk
+
+<!-- (Date range) -->
+
+1 January 1970 to 31 December 2022
+
+#### Hvis muligt, angiv en datovariabel for ovenstående tidsperiode
+
+(Optional text box)
+
+#### Hvilke indberettende enheder/afdelinger
+
+<!-- (Selection) -->
+
+-   Landsdækkende data (national)
+
+#### angiv hvilke indberettende enheder/regioner der ønskes
+
+<!-- (Text box) -->
+
+All regions?
+
+#### Evt. yderligere specificering/afgrænsning af populationen
+
+<!-- (Text box) -->
+
+NA?
+
+### Hvilke udfald/end-points ønskes der data på?
+
+<!-- (Text box) -->
+
+?
+
+### Hvilke specifikke variable ansøges der om adgang til -- ansøgning skal inkludere afkrydset variabelliste for hver enkel database?
+
+::: content-hidden
+**Instructions**: Variablelisterne kan findes på
+https://www.rkkp.dk/forskning/variabellister-til-forskningsadgang/
+:::
+
+(File selection)
+
+## Redegørelse for, hvorfor det er sagligt og konkret nødvendigt for projektet at få videregivet de ønskede oplysninger/ variable
+
+<!-- (Text box) -->
+
+We need these specific variables in order to calculate incident and
+prevalent Type 2 Diabetes status using algorithms developed and used by
+researchers at Steno Diabetes Center.
+
+## Søges adgang til cpr-nr
+
+(hvis afkrydsning af nej, vil blive givet adgang til krypteret cpr-nr --
+data kan trods dette være personhenførbart, og angivelse af nej medfører
+dermed ikke bortfald af krav om, at projektet er relevant godkendt af
+Datatilsynet/videnskabsetisk komite)
+
+<!-- (Selection) -->
+
+Ja
+
+### Angiv årsag til ansøgning af oplysning om cpr-nr.
+
+We need the cpr-nr (or PNR) because we need to link these data with our
+DST and SDS data.
+
+## I hvilket dataformat ønskes data udleveret?
+
+::: content-hidden
+**Instructions**: For enkelte databaser vil visse formater ikke være
+muligt. Angiv den ønskede prioritering.
+:::
+
+<!-- (Selection, 1 to 5 boxes) -->
+
+CSV
+
+## På hvilken adresse ønskes data leveret?
+
+### E-mail
+
+Der sendes kun til systemer, der tillader modtagelse af krypteret post
+
+(Text box)
+
+### Angiv fysisk adresse
+
+## Hvordan er forskningsprojektet registreret?:
+
+<!-- (Selection) -->
+
+Registreret under en myndigheds fortegnelse (eller tidligere
+paraplyanmeldelse)
+
+-   **Dataansvarlig myndighed**:
+
+    -   Annelli Sandbæk, Enhedschef, Steno Diabetes Center Aarhus
+
+-   **Fortegnelsens journalnummer (Paraplyens journalnummer)**: Ikke
+    alle organisationer har særskilte journalnummer for fortegnelsen --
+    hvis du kun har kendskab til ét journalnummer, anføres det i begge
+    felter.
+
+    -   780859
+
+-   **Projekts interne journalnummer**: Ikke alle organisationer har
+    særskilte journalnummer for fortegnelsen -- hvis du kun har kendskab
+    til ét journalnummer, anføres det i begge felter.
+
+    -   780859
+
+-   **Upload dokumentation her**: (Select file)
+
+## Er ansøger identisk med projektansvarlig for projektet registreret under en myndigheds fortegnelse?
+
+## Er projektet fuldt finansieret?
+
+-   Ja
+
+## Er der vedlagt protokol inkl. budget?
+
+?
