@@ -1,21 +1,20 @@
 ---
 title: "Appendix of requested variables"
+date: last-modified
 author:
   - name: Luke W. Johnston
-    url: https://lukewjohnston.com/
-    affiliation: Steno Diabetes Center Aarhus
-repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
-creative_commons: CC BY
+    affiliations: 
+      - name: Steno Diabetes Center Aarhus
 ---
 
 `r if (!knitr::is_html_output()) " TODO: Delete above title header before sending to DST. "`
 
-Danmarks Statistik, Forskningsservice
-`r lubridate::stamp("March 13, 1999", quiet = TRUE)(lubridate::today())`\
-Generel Forskningsservice\
-Projekt nr. 708421
+| Danmarks Statistik, Forskningsservice
+| `r lubridate::stamp("March 13, 1999", quiet = TRUE)(lubridate::today())`
+| Generel Forskningsservice
+| Projekt nr. 708421
 
-Luke W. Johnston, Steno Diabetes Center Aarhus
+<!-- Luke W. Johnston, Steno Diabetes Center Aarhus -->
 
 ```{r setup, include=FALSE}
 library(tidyverse)
@@ -56,7 +55,6 @@ random_registers <- read_csv(here("data/random-undocumented.csv")) %>%
         year_range = glue::glue("{start_year} - {end_year}")
     )
 
-knitr::opts_chunk$set(echo = FALSE)
 options(knitr.kable.NA = "")
 # To get loop to work
 if (knitr::is_html_output())
@@ -65,8 +63,7 @@ if (knitr::is_html_output())
 
 ## Projekttitel
 
-Interplay between diabetes and intergenerational transmission of health
-determinants over the life course
+{{< var project.title >}}
 
 ## Populations afgrænsning(er)
 
@@ -87,7 +84,9 @@ register alone.
 
 ## List of registers and variables from DST
 
-```{r requested-dst-variable-tables, results='asis', echo=FALSE}
+```{r requested-dst-variable-tables}
+#| results: asis
+#| tbl-cap: "Registers and variables requested from DST."
 variable_tables <- dst_variables %>% 
     mutate(register_name = glue("{register_name_dk} ({register_id})")) %>% 
     select(-register_name_dk) %>% 
@@ -109,7 +108,9 @@ for (variable_table in variable_tables) {
 
 ## List of registers and variables from external sources
 
-```{r requested-non-dst-variable-tables, results='asis', echo=FALSE}
+```{r requested-non-dst-variable-tables}
+#| results: asis
+#| tbl-cap: "Registers and variables requested from other sources."
 sds_variable_tables <- sds_variables %>% 
     rename(
         Tabel = table_name,
@@ -131,7 +132,9 @@ sds_variable_tables %>%
     format_non_dst_appendix_table(width = c(1.5, 1.5, 3, 1.5))
 ```
 
-```{r requested-random-registers-variable-tables, results='asis', echo=FALSE}
+```{r requested-random-registers-variable-tables}
+#| results: asis
+#| tbl-cap: "Registers and variables requested from other sources."
 random_variable_tables <- random_registers %>% 
     select(register_name, register_table_name, variable_name, 
            year_range, variable_description_dk) %>% 
@@ -170,6 +173,8 @@ For alle individer i databasen ønskes der laboratorie udtræk af følgene
 NPU/DNK-koder så langt tilbage i tiden som muligt.
 
 ```{r labka-data-source, results='asis'}
+#| results: asis
+#| tbl-cap: "Registers and variables requested from DST."
 here("data/labka.csv") %>%
     read_csv(col_types = cols(
         Komponent = col_character(),
@@ -190,7 +195,9 @@ af diabetes, relaterede kardiometaboliske sygdomme samt følgesygdomme
 ICD8 koder. Efter koderne har vi kort redegjort for, hvorfor vi ansøger
 om netop de listede koder.
 
-```{r icd-codes-tables, results='asis'}
+```{r icd-codes-tables}
+#| results: asis
+#| tbl-cap: "Registers and variables requested from other sources."
 icd_codes <- here("data/icd-codes.csv") %>%
     read_csv(
         col_types = cols(
@@ -410,6 +417,8 @@ Description of disease and its relation to diabetes
 ## List of requested ATC codes
 
 ```{r atc-code-table, results='asis'}
+#| results: asis
+#| tbl-cap: "Requested ATC codes."
 here("data/atc-codes.csv") %>%
     read_csv(col_types = cols(
         level = col_double(),

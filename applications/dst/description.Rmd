@@ -1,6 +1,6 @@
 ---
-title: "Project description for DST application"
-# date: last-modified
+title: "DST Project Description"
+date: last-modified
 author:
   - name: Luke W. Johnston
     affiliations: 
@@ -17,15 +17,15 @@ Projekt nr. 708421/ kontaktperson i Forskningsservice
 
 ## Autoriseret institution / Authorised institution
 
-Enhedschef Annelli Sandbæk\
-Steno Diabetes Center Aarhus (inst. nr. 574)\
-Hedeager 3, 2. sal\
-8200 Aarhus\
-Denmark
+| Enhedschef Annelli Sandbæk
+| Steno Diabetes Center Aarhus (inst. nr. 574)
+| Hedeager 3, 2. sal
+| 8200 Aarhus
+| Denmark
 
 ## Projekttitel / Project title
 
-{{< var title >}}
+{{< var project.title >}}
 
 ## Projektbeskrivelse / Project description
 
@@ -50,10 +50,6 @@ statistical methods to best use the data available from the integrated
 data sources with an overarching goal to model several potential public
 health strategies that might impact the prevention and management of
 diabetes and the diseases that follow its diagnosis.
-
-<!-- A key feature to this project is the integration of external data -->
-
-<!-- sources, such as longitudinal cohort studies, with the register data. -->
 
 ## Population / Population
 
@@ -86,49 +82,52 @@ available.
 library(tidyverse)
 library(here)
 library(glue)
-needed_registers <- here("data/needed-registers.csv") %>% 
-    read_csv(col_types = "lddccccc") %>% 
-    filter(!drop | is.na(drop))
+source(here("R/functions.R"))
+
+needed_registers <- here("data/needed-registers.csv") %>%
+  read_csv(col_types = "lddccccc") %>%
+  filter(!drop | is.na(drop))
 
 dst_variables <- read_csv(here("data/dst-registers-with-variables-to-use.csv"))
 dst_variables <- dst_variables %>%
-    filter(use_in_application == 1,
-           register_id %in% unique(needed_registers$register_id)) %>% 
-    mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>% 
-    mutate(start_year = case_when(
-        is.na(variable_start_year) | variable_start_year == variable_end_year ~
-            register_start_year,
-        TRUE ~ variable_start_year
-    )) %>% 
-    select(register_id, register_name_dk, variable_name, start_year)
+  filter(
+    use_in_application == 1,
+    register_id %in% unique(needed_registers$register_id)
+  ) %>%
+  mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>%
+  mutate(start_year = case_when(
+    is.na(variable_start_year) | variable_start_year == variable_end_year ~
+      register_start_year,
+    TRUE ~ variable_start_year
+  )) %>%
+  select(register_id, register_name_dk, variable_name, start_year)
 
 sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv"))
-sds_variables <- sds_variables %>% 
-    filter(use_in_application == 1) %>% 
-    mutate(start_year = str_extract(periode, "^\\d{4}")) %>% 
-    select(register_name, table_name, variable_name, start_year)
+sds_variables <- sds_variables %>%
+  filter(use_in_application == 1) %>%
+  mutate(start_year = str_extract(periode, "^\\d{4}")) %>%
+  select(register_name, table_name, variable_name, start_year)
 
 random_registers <- read_csv(here("data/random-undocumented.csv"))
 
 authorized_researchers <-
-    read_csv(
-        here("data/authorized-researchers.csv"),
-        col_types = cols(.default = col_character())
-    )
+  read_csv(
+    here("data/authorized-researchers.csv"),
+    col_types = cols(.default = col_character())
+  )
 
-knitr::opts_chunk$set(echo = FALSE)
 options(knitr.kable.NA = "")
 ```
 
 Registers requested are:
 
 ```{r dst-register-list, results = "asis"}
-needed_registers %>% 
-    filter(!is.na(register_id) & owner == "dst") %>% 
-    mutate(across(where(is.character), ~if_else(is.na(.), "TO UPDATE", .))) %>% 
-    glue_data("- {register_id}: {register_name_dk} / {register_name_english}") %>% 
-    sort() %>% 
-    cat(sep = "\n")
+needed_registers %>%
+  filter(!is.na(register_id) & owner == "dst") %>%
+  mutate(across(where(is.character), ~ if_else(is.na(.), "TO UPDATE", .))) %>%
+  glue_data("- {register_id}: {register_name_dk} / {register_name_english}") %>%
+  sort() %>%
+  cat(sep = "\n")
 ```
 
 In the Appendix we listed the ATC codes from the prescription register
@@ -195,12 +194,12 @@ List cohorts:
 -->
 ```
 ```{r non-dst-register-list, results = "asis"}
-needed_registers %>% 
-    filter(!is.na(register_id) & owner != "dst") %>% 
-    mutate(across(where(is.character), ~if_else(is.na(.), "TO UPDATE", .))) %>% 
-    glue_data("- {register_id}: {register_name_dk} / {register_name_english}") %>% 
-    sort() %>% 
-    cat(sep = "\n")
+needed_registers %>%
+  filter(!is.na(register_id) & owner != "dst") %>%
+  mutate(across(where(is.character), ~ if_else(is.na(.), "TO UPDATE", .))) %>%
+  glue_data("- {register_id}: {register_name_dk} / {register_name_english}") %>%
+  sort() %>%
+  cat(sep = "\n")
 ```
 
 ## Projekts slutdato / Project's end date
@@ -213,31 +212,13 @@ Date of deletion of data: Access to data is requested until 2030-12-31.
 
 `r if (!knitr::is_html_output()) " TODO: Add in relevant missing info before sending. "`
 
-```{r authorized-researchers-table}
-library(flextable)
-authorized_researchers_table <- function(data) {
-    flextable(data) %>%
-        border_inner() %>%
-        border_outer() %>%
-        flextable::bold(part = "header") %>%
-        valign(valign = "top", part = "header") %>%
-        bg(bg = "#d9d9d9", part = "header") %>%
-        bg(i = c(1, 3), bg = "#f2f2f2") %>%
-        flextable::bold(i = c(1, 3)) %>%
-        merge_h_range(
-            i = c(1, 3),
-            j1 = 1,
-            j2 = ncol(authorized_researchers)
-        ) %>%
-        flextable::fontsize(size = 9, part = "all") %>%
-        {if (!knitr::is_html_output()) {font(., fontname = "Bitstream Vera Sans", part = "all")} else {.}}
-}
-
-authorized_researchers %>% 
-    authorized_researchers_table()
+```{r tbl-authorized-researchers}
+#| tbl-cap: "Authorized researchers on the project."
+authorized_researchers %>%
+  authorized_researchers_table()
 ```
 
-\newpage
+{{< pagebreak >}}
 
 ## Underskrift / Signatures
 
@@ -248,34 +229,16 @@ databeskyttelsesforordningen artikel 6.
 Underskriver bekræfter ligeledes at være formelt ansat på den
 dataansvarlige autoriserede institution, der indstiller projektet.
 
-```{r}
-signature_table <- function(name, position) {
-    table_prep <- tribble(
-        ~base, ~values,
-        "Navn:", name,
-        "Stilling:", position,
-        "Dato:", "",
-        "Underskrift:", ""
-    )
-    
-    table_prep %>% 
-        flextable::flextable() %>% 
-        flextable::delete_part() %>% 
-        flextable::border_remove() %>% 
-        flextable::width(width = c(2, 4.5))
-}
-```
-
 **På vegne af den dataansvarlige:**
 
 `r if (!knitr::is_html_output()) " TODO: Add signature before sending. "`
 
-```{r sign-table-1}
+```{r}
 signature_table("Annelli Sandbæk", "Enhedschef")
 ```
 
 **Godkendt til ekstern adgang**
 
-```{r sign-table-2}
+```{r}
 signature_table("Nikolaj Borg Burmeister", "Kontorchef")
 ```
