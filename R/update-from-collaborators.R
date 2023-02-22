@@ -82,6 +82,7 @@ original_sds <- here("data/sds-registers-with-variables-to-use.csv") %>%
   read_csv()
 
 updates_sds <- read_csv2(
+  # Deleted this file, not needed any longer.
   here("data-raw/addition-sds.csv"),
   col_names = c(
     "table_name",
