@@ -5,3 +5,6 @@
 .Rbuildignore
 resources/packages.bib
 _ignore
+public
+
+/.quarto/

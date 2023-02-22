@@ -1,11 +1,12 @@
-image: rocker/tidyverse
+image: registry.gitlab.com/quarto-forge/docker/rstats
 
 pages:
-    script:
-      - ls
-    artifacts:
-        paths:
-            - public
-        expire_in: 1 hour
-    only:
-        - main
+  script:
+    - Rscript -e "install.packages('pak'); pak::pak()"
+    - quarto render
+  artifacts:
+    paths:
+      - public
+    expire_in: 1 hour
+  only:
+    - main

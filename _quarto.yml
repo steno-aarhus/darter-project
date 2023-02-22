@@ -1,0 +1,82 @@
+project:
+  type: website
+  output-dir: public
+  execute-dir: project
+  render:
+    - "!*.md"
+    - index.Rmd
+    - LICENSE.md
+    - applications/*
+
+website:
+  title: "MELD Project"
+  site-url: "https://lwjohnst.gitlab.io/meld-project/"
+  repo-url: "https://gitlab.com/lwjohnst86/meld-project/"
+  repo-branch: main
+  repo-actions: [edit, issue, source]
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    left:
+      - icon: house-door
+        href: "index.Rmd"
+        text: " "
+    right:
+      - text: "DST"
+        href: applications/dst/description.Rmd
+      - text: "SDS"
+        href: applications/sds/application.Rmd
+      - text: "RKKP"
+        href: applications/rkkp/application.qmd
+      - icon: gitlab
+        href: "https://gitlab.com/lwjohnst/meld-project"
+  sidebar:
+    - id: dst
+      title: "Applications"
+      style: "floating"
+      align: left
+      contents:
+        - section: "Denmark Statistics"
+          contents:
+            - text: "Description"
+              href: applications/dst/description.Rmd
+            - text: "Requested data"
+              href: applications/dst/appendix.Rmd
+        - section: "Sundhedsdatastrylsen"
+          contents:
+            - text: "Overview"
+              href: applications/sds/application.Rmd
+            - text: "Description"
+              href: applications/sds/description.Rmd
+            - text: "Requested data"
+              href: applications/sds/extraction.Rmd
+            - text: "ATC Codes"
+              href: applications/sds/atc-codes.Rmd
+        - section: "RKKP"
+          contents:
+            - text: "Application"
+              href: applications/rkkp/application.qmd
+  page-footer:
+    center:
+      - text: "License: CC BY 4.0"
+        href: LICENSE.md
+
+reference-location: margin
+
+format:
+  html:
+    from: markdown+emoji
+    toc: true
+    toc-location: right
+    toc-depth: 2
+    theme:
+        - litera
+
+editor_options:
+  markdown:
+    wrap: 72
+    canonical: true
+
+execute:
+  echo: false
