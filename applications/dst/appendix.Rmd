@@ -22,43 +22,46 @@ library(here)
 library(glue)
 library(flextable)
 source(here("R/format-tables.R"))
-needed_registers <- here("data/needed-registers.csv") %>% 
-    read_csv(col_types = "lddccccc") %>% 
-    filter(!drop | is.na(drop))
+needed_registers <- here("data/needed-registers.csv") %>%
+  read_csv(col_types = "lddccccc") %>%
+  filter(!drop | is.na(drop))
 
 dst_variables <- read_csv(here("data/dst-registers-with-variables-to-use.csv"))
 dst_variables <- dst_variables %>%
-    filter(use_in_application == 1,
-           register_id %in% unique(needed_registers$register_id)) %>% 
-    mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>% 
-    mutate(
-        start_year = case_when(
-            is.na(variable_start_year) |
-                variable_start_year == variable_end_year ~
-                register_start_year,
-            TRUE ~ variable_start_year
-        ),
-        year_range = glue::glue("{start_year} - {variable_end_year}")
-    ) %>% 
-    select(register_id, register_name_dk, variable_name, year_range, description_dk)
+  filter(
+    use_in_application == 1,
+    register_id %in% unique(needed_registers$register_id)
+  ) %>%
+  mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>%
+  mutate(
+    start_year = case_when(
+      is.na(variable_start_year) |
+        variable_start_year == variable_end_year ~
+        register_start_year,
+      TRUE ~ variable_start_year
+    ),
+    year_range = glue::glue("{start_year} - {variable_end_year}")
+  ) %>%
+  select(register_id, register_name_dk, variable_name, year_range, description_dk)
 
 sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv"))
-sds_variables <- sds_variables %>% 
-    filter(use_in_application == 1) %>% 
-    # mutate(start_year = str_extract(periode, "^\\d{4}")) %>% 
-    mutate(periode = str_replace(periode, "\\s?-\\s?$", "-Latest")) %>% 
-    select(register_name, table_name, variable_name, periode, variablebeskrivelse)
+sds_variables <- sds_variables %>%
+  filter(use_in_application == 1) %>%
+  # mutate(start_year = str_extract(periode, "^\\d{4}")) %>%
+  mutate(periode = str_replace(periode, "\\s?-\\s?$", "-Latest")) %>%
+  select(register_name, table_name, variable_name, periode, variablebeskrivelse)
 
-random_registers <- read_csv(here("data/random-undocumented.csv")) %>% 
-    mutate(
-        start_year = if_else(is.na(start_year), "Earliest", as.character(start_year)),
-        year_range = glue::glue("{start_year} - {end_year}")
-    )
+random_registers <- read_csv(here("data/random-undocumented.csv")) %>%
+  mutate(
+    start_year = if_else(is.na(start_year), "Earliest", as.character(start_year)),
+    year_range = glue::glue("{start_year} - {end_year}")
+  )
 
 options(knitr.kable.NA = "")
 # To get loop to work
-if (knitr::is_html_output())
-    htmltools::div(flextable_html_dependency())
+if (knitr::is_html_output()) {
+  htmltools::div(flextable_html_dependency())
+}
 ```
 
 ## Projekttitel
@@ -87,22 +90,22 @@ register alone.
 ```{r requested-dst-variable-tables}
 #| results: asis
 #| tbl-cap: "Registers and variables requested from DST."
-variable_tables <- dst_variables %>% 
-    mutate(register_name = glue("{register_name_dk} ({register_id})")) %>% 
-    select(-register_name_dk) %>% 
-    rename(Variables = variable_name, Beskrivelse = description_dk, År = year_range) %>% 
-    group_split(register_name) 
+variable_tables <- dst_variables %>%
+  mutate(register_name = glue("{register_name_dk} ({register_id})")) %>%
+  select(-register_name_dk) %>%
+  rename(Variables = variable_name, Beskrivelse = description_dk, År = year_range) %>%
+  group_split(register_name)
 
 for (variable_table in variable_tables) {
-    register <- unique(variable_table$register_name)
-    # Register name as header
-    glue("\n\n## Grundregisternavn: {register}\n\n") %>% 
-        as.character() %>% 
-        cat()
-    
-    # Variables as table
-    variable_table %>% 
-        format_dst_appendix_table()
+  register <- unique(variable_table$register_name)
+  # Register name as header
+  glue("\n\n## Grundregisternavn: {register}\n\n") %>%
+    as.character() %>%
+    cat()
+
+  # Variables as table
+  variable_table %>%
+    format_dst_appendix_table()
 }
 ```
 
@@ -111,59 +114,61 @@ for (variable_table in variable_tables) {
 ```{r requested-non-dst-variable-tables}
 #| results: asis
 #| tbl-cap: "Registers and variables requested from other sources."
-sds_variable_tables <- sds_variables %>% 
-    rename(
-        Tabel = table_name,
-        Variabler = variable_name, 
-        Beskrivelse = variablebeskrivelse,
-        År = periode
-    ) %>% 
-    filter(register_name == "Det Nationale Diabetesregister")
+sds_variable_tables <- sds_variables %>%
+  rename(
+    Tabel = table_name,
+    Variabler = variable_name,
+    Beskrivelse = variablebeskrivelse,
+    År = periode
+  ) %>%
+  filter(register_name == "Det Nationale Diabetesregister")
 
 register <- unique(sds_variable_tables$register_name)
 # Register name as header
 glue("\n\n## {register}\n\n") %>%
-    as.character() %>%
-    cat()
+  as.character() %>%
+  cat()
 
 # Variables as table
 sds_variable_tables %>%
-    dplyr::select(matches("^Tabel$"), Variabler, Beskrivelse, År) %>% 
-    format_non_dst_appendix_table(width = c(1.5, 1.5, 3, 1.5))
+  dplyr::select(matches("^Tabel$"), Variabler, Beskrivelse, År) %>%
+  format_non_dst_appendix_table(width = c(1.5, 1.5, 3, 1.5))
 ```
 
 ```{r requested-random-registers-variable-tables}
 #| results: asis
 #| tbl-cap: "Registers and variables requested from other sources."
-random_variable_tables <- random_registers %>% 
-    select(register_name, register_table_name, variable_name, 
-           year_range, variable_description_dk) %>% 
-    rename(
-        Tabel = register_table_name,
-        Variabler = variable_name, 
-        Beskrivelse = variable_description_dk,
-        År = year_range
-    ) %>% 
-    group_split(register_name) 
+random_variable_tables <- random_registers %>%
+  select(
+    register_name, register_table_name, variable_name,
+    year_range, variable_description_dk
+  ) %>%
+  rename(
+    Tabel = register_table_name,
+    Variabler = variable_name,
+    Beskrivelse = variable_description_dk,
+    År = year_range
+  ) %>%
+  group_split(register_name)
 
 for (variable_table in random_variable_tables) {
-    register <- unique(variable_table$register_name)
-    # Register name as header
-    glue("\n\n## {register}\n\n") %>% 
-        as.character() %>% 
-        cat()
-    
-    width <- c(1.5, 1.5, 3, 1.5)
-    if (all(is.na(unique(variable_table$Tabel)))) {
-        width <- 2.25
-        variable_table <- variable_table %>% 
-            select(-Tabel)
-    }
-    
-    # Variables as table
-    variable_table %>% 
-        dplyr::select(matches("^Tabel$"), Variabler, Beskrivelse, År) %>% 
-        format_non_dst_appendix_table(width = width) 
+  register <- unique(variable_table$register_name)
+  # Register name as header
+  glue("\n\n## {register}\n\n") %>%
+    as.character() %>%
+    cat()
+
+  width <- c(1.5, 1.5, 3, 1.5)
+  if (all(is.na(unique(variable_table$Tabel)))) {
+    width <- 2.25
+    variable_table <- variable_table %>%
+      select(-Tabel)
+  }
+
+  # Variables as table
+  variable_table %>%
+    dplyr::select(matches("^Tabel$"), Variabler, Beskrivelse, År) %>%
+    format_non_dst_appendix_table(width = width)
 }
 ```
 
@@ -176,15 +181,15 @@ NPU/DNK-koder så langt tilbage i tiden som muligt.
 #| results: asis
 #| tbl-cap: "Registers and variables requested from DST."
 here("data/labka.csv") %>%
-    read_csv(col_types = cols(
-        Komponent = col_character(),
-        Kode = col_character(),
-        Enhed = col_character()
-    )) %>% 
-    group_by(Komponent) %>% 
-    mutate(Komponent = if_else(row_number() == 1, Komponent, "")) %>% 
-    format_non_dst_appendix_table()
-    # knitr::kable(caption = "Components and codes from the Labka database.")
+  read_csv(col_types = cols(
+    Komponent = col_character(),
+    Kode = col_character(),
+    Enhed = col_character()
+  )) %>%
+  group_by(Komponent) %>%
+  mutate(Komponent = if_else(row_number() == 1, Komponent, "")) %>%
+  format_non_dst_appendix_table()
+# knitr::kable(caption = "Components and codes from the Labka database.")
 ```
 
 ## List of requested ICD-8 and -10 codes
@@ -199,33 +204,33 @@ om netop de listede koder.
 #| results: asis
 #| tbl-cap: "Registers and variables requested from other sources."
 icd_codes <- here("data/icd-codes.csv") %>%
-    read_csv(
-        col_types = cols(
-            parent_group = col_character(),
-            Sygdomsgruppe = col_character(),
-            Sygdomme = col_character(),
-            ICD10 = col_character(),
-            ICD8 = col_character()
-        )
+  read_csv(
+    col_types = cols(
+      parent_group = col_character(),
+      Sygdomsgruppe = col_character(),
+      Sygdomme = col_character(),
+      ICD10 = col_character(),
+      ICD8 = col_character()
     )
+  )
 
 icd_as_table(
-    icd_codes,
-    "diabetes",
-    "Diagnosis of diabetes and its forms and subtypes."
+  icd_codes,
+  "diabetes",
+  "Diagnosis of diabetes and its forms and subtypes."
 )
 
 icd_as_table(
-    icd_codes,
-    "comorbidity",
-    "Diseases that contribute to, are associated with, or are complications or comorbidities of diabetes."
+  icd_codes,
+  "comorbidity",
+  "Diseases that contribute to, are associated with, or are complications or comorbidities of diabetes."
 )
 
 icd_as_table(
-    icd_codes %>% select(-Sygdomsgruppe),
-    "charlesons",
-    "Diseases that are components of the 'Charleson's Morbidity Index'.",
-    width = 2.25
+  icd_codes %>% select(-Sygdomsgruppe),
+  "charlesons",
+  "Diseases that are components of the 'Charleson's Morbidity Index'.",
+  width = 2.25
 )
 ```
 
@@ -420,11 +425,11 @@ Description of disease and its relation to diabetes
 #| results: asis
 #| tbl-cap: "Requested ATC codes."
 here("data/atc-codes.csv") %>%
-    read_csv(col_types = cols(
-        level = col_double(),
-        code = col_character(),
-        description = col_character()
-    )) %>% 
-    select(`ATC Code` = code, Description = description) %>% 
-    format_non_dst_appendix_table(caption = "Requested ATC codes in classifying diabetes and cardiovascular diseases.", width = c(2, 5), is_atc = TRUE)
+  read_csv(col_types = cols(
+    level = col_double(),
+    code = col_character(),
+    description = col_character()
+  )) %>%
+  select(`ATC Code` = code, Description = description) %>%
+  format_non_dst_appendix_table(caption = "Requested ATC codes in classifying diabetes and cardiovascular diseases.", width = c(2, 5), is_atc = TRUE)
 ```
