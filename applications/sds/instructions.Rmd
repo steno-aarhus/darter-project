@@ -1,3 +1,7 @@
+---
+execute:
+  eval: false
+---
 
 # Instructions for documents to provide to SDS
 
@@ -9,37 +13,30 @@ library(magrittr)
 library(stringr)
 project_pdf_link <- "https://sundhedsdatastyrelsen.dk/-/media/sds/filer/forskerservice/krav-til-projektbeskrivelse.pdf"
 project_text <- pdf_text(project_pdf_link)
-project_text 
-%>% 
-    str_replace_all("  +", -)
+project_text %>% 
+  str_replace_all("  +", "- ")
 clipr::write_clip(project_text)
 ```
 
-Når du søger om adgang til data via Forskerservice, skal du vedhæfte en projektbeskrivelse til
-ansøgningen.
-Vi skal i Forskerservice bruge projektbeskrivelsen til at vurdere, om dine ønsker om data svarer
-til projektets problemstilling og metode. Ligeledes skal vi vurdere den samfundsmæssige rele-
-vans af projektet. Begge dele for at vi kan overholde databeskyttelsesforordningen.
-Derfor vil en præcis projektbeskrivelse hjælpe os til at give dig en bedre rådgivning i forbindelse
-med din ansøgning.
-Projektbeskrivelsen skal indeholde følgende:
-     Introduktion
-     Kort indføring i området.
-     Formål
-     Projektets formål kort formuleret.
-     Projektets problemstilling
-     Gerne formuleret som det eller de konkrete spørgsmål, som konklusionen skal svare på.
-     Data og Metode
-     Hvordan vil projektet svare på problemstillingen? Hvilke data vil man anvende? Hvordan
-     skal data bruges?
-     Offentliggørelse af resultater
-     Hvordan og hvornår planlægges forskningens resultater offentliggjort?
-     Perspektivering
-     Hvilken viden af samfundsmæssig relevans kan denne undersøgelse bidrage til?
-     Etiske overvejelser
-     Hvis projektet indebærer direkte kontakt med borgere, for eksempel spørgeskemaunder-
-     søgelser eller interventionsstudier: Hvilke etiske overvejelser er der gjort i forbindelse med
-     direkte inddragelse af borgere i undersøgelsen?
+Når du søger om adgang til data via Forskerservice, skal du vedhæfte en
+projektbeskrivelse til ansøgningen. Vi skal i Forskerservice bruge
+projektbeskrivelsen til at vurdere, om dine ønsker om data svarer til
+projektets problemstilling og metode. Ligeledes skal vi vurdere den
+samfundsmæssige rele- vans af projektet. Begge dele for at vi kan
+overholde databeskyttelsesforordningen. Derfor vil en præcis
+projektbeskrivelse hjælpe os til at give dig en bedre rådgivning i
+forbindelse med din ansøgning. Projektbeskrivelsen skal indeholde
+følgende: Introduktion Kort indføring i området. Formål Projektets
+formål kort formuleret. Projektets problemstilling Gerne formuleret som
+det eller de konkrete spørgsmål, som konklusionen skal svare på. Data og
+Metode Hvordan vil projektet svare på problemstillingen? Hvilke data vil
+man anvende? Hvordan skal data bruges? Offentliggørelse af resultater
+Hvordan og hvornår planlægges forskningens resultater offentliggjort?
+Perspektivering Hvilken viden af samfundsmæssig relevans kan denne
+undersøgelse bidrage til? Etiske overvejelser Hvis projektet indebærer
+direkte kontakt med borgere, for eksempel spørgeskemaunder- søgelser
+eller interventionsstudier: Hvilke etiske overvejelser er der gjort i
+forbindelse med direkte inddragelse af borgere i undersøgelsen?
 
 ## Extraction description
 
@@ -47,4 +44,3 @@ Projektbeskrivelsen skal indeholde følgende:
 extraction_pdf_link <- "https://sundhedsdatastyrelsen.dk/-/media/sds/filer/forskerservice/krav-til-udtraeksbeskrivelse.pdf"
 pdf_text(extraction_pdf_link)
 ```
-
