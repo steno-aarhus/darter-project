@@ -142,6 +142,7 @@ register_variables_df <- register_variables_tables %>%
            description_dk = description)
 
 write_csv(register_variables_df,
+          # Not saved in Git.
           here("data-raw/dst/registers-with-variables.csv"),
           # If updating from the needed registers.
           append = TRUE, na = "")
@@ -154,6 +155,7 @@ registers_df <- needed_registers_tbl %>%
            register_url)
 
 write_csv(registers_df,
+          # Not saved in Git.
           here("data-raw/dst/registers.csv"),
           # If updating from the needed registers.
           append = TRUE, na = "")
@@ -164,6 +166,7 @@ write_csv(registers_df,
 # Translate and than copy and paste back into the spreadsheet.
 registers_df %>%
     select(register_id, register_name_dk) %>%
+    # Not saved in Git.
     write_csv(here("data-raw/dst/registers-for-translation.csv"),
               append = TRUE, na = "")
 
@@ -178,6 +181,7 @@ registers_df %>%
 # take too long.
 register_variables_df %>%
     select(register_id, variable_name, description_dk) %>%
+    # Not saved in Git.
     write_csv(here("data-raw/dst/registers-with-variables-for-translation.csv"),
               append = TRUE, na = "")
 
@@ -190,6 +194,7 @@ register_variables_df %>%
 # After pasting the translation, we'll join with the translated files with
 # the non-translated files, join both dataframes into a single dataframe,
 # and save to data/.
+
 registers_df <- read_csv(here("data-raw/dst/registers.csv"))
 registers_translated <- read_csv(here("data-raw/dst/registers-for-translation.csv")) %>%
     full_join(registers_df, by = c("register_id", "register_name_dk"))
@@ -212,6 +217,7 @@ registers_translated %>%
     mutate(use_in_application = NA_character_,
            reason_for_use = NA_character_,
            .before = 1) %>%
+    # Not saved in Git.
     write_csv(here("data/dst-registers-with-variables.csv"),
               na = "")
 

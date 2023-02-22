@@ -101,6 +101,7 @@ tidied_descriptions <- register_variable_numbers %>%
     pull(url_extension) %>%
     scrape_and_tidy(tidy_scraped_descriptions)
 
+# Not saved in Git.
 write_csv(tidied_descriptions, here::here("data-raw/sds/registers-descriptions.csv"))
 
 full_variable_list <- register_variable_numbers %>%
@@ -115,6 +116,7 @@ full_variable_list <- register_variable_numbers %>%
     full_join(select(kept_register_numbers, -url_extension), by = "register_id") %>%
     full_join(select(register_table_numbers, -url_extension), by = "table_id")
 
+# Not saved in Git.
 write_csv(full_variable_list, here::here("data-raw/sds/variables.csv"))
 
 # Prepare descriptions ----------------------------------------------------
@@ -183,6 +185,7 @@ sds_descriptions %>%
     pivot_longer(-id) %>%
     count(name, value) %>%
     rowid_to_column() %>%
+    # Not saved in Git.
     write_csv(here::here("data-raw/sds/descriptions-for-translations.csv"))
 
 # Saving final descriptions -----------------------------------------------
@@ -230,6 +233,7 @@ sds_descriptions %>%
                       na_if("Ingen"))) %>%
     relocate(short_register_description, table_contents, variable_description,
              .after = variable_name) %>%
+    # Not saved in Git.
     write_csv(here::here("data/sds-registers-with-variables.csv"),
               na = "")
 
