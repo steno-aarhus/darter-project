@@ -6,7 +6,7 @@ AlwaysSaveHistory: Default
 
 EnableCodeIndexing: Yes
 UseSpacesForTab: Yes
-NumSpacesForTab: 4
+NumSpacesForTab: 2
 Encoding: UTF-8
 
 RnwWeave: knitr
@@ -15,8 +15,7 @@ LaTeX: pdfLaTeX
 AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
 
-BuildType: Custom
-CustomScriptPath: _build.R
+BuildType: None
 
 MarkdownWrap: Column
 MarkdownWrapAtColumn: 72
