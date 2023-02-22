@@ -42,6 +42,7 @@ original_dst <- here("data/dst-registers-with-variables-to-use.csv") %>%
   read_csv()
 
 updates_dst <- read_csv2(
+  # Deleted this file, not needed any longer.
   here("data-raw/addition-dst.csv"),
   col_names = c(
     "variable_name", "description_english",
