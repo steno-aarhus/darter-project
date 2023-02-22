@@ -1,14 +1,5 @@
 ---
 title: "Requested ATC codes"
-author:
-  - name: Luke W. Johnston
-    url: https://lukewjohnston.com/
-    affiliation: Steno Diabetes Center Aarhus
-repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
-creative_commons: CC BY
-output: 
-    word_document:
-        reference_docx: ../../resources/templates/appendix.docx
 ---
 
 ## Justifications
@@ -21,7 +12,7 @@ output:
     not only the ones related to diabetes. We use the level 2 ATC codes
     to make a rough classification of the groups of medicine used.
 
-\pagebreak
+{{< pagebreak >}}
 
 ```{r list-atc-codes, include=FALSE}
 library(here)
@@ -29,7 +20,6 @@ library(tidyverse)
 library(flextable)
 source(here("R/format-tables.R"))
 
-knitr::opts_chunk$set(echo = FALSE)
 options(knitr.kable.NA = "")
 # To get loop to work
 if (knitr::is_html_output())
@@ -72,7 +62,9 @@ atc_codes_list <- atc_codes %>%
         )
 ```
 
-```{r table-atc-codes, results='asis', echo=FALSE}
+```{r table-atc-codes}
+#| results: asis
+#| tbl-cap: "ATC Codes."
 # Need a loop for working with flextables
 for (atc_code_table in atc_codes_list) {
     cat("\n\n")

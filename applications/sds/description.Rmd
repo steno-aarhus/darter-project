@@ -1,14 +1,5 @@
 ---
 title: "Project description"
-author:
-  - name: Luke W. Johnston
-    url: https://lukewjohnston.com/
-    affiliation: Steno Diabetes Center Aarhus
-repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
-creative_commons: CC BY
-output: 
-    word_document:
-        reference_docx: ../../resources/templates/appendix.docx
 ---
 
 ## Introduction

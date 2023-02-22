@@ -1,11 +1,5 @@
 ---
 title: "Application for use of Sundhedsdatastyrelsen (SDS) registers"
-author:
-  - name: Luke W. Johnston
-    url: https://lukewjohnston.com/
-    affiliation: Steno Diabetes Center Aarhus
-repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
-creative_commons: CC BY
 ---
 
 Fill in the below information using the [SDS application
@@ -16,10 +10,7 @@ Not all information filled into the form is present here.
 
 # Project title
 
-Interplay between diabetes and intergenerational transmission of health
-determinants over the life course
-
-(Max 200 characters)
+{{< var project.title >}}
 
 # Abstract
 
@@ -47,7 +38,7 @@ sds_variables <- sds_variables %>%
 random_registers <- read_csv(here("data/random-undocumented.csv"))
 ```
 
-```{r list-registers-needed, echo=FALSE, results='asis'}
+```{r list-registers-needed, results='asis'}
 bind_rows(sds_variables,
           random_registers) %>%
     distinct(register_name) %>% 

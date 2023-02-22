@@ -1,5 +1,5 @@
 ---
-title: {{ var title }}
+title: "Steno Register-based Project: {{< var project.title >}}"
 author:
   - name: Luke W. Johnston
     orcid: 0000-0003-4169-2616
@@ -15,18 +15,3 @@ author:
         - name: Steno Diabetes Center Aarhus
         - name: Aarhus University
 ---
-
-Application to request data from Denmark Statistics
-
--   [Project Description](description.html) with justification and other
-    necessary information for DST. See the [word
-    document](public/708421_projektinstilling_LukeJohnston.docx) sent to
-    DST for how it should look like.
--   [Project Appendix](appendix.html) with tables of requested registers
-    and variables from DST. See the [word
-    document](public/708421_udtræksbeskrivelse_LukeJohnston.docx) sent
-    to DST for how it should look like.
--   [Comments and responses](misc/review-responses.html) to DST
-    reviewer.
-    <!-- - [Application to Sundhedsdatastyrelsen](misc/sds-application.html) with the  -->
-    <!-- necessary information for their approval. -->
