@@ -1,11 +1,11 @@
 level,code,description,expanded_level
-1,A,Alimentary tract and metabolisma,
-2,A08,"Antiobesity preparations, excluding diet products",
+1,A,Alimentary tract and metabolisma,2
+2,A08,"Antiobesity preparations, excluding diet products",4
 3,A08A,"Anti obesity drugs list, excluding diet products",
 4,A08AA,Centrally acting anti obesity drugs,
 4,A08AB,Peripherally acting anti obesity drugs,
 4,A08AX,Other anti obesity drugs,
-2,A10,Drugs used in diabetes,
+2,A10,Drugs used in diabetes,5
 3,A10A,Insulins and analogues,
 4,A10AB,"Insulins and analogues for injection, fast-acting",
 5,A10AB01,Insulin (human),
@@ -136,10 +136,9 @@ level,code,description,expanded_level
 3,A10X,Other drugs used in diabetes,
 4,A10XA,Aldose reductase inhibitors,
 5,A10XA01,Tolrestat,
-1,B,Blood and blood forming organs,
-2,B01A,Antithrombotic agents,
-3,B01A,,
-4,B01AA,,
+1,B,Blood and blood forming organs,2
+3,B01A,Antithrombotic agents,
+4,B01AA,Vitamin K antagonists,
 5,B01AA03,Warfarin,
 4,B01AC,Platelet aggregation inhibitors excluding heparin,
 5,B01AC04,Clopidogrel,
@@ -164,12 +163,12 @@ level,code,description,expanded_level
 4,B03BA,Vitamin B12 (cyanocobalamin and analogues),
 4,B03BB,Folic acid and derivatives,
 3,B03X,Other antianemic preparations,
-4,B03XA,,
+4,B03XA,Other antianemic preparations,
 5,B03XA01,Erythropoietin,
 5,B03XA02,Darbepoetin alfa,
 5,B03XA03,Methoxy polyethylene glycol-epoetin beta,
 5,B03XA04,Peginesatide,
-1,C,Cardiovascular system,
+1,C,Cardiovascular system,2
 2,C01,Cardiac therapy,
 3,C01A,Cardiac glycosides list,
 4,C01AA,Digitalis glycosides,
@@ -184,12 +183,12 @@ level,code,description,expanded_level
 5,C01BD01,Amiodarone,
 4,C01BG,Class 1 and 3 antiarrhythmic drugs,
 2,C03,Diuretic drugs,
-3,C03A,"Low-ceiling diuretics, thiazides",
+3,C03A,"Low-ceiling diuretics, thiazides",4
 4,C03AA,"Thiazides, plain",
 4,C03AB,Thiazides and potassium in combination,
 4,C03AH,"Thiazides, combinations with psycholeptics and/or analgesics",
 4,C03AX,"Thiazides, combinations with other drugs",
-3,C03C,High-ceiling diuretics,
+3,C03C,High-ceiling diuretics,4
 4,C03CA,"Sulfonamides, plain",
 4,C03CB,Sulfonamides and potassium in combination,
 4,C03CC,Aryloxyacetic acid derivatives,
@@ -202,34 +201,34 @@ level,code,description,expanded_level
 5,C03DA03,Canrenone,
 5,C03DA04,Eplerenone,
 2,C07,Beta blocking agents,
-3,C07A,Beta blocking agents,
+3,C07A,Beta blocking agents,4
 4,C07AA,"Beta blocking agents, non-selective",
 4,C07AB,"Beta blocking agents, selective",
 4,C07AG,Alpha and beta blocking agents,
-3,C07B,Beta blocking agents and thiazides,
+3,C07B,Beta blocking agents and thiazides,4
 4,C07BA,"Beta blocking agents, non-selective, and thiazides",
 4,C07BB,"Beta blocking agents, selective, and thiazides",
 4,C07BG,Alpha and beta blocking agents and thiazides,
-3,C07C,,
+3,C07C,Beta blocking agents and other diuretics,4
 4,C07CA,"Beta blocking agents, non-selective, and other diuretics",
 4,C07CB,"Beta blocking agents, selective, and other diuretics",
 4,C07CG,Alpha and beta blocking agents and other diuretics,
-3,C07D,,
+3,C07D,"Beta blocking agents, thiazides and other diuretics",4
 4,C07DA,"Beta blocking agents, non-selective, thiazides and other diuretics",
 4,C07DB,"Beta blocking agents, selective, thiazides and other diuretics",
-3,C07F,,
+3,C07F,"Beta blocking agents, other combinations",4
 4,C07FA,"Beta blocking agents, non-selective, and other antihypertensives",
 4,C07FB,"Beta blocking agents, selective, and other antihypertensives",
 4,C07FX,"Beta blocking agents, other combinations",
 2,C08,Calcium channel blockers,
-3,C08C,Selective calcium channel blockers with mainly vascular effects,
+3,C08C,Selective calcium channel blockers with mainly vascular effects,4
 4,C08CA,Dihydropyridine derivatives,
 4,C08CX,Other selective calcium channel blockers with mainly vascular effects,
-3,C08D,Selective calcium channel blockers with direct cardiac effects,
+3,C08D,Selective calcium channel blockers with direct cardiac effects,4
 4,C08DA,Phenylalkylamine derivatives,
 4,C08DB,Benzothiazepine derivatives,
 2,C09,Agents acting on the renin-angiotensin system,
-3,C09A,"ACE inhibitors, plain",
+3,C09A,"ACE inhibitors, plain",5
 4,C09AA,"ACE inhibitors, plain",
 5,C09AA01,Captopril,
 5,C09AA02,Enalapril,
@@ -247,7 +246,7 @@ level,code,description,expanded_level
 5,C09AA14,Temocapril,
 5,C09AA15,Zofenopril,
 5,C09AA16,Imidapril,
-3,C09C,Angiotensin II receptor blockers (ARBs)plain,
+3,C09C,Angiotensin II receptor blockers (ARBs)plain,5
 4,C09CA,Angiotensin II receptor blockers (ARBs)plain,
 5,C09CA01,Losartan,
 5,C09CA02,Eprosartan,
@@ -260,11 +259,11 @@ level,code,description,expanded_level
 5,C09CA09,Azilsartan medoxomil,
 5,C09CA10,Fimasartan,
 3,C09D,"Angiotensin II receptor blockers (ARBs), combinations",
-4,C09DX,,
+4,C09DX,"Angiotensin II receptor blockers (ARBs), other combinations",
 5,C09DX04,Valsartan and sacubitril,
 2,C10,Lipid modifying agents,
 3,C10A,"Lipid modifying agents, plain",
-4,C10AA,HMG CoA reductase inhibitors,
+4,C10AA,HMG CoA reductase inhibitors,5
 5,C10AA01,Simvastatin,
 5,C10AA02,Lovastatin,
 5,C10AA03,Pravastatin,
@@ -273,10 +272,11 @@ level,code,description,expanded_level
 5,C10AA06,Cerivastatin,
 5,C10AA07,Rosuvastatin,
 5,C10AA08,Pitavastatin,
-1,G,Genitourinary system and reproductive hormones,
+1,D,Dermatologicals,2
+1,G,Genitourinary system and reproductive hormones,2
 2,G04,Urological drugs,
 3,G04B,Urologicals,
-4,G04BE,Drugs used in erectile dysfunction,
+4,G04BE,Drugs used in erectile dysfunction,5
 5,G04BE01,Alprostadil,
 5,G04BE02,Papaverine,
 5,G04BE03,Sildenafil,
@@ -289,68 +289,40 @@ level,code,description,expanded_level
 5,G04BE11,Udenafil,
 5,G04BE30,Combinations,
 5,G04BE52,"Papaverine, combinations",
-1,H,"Systemic hormonal preparations, excluding reproductive hormones and insulins",
+1,H,"Systemic hormonal preparations, excluding reproductive hormones and insulins",2
 2,H02,Corticosteroids systemic,
-3,H02A,"Corticosteroids for systemic use, plain",
+3,H02A,"Corticosteroids for systemic use, plain",4
 4,H02AA,Mineralocorticoids,
 4,H02AB,Glucocorticoids,
-3,H02B,,
+3,H02B,"Corticosteroids for systemic use, combinations",5
 4,H02BX,"Corticosteroids for systemic use, combinations",
 5,H02BX01,"Methylprednisolone, combinations",
 2,H03,Thyroid therapy,
-3,H03A,Thyroid preparations,
+3,H03A,Thyroid preparations,4
 4,H03AA,Thyroid hormones,
-3,H03B,Antithyroid preparations,
+3,H03B,Antithyroid preparations,4
 4,H03BA,Thiouracils,
 4,H03BB,Sulphur-containing imidazole derivatives,
 4,H03BC,Perchlorates,
 4,H03BX,Other antithyroid preparations,
-1,N,Nervous system,
+1,J,Antiinfectives for systemic use,2
+1,L,Antineoplastic and immunomodulating agents,2
+1,M,Musculo-skeletal system,2
+1,N,Nervous system,2
+3,N03A,Antiepileptics,5
+3,N05A ,Antipsychotics,5
+3,N05B,Anxiolytics,5
+3,N05C,Hyponotics and sedatives,5
 2,N06,Psychoanaleptics,
-3,N06A,Antidepressant drugs,
+3,N06A,Antidepressant drugs,5
 4,N06AA,Non-selective monoamine reuptake inhibitors,
 4,N06AB,Selective Serotonin Reuptake Inhibitors,
 4,N06AF,"Monoamine oxidase inhibitors, non-selective",
 4,N06AG,Monoamine oxidase A inhibitors,
 4,N06AX,Other antidepressant drugs,
-2,A08,,4
-3,C03A,,4
-3,C03C,,4
-3,C07A,,4
-3,C07B,,4
-3,C07C,,4
-3,C07D,,4
-3,C07F,,4
-3,C08C,,4
-3,C08D,,4
-3,H02A,,4
-3,H03A,,4
-3,H03B,,4
-3,N06A,,4
-2,A10,,5
-3,C09A,,5
-3,C09C,,5
-4,C10AA,,5
-4,G04BE,,5
-3,H02B,,5
-1,A,,2
-1,B,,2
-1,C,,2
-1,D,,2
-1,G,,2
-1,H,,2
-1,J,,2
-1,L,,2
-1,M,,2
-1,N,,2
-1,P,,2
-1,R,,2
-1,S,,2
-1,V,,2
-3,N05A ,,5
-3,N06A ,,5
-4,N06CA,,5
-3,N03A,,5
-3,N05B,,5
-3,N05C,,5
-3,N07B,,5
+4,N06CA,Antidepressants in combination with psycholeptics,5
+3,N07B,Drugs used in addictive disorders,5
+1,P,"Antiparasitic products, insecticides, and repellents",2
+1,R,Respiratory system,2
+1,S,Sensory organs,2
+1,V,Various,2
