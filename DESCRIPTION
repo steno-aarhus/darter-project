@@ -20,6 +20,7 @@ Imports:
     lubridate,
     cli,
     htmltools,
-    janitor
+    janitor,
+    reactable
 Depends: 
     tidyverse
