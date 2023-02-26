@@ -99,11 +99,6 @@ sds_variables <-
     ) %>% 
     select(register_name, table_name, variable_name, time_period)
 
-random_registers <- read_csv(here("data/random-undocumented.csv")) %>% 
-    mutate(time_period = str_c(start_year, " to ", end_year)) %>% 
-    select(register_name, table_name = register_table_name, variable_name,
-           time_period)
-
 sds_register_names <- c("Cancerregisteret", "IVF", "LPR_PSYK", "DRG", "PLH", "RUKS", "LAB")
 registers <- bind_rows(sds_variables, random_registers) %>% 
     filter(register_name %in% sds_register_names) %>% 
