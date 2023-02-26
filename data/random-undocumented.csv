@@ -1,234 +1,72 @@
-register_name,register_table_name,variable_name,variable_description_dk,start_year,end_year,misc_notes,stamregister
-IVF,t_ivf_register,c_i_behmade                       ,IVF-behandlingsmetode,1994,2005,,IVF
-IVF,t_ivf_register,d_i_mfoddto                       ,IVF kvindens fødselsdato,1994,2005,,IVF
-IVF,t_ivf_register,c_i_sektor                        ,Sektor (privat eller offentlig),1994,2005,,IVF
-IVF,t_ivf_register,d_i_cykldto                       ,Startdato for IVF-behandling - alle behandlingsmetoder,1994,2005,,IVF
-IVF,t_ivf_register,v_i_n_modt                        ,Antal donoræg modtaget ED-metode,1994,2005,,IVF
-IVF,t_ivf_register,v_i_mcpr                          ,IVF kvindens CPRnummer,1994,2005,,IVF
-IVF,t_ivf_register,b_i_ovuldef                       ,Anamnese ovulutionsdefekt,1994,2005,,IVF
-IVF,t_ivf_register,b_i_tubafakt                      ,Anamnese tubafaktor,1994,2005,,IVF
-IVF,t_ivf_register,b_i_cervfakt                      ,Anamnese cervicovaginal uterin faktor,1994,2005,,IVF
-IVF,t_ivf_register,b_i_mandfakt                      ,Anamnese mandlige faktor,1994,2005,,IVF
-IVF,t_ivf_register,b_i_anamandenfakt,Anamnese andre aarsager,1994,2005,,IVF
-IVF,t_ivf_register,b_i_uspecfakt                     ,Anamnese uforklaret uden specifikation,1994,2005,,IVF
-IVF,t_ivf_register,d_i_behdto                        ,Dato for start af ICF og ICSI behandling,1994,2005,,IVF
-IVF,t_ivf_register,b_i_aspir                         ,Er der foretaget aspiration,1994,2005,,IVF
-IVF,t_ivf_register,d_i_aspdto                        ,Dato for aspiration,1994,2005,,IVF
-IVF,t_ivf_register,v_i_n_ocyt                        ,Antal æg udtaget,1994,2005,,IVF
-IVF,t_ivf_register,b_i_donorsd                       ,Er æg befrugtet md donorsæd,1994,2005,,IVF
-IVF,t_ivf_register,b_i_natcyk                        ,Naturlig cyklus IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,b_i_klomifen                      ,Er der anvendt klomifen IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,v_i_klomed                        ,ATC for klomifen IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,b_i_hmg_fsh                       ,Er der anvendt hMG/FSH IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,v_i_hmgfshmed                     ,ATC for hMG/FSH IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,b_i_gnrh_a                        ,Er der anvendt gnrh:a IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,v_i_gnrhmed                       ,ATC for gnrh:a IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,b_i_oestro                        ,ER der anvendt østrogen IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,v_i_oestmed                       ,ATC for østrogen IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,b_i_progest                       ,Er der anvendt progesteron IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,v_i_progmed                       ,ATC for progesteron IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,b_i_hcg                           ,Er der anvendt hCG IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,v_i_hcgmed                        ,ATC for hCG IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,b_i_andhorm                       ,Er der anvent andre hormoner IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,v_i_andhormed                     ,ATC for andre anvendte hormoner IVF og ICSI,1994,2005,,IVF
-IVF,t_ivf_register,b_i_ivfmetod                      ,Æg befrugtet med IVFmetode,1994,2005,,IVF
-IVF,t_ivf_register,b_i_icsimetod                     ,Æg befrugtet med ICSI metode,1994,2005,,IVF
-IVF,t_ivf_register,b_i_transfer                      ,Er der foretaget transferering,1994,2005,,IVF
-IVF,t_ivf_register,d_i_transdto                      ,Dato for ægoplægning,1994,2005,,IVF
-IVF,t_ivf_register,v_i_ntransf                       ,Antal friske æg transfereret,1994,2005,,IVF
-IVF,t_ivf_register,v_i_ncryo                         ,Antal æg nedfrosset,1994,2005,,IVF
-IVF,t_ivf_register,d_i_mensdto                       ,Dato for sidste menstruation,1994,2005,,IVF
-IVF,t_ivf_register,b_i_transopt                      ,Er der foretaget ægoplægning af optøede æg,1994,2005,,IVF
-IVF,t_ivf_register,v_i_n_opt                         ,Antal optøede æg transfereret,1994,2005,,IVF
-IVF,t_ivf_register,b_i_transudf                      ,Er der foretaget oplægning af donoræg,1994,2005,,IVF
-IVF,t_ivf_register,d_i_modtdto                       ,Dato for modtagelse af donoræg,1994,2005,,IVF
-IVF,t_ivf_register,v_i_ntrans                        ,Antal donoræg transfereret,1994,2005,,IVF
-IVF,t_ivf_register,v_i_cryop                         ,Antal donoræg nedfrosset,1994,2005,,IVF
-IVF,t_ivf_register,b_i_natcykl                       ,Naturlig cyklus ED,1994,2005,,IVF
-IVF,t_ivf_register,b_i_hormoest                      ,Er der anvendt østrogen ED,1994,2005,,IVF
-IVF,t_ivf_register,v_i_atcoest                       ,ATC for østrogen ED,1994,2005,,IVF
-IVF,t_ivf_register,b_i_hormpro                       ,Er der anvendt progesteron ED,1994,2005,,IVF
-IVF,t_ivf_register,v_i_atcprog                       ,ATC for progesteron ED,1994,2005,,IVF
-IVF,t_ivf_register,b_i_hormgnrh                      ,Er der anvendt gnrh_a ED,1994,2005,,IVF
-IVF,t_ivf_register,v_i_atcgnrh                       ,ATC for gnrh_A ED,1994,2005,,IVF
-IVF,t_ivf_register,b_i_hormand                       ,Er der anvendt andre hormoner ED,1994,2005,,IVF
-IVF,t_ivf_register,v_i_atcand                        ,ATC for andre hormoner ED,1994,2005,,IVF
-IVF,t_ivf_register,b_i_shcgpos                       ,Er graviditet S_hCG positiv?,1994,2005,,IVF
-IVF,t_ivf_register,b_i_overstim                      ,Har kvinden været indlagt med overstimulation,1994,2005,,IVF
-IVF,t_ivf_register,b_i_infektio                      ,Har kvinden været indlagt med infektion,1994,2005,,IVF
-IVF,t_ivf_register,v_i_cyklaar                       ,År for IVF-behandling - alle behandlingsmetoder,1994,2005,,IVF
-IVF,t_ivf_register,v_i_malder                        ,Kvindens alder ved start på aktuelt behandlingsforløb,1994,2005,,IVF
-IVF,t_ivf_register,v_i_anamnes                       ,Antal årsager til anames,1994,2005,,IVF
-IVF,t_ivf_register,b_i_uoplfakt                      ,Anden eller uoplyst aarsag til anamnese,1994,2005,,IVF
-IVF,t_ivf_register,c_f_bstatus                       ,"Fødselsstatus - Singleton, tvilling eller trilling",1994,2005,,Fødsel
-IVF,t_ivf_register,v_f_blangde                       ,Barnets længde i cm,1994,2005,,Fødsel
-IVF,t_ivf_register,v_f_bcpr                          ,Barnets CPR nr,1994,2005,,Fødsel
-IVF,t_ivf_register,v_f_fcpr                          ,Faderes CPR nr,1994,2005,,Fødsel
-IVF,t_ivf_register,v_f_malder                        ,Mors alder ved fødsel,1994,2005,,Fødsel
-IVF,t_ivf_register,d_f_bfoddto                       ,Barnets fødselsdato,1994,2005,,Fødsel
-IVF,t_ivf_register,v_f_bvagt                         ,Barnets fødselsvægt i gram,1994,2005,,Fødsel
-IVF,t_ivf_register,c_f_msgh                          ,Sygehus ved fødselsen,1994,2005,,Fødsel
-IVF,t_ivf_register,v_f_bapgar                        ,Barnets apgar score efter 5 minutter,1994,2005,,Fødsel
-IVF,t_ivf_register,c_f_bsex                          ,Barnets køn,1994,2005,,Fødsel
-IVF,t_ivf_register,v_f_mparitet                      ,Paritet,1994,2005,,Fødsel
-IVF,t_ivf_register,v_f_bflerfold                     ,Antal børn i fødslen,1994,2005,,Fødsel
-IVF,t_ivf_register,v_f_bga_dage                      ,Svangerskabslængde i dage,1994,2005,,Fødsel
-IVF,t_ivf_register,c_f_bfodstatus                    ,Fødselsstatus - levende født eller dødfødt,1994,2005,,Fødsel
-IVF,t_ivf_register,v_f_bfodaar                       ,Barnets fødselseår,1994,2005,,Fødsel
-IVF,t_ivf_register,v_i_fga_dage                      ,Antal dage fra befrugtning til fødsel,1994,2005,,IVF
-IVF,t_ivf_register,c_a_mdiag                         ,Diagnose for abort,1994,2005,,Abort
-IVF,t_ivf_register,c_a_mtildiag                      ,Tillægsdiagnose for abort,1994,2005,,Abort
-IVF,t_ivf_register,c_a_msgh                          ,Sygehus for abort,1994,2005,,Abort
-IVF,t_ivf_register,d_a_minddto                       ,Indlæggelsesdato for abort,1994,2005,,Abort
-IVF,t_ivf_register,d_a_muddto                        ,Udskrivningsdato for abort,1994,2005,,Abort
-IVF,t_ivf_register,v_a_mabortaar                     ,År for abort,1994,2005,,Abort
-IVF,t_ivf_register,v_a_mga_dage                      ,Svangerskabslængde ved abort angivet i dage - fuldendte uger,1994,2005,,Abort
-IVF,t_ivf_register,c_a_maborttype                    ,"Aborttype . provokeret, spontan eller abnorm",1994,2005,,Abort
-IVF,t_ivf_register,c_a_mgravtype                     ,"Biokemisk, extrauterin, mola, heterotorp",1994,2005,,Abort
-IVF,t_ivf_register,v_i_aga_dage                      ,Antal dage fra befrugtning til abort,1994,2005,,IVF
-IVF,t_ivf_register,b_i_klingrav,Klinisk graviditet,1994,2005,,IVF
-IVF,t_ivf_register,v_a_malder                        ,Moderens alder på tidspunkt for abort,1994,2005,,IVF
-IVF,t_ivf_register,b_i_aegudt                        ,Er der foretaget ægudtagning?,1994,2005,,IVF
-IVF,t_ivf_register,b_i_aegopl  ,Er der foretaget ægoplægning?,1994,2005,,IVF
-IVF,t_grund,v_skemaid,Skemaidentifikationsnummer,2006,2021,,
-IVF,t_grund,d_skemaoprettet_dato,Dato for oprettelses af skemaet i indberetningssystemet,2006,2021,,
-IVF,t_grund,d_startdato,Dato for påbegyndt stimulations-/substitutionsbehandling eller 1. menstruationsdag **,2006,2021,,
-IVF,t_grund,v_aar,Året for påbegyndt stimulations-/substitutionsbehandling eller 1. menstruationsdag,2006,2021,,
-IVF,t_grund,c_sgh,Sygehuskode hvor behandling har fundet sted - er udfyldt hvis ydernr ikke er udfyldt,2006,2021,FGR,
-IVF,t_grund,c_afd,Afdelingskode hvor behandling har fundet sted - er udfyldt hvis sgh er udfyldt,2006,2021,FGR,
-IVF,t_grund,c_ydernr,Ydernummer hvor behandling har fundet sted - er udfyldt hvis sgh og afd ikke er udfyldt,2006,2021,YDR,
-IVF,t_grund,v_sghnavn,Sygehusets navn ved på opdateringsdatoen for registeret,2006,2021,,
-IVF,t_grund,v_cpr,IVF kvindens cprnummer,2006,2021,,
-IVF,t_grund,v_alder,IVF kvindens alder ved behandlingsstartdato,2006,2021,,
-IVF,t_grund,c_kom,IVF kvindens bopælskommune,2006,2021,FGR,
-IVF,t_grund,v_hoejde,IVF kvindens højde i cm,2006,2021,,
-IVF,t_grund,v_vaegt,IVF kvindens vægt i kg,2006,2021,,
-IVF,t_grund,v_rygning,IVF kvindens rygning i antal pr. dag (tom betyder uoplyst),2006,2021,,
-IVF,t_grund,v_alkohol,IVF kvindens alkoholindtag i antal genstande pr. uge (tom betyder uoplyst),2006,2021,,
-IVF,t_grund,v_samlivs_status,Kvindens samlivsstatus,2006,2021,,
-IVF,t_grund,v_partner_cpr,Partnerens cprnummer (også lesbisk partner),2006,2021,,
-IVF,t_grund,v_partner_alder,IVF kvindens alder ved behandlingsstartdato,2006,2021,,
-IVF,t_grund,v_partner_hoejde,Partnerens højde i cm,2006,2021,,
-IVF,t_grund,v_partner_vaegt,Partnerens vægt i kg,2006,2021,,
-IVF,t_grund,v_partner_rygning,Partnerens rygning i antal pr. dag,2006,2021,,
-IVF,t_grund,v_partner_alkohol,Partnerens alkoholindtag i antal genstande pr. uge (tom betyder uoplyst),2006,2021,,
-IVF,t_grund,v_barnloes_siden,Året for hvornår parret har været ufrivillig barnløs siden (Angives ikke for enlige og lesbiske),2006,2021,,
-IVF,t_grund,b_idiopatisk,"Idiopatisk, ingen medicinsk årsag til manglende graviditet",2006,2021,,
-IVF,t_grund,c_kvinde_primaer,Diagnose for primær årsag til kvindens infertilitet,2006,2021,ICD10,
-IVF,t_grund,c_kvinde_tillaeg,Sekundær diagnose eller tillægsdiagnose til den primære årsag til kvindens infertilitet,2006,2021,ICD10,
-IVF,t_grund,c_mand_primaer,Diagnose for primær årsag til partners infertilitet,2006,2021,ICD10,
-IVF,t_grund,c_mand_tillaeg,Sekundær diagnose eller tillægsdiagnose til den primære årsag til partners infertilitet,2006,2021,ICD10,
-IVF,t_grund,c_pgd_diagnose,ICD10 koden for familieamnese med den tilgrundliggende sygdom,2006,2021,ICD10,
-IVF,t_grund,b_pgd_specifik_vaevstype,Specifik vævstype,2006,2021,,
-IVF,t_grund,c_pgd_indikation,Angivelse af hvilken lov om kunstig befrugtning behandlinge udføres efter,2006,2021,LK,
-IVF,t_grund,c_behandling,Hvilken type behandling kvinden har fået,2006,2021,LK,
-IVF,t_grund,b_behandling_afbrudt,Behandlingen er afbrudt,2006,2021,,
-IVF,t_grund,c_fertilisering,Hvilken sædtype der er anvendt til fertiliseringen (*findes ikke for alle behandlinger før version 1.11),2006,2021,LK,
-IVF,t_grund,c_in_vitro_metode,Hvilken metode ved in vitro befrugtnig af ægget er anvendt ,2006,2021,LK,
-IVF,t_grund,d_iui_dato,Dato for insiminationsbehandlingen ,2006,2021,,
-IVF,t_grund,d_iui_aflyst_dato,Dato for aflysning af behandling,2006,2021,,
-IVF,t_grund,c_fer_nedfrys_metode,Nedfrysningsmetode anvendt til IVF/ICSI behandling med optøede embryoner (FER),2006,2021,LK,
-IVF,t_grund,c_oocyt_kilde,Kilde til oocytten,2006,2021,LK,
-IVF,t_grund,c_oocyt_type,Hvilken type oocytter der er anvendt samt nedfrydningsmetode,2006,2021,LK,
-IVF,t_grund,b_distribution,Har der foregået distribution af væv,2006,2021,,
-IVF,t_grund,d_aspiration_dato,Dato for aspiration,2006,2021,,
-IVF,t_grund,d_aspiration_aflyst_dato,Dato for aflysning af aspiration,2006,2021,,
-IVF,t_grund,c_aspiration,ICD10 kode for aspirationstype,2006,2021,LK,
-IVF,t_grund,v_aspiration_antal_oocytter,Antal aspirerede oocytter,2006,2021,,
-IVF,t_grund,d_transferering_dato,Dato for transferering,2006,2021,,
-IVF,t_grund,d_transferering_aflyst_dato,Dato for aflysning af transferering,2006,2021,,
-IVF,t_grund,v_antal_friske,Antal friske embryoner transfereret,2006,2021,,
-IVF,t_grund,v_elektivt,Angiver om valget har været elektivt eller non-elektivt,2006,2021,,
-IVF,t_grund,v_antal_optoede,Antal optøde embryoner transfereret,2006,2021,,
-IVF,t_grund,v_overskydende_embryoner,Angivelse af om der er overskydende embryoner,2006,2021,,
-IVF,t_grund,v_antal_slowfreeze,Antal embryoner cryopreserveret ved slow-freeze,2006,2021,,
-IVF,t_grund,v_antal_vitrifikation,Antal embryoner ved vitrifikation,2006,2021,,
-IVF,t_grund,v_antal_nedfrosset,Antal embryoner nedfrosset,2006,2021,,
-IVF,t_grund,b_assisted_hatching,Angiver om der er udført assisted hatching,2006,2021,,
-IVF,t_grund,c_komplikation_diagnose,ICD10 koden for komplikationsdiagnosen,2006,2021,FGR,
-IVF,t_grund,d_komplikation_dato,Dato for komplikationsdiagnosen,2006,2021,,
-IVF,t_grund,v_proeve_type,Om der er udført graviditetstest og hvilken type test,2006,2021,,
-IVF,t_grund,v_gravid,Om kvinden er blevet gravid,2006,2021,,
-IVF,t_grund,v_ultralyd_resultat,Resultat af ultralydbehandling,2006,2021,,
-IVF,t_grund,v_antal_hjertelyd,Antal gestationssække med hjertelyd,2006,2021,,
-IVF,t_grund,v_antal_uden_hjertelyd,Antal gestationssække uden hjertelyd,2006,2021,,
-LPR_PSYK,,PNR,Personnummer,1995,2021,,
-LPR_PSYK,,INDL_DATO,Indlæggelsesdato,1995,2021,,
-LPR_PSYK,,UDSK_DATO,Udskrivningsdato,1995,2021,,
-LPR_PSYK,,AKTIONSDIAGNOSE,Aktionsdiagnose fra 1994 (ICD-10),1995,2021,,
-LPR_PSYK,,bidiagnose1,Bidiagnose 1 ,1995,2021,,
-LPR_PSYK,,bidiagnose2,Bidiagnose 2 ,1995,2021,,
-LPR_PSYK,,bidiagnose3,Bidiagnose 3 ,1995,2021,,
-LPR_PSYK,,Bidiagnose4,Bidiagnose 4 ,1995,2021,,
-LPR_PSYK,,Bidiagnose5,Bidiagnose 5 ,1995,2021,,
-DBDD,,Pnr,personidentifikation,,2021,,
-DBDD,,Højde,Højde,,2021,,
-DBDD,,Vægt,Vægt,,2021,,
-DBDD,,Insulin regimen,Insulin regimen,,2021,,
-DBDD,,Insulin dosis,Insulin dosis,,2021,,
-DBDD,,HbA1c,HbA1c,,2021,,
-DBDD,,Alv. Hypoglykæmi,Alv. Hypoglykæmi,,2021,,
-DBDD,,Ketoacidose,Ketoacidose,,2021,,
-DBDD,,Pubertet,Pubertet,,2021,,
-DBDD,,Medicin,Medicin,,2021,,
-DBDD,,Rygning,Rygning,,2021,,
-DBDD,,Urin albumin,Urin albumin,,2021,,
-DBDD,,Retinopati,Retinopati,,2021,,
-DBDD,,Neuropati,Neuropati,,2021,,
-DVDD,,CPR-nummer (afidentificeret),Personnummer,2001,2021,,
-DVDD,,ace_haemmer,ACE-hæmmer / ATII-receptor-antagonist,2001,2021,,
-DVDD,,Afdeling,Dataindberettende enhed,2001,2021,,
-DVDD,,Afdkode,afdkode,2001,2021,,
-DVDD,,Albuminuri,Albuminuri (værdi) måling 1,2001,2021,,
-DVDD,,albuminuri_dato,Albuminuridato måling 1,2001,2021,,
-DVDD,,albuminuri_dato2,Albuminuridato måling 2,2001,2021,,
-DVDD,,albuminuri_dato3,Albuminuridato måling 3,2001,2021,,
-DVDD,,albuminuri_enhed,"Albuminuri, enhed",2001,2021,,
-DVDD,,albuminuri_enhed2,"Albuminuri, enhed",2001,2021,,
-DVDD,,albuminuri_enhed3,"Albuminuri, enhed",2001,2021,,
-DVDD,,albuminuri_kode,Albuminuridato præcision måling 1,2001,2021,,
-DVDD,,albuminuri_kode2,Albuminuridato præcision måling 2,2001,2021,,
-DVDD,,albuminuri_kode3,Albuminuridato præcision måling 3,2001,2021,,
-DVDD,,albuminuri_naevner4b,Sat til 1 hvis der er målte 2 eller flere høje albuminuri resultater indenfor 2 år.,2001,2021,,
-DVDD,,albuminuri_operator,Albuminuri operator måling 1,2001,2021,,
-DVDD,,albuminuri_operator2,Albuminuri operator måling 2,2001,2021,,
-DVDD,,albuminuri_operator3,Albuminuri operator måling 3,2001,2021,,
-DVDD,,albuminuri_text,Albuminuri textsvar måling 1,2001,2021,,
-DVDD,,albuminuri_text2,Albuminuri textsvar måling 2,2001,2021,,
-DVDD,,albuminuri_text3,Albuminuri textsvar måling 3,2001,2021,,
-DVDD,,albuminuri2,Albuminuri (værdi) måling 2,2001,2021,,
-DVDD,,albuminuri3,Albuminuri (værdi) måling 3,2001,2021,,
-DVDD,,Alder,Alder,2001,2021,,
-DVDD,,antihypertensiv_kode,Antihypertensiv behandling,2001,2021,,
-DVDD,,Behandling,Antidiabetisk behandling,2001,2021,,
-DVDD,,blodtryk_dato,Blodtryksdato,2001,2021,,
-DVDD,,blodtryk_diastolisk,Diastolisk blodtryk,2001,2021,,
-DVDD,,blodtryk_kode,Blodtryksdato præcision,2001,2021,,
-DVDD,,blodtryk_systolisk,Systolisk blodtryk,2001,2021,,
-DVDD,,Database,Database,2001,2021,,
-DVDD,,diag_type,Diabetestype,2001,2021,,
-DVDD,,dyslipidemi_kode,Dyslipidemibehandling,2001,2021,,
-DVDD,,fod_dato,Fodundersøgelsesdato,2001,2021,,
-DVDD,,fod_kode,Fodundersøgelsesdato præcision,2001,2021,,
-DVDD,,HbA1c,HbA1c (værdi),2001,2021,,
-DVDD,,HbA1c_dato,HbA1c-dato,2001,2021,,
-DVDD,,LDLcholesterol,LDL-cholesterol (værdi),2001,2021,,
-DVDD,,lipids_dato,Lipidstatus-dato,2001,2021,,
-DVDD,,lipids_kode,Lipidstatus-dato præcision,2001,2021,,
-DVDD,,oeje_dato,Øjenundersøgelsesdato,2001,2021,,
-DVDD,,oeje_kode,Øjenundersøgelsesdato præcision,2001,2021,,
-DVDD,,opf_rygestop,Opfordring til rygestop,2001,2021,,
-DVDD,,opf_rygestop_dato,Dato for opfordring til rygestop,2001,2021,,
-DVDD,,rygestatus_dato,Dato for forespørgsel om rygestatus,2001,2021,,
-DVDD,,Rygning,Rygestatus,2001,2021,,
-DVDD,,status_dato,NIP-statusdato,2001,2021,,
-DVDD,,Triglycerid,Triglycerid (værdi),2001,2021,,
-DVDD,,triglycerid_forhoeje,Forhøjet triglycerid,2001,2021,,
-Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati og maculopati (DiaBase),DiaBase,PNR,PNR,,2021,,
+register_name,register_table_name,variable_name,variable_description_dk,start_year,end_year
+DBDD,,Pnr,personidentifikation,,2021
+DBDD,,Højde,Højde,,2021
+DBDD,,Vægt,Vægt,,2021
+DBDD,,Insulin regimen,Insulin regimen,,2021
+DBDD,,Insulin dosis,Insulin dosis,,2021
+DBDD,,HbA1c,HbA1c,,2021
+DBDD,,Alv. Hypoglykæmi,Alv. Hypoglykæmi,,2021
+DBDD,,Ketoacidose,Ketoacidose,,2021
+DBDD,,Pubertet,Pubertet,,2021
+DBDD,,Medicin,Medicin,,2021
+DBDD,,Rygning,Rygning,,2021
+DBDD,,Urin albumin,Urin albumin,,2021
+DBDD,,Retinopati,Retinopati,,2021
+DBDD,,Neuropati,Neuropati,,2021
+DVDD,,CPR-nummer (afidentificeret),Personnummer,2001,2021
+DVDD,,ace_haemmer,ACE-hæmmer / ATII-receptor-antagonist,2001,2021
+DVDD,,Afdeling,Dataindberettende enhed,2001,2021
+DVDD,,Afdkode,afdkode,2001,2021
+DVDD,,Albuminuri,Albuminuri (værdi) måling 1,2001,2021
+DVDD,,albuminuri_dato,Albuminuridato måling 1,2001,2021
+DVDD,,albuminuri_dato2,Albuminuridato måling 2,2001,2021
+DVDD,,albuminuri_dato3,Albuminuridato måling 3,2001,2021
+DVDD,,albuminuri_enhed,"Albuminuri, enhed",2001,2021
+DVDD,,albuminuri_enhed2,"Albuminuri, enhed",2001,2021
+DVDD,,albuminuri_enhed3,"Albuminuri, enhed",2001,2021
+DVDD,,albuminuri_kode,Albuminuridato præcision måling 1,2001,2021
+DVDD,,albuminuri_kode2,Albuminuridato præcision måling 2,2001,2021
+DVDD,,albuminuri_kode3,Albuminuridato præcision måling 3,2001,2021
+DVDD,,albuminuri_naevner4b,Sat til 1 hvis der er målte 2 eller flere høje albuminuri resultater indenfor 2 år.,2001,2021
+DVDD,,albuminuri_operator,Albuminuri operator måling 1,2001,2021
+DVDD,,albuminuri_operator2,Albuminuri operator måling 2,2001,2021
+DVDD,,albuminuri_operator3,Albuminuri operator måling 3,2001,2021
+DVDD,,albuminuri_text,Albuminuri textsvar måling 1,2001,2021
+DVDD,,albuminuri_text2,Albuminuri textsvar måling 2,2001,2021
+DVDD,,albuminuri_text3,Albuminuri textsvar måling 3,2001,2021
+DVDD,,albuminuri2,Albuminuri (værdi) måling 2,2001,2021
+DVDD,,albuminuri3,Albuminuri (værdi) måling 3,2001,2021
+DVDD,,Alder,Alder,2001,2021
+DVDD,,antihypertensiv_kode,Antihypertensiv behandling,2001,2021
+DVDD,,Behandling,Antidiabetisk behandling,2001,2021
+DVDD,,blodtryk_dato,Blodtryksdato,2001,2021
+DVDD,,blodtryk_diastolisk,Diastolisk blodtryk,2001,2021
+DVDD,,blodtryk_kode,Blodtryksdato præcision,2001,2021
+DVDD,,blodtryk_systolisk,Systolisk blodtryk,2001,2021
+DVDD,,Database,Database,2001,2021
+DVDD,,diag_type,Diabetestype,2001,2021
+DVDD,,dyslipidemi_kode,Dyslipidemibehandling,2001,2021
+DVDD,,fod_dato,Fodundersøgelsesdato,2001,2021
+DVDD,,fod_kode,Fodundersøgelsesdato præcision,2001,2021
+DVDD,,HbA1c,HbA1c (værdi),2001,2021
+DVDD,,HbA1c_dato,HbA1c-dato,2001,2021
+DVDD,,LDLcholesterol,LDL-cholesterol (værdi),2001,2021
+DVDD,,lipids_dato,Lipidstatus-dato,2001,2021
+DVDD,,lipids_kode,Lipidstatus-dato præcision,2001,2021
+DVDD,,oeje_dato,Øjenundersøgelsesdato,2001,2021
+DVDD,,oeje_kode,Øjenundersøgelsesdato præcision,2001,2021
+DVDD,,opf_rygestop,Opfordring til rygestop,2001,2021
+DVDD,,opf_rygestop_dato,Dato for opfordring til rygestop,2001,2021
+DVDD,,rygestatus_dato,Dato for forespørgsel om rygestatus,2001,2021
+DVDD,,Rygning,Rygestatus,2001,2021
+DVDD,,status_dato,NIP-statusdato,2001,2021
+DVDD,,Triglycerid,Triglycerid (værdi),2001,2021
+DVDD,,triglycerid_forhoeje,Forhøjet triglycerid,2001,2021
+Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati og maculopati (DiaBase),DiaBase,PNR,PNR,,2021
 Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati og maculopati (DiaBase),DiaBase,Øjenscreenings- dato,"Datoen for den øjenscreenings-undersøgelse, som indberetningen vedrører, skal indberettes.
-",,2021,,
+",,2021
 Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati og maculopati (DiaBase),DiaBase,Øjenscreenings- indikation,"Indikationen for den aktuelle øjenscreenings- undersøgelse skal indberettes.
-",,2021,,
+",,2021
 Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati og maculopati (DiaBase),DiaBase,Synsstyrke,"Resultatet af visusmålingen i forbindelse med den aktuelle undersøgelse - for både højre og venstre øje - skal indberettes.
 
 DiaBase
@@ -237,32 +75,11 @@ DiaBase
 
 
 
-",,2021,,
-Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati og maculopati (DiaBase),DiaBase,Retinastatus,Retinastatus,,2021,,
+",,2021
+Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati og maculopati (DiaBase),DiaBase,Retinastatus,Retinastatus,,2021
 Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati og maculopati (DiaBase),DiaBase,Maculopati-status,"Resultatet af makulopati-undersøgelsen for både højre og venstre øje skal indberettes.
-",,2021,,
+",,2021
 Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati og maculopati (DiaBase),DiaBase,Slørede medier,"Såfremt hverken retinopati status eller maculopati status er vurderet skal der tages stilling til om dette skyldes Slørede medier.
-",,2021,,
+",,2021
 Landsdækkende kliniske kvalitetsdatabase for screening af diabetisk retinopati og maculopati (DiaBase),DiaBase,Indikation for næste øjenlægekontakt,"Indikationen for den næste øjenlægekontakt skal indberettes.
-",,2021,,
-Cancerregisteret,,K_CPRNR,Personnummer,1943,2021,,
-Cancerregisteret,,K_TUMORNR,Tumor løbenr,1943,2021,,
-Cancerregisteret,,D_DIAGNOSEDATO,DiagnoseDato ( stemmer oprindelig fra diagnoseår og diag.måned ),1943,2021,,
-Cancerregisteret,,C_ICD10,ICD10 koden,1978,2021,,
-Cancerregisteret,,"C_MORFO3
-","Histologi, Morfologi iflg. ICDO3 klassifikationen
-",1978,2021,,
-Cancerregisteret,,C_UDBRED_KLASSIFIKATION,Anvendt udbredelsesklassifikation,2004,2021,,
-Cancerregisteret,,C_TNM_T,TNM klassifikation - T-akse,2004,2021,,
-Cancerregisteret,,C_TNM_N,TNM klassifikation - N-akse,2004,2021,,
-Cancerregisteret,,C_TNM_M,TNM klassifikation - M-akse,2004,2021,,
-Cancerregisteret,,C_MAKROGRUNDLAG,Makroskopisk grundlag,1943,2021,,
-Cancerregisteret,,C_MIKROGRUNDLAG,Mikroskopisk grundlag,1943,2021,,
-Cancerregisteret,,C_ICD7,Den gamle nordiske ICD7-klassifikation,2002,2021,,
-Cancerregisteret,,C_DIAGGR_ICD10,ICD10 - diagnosegruppering - undergrupper,1978,2021,,
-Cancerregisteret,,C_ORGGR_ICD10,ICD10 - diagnosegruppering - overordnede grupper,1978,2021,,
-Cancerregisteret,,D_STATDATO,"Døds- , udrejse- eller forsvundetdato",1943,2021,,
-Cancerregisteret,,C_STATUS,"90=død,80=udrejst,70=forsvundet,blank=levende",1943,2021,,
-Cancerregisteret,,"c_DIAGGR_Nordcan
-","NordCan grupper 
-",1943,2021,,
+",,2021
