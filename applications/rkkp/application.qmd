@@ -1,16 +1,10 @@
----
-format: docx
-metadata-files: 
-  - ../../_variables.yml
----
-
 # Ansøgning
 
 ## Projekttitel
 
 <!-- (Text box)  -->
 
-{{< meta project.title >}}
+{{< var project.title >}}
 
 ## Beskrivelsen
 
