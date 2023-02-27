@@ -1,8 +1,8 @@
 image: registry.gitlab.com/quarto-forge/docker/rstats
 
-pages:
+website:
   script:
-    - Rscript -e "install.packages('pak'); pak::pak()"
+    - Rscript -e "options(repos = c(CRAN = 'https://cran.rstudio.com')); install.packages('pak'); pak::pak()"
     - quarto render
   artifacts:
     paths:
