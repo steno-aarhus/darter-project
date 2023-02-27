@@ -12,15 +12,13 @@ URL: https://lwjohnst.gitlab.io/meld-protocol
 Encoding: UTF-8
 Imports: 
     here,
-    conflicted,
-    flextable,
-    officer,
-    distill,
     glue,
     lubridate,
-    cli,
     htmltools,
     janitor,
+    dplyr,
+    tidyr,
+    stringr,
     reactable
 Depends: 
     tidyverse

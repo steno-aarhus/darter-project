@@ -2,6 +2,7 @@ image: registry.gitlab.com/quarto-forge/docker/rstats
 
 website:
   script:
+    - sudo apt install libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
     - Rscript -e "options(repos = c(CRAN = 'https://cran.rstudio.com')); install.packages('pak'); pak::pak()"
     - quarto render
   artifacts:
