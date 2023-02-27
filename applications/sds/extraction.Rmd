@@ -1,14 +1,6 @@
 ---
 title: "Data extraction description"
-author:
-  - name: Luke W. Johnston
-    url: https://lukewjohnston.com/
-    affiliation: Steno Diabetes Center Aarhus
-repository_url: https://gitlab.com/lwjohnst/meld-dst-application/
-creative_commons: CC BY
-output: 
-    word_document:
-        reference_docx: ../../resources/templates/appendix.docx
+date: last-modified
 ---
 
 ```{=html}
@@ -60,70 +52,69 @@ Data must as a minimum be delimited on the basis of the following parameters:
 ```{r list-registers-needed, include=FALSE}
 library(tidyverse)
 library(here)
-needed_registers <- here("data/needed-registers.csv") %>% 
-    read_csv(col_types = "lddccccc") %>% 
-    filter(!drop | is.na(drop))
+source(here("R/functions.R"))
 
-dst_register_names <- c("Lægemiddeldatabasen") 
-dst_variables <- read_csv(here("data/dst-registers-with-variables-to-use.csv"))
-dst_variables <- dst_variables %>%
-    filter(use_in_application == 1,
-           register_id %in% unique(needed_registers$register_id),
-           register_name_dk %in% dst_register_names) %>% 
-    mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>% 
-    mutate(
-        start_year = case_when(
-            is.na(variable_start_year) |
-                variable_start_year == variable_end_year ~
-                register_start_year,
-            TRUE ~ variable_start_year
-        ),
-        time_period = glue::glue("{start_year} to 2021")
-    ) %>% 
-    select(register_name = register_name_dk, variable_name, time_period)
+dst_variables <- read_csv(here("data/dst-registers-with-variables-to-use.csv")) %>%
+  filter(use_in_application == 1, register_name_dk == "Lægemiddeldatabasen") %>%
+  mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>%
+  mutate(
+    start_year = case_when(
+      is.na(variable_start_year) |
+        variable_start_year == variable_end_year ~
+        register_start_year,
+      TRUE ~ variable_start_year
+    ),
+    time_period = glue::glue("{start_year} to 2021")
+  ) %>%
+  rename(register_name = register_name_dk)
 
 sds_variables <-
-    read_csv(here("data/sds-registers-with-variables-to-use.csv"),
-             show_col_types = FALSE) %>% 
-    filter(use_in_application == 1) %>% 
-    mutate(
-        periode = periode %>%
-            str_trim() %>%
-            str_replace_all(" +", " ") %>%
-            str_replace_all(" ?- ?", " to ") %>%
-            str_replace(" og ", ", "),
-        time_period = case_when(
-            str_detect(periode, "to $") ~ glue::glue("{str_remove(periode, ' -$')} 2021"),
-            TRUE ~ periode
-        )
-    ) %>% 
-    select(register_name, table_name, variable_name, time_period)
+  read_csv(here("data/sds-registers-with-variables-to-use.csv"),
+    show_col_types = FALSE
+  ) %>%
+  filter(
+    use_in_application == 1,
+    register_name %in% c(
+      "Cancerregisteret",
+      "IVF",
+      "LPR_PSYK",
+      "DRG",
+      "PLH",
+      "RUKS",
+      "LAB"
+    )
+  ) %>%
+  mutate(
+    periode = periode %>%
+      str_trim() %>%
+      str_replace_all(" +", " ") %>%
+      str_replace_all(" ?- ?", " to ") %>%
+      str_replace(" og ", ", "),
+    time_period = case_when(
+      str_detect(periode, "to $") ~ glue::glue("{str_remove(periode, ' -$')} 2021"),
+      TRUE ~ periode
+    ),
+    start_year = str_extract(periode, "^\\d{4}")
+  )
 
-sds_register_names <- c("Cancerregisteret", "IVF", "LPR_PSYK", "DRG", "PLH", "RUKS", "LAB")
-registers <- bind_rows(sds_variables, random_registers) %>% 
-    filter(register_name %in% sds_register_names) %>% 
-    bind_rows(dst_variables)
+registers <- sds_variables %>%
+  bind_rows(dst_variables) %>% 
+  select(register_name, table_name, variable_name, variable_description,
+         periode)
 ```
 
-```{r tables, echo=FALSE, results='asis'}
-header_and_table_as_md <- function(data) {
-    header <- unique(data$register_name)
-    
-    table <- data %>% 
-        select(-register_name) %>% 
-        select(where(~all(!is.na(.x)))) %>% 
-        rename_with(~str_replace_all(.x, "_", " ") %>% str_to_sentence()) %>% 
-        knitr::kable() %>% 
-        as.character()
-    
-    c("", glue::glue("## {header}"), "", table, "")
-}
-
-registers %>% 
-    group_split(register_name) %>% 
-    map(header_and_table_as_md) %>% 
-    unlist() %>% 
-    cat(sep = "\n")
+```{r tables}
+#| column: page
+#| tbl-cap: "Registers and variables requested from SDS."
+registers %>%
+  select(
+    "Register" = register_name,
+    "Database Table" = table_name,
+    "Variable" = variable_name,
+    "Time period" = periode,
+    "Description" = variable_description
+  ) %>%
+  as_reactable()
 ```
 
 ## Justification for the requested data
@@ -249,16 +240,17 @@ necessary and sufficient for your project.
 
 ## Requested LAB NPU/DNK codes
 
-```{r labka-data-source, results='asis', echo=FALSE}
+```{r labka-data-source}
+#| column: page
+#| tbl-cap: "Labka variables requested from external source."
 # Labka is same as LAB
 here("data/labka.csv") %>%
-    read_csv(col_types = cols(
-        Komponent = col_character(),
-        Kode = col_character(),
-        Enhed = col_character()
-    )) %>% 
-    group_by(Komponent) %>% 
-    mutate(Komponent = if_else(row_number() == 1, Komponent, "")) %>% 
-    ungroup() %>% 
-    knitr::kable()
+  read_csv(col_types = cols(
+    Komponent = col_character(),
+    Kode = col_character(),
+    Enhed = col_character()
+  )) %>%
+  # group_by(Komponent) %>%
+  # mutate(Komponent = if_else(row_number() == 1, Komponent, "")) %>%
+  as_reactable()
 ```
