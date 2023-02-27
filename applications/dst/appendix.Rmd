@@ -96,7 +96,7 @@ dst_variables %>%
 
 ## List of registers and variables from external sources
 
-```{r requested-non-dst-variable-tables}
+```{r requested-sds-variable-tables}
 #| column: page
 #| tbl-cap: "Registers and variables requested from SDS."
 sds_variables %>%
@@ -182,7 +182,7 @@ icd_codes %>%
 ```
 
 ```{r icd-codes-charlesons}
-#| tbl-cap: "Diseases that are components of the 'Charleson's Morbidity Index'.",
+#| tbl-cap: "Diseases that are components of the Charleson's Morbidity Index."
 icd_codes %>% 
   filter(parent_group == "charlesons") %>% 
   select(-parent_group, -Sygdomsgruppe) %>% 
