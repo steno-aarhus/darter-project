@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-02-28">
+
+<title>MELD Project - Data extraction description</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+<script src="../../site_libs/core-js-2.5.3/shim.min.js"></script>
+<script src="../../site_libs/react-17.0.0/react.min.js"></script>
+<script src="../../site_libs/react-17.0.0/react-dom.min.js"></script>
+<script src="../../site_libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="../../site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
+<link href="../../site_libs/reactable-0.4.3/reactable.css" rel="stylesheet">
+<script src="../../site_libs/reactable-binding-0.4.3/reactable.js"></script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">MELD Project</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"><i class="bi bi-house-door" role="img">
+</i> 
+ <span class="menu-text"> </span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../applications/dst/description.html" aria-current="page">
+ <span class="menu-text">DST</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../applications/sds/application.html">
+ <span class="menu-text">SDS</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../applications/rkkp/application.html">
+ <span class="menu-text">RKKP</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/steno-aarhus/meld-project"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Data extraction description</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Denmark Statistics</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/dst/description.html" class="sidebar-item-text sidebar-link">Description</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/dst/appendix.html" class="sidebar-item-text sidebar-link">Requested data</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Sundhedsdatastrylsen</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/sds/application.html" class="sidebar-item-text sidebar-link">Overview</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/sds/description.html" class="sidebar-item-text sidebar-link">Description</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/sds/extraction.html" class="sidebar-item-text sidebar-link active">Requested data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/sds/atc-codes.html" class="sidebar-item-text sidebar-link">ATC Codes</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">RKKP</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/rkkp/application.html" class="sidebar-item-text sidebar-link">Application</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#data-access-and-user-on-the-research-machine" id="toc-data-access-and-user-on-the-research-machine" class="nav-link active" data-scroll-target="#data-access-and-user-on-the-research-machine">Data access and user on the Research Machine</a></li>
+  <li><a href="#treatment-site" id="toc-treatment-site" class="nav-link" data-scroll-target="#treatment-site">Treatment site</a></li>
+  <li><a href="#population" id="toc-population" class="nav-link" data-scroll-target="#population">Population</a></li>
+  <li><a href="#data-connection" id="toc-data-connection" class="nav-link" data-scroll-target="#data-connection">Data connection</a></li>
+  <li><a href="#justification-for-the-requested-data" id="toc-justification-for-the-requested-data" class="nav-link" data-scroll-target="#justification-for-the-requested-data">Justification for the requested data</a></li>
+  <li><a href="#requested-lab-npudnk-codes" id="toc-requested-lab-npudnk-codes" class="nav-link" data-scroll-target="#requested-lab-npudnk-codes">Requested LAB NPU/DNK codes</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/steno-aarhus/meld-project/edit/main/applications/sds/extraction.Rmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/steno-aarhus/meld-project/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/steno-aarhus/meld-project/blob/main/applications/sds/extraction.Rmd" class="toc-action">View source</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Data extraction description</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 28, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<!-- 
+Your extract description must consist of the following points: 
+
+- Place of treatment
+- Population
+- Data connection
+- Justification for the requested data
+-->
+<section id="data-access-and-user-on-the-research-machine" class="level2">
+<h2 class="anchored" data-anchor-id="data-access-and-user-on-the-research-machine">Data access and user on the Research Machine</h2>
+<p>We do not need access to a research machine, we have a project at DST.</p>
+</section>
+<section id="treatment-site" class="level2">
+<h2 class="anchored" data-anchor-id="treatment-site">Treatment site</h2>
+<p>We want the data to be transferred to our project on the DST research server.</p>
+</section>
+<section id="population" class="level2">
+<h2 class="anchored" data-anchor-id="population">Population</h2>
+<!-- State whether you need CPR linked for you or if you will be doing it. -->
+<p>To identify familial relations through individuals’ life course trajectory, the population requested covers all individuals, who live or lived in Denmark from 1 January 1970 to 31 December 2021 (~8.5 million people). The family linkage and structure makes the construction of the population complicated, which we will do ourselves. For that we need the entire population because we need data on not just the individual, but also the family (parents and siblings). Denmark Statistics has given us the population and data we requested.</p>
+</section>
+<section id="data-connection" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="data-connection">Data connection</h2>
+
+<!-- 
+You must specify what data you want to access for the population you have specified. 
+
+Data must as a minimum be delimited on the basis of the following parameters:
+
+- Which registers
+- Which tables
+- Which variables
+- What time period
+-->
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="registers-select" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="registers-select">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Register":["PLH","PLH","PLH","PLH","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","RUKS","RUKS","RUKS","RUKS","RUKS","RUKS","RUKS","LAB","LAB","LAB","LAB","LAB","LAB","LAB","LAB","LAB","LAB","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen"],"Database Table":["ophold_plejehjem","ophold_plejehjem","ophold_plejehjem","ophold_plejehjem","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_proc\"aktivitetsår\"","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_overgang19","soma_l3_t19_overgang19","soma_l3_t19_overgang19","soma_l3_t19_overgang19","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","kronikere","kronikere","kronikere","kronikere","kronikere","kronikere","kronikere","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Variable":["d_fraflyt_dato","d_tilflyt_dato","plejehjemsnavn","v_pnr","v_cpr","c_adiag","c_akut","c_blok","c_dia1","c_dia2","c_dia3","c_drg","c_graa","c_hdiag","c_henm","c_indm","c_oprart1","c_oprart2","c_oprart3","c_pattype","c_plejeboligkode","c_proc1","c_proc2","c_proc3","c_region","c_sgh","c_sghafd","c_spec","c_udm","c_udmf","c_udsktype","d_inddto","d_uddto","d_uddtof","v_behdage","v_indtime","v_langpris","v_pris","v_recnum","v_sengdage","v_totpris","v_totpris_genop","v_udtime","c_adiag","c_afd","c_akut","c_bestakst","c_bestype","c_casemix","c_dia1","c_dia2","c_dia3","c_dia4","c_drg","c_graazone","c_indm","c_oprart1","c_oprart2","c_oprart3","c_pattype","c_proc1","c_udm","d_ambdto","d_inddto","d_uddto","v_cpr","v_dags_pris","v_indminut","v_indtime","v_pris","v_pris_genop","v_cpr","c_adiag","c_drg_psyk","c_sgh","d_inddto","d_uddto","v_drgpris","v_kompris_drg","v_langpris","v_totpris","v_cpr","c_adiag","c_indm","c_pattype","c_sgh","d_ambdto","d_inddto","d_uddto","v_aar","v_recnum","adiag_drgsghf","afregn_drgsghf","afslutning_drgsghf","aktivitetsaar","antal_i_forlob","cpr","diagnosekilde_drgsghf","drg_drgsghf","drg_grouper_drgsghf","drg_kontakt_id_drgsghf","drgsghforlob_type","id","indmaade_drgsghf","indtidspunkt_drgsghf","kontaktaarsag_drgsghf","kontaktdage_drgsghf","langliggerpris_drgsghf","liggedage_drgsghf","totalpris_drgsghf","udmaade_drgsghf","udtidspunkt_drgsghf","adiag","afslutning","akut_elektiv","ambulant_dato","blok","dia01","dia02","dia03","diagnosekilde","drg","drg_drgsghf","drgsghforlob_id","drgsghforlob_nr","drgsghforlob_type","drgsghforlob_udtidspunkt","inddato","indmaade","indtidspunkt_drgkontakt","kontakt_id","patienttype","pris_drg","proc01","proc02","proc03","recnum","totalpris_drg","uddato","udmaade","udtidspunkt_drgkontakt","cpr","id","drg_kontakt_id_drgsghf","adiag_drgsgh_ind","adiag_drgsgh_ud","adiag_drgsghf","afregn_drgsghf","afslutning_drgsghf","aktivitetsaar","antal_i_forlob","diagnosekilde_drgsghf","drg_drgsghf","drgkontakttype_drgsghf","indtidspunkt_drgsghf","langliggerpris_drgsghf","pris_drg_drgsghf","pris_drg_grouper_drgsghf","sygehus","sygehus_region_drgsghf","totalpris_drgsghf","cpr","id","drgsghforlob_id","adiag","akut_elektiv","ambulant_dato","blok","dia01","dia02","dia03","drg_grouper","drgkontakttype","drgsghforlob_nr","drgsghforlob_udtidspunkt","inddato","indmaade","indtidspunkt_drgkontakt","kontakt_id","patienttype","pris_drg","proc01","proc02","proc03","recnum","sygehus","uddato","udmaade","udtidspunkt_drgkontakt","drgsghforlob_id","cpr","adiag_drgsghf","afslutningsmaade_drgsghf","aktivitetsaar","antal_i_forlob","drg_drgsghf","drg_kontakt_id_drgsghf","drgkontakttype_drgsghf","drgsghforlob_type","id","indtidspunkt_drgsghf","langliggerpris_drgsghf","pris_drg_drgsghf","sygdomsforlob_id","sygehus","sygehus_region","totalpris_drgsghf","cpr","afslutningsmaade","aktivitetsaar","dia01","dia02","dia03","drg","drg_drgsghf","drgsghforlob_id","drgsghforlob_nr","henvisningsmaade","id","langliggerpris","pris_drg","proc01","proc02","proc03","sygdomsforlob_id","sygehus","sygehus_region","tdia01","tdia02","tdia03","totalpris_drg","tungeste_drgkontakt","udfaldsgivende_kontakt","drgsghforlob_id_lpr2","drg_drgsghf_lpr2","drg_drgsghf_lpr3","drgsghforlob_id_lpr3","adiag_drgsghf","afslutningsmaade_drgsghf","aktivitetsaar","antal_i_forlob","drg_drgsghf","drg_kontakt_id_drgsghf","drgkontakttype_drgsghf","drgsghforlob_type","henvisningsmaade_drgsghf","id","indtidspunkt_drgsghf","pris_drg_drgsghf","sygdomsforlob_id","sygehus","sygehus_region","totalpris_drgsghf","cpr","afslutningsmaade","aktivitetsaar","dia01","dia02","dia03","drg","drg_drgsghf","drgsghforlob_id","drgsghforlob_nr","henvisningsmaade","id","langliggerpris","pris_drg","proc01","proc02","proc03","sygdomsforlob_id","sygehus","sygehus_region","tdia01","tdia02","tdia03","totalpris_drg","tungeste_drgkontakt","udfaldsgivende_kontakt","cpr","aarsag_tekst","debut","opdateringsdato","status","sygdom","uddato","analysiscode","laboratorium_idcode","patient_cpr","referenceinterval_lowerlimit","referenceinterval_upperlimit","resulttype","samplingdate","samplingtime","unit","value","K_CPRNR","K_TUMORNR","D_DIAGNOSEDATO","C_ICD10","C_MORFO3\n","c_udbred","C_UDBRED_KLASSIFIKATION","C_TNM_T","C_TNM_N","C_TNM_M","C_MAKROGRUNDLAG","C_MIKROGRUNDLAG","C_ICD7","C_DIAGGR_ICD10","C_ORGGR_ICD10","D_STATDATO","C_STATUS","c_DIAGGR_Nordcan\n","PNR","INDL_DATO","UDSK_DATO","AKTIONSDIAGNOSE","bidiagnose1","bidiagnose2","bidiagnose3","Bidiagnose4","Bidiagnose5","c_i_behmade","d_i_mfoddto","c_i_sektor","d_i_cykldto","v_i_n_modt","v_i_mcpr","b_i_ovuldef","b_i_tubafakt","b_i_cervfakt","b_i_mandfakt","b_i_anamandenfakt","b_i_uspecfakt","d_i_behdto","b_i_aspir","d_i_aspdto","v_i_n_ocyt","b_i_donorsd","b_i_natcyk","b_i_klomifen","v_i_klomed","b_i_hmg_fsh","v_i_hmgfshmed","b_i_gnrh_a","v_i_gnrhmed","b_i_oestro","v_i_oestmed","b_i_progest","v_i_progmed","b_i_hcg","v_i_hcgmed","b_i_andhorm","v_i_andhormed","b_i_ivfmetod","b_i_icsimetod","b_i_transfer","d_i_transdto","v_i_ntransf","v_i_ncryo","d_i_mensdto","b_i_transopt","v_i_n_opt","b_i_transudf","d_i_modtdto","v_i_ntrans","v_i_cryop","b_i_natcykl","b_i_hormoest","v_i_atcoest","b_i_hormpro","v_i_atcprog","b_i_hormgnrh","v_i_atcgnrh","b_i_hormand","v_i_atcand","b_i_shcgpos","b_i_overstim","b_i_infektio","v_i_cyklaar","v_i_malder","v_i_anamnes","b_i_uoplfakt","c_f_bstatus","v_f_blangde","v_f_bcpr","v_f_fcpr","v_f_malder","d_f_bfoddto","v_f_bvagt","c_f_msgh","v_f_bapgar","c_f_bsex","v_f_mparitet","v_f_bflerfold","v_f_bga_dage","c_f_bfodstatus","v_f_bfodaar","v_i_fga_dage","c_a_mdiag","c_a_mtildiag","c_a_msgh","d_a_minddto","d_a_muddto","v_a_mabortaar","v_a_mga_dage","c_a_maborttype","c_a_mgravtype","v_i_aga_dage","b_i_klingrav","v_a_malder","b_i_aegudt","b_i_aegopl","v_skemaid","d_skemaoprettet_dato","d_startdato","v_aar","c_sgh","c_afd","c_ydernr","v_sghnavn","v_cpr","v_alder","c_kom","v_hoejde","v_vaegt","v_rygning","v_alkohol","v_samlivs_status","v_partner_cpr","v_partner_alder","v_partner_hoejde","v_partner_vaegt","v_partner_rygning","v_partner_alkohol","v_barnloes_siden","b_idiopatisk","c_kvinde_primaer","c_kvinde_tillaeg","c_mand_primaer","c_mand_tillaeg","c_pgd_diagnose","b_pgd_specifik_vaevstype","c_pgd_indikation","c_behandling","b_behandling_afbrudt","c_fertilisering","c_in_vitro_metode","d_iui_dato","d_iui_aflyst_dato","c_fer_nedfrys_metode","c_oocyt_kilde","c_oocyt_type","b_distribution","d_aspiration_dato","d_aspiration_aflyst_dato","c_aspiration","v_aspiration_antal_oocytter","d_transferering_dato","d_transferering_aflyst_dato","v_antal_friske","v_elektivt","v_antal_optoede","v_overskydende_embryoner","v_antal_slowfreeze","v_antal_vitrifikation","v_antal_nedfrosset","b_assisted_hatching","c_komplikation_diagnose","d_komplikation_dato","v_proeve_type","v_gravid","v_ultralyd_resultat","v_antal_hjertelyd","v_antal_uden_hjertelyd","ABC","ALDR","APK","ATC","ATC1","ATC2","ATC3","ATC4","DOSFORM","DOSO","EKSD","EKSP","INDO","OVNR","PACKSIZE","PNR12","VNR","VOLUME"],"Time period":["2014 to ","2014 to ","2014 to ","2014 to ","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","1995 to ","1995 to ","1995 to ","1995 to ","1995 to ","1995 to ","1995 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","1943 to ","1943 to ","1943 to ","1978 to ","1978 to ","1943 to 2003","2004 to ","2004 to ","2004 to ","2004 to ","1943 to ","1943 to ","2002 to ","1978 to ","1978 to ","1943 to ","1943 to ","1943 to ","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Description":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"Register","name":"Register","type":"character","align":"left","filterInput":{"name":"select","attribs":{"aria-label":"Filter Register","style":{"width":"100%","height":"28px"},"onChange":"function(_e){(function(event){Reactable.setFilter('registers-select', 'Register', event.target.value || undefined)}).apply(event.target,[_e])}"},"children":[{"name":"option","attribs":{"value":""},"children":["All"]},{"name":"option","attribs":{},"children":["PLH"]},{"name":"option","attribs":{},"children":["DRG"]},{"name":"option","attribs":{},"children":["RUKS"]},{"name":"option","attribs":{},"children":["LAB"]},{"name":"option","attribs":{},"children":["Cancerregisteret"]},{"name":"option","attribs":{},"children":["LPR_PSYK"]},{"name":"option","attribs":{},"children":["IVF"]},{"name":"option","attribs":{},"children":["Lægemiddeldatabasen"]}]}},{"id":"Database Table","name":"Database Table","type":"character","align":"left"},{"id":"Variable","name":"Variable","type":"character","align":"left"},{"id":"Time period","name":"Time period","type":"character","align":"left"},{"id":"Description","name":"Description","type":"character","align":"left","minWidth":250}],"filterable":true,"searchable":true,"showPageSizeOptions":true,"highlight":true,"showSortable":true,"theme":{"searchInputStyle":{"width":"100%"}},"elementId":"registers-select","dataKey":"1c369add526e1a83779fe6b83f7688f6"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.filterInput.attribs.onChange"],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="justification-for-the-requested-data" class="level2">
+<h2 class="anchored" data-anchor-id="justification-for-the-requested-data">Justification for the requested data</h2>
+<!-- 
+We ask you to briefly describe how the desired data can be used to answer the
+project's problem.
+
+This is to ensure that you as a researcher have access to data that is both
+necessary and sufficient for your project.
+-->
+<ul>
+<li><p>Population:</p>
+<ul>
+<li>We require data on all individuals, including those without diabetes, in order for our models to have a comparison to use and to identify risk factors. We also need the data on the individuals <em>before</em> they get diabetes until their birth in order to study life course effects on diabetes risk and eventual prevention.</li>
+</ul></li>
+<li><p>IVF treatments and cancer diagnoses on all persons who have lived and lived in Denmark in the period 1970-2021, including persons who are not diabetic patients or in a family relationship to a diabetic patient:</p>
+<ul>
+<li><p>Over the last decades, increasing trends in the incidence of specific types of cancers, obesity, and type 2 diabetes has been observed globally. Lifestyle factors such as the type of diet that is consumed, and the quantity of physical activity that is performed are some of the drivers in the development of obesity, which is a strong independent risk factor for type 2 diabetes and the link to certain types of cancers such as liver, pancreas, breast, among others. Furthermore, shared biological pathways between diabetes and cancer include inflammation, metabolic and genetic anomalies. In summary, a broad body of literature shows a strong link between diabetes and cancer. In this project, we would investigate how diabetes and cancer (and other diseases) cluster in families and how this disease aggregation in the family affects the individual risk of developing different chronic disease profiles (e.g.&nbsp;diabetes or cancer, or both). In short, data on cancer diagnoses on all persons who have lived and lived in Denmark from the period 1970-2021 is necessary, as this population will serve as the reference group when relevant.</p>
+<p>For example, if we want to estimate the risk of diabetes for 50-year-old male individuals with a paternal history of cancer and diabetes, the reference group would be the 50-year-old male individuals with no paternal history of cancer and diabetes. It would be possible to investigate the independent effect of paternal cancer history on diabetes risk among those individuals with no paternal history of diabetes. A second example of a reference population is when estimating mortality rates of diabetes and cancer using transition models. Where individuals enter the cohort without any disease and then move into the next state that could be either diabetes only, cancer only, or death, then move to diabetes with cancer and then transition to death.</p></li>
+</ul></li>
+<li><p>Both CAR and IVF:</p>
+<ul>
+<li>Diseases following the diabetes diagnosis includes not only the classical diabetes related diseases, but also less studied diseases like reproductive impairment and cancers. Therefore, we request access to several registers to identify relevant factors related to family and early life determinants on the development, management, and care of diabetes and for development of diabetes and diseases following diabetes.</li>
+</ul></li>
+<li><p>DRG og DAGS grupperet LPR (DRG)</p>
+<ul>
+<li><p>Hospital treatment is a crucial cost when it comes to diabetes care. It is important to analyse all costs (and not only those with an acute diagnosis of diabetes) as diabetes may be related to a general change in and therefore the consumption of hospital care.</p></li>
+<li><p>The years are extended to 2004 in order to calculate charlson co-morbidity index with a 10-year look back.</p></li>
+</ul></li>
+<li><p>Landspatientregisteret psykiatri (LPR)</p>
+<ul>
+<li>Treatment in a psychiatric hospital may be influenced by a possible diabetes diagnosis and should therefore be included to provide the full picture.</li>
+</ul></li>
+<li><p>Plejehjemsadresser (PLH)</p>
+<ul>
+<li>People with diabetes may be at increased risk of needing to live in a care home, particularly in the context of diabetes-related conditions. We need nursing home names in order to make the most detailed calculation of the cost of living in nursing home.</li>
+</ul></li>
+<li><p>Register for Udvalgte Kroniske Sygdomme (RUKS)</p>
+<ul>
+<li>RUKS is used to compare the identified diabetes population and to compare morbidity between the identified diabetes population and the diabetes-free population.</li>
+</ul></li>
+<li><p>Lægemiddelstatistiskregisteret hos Danmarks Statistisk (LMDB)</p>
+<ul>
+<li>Diabetes patients can have a considerable consumption of medicines both directly related to diabetes, but also other medicines.</li>
+</ul></li>
+<li><p>Laboratoriedatabasen (LAB)</p>
+<ul>
+<li>HbA1c measurements from the laboratory database researcher table are desired to examine incidence and progression of diabetes in the whole population, especially from general practice which is only available to a limited extent. Data unbiased by value are desired as diagnostic criteria have changed over time. The remaining measurements (cholesterol, eGFR, CRP, Urat, etc.) are desired to examine the incidence and progression of complications of the disease. Information on the laboratory and the applicant is requested in order to take into account possible differences in measurements and results among laboratories and geographically. Reference ranges are requested to examine responses indicated to be in the normal range and any differences between laboratories and over time.</li>
+<li>The relevant NPU/DNK codes are listed in the table below.</li>
+</ul></li>
+</ul>
+</section>
+<section id="requested-lab-npudnk-codes" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="requested-lab-npudnk-codes">Requested LAB NPU/DNK codes</h2>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="registers-select" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="registers-select">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Komponent":["P- Alanintransaminase [ALAT]","P- Alanintransaminase [ALAT]","P- Alanintransaminase [ALAT]","P- Alanintransaminase [ALAT]","P- Alanintransaminase [ALAT]","P- Albumin","P- Albumin","P- Albumin","P- Albumin","U-alb/crea ratio","U-alb/crea ratio","U-alb/crea ratio","U-alb/crea ratio","P- Basisk fosfatase","p-CRP","p-CRP","p-CRP","p-CRP","eGFR","eGFR","eGFR","eGFR","eGFR","GFR","GFR","GFR","P- Glukose","P (vB; fPt)- Glukose (diag.)","p-glucose 0 min","p-glucose 30 min","p-glucose 120 min","Pt- Glucose-belastning gruppe","B- Hæmoglobin","Hb (B)- Hæmoglobin A1c (IFCC)","Hb (B)- Hæmoglobin A1c (IFCC)","Hb (B)- Hæmoglobin A1c (IFCC)","Hb (B)- Hæmoglobin A1c (IFCC)","P- Kalium","P- Kolesterol","P- Kolesterol","P- Kolesterol","P- Kolesterol","P- Kolesterol","P- Kolesterol HDL","P- Kolesterol HDL","P- Kolesterol HDL","P- Kolesterol LDL","P- Kolesterol LDL","P- Kolesterol LDL","P- Kreatinin","P- Kreatinin","P- Kreatinin","P- Kreatinin","P- Natrium","p-TSH","p-TSH","p-triglycerid","p-triglycerid","p-triglycerid","p-urat","p-urat","p-urea"],"Kode":["NPU19651 (katalytisk akt konc. IFCC2002)","NPU01121 (katalytisk akt konc. 37 gr. C)","NPU19981 (katalytisk akt konc. IFCC2002)","DNK05051 (erstattet af NPU 53495)","NPU53495 (katalytisk akt konc. 37 gr. C)","NPU19673 (massek.(proc)","NPU01132 (stofkonc)","DNK05449 stofk. (kolorim.)","DNK05001 (erstattet af NPU19673)","NPU19661 (masseratio)","DNK05289 (erstattet af: NPU19661)","NPU28842 (massekoeficient)","NPU03918 (stofratio)","NPU27783 (katalytisk aktivitets konc, 37 gr. C)","NPU19748","NPU01422","NPU01423","DNK05027","DNK35302 (CKD-EPI krea)","DNK35131 (nyre)","DNK30301 (CKD-EPI CysC)","DNK35303 CKiD-CysC","DNK35304 (CKiD-Bedside)","NPU19597 chrom.EDTA","NPU28271 chrom.EDTA","NPU10295 chrom.EDTA","NPU02192","DNK35842 (fastende patient)","NPU04173 (0 min i belastning)","NPU04174 (30 min i belastningstest)","NPU04177 (120 min i belastning)","NPU14915","NPU02319","NPU27300 (IFCC)","NPU27412 (genn. HbA1c","DNK35249 (prot glycolering, gruppe)","NPU03835 (glycoleret hæmoglobin)","NPU03230","NPU01566","NPU18412 (fPt)","NPU01549 (non-ester)","NPU10033 (syst. Spec.)","NPU18412 (fPt)","NPU01567","NPU10157 (fPt)","NPU18107 (syst(spec.))","NPU01568","NPU10171 (fPt)","DNK35308 (beregnet)","NPU18016","NPU04998 (enzymatisk)","NPU01807 (beregnet ved Jaffe-metode)","NPU09101 (Jaffe)","NPU03429","NPU03577","NPU27547","NPU04094","NPU03620 (fPt)","NPU18106 (syst(spec))","NPU09356","NPU03688","NPU01459"],"Enhed":["U/L","Ukat/L","Ukat/L","U/L","U/L","g/L","umol/L","umol/L","g/L","Ratio (10-3)","Ratio (10-3)","g/mol","Ratio (10-3)","U/L","mg/L","IU/L","nmol/L","mg/L","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2",null,"mmol/L","mmol/L","mmol/L","mmol/L","Indeholder alle målene fra en glukose tolerance test inkl. De tre ovenstående ved 0,30 og 120 min","mmol/L","mmol/mol","mmol/L","ratio","ratio","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","umol/L","umol/L","umol/L","mmol/L","mmol/L","10-3 IU/L","10-3 IU/L","mmol/L","mmol/L","mmol/L","umol/L","mmol/L","mmol/L"]},"columns":[{"id":"Komponent","name":"Komponent","type":"character","align":"left"},{"id":"Kode","name":"Kode","type":"character","align":"left"},{"id":"Enhed","name":"Enhed","type":"character","align":"left"}],"filterable":true,"searchable":true,"showPageSizeOptions":true,"highlight":true,"showSortable":true,"theme":{"searchInputStyle":{"width":"100%"}},"elementId":"registers-select","dataKey":"3f419b7b6b400438e79e52c6f86e3fd9"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../LICENSE.md">License: CC BY 4.0</a>
+  </li>  
+</ul>
+      </div>
+  </div>
+</footer>
+
+
+
+</body></html>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Luke W. Johnston">
+<meta name="dcterms.date" content="2023-02-28">
+
+<title>MELD Project - DST Project Description</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<link href="../../site_libs/tabwid-1.1.3/tabwid.css" rel="stylesheet">
+<script src="../../site_libs/tabwid-1.1.3/tabwid.js"></script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">MELD Project</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"><i class="bi bi-house-door" role="img">
+</i> 
+ <span class="menu-text"> </span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../applications/dst/description.html" aria-current="page">
+ <span class="menu-text">DST</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../applications/sds/application.html">
+ <span class="menu-text">SDS</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../applications/rkkp/application.html">
+ <span class="menu-text">RKKP</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/steno-aarhus/meld-project"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">DST Project Description</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Denmark Statistics</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/dst/description.html" class="sidebar-item-text sidebar-link active">Description</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/dst/appendix.html" class="sidebar-item-text sidebar-link">Requested data</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Sundhedsdatastrylsen</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/sds/application.html" class="sidebar-item-text sidebar-link">Overview</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/sds/description.html" class="sidebar-item-text sidebar-link">Description</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/sds/extraction.html" class="sidebar-item-text sidebar-link">Requested data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/sds/atc-codes.html" class="sidebar-item-text sidebar-link">ATC Codes</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">RKKP</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../applications/rkkp/application.html" class="sidebar-item-text sidebar-link">Application</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#autoriseret-institution-authorised-institution" id="toc-autoriseret-institution-authorised-institution" class="nav-link active" data-scroll-target="#autoriseret-institution-authorised-institution">Autoriseret institution / Authorised institution</a></li>
+  <li><a href="#projekttitel-project-title" id="toc-projekttitel-project-title" class="nav-link" data-scroll-target="#projekttitel-project-title">Projekttitel / Project title</a></li>
+  <li><a href="#projektbeskrivelse-project-description" id="toc-projektbeskrivelse-project-description" class="nav-link" data-scroll-target="#projektbeskrivelse-project-description">Projektbeskrivelse / Project description</a></li>
+  <li><a href="#population-population" id="toc-population-population" class="nav-link" data-scroll-target="#population-population">Population / Population</a></li>
+  <li><a href="#variabelindhold-variables-included" id="toc-variabelindhold-variables-included" class="nav-link" data-scroll-target="#variabelindhold-variables-included">Variabelindhold / Variables included</a></li>
+  <li><a href="#særligt-vedr.-lægemiddelsdata-especially-regarding-drug-data" id="toc-særligt-vedr.-lægemiddelsdata-especially-regarding-drug-data" class="nav-link" data-scroll-target="#særligt-vedr.-lægemiddelsdata-especially-regarding-drug-data">Særligt vedr. lægemiddelsdata / Especially regarding drug data</a></li>
+  <li><a href="#offentliggørelse-af-resultater-publication-of-results" id="toc-offentliggørelse-af-resultater-publication-of-results" class="nav-link" data-scroll-target="#offentliggørelse-af-resultater-publication-of-results">Offentliggørelse af resultater / Publication of results</a></li>
+  <li><a href="#perspektivering-perspective" id="toc-perspektivering-perspective" class="nav-link" data-scroll-target="#perspektivering-perspective">Perspektivering / Perspective</a></li>
+  <li><a href="#data-som-ikke-kommer-fra-danmarks-statistik-data-that-doesnt-come-from-dst" id="toc-data-som-ikke-kommer-fra-danmarks-statistik-data-that-doesnt-come-from-dst" class="nav-link" data-scroll-target="#data-som-ikke-kommer-fra-danmarks-statistik-data-that-doesnt-come-from-dst">Data som ikke kommer fra Danmarks Statistik / Data that doesn’t come from DST</a></li>
+  <li><a href="#projekts-slutdato-projects-end-date" id="toc-projekts-slutdato-projects-end-date" class="nav-link" data-scroll-target="#projekts-slutdato-projects-end-date">Projekts slutdato / Project’s end date</a></li>
+  <li><a href="#autoriserede-forskere-authorised-scientists" id="toc-autoriserede-forskere-authorised-scientists" class="nav-link" data-scroll-target="#autoriserede-forskere-authorised-scientists">Autoriserede forskere / Authorised scientists</a></li>
+  <li><a href="#underskrift-signatures" id="toc-underskrift-signatures" class="nav-link" data-scroll-target="#underskrift-signatures">Underskrift / Signatures</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/steno-aarhus/meld-project/edit/main/applications/dst/description.Rmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/steno-aarhus/meld-project/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/steno-aarhus/meld-project/blob/main/applications/dst/description.Rmd" class="toc-action">View source</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">DST Project Description</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    Luke W. Johnston 
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Steno Diabetes Center Aarhus
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 28, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><strong>Forskningsservice</strong> <strong>Dato</strong> February 28, 2023 Projekt nr. 708421/ kontaktperson i Forskningsservice</p>
+<section id="autoriseret-institution-authorised-institution" class="level2">
+<h2 class="anchored" data-anchor-id="autoriseret-institution-authorised-institution">Autoriseret institution / Authorised institution</h2>
+<p>Enhedschef Annelli Sandbæk<br>
+Steno Diabetes Center Aarhus (inst. nr. 574)<br>
+Hedeager 3, 2. sal<br>
+8200 Aarhus<br>
+Denmark</p>
+</section>
+<section id="projekttitel-project-title" class="level2">
+<h2 class="anchored" data-anchor-id="projekttitel-project-title">Projekttitel / Project title</h2>
+<p>Interplay between diabetes and intergenerational transmission of health determinants over the life course</p>
+</section>
+<section id="projektbeskrivelse-project-description" class="level2">
+<h2 class="anchored" data-anchor-id="projektbeskrivelse-project-description">Projektbeskrivelse / Project description</h2>
+<p>The overall aim of this project is to identify the contributions of family and early life determinants on the development, management, and care of diabetes and the diseases that may arise following a diabetes diagnosis, under a life-course framework.</p>
+<p>Diabetes is a complex, multi-factorial disease. Its development depends on the timing and accumulation of exposures throughout the life-course. In addition to genetic influences, behavioral risk factors and socioeconomic conditions cluster in families and are passed through generations. For instance, poor childhood socioeconomic status (SES) can impact final educational attainment, adult SES, and lifestyle and behavioral characteristics, which ultimately influence an individual’s metabolic capacity to regulate glucose and subsequent risk for diabetes.</p>
+<p>This project will contribute to a broader and deeper understanding of the role that these factors play with the development and progression of diabetes. For this purpose, we will apply causal and predictive statistical methods to best use the data available from the integrated data sources with an overarching goal to model several potential public health strategies that might impact the prevention and management of diabetes and the diseases that follow its diagnosis.</p>
+</section>
+<section id="population-population" class="level2">
+<h2 class="anchored" data-anchor-id="population-population">Population / Population</h2>
+<p>In order to identify familial relations through individuals’ life course trajectory, the population requested covers all individuals, who were alive in Denmark from 1 January 1970 to 31 December 2020 (~8.5 million people). The family linkage and structure makes the construction of the population complicated and we will do this ourselves. For that we need the entire population because we need data on not just the individual, but also the family (parents and siblings). To characterise early life and early childhood conditions of an individual person, we need data on their parents. Likewise, to understand the role that the family network, including siblings and grandparents, has on diabetes risk, we need a large enough population to make these linkages and to adequately study this area. Key requirements are:</p>
+<ul>
+<li>All index individuals born or who migrated into Denmark.</li>
+<li>All family members of the index individuals, including parents, siblings, spouses, and children.</li>
+</ul>
+</section>
+<section id="variabelindhold-variables-included" class="level2">
+<h2 class="anchored" data-anchor-id="variabelindhold-variables-included">Variabelindhold / Variables included</h2>
+<p>All variables can be de-identified (direct identification is not needed). The list of requested variables is found in the tables at the end of the document in the Appendix. For all the variables, we need the data from the first year it is available to the most recent year it is available.</p>
+<p>Registers requested are:</p>
+<ul>
+<li>AEFV: Ældredokumentation visiteret hjemmehjælp frit valg / Documentation for the elderly Visited home help free choice</li>
+<li>AEHJSP: Ældredokumentation - hjemmesygepleje i eget hjem / Elderly documentation - home care in own home</li>
+<li>AEREHAB: Ældredokumentation - Rehabilitering / Elderly documentation - Rehabilitation</li>
+<li>AETR: Ældredokumentation genoptræning vedligeholdelsestræning / Elderly documentation rehabilitation maintenance training</li>
+<li>AKM: Arbejdsklassifikationsmodulet / The work classification module</li>
+<li>BEF: Befolkningen / The population</li>
+<li>BFL: Detaljeret lønmodtagerdata fra e-Indkomst / Detailed employee data from e-Income</li>
+<li>CPST: CPR Status / Civil Registration Status</li>
+<li>DOD: Døde i Danmark / Died in Denmark</li>
+<li>DODSAARS: Dødsårssagsregistret / Cause of death register</li>
+<li>DODSAASG: Dødsårsagsregister / Cause of death register</li>
+<li>DREAM: Beskæftigelsesministeriets forløbsdatabase DREAM / DREAM database of the Ministry of Employment</li>
+<li>FAIK: Familieindkomster / Family income</li>
+<li>FAIN: Husstande og familier / Households and families</li>
+<li>FRPE: Fraværsperioder / Periods of absence</li>
+<li>FTBARN: Fertilitet - børn / Fertility - children</li>
+<li>FTDB: Fertilitetsdatabasen børn / Fertility database children</li>
+<li>FTDK: Fertilitetsdatabasen paritetsfil kvinder / Fertility database parity file women</li>
+<li>FTDM: Fertilitetsdatabasen paritetsfil mænd / Fertility database parity file men</li>
+<li>FTFORAEL: Fertilitet - forælder / Fertility - parent</li>
+<li>IDAN: IDA ansættelser / IDA employment</li>
+<li>IDAP: IDA persondata / IDA person data</li>
+<li>IEPE: Indvandrere og Efterkommere / Immigrants and Descendants</li>
+<li>IND: Indkomst / Income</li>
+<li>LMDB: Lægemiddeldatabasen / The drug database</li>
+<li>LPR_ADM: Landspatientregistret - administrative oplysninger / National Patient Register - administrative information</li>
+<li>LPR_BES: Landspatientregistret - ambulante besøgsdatoer / National Patient Register - outpatient visit dates</li>
+<li>LPR_DIAG: Landspatientregistret - diagnoser / National Patient Register - diagnoses</li>
+<li>LPR_OPR: Landspatientregistret - operationer efter ICD8 klassifikationen / National Patient Register - operations according to the ICD8 classification</li>
+<li>LPR_SKSOPR: Landspatientregistret - operationer / National Patient Register - operations</li>
+<li>LPR_SKSUBE: Landspatientregistret - undersøgelser og behandlinger / National Patient Register - examinations and treatments</li>
+<li>LPRMFRDF: Dødfødte ud fra LPR / Stillbirths from LPR</li>
+<li>LPRMFRLF: Levendefødte ud fra LPR / Live births from LPR</li>
+<li>SHSS: Sammenhængende socialstatistik / Coherent social statistics</li>
+<li>SSNV: Sammenhængende socialstatistik nettovarigheder / Coherent social statistics net durations</li>
+<li>SSSY: Sygesikring (6-cifret) / Health insurance (6-digit)</li>
+<li>SYSI: Sygesikring (sikringsgruppe) / Health insurance (group)</li>
+<li>UDDA: Uddannelser (BUE) / Education (BUE)</li>
+<li>VNDS: Historiske vandringer / Historical migration</li>
+</ul>
+<p>In the Appendix we listed the ATC codes from the prescription register and ICD-8 and -10 codes from the patient register that we need to classify diabetes and the diseases that may arise following a diabetes diagnosis.</p>
+<!-- Please also include information on external data or own survey data if such -->
+<!-- data is part of the project. In such cases please include approval from the -->
+<!-- Danish Protection Agency. -->
+</section>
+<section id="særligt-vedr.-lægemiddelsdata-especially-regarding-drug-data" class="level2">
+<h2 class="anchored" data-anchor-id="særligt-vedr.-lægemiddelsdata-especially-regarding-drug-data">Særligt vedr. lægemiddelsdata / Especially regarding drug data</h2>
+<p>The medication data we are requested are used in order to identify cases of disease (e.g.&nbsp;diabetes) that might not have been diagnosed and recorded in the patient register. The list of requested ATC codes is found in the Appendix section.</p>
+<!--
+Only to be filled in if the project is to use drug data. Research projects that
+must use data from the Medicines Database must be approved by the Danish Health
+and Medicines Authority. The approval process takes place via a contact person
+in Forskningsservice. Drug data may only be used for the purpose described in
+this project setting. If drug data is to be used for other purposes, a renewed
+approval from the Danish Health and Medicines Authority is required.
+-->
+</section>
+<section id="offentliggørelse-af-resultater-publication-of-results" class="level2">
+<h2 class="anchored" data-anchor-id="offentliggørelse-af-resultater-publication-of-results">Offentliggørelse af resultater / Publication of results</h2>
+<p>Results will be published in open access scientific outlets and presented at scientific conferences.</p>
+</section>
+<section id="perspektivering-perspective" class="level2">
+<h2 class="anchored" data-anchor-id="perspektivering-perspective">Perspektivering / Perspective</h2>
+<p>Understanding how early life and familial factors can influence diabetes provides us with tools and knowledge to better target, intervene, and either prevent or manage diabetes and its complications. Considering the impact that diabetes as a disease itself and its related comorbidities has at the personal, public health, and economic level, any improvement in knowledge can have major impacts.</p>
+<!-- A description of what knowledge of societal relevance this study can contribute. -->
+</section>
+<section id="data-som-ikke-kommer-fra-danmarks-statistik-data-that-doesnt-come-from-dst" class="level2">
+<h2 class="anchored" data-anchor-id="data-som-ikke-kommer-fra-danmarks-statistik-data-that-doesnt-come-from-dst">Data som ikke kommer fra Danmarks Statistik / Data that doesn’t come from DST</h2>
+<p>Data coming from other sources (e.g.&nbsp;Sundhedsdatastyrelsen):</p>
+<!--
+List cohorts:
+
+- Diet, Cancer, and Health study. Next Generation Study
+- ADDITION, ADDITION-PRO cohort studies
+    - Some ideas: Family characteristics and diabetes control.
+- Inter99
+- CORE Trial (Check your health study. This is a household intervention)
+- The Danish National Health survey (2010, 2013 and 2017)
+    - See: https://www.danishhealthdata.com/find-health-data/Danskernes-sundhed Data
+    administrator: National Institute of Public Health, SDU, application here:
+    http://www.danskernessundhed.dk/Spoergeskema
+-->
+<ul>
+<li>Cancerregisteret: Cancerregisteret / Cancer Register</li>
+<li>DBDD: Dansk Børne Diabetes Database / Danish Childrens Diabetes Database</li>
+<li>Diabase: Diabase / Diabase</li>
+<li>DND: Det Nationale Diabetesregister / National Diabetes Register</li>
+<li>DRG: Afregning og finansiering / Settlement and financing</li>
+<li>DVDD: Dansk Vosken Diabetes Database / Danish Adults Diabetes Database</li>
+<li>IVF: IVF-registeret / In vitro fertilization register</li>
+<li>LABKA: Laboratoriedatabasen / Clinical data</li>
+<li>LPR_PSYK: Landspatientregistret – psykologi / National Patient Register - psychological</li>
+<li>PLH: Plejehjemsdata / Nursing home data</li>
+<li>RUKS: Register for Udvalgte Kroniske Sygdomme / Register of Selected Chronic Diseases</li>
+</ul>
+</section>
+<section id="projekts-slutdato-projects-end-date" class="level2">
+<h2 class="anchored" data-anchor-id="projekts-slutdato-projects-end-date">Projekts slutdato / Project’s end date</h2>
+<p>Date of deletion of data: Access to data is requested until 2030-12-31.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="autoriserede-forskere-authorised-scientists" class="level2">
+<h2 class="anchored" data-anchor-id="autoriserede-forskere-authorised-scientists">Autoriserede forskere / Authorised scientists</h2>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in raw_block(x, "html", ...): raw_block() requires Pandoc &gt;= 2.0.0</code></pre>
+</div>
+<div class="cell-output-display">
+<div id="tbl-authorized-researchers" class="anchored">
+
+<div class="tabwid"><style>.cl-fbfc08dc{}.cl-fbf6f07c{font-family:'DejaVu Sans';font-size:9pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-fbf6f086{font-family:'DejaVu Sans';font-size:9pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-fbf93990{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-fbf9399a{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-fbf947aa{width:0.75in;background-color:rgba(217, 217, 217, 1.00);vertical-align: top;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-fbf947ab{width:0.75in;background-color:rgba(242, 242, 242, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-fbf947b4{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-fbf947b5{width:0.75in;background-color:rgba(242, 242, 242, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-fbfc08dc"><caption>Table&nbsp;1:  Authorized researchers on the project. </caption><thead><tr style="overflow-wrap:break-word;"><th class="cl-fbf947aa"><p class="cl-fbf93990"><span class="cl-fbf6f07c">Navn</span></p></th><th class="cl-fbf947aa"><p class="cl-fbf93990"><span class="cl-fbf6f07c">Stillingsbetegnelse</span></p></th><th class="cl-fbf947aa"><p class="cl-fbf93990"><span class="cl-fbf6f07c">Ansættelsessted (Institution &amp; Afdeling)</span></p></th><th class="cl-fbf947aa"><p class="cl-fbf93990"><span class="cl-fbf6f07c">Ident</span></p></th><th class="cl-fbf947aa"><p class="cl-fbf93990"><span class="cl-fbf6f07c">Email</span></p></th><th class="cl-fbf947aa"><p class="cl-fbf93990"><span class="cl-fbf6f07c">Mobil</span></p></th><th class="cl-fbf947aa"><p class="cl-fbf93990"><span class="cl-fbf6f07c">Fysisk token ønskes</span></p></th><th class="cl-fbf947aa"><p class="cl-fbf93990"><span class="cl-fbf6f07c">Hjemsendelse tillades</span></p></th><th class="cl-fbf947aa"><p class="cl-fbf93990"><span class="cl-fbf6f07c">Brugeraftale på engelsk</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td colspan="9" class="cl-fbf947ab"><p class="cl-fbf9399a"><span class="cl-fbf6f07c">Kontaktperson</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Luke W. Johnston</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Clinical researcher</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Steno Diabetes Center Aarhus</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">luke.johnston@rm.dk</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td colspan="9" class="cl-fbf947b5"><p class="cl-fbf9399a"><span class="cl-fbf6f07c">Øvrige personer</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Omar Silverman</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Clinical researcher</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Steno Diabetes Center Aarhus</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">jossil@rm.dk</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Daniel R. Witte</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Professor</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Steno Diabetes Center Aarhus and Institute for Public Health, Aarhus University</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">daniel.witte@ph.au.dk</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Gunnar Toft</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Senior Researcher</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Steno Diabetes Center Aarhus</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">guntof@rm.dk</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Adam Hulman</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Senior Data Scientist</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Steno Diabetes Center Aarhus</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">adahul@rm.dk</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Ja</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Ja</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Annelli Sandbæk</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Unit Manager</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Steno Diabetes Center Aarhus</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">anesnd@rm.dk</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Ja</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Anders Aasted Isaksen</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">PhD Student</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Department of Public Health, Aarhus University</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">aai@ph.au.dk</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086"></span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td><td class="cl-fbf947b4"><p class="cl-fbf9399a"><span class="cl-fbf6f086">Nej</span></p></td></tr></tbody></table></div>
+</div>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="underskrift-signatures" class="level2">
+<h2 class="anchored" data-anchor-id="underskrift-signatures">Underskrift / Signatures</h2>
+<p>Underskriver bekræfter på vegne af den dataansvarlige autoriserede institution, at den konkrete behandling er lovlig i henhold til databeskyttelsesforordningen artikel 6.</p>
+<p>Underskriver bekræfter ligeledes at være formelt ansat på den dataansvarlige autoriserede institution, der indstiller projektet.</p>
+<p><strong>På vegne af den dataansvarlige:</strong></p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in raw_block(x, "html", ...): raw_block() requires Pandoc &gt;= 2.0.0</code></pre>
+</div>
+<div class="cell-output-display">
+
+<div class="tabwid"><style>.cl-fc057d0e{}.cl-fc01de7e{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-fc0366cc{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-fc037194{width:2in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-fc037195{width:4.5in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-fc057d0e"><tbody><tr style="overflow-wrap:break-word;"><td class="cl-fc037194"><p class="cl-fc0366cc"><span class="cl-fc01de7e">Navn:</span></p></td><td class="cl-fc037195"><p class="cl-fc0366cc"><span class="cl-fc01de7e">Annelli Sandbæk</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fc037194"><p class="cl-fc0366cc"><span class="cl-fc01de7e">Stilling:</span></p></td><td class="cl-fc037195"><p class="cl-fc0366cc"><span class="cl-fc01de7e">Enhedschef</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fc037194"><p class="cl-fc0366cc"><span class="cl-fc01de7e">Dato:</span></p></td><td class="cl-fc037195"><p class="cl-fc0366cc"><span class="cl-fc01de7e"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fc037194"><p class="cl-fc0366cc"><span class="cl-fc01de7e">Underskrift:</span></p></td><td class="cl-fc037195"><p class="cl-fc0366cc"><span class="cl-fc01de7e"></span></p></td></tr></tbody></table></div>
+</div>
+</div>
+<p><strong>Godkendt til ekstern adgang</strong></p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in raw_block(x, "html", ...): raw_block() requires Pandoc &gt;= 2.0.0</code></pre>
+</div>
+<div class="cell-output-display">
+
+<div class="tabwid"><style>.cl-fc0eba86{}.cl-fc0b4680{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-fc0cd4aa{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-fc0cde14{width:2in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-fc0cde15{width:4.5in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-fc0eba86"><tbody><tr style="overflow-wrap:break-word;"><td class="cl-fc0cde14"><p class="cl-fc0cd4aa"><span class="cl-fc0b4680">Navn:</span></p></td><td class="cl-fc0cde15"><p class="cl-fc0cd4aa"><span class="cl-fc0b4680">Nikolaj Borg Burmeister</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fc0cde14"><p class="cl-fc0cd4aa"><span class="cl-fc0b4680">Stilling:</span></p></td><td class="cl-fc0cde15"><p class="cl-fc0cd4aa"><span class="cl-fc0b4680">Kontorchef</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fc0cde14"><p class="cl-fc0cd4aa"><span class="cl-fc0b4680">Dato:</span></p></td><td class="cl-fc0cde15"><p class="cl-fc0cd4aa"><span class="cl-fc0b4680"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-fc0cde14"><p class="cl-fc0cd4aa"><span class="cl-fc0b4680">Underskrift:</span></p></td><td class="cl-fc0cde15"><p class="cl-fc0cd4aa"><span class="cl-fc0b4680"></span></p></td></tr></tbody></table></div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../LICENSE.md">License: CC BY 4.0</a>
+  </li>  
+</ul>
+      </div>
+  </div>
+</footer>
+
+
+
+</body></html>

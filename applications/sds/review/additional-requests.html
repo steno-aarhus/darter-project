@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>MELD Project – additional-requests</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">MELD Project</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"><i class="bi bi-house-door" role="img">
+</i> 
+ <span class="menu-text"> </span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../../applications/dst/description.html" aria-current="page">
+ <span class="menu-text">DST</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../applications/sds/application.html">
+ <span class="menu-text">SDS</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../applications/rkkp/application.html">
+ <span class="menu-text">RKKP</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/steno-aarhus/meld-project"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Denmark Statistics</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../applications/dst/description.html" class="sidebar-item-text sidebar-link">Description</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../applications/dst/appendix.html" class="sidebar-item-text sidebar-link">Requested data</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Sundhedsdatastrylsen</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../applications/sds/application.html" class="sidebar-item-text sidebar-link">Overview</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../applications/sds/description.html" class="sidebar-item-text sidebar-link">Description</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../applications/sds/extraction.html" class="sidebar-item-text sidebar-link">Requested data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../applications/sds/atc-codes.html" class="sidebar-item-text sidebar-link">ATC Codes</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">RKKP</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../applications/rkkp/application.html" class="sidebar-item-text sidebar-link">Application</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#clarifications-and-other-requests" id="toc-clarifications-and-other-requests" class="nav-link active" data-scroll-target="#clarifications-and-other-requests">Clarifications and other requests</a>
+  <ul class="collapse">
+  <li><a href="#danish-original" id="toc-danish-original" class="nav-link" data-scroll-target="#danish-original">Danish original</a></li>
+  <li><a href="#english-translation" id="toc-english-translation" class="nav-link" data-scroll-target="#english-translation">English translation</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/steno-aarhus/meld-project/edit/main/applications/sds/review/additional-requests.Rmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/steno-aarhus/meld-project/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/steno-aarhus/meld-project/blob/main/applications/sds/review/additional-requests.Rmd" class="toc-action">View source</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="clarifications-and-other-requests" class="level1">
+<h1>Clarifications and other requests</h1>
+<section id="danish-original" class="level2">
+<h2 class="anchored" data-anchor-id="danish-original">Danish original</h2>
+<p>Jeg er nu i gang med den indledende behandling af din ansøgning. I den forbindelse kan jeg se, at der er behov for afklaring af følgende, før vi kan gå videre med sagsbehandlingen:</p>
+<ol type="1">
+<li><p>Behandling af personhenførbare data</p>
+<p>Vi skal i Forskerservice se dokumentation for, at din dataansvarlige institution har godkendt databehandlingen af personhenførbare oplysninger i forbindelse med dit projekt. Det vil sige, at du skal fremsende følgende:</p>
+<ul>
+<li>Din dataansvarlige institutions gældende godkendelse af databehandlingen i dit projekt. Godkendelsen skal som minimum indeholde følgende informationer:
+<ul>
+<li>Navn på dataansvarlig institution</li>
+<li>Navn på projektansvarlig person</li>
+<li>Titel på projektet</li>
+<li>Slutdato for projektet, hvis denne findes</li>
+</ul></li>
+</ul>
+<p>Hvis godkendelsen ikke indeholder disse informationer, skal informationerne indsendes på anden vis, for eksempel i form af fortegnelsen med de informationer der er anført vedrørende dit projekt.</p>
+<ul>
+<li>Hvis den gældende godkendelse og eventuelle fortegnelse ikke indeholder alle relevante oplysninger, skal også indsendes tidligere godkendelser af ændringer i projektet. Ændringer kan for eksempel være ændringer i formål, titel eller skift af projektansvarlig person.</li>
+</ul></li>
+<li><p>Betalingsoplysninger</p>
+<p>Du har angivet følgende betalingsoplysninger:</p>
+<ul>
+<li>E-mail betalingsansvarlig: <a href="mailto:sofalb@rm.dk" class="email">sofalb@rm.dk</a></li>
+<li>Faktura skal stiles til: Sofie Albrechtsen, Steno Diabetes Center Aarhus</li>
+<li>CVR: 29190925</li>
+<li>EAN:</li>
+<li>Projektkonto:</li>
+</ul>
+<p>Hvis du er i tvivl om CVR-nummeret, kan du finde hjælp her: VIRK</p>
+<p>Du har ikke angivet et EAN-nummer. Fakturaen kan derfor ikke leveres elektronisk. Hvis du ønsker en elektronisk faktura, bedes du sende os det EAN-nummer, som fakturaen skal sendes til. Bemærk at såfremt betaler er en offentlige institution, skal der angives et EAN-nummer.</p>
+<p>Du har ikke angivet en projektkonto. Hvis der skal refereres til en projektkonto på den faktura, der fremsendes, må du meget gerne oplyse denne.</p></li>
+<li><p>Udtræksbeskrivelse</p>
+<p>Jeg forstår af projektbeskrivelsen, at formålet med indeværende projekt er at undersøge familie og tidlig livsfaktorers betydning for udvikling, håndtering og behandling af diabetes og følger heraf i et life-course perspektiv.</p>
+<p>Jeg læser af udtræksbeskrivelsen, at populationen består af 8,5 mio. mennesker, som har været i live og bosiddende i Danmark i perioden 1970-2021.</p>
+<p>Jeg forstår, at I har behov for data fra IVF-registeret for at afdække faktorer i tidlig liv og i barndommen, samt familierelationer.</p>
+<p>Med afsæt i Databeskyttelseslovens §10 og dataminimeringsprincippet, har Forskerservice pligt til at sikre, at vi kun videregiver de data, som er nødvendige for at projektet kan gennemføres.</p>
+<ul>
+<li>Til ovenstående formål skal populationen afgrænses til relevante personer med diabetes og disses familierelationer.</li>
+<li>Alternativt skal du give en uddybet begrundelse for, at I har behov for data om IVF-behandlinger og kræftdiagnoser på alle personer, der har levet og boet i Danmark i peiroden 1970-2021, inklusiv personer, som ikke er diabetespatienter eller i familierelation til en diabetespatient.</li>
+</ul>
+<p>Det fremgår ikke af udtræksbeskrivelsen eller projektbeskrivelsen, hvordan data fra CAR og IVF skal anvendes til at besvare projektets problemstilling.</p>
+<ul>
+<li>Jeg skal derfor bede dig give en uddybet begrundelse for dit behov for data fra både CAR og IVF.</li>
+</ul>
+<p>Se Forskerservices krav til udtræksbeskrivelsen her: Krav til udtræksbeskrivelse</p></li>
+</ol>
+<p>Jeg vil afvente svar fra dig, før jeg går videre med sagsbehandlingen. Bemærk, at sagsbehandlingen vil være hurtigere, såfremt der kan fremsendes samlet afklaring af ovenstående punkter.</p>
+<p>Hvis du har spørgsmål til ovenstående punkter, er du altid meget velkommen til at kontakte mig. Alternativt kan du kontakte Forskerservice</p>
+</section>
+<section id="english-translation" class="level2">
+<h2 class="anchored" data-anchor-id="english-translation">English translation</h2>
+<p>Clarifications of the following before proceeding with the case processing:</p>
+<ol type="1">
+<li><p>Processing of personally identifiable data</p>
+<p>In Forskerservice, we must see documentation that your data-responsible institution has approved the data processing of personally identifiable information in connection with your project. This means that you must submit the following:</p>
+<ul>
+<li>Your data controller’s current approval of the data processing in your project. The approval must at least contain the following information:
+<ul>
+<li>Name of institution responsible for data: Steno Diabetes Center Aarhus</li>
+<li>Name of project manager: Annelli Sandbæk (or Adam Hulman)</li>
+<li>Title of the project: Interplay between diabetes and intergenerational transmission of health determinants over the life course</li>
+<li>End date of the project, if any: 2030-12-31</li>
+</ul></li>
+</ul>
+<p>If the approval does not contain this information, the information must be submitted in another way, for example in the form of the list with the information provided regarding your project.</p>
+<ul>
+<li>If the current approval and any list does not contain all relevant information, previous approvals of changes to the project must also be submitted. Changes can be, for example, changes in purpose, title or change of project manager.</li>
+</ul></li>
+<li><p>Payment information</p>
+<p>You have entered the following payment information:</p>
+<ul>
+<li>E-mail payment manager:</li>
+<li>Invoice must be sent to:</li>
+<li>CVR:</li>
+<li>EAN:</li>
+<li>Project account:</li>
+</ul>
+<p>If you are in doubt about the CVR number, you can find help here: WORK</p>
+<p>You have not entered an EAN number. The invoice can therefore not be delivered electronically. If you want an electronic invoice, please send us the EAN number to which the invoice should be sent. Note that if the payer is a public institution, an EAN number must be entered.</p>
+<p>You have not specified a project account. If you need to refer to a project account on the invoice that is sent, you are very welcome to state this.</p></li>
+<li><p>Extraction description</p>
+<p>Based on section 10 of the Data Protection Act and the data minimization principle, Forskerservice has a duty to ensure that we only pass on the data that is necessary for the project to be implemented.</p>
+<p>For the above purposes, the population should be limited to relevant individuals with diabetes and their family relationships.</p>
+<p>Alternatively, you must provide a detailed justification that you need data on IVF treatments and cancer diagnoses on all persons who have lived and lived in Denmark in the period 1970-2021, including persons who are not diabetic patients or in a family relationship to a diabetic patient.</p>
+<p>It does not appear from the extract description or the project description how data from CAR and IVF are to be used to answer the project’s problem.</p>
+<ul>
+<li>I must therefore ask you to provide a detailed justification for your need for data from both CAR and IVF.</li>
+</ul>
+<p>See Research Service’s requirements for the extract description here: Requirements for extract description</p></li>
+</ol>
+<p>I will await a response from you before proceeding with the proceedings. Please note that case processing will be faster if overall clarification of the above points can be submitted.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../../LICENSE.md">License: CC BY 4.0</a>
+  </li>  
+</ul>
+      </div>
+  </div>
+</footer>
+
+
+
+</body></html>
