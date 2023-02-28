@@ -774,6 +774,7 @@ soma_t[takstår]_proc[aktivitetsår] og soma_t[takstår]_int_kode[aktivitetsår]
 1,,Cancerregisteret,,"C_MORFO3
 ",,,,1978 -,,,,,,,"Histologi, Morfologi iflg. ICDO3 klassifikationen
 "
+1,,Cancerregisteret,,c_udbred,,,,1943 - 2003,,,,,,,Tumorens udbredelse
 1,,Cancerregisteret,,C_UDBRED_KLASSIFIKATION,,,,2004 -,,,,,,,Anvendt udbredelsesklassifikation
 1,,Cancerregisteret,,C_TNM_T,,,,2004 -,,,,,,,TNM klassifikation - T-akse
 1,,Cancerregisteret,,C_TNM_N,,,,2004 -,,,,,,,TNM klassifikation - N-akse
