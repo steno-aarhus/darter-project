@@ -10,8 +10,8 @@ project:
 
 website:
   title: "MELD Project"
-  site-url: "https://lwjohnst.gitlab.io/meld-project/"
-  repo-url: "https://gitlab.com/lwjohnst86/meld-project/"
+  site-url: "https://steno-aarhus.github.io/meld-project/"
+  repo-url: "https://github.com/steno-aarhus/meld-project/"
   repo-branch: main
   repo-actions: [edit, issue, source]
   search:
@@ -29,8 +29,8 @@ website:
         href: applications/sds/application.Rmd
       - text: "RKKP"
         href: applications/rkkp/application.qmd
-      - icon: gitlab
-        href: "https://gitlab.com/lwjohnst/meld-project"
+      - icon: github
+        href: "https://github.com/steno-aarhus/meld-project"
   sidebar:
     - id: dst
       title: "Applications"
