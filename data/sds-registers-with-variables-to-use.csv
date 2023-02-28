@@ -798,156 +798,156 @@ soma_t[takstår]_proc[aktivitetsår] og soma_t[takstår]_int_kode[aktivitetsår]
 1,,LPR_PSYK,,bidiagnose3,,,,1995 - 2021,,,,,,,Bidiagnose 3 
 1,,LPR_PSYK,,Bidiagnose4,,,,1995 - 2021,,,,,,,Bidiagnose 4 
 1,,LPR_PSYK,,Bidiagnose5,,,,1995 - 2021,,,,,,,Bidiagnose 5 
-,,IVF,t_ivf_register,c_i_behmade                       ,,,,1994 - 2005,,,,,,,IVF-behandlingsmetode
-,,IVF,t_ivf_register,d_i_mfoddto                       ,,,,1994 - 2005,,,,,,,IVF kvindens fødselsdato
-,,IVF,t_ivf_register,c_i_sektor                        ,,,,1994 - 2005,,,,,,,Sektor (privat eller offentlig)
-,,IVF,t_ivf_register,d_i_cykldto                       ,,,,1994 - 2005,,,,,,,Startdato for IVF-behandling - alle behandlingsmetoder
-,,IVF,t_ivf_register,v_i_n_modt                        ,,,,1994 - 2005,,,,,,,Antal donoræg modtaget ED-metode
-,,IVF,t_ivf_register,v_i_mcpr                          ,,,,1994 - 2005,,,,,,,IVF kvindens CPRnummer
-,,IVF,t_ivf_register,b_i_ovuldef                       ,,,,1994 - 2005,,,,,,,Anamnese ovulutionsdefekt
-,,IVF,t_ivf_register,b_i_tubafakt                      ,,,,1994 - 2005,,,,,,,Anamnese tubafaktor
-,,IVF,t_ivf_register,b_i_cervfakt                      ,,,,1994 - 2005,,,,,,,Anamnese cervicovaginal uterin faktor
-,,IVF,t_ivf_register,b_i_mandfakt                      ,,,,1994 - 2005,,,,,,,Anamnese mandlige faktor
-,,IVF,t_ivf_register,b_i_anamandenfakt,,,,1994 - 2005,,,,,,,Anamnese andre aarsager
-,,IVF,t_ivf_register,b_i_uspecfakt                     ,,,,1994 - 2005,,,,,,,Anamnese uforklaret uden specifikation
-,,IVF,t_ivf_register,d_i_behdto                        ,,,,1994 - 2005,,,,,,,Dato for start af ICF og ICSI behandling
-,,IVF,t_ivf_register,b_i_aspir                         ,,,,1994 - 2005,,,,,,,Er der foretaget aspiration
-,,IVF,t_ivf_register,d_i_aspdto                        ,,,,1994 - 2005,,,,,,,Dato for aspiration
-,,IVF,t_ivf_register,v_i_n_ocyt                        ,,,,1994 - 2005,,,,,,,Antal æg udtaget
-,,IVF,t_ivf_register,b_i_donorsd                       ,,,,1994 - 2005,,,,,,,Er æg befrugtet md donorsæd
-,,IVF,t_ivf_register,b_i_natcyk                        ,,,,1994 - 2005,,,,,,,Naturlig cyklus IVF og ICSI
-,,IVF,t_ivf_register,b_i_klomifen                      ,,,,1994 - 2005,,,,,,,Er der anvendt klomifen IVF og ICSI
-,,IVF,t_ivf_register,v_i_klomed                        ,,,,1994 - 2005,,,,,,,ATC for klomifen IVF og ICSI
-,,IVF,t_ivf_register,b_i_hmg_fsh                       ,,,,1994 - 2005,,,,,,,Er der anvendt hMG/FSH IVF og ICSI
-,,IVF,t_ivf_register,v_i_hmgfshmed                     ,,,,1994 - 2005,,,,,,,ATC for hMG/FSH IVF og ICSI
-,,IVF,t_ivf_register,b_i_gnrh_a                        ,,,,1994 - 2005,,,,,,,Er der anvendt gnrh:a IVF og ICSI
-,,IVF,t_ivf_register,v_i_gnrhmed                       ,,,,1994 - 2005,,,,,,,ATC for gnrh:a IVF og ICSI
-,,IVF,t_ivf_register,b_i_oestro                        ,,,,1994 - 2005,,,,,,,ER der anvendt østrogen IVF og ICSI
-,,IVF,t_ivf_register,v_i_oestmed                       ,,,,1994 - 2005,,,,,,,ATC for østrogen IVF og ICSI
-,,IVF,t_ivf_register,b_i_progest                       ,,,,1994 - 2005,,,,,,,Er der anvendt progesteron IVF og ICSI
-,,IVF,t_ivf_register,v_i_progmed                       ,,,,1994 - 2005,,,,,,,ATC for progesteron IVF og ICSI
-,,IVF,t_ivf_register,b_i_hcg                           ,,,,1994 - 2005,,,,,,,Er der anvendt hCG IVF og ICSI
-,,IVF,t_ivf_register,v_i_hcgmed                        ,,,,1994 - 2005,,,,,,,ATC for hCG IVF og ICSI
-,,IVF,t_ivf_register,b_i_andhorm                       ,,,,1994 - 2005,,,,,,,Er der anvent andre hormoner IVF og ICSI
-,,IVF,t_ivf_register,v_i_andhormed                     ,,,,1994 - 2005,,,,,,,ATC for andre anvendte hormoner IVF og ICSI
-,,IVF,t_ivf_register,b_i_ivfmetod                      ,,,,1994 - 2005,,,,,,,Æg befrugtet med IVFmetode
-,,IVF,t_ivf_register,b_i_icsimetod                     ,,,,1994 - 2005,,,,,,,Æg befrugtet med ICSI metode
-,,IVF,t_ivf_register,b_i_transfer                      ,,,,1994 - 2005,,,,,,,Er der foretaget transferering
-,,IVF,t_ivf_register,d_i_transdto                      ,,,,1994 - 2005,,,,,,,Dato for ægoplægning
-,,IVF,t_ivf_register,v_i_ntransf                       ,,,,1994 - 2005,,,,,,,Antal friske æg transfereret
-,,IVF,t_ivf_register,v_i_ncryo                         ,,,,1994 - 2005,,,,,,,Antal æg nedfrosset
-,,IVF,t_ivf_register,d_i_mensdto                       ,,,,1994 - 2005,,,,,,,Dato for sidste menstruation
-,,IVF,t_ivf_register,b_i_transopt                      ,,,,1994 - 2005,,,,,,,Er der foretaget ægoplægning af optøede æg
-,,IVF,t_ivf_register,v_i_n_opt                         ,,,,1994 - 2005,,,,,,,Antal optøede æg transfereret
-,,IVF,t_ivf_register,b_i_transudf                      ,,,,1994 - 2005,,,,,,,Er der foretaget oplægning af donoræg
-,,IVF,t_ivf_register,d_i_modtdto                       ,,,,1994 - 2005,,,,,,,Dato for modtagelse af donoræg
-,,IVF,t_ivf_register,v_i_ntrans                        ,,,,1994 - 2005,,,,,,,Antal donoræg transfereret
-,,IVF,t_ivf_register,v_i_cryop                         ,,,,1994 - 2005,,,,,,,Antal donoræg nedfrosset
-,,IVF,t_ivf_register,b_i_natcykl                       ,,,,1994 - 2005,,,,,,,Naturlig cyklus ED
-,,IVF,t_ivf_register,b_i_hormoest                      ,,,,1994 - 2005,,,,,,,Er der anvendt østrogen ED
-,,IVF,t_ivf_register,v_i_atcoest                       ,,,,1994 - 2005,,,,,,,ATC for østrogen ED
-,,IVF,t_ivf_register,b_i_hormpro                       ,,,,1994 - 2005,,,,,,,Er der anvendt progesteron ED
-,,IVF,t_ivf_register,v_i_atcprog                       ,,,,1994 - 2005,,,,,,,ATC for progesteron ED
-,,IVF,t_ivf_register,b_i_hormgnrh                      ,,,,1994 - 2005,,,,,,,Er der anvendt gnrh_a ED
-,,IVF,t_ivf_register,v_i_atcgnrh                       ,,,,1994 - 2005,,,,,,,ATC for gnrh_A ED
-,,IVF,t_ivf_register,b_i_hormand                       ,,,,1994 - 2005,,,,,,,Er der anvendt andre hormoner ED
-,,IVF,t_ivf_register,v_i_atcand                        ,,,,1994 - 2005,,,,,,,ATC for andre hormoner ED
-,,IVF,t_ivf_register,b_i_shcgpos                       ,,,,1994 - 2005,,,,,,,Er graviditet S_hCG positiv?
-,,IVF,t_ivf_register,b_i_overstim                      ,,,,1994 - 2005,,,,,,,Har kvinden været indlagt med overstimulation
-,,IVF,t_ivf_register,b_i_infektio                      ,,,,1994 - 2005,,,,,,,Har kvinden været indlagt med infektion
-,,IVF,t_ivf_register,v_i_cyklaar                       ,,,,1994 - 2005,,,,,,,År for IVF-behandling - alle behandlingsmetoder
-,,IVF,t_ivf_register,v_i_malder                        ,,,,1994 - 2005,,,,,,,Kvindens alder ved start på aktuelt behandlingsforløb
-,,IVF,t_ivf_register,v_i_anamnes                       ,,,,1994 - 2005,,,,,,,Antal årsager til anames
-,,IVF,t_ivf_register,b_i_uoplfakt                      ,,,,1994 - 2005,,,,,,,Anden eller uoplyst aarsag til anamnese
-,,IVF,t_ivf_register,c_f_bstatus                       ,,,,1994 - 2005,,,,,,,"Fødselsstatus - Singleton, tvilling eller trilling"
-,,IVF,t_ivf_register,v_f_blangde                       ,,,,1994 - 2005,,,,,,,Barnets længde i cm
-,,IVF,t_ivf_register,v_f_bcpr                          ,,,,1994 - 2005,,,,,,,Barnets CPR nr
-,,IVF,t_ivf_register,v_f_fcpr                          ,,,,1994 - 2005,,,,,,,Faderes CPR nr
-,,IVF,t_ivf_register,v_f_malder                        ,,,,1994 - 2005,,,,,,,Mors alder ved fødsel
-,,IVF,t_ivf_register,d_f_bfoddto                       ,,,,1994 - 2005,,,,,,,Barnets fødselsdato
-,,IVF,t_ivf_register,v_f_bvagt                         ,,,,1994 - 2005,,,,,,,Barnets fødselsvægt i gram
-,,IVF,t_ivf_register,c_f_msgh                          ,,,,1994 - 2005,,,,,,,Sygehus ved fødselsen
-,,IVF,t_ivf_register,v_f_bapgar                        ,,,,1994 - 2005,,,,,,,Barnets apgar score efter 5 minutter
-,,IVF,t_ivf_register,c_f_bsex                          ,,,,1994 - 2005,,,,,,,Barnets køn
-,,IVF,t_ivf_register,v_f_mparitet                      ,,,,1994 - 2005,,,,,,,Paritet
-,,IVF,t_ivf_register,v_f_bflerfold                     ,,,,1994 - 2005,,,,,,,Antal børn i fødslen
-,,IVF,t_ivf_register,v_f_bga_dage                      ,,,,1994 - 2005,,,,,,,Svangerskabslængde i dage
-,,IVF,t_ivf_register,c_f_bfodstatus                    ,,,,1994 - 2005,,,,,,,Fødselsstatus - levende født eller dødfødt
-,,IVF,t_ivf_register,v_f_bfodaar                       ,,,,1994 - 2005,,,,,,,Barnets fødselseår
-,,IVF,t_ivf_register,v_i_fga_dage                      ,,,,1994 - 2005,,,,,,,Antal dage fra befrugtning til fødsel
-,,IVF,t_ivf_register,c_a_mdiag                         ,,,,1994 - 2005,,,,,,,Diagnose for abort
-,,IVF,t_ivf_register,c_a_mtildiag                      ,,,,1994 - 2005,,,,,,,Tillægsdiagnose for abort
-,,IVF,t_ivf_register,c_a_msgh                          ,,,,1994 - 2005,,,,,,,Sygehus for abort
-,,IVF,t_ivf_register,d_a_minddto                       ,,,,1994 - 2005,,,,,,,Indlæggelsesdato for abort
-,,IVF,t_ivf_register,d_a_muddto                        ,,,,1994 - 2005,,,,,,,Udskrivningsdato for abort
-,,IVF,t_ivf_register,v_a_mabortaar                     ,,,,1994 - 2005,,,,,,,År for abort
-,,IVF,t_ivf_register,v_a_mga_dage                      ,,,,1994 - 2005,,,,,,,Svangerskabslængde ved abort angivet i dage - fuldendte uger
-,,IVF,t_ivf_register,c_a_maborttype                    ,,,,1994 - 2005,,,,,,,"Aborttype . provokeret, spontan eller abnorm"
-,,IVF,t_ivf_register,c_a_mgravtype                     ,,,,1994 - 2005,,,,,,,"Biokemisk, extrauterin, mola, heterotorp"
-,,IVF,t_ivf_register,v_i_aga_dage                      ,,,,1994 - 2005,,,,,,,Antal dage fra befrugtning til abort
-,,IVF,t_ivf_register,b_i_klingrav,,,,1994 - 2005,,,,,,,Klinisk graviditet
-,,IVF,t_ivf_register,v_a_malder                        ,,,,1994 - 2005,,,,,,,Moderens alder på tidspunkt for abort
-,,IVF,t_ivf_register,b_i_aegudt                        ,,,,1994 - 2005,,,,,,,Er der foretaget ægudtagning?
-,,IVF,t_ivf_register,b_i_aegopl  ,,,,1994 - 2005,,,,,,,Er der foretaget ægoplægning?
-,,IVF,t_grund,v_skemaid,,,,2006 - 2021,,,,,,,Skemaidentifikationsnummer
-,,IVF,t_grund,d_skemaoprettet_dato,,,,2006 - 2021,,,,,,,Dato for oprettelses af skemaet i indberetningssystemet
-,,IVF,t_grund,d_startdato,,,,2006 - 2021,,,,,,,Dato for påbegyndt stimulations-/substitutionsbehandling eller 1. menstruationsdag **
-,,IVF,t_grund,v_aar,,,,2006 - 2021,,,,,,,Året for påbegyndt stimulations-/substitutionsbehandling eller 1. menstruationsdag
-,,IVF,t_grund,c_sgh,,,,2006 - 2021,,,,,,,Sygehuskode hvor behandling har fundet sted - er udfyldt hvis ydernr ikke er udfyldt
-,,IVF,t_grund,c_afd,,,,2006 - 2021,,,,,,,Afdelingskode hvor behandling har fundet sted - er udfyldt hvis sgh er udfyldt
-,,IVF,t_grund,c_ydernr,,,,2006 - 2021,,,,,,,Ydernummer hvor behandling har fundet sted - er udfyldt hvis sgh og afd ikke er udfyldt
-,,IVF,t_grund,v_sghnavn,,,,2006 - 2021,,,,,,,Sygehusets navn ved på opdateringsdatoen for registeret
-,,IVF,t_grund,v_cpr,,,,2006 - 2021,,,,,,,IVF kvindens cprnummer
-,,IVF,t_grund,v_alder,,,,2006 - 2021,,,,,,,IVF kvindens alder ved behandlingsstartdato
-,,IVF,t_grund,c_kom,,,,2006 - 2021,,,,,,,IVF kvindens bopælskommune
-,,IVF,t_grund,v_hoejde,,,,2006 - 2021,,,,,,,IVF kvindens højde i cm
-,,IVF,t_grund,v_vaegt,,,,2006 - 2021,,,,,,,IVF kvindens vægt i kg
-,,IVF,t_grund,v_rygning,,,,2006 - 2021,,,,,,,IVF kvindens rygning i antal pr. dag (tom betyder uoplyst)
-,,IVF,t_grund,v_alkohol,,,,2006 - 2021,,,,,,,IVF kvindens alkoholindtag i antal genstande pr. uge (tom betyder uoplyst)
-,,IVF,t_grund,v_samlivs_status,,,,2006 - 2021,,,,,,,Kvindens samlivsstatus
-,,IVF,t_grund,v_partner_cpr,,,,2006 - 2021,,,,,,,Partnerens cprnummer (også lesbisk partner)
-,,IVF,t_grund,v_partner_alder,,,,2006 - 2021,,,,,,,IVF kvindens alder ved behandlingsstartdato
-,,IVF,t_grund,v_partner_hoejde,,,,2006 - 2021,,,,,,,Partnerens højde i cm
-,,IVF,t_grund,v_partner_vaegt,,,,2006 - 2021,,,,,,,Partnerens vægt i kg
-,,IVF,t_grund,v_partner_rygning,,,,2006 - 2021,,,,,,,Partnerens rygning i antal pr. dag
-,,IVF,t_grund,v_partner_alkohol,,,,2006 - 2021,,,,,,,Partnerens alkoholindtag i antal genstande pr. uge (tom betyder uoplyst)
-,,IVF,t_grund,v_barnloes_siden,,,,2006 - 2021,,,,,,,Året for hvornår parret har været ufrivillig barnløs siden (Angives ikke for enlige og lesbiske)
-,,IVF,t_grund,b_idiopatisk,,,,2006 - 2021,,,,,,,"Idiopatisk, ingen medicinsk årsag til manglende graviditet"
-,,IVF,t_grund,c_kvinde_primaer,,,,2006 - 2021,,,,,,,Diagnose for primær årsag til kvindens infertilitet
-,,IVF,t_grund,c_kvinde_tillaeg,,,,2006 - 2021,,,,,,,Sekundær diagnose eller tillægsdiagnose til den primære årsag til kvindens infertilitet
-,,IVF,t_grund,c_mand_primaer,,,,2006 - 2021,,,,,,,Diagnose for primær årsag til partners infertilitet
-,,IVF,t_grund,c_mand_tillaeg,,,,2006 - 2021,,,,,,,Sekundær diagnose eller tillægsdiagnose til den primære årsag til partners infertilitet
-,,IVF,t_grund,c_pgd_diagnose,,,,2006 - 2021,,,,,,,ICD10 koden for familieamnese med den tilgrundliggende sygdom
-,,IVF,t_grund,b_pgd_specifik_vaevstype,,,,2006 - 2021,,,,,,,Specifik vævstype
-,,IVF,t_grund,c_pgd_indikation,,,,2006 - 2021,,,,,,,Angivelse af hvilken lov om kunstig befrugtning behandlinge udføres efter
-,,IVF,t_grund,c_behandling,,,,2006 - 2021,,,,,,,Hvilken type behandling kvinden har fået
-,,IVF,t_grund,b_behandling_afbrudt,,,,2006 - 2021,,,,,,,Behandlingen er afbrudt
-,,IVF,t_grund,c_fertilisering,,,,2006 - 2021,,,,,,,Hvilken sædtype der er anvendt til fertiliseringen (*findes ikke for alle behandlinger før version 1.11)
-,,IVF,t_grund,c_in_vitro_metode,,,,2006 - 2021,,,,,,,Hvilken metode ved in vitro befrugtnig af ægget er anvendt 
-,,IVF,t_grund,d_iui_dato,,,,2006 - 2021,,,,,,,Dato for insiminationsbehandlingen 
-,,IVF,t_grund,d_iui_aflyst_dato,,,,2006 - 2021,,,,,,,Dato for aflysning af behandling
-,,IVF,t_grund,c_fer_nedfrys_metode,,,,2006 - 2021,,,,,,,Nedfrysningsmetode anvendt til IVF/ICSI behandling med optøede embryoner (FER)
-,,IVF,t_grund,c_oocyt_kilde,,,,2006 - 2021,,,,,,,Kilde til oocytten
-,,IVF,t_grund,c_oocyt_type,,,,2006 - 2021,,,,,,,Hvilken type oocytter der er anvendt samt nedfrydningsmetode
-,,IVF,t_grund,b_distribution,,,,2006 - 2021,,,,,,,Har der foregået distribution af væv
-,,IVF,t_grund,d_aspiration_dato,,,,2006 - 2021,,,,,,,Dato for aspiration
-,,IVF,t_grund,d_aspiration_aflyst_dato,,,,2006 - 2021,,,,,,,Dato for aflysning af aspiration
-,,IVF,t_grund,c_aspiration,,,,2006 - 2021,,,,,,,ICD10 kode for aspirationstype
-,,IVF,t_grund,v_aspiration_antal_oocytter,,,,2006 - 2021,,,,,,,Antal aspirerede oocytter
-,,IVF,t_grund,d_transferering_dato,,,,2006 - 2021,,,,,,,Dato for transferering
-,,IVF,t_grund,d_transferering_aflyst_dato,,,,2006 - 2021,,,,,,,Dato for aflysning af transferering
-,,IVF,t_grund,v_antal_friske,,,,2006 - 2021,,,,,,,Antal friske embryoner transfereret
-,,IVF,t_grund,v_elektivt,,,,2006 - 2021,,,,,,,Angiver om valget har været elektivt eller non-elektivt
-,,IVF,t_grund,v_antal_optoede,,,,2006 - 2021,,,,,,,Antal optøde embryoner transfereret
-,,IVF,t_grund,v_overskydende_embryoner,,,,2006 - 2021,,,,,,,Angivelse af om der er overskydende embryoner
-,,IVF,t_grund,v_antal_slowfreeze,,,,2006 - 2021,,,,,,,Antal embryoner cryopreserveret ved slow-freeze
-,,IVF,t_grund,v_antal_vitrifikation,,,,2006 - 2021,,,,,,,Antal embryoner ved vitrifikation
-,,IVF,t_grund,v_antal_nedfrosset,,,,2006 - 2021,,,,,,,Antal embryoner nedfrosset
-,,IVF,t_grund,b_assisted_hatching,,,,2006 - 2021,,,,,,,Angiver om der er udført assisted hatching
-,,IVF,t_grund,c_komplikation_diagnose,,,,2006 - 2021,,,,,,,ICD10 koden for komplikationsdiagnosen
-,,IVF,t_grund,d_komplikation_dato,,,,2006 - 2021,,,,,,,Dato for komplikationsdiagnosen
-,,IVF,t_grund,v_proeve_type,,,,2006 - 2021,,,,,,,Om der er udført graviditetstest og hvilken type test
-,,IVF,t_grund,v_gravid,,,,2006 - 2021,,,,,,,Om kvinden er blevet gravid
-,,IVF,t_grund,v_ultralyd_resultat,,,,2006 - 2021,,,,,,,Resultat af ultralydbehandling
-,,IVF,t_grund,v_antal_hjertelyd,,,,2006 - 2021,,,,,,,Antal gestationssække med hjertelyd
-,,IVF,t_grund,v_antal_uden_hjertelyd,,,,2006 - 2021,,,,,,,Antal gestationssække uden hjertelyd
+1,,IVF,t_ivf_register,c_i_behmade                       ,,,,1994 - 2005,,,,,,,IVF-behandlingsmetode
+1,,IVF,t_ivf_register,d_i_mfoddto                       ,,,,1994 - 2005,,,,,,,IVF kvindens fødselsdato
+1,,IVF,t_ivf_register,c_i_sektor                        ,,,,1994 - 2005,,,,,,,Sektor (privat eller offentlig)
+1,,IVF,t_ivf_register,d_i_cykldto                       ,,,,1994 - 2005,,,,,,,Startdato for IVF-behandling - alle behandlingsmetoder
+1,,IVF,t_ivf_register,v_i_n_modt                        ,,,,1994 - 2005,,,,,,,Antal donoræg modtaget ED-metode
+1,,IVF,t_ivf_register,v_i_mcpr                          ,,,,1994 - 2005,,,,,,,IVF kvindens CPRnummer
+1,,IVF,t_ivf_register,b_i_ovuldef                       ,,,,1994 - 2005,,,,,,,Anamnese ovulutionsdefekt
+1,,IVF,t_ivf_register,b_i_tubafakt                      ,,,,1994 - 2005,,,,,,,Anamnese tubafaktor
+1,,IVF,t_ivf_register,b_i_cervfakt                      ,,,,1994 - 2005,,,,,,,Anamnese cervicovaginal uterin faktor
+1,,IVF,t_ivf_register,b_i_mandfakt                      ,,,,1994 - 2005,,,,,,,Anamnese mandlige faktor
+1,,IVF,t_ivf_register,b_i_anamandenfakt,,,,1994 - 2005,,,,,,,Anamnese andre aarsager
+1,,IVF,t_ivf_register,b_i_uspecfakt                     ,,,,1994 - 2005,,,,,,,Anamnese uforklaret uden specifikation
+1,,IVF,t_ivf_register,d_i_behdto                        ,,,,1994 - 2005,,,,,,,Dato for start af ICF og ICSI behandling
+1,,IVF,t_ivf_register,b_i_aspir                         ,,,,1994 - 2005,,,,,,,Er der foretaget aspiration
+1,,IVF,t_ivf_register,d_i_aspdto                        ,,,,1994 - 2005,,,,,,,Dato for aspiration
+1,,IVF,t_ivf_register,v_i_n_ocyt                        ,,,,1994 - 2005,,,,,,,Antal æg udtaget
+1,,IVF,t_ivf_register,b_i_donorsd                       ,,,,1994 - 2005,,,,,,,Er æg befrugtet md donorsæd
+1,,IVF,t_ivf_register,b_i_natcyk                        ,,,,1994 - 2005,,,,,,,Naturlig cyklus IVF og ICSI
+1,,IVF,t_ivf_register,b_i_klomifen                      ,,,,1994 - 2005,,,,,,,Er der anvendt klomifen IVF og ICSI
+1,,IVF,t_ivf_register,v_i_klomed                        ,,,,1994 - 2005,,,,,,,ATC for klomifen IVF og ICSI
+1,,IVF,t_ivf_register,b_i_hmg_fsh                       ,,,,1994 - 2005,,,,,,,Er der anvendt hMG/FSH IVF og ICSI
+1,,IVF,t_ivf_register,v_i_hmgfshmed                     ,,,,1994 - 2005,,,,,,,ATC for hMG/FSH IVF og ICSI
+1,,IVF,t_ivf_register,b_i_gnrh_a                        ,,,,1994 - 2005,,,,,,,Er der anvendt gnrh:a IVF og ICSI
+1,,IVF,t_ivf_register,v_i_gnrhmed                       ,,,,1994 - 2005,,,,,,,ATC for gnrh:a IVF og ICSI
+1,,IVF,t_ivf_register,b_i_oestro                        ,,,,1994 - 2005,,,,,,,ER der anvendt østrogen IVF og ICSI
+1,,IVF,t_ivf_register,v_i_oestmed                       ,,,,1994 - 2005,,,,,,,ATC for østrogen IVF og ICSI
+1,,IVF,t_ivf_register,b_i_progest                       ,,,,1994 - 2005,,,,,,,Er der anvendt progesteron IVF og ICSI
+1,,IVF,t_ivf_register,v_i_progmed                       ,,,,1994 - 2005,,,,,,,ATC for progesteron IVF og ICSI
+1,,IVF,t_ivf_register,b_i_hcg                           ,,,,1994 - 2005,,,,,,,Er der anvendt hCG IVF og ICSI
+1,,IVF,t_ivf_register,v_i_hcgmed                        ,,,,1994 - 2005,,,,,,,ATC for hCG IVF og ICSI
+1,,IVF,t_ivf_register,b_i_andhorm                       ,,,,1994 - 2005,,,,,,,Er der anvent andre hormoner IVF og ICSI
+1,,IVF,t_ivf_register,v_i_andhormed                     ,,,,1994 - 2005,,,,,,,ATC for andre anvendte hormoner IVF og ICSI
+1,,IVF,t_ivf_register,b_i_ivfmetod                      ,,,,1994 - 2005,,,,,,,Æg befrugtet med IVFmetode
+1,,IVF,t_ivf_register,b_i_icsimetod                     ,,,,1994 - 2005,,,,,,,Æg befrugtet med ICSI metode
+1,,IVF,t_ivf_register,b_i_transfer                      ,,,,1994 - 2005,,,,,,,Er der foretaget transferering
+1,,IVF,t_ivf_register,d_i_transdto                      ,,,,1994 - 2005,,,,,,,Dato for ægoplægning
+1,,IVF,t_ivf_register,v_i_ntransf                       ,,,,1994 - 2005,,,,,,,Antal friske æg transfereret
+1,,IVF,t_ivf_register,v_i_ncryo                         ,,,,1994 - 2005,,,,,,,Antal æg nedfrosset
+1,,IVF,t_ivf_register,d_i_mensdto                       ,,,,1994 - 2005,,,,,,,Dato for sidste menstruation
+1,,IVF,t_ivf_register,b_i_transopt                      ,,,,1994 - 2005,,,,,,,Er der foretaget ægoplægning af optøede æg
+1,,IVF,t_ivf_register,v_i_n_opt                         ,,,,1994 - 2005,,,,,,,Antal optøede æg transfereret
+1,,IVF,t_ivf_register,b_i_transudf                      ,,,,1994 - 2005,,,,,,,Er der foretaget oplægning af donoræg
+1,,IVF,t_ivf_register,d_i_modtdto                       ,,,,1994 - 2005,,,,,,,Dato for modtagelse af donoræg
+1,,IVF,t_ivf_register,v_i_ntrans                        ,,,,1994 - 2005,,,,,,,Antal donoræg transfereret
+1,,IVF,t_ivf_register,v_i_cryop                         ,,,,1994 - 2005,,,,,,,Antal donoræg nedfrosset
+1,,IVF,t_ivf_register,b_i_natcykl                       ,,,,1994 - 2005,,,,,,,Naturlig cyklus ED
+1,,IVF,t_ivf_register,b_i_hormoest                      ,,,,1994 - 2005,,,,,,,Er der anvendt østrogen ED
+1,,IVF,t_ivf_register,v_i_atcoest                       ,,,,1994 - 2005,,,,,,,ATC for østrogen ED
+1,,IVF,t_ivf_register,b_i_hormpro                       ,,,,1994 - 2005,,,,,,,Er der anvendt progesteron ED
+1,,IVF,t_ivf_register,v_i_atcprog                       ,,,,1994 - 2005,,,,,,,ATC for progesteron ED
+1,,IVF,t_ivf_register,b_i_hormgnrh                      ,,,,1994 - 2005,,,,,,,Er der anvendt gnrh_a ED
+1,,IVF,t_ivf_register,v_i_atcgnrh                       ,,,,1994 - 2005,,,,,,,ATC for gnrh_A ED
+1,,IVF,t_ivf_register,b_i_hormand                       ,,,,1994 - 2005,,,,,,,Er der anvendt andre hormoner ED
+1,,IVF,t_ivf_register,v_i_atcand                        ,,,,1994 - 2005,,,,,,,ATC for andre hormoner ED
+1,,IVF,t_ivf_register,b_i_shcgpos                       ,,,,1994 - 2005,,,,,,,Er graviditet S_hCG positiv?
+1,,IVF,t_ivf_register,b_i_overstim                      ,,,,1994 - 2005,,,,,,,Har kvinden været indlagt med overstimulation
+1,,IVF,t_ivf_register,b_i_infektio                      ,,,,1994 - 2005,,,,,,,Har kvinden været indlagt med infektion
+1,,IVF,t_ivf_register,v_i_cyklaar                       ,,,,1994 - 2005,,,,,,,År for IVF-behandling - alle behandlingsmetoder
+1,,IVF,t_ivf_register,v_i_malder                        ,,,,1994 - 2005,,,,,,,Kvindens alder ved start på aktuelt behandlingsforløb
+1,,IVF,t_ivf_register,v_i_anamnes                       ,,,,1994 - 2005,,,,,,,Antal årsager til anames
+1,,IVF,t_ivf_register,b_i_uoplfakt                      ,,,,1994 - 2005,,,,,,,Anden eller uoplyst aarsag til anamnese
+1,,IVF,t_ivf_register,c_f_bstatus                       ,,,,1994 - 2005,,,,,,,"Fødselsstatus - Singleton, tvilling eller trilling"
+1,,IVF,t_ivf_register,v_f_blangde                       ,,,,1994 - 2005,,,,,,,Barnets længde i cm
+1,,IVF,t_ivf_register,v_f_bcpr                          ,,,,1994 - 2005,,,,,,,Barnets CPR nr
+1,,IVF,t_ivf_register,v_f_fcpr                          ,,,,1994 - 2005,,,,,,,Faderes CPR nr
+1,,IVF,t_ivf_register,v_f_malder                        ,,,,1994 - 2005,,,,,,,Mors alder ved fødsel
+1,,IVF,t_ivf_register,d_f_bfoddto                       ,,,,1994 - 2005,,,,,,,Barnets fødselsdato
+1,,IVF,t_ivf_register,v_f_bvagt                         ,,,,1994 - 2005,,,,,,,Barnets fødselsvægt i gram
+1,,IVF,t_ivf_register,c_f_msgh                          ,,,,1994 - 2005,,,,,,,Sygehus ved fødselsen
+1,,IVF,t_ivf_register,v_f_bapgar                        ,,,,1994 - 2005,,,,,,,Barnets apgar score efter 5 minutter
+1,,IVF,t_ivf_register,c_f_bsex                          ,,,,1994 - 2005,,,,,,,Barnets køn
+1,,IVF,t_ivf_register,v_f_mparitet                      ,,,,1994 - 2005,,,,,,,Paritet
+1,,IVF,t_ivf_register,v_f_bflerfold                     ,,,,1994 - 2005,,,,,,,Antal børn i fødslen
+1,,IVF,t_ivf_register,v_f_bga_dage                      ,,,,1994 - 2005,,,,,,,Svangerskabslængde i dage
+1,,IVF,t_ivf_register,c_f_bfodstatus                    ,,,,1994 - 2005,,,,,,,Fødselsstatus - levende født eller dødfødt
+1,,IVF,t_ivf_register,v_f_bfodaar                       ,,,,1994 - 2005,,,,,,,Barnets fødselseår
+1,,IVF,t_ivf_register,v_i_fga_dage                      ,,,,1994 - 2005,,,,,,,Antal dage fra befrugtning til fødsel
+1,,IVF,t_ivf_register,c_a_mdiag                         ,,,,1994 - 2005,,,,,,,Diagnose for abort
+1,,IVF,t_ivf_register,c_a_mtildiag                      ,,,,1994 - 2005,,,,,,,Tillægsdiagnose for abort
+1,,IVF,t_ivf_register,c_a_msgh                          ,,,,1994 - 2005,,,,,,,Sygehus for abort
+1,,IVF,t_ivf_register,d_a_minddto                       ,,,,1994 - 2005,,,,,,,Indlæggelsesdato for abort
+1,,IVF,t_ivf_register,d_a_muddto                        ,,,,1994 - 2005,,,,,,,Udskrivningsdato for abort
+1,,IVF,t_ivf_register,v_a_mabortaar                     ,,,,1994 - 2005,,,,,,,År for abort
+1,,IVF,t_ivf_register,v_a_mga_dage                      ,,,,1994 - 2005,,,,,,,Svangerskabslængde ved abort angivet i dage - fuldendte uger
+1,,IVF,t_ivf_register,c_a_maborttype                    ,,,,1994 - 2005,,,,,,,"Aborttype . provokeret, spontan eller abnorm"
+1,,IVF,t_ivf_register,c_a_mgravtype                     ,,,,1994 - 2005,,,,,,,"Biokemisk, extrauterin, mola, heterotorp"
+1,,IVF,t_ivf_register,v_i_aga_dage                      ,,,,1994 - 2005,,,,,,,Antal dage fra befrugtning til abort
+1,,IVF,t_ivf_register,b_i_klingrav,,,,1994 - 2005,,,,,,,Klinisk graviditet
+1,,IVF,t_ivf_register,v_a_malder                        ,,,,1994 - 2005,,,,,,,Moderens alder på tidspunkt for abort
+1,,IVF,t_ivf_register,b_i_aegudt                        ,,,,1994 - 2005,,,,,,,Er der foretaget ægudtagning?
+1,,IVF,t_ivf_register,b_i_aegopl  ,,,,1994 - 2005,,,,,,,Er der foretaget ægoplægning?
+1,,IVF,t_grund,v_skemaid,,,,2006 - 2021,,,,,,,Skemaidentifikationsnummer
+1,,IVF,t_grund,d_skemaoprettet_dato,,,,2006 - 2021,,,,,,,Dato for oprettelses af skemaet i indberetningssystemet
+1,,IVF,t_grund,d_startdato,,,,2006 - 2021,,,,,,,Dato for påbegyndt stimulations-/substitutionsbehandling eller 1. menstruationsdag **
+1,,IVF,t_grund,v_aar,,,,2006 - 2021,,,,,,,Året for påbegyndt stimulations-/substitutionsbehandling eller 1. menstruationsdag
+1,,IVF,t_grund,c_sgh,,,,2006 - 2021,,,,,,,Sygehuskode hvor behandling har fundet sted - er udfyldt hvis ydernr ikke er udfyldt
+1,,IVF,t_grund,c_afd,,,,2006 - 2021,,,,,,,Afdelingskode hvor behandling har fundet sted - er udfyldt hvis sgh er udfyldt
+1,,IVF,t_grund,c_ydernr,,,,2006 - 2021,,,,,,,Ydernummer hvor behandling har fundet sted - er udfyldt hvis sgh og afd ikke er udfyldt
+1,,IVF,t_grund,v_sghnavn,,,,2006 - 2021,,,,,,,Sygehusets navn ved på opdateringsdatoen for registeret
+1,,IVF,t_grund,v_cpr,,,,2006 - 2021,,,,,,,IVF kvindens cprnummer
+1,,IVF,t_grund,v_alder,,,,2006 - 2021,,,,,,,IVF kvindens alder ved behandlingsstartdato
+1,,IVF,t_grund,c_kom,,,,2006 - 2021,,,,,,,IVF kvindens bopælskommune
+1,,IVF,t_grund,v_hoejde,,,,2006 - 2021,,,,,,,IVF kvindens højde i cm
+1,,IVF,t_grund,v_vaegt,,,,2006 - 2021,,,,,,,IVF kvindens vægt i kg
+1,,IVF,t_grund,v_rygning,,,,2006 - 2021,,,,,,,IVF kvindens rygning i antal pr. dag (tom betyder uoplyst)
+1,,IVF,t_grund,v_alkohol,,,,2006 - 2021,,,,,,,IVF kvindens alkoholindtag i antal genstande pr. uge (tom betyder uoplyst)
+1,,IVF,t_grund,v_samlivs_status,,,,2006 - 2021,,,,,,,Kvindens samlivsstatus
+1,,IVF,t_grund,v_partner_cpr,,,,2006 - 2021,,,,,,,Partnerens cprnummer (også lesbisk partner)
+1,,IVF,t_grund,v_partner_alder,,,,2006 - 2021,,,,,,,IVF kvindens alder ved behandlingsstartdato
+1,,IVF,t_grund,v_partner_hoejde,,,,2006 - 2021,,,,,,,Partnerens højde i cm
+1,,IVF,t_grund,v_partner_vaegt,,,,2006 - 2021,,,,,,,Partnerens vægt i kg
+1,,IVF,t_grund,v_partner_rygning,,,,2006 - 2021,,,,,,,Partnerens rygning i antal pr. dag
+1,,IVF,t_grund,v_partner_alkohol,,,,2006 - 2021,,,,,,,Partnerens alkoholindtag i antal genstande pr. uge (tom betyder uoplyst)
+1,,IVF,t_grund,v_barnloes_siden,,,,2006 - 2021,,,,,,,Året for hvornår parret har været ufrivillig barnløs siden (Angives ikke for enlige og lesbiske)
+1,,IVF,t_grund,b_idiopatisk,,,,2006 - 2021,,,,,,,"Idiopatisk, ingen medicinsk årsag til manglende graviditet"
+1,,IVF,t_grund,c_kvinde_primaer,,,,2006 - 2021,,,,,,,Diagnose for primær årsag til kvindens infertilitet
+1,,IVF,t_grund,c_kvinde_tillaeg,,,,2006 - 2021,,,,,,,Sekundær diagnose eller tillægsdiagnose til den primære årsag til kvindens infertilitet
+1,,IVF,t_grund,c_mand_primaer,,,,2006 - 2021,,,,,,,Diagnose for primær årsag til partners infertilitet
+1,,IVF,t_grund,c_mand_tillaeg,,,,2006 - 2021,,,,,,,Sekundær diagnose eller tillægsdiagnose til den primære årsag til partners infertilitet
+1,,IVF,t_grund,c_pgd_diagnose,,,,2006 - 2021,,,,,,,ICD10 koden for familieamnese med den tilgrundliggende sygdom
+1,,IVF,t_grund,b_pgd_specifik_vaevstype,,,,2006 - 2021,,,,,,,Specifik vævstype
+1,,IVF,t_grund,c_pgd_indikation,,,,2006 - 2021,,,,,,,Angivelse af hvilken lov om kunstig befrugtning behandlinge udføres efter
+1,,IVF,t_grund,c_behandling,,,,2006 - 2021,,,,,,,Hvilken type behandling kvinden har fået
+1,,IVF,t_grund,b_behandling_afbrudt,,,,2006 - 2021,,,,,,,Behandlingen er afbrudt
+1,,IVF,t_grund,c_fertilisering,,,,2006 - 2021,,,,,,,Hvilken sædtype der er anvendt til fertiliseringen (*findes ikke for alle behandlinger før version 1.11)
+1,,IVF,t_grund,c_in_vitro_metode,,,,2006 - 2021,,,,,,,Hvilken metode ved in vitro befrugtnig af ægget er anvendt 
+1,,IVF,t_grund,d_iui_dato,,,,2006 - 2021,,,,,,,Dato for insiminationsbehandlingen 
+1,,IVF,t_grund,d_iui_aflyst_dato,,,,2006 - 2021,,,,,,,Dato for aflysning af behandling
+1,,IVF,t_grund,c_fer_nedfrys_metode,,,,2006 - 2021,,,,,,,Nedfrysningsmetode anvendt til IVF/ICSI behandling med optøede embryoner (FER)
+1,,IVF,t_grund,c_oocyt_kilde,,,,2006 - 2021,,,,,,,Kilde til oocytten
+1,,IVF,t_grund,c_oocyt_type,,,,2006 - 2021,,,,,,,Hvilken type oocytter der er anvendt samt nedfrydningsmetode
+1,,IVF,t_grund,b_distribution,,,,2006 - 2021,,,,,,,Har der foregået distribution af væv
+1,,IVF,t_grund,d_aspiration_dato,,,,2006 - 2021,,,,,,,Dato for aspiration
+1,,IVF,t_grund,d_aspiration_aflyst_dato,,,,2006 - 2021,,,,,,,Dato for aflysning af aspiration
+1,,IVF,t_grund,c_aspiration,,,,2006 - 2021,,,,,,,ICD10 kode for aspirationstype
+1,,IVF,t_grund,v_aspiration_antal_oocytter,,,,2006 - 2021,,,,,,,Antal aspirerede oocytter
+1,,IVF,t_grund,d_transferering_dato,,,,2006 - 2021,,,,,,,Dato for transferering
+1,,IVF,t_grund,d_transferering_aflyst_dato,,,,2006 - 2021,,,,,,,Dato for aflysning af transferering
+1,,IVF,t_grund,v_antal_friske,,,,2006 - 2021,,,,,,,Antal friske embryoner transfereret
+1,,IVF,t_grund,v_elektivt,,,,2006 - 2021,,,,,,,Angiver om valget har været elektivt eller non-elektivt
+1,,IVF,t_grund,v_antal_optoede,,,,2006 - 2021,,,,,,,Antal optøde embryoner transfereret
+1,,IVF,t_grund,v_overskydende_embryoner,,,,2006 - 2021,,,,,,,Angivelse af om der er overskydende embryoner
+1,,IVF,t_grund,v_antal_slowfreeze,,,,2006 - 2021,,,,,,,Antal embryoner cryopreserveret ved slow-freeze
+1,,IVF,t_grund,v_antal_vitrifikation,,,,2006 - 2021,,,,,,,Antal embryoner ved vitrifikation
+1,,IVF,t_grund,v_antal_nedfrosset,,,,2006 - 2021,,,,,,,Antal embryoner nedfrosset
+1,,IVF,t_grund,b_assisted_hatching,,,,2006 - 2021,,,,,,,Angiver om der er udført assisted hatching
+1,,IVF,t_grund,c_komplikation_diagnose,,,,2006 - 2021,,,,,,,ICD10 koden for komplikationsdiagnosen
+1,,IVF,t_grund,d_komplikation_dato,,,,2006 - 2021,,,,,,,Dato for komplikationsdiagnosen
+1,,IVF,t_grund,v_proeve_type,,,,2006 - 2021,,,,,,,Om der er udført graviditetstest og hvilken type test
+1,,IVF,t_grund,v_gravid,,,,2006 - 2021,,,,,,,Om kvinden er blevet gravid
+1,,IVF,t_grund,v_ultralyd_resultat,,,,2006 - 2021,,,,,,,Resultat af ultralydbehandling
+1,,IVF,t_grund,v_antal_hjertelyd,,,,2006 - 2021,,,,,,,Antal gestationssække med hjertelyd
+1,,IVF,t_grund,v_antal_uden_hjertelyd,,,,2006 - 2021,,,,,,,Antal gestationssække uden hjertelyd
