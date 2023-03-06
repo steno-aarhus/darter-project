@@ -15,3 +15,90 @@ author:
         - name: Steno Diabetes Center Aarhus
         - name: Aarhus University
 ---
+
+The sidebar contains the applications sent to each of the different. If
+you want to browse all the variables and registers we've requested, use
+the table below.
+
+```{r setup}
+#| message: false
+#| warning: false
+#| echo: false
+#| column: page
+#| tbl-cap: "Registers and variables requested from DST."
+library(tidyverse)
+library(here)
+library(glue)
+library(reactable)
+source(here("R/functions.R"))
+needed_registers <- here("data/needed-registers.csv") %>%
+  read_csv(col_types = "lddccccc") %>%
+  filter(!drop | is.na(drop))
+
+dst_variables <- read_csv(here("data/dst-registers-with-variables-to-use.csv"))
+dst_variables <- dst_variables %>%
+  filter(
+    use_in_application == 1,
+    register_id %in% unique(needed_registers$register_id)
+  ) %>%
+  mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>%
+  mutate(
+    start_year = case_when(
+      is.na(variable_start_year) |
+        variable_start_year == variable_end_year ~
+        register_start_year,
+      TRUE ~ variable_start_year
+    ),
+    year_range = glue::glue("{start_year} - {variable_end_year}")
+  ) %>%
+  mutate(across(ends_with("year"), as.numeric))
+
+sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv"))
+sds_variables <- sds_variables %>%
+  filter(use_in_application == 1) %>%
+  mutate(periode = str_replace(periode, "\\s?-\\s?$", "-Latest")) %>%
+  mutate(
+    start_year = str_extract(periode, "^\\d{4}"),
+    end_year = str_extract(periode, "-\\d{4}$")
+  ) %>%
+  mutate(across(ends_with("year"), as.numeric))
+
+random_registers <- read_csv(here("data/random-undocumented.csv")) %>%
+  mutate(
+    start_year = if_else(is.na(start_year), "Earliest", as.character(start_year)),
+    year_range = glue::glue("{start_year} - {end_year}")
+  ) %>%
+  mutate(across(ends_with("year"), as.numeric))
+
+list(
+  dst_variables %>%
+    select(
+      "Register ID" = register_id,
+      "Register" = register_name_dk,
+      "Variable" = variable_name,
+      "Start year" = variable_start_year,
+      "End year" = variable_end_year,
+      "Description" = description_english,
+    ),
+  sds_variables %>%
+    select(
+      "Register" = register_name,
+      "Database Table" = table_name,
+      "Variable" = variable_name,
+      "Start year" = start_year,
+      "End year" = end_year,
+      "Description" = variable_description
+    ),
+  random_registers %>%
+    select(
+      "Register" = register_name,
+      "Database Table" = register_table_name,
+      "Variable" = variable_name,
+      "Start year" = start_year,
+      "End year" = end_year,
+      "Description" = variable_description_dk
+    )
+) %>%
+  reduce(bind_rows) %>%
+  as_reactable()
+```
