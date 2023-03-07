@@ -2,58 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/index.html</loc>
-    <lastmod>2023-02-28T10:38:03.613Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/dst/instructions.html</loc>
-    <lastmod>2023-02-28T10:38:03.801Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/dst/description.html</loc>
-    <lastmod>2023-02-28T10:38:06.069Z</lastmod>
+    <lastmod>2023-03-07T11:07:34.169Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/dst/appendix.html</loc>
-    <lastmod>2023-02-28T10:38:07.885Z</lastmod>
+    <lastmod>2023-03-07T11:07:37.965Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/dst/description.html</loc>
+    <lastmod>2023-03-07T11:07:41.765Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/dst/instructions.html</loc>
+    <lastmod>2023-03-07T11:07:42.093Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/dst/review-responses.html</loc>
-    <lastmod>2023-02-28T10:38:08.077Z</lastmod>
+    <lastmod>2023-03-07T11:07:42.421Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/rkkp/application.html</loc>
-    <lastmod>2023-02-28T10:38:08.309Z</lastmod>
+    <lastmod>2023-03-07T11:07:42.841Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/rm/registration.html</loc>
-    <lastmod>2023-02-28T10:38:09.709Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/application.html</loc>
-    <lastmod>2023-02-28T10:38:11.313Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/description.html</loc>
-    <lastmod>2023-02-28T10:38:11.901Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/extraction.html</loc>
-    <lastmod>2023-02-28T10:38:13.493Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/review/comments.html</loc>
-    <lastmod>2023-02-28T10:38:13.717Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/review/additional-requests.html</loc>
-    <lastmod>2023-02-28T10:38:14.257Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/atc-codes.html</loc>
-    <lastmod>2023-02-28T10:38:16.705Z</lastmod>
+    <lastmod>2023-03-07T11:07:45.213Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/sds/instructions.html</loc>
-    <lastmod>2023-02-28T10:38:17.345Z</lastmod>
+    <lastmod>2023-03-07T11:07:46.413Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/application.html</loc>
+    <lastmod>2023-03-07T11:07:48.917Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/extraction.html</loc>
+    <lastmod>2023-03-07T11:07:51.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/description.html</loc>
+    <lastmod>2023-03-07T11:07:52.669Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/atc-codes.html</loc>
+    <lastmod>2023-03-07T11:07:56.217Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/review/additional-requests.html</loc>
+    <lastmod>2023-03-07T11:07:57.197Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/review/comments.html</loc>
+    <lastmod>2023-03-07T11:07:58.413Z</lastmod>
   </url>
 </urlset>
