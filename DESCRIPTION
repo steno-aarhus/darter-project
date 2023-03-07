@@ -19,6 +19,7 @@ Imports:
     dplyr,
     tidyr,
     stringr,
-    reactable
+    reactable,
+    flextable
 Depends: 
     tidyverse
