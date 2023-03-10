@@ -31,7 +31,6 @@ library(here)
 library(glue)
 sds_variables <- read_csv(here("data/sds-registers-with-variables-to-use.csv"))
 sds_variables <- sds_variables %>% 
-    filter(use_in_application == 1) %>% 
     mutate(start_year = as.numeric(str_extract(periode, "^\\d{4}"))) %>% 
     select(register_name, table_name, variable_name, start_year)
 

@@ -102,23 +102,26 @@ this area. Key requirements are:
 
 -   Landsdækkende data (national)
 
-#### angiv hvilke indberettende enheder/regioner der ønskes
+#### Angiv hvilke indberettende enheder/regioner der ønskes
 
 <!-- (Text box) -->
 
-All regions?
+All regions
 
 #### Evt. yderligere specificering/afgrænsning af populationen
 
 <!-- (Text box) -->
 
-NA?
+NA
 
 ### Hvilke udfald/end-points ønskes der data på?
 
 <!-- (Text box) -->
 
-?
+Ultimately we wish to identify persons with incident and prevalent type
+2 diabetes, which will be done by specific algorithms including the
+specific variables listed below combined with other register based data
+from Danish health registers hosted at Statistics Denmark.
 
 ### Hvilke specifikke variable ansøges der om adgang til -- ansøgning skal inkludere afkrydset variabelliste for hver enkel database?
 
@@ -209,3 +212,4 @@ paraplyanmeldelse)
 ## Er der vedlagt protokol inkl. budget?
 
 ?
+

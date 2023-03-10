@@ -22,8 +22,7 @@ needed_registers <- here("data/needed-registers.csv") %>%
 
 ### Projektets titel
 
-Metabolic consequences of Early Life adversity and subsequent risk for
-type 2 Diabetes (MELD) Project
+{{< var project.title >}}
 
 ### Projektets formål
 
@@ -88,8 +87,7 @@ Hulman, or Else-Marie Dalsgaard.
 
 ### Projektets titel
 
-Interplay between diabetes and intergenerational transmission of health
-determinants over the life course
+{{< var project.title >}}
 
 ### Projektets formål
 

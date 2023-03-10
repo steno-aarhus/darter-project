@@ -55,7 +55,7 @@ library(here)
 source(here("R/functions.R"))
 
 dst_variables <- read_csv(here("data/dst-registers-with-variables-to-use.csv")) %>%
-  filter(use_in_application == 1, register_name_dk == "Lægemiddeldatabasen") %>%
+  filter(register_name_dk == "Lægemiddeldatabasen") %>%
   mutate(across(ends_with("year"), str_extract, pattern = "^\\d{4}")) %>%
   mutate(
     start_year = case_when(
@@ -73,7 +73,6 @@ sds_variables <-
     show_col_types = FALSE
   ) %>%
   filter(
-    use_in_application == 1,
     register_name %in% c(
       "Cancerregisteret",
       "IVF",
