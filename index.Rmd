@@ -20,12 +20,14 @@ The sidebar contains the applications sent to each of the different. If
 you want to browse all the variables and registers we've requested, use
 the table below.
 
+## Searchable table
+
 ```{r setup}
 #| message: false
 #| warning: false
 #| echo: false
 #| column: page
-#| tbl-cap: "Registers and variables requested from DST."
+#| tbl-cap: "Registers and variables requested from DST (as a searchable table)."
 library(tidyverse)
 library(here)
 library(glue)
@@ -68,7 +70,7 @@ random_registers <- read_csv(here("data/random-undocumented.csv")) %>%
   ) %>%
   mutate(across(ends_with("year"), as.numeric))
 
-list(
+joined_registers <- list(
   dst_variables %>%
     select(
       "Register ID" = register_id,
@@ -97,6 +99,21 @@ list(
       "Description" = variable_description_dk
     )
 ) %>%
-  reduce(bind_rows) %>%
+  reduce(bind_rows) 
+
+joined_registers %>%
   as_reactable()
+```
+
+## Full variable list
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: false
+#| column: page
+#| tbl-cap: "Registers and variables requested from DST (fully displayed list)."
+options(knitr.kable.NA = "")
+joined_registers %>% 
+  knitr::kable()
 ```
