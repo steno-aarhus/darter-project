@@ -1,5 +1,9 @@
 # Ansøgning
 
+::: callout-note
+This application must be submitted for each register we are requesting.
+:::
+
 ## Projekttitel
 
 <!-- (Text box)  -->
@@ -61,30 +65,15 @@ Andet
 datakilde på tilladelsen til forskningsprojektet.
 :::
 
-<!-- (Selection) -->
+-   Den landsdækkende klinisk kvalitetsdatabase for screening af
+    diabetisk retinopati og maculopati (Diabase)
+-   Dansk Voksen Diabetes Databasen (DVDD)
 
 ### Studiepopulation
 
 ::: content-hidden
 **Instructions**: Beskriv den studiepopulation, der ønskes data på:
 :::
-
-In order to identify familial relations through individuals' life course
-trajectory, the population requested covers all individuals, who were
-alive in Denmark from 1 January 1970 to 31 December 2022. The family
-linkage and structure makes the construction of the population
-complicated and we will do this ourselves. For that we need the entire
-population because we need data on not just the individual, but also the
-family (parents and siblings). To characterise early life and early
-childhood conditions of an individual person, we need data on their
-parents. Likewise, to understand the role that the family network,
-including siblings and grandparents, has on diabetes risk, we need a
-large enough population to make these linkages and to adequately study
-this area. Key requirements are:
-
--   All index individuals born or who migrated into Denmark.
--   All family members of the index individuals, including parents,
-    siblings, spouses, and children.
 
 #### Angiv tidsperiode for det ønskede dataudtræk
 
@@ -94,7 +83,7 @@ this area. Key requirements are:
 
 #### Hvis muligt, angiv en datovariabel for ovenstående tidsperiode
 
-(Optional text box)
+<!-- (Optional text box) -->
 
 #### Hvilke indberettende enheder/afdelinger
 
@@ -142,14 +131,16 @@ researchers at Steno Diabetes Center.
 
 ## Søges adgang til cpr-nr
 
-(hvis afkrydsning af nej, vil blive givet adgang til krypteret cpr-nr --
-data kan trods dette være personhenførbart, og angivelse af nej medfører
-dermed ikke bortfald af krav om, at projektet er relevant godkendt af
-Datatilsynet/videnskabsetisk komite)
+::: content-hidden
+**Instructions**: Hvis afkrydsning af nej, vil blive givet adgang til
+krypteret cpr-nr -- data kan trods dette være personhenførbart, og
+angivelse af nej medfører dermed ikke bortfald af krav om, at projektet
+er relevant godkendt af Datatilsynet/videnskabsetisk komite.
 
-<!-- (Selection) -->
+(Selection)
+:::
 
-Ja
+-   Ja
 
 ### Angiv årsag til ansøgning af oplysning om cpr-nr.
 
@@ -171,11 +162,17 @@ CSV
 
 ### E-mail
 
-Der sendes kun til systemer, der tillader modtagelse af krypteret post
+::: content-hidden
+**Instructions**: Der sendes kun til systemer, der tillader modtagelse
+af krypteret post.
 
 (Text box)
+:::
 
 ### Angiv fysisk adresse
+
+Aarhus Universitetshospital, Palle Juul-Jensens Boulevard 11, Indgang A,
+8200 Aarhus N
 
 ## Hvordan er forskningsprojektet registreret?:
 
@@ -186,30 +183,36 @@ paraplyanmeldelse)
 
 -   **Dataansvarlig myndighed**:
 
-    -   Annelli Sandbæk, Enhedschef, Steno Diabetes Center Aarhus
+    -   Region Midtjylland
 
 -   **Fortegnelsens journalnummer (Paraplyens journalnummer)**: Ikke
     alle organisationer har særskilte journalnummer for fortegnelsen --
     hvis du kun har kendskab til ét journalnummer, anføres det i begge
     felter.
 
-    -   780859
+    -   Sagsnr.: 1-16-02-238-22
 
 -   **Projekts interne journalnummer**: Ikke alle organisationer har
     særskilte journalnummer for fortegnelsen -- hvis du kun har kendskab
     til ét journalnummer, anføres det i begge felter.
 
-    -   780859
+    -   Sagsnr.: 1-16-02-238-22
 
--   **Upload dokumentation her**: (Select file)
+-   **Upload dokumentation her**: (Select file, found in Drive)
 
 ## Er ansøger identisk med projektansvarlig for projektet registreret under en myndigheds fortegnelse?
+
+-   Ja
 
 ## Er projektet fuldt finansieret?
 
 -   Ja
 
+### Beskriv evt. finansieringen
+
+-   Covered by operating costs from the Tværs section at Steno Diabetes
+    Center Aarhus.
+
 ## Er der vedlagt protokol inkl. budget?
 
-?
-
+-   Used project contract file with DST (in Drive).
