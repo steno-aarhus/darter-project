@@ -1,0 +1,99 @@
+---
+format: 
+  pdf:
+    papersize: a4
+    classoption: onecolumn
+    fontsize: 12pt
+    geometry:
+      - top=30mm
+      - bottom=30mm
+      - left=30mm
+      - right=30mm
+---
+
+# Protocol for variables from DVDD
+
+The overall aim of this project is to identify the contributions of
+family and early life determinants on the development, management and
+care of diabetes and the diseases that may arise following a diabetes
+diagnosis, under a life-course framework. The justification for
+requesting data on multiple disease areas directly follows the primary
+aim of this project. We investigate this aim focusing on diabetes as the
+central disease of interest. Diabetes consists of different subtypes
+(Type 1, Type 2, LADA, MODY, gestational diabetes, secondary diabetes,
+rare monogenic forms) each with a different set of risk factors,
+presentation and pathophysiological characteristics. The familial and
+social effects that are the subject of this project are likely to be
+different for each of these diabetes subtypes. E.g. for some types of
+diabetes, caused predominantly by auto-immune mechanisms, familial
+associations to other auto-immune diseases are more likely than for type
+2 diabetes, which is driven to a strong degree by obesity, low physical
+activity and insulin resistance.
+
+All forms of diabetes have an increased blood glucose level as their
+central hallmark, and are associated with major and minor complications.
+The vascular complications are generally subdivided into large-vessel
+disease (macrovascular like myocardial infarction, stroke, peripheral
+vascular disease) and small-vessel disease. The occurrence of these
+complications is not dependent solely on the elevated glucose levels,
+but also on disturbance of other metabolic risk factors, familial
+predisposition and pre-existing conditions. Beyond these classical
+complications, increasingly links between diabetes and other
+complications are being recognised: depression, cancer, loss of
+cognitive function, skin conditions.
+
+An important feature of diabetes is that it can be undetected for
+several years, and that the diabetic complications can sometimes be the
+first presentation of the disease. In order to study the occurrence of
+diabetic complications in the context of family we need to assess the
+complication status for all traditional and novel diabetic complication.
+
+Adequate treatment of diabetes depends on long-term engagement and
+motivation of the patient for self-management of different aspects of
+the disease. The capacity to respond adequately to this challenge
+depends to a large degree on socio-economic status, including the degree
+of social support in the direct environment surrounding the patient.
+These effects occur in interaction with other chronic conditions,
+including mental health conditions.
+
+The justification for the requested list of variables falls into four
+categories:
+
+1.  Diagnosis of diabetes itself, in all its forms and subtypes.
+2.  Conditions that are an established cause of diabetes, and diseases
+    which have an emerging association with diabetes, which we wish to
+    investigate
+3.  Major and minor complications and other consequences / signs of
+    diabetes
+4.  Conditions needed to adjust our analyses for the simultaneous
+    occurrence of other chronic health problems (co-morbidity)
+5.  Metabolic biomarker variables used for additional analyses and
+    adjustments.
+
+Cardiovascular disease is the most common cause of death and disability
+among people with diabetes. The cardiovascular diseases that accompany
+diabetes include angina, myocardial infarction (heart attack), stroke,
+peripheral artery disease and congestive heart failure. High blood
+pressure, high cholesterol, high blood glucose and other risk factors
+contribute to the increased risk of cardiovascular complications.
+
+Since we will be studying associations of various exposures (for
+instance, family environment while growing up) on the risk for
+developing diabetes, we need to identify who develops diabetes in the
+Danish registers. We use algorithms developed within Steno for
+classifying individuals with diabetes (e.g. see
+http://bendixcarstensen.com/DMreg/DMreg2018.pdf). These algorithms need
+specific variables from DVDD.
+
+We also want to study what exposures (for instance, whether other family
+members have diabetes) increase the risk of developing complications
+(like cardiovascular disease) for those who already have diabetes. We
+rely on the work of colleagues to determine which variables they used to
+classify these complications or which metabolic variables to include,
+which we have requested. DVDD is one of a few sources of metabolic
+variables in the registers when studying diabetes.
+
+## Budget
+
+The cost of the application to access data from the registers as well as
+any associated costs is covered by Steno Diabetes Center Aarhus.
