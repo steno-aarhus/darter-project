@@ -1,5 +1,6 @@
 ---
 format: 
+  html: default
   pdf:
     papersize: a4
     classoption: onecolumn
