@@ -1,0 +1,14 @@
+{
+  "hash": "3b6272e99f3a66f7e0adab931c6dfe00",
+  "result": {
+    "markdown": "---\nexecute:\n  eval: false\n---\n\n\n# Instructions for documents to provide to SDS\n\n## Project description\n\n\n::: {.cell}\n\n:::\n\n\nNår du søger om adgang til data via Forskerservice, skal du vedhæfte en\nprojektbeskrivelse til ansøgningen. Vi skal i Forskerservice bruge\nprojektbeskrivelsen til at vurdere, om dine ønsker om data svarer til\nprojektets problemstilling og metode. Ligeledes skal vi vurdere den\nsamfundsmæssige rele- vans af projektet. Begge dele for at vi kan\noverholde databeskyttelsesforordningen. Derfor vil en præcis\nprojektbeskrivelse hjælpe os til at give dig en bedre rådgivning i\nforbindelse med din ansøgning. Projektbeskrivelsen skal indeholde\nfølgende: Introduktion Kort indføring i området. Formål Projektets\nformål kort formuleret. Projektets problemstilling Gerne formuleret som\ndet eller de konkrete spørgsmål, som konklusionen skal svare på. Data og\nMetode Hvordan vil projektet svare på problemstillingen? Hvilke data vil\nman anvende? Hvordan skal data bruges? Offentliggørelse af resultater\nHvordan og hvornår planlægges forskningens resultater offentliggjort?\nPerspektivering Hvilken viden af samfundsmæssig relevans kan denne\nundersøgelse bidrage til? Etiske overvejelser Hvis projektet indebærer\ndirekte kontakt med borgere, for eksempel spørgeskemaunder- søgelser\neller interventionsstudier: Hvilke etiske overvejelser er der gjort i\nforbindelse med direkte inddragelse af borgere i undersøgelsen?\n\n## Extraction description\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
