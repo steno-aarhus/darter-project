@@ -2,58 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/index.html</loc>
-    <lastmod>2023-03-18T15:35:02.734Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/dst/review-responses.html</loc>
-    <lastmod>2023-03-18T15:35:03.410Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/dst/description.html</loc>
-    <lastmod>2023-03-18T15:35:07.718Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/dst/instructions.html</loc>
-    <lastmod>2023-03-18T15:35:08.038Z</lastmod>
+    <lastmod>2023-05-16T17:33:13.729Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/dst/appendix.html</loc>
-    <lastmod>2023-03-18T15:35:11.266Z</lastmod>
+    <lastmod>2023-05-16T17:33:14.817Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/dst/instructions.html</loc>
+    <lastmod>2023-05-16T17:33:15.141Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/dst/description.html</loc>
+    <lastmod>2023-05-16T17:33:15.825Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/dst/review-responses.html</loc>
+    <lastmod>2023-05-16T17:33:16.161Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/rkkp/protocol-dvdd.html</loc>
+    <lastmod>2023-05-16T17:33:20.145Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/rkkp/application.html</loc>
-    <lastmod>2023-03-18T15:35:11.638Z</lastmod>
+    <lastmod>2023-05-16T17:33:20.593Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/rkkp/protocol-diabase.html</loc>
+    <lastmod>2023-05-16T17:33:25.025Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/rm/registration.html</loc>
-    <lastmod>2023-03-18T15:35:13.918Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/atc-codes.html</loc>
-    <lastmod>2023-03-18T15:35:17.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/description.html</loc>
-    <lastmod>2023-03-18T15:35:18.370Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/instructions.html</loc>
-    <lastmod>2023-03-18T15:35:19.506Z</lastmod>
-  </url>
-  <url>
-    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/extraction.html</loc>
-    <lastmod>2023-03-18T15:35:22.286Z</lastmod>
+    <lastmod>2023-05-16T17:33:25.629Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/sds/review/comments.html</loc>
-    <lastmod>2023-03-18T15:35:23.502Z</lastmod>
+    <lastmod>2023-05-16T17:33:26.345Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/sds/review/additional-requests.html</loc>
-    <lastmod>2023-03-18T15:35:24.506Z</lastmod>
+    <lastmod>2023-05-16T17:33:26.873Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/atc-codes.html</loc>
+    <lastmod>2023-05-16T17:33:27.357Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/instructions.html</loc>
+    <lastmod>2023-05-16T17:33:27.685Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/description.html</loc>
+    <lastmod>2023-05-16T17:33:28.093Z</lastmod>
   </url>
   <url>
     <loc>https://steno-aarhus.github.io/meld-project/applications/sds/application.html</loc>
-    <lastmod>2023-03-18T15:35:26.902Z</lastmod>
+    <lastmod>2023-05-16T17:33:28.437Z</lastmod>
+  </url>
+  <url>
+    <loc>https://steno-aarhus.github.io/meld-project/applications/sds/extraction.html</loc>
+    <lastmod>2023-05-16T17:33:28.965Z</lastmod>
   </url>
 </urlset>
