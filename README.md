@@ -7,7 +7,7 @@ To generate the website and Word documents, run these R commands in the
 RStudio Console after opening the `darter-project.Rproj` file:
 
 ``` r
-remotes::install_deps()
+pak::pak()
 source("_build.R")
 ```
 
