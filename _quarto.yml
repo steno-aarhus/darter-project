@@ -9,9 +9,9 @@ project:
     - applications/*
 
 website:
-  title: "MELD Project"
-  site-url: "https://steno-aarhus.github.io/meld-project/"
-  repo-url: "https://github.com/steno-aarhus/meld-project/"
+  title: "DARTER Project"
+  site-url: "https://steno-aarhus.github.io/darter-project/"
+  repo-url: "https://github.com/steno-aarhus/darter-project/"
   repo-branch: main
   repo-actions: [edit, issue, source]
   search:
@@ -53,10 +53,10 @@ website:
               href: applications/sds/extraction.Rmd
             - text: "ATC Codes"
               href: applications/sds/atc-codes.Rmd
-        - section: "RKKP"
-          contents:
-            - text: "Application"
-              href: applications/rkkp/application.qmd
+        # - section: "RKKP"
+        #   contents:
+        #     - text: "Application"
+        #       href: applications/rkkp/application.qmd
   page-footer:
     center:
       - text: "License: CC BY 4.0"

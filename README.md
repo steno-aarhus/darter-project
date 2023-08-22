@@ -1,10 +1,10 @@
-# *M*etabolic consequences of *E*arly *L*ife adversity and subsequent risk for type 2 *D*iabetes (MELD) Project application to Denmark Statistics
+# Interplay between *d*iabetes *a*nd inte*r*generational *t*ransmission of h*e*alth determinants over the life cou*r*se (DARTER) application to Denmark Statistics
 
-This repository contains the application to Denmark Statistics (DST) for
-data for the MELD project.
+This repository contains the application to Denmark Statistics (DST) and
+Sundhedsdatastyrelsen (SDS) data.
 
 To generate the website and Word documents, run these R commands in the
-RStudio Console after opening the `meld-project.Rproj` file:
+RStudio Console after opening the `darter-project.Rproj` file:
 
 ``` r
 remotes::install_deps()
@@ -18,4 +18,3 @@ source("_build.R")
 This work is licensed under a [CC-BY 4.0 International
 License](LICENSE), so is free to re-use, modify, and re-distribute as
 long as attribution is given.
-
