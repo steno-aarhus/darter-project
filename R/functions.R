@@ -43,22 +43,8 @@ as_reactable <- function(data) {
     data,
     defaultColDef = reactable::colDef(align = "left"),
     columns = list(
-      Description = reactable::colDef(minWidth = 250),
-      Register = reactable::colDef(
-        filterInput = function(values, name) {
-          htmltools::tags$select(
-            # Set to undefined to clear the filter
-            onchange = sprintf("Reactable.setFilter('registers-select', '%s', event.target.value || undefined)", name),
-            # "All" has an empty value to clear the filter, and is the default option
-            htmltools::tags$option(value = "", "All"),
-            lapply(unique(values), htmltools::tags$option),
-            "aria-label" = sprintf("Filter %s", name),
-            style = "width: 100%; height: 28px;"
-          )
-        }
-      )
+      Description = reactable::colDef(minWidth = 250)
     ),
-    elementId = "registers-select",
     highlight = TRUE,
     filterable = TRUE,
     searchable = TRUE,
