@@ -1,0 +1,14 @@
+{
+  "hash": "592493b1f5c5b9eb7d63c3970dab2ca4",
+  "result": {
+    "markdown": "---\nformat: docx\n---\n\n\n1.  Processing of personally identifiable data\n    -   See attached documents.\n    -   Requested information:\n        -   Name of institution responsible for data: Steno Diabetes\n            Center Aarhus\n        -   Name of project manager: Annelli Sandbæk (or Adam Hulman)\n        -   Title of the project: Interplay between diabetes and\n            intergenerational transmission of health determinants over\n            the life course\n        -   End date of the project, if any: 2030-12-31 (with DST)\n2.  Payment information\n    -   E-mail payment manager: sofalb\\@rm.dk\n    -   Invoice must be sent to: Sofie Albrechtsen, Steno Diabetes\n        Center Aarhus\n    -   CVR: 29190925\n    -   EAN:\n    -   Project account: 708421\n3.  Extraction description\n    -   We've updated the extraction document with the requested\n        justifications.\n4.  ATC codes for LMDB:\n    -   We've completed the ATC code document as requested.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

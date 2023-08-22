@@ -1,0 +1,14 @@
+{
+  "hash": "571b15aff6e263df7180a6fea8607f8a",
+  "result": {
+    "markdown": "---\ntitle: \"Application for use of Sundhedsdatastyrelsen (SDS) registers\"\n---\n\n\nFill in the below information using the [SDS application\nform](https://ds.sst.dk/ds2010/Forskerservice_CRM2/Forskerservice.aspx).\nNot all information filled into the form is present here.\n\n-   **Project number**: 708421\n\n# Project title\n\n\n{{< var project.title >}}\n\n\n\n# Abstract\n\nDiabetes is a complex, multi-factorial disease. Its development depends\non the timing and accumulation of exposures throughout the life-course.\nIn addition to genetic influences, behavioral risk factors and\nsocioeconomic conditions cluster in families and are passed through\ngenerations. The overall aim of this project is to identify the\ncontributions of family and early life determinants on the development,\nmanagement, economics, and care of diabetes and the diseases that may\narise following a diabetes diagnosis, under a life-course framework.\n\n# Registers\n\n\n\n\n- Cancerregisteret\n- DRG\n- IVF\n- LAB\n- LMDB\n- LPR_PSYK\n- PLH\n- RUKS\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -57,6 +57,10 @@ website:
         #   contents:
         #     - text: "Application"
         #       href: applications/rkkp/application.qmd
+        #     - text: "Protocol for Diabase"
+        #       href: applications/rkkp/protocol-diabase.qmd
+        #     - text: "Protocol for DVDD"
+        #       href: applications/rkkp/protocol-dvdd.qmd
   page-footer:
     center:
       - text: "License: CC BY 4.0"
@@ -80,3 +84,4 @@ editor:
 
 execute:
   echo: false
+  freeze: true
