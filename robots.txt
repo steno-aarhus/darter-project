@@ -1,1 +1,1 @@
-Sitemap: https://steno-aarhus.github.io/meld-project/sitemap.xml
+Sitemap: https://steno-aarhus.github.io/darter-project/sitemap.xml
