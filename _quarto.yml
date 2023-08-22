@@ -6,7 +6,8 @@ project:
     - "!*.md"
     - index.Rmd
     - LICENSE.md
-    - applications/*
+    - applications/dst/*
+    - applications/sds/*
 
 website:
   title: "DARTER Project"
