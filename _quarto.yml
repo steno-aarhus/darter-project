@@ -27,10 +27,10 @@ website:
         href: applications/dst/description.Rmd
       - text: "SDS"
         href: applications/sds/application.Rmd
-      - text: "RKKP"
-        href: applications/rkkp/application.qmd
+      # - text: "RKKP"
+      #   href: applications/rkkp/application.qmd
       - icon: github
-        href: "https://github.com/steno-aarhus/meld-project"
+        href: "https://github.com/steno-aarhus/darter-project"
   sidebar:
     - id: dst
       title: "Applications"
