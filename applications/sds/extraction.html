@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-08-22">
+<meta name="dcterms.date" content="2024-10-30">
 
-<title>DARTER Project - Data extraction description</title>
+<title>Data extraction description – DARTER Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -46,7 +46,12 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,12 +60,12 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
-
 <script src="../../site_libs/core-js-2.5.3/shim.min.js"></script>
 <script src="../../site_libs/react-17.0.0/react.min.js"></script>
 <script src="../../site_libs/react-17.0.0/react-dom.min.js"></script>
@@ -76,67 +81,67 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">DARTER Project</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target=""><i class="bi bi-house-door" role="img">
+    <a class="nav-link" href="../../index.html"> <i class="bi bi-house-door" role="img">
 </i> 
- <span class="menu-text"> </span></a>
+<span class="menu-text"> </span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../../applications/dst/description.html" rel="" target="" aria-current="page">
- <span class="menu-text">DST</span></a>
+    <a class="nav-link active" href="../../applications/dst/description.html" aria-current="page"> 
+<span class="menu-text">DST</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../applications/sds/application.html" rel="" target="">
- <span class="menu-text">SDS</span></a>
+    <a class="nav-link" href="../../applications/sds/application.html"> 
+<span class="menu-text">SDS</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/steno-aarhus/darter-project" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/steno-aarhus/darter-project"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../applications/sds/application.html">Sundhedsdatastrylsen</a></li><li class="breadcrumb-item"><a href="../../applications/sds/extraction.html">Requested data</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../applications/sds/application.html">Sundhedsdatastrylsen</a></li><li class="breadcrumb-item"><a href="../../applications/sds/extraction.html">Requested data</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Denmark Statistics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -157,9 +162,9 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Sundhedsdatastrylsen</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -193,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -207,12 +212,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#justification-for-the-requested-data" id="toc-justification-for-the-requested-data" class="nav-link" data-scroll-target="#justification-for-the-requested-data">Justification for the requested data</a></li>
   <li><a href="#requested-lab-npudnk-codes" id="toc-requested-lab-npudnk-codes" class="nav-link" data-scroll-target="#requested-lab-npudnk-codes">Requested LAB NPU/DNK codes</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/steno-aarhus/darter-project/edit/main/applications/sds/extraction.Rmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/steno-aarhus/darter-project/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/steno-aarhus/darter-project/blob/main/applications/sds/extraction.Rmd" class="toc-action">View source</a></p></div></div></nav>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/steno-aarhus/darter-project/edit/main/applications/sds/extraction.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/steno-aarhus/darter-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/steno-aarhus/darter-project/blob/main/applications/sds/extraction.Rmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../applications/sds/application.html">Sundhedsdatastrylsen</a></li><li class="breadcrumb-item"><a href="../../applications/sds/extraction.html">Requested data</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Data extraction description</h1>
 </div>
@@ -225,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 22, 2023</p>
+      <p class="date">October 30, 2024</p>
     </div>
   </div>
   
@@ -233,7 +238,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <!-- 
 Your extract description must consist of the following points: 
@@ -258,7 +265,6 @@ Your extract description must consist of the following points:
 </section>
 <section id="data-connection" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="data-connection">Data connection</h2>
-
 <!-- 
 You must specify what data you want to access for the population you have specified. 
 
@@ -271,7 +277,6 @@ Data must as a minimum be delimited on the basis of the following parameters:
 -->
 <div class="cell page-columns page-full" data-tbl-cap="Registers and variables requested from SDS.">
 <div class="cell-output-display column-page">
-
 <div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-71b7dd28437001af22cf" style="width:auto;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-71b7dd28437001af22cf">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Register":["PLH","PLH","PLH","PLH","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","DRG","RUKS","RUKS","RUKS","RUKS","RUKS","RUKS","RUKS","LAB","LAB","LAB","LAB","LAB","LAB","LAB","LAB","LAB","LAB","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","Cancerregisteret","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","LPR_PSYK","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","IVF","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen","Lægemiddeldatabasen"],"Database Table":["ophold_plejehjem","ophold_plejehjem","ophold_plejehjem","ophold_plejehjem","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_hel\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","soma_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_hel\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","psyk_takst\"takstår\"_amb\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgsghforlob\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_t18_drgkont\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgsghfor\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_drgkont\"aktivitetsår\"","soma_l2_t19_proc\"aktivitetsår\"","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgsghfor19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_drgkont19","soma_l3_t19_overgang19","soma_l3_t19_overgang19","soma_l3_t19_overgang19","soma_l3_t19_overgang19","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgsghfor\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","soma_t\"takstår\"_drgkont\"aktivitetsår\"","kronikere","kronikere","kronikere","kronikere","kronikere","kronikere","kronikere","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker","lab_dm_forsker",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_ivf_register","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund","t_grund",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Variable":["d_fraflyt_dato","d_tilflyt_dato","plejehjemsnavn","v_pnr","v_cpr","c_adiag","c_akut","c_blok","c_dia1","c_dia2","c_dia3","c_drg","c_graa","c_hdiag","c_henm","c_indm","c_oprart1","c_oprart2","c_oprart3","c_pattype","c_plejeboligkode","c_proc1","c_proc2","c_proc3","c_region","c_sgh","c_sghafd","c_spec","c_udm","c_udmf","c_udsktype","d_inddto","d_uddto","d_uddtof","v_behdage","v_indtime","v_langpris","v_pris","v_recnum","v_sengdage","v_totpris","v_totpris_genop","v_udtime","c_adiag","c_afd","c_akut","c_bestakst","c_bestype","c_casemix","c_dia1","c_dia2","c_dia3","c_dia4","c_drg","c_graazone","c_indm","c_oprart1","c_oprart2","c_oprart3","c_pattype","c_proc1","c_udm","d_ambdto","d_inddto","d_uddto","v_cpr","v_dags_pris","v_indminut","v_indtime","v_pris","v_pris_genop","v_cpr","c_adiag","c_drg_psyk","c_sgh","d_inddto","d_uddto","v_drgpris","v_kompris_drg","v_langpris","v_totpris","v_cpr","c_adiag","c_indm","c_pattype","c_sgh","d_ambdto","d_inddto","d_uddto","v_aar","v_recnum","adiag_drgsghf","afregn_drgsghf","afslutning_drgsghf","aktivitetsaar","antal_i_forlob","cpr","diagnosekilde_drgsghf","drg_drgsghf","drg_grouper_drgsghf","drg_kontakt_id_drgsghf","drgsghforlob_type","id","indmaade_drgsghf","indtidspunkt_drgsghf","kontaktaarsag_drgsghf","kontaktdage_drgsghf","langliggerpris_drgsghf","liggedage_drgsghf","totalpris_drgsghf","udmaade_drgsghf","udtidspunkt_drgsghf","adiag","afslutning","akut_elektiv","ambulant_dato","blok","dia01","dia02","dia03","diagnosekilde","drg","drg_drgsghf","drgsghforlob_id","drgsghforlob_nr","drgsghforlob_type","drgsghforlob_udtidspunkt","inddato","indmaade","indtidspunkt_drgkontakt","kontakt_id","patienttype","pris_drg","proc01","proc02","proc03","recnum","totalpris_drg","uddato","udmaade","udtidspunkt_drgkontakt","cpr","id","drg_kontakt_id_drgsghf","adiag_drgsgh_ind","adiag_drgsgh_ud","adiag_drgsghf","afregn_drgsghf","afslutning_drgsghf","aktivitetsaar","antal_i_forlob","diagnosekilde_drgsghf","drg_drgsghf","drgkontakttype_drgsghf","indtidspunkt_drgsghf","langliggerpris_drgsghf","pris_drg_drgsghf","pris_drg_grouper_drgsghf","sygehus","sygehus_region_drgsghf","totalpris_drgsghf","cpr","id","drgsghforlob_id","adiag","akut_elektiv","ambulant_dato","blok","dia01","dia02","dia03","drg_grouper","drgkontakttype","drgsghforlob_nr","drgsghforlob_udtidspunkt","inddato","indmaade","indtidspunkt_drgkontakt","kontakt_id","patienttype","pris_drg","proc01","proc02","proc03","recnum","sygehus","uddato","udmaade","udtidspunkt_drgkontakt","drgsghforlob_id","cpr","adiag_drgsghf","afslutningsmaade_drgsghf","aktivitetsaar","antal_i_forlob","drg_drgsghf","drg_kontakt_id_drgsghf","drgkontakttype_drgsghf","drgsghforlob_type","id","indtidspunkt_drgsghf","langliggerpris_drgsghf","pris_drg_drgsghf","sygdomsforlob_id","sygehus","sygehus_region","totalpris_drgsghf","cpr","afslutningsmaade","aktivitetsaar","dia01","dia02","dia03","drg","drg_drgsghf","drgsghforlob_id","drgsghforlob_nr","henvisningsmaade","id","langliggerpris","pris_drg","proc01","proc02","proc03","sygdomsforlob_id","sygehus","sygehus_region","tdia01","tdia02","tdia03","totalpris_drg","tungeste_drgkontakt","udfaldsgivende_kontakt","drgsghforlob_id_lpr2","drg_drgsghf_lpr2","drg_drgsghf_lpr3","drgsghforlob_id_lpr3","adiag_drgsghf","afslutningsmaade_drgsghf","aktivitetsaar","antal_i_forlob","drg_drgsghf","drg_kontakt_id_drgsghf","drgkontakttype_drgsghf","drgsghforlob_type","henvisningsmaade_drgsghf","id","indtidspunkt_drgsghf","pris_drg_drgsghf","sygdomsforlob_id","sygehus","sygehus_region","totalpris_drgsghf","cpr","afslutningsmaade","aktivitetsaar","dia01","dia02","dia03","drg","drg_drgsghf","drgsghforlob_id","drgsghforlob_nr","henvisningsmaade","id","langliggerpris","pris_drg","proc01","proc02","proc03","sygdomsforlob_id","sygehus","sygehus_region","tdia01","tdia02","tdia03","totalpris_drg","tungeste_drgkontakt","udfaldsgivende_kontakt","cpr","aarsag_tekst","debut","opdateringsdato","status","sygdom","uddato","analysiscode","laboratorium_idcode","patient_cpr","referenceinterval_lowerlimit","referenceinterval_upperlimit","resulttype","samplingdate","samplingtime","unit","value","K_CPRNR","K_TUMORNR","D_DIAGNOSEDATO","C_ICD10","C_MORFO3\n","c_udbred","C_UDBRED_KLASSIFIKATION","C_TNM_T","C_TNM_N","C_TNM_M","C_MAKROGRUNDLAG","C_MIKROGRUNDLAG","C_ICD7","C_DIAGGR_ICD10","C_ORGGR_ICD10","D_STATDATO","C_STATUS","c_DIAGGR_Nordcan\n","PNR","INDL_DATO","UDSK_DATO","AKTIONSDIAGNOSE","bidiagnose1","bidiagnose2","bidiagnose3","Bidiagnose4","Bidiagnose5","c_i_behmade","d_i_mfoddto","c_i_sektor","d_i_cykldto","v_i_n_modt","v_i_mcpr","b_i_ovuldef","b_i_tubafakt","b_i_cervfakt","b_i_mandfakt","b_i_anamandenfakt","b_i_uspecfakt","d_i_behdto","b_i_aspir","d_i_aspdto","v_i_n_ocyt","b_i_donorsd","b_i_natcyk","b_i_klomifen","v_i_klomed","b_i_hmg_fsh","v_i_hmgfshmed","b_i_gnrh_a","v_i_gnrhmed","b_i_oestro","v_i_oestmed","b_i_progest","v_i_progmed","b_i_hcg","v_i_hcgmed","b_i_andhorm","v_i_andhormed","b_i_ivfmetod","b_i_icsimetod","b_i_transfer","d_i_transdto","v_i_ntransf","v_i_ncryo","d_i_mensdto","b_i_transopt","v_i_n_opt","b_i_transudf","d_i_modtdto","v_i_ntrans","v_i_cryop","b_i_natcykl","b_i_hormoest","v_i_atcoest","b_i_hormpro","v_i_atcprog","b_i_hormgnrh","v_i_atcgnrh","b_i_hormand","v_i_atcand","b_i_shcgpos","b_i_overstim","b_i_infektio","v_i_cyklaar","v_i_malder","v_i_anamnes","b_i_uoplfakt","c_f_bstatus","v_f_blangde","v_f_bcpr","v_f_fcpr","v_f_malder","d_f_bfoddto","v_f_bvagt","c_f_msgh","v_f_bapgar","c_f_bsex","v_f_mparitet","v_f_bflerfold","v_f_bga_dage","c_f_bfodstatus","v_f_bfodaar","v_i_fga_dage","c_a_mdiag","c_a_mtildiag","c_a_msgh","d_a_minddto","d_a_muddto","v_a_mabortaar","v_a_mga_dage","c_a_maborttype","c_a_mgravtype","v_i_aga_dage","b_i_klingrav","v_a_malder","b_i_aegudt","b_i_aegopl","v_skemaid","d_skemaoprettet_dato","d_startdato","v_aar","c_sgh","c_afd","c_ydernr","v_sghnavn","v_cpr","v_alder","c_kom","v_hoejde","v_vaegt","v_rygning","v_alkohol","v_samlivs_status","v_partner_cpr","v_partner_alder","v_partner_hoejde","v_partner_vaegt","v_partner_rygning","v_partner_alkohol","v_barnloes_siden","b_idiopatisk","c_kvinde_primaer","c_kvinde_tillaeg","c_mand_primaer","c_mand_tillaeg","c_pgd_diagnose","b_pgd_specifik_vaevstype","c_pgd_indikation","c_behandling","b_behandling_afbrudt","c_fertilisering","c_in_vitro_metode","d_iui_dato","d_iui_aflyst_dato","c_fer_nedfrys_metode","c_oocyt_kilde","c_oocyt_type","b_distribution","d_aspiration_dato","d_aspiration_aflyst_dato","c_aspiration","v_aspiration_antal_oocytter","d_transferering_dato","d_transferering_aflyst_dato","v_antal_friske","v_elektivt","v_antal_optoede","v_overskydende_embryoner","v_antal_slowfreeze","v_antal_vitrifikation","v_antal_nedfrosset","b_assisted_hatching","c_komplikation_diagnose","d_komplikation_dato","v_proeve_type","v_gravid","v_ultralyd_resultat","v_antal_hjertelyd","v_antal_uden_hjertelyd","ABC","ALDR","APK","ATC","ATC1","ATC2","ATC3","ATC4","DOSFORM","DOSO","EKSD","EKSP","INDO","OVNR","PACKSIZE","PNR12","VNR","VOLUME"],"Time period":["2014 to ","2014 to ","2014 to ","2014 to ","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2005 to 2017","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","2018","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","jan 2019 to mar 2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","2020 to ","1995 to ","1995 to ","1995 to ","1995 to ","1995 to ","1995 to ","1995 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","2008 to ","1943 to ","1943 to ","1943 to ","1978 to ","1978 to ","1943 to 2003","2004 to ","2004 to ","2004 to ","2004 to ","1943 to ","1943 to ","2002 to ","1978 to ","1978 to ","1943 to ","1943 to ","1943 to ","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1995 to 2021","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","1994 to 2005","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021","2006 to 2021",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Description":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"Register","name":"Register","type":"character","align":"left"},{"id":"Database Table","name":"Database Table","type":"character","align":"left"},{"id":"Variable","name":"Variable","type":"character","align":"left"},{"id":"Time period","name":"Time period","type":"character","align":"left"},{"id":"Description","name":"Description","type":"character","align":"left","minWidth":250}],"filterable":true,"searchable":true,"showPageSizeOptions":true,"highlight":true,"showSortable":true,"theme":{"searchInputStyle":{"width":"100%"}},"dataKey":"56f1d89b1d83e74229ad3c2b654d543c"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
@@ -332,7 +337,6 @@ necessary and sufficient for your project.
 <h2 class="anchored" data-anchor-id="requested-lab-npudnk-codes">Requested LAB NPU/DNK codes</h2>
 <div class="cell page-columns page-full" data-tbl-cap="Labka variables requested from external source.">
 <div class="cell-output-display column-page">
-
 <div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-25720e2937b8f7646816" style="width:auto;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-25720e2937b8f7646816">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Komponent":["P- Alanintransaminase [ALAT]","P- Alanintransaminase [ALAT]","P- Alanintransaminase [ALAT]","P- Alanintransaminase [ALAT]","P- Alanintransaminase [ALAT]","P- Albumin","P- Albumin","P- Albumin","P- Albumin","U-alb/crea ratio","U-alb/crea ratio","U-alb/crea ratio","U-alb/crea ratio","P- Basisk fosfatase","p-CRP","p-CRP","p-CRP","p-CRP","eGFR","eGFR","eGFR","eGFR","eGFR","GFR","GFR","GFR","P- Glukose","P (vB; fPt)- Glukose (diag.)","p-glucose 0 min","p-glucose 30 min","p-glucose 120 min","Pt- Glucose-belastning gruppe","B- Hæmoglobin","Hb (B)- Hæmoglobin A1c (IFCC)","Hb (B)- Hæmoglobin A1c (IFCC)","Hb (B)- Hæmoglobin A1c (IFCC)","Hb (B)- Hæmoglobin A1c (IFCC)","P- Kalium","P- Kolesterol","P- Kolesterol","P- Kolesterol","P- Kolesterol","P- Kolesterol","P- Kolesterol HDL","P- Kolesterol HDL","P- Kolesterol HDL","P- Kolesterol LDL","P- Kolesterol LDL","P- Kolesterol LDL","P- Kreatinin","P- Kreatinin","P- Kreatinin","P- Kreatinin","P- Natrium","p-TSH","p-TSH","p-triglycerid","p-triglycerid","p-triglycerid","p-urat","p-urat","p-urea"],"Kode":["NPU19651 (katalytisk akt konc. IFCC2002)","NPU01121 (katalytisk akt konc. 37 gr. C)","NPU19981 (katalytisk akt konc. IFCC2002)","DNK05051 (erstattet af NPU 53495)","NPU53495 (katalytisk akt konc. 37 gr. C)","NPU19673 (massek.(proc)","NPU01132 (stofkonc)","DNK05449 stofk. (kolorim.)","DNK05001 (erstattet af NPU19673)","NPU19661 (masseratio)","DNK05289 (erstattet af: NPU19661)","NPU28842 (massekoeficient)","NPU03918 (stofratio)","NPU27783 (katalytisk aktivitets konc, 37 gr. C)","NPU19748","NPU01422","NPU01423","DNK05027","DNK35302 (CKD-EPI krea)","DNK35131 (nyre)","DNK30301 (CKD-EPI CysC)","DNK35303 CKiD-CysC","DNK35304 (CKiD-Bedside)","NPU19597 chrom.EDTA","NPU28271 chrom.EDTA","NPU10295 chrom.EDTA","NPU02192","DNK35842 (fastende patient)","NPU04173 (0 min i belastning)","NPU04174 (30 min i belastningstest)","NPU04177 (120 min i belastning)","NPU14915","NPU02319","NPU27300 (IFCC)","NPU27412 (genn. HbA1c","DNK35249 (prot glycolering, gruppe)","NPU03835 (glycoleret hæmoglobin)","NPU03230","NPU01566","NPU18412 (fPt)","NPU01549 (non-ester)","NPU10033 (syst. Spec.)","NPU18412 (fPt)","NPU01567","NPU10157 (fPt)","NPU18107 (syst(spec.))","NPU01568","NPU10171 (fPt)","DNK35308 (beregnet)","NPU18016","NPU04998 (enzymatisk)","NPU01807 (beregnet ved Jaffe-metode)","NPU09101 (Jaffe)","NPU03429","NPU03577","NPU27547","NPU04094","NPU03620 (fPt)","NPU18106 (syst(spec))","NPU09356","NPU03688","NPU01459"],"Enhed":["U/L","Ukat/L","Ukat/L","U/L","U/L","g/L","umol/L","umol/L","g/L","Ratio (10-3)","Ratio (10-3)","g/mol","Ratio (10-3)","U/L","mg/L","IU/L","nmol/L","mg/L","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2","mL/min Per 1,73m2",null,"mmol/L","mmol/L","mmol/L","mmol/L","Indeholder alle målene fra en glukose tolerance test inkl. De tre ovenstående ved 0,30 og 120 min","mmol/L","mmol/mol","mmol/L","ratio","ratio","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","mmol/L","umol/L","umol/L","umol/L","mmol/L","mmol/L","10-3 IU/L","10-3 IU/L","mmol/L","mmol/L","mmol/L","umol/L","mmol/L","mmol/L"]},"columns":[{"id":"Komponent","name":"Komponent","type":"character","align":"left"},{"id":"Kode","name":"Kode","type":"character","align":"left"},{"id":"Enhed","name":"Enhed","type":"character","align":"left"}],"filterable":true,"searchable":true,"showPageSizeOptions":true,"highlight":true,"showSortable":true,"theme":{"searchInputStyle":{"width":"100%"}},"dataKey":"3f419b7b6b400438e79e52c6f86e3fd9"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
@@ -377,18 +381,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -420,11 +413,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/steno-aarhus\.github\.io\/darter-project\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -434,8 +466,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -447,7 +488,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -491,6 +655,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -516,6 +681,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -584,15 +775,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../LICENSE.md">License: CC BY 4.0</a>
+    <a class="nav-link" href="../../LICENSE.md">
+<p>License: CC BY 4.0</p>
+</a>
   </li>  
 </ul>
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/steno-aarhus/darter-project/edit/main/applications/sds/extraction.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/steno-aarhus/darter-project/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/steno-aarhus/darter-project/blob/main/applications/sds/extraction.Rmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 
