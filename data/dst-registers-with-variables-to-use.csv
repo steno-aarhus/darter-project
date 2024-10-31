@@ -569,3 +569,4 @@ use_in_application,reason_for_use,register_id,register_name_dk,register_name_eng
 1,,BOERNPRI,,,INST_TYPE_BORNPAS,,Institutionstyper for pasning af børn og unge i alderen 0-5 år,2018,,2022,,,,,,,
 1,,BOERNSB,,,EJER2,,Angiver om et barn går på kommunal eller selvejedne/privat institution.,2015,,2022,,,,,,,
 1,,BOERNSB,,,INSTTYPE2,,"Angiver om et banr går i SFO, klub eller fritidshjem.",2015,,2022,,,,,,,
+,,,,,test,,,,,,,,,,,,
