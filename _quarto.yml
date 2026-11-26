@@ -1,0 +1,26 @@
+project:
+  type: sdca-theme
+
+website:
+  title: "DARTER Project"
+  site-url: "https://steno-aarhus.github.io/darter-project/"
+  repo-url: "https://github.com/steno-aarhus/darter-project"
+
+  navbar:
+    pinned: true
+    left:
+      - text: "Welcome"
+        href: index.qmd
+    tools:
+      - icon: github
+        href: "https://github.com/steno-aarhus/darter-project"
+        aria-label: "GitHub icon: Source repository"
+  sidebar:
+    contents:
+      - index.qmd
+
+format:
+  sdca-theme-html:
+    theme:
+      - brand
+      - custom-styles.scss

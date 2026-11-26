@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 0.31.2
+_src_path: gh:seedcase-project/template-website
+for_seedcase: false
+github_repo: darter-project
+github_user: steno-aarhus
+hosting_provider: gh-pages
+template_type: simple
+website_format: website

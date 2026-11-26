@@ -1,0 +1,24 @@
+# DARTER Project: TODO add more to title
+
+<!-- TODO: Add description of project -->
+
+> [!TIP] This website repository was generated from the
+> [`template-website`](https://github.com/seedcase-project/template-website)
+> Seedcase template :tada:
+
+## Project files and folders
+
+This is a description of some of the files in this repository.
+
+- `.copier-answers.yml`: Contains the answers you gave when copying the project
+  from the template. **You should not modify this file directly.**
+- `.github/`: Contains GitHub-specific files, such as the workflow to build the
+  website from the Markdown files.
+- `_quarto.yml`: Quarto configuration file for the website, including settings
+  for the website, such as the theme, navigation, and other options.
+- `.gitignore`: This ignore file tells Git which files to not track. Unless you
+  know what you are doing, it's best to not touch this file.
+
+## Licensing
+
+This project is licensed under the [CC-BY-4.0 License](LICENSE.md).

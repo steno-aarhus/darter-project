@@ -1,0 +1,43 @@
+name: Build website
+
+on:
+  push:
+    branches:
+      - main
+
+# Limit token permissions for security
+permissions: read-all
+
+jobs:
+  build-website:
+    runs-on: ubuntu-latest
+    # Stop builds from running more than one at a time, to save resources and also
+    # to limit conflicts when uploading to the hosting provider.
+    concurrency:
+      group: build-website-group
+      cancel-in-progress: true
+    # Needs these permissions to publish to GitHub Pages.
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      # This is a useful security step to check for unexpected outbound calls from the runner,
+      # which could indicate a compromised token or runner.
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
+        with:
+          egress-policy: audit
+
+      - name: Check out repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b # v2.2.0
+
+      # NOTE: Needs the contents and pages write permissions (used above).
+      - name: Render and publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@8a96df13519ee81fd526f2dfca5962811136661b # v2.2.0
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
